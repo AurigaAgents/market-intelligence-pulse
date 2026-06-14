@@ -1,0 +1,21 @@
+# Deep Story — The Market Is Betting Hormuz Stays Managed
+
+The day’s cleanest story is not that Strait of Hormuz risk disappeared. It is that markets decided the risk is manageable. CENTCOM’s Project Freedom is now an active operation in the Arabian Gulf, reportedly involving 15,000 personnel, more than 100 aircraft, and guided-missile destroyers. Two US-flagged merchant vessels transited successfully, while CENTCOM denied Iran’s claim that a US warship was hit near Jask Island. That is not a quiet backdrop. Yet global risk assets mostly traded as if the operation lowered uncertainty rather than raised it.
+
+Oil shows the logic. Brent spiked to $114.30 intraday and WTI to $107.46, which is exactly what a live Hormuz shock should do. But both contracts faded: Brent settled back around $110.8 in the approved US snapshot, while WTI was near $102.2. The reversal matters more than the level. A market that sees uncontrolled escalation would chase the highs and keep equity vol bid. A market that sees convoy protection, successful vessel transit, and no confirmed US hit fades the spike and reopens the risk trade.
+
+US equities accepted the second interpretation. The S&P 500 was around 7,242.55, up 0.47%, and the Nasdaq was up 1.15%. Russell 2000 gained 0.78%, while only the Dow lagged. That is the inverse of the standard oil-shock script. The approved US report argues that earnings momentum and the crude reversal gave dip-buyers permission to treat the Hormuz premium as incremental rather than regime-changing. In plain terms: the war has been live long enough that only a confirmed break in the shipping channel now moves the equity regime.
+
+Rates complicate the story. The rejected cycle-2 US report had called the 10Y a duration bid; the corrected cycle-3 review fixed that. The 10Y was near 4.412%, up roughly 3.4 basis points, with the 5Y also higher and the front end more anchored. That is not investors hiding in Treasuries. It is a term-premium move: the market can buy equities while demanding more compensation to hold long duration in a world where Brent is still above $110. The bullish equity read therefore has a ceiling. If the 10Y pushes through 4.45%, the same reflation logic that helped small caps can quickly become a valuation problem.
+
+Europe is where the managed-risk thesis looks weakest. The DAX fell 0.30% and the STOXX 600 was about 0.4% lower by early afternoon London time. Europe had two local negatives stacked on top of Hormuz: US auto-tariff escalation and export sensitivity. If oil rises, Europe gets the inflation problem; if tariffs rise, Europe gets the earnings problem. That is why the European tape sold the morning bounce while the US bought the dip.
+
+Asia gives the opposite expression. Korea’s KOSPI jumped 5.12% to a record, led by SK Hynix and Samsung, while Hong Kong tech gained 2.16%. The region’s investors looked past oil because AI and memory-cycle positioning were stronger immediate forces. But Tokyo and mainland China were closed, so the rally still needs a full-liquidity test when Japan and China reopen.
+
+Sentiment explains why this can continue without being safe. VIX near 17, Fear & Greed in Greed, and equity put/call at 0.46 show investors want upside. SPX put/call above 1, cooling AAII bullishness, and ETF outflows show they have not removed protection. That combination is perfect for a managed-war market: buy the dip, keep the hedge.
+
+The trade now has two visible stops. Brent above $115 says the market misread the operation and the supply shock is not contained. The US 10Y above 4.45% says energy-risk term premium is starting to bite valuations. Below those lines, the market can keep treating Hormuz as a controlled hazard. Above them, “managed risk” becomes just another name for complacency.
+
+## Sources
+
+Approved US cycle-3 analyst and review for Project Freedom, Brent/WTI, US indices, VIX, and Treasury-yield corrections; approved EU cycle-2 analyst and review for DAX/STOXX/tariff weakness; approved Asia cycle-1 analyst and review for KOSPI, Hang Seng, chip leadership, and holiday context; approved Macro cycle-1 analyst and review for oil, gold, BTC, DXY, yen and central-bank framing; approved Sentiment cycle-1 analyst and review for VIX, Fear & Greed, AAII, put/call, and ETF-flow context.

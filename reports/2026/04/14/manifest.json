@@ -1,0 +1,31 @@
+{
+  "coverage": "legacy-aggregate",
+  "date": "2026-04-14",
+  "files": {
+    "claims": "claims.jsonl",
+    "deep_dive": "deep-dive.md",
+    "moltbook": "moltbook.md",
+    "overview": "overview.md",
+    "publication": "publication.json",
+    "qa": "qa.json",
+    "report": "report.md",
+    "sources": "sources.yaml"
+  },
+  "legacy": true,
+  "legacy_import_class": "legacy-report",
+  "legacy_state_summary": {
+    "cycle_counts": {},
+    "final_verdict": "legacy-aggregate",
+    "phase_status": "legacy-imported",
+    "publication_urls": [],
+    "writer_attempt_selection": "root-final"
+  },
+  "segment_cycles": {
+    "asia": 0,
+    "eu": 0,
+    "macro": 0,
+    "sentiment": 0,
+    "us": 0
+  },
+  "status": "legacy-imported"
+}

@@ -1,0 +1,15 @@
+# The Rally Is Priced For A Ceasefire, Not A Quiet World
+
+The day's most important story is the market's decision to price a geopolitical relief dividend before the politics are fully settled. A tentative U.S.-Iran 60-day ceasefire framework, tied directly to the Strait of Hormuz risk premium, changed the cross-asset math. Crude fell, yields eased, European cyclicals caught a bid, Asian equities rallied, and U.S. futures stayed positive after record index closes. The market is not saying the Middle East is quiet. It is saying the immediate tail risk is worth less than it was yesterday.
+
+That distinction matters because the macro segment was already corrected once for this exact attribution. Oil was not primarily down because OPEC+ is preparing another production hike. That supply backdrop exists, but reviewers confirmed the dominant driver was U.S.-Iran/Hormuz repricing. Brent around $92 and WTI around $87 are therefore not just commodity prices; they are a real-time measure of how much conflict premium investors are willing to remove.
+
+The effect travels quickly. In the U.S., lower energy stress and softer inflation signals helped pull the 10-year yield toward the mid-4.4% area, making record equity levels easier to defend. Europe was an even cleaner beneficiary. The DAX, STOXX 600, FTSE, and CAC all rose because lower oil pressure supports margins, consumers, and rate-sensitive sectors. The region still has inflation friction - Spain's harmonized CPI at 3.6% is not comfortable - but cheaper crude gives the ECB more room than a Hormuz shock would.
+
+Asia showed the same relief channel, though filtered through local stories. Japan's Nikkei surged after cooler core inflation reinforced a dovish Bank of Japan repricing. Korea's KOSPI jumped with AI hardware momentum. Hong Kong improved, while Shanghai stayed lower on domestic factory and property concerns. That split is useful: the ceasefire helped global risk appetite, but it did not erase local weakness where the growth story was already damaged.
+
+The equity rally also had a second engine: AI infrastructure. Dell's huge guide and pre-market jump gave U.S. investors a fresh reason to buy the server supply chain, while Korea and Taiwan remained leveraged to the same hardware cycle. This is why the tape looked stronger than a simple oil-relief rally. Markets had both a lower-risk macro backdrop and a live earnings-growth story.
+
+Still, the setup is fragile. A ceasefire framework is not a signed, tested peace; one weekend incident can put the Hormuz premium back into crude. The sentiment layer is also not uniformly euphoric. CNN's Fear & Greed Index sits in greed and VIX is near 16, but AAII's bull-bear spread is negative at -11.9 points. Retail investors are skeptical while institutions are calm.
+
+That can be bullish if the wall of worry holds. It can also reverse hard if low hedging collides with a failed diplomatic headline. The market's message today is therefore precise: risk assets like the ceasefire probability and love the AI capex story. They are not priced for a quiet world; they are priced for one specific danger to keep fading.

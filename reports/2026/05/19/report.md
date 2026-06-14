@@ -1,0 +1,77 @@
+# Market Intelligence Pulse - 2026-05-19
+
+> Legacy aggregate import. This report predates the claim-level ledger and keeps weaker provenance than new Market Pipeline v3 reports.
+
+## Overview
+
+## Opening Take
+
+The so what from Tuesday's tape is that markets are no longer treating the Gulf oil shock as a headline risk; they are treating it as a rates risk. Brent stayed near $110 even after talk of an Iran diplomatic off-ramp, the US 10-year yield pushed to about 4.61%, German Bund yields hovered near 3.19%, and the dollar index touched the 99.15-99.41 zone, a five-week high. That combination leaves equities with almost no macro cushion: oil is inflationary, bonds are not rallying, and the dollar is tightening liquidity rather than absorbing stress.
+
+The equity result was fragmented but defensive. US indices were weaker, with Nasdaq pressure amplified by an AI-infrastructure repricing before Nvidia earnings. Europe was mixed rather than outright broken: DAX strength from SAP and FTSE support from energy helped, but the broader story was still oil-led inflation and hawkish ECB pricing. Asia split three ways: Japan eased, Korea sold off sharply, and China/Hong Kong held firmer. Sentiment is the important caveat. CNN's Fear & Greed gauge still sits in Greed, but VIX is firmer and AAII is close to neutral. This is not panic. It is a market still long risk while quietly buying insurance.
+
+## Factor Matrix
+
+| Driver | US | Europe | Asia | Macro / Sentiment |
+|---|---|---|---|---|
+| Oil and geopolitics | Brent above $109 keeps inflation pressure in the US tape | Brent near $110 complicates ECB policy and supports energy-heavy FTSE | Oil pressure interacts with currency stress, though China/HK showed local resilience | Brent $110.5, WTI about $107; geopolitical premium remains sticky |
+| Yield repricing | US 10Y about 4.61%; rate-cut narrative fading | German 10Y near 3.19%; markets price at least two ECB hikes | Strong dollar and global debt retreat hit Korea hardest | Fed target range 3.50%-3.75%; CPI backdrop keeps cuts off the table |
+| Equity dispersion | S&P and Dow slipped; Nasdaq underperformed | DAX up roughly 0.6%-1.2%; FTSE about +0.5%; broader Europe mixed | Nikkei -0.44%, KOSPI down about 3%, Hang Seng and Shanghai positive | Copper softer, gold high but consolidating, bitcoin under dollar pressure |
+| Liquidity and positioning | AI-infra names sold off after the Google-Blackstone TPU venture | Defensive pockets in energy, defense, and mega-cap software | USD/JPY near 158.5 raises intervention risk | DXY near 99.4; BTC/DXY correlation deeply negative |
+| Sentiment | VIX near 18, below panic threshold | Higher yields limit multiple expansion | Foreign-flow sensitivity dominates Korea/Japan | Fear & Greed still Greed, but AAII bears rose and bond-led flows show caution |
+
+## What Drove The Day
+
+**1. Oil has become the first input again.** The precise Brent print differs by timestamp, but every accepted segment points to the same regime: crude is high enough to shape inflation expectations. The market is not rewarding the diplomatic headlines because traders are still pricing a fragile cease-fire, not a durable supply reset. The contrarian release valve is also clear: if Gulf diplomacy pushes Brent below $108, the whole inflation-premium stack can unwind quickly.
+
+**2. Bonds are converting the oil shock into equity stress.** A US 10-year above 4.60% and a Bund near 3.20% matter more than the index tape. They say the market is asking whether the next central-bank move is tighter, not easier. That hurts long-duration equities first, which is why Nasdaq lagged while small caps also remain vulnerable. In Europe, the same issue appears through hawkish ECB pricing: stronger energy and defense stocks cannot fully offset higher discount rates.
+
+**3. Asia shows the dollar channel.** Korea was the cleanest stress signal, with the KOSPI down roughly 3% as the strong dollar and global debt retreat hit foreign-flow-sensitive assets. Japan's Nikkei slipped from record territory while USD/JPY around 158.5 kept intervention risk alive. China and Hong Kong were firmer, so the regional message is not uniform weakness; it is fragmentation under an external dollar-and-rates squeeze.
+
+**4. Sentiment has deteriorated beneath the headline.** The CNN composite still reads Greed, but VIX ticked up, AAII bears rose to 36.61%, and recent fund-flow data leaned toward fixed income. That is a classic late-cycle tension: investors have not capitulated, but they are paying for protection while the macro backdrop stops validating the long-risk trade.
+
+## Risk Dashboard
+
+| Risk | Trigger | Market impact | Watch level |
+|---|---|---|---|
+| Oil shock extends | Brent holds above $110-$112 | Inflation premia rise; central-bank hikes get priced harder | Brent $112 / WTI $109 |
+| Duration stress broadens | US 10Y closes above 4.65% or Bund breaks 3.20% | Nasdaq, small caps, real estate, and utilities lose support | US 10Y 4.65%; Bund 3.20% |
+| Nvidia catalyst disappoints | In-line print under elevated AI expectations | AI-infra unwind becomes broader tech de-risking | Nasdaq 28,500 |
+| Sentiment flips | VIX takes a 20 handle or Fear & Greed drops below 50 | Hedged greed turns into active de-risking | VIX 20; F&G 50 |
+| Asia FX stress | USD/JPY presses beyond 159 or dollar keeps rising | BOJ/intervention risk and Korea/Japan volatility increase | USD/JPY 159; DXY 100.6 |
+
+## Cross-Segment Synthesis
+
+The global stance is **Risk-Off with a stagflation bias**. It is not the worst kind of selloff because sentiment has not broken and several equity pockets still have idiosyncratic support. But the alignment is uncomfortable: oil is elevated, yields are rising, the dollar is firm, and central-bank easing is being pushed out. That removes the normal stabilizers.
+
+The bullish path is narrow but visible. Brent below $108, US 10-year yields back under 4.55%-4.60%, and a strong Nvidia report would let investors treat Tuesday as a hedging reset rather than a regime change. The bearish path is simpler: Brent stays above $110, Bunds and Treasuries push higher, and VIX finally takes 20. In that case, the market stops debating headlines and starts mechanically cutting duration, leverage, and crowded AI exposure.
+
+## Sources
+
+Aggregated from the analyst and review bundle: Trading Economics, Yahoo Finance, CNBC, FRED, BLS, Investing.com, FT Markets, Reuters, Exante/Bloomberg summaries, Aju Press, Cboe, AAII, ICI, MacroMicro, finhacker, World Bank Commodity Markets Outlook, Federal Reserve statements, Oilprice, MarketWatch, USAGold, Monex, CoinDesk, Forex.com, and independent reviewer cross-checks.
+
+## Deep Dive
+
+## The Hook
+
+Tuesday's most important market story is not Brent above $110 by itself. It is what that oil price is doing to the rest of the stack. A pure geopolitical spike would normally be faded if traders believed a diplomatic off-ramp was close. Instead, crude stayed bid, the US 10-year moved to about 4.61%, German Bund yields sat near 3.19%, and the dollar index tagged the 99.15-99.41 zone. The market is saying the Gulf risk is no longer just about barrels. It is about inflation, central-bank reaction functions, and the equity multiples that sit underneath them.
+
+## The Transmission Chain
+
+The first link is oil. Brent around $110.5 and WTI near $107 are far above the levels embedded in calmer 2026 inflation assumptions. President Trump's decision to postpone a strike and keep Iran talks alive gave traders a de-escalation narrative, but not enough evidence to pull the risk premium out of the curve. That matters because the shock is supply-led. It raises costs without proving stronger demand.
+
+The second link is bonds. The US 10-year above 4.60% and the Bund near 3.20% are the market's inflation translation mechanism. April US CPI at 3.80% and a Fed target range of 3.50%-3.75% leave little room for an easy cutting cycle. In Europe, higher crude has helped push investors toward ECB hike pricing rather than relief. When both sides of the Atlantic are repricing toward tighter policy, equities lose the bond-market cushion they usually get during risk-off episodes.
+
+The third link is duration. Nasdaq underperformed as investors cut high-multiple exposure before Nvidia earnings, and the Google-Blackstone TPU venture added a second pressure point by challenging the AI-infrastructure scarcity trade. Europe showed the same logic differently: SAP and energy-heavy FTSE components could rise, but the broader market still had to discount higher Bund yields. Korea showed it through foreign-flow sensitivity, with the KOSPI down roughly 3% as the dollar and global debt retreat tightened conditions.
+
+## Why This Is Not Panic Yet
+
+The twist is that positioning has not collapsed. CNN's Fear & Greed gauge still prints Greed, VIX is near 18 rather than above 20, and AAII bulls still slightly exceed bears. But the internals are less comfortable than the headline. VIX ticked higher, bearish AAII responses rose, and recent fund-flow data leaned toward fixed income. This is hedged greed: investors are still participating, but they no longer trust the macro floor.
+
+That makes the next move unusually binary. If Brent breaks below $108 on a credible Iran off-ramp, the entire chain can reverse: inflation premia ease, yields back away, the dollar cools, and crowded tech can rebound if Nvidia validates the AI cycle. But if Brent holds above $110-$112 while the US 10-year tests 4.65% and Bunds break 3.20%, this stops being a headline market. It becomes a mechanical repricing of duration, leverage, and central-bank optionality.
+
+The day, in one line: oil is no longer just moving energy stocks. It is moving the discount rate.
+
+## Legacy Provenance
+
+Coverage: legacy-aggregate. Claim-level and source-ledger coverage were not available in the original artifact bundle.

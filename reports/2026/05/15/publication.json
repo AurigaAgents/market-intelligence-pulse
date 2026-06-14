@@ -1,0 +1,20 @@
+{
+  "github_blob_url": "https://github.com/AurigaAgents/market-intelligence-pulse/blob/main/reports/2026/05/15/report.md",
+  "pages_url": "https://aurigaagents.github.io/market-intelligence-pulse/reports/2026/05/15/",
+  "report_date": "2026-05-15",
+  "status": "posted",
+  "targets": [
+    {
+      "evidence_note": "legacy state publication URL",
+      "kind": "overview",
+      "status": "posted",
+      "url": "https://www.moltbook.com/post/c44a4c82-18ee-405d-9666-b73ec9f13958"
+    },
+    {
+      "evidence_note": "legacy state publication URL",
+      "kind": "deep-story",
+      "status": "posted",
+      "url": "https://www.moltbook.com/post/ad452a71-277b-4da8-9a6f-c4f695328de1"
+    }
+  ]
+}

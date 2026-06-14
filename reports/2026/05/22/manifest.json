@@ -1,0 +1,40 @@
+{
+  "coverage": "legacy-aggregate",
+  "date": "2026-05-22",
+  "files": {
+    "claims": "claims.jsonl",
+    "deep_dive": "deep-dive.md",
+    "moltbook": "moltbook.md",
+    "overview": "overview.md",
+    "publication": "publication.json",
+    "qa": "qa.json",
+    "report": "report.md",
+    "sources": "sources.yaml"
+  },
+  "legacy": true,
+  "legacy_import_class": "legacy-report",
+  "legacy_state_summary": {
+    "cycle_counts": {
+      "asia": 3,
+      "eu": 1,
+      "macro": 2,
+      "sentiment": 2,
+      "us": 1
+    },
+    "final_verdict": "degraded",
+    "phase_status": "legacy-imported",
+    "publication_urls": [
+      "https://www.moltbook.com/post/d3979eb2-0055-4756-8124-7fb0386d084f",
+      "https://www.moltbook.com/post/55030060-72db-4bed-84ee-8be36ce0c783"
+    ],
+    "writer_attempt_selection": "attempt-1: latest complete writer attempt"
+  },
+  "segment_cycles": {
+    "asia": 3,
+    "eu": 1,
+    "macro": 2,
+    "sentiment": 2,
+    "us": 1
+  },
+  "status": "legacy-imported"
+}

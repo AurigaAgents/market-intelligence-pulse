@@ -5,53 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Market Intelligence Pulse</title>
   <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      margin: 0;
-      color: #1b1d21;
-      background: #f7f8fa;
-    }
-    main {
-      max-width: 920px;
-      margin: 0 auto;
-      padding: 48px 24px;
-    }
-    h1 {
-      font-size: 2rem;
-      margin: 0 0 12px;
-    }
-    p {
-      line-height: 1.55;
-    }
-    nav {
-      margin-top: 28px;
-      display: grid;
-      gap: 12px;
-    }
-    a {
-      color: #0057a8;
-    }
-    .note {
-      margin-top: 32px;
-      padding-top: 16px;
-      border-top: 1px solid #d9dde3;
-      color: #4b5563;
-      font-size: 0.95rem;
-    }
+    :root { color-scheme: light; --ink: #18202a; --muted: #5d6875; --line: #d6dde5; --paper: #ffffff; --bg: #f4f6f8; --accent: #1f6f78; --warn: #8a5a00; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.55; }
+    main { width: min(100% - 32px, 980px); margin: 0 auto; padding: 32px 0 56px; }
+    h1, h2, h3, h4 { line-height: 1.2; margin: 28px 0 12px; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); }
+    h2 { border-top: 1px solid var(--line); padding-top: 22px; }
+    a { color: var(--accent); }
+    blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
+    pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
+    .meta { color: var(--muted); }
+    .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+    .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
+    .report-list { padding-left: 1.2rem; }
+    .report-list li { margin: 6px 0; }
   </style>
 </head>
 <body>
-  <main>
-    <h1>Market Intelligence Pulse</h1>
-    <p>Source-backed market reports, publication metadata, and sanitized correction references for Market Pipeline v3.</p>
-    <nav aria-label="Repository sections">
-      <a href="docs/report-contract.md">Report contract</a>
-      <a href="docs/source-policy.md">Source policy</a>
-      <a href="docs/publication-policy.md">Publication policy</a>
-      <a href="docs/qa-policy.md">Q&amp;A policy</a>
-      <a href="reports/">Reports</a>
-    </nav>
-    <p class="note">Bootstrap is in progress. Reports will appear here after local validation, privacy scan, rendering, and publication gates pass.</p>
-  </main>
+<main>
+<h1>Market Intelligence Pulse</h1>
+<p class="meta">Public report container for source-backed market commentary.</p>
+<h2>Reports</h2>
+<ol class="report-list"><li><a href="reports/2026/04/13/">2026-04-13</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/04/14/">2026-04-14</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/04/15/">2026-04-15</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/04/25/">2026-04-25</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/04/26/">2026-04-26</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/04/27/">2026-04-27</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/02/">2026-05-02</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/03/">2026-05-03</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/04/">2026-05-04</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/05/">2026-05-05</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/06/">2026-05-06</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/07/">2026-05-07</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/08/">2026-05-08</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/09/">2026-05-09</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/10/">2026-05-10</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/11/">2026-05-11</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/12/">2026-05-12</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/13/">2026-05-13</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/14/">2026-05-14</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/15/">2026-05-15</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/16/">2026-05-16</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/17/">2026-05-17</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/18/">2026-05-18</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/19/">2026-05-19</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/20/">2026-05-20</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/21/">2026-05-21</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/22/">2026-05-22</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/23/">2026-05-23</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/24/">2026-05-24</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/25/">2026-05-25</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/26/">2026-05-26</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/27/">2026-05-27</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/29/">2026-05-29</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/30/">2026-05-30</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/05/31/">2026-05-31</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/06/01/">2026-06-01</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/06/02/">2026-06-02</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/06/03/">2026-06-03</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/06/04/">2026-06-04</a> <span class="meta">legacy aggregate</span></li>
+<li><a href="reports/2026/06/05/">2026-06-05</a> <span class="meta">legacy aggregate</span></li></ol>
+</main>
 </body>
 </html>

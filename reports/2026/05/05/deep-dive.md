@@ -1,0 +1,21 @@
+# Deep Story — Oil Faded, but the Inflation Hedge Did Not
+
+The day’s most important market signal is the split inside the geopolitical trade. Oil fell sharply: WTI dropped 3.64% to $102.54 and Brent lost 2.51% to $111.57 after US Defense Secretary Hegseth reaffirmed that the Iran ceasefire remained in place and US Central Command confirmed protected merchant-vessel transit through the Strait of Hormuz. That is the obvious headline. The less obvious one is that gold, silver, and Bitcoin did not behave as if the whole risk premium had vanished.
+
+Brent above $110 is still expensive, but the direction changed. Monday’s fear was that the drone-and-missile attack on the UAE could turn Hormuz into a near-blocked shipping channel. Tuesday’s evidence pointed to something less binary: contested, militarized, low-volume, but functional under US Navy escort. Markets can price that. They can bleed out the panic premium while still keeping a floor under crude. That is why the analyst bundle frames Brent $110 as the psychological support and $115 as the escalation line.
+
+The metals tape is what prevents this from being a simple “risk off, then risk on” story. Gold held around $4,591 after testing $4,577 support, and silver was firm near $73.96. If metals had been only a Hormuz hedge, they should have followed crude lower when the ceasefire story improved. Instead, the bid persisted. The approved macro review accepted the explanation: central-bank buying, reserve diversification, and structural real-rate uncertainty are now more important than the day-to-day Gulf headline. Oil traded the marginal news; gold traded the regime.
+
+Equities understood only part of that. US stocks absorbed Monday’s shock without breaking the broader record-zone tape: the S&P 500 closed at 7,200.75, down 0.41%, and the Nasdaq slipped only 0.19%. Earnings remain the cushion, with roughly 90% of reporting S&P 500 companies beating estimates. But the Dow’s 1.13% drop and the 30Y Treasury above 5% show the cost of the same oil story. A supply shock that keeps crude high also rebuilds term premium. That is why the US market can look resilient and fragile at the same time.
+
+Europe shows the fragility more clearly. DAX, CAC, STOXX 50, and STOXX 600 all rallied, helped by earnings and relief after Monday’s sell-off. Yet the Bund held near 3.08%, close to multi-year highs, while auto-tariff threats remained open. Europe does not need a full Hormuz closure to suffer. It only needs oil high enough to harden inflation expectations and tariffs high enough to damage exporters. The rebound is real, but the rates signal argues against treating it as clean risk-on.
+
+Asia was even harder to read because most of the region was shut. Hong Kong, the main liquid venue, fell 0.76% as HSBC’s unexpected Q1 loss dragged the index. Seoul’s prior KOSPI record and Tokyo’s delayed reopen remain untested. That matters because Asia is where the AI-cycle optimism is strongest, but today’s tape did not give a full-liquidity verdict.
+
+Sentiment completes the picture. CNN Fear & Greed cooled to Greed rather than Extreme Greed, VIX rose to 18.29, and CBOE put/call ratios moved back toward normal defensive levels. Investors did not panic. They also did not stay call-heavy. They bought time and bought hedges.
+
+So the market’s message is precise: the Hormuz shock is no longer being priced as immediate closure, but the inflation hedge has not gone away. Oil can fall on better transit headlines; gold can stay bid because the monetary and reserve story is larger than one day of Gulf news. That split is the risk map. If Brent breaks below $110 and yields stabilize, equities get room. If Brent repops above $115 while gold stays bid and the long end rises, the market has not de-escalated — it has only paused.
+
+## Sources
+
+Approved May 5 Macro cycle-2 analyst and review for oil, gold, silver, BTC, DXY, Hormuz-transit, Fed and ECB framing; approved US cycle-1 analyst and review for S&P 500, Nasdaq, Dow, VIX, Treasury-yield and earnings context; approved EU cycle-1 analyst and review for Bund, equity and tariff-risk context; approved Asia cycle-2 analyst and review for Hong Kong, HSBC and holiday liquidity; approved Sentiment cycle-2 analyst and review for Fear & Greed, VIX, put/call and AAII positioning.

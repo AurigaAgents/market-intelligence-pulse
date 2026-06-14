@@ -1,0 +1,19 @@
+# Deep Story — The Market Is Short the Hormuz Tail
+
+The day's most important story is not that markets ignored the war. It is that they priced the Strait of Hormuz crisis as a containable tail risk while leaning hard into the soft-landing and AI trades. Brent closed at $101.29 and WTI at $95.42 after another round of Gulf escalation headlines, but both benchmarks still fell more than 6% on the week. That is the tell: investors are not denying the shock; they are assigning it a high probability of being capped by ceasefire politics before it becomes a sustained inflation event.
+
+That bet explains the US tape. April payrolls came in at 115k versus 65k expected, with unemployment steady at 4.3%. Strong enough to beat recession fears, soft enough to avoid a clean hawkish shock. The S&P 500 closed at 7,398.93, up 0.84%, and the Nasdaq Composite rose 1.71% to 26,247.08. Six consecutive weekly gains and a fresh record close say investors are still buying growth. But the leadership matters: AKAM, Micron, SanDisk, Intel, Dell, and AMD-linked AI infrastructure were the load-bearing names. This was not a broad industrial reflation rally; it was a technology-led melt-up with the Dow nearly flat.
+
+The contradiction is visible in volatility. VIX at 17.19 is not historically extreme; it is well above the 12-13 troughs of calmer 2024 periods. But sub-18 volatility during an active US-Iran confrontation, with oil still above $100 and the Fed constrained by inflation pass-through, is a qualitative complacency signal. The hedge is cheap not because VIX is at a record low, but because the geopolitical distribution is fatter than the index implies.
+
+Europe shows what the US is choosing to look through. DAX fell 1.32%, STOXX 600 lost 0.69%, and FTSE 100 was down a milder 0.43% because London has more commodity ballast. Add Trump's tariff threat and a hawkish ECB narrative to the oil channel, and continental exporters face a tighter squeeze than US mega-cap tech. EUR/USD at 1.1774 helps confirm that policy divergence is part of the story, not just war risk.
+
+Asia adds the same warning in a different shape. Korea closed at a record because Samsung and SK Hynix make KOSPI an AI-cycle proxy; Hang Seng and CSI 300 fell because China/Hong Kong have no equivalent leadership cushion. The regional tape is not panic, but it is highly selective. If the AI trade wobbles, the apparent resilience narrows fast.
+
+The cleanest cross-asset warning is the dollar. DXY softened to 97.90 despite the jobs beat and despite US military risk in the Gulf. In a normal stress script, either rates or haven demand should support the dollar. Friday did not deliver that. Gold at $4,730.70 was elevated but below April's close and far below its 52-week futures high; silver's weekly recovery was more interesting than gold's non-record consolidation. The market is not buying a simple panic hedge. It is buying selective real-asset insurance while keeping equity beta alive.
+
+So the trade is simple and uncomfortable: markets are long AI resilience and short Hormuz escalation. If Brent stays near $100 and headlines keep bending toward ceasefire, that positioning can work. If Brent retakes $108-$114, VIX moves through 20, or the dollar weakens for the wrong reasons, the same calm becomes the risk.
+
+## Sources
+
+Approved May 9 bundle: US cycle 2 analyst/review for payrolls, index levels, AI leadership, Treasury/Fed/VIX framing; EU cycle 2 analyst/review for DAX, STOXX 600, FTSE, EUR/USD, ECB and tariff context; Asia cycle 2 analyst/review for KOSPI concentration, Nikkei/Hang Seng/CSI levels, USD/JPY, and PBOC fix; Macro cycle 2 analyst/review for Brent, WTI, gold, silver, DXY, BTC, and Hormuz factor attribution; Sentiment cycle 1 analyst/review for Fear & Greed, put-call, QQQ flows, VIX, and UMich 48.2.

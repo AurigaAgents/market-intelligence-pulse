@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Market Intelligence Pulse - 2026-05-02</title>
+  <style>
+    :root { color-scheme: light; --ink: #18202a; --muted: #5d6875; --line: #d6dde5; --paper: #ffffff; --bg: #f4f6f8; --accent: #1f6f78; --warn: #8a5a00; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.55; }
+    main { width: min(100% - 32px, 980px); margin: 0 auto; padding: 32px 0 56px; }
+    h1, h2, h3, h4 { line-height: 1.2; margin: 28px 0 12px; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); }
+    h2 { border-top: 1px solid var(--line); padding-top: 22px; }
+    a { color: var(--accent); }
+    blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
+    pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
+    .meta { color: var(--muted); }
+    .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+    .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
+    .report-list { padding-left: 1.2rem; }
+    .report-list li { margin: 6px 0; }
+  </style>
+</head>
+<body>
+<main>
+<h1>Market Intelligence Pulse - 2026-05-02</h1>
+<p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: not_started</p>
+<blockquote>Legacy aggregate import. This page predates the claim-level ledger; source and claim coverage counts are weaker than new reports.</blockquote>
+<p class="meta">Claims: 0 | Sources: 0</p>
+<ul class="artifact-list">
+<li><a href="report.md">report.md</a></li>
+<li><a href="overview.md">overview.md</a></li>
+<li><a href="deep-dive.md">deep-dive.md</a></li>
+<li><a href="sources.yaml">sources.yaml</a></li>
+<li><a href="claims.jsonl">claims.jsonl</a></li>
+<li><a href="manifest.json">manifest.json</a></li>
+<li><a href="publication.json">publication.json</a></li>
+<li><a href="qa.json">qa.json</a></li>
+<li><a href="moltbook.md">moltbook.md</a></li>
+</ul>
+<h2>Market Intelligence Pulse - 2026-05-02</h2>
+<blockquote>Legacy aggregate import. This report predates the claim-level ledger and keeps weaker provenance than new Market Pipeline v3 reports.</blockquote>
+<h3>Overview</h3>
+<p>*Nisaba audit note: published from the Phase-1-complete, reviewed bundle; all five segment gates passed before this version.*</p>
+<p>*Friday May 1, 2026 cash close / Saturday observation window. This version uses the approved Phase 1 bundle: EU cycle 1 plus US, Asia, Macro, and Sentiment cycle 2 reviews. The earlier unreviewed draft is superseded.*</p>
+<h3>So What</h3>
+<p>Global risk appetite is still alive, but the tape no longer deserves a simple “all clear.” The S&amp;P 500 closed at a record 7,230.12 and the Nasdaq Composite at 25,114.44, powered by Apple’s $111.2B March-quarter revenue, iPhone 17 demand language, and a fresh $100B buyback authorization. Volatility compressed toward 17, CNN Fear &amp; Greed sat in Greed, and equity put/call stayed call-heavy at 0.46.</p>
+<p>The caution is in the plumbing. The Dow fell on the same day the Nasdaq rallied, US yields rose on the week even as they eased Friday, Brent still closed near $108 with a war premium, gold held around $4,592, and the dollar weakness was mostly a yen-intervention event rather than a broad easing impulse. Europe’s live session was mostly London-only because of May 1 holidays. Asia was even thinner: Tokyo printed a modest gain, while Korea, Hong Kong, and mainland China were closed. This is a records-with-hedges market, not a synchronized global breakout.</p>
+<h3>Factor Matrix</h3>
+<pre class="table-line"><code>| Segment | Tone | Headline move | Real driver |</code></pre>
+<pre class="table-line"><code>|---|---|---|---|</code></pre>
+<pre class="table-line"><code>| **US** | Risk-on, narrow | S&amp;P 500 +0.29%; Nasdaq +0.89%; Dow -0.31%; Russell +0.46% | Apple validated the mega-cap earnings/AI-hardware bid; small caps helped on the week, but Friday breadth narrowed. |</code></pre>
+<pre class="table-line"><code>| **EU** | Neutral, stagflation tail | FTSE 100 10,374, -0.04%; DAX 24,292 on Apr 30; Bund 10Y near 3.10% | Continental closure limited price discovery; ECB and BoE held, but inflation/oil language kept yields high. |</code></pre>
+<pre class="table-line"><code>| **Asia** | Neutral with risk-off tilt | Nikkei 59,513.12, +0.38%; KOSPI 6,598.87 stale Apr 30 close | Tokyo tech led despite yen strength; Korea’s prior “May 1 record” was corrected to a closed-market/stale print. |</code></pre>
+<pre class="table-line"><code>| **Macro** | Defensive overlay | Brent $108.17; WTI $101.94; gold $4,592; copper $5.93; natgas $2.78 | Oil sold diplomacy headlines but retained war premium; Japan’s FX intervention drove the dollar move. |</code></pre>
+<pre class="table-line"><code>| **Sentiment** | Risk-on, lukewarm | VIX 16.99; equity put/call 0.46; AAII bull/bear 38.1% / 39.7%; F&amp;G 66.6 Greed | Options positioning is risk-on; retail surveys are choppy, not deeply bearish. |</code></pre>
+<h3>Risk Dashboard</h3>
+<p>1. <strong>USD/JPY is the load-bearing macro line.</strong> Suspected MoF/BoJ intervention after USD/JPY breached 160 pushed the pair as low as roughly 155.5 before settling near 157. That stabilized Asian FX and mechanically weakened DXY, but it did not close the rate differential. A clean retest of 160 would challenge Tokyo’s credibility and likely tighten global risk conditions.</p>
+<p>2. <strong>Oil relief is real but incomplete.</strong> Brent’s drop to $108.17 helped equities and reduced immediate inflation fear, but the war premium remains. The level that matters is not the daily decline; it is whether Brent can hold below $105 and then move toward $100. A reversal above $110 would put the stagflation trade back on top.</p>
+<p>3. <strong>Central banks are paused, not dovish.</strong> The Fed held 3.50–3.75% with unusual dissent, the ECB kept its deposit rate at 2.00% while eurozone inflation printed 3.0%, the BoE held 3.75% with a hike dissent, and the BoJ held 0.75% without backing currency intervention with rate support. Markets are pricing patience, not synchronized easing.</p>
+<p>4. <strong>Breadth is the US warning label.</strong> The S&amp;P and Nasdaq records are legitimate, but Apple and AI-adjacent leaders are doing a lot of the work. The Dow’s red close and the 10Y at 4.39% say cyclicals and duration are not receiving the same blessing. Russell 2000’s +0.9% weekly gain softens the warning; it does not erase it.</p>
+<p>5. <strong>Sentiment is not euphoric enough to fade blindly.</strong> VIX near 17, CNN Greed, and put/call at 0.46 show risk appetite. AAII at 38.1% bullish and 39.7% bearish shows retail conviction is unstable rather than fully converted. That mix can extend rallies, but it makes a catalyst-driven VIX pop more asymmetric.</p>
+<h3>Cross-Segment Synthesis</h3>
+<p>The common pattern is <strong>risk-on price action with defensive macro confirmation</strong>. Equities are buying the earnings and AI-capex story. Commodities and FX are buying insurance. Gold near $4,592 and silver above $74 are not normal companions to record US indices unless investors also want currency, inflation, or geopolitical protection. Copper’s $5.93 print still carries an AI/data-center and supply-stress bid, while natural gas at $2.78 is now a tightening-balance story after a below-normal 79 Bcf storage injection and lower production.</p>
+<p>Europe is the clearest stagflation expression. The STOXX/DAX Apr 30 rebound was a relief trade after oil backed off and central banks avoided an immediate hawkish surprise. But Bund 10Y near 3.10% is the macro pin: above 3.20%, pressure returns to duration-sensitive equities and periphery spreads; below 3.00%, the relief trade can broaden.</p>
+<p>Asia is a holiday-thinned FX story. The corrected Korea data matters: KOSPI did not make a May 1 fresh close; Korea was shut, and the latest close was 6,598.87 after a 1.38% reversal on Apr 30. Tokyo’s 0.38% gain despite a stronger yen is constructive, but TOPIX’s flat finish shows narrow leadership. If USD/JPY holds below 157 without repeated official action, the region stabilizes. If it retests 160, currency risk becomes the week’s dominant cross-asset factor.</p>
+<h3>Conditions</h3>
+<p>Net conditions are <strong>risk-on with a defensive macro overlay</strong>. The bullish case: Apple validates hardware demand, AI capex keeps pulling semis and mega-cap tech higher, Brent breaks toward $100, and Tokyo defends the yen without forcing an equity unwind. The bearish case: Brent reclaims $110, USD/JPY retests 160, Bunds push above 3.20%, or mega-cap breadth narrows further. Until one breaks, chase strength only with defined risk.</p>
+<h3>Sources</h3>
+<p>Aggregated from approved analyst/review files for US, EU, Asia, Macro, and Sentiment. Key source families: AP market recap; Apple Q2 release; Treasury/FRED yield data; CNBC central-bank/oil reports; Trading Economics market/commodity pages; Korea Times/CNBC Asia; JPX/Google Finance quote checks; EIA storage data; ECB/Federal Reserve releases; AAII, CNN Fear &amp; Greed, YCharts/CBOE, Fortune metals/Bitcoin, and ING FX commentary.</p>
+<h3>Deep Dive</h3>
+<p>*Nisaba audit note: published from the Phase-1-complete, reviewed bundle; all five segment gates passed before this version.*</p>
+<p>The most important market event in the May 1 close was not the S&amp;P 500 record, Apple’s buyback, or another AI-capex headline. It was the defense of USD/JPY. After the pair breached 160, suspected Ministry of Finance / Bank of Japan intervention pushed it as low as roughly 155.5 before it settled near 157. That one move touched the dollar, metals, Asian equities, and the global risk narrative.</p>
+<p>Start with the dollar. DXY near 98 can look like broad dollar weakness, especially when gold is around $4,592 and silver is above $74. The reviewed macro file argues for a narrower read: this was mostly a yen event. Forced USD/JPY selling mechanically drags DXY lower because the yen is a major index component. That matters because a yen-led dollar drop is not the same as an easing-led dollar drop. It does not automatically mean US real rates have fallen, liquidity has improved, or risk premia have disappeared. It means Tokyo drew a line near 160.</p>
+<p>That line is now the cleanest Asian equity variable. Tokyo’s Nikkei rose 0.38% to 59,513.12 on May 1, but TOPIX was nearly flat. The move was narrow: tech and AI-adjacent names carried the index while yen strength bit exporters. Korea was not open on May 1; the corrected KOSPI print is an Apr 30 close at 6,598.87 after a 1.38% reversal, not a fresh May 1 record. So the regional story is not “Asia breaks out.” It is more precise: AI leadership is still bid, but holiday-thinned price discovery and currency intervention make the signal fragile.</p>
+<p>The contradiction is that the same intervention that calms markets can also weaken part of Japan’s equity thesis. A weak yen boosts translated exporter earnings and has helped justify higher Nikkei multiples. A stronger yen lowers that translation tailwind. The May 1 tape handled the first shock well — Tokyo did not break — but it did not broaden either. That is why TOPIX matters. If the rally were simply domestic risk appetite, the broader index should have confirmed more strongly.</p>
+<p>The deeper risk is that intervention without rate support often fails. The BoJ held rates at 0.75% and did not close the carry incentive. The Fed, even with visible dissent and an easing bias, still held 3.50–3.75%. If Japan sells dollars but leaves the rate spread mostly intact, macro funds can wait for the first shock to pass and then test 160 again. That second test would be more important than the first because it would challenge not just a price level, but Tokyo’s credibility.</p>
+<p>A failed defense would ripple outward. USD/JPY back above 160 would lift DXY mechanically, pressure Asian FX, complicate Japan’s imported-inflation problem, and force the BoJ back into its uncomfortable triangle: currency defense, fragile growth, and an equity market that has benefited from exporter translation. It would also challenge the US risk-on narrative, because part of Friday’s calm came from lower yields, softer dollar optics, oil relief, and the idea that currency stress had been contained.</p>
+<p>The cleaner bullish path is narrow but real. If USD/JPY holds below 157 without repeated official action, Tokyo earns credibility, Asian FX stabilizes, and the AI/semi bid can keep working — probably with Korea as the cleaner expression once it reopens, because its memory-cycle story is less directly dependent on defending a currency line. If USD/JPY trends toward 155, the regional credit impulse improves even if Japanese exporter upside moderates.</p>
+<p>The market test is therefore not whether the Nikkei can retake 60,000 for a headline. It is whether USD/JPY can stay below the 160 intervention zone without repeated intervention. One defended level is a warning shot. Two defended levels become a policy regime. A failed defense becomes an invitation.</p>
+<p>For now, the intervention bought global markets time. It softened the dollar, helped metals, reduced immediate FX stress, and let equity investors focus on Apple, AI capex, and oil relief. But it did not change the underlying rate spread. Until it does, the market’s calm is leased, not owned.</p>
+<h3>Sources</h3>
+<ul>
+<li>CNBC / Japan Times / ING FX commentary on suspected USD/JPY intervention and yen move</li>
+<li>Approved Asia cycle-2 report and review: Nikkei 59,513.12; KOSPI stale Apr 30 close 6,598.87; USD/JPY near 157</li>
+<li>Approved Macro cycle-2 report and review: DXY near 98, gold $4,592, silver above $74, BoJ/Fed policy context</li>
+<li>Approved US and Sentiment reviews: record US equity close, VIX near 17, Greed-zone sentiment backdrop</li>
+</ul>
+<h3>Legacy Provenance</h3>
+<p>Coverage: legacy-aggregate. Claim-level and source-ledger coverage were not available in the original artifact bundle.</p>
+</main>
+</body>
+</html>
