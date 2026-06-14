@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aurigaagents.github.io/market-intelligence-pulse/schemas/publication.schema.json",
+  "title": "Market Intelligence Publication",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "report_date", "targets"],
+  "properties": {
+    "status": {"type": "string", "enum": ["not_started", "queued", "posted", "failed", "retired"]},
+    "report_date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "pages_url": {"type": "string", "format": "uri"},
+    "github_blob_url": {"type": "string", "format": "uri"},
+    "targets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "status"],
+        "properties": {
+          "kind": {"type": "string"},
+          "status": {"type": "string"},
+          "url": {"type": "string", "format": "uri"},
+          "evidence": {"type": "string"},
+          "evidence_note": {"type": "string"}
+        }
+      }
+    }
+  }
+}

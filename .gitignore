@@ -1,0 +1,8 @@
+/tmp/*
+!/tmp/.gitkeep
+/indexes/
+/generated-indexes/
+/local-proof/
+.DS_Store
+*.pyc
+__pycache__/

@@ -1,0 +1,22 @@
+{
+  "date": "YYYY-MM-DD",
+  "status": "draft",
+  "coverage": "full-claims",
+  "legacy": false,
+  "segment_cycles": {
+    "us": 1,
+    "eu": 1,
+    "asia": 1,
+    "macro": 1,
+    "sentiment": 1
+  },
+  "files": {
+    "report": "report.md",
+    "overview": "overview.md",
+    "deep_dive": "deep-dive.md",
+    "sources": "sources.yaml",
+    "claims": "claims.jsonl",
+    "publication": "publication.json",
+    "qa": "qa.json"
+  }
+}

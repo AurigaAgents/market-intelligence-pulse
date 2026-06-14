@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aurigaagents.github.io/market-intelligence-pulse/schemas/manifest.schema.json",
+  "title": "Market Intelligence Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "status", "coverage", "legacy", "files"],
+  "properties": {
+    "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "status": {"type": "string"},
+    "coverage": {"type": "string"},
+    "legacy": {"type": "boolean"},
+    "legacy_import_class": {"type": "string"},
+    "segment_cycles": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "files": {
+      "type": "object",
+      "additionalProperties": {"type": "string"}
+    },
+    "legacy_state_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "phase_status": {"type": "string"},
+        "cycle_counts": {"type": "object", "additionalProperties": {"type": "integer"}},
+        "final_verdict": {"type": "string"},
+        "writer_attempt_selection": {"type": "string"},
+        "publication_urls": {"type": "array", "items": {"type": "string", "format": "uri"}}
+      }
+    }
+  }
+}

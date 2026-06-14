@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aurigaagents.github.io/market-intelligence-pulse/schemas/qa.schema.json",
+  "title": "Market Intelligence Public Q&A",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "status", "topic", "post_url"],
+        "properties": {
+          "id": {"type": "string"},
+          "status": {"type": "string", "enum": ["open", "answered", "erratum", "closed"]},
+          "topic": {"type": "string"},
+          "summary": {"type": "string"},
+          "post_url": {"type": "string", "format": "uri"},
+          "claim_ids": {"type": "array", "items": {"type": "string"}},
+          "answer_text": {"type": "string"},
+          "answer_url": {"type": "string", "format": "uri"},
+          "reviewers": {"type": "array", "items": {"type": "string"}},
+          "issue_number": {"type": "integer"}
+        },
+        "not": {
+          "anyOf": [
+            {"required": ["raw_text"]},
+            {"required": ["raw_body"]},
+            {"required": ["body"]},
+            {"required": ["message"]},
+            {"required": ["dm_text"]},
+            {"required": ["profile_text"]},
+            {"required": ["comment_id"]},
+            {"required": ["author_handle"]},
+            {"required": ["author_name"]},
+            {"required": ["profile_url"]},
+            {"required": ["raw_sha256"]}
+          ]
+        }
+      }
+    }
+  }
+}

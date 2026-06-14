@@ -1,0 +1,15 @@
+- id: S-YYYY-MM-DD-001
+  publisher: Example Publisher
+  title: Example source title
+  url: https://example.com/source
+  canonical_url: https://example.com/source
+  accessed_at: YYYY-MM-DDTHH:MM:SS+00:00
+  published_at: YYYY-MM-DDTHH:MM:SS+00:00
+  source_type: news
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page

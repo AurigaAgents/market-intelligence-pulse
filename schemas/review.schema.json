@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aurigaagents.github.io/market-intelligence-pulse/schemas/review.schema.json",
+  "title": "Market Intelligence Review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["verdict", "reviewer", "reviewed_at"],
+  "properties": {
+    "verdict": {"type": "string", "enum": ["approve", "block", "needs_decision"]},
+    "reviewer": {"type": "string"},
+    "reviewed_at": {"type": "string"},
+    "blockers": {"type": "array", "items": {"type": "string"}},
+    "numeric_overrides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim_id", "reported_value", "recomputed_value", "absolute_delta", "provider_basis", "justification", "reviewer", "approved_at"],
+        "properties": {
+          "claim_id": {"type": "string"},
+          "reported_value": {"type": "number"},
+          "recomputed_value": {"type": "number"},
+          "absolute_delta": {"type": "number", "minimum": 0},
+          "provider_basis": {"type": "array", "minItems": 2, "items": {"type": "string"}},
+          "justification": {"type": "string", "enum": ["provider_basis_difference"]},
+          "reviewer": {"type": "string"},
+          "approved_at": {"type": "string"}
+        }
+      }
+    }
+  }
+}

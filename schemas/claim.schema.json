@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aurigaagents.github.io/market-intelligence-pulse/schemas/claim.schema.json",
+  "title": "Market Intelligence Claim",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "claim_type", "section", "subject", "metric", "value", "unit", "as_of", "text", "source_refs", "confidence"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^C-[0-9]{4}-[0-9]{2}-[0-9]{2}-[A-Z0-9-]+$"},
+    "claim_type": {"type": "string"},
+    "section": {"type": "string"},
+    "subject": {"type": "object", "additionalProperties": true},
+    "metric": {"type": "string"},
+    "value": {},
+    "unit": {"type": "string"},
+    "direction": {"type": "string"},
+    "as_of": {"type": "string"},
+    "market_session": {"type": "string"},
+    "calculation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "method": {"type": "string"},
+        "base_date": {"type": "string"},
+        "comparison_date": {"type": "string"},
+        "tolerance": {"type": "number", "minimum": 0}
+      }
+    },
+    "text": {"type": "string"},
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id", "support"],
+        "properties": {
+          "source_id": {"type": "string"},
+          "support": {"type": "string", "enum": ["direct", "context", "inference_base"]}
+        }
+      }
+    },
+    "confidence": {"type": "string", "enum": ["low", "medium", "high"]}
+  }
+}
