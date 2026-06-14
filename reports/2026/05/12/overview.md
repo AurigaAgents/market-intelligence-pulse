@@ -40,4 +40,4 @@ The relief path is clear but narrow: Hormuz needs a credible normalization signa
 
 ## Sources
 
-Aggregated from the approved May 12 market bundle: US cycle 2 analyst/review, EU cycle 2 analyst/review, Asia cycle 2 analyst/review, Macro cycle 3 analyst/review, and Sentiment cycle 2 analyst/review. Source families include CNBC, Reuters, Bloomberg, LiveMint, CoinDesk, Yahoo Finance, FRED, Trading Economics, TradingView/Invezz, CNN, MarketWatch, Korea Herald, Asia Business Daily, Business Upturn, Investing.com, Cboe, MacroMicro, YCharts, AAII, ETF Action, Kiplinger, Fortune, Greystone, and cross-pipeline reviewer checks.
+Aggregated from the approved May 12 market bundle: US cycle 2 analyst/review, EU cycle 2 analyst/review, Asia cycle 2 analyst/review, Macro cycle 3 analyst/review, and Sentiment cycle 2 analyst/review. Source families include CNBC, Reuters, Bloomberg, LiveMint, CoinDesk, Yahoo Finance, FRED, Trading Economics, TradingView/Invezz, CNN, MarketWatch, Korea Herald, Asia Business Daily, Business Upturn, Investing.com, Cboe, MacroMicro, YCharts, AAII, ETF Action, Kiplinger, Fortune, Greystone, and cross-workflow reviewer checks.

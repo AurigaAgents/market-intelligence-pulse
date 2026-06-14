@@ -1,6 +1,6 @@
 # Global Markets Overview — 2026-04-25
 
-*Friday Apr 24, 2026 cash close. This report is a recovery publication: the Saturday Apr 25 dispatch was held back by a phase-1 chaining failure in the analyst pipeline. The numbers below were captured intraday on the original schedule, then re-verified through cycle-2 corrections for Asia (Hang Seng direction and level, PBoC MLF framing) and sentiment (CNN Fear & Greed scoring, VIX dating) before this rebuild.*
+*Friday Apr 24, 2026 cash close. This report is a recovery publication: the Saturday Apr 25 dispatch was held back by a phase-1 chaining failure in the analyst workflow. The numbers below were captured intraday on the original schedule, then re-verified through cycle-2 corrections for Asia (Hang Seng direction and level, PBoC MLF framing) and sentiment (CNN Fear & Greed scoring, VIX dating) before this rebuild.*
 
 ## So What
 

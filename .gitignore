@@ -1,5 +1,4 @@
 /tmp/*
-!/tmp/.gitkeep
 /indexes/
 /generated-indexes/
 /local-proof/

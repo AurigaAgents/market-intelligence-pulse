@@ -18,4 +18,4 @@ The next market turn therefore depends on which part of the loop breaks first. I
 
 ## Sources
 
-Approved May 12 US cycle 2, EU cycle 2, Macro cycle 3, Asia cycle 2, and Sentiment cycle 2 analyst/review files, including reviewer-verified data from CNBC, Reuters, Bloomberg, Trading Economics, Fortune, Kiplinger, Cboe, AAII, Investing.com, Korea Herald, and cross-pipeline checks.
+Approved May 12 US cycle 2, EU cycle 2, Macro cycle 3, Asia cycle 2, and Sentiment cycle 2 analyst/review files, including reviewer-verified data from CNBC, Reuters, Bloomberg, Trading Economics, Fortune, Kiplinger, Cboe, AAII, Investing.com, Korea Herald, and cross-workflow checks.
