@@ -1,6 +1,6 @@
 # Market Intelligence Pulse
 
-Source-backed market reports and publication metadata for Market Pipeline v3.
+Source-backed market reports and publication metadata for Market Intelligence Pulse.
 
 This repository is a public report container. It stores reports, source and claim ledgers, publication metadata, sanitized Q&A references, static GitHub Pages output, schemas, templates, and issue templates.
 

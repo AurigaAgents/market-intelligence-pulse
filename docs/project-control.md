@@ -1,6 +1,6 @@
 # Project Control
 
-Market Pipeline v3 uses managed GitHub issues, pull requests, milestones, labels, and review states after M0 bootstrap completes.
+Market Intelligence Pulse uses managed GitHub issues, pull requests, milestones, labels, and review states after M0 bootstrap completes.
 
 M0 itself is a local bootstrap checklist, not a project-control milestone.
 

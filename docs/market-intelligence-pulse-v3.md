@@ -1,6 +1,6 @@
-# Market Pipeline v3
+# Market Intelligence Pulse v3
 
-Market Pipeline v3 is a re-entrant, tick-based workflow. Each tick advances ready work, records proof, and exits.
+Market Intelligence Pulse v3 is a re-entrant, tick-based workflow. Each tick advances ready work, records proof, and exits.
 
 The orchestrator coordinates but does not write substantive market analysis. Analysts, reviewers, assemblers, and publishers work through explicit artifacts and managed issues.
 

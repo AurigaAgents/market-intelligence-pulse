@@ -1,6 +1,6 @@
 ---
 name: Daily artifact
-about: Managed Market Pipeline v3 artifact work
+about: Managed Market Intelligence Pulse artifact work
 title: "YYYY-MM-DD artifact"
 labels: "state:ready"
 ---
