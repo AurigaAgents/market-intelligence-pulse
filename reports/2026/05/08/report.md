@@ -1,6 +1,6 @@
 # Market Intelligence Pulse - 2026-05-08
 
-> Legacy aggregate import. This report predates the claim-level ledger and keeps weaker provenance than new Market Intelligence Pulse reports.
+> Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.
 
 ## Overview
 
