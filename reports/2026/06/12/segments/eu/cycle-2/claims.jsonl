@@ -1,0 +1,4 @@
+{"claim_id": "eu-stoxx-600-close", "market": "eu", "as_of": "2026-06-12", "metric": "stoxx_600", "value": 633.21, "change_pct": 1.88, "source_id": "stoxx-600-close-yahoo"}
+{"claim_id": "eu-ecb-deposit-rate", "market": "eu", "as_of": "2026-06-12", "metric": "ecb_deposit_rate", "value": 2.25, "change_bps": 25, "source_id": "ecb-interest-rate-decision"}
+{"claim_id": "eu-inflation-projection-2026", "market": "eu", "as_of": "2026-06-12", "metric": "inflation_projection_2026", "value": 3.0, "source_id": "ecb-inflation-projection"}
+{"claim_id": "eu-eur-usd-rate", "market": "eu", "as_of": "2026-06-12", "metric": "eur_usd", "value": 1.1567, "change_pct": 0.3, "source_id": "eur-usd-exchange-rate"}
