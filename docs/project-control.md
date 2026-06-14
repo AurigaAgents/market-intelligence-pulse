@@ -23,6 +23,31 @@ M0 itself is a local bootstrap checklist, not a project-control milestone.
 - `type:publication`
 - `type:qa`
 - `type:ops`
+- `area:us`
+- `area:eu`
+- `area:asia`
+- `area:macro`
+- `area:sentiment`
+- `area:report`
+- `area:moltbook`
+- `area:qa`
+- `risk:data`
+- `risk:publication`
+- `risk:privacy`
+- `risk:ops`
+- `priority:p0`
+- `priority:p1`
+- `priority:p2`
+- `owner:dione`
+- `owner:inanna`
+- `owner:nisaba`
+- `review:dione`
+- `review:inanna`
+- `review:nisaba`
+- `decision:ingo`
+- `decision:agent-review`
+- `platform:openclaw-local`
+- `managed:market-pulse`
 
 ## Responsibility Block
 
