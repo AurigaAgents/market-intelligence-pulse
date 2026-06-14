@@ -1,0 +1,15 @@
+- id: S-2026-06-12-001
+  publisher: Financial Pulse News
+  title: Morning Sentiment Indicators
+  url: https://example.com/sentiment/2026-06-12
+  canonical_url: https://example.com/sentiment/2026-06-12
+  accessed_at: 2026-06-12T09:00:00+00:00
+  published_at: 2026-06-12T08:30:00+00:00
+  source_type: news
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
