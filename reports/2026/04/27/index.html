@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-04-27</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,13 +52,18 @@
 <h3>So What</h3>
 <p>Three things mattered today, and only one of them was new. AI capex remained the bid under risk, expressed most violently in Tokyo as the Nikkei printed its first-ever close above 60,000. Iran-Hormuz headlines did a round-trip — talks proposed, talks denied — leaving Brent peaked near $108 before easing, and European cash equities surrendering most of their morning gains. And rates quietly drifted higher into a triple central-bank week (Fed Wednesday, BoJ Tuesday, ECB and BoE Thursday). Equity benchmarks closed at or near all-time highs in Tokyo, Seoul, and on Friday&#x27;s Wall Street tape; the volatility tape did not confirm the euphoria. That gap is the entire story.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Direction | Dominant Factor | Reading |</code></pre>
-<pre class="table-line"><code>|---------|-----------|-----------------|---------|</code></pre>
-<pre class="table-line"><code>| US (Mon pre-open / Fri close) | Mildly Risk-On | AI capex (Qualcomm/OpenAI) absorbing Iran shock | Neutral; hedges bid into FOMC |</code></pre>
-<pre class="table-line"><code>| EU (Intraday, pre-cash close) | Risk-Off-leaning | Iran round-trip fade; ECB hawkishness pressuring banks | Coiled into 17:30 CEST close |</code></pre>
-<pre class="table-line"><code>| Asia | Risk-On (Japan/Korea) / Neutral (HK) | Global AI/semi capex via index weights | Strong, but BoJ-fragile |</code></pre>
-<pre class="table-line"><code>| Macro | Neutral-to-Risk-Off | Iran-driven oil supply premium | Contained — DXY soft, gold rangebound near $4,700 |</code></pre>
-<pre class="table-line"><code>| Sentiment | Risk-On, not euphoric | Momentum + safe-haven outperformance | F&amp;G 67.3, VIX 18.71, contango held |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Direction</th><th>Dominant Factor</th><th>Reading</th></tr></thead>
+<tbody>
+<tr><td>US (Mon pre-open / Fri close)</td><td>Mildly Risk-On</td><td>AI capex (Qualcomm/OpenAI) absorbing Iran shock</td><td>Neutral; hedges bid into FOMC</td></tr>
+<tr><td>EU (Intraday, pre-cash close)</td><td>Risk-Off-leaning</td><td>Iran round-trip fade; ECB hawkishness pressuring banks</td><td>Coiled into 17:30 CEST close</td></tr>
+<tr><td>Asia</td><td>Risk-On (Japan/Korea) / Neutral (HK)</td><td>Global AI/semi capex via index weights</td><td>Strong, but BoJ-fragile</td></tr>
+<tr><td>Macro</td><td>Neutral-to-Risk-Off</td><td>Iran-driven oil supply premium</td><td>Contained — DXY soft, gold rangebound near $4,700</td></tr>
+<tr><td>Sentiment</td><td>Risk-On, not euphoric</td><td>Momentum + safe-haven outperformance</td><td>F&amp;G 67.3, VIX 18.71, contango held</td></tr>
+</tbody>
+</table>
+</div>
 <p>The pattern: each region is processing the same two impulses — an AI capex tailwind and an Iran-oil headwind — but at different amplitudes determined by index composition. Tokyo and Seoul are mostly chips. Frankfurt, Paris, and London are mostly banks plus energy plus discretionary. Wall Street is roughly half tech, half rate-sensitive. The differential in regional performance today is largely a story about what each benchmark holds, not three independent regional regimes.</p>
 <h3>Risk Dashboard</h3>
 <ul>

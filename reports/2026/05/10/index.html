@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-10</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,13 +52,18 @@
 <h3>So What</h3>
 <p>Friday&#x27;s close produced a split tape rather than a single risk signal. The US still wants to buy the soft-landing story: the S&amp;P 500 closed at 7,398.93, the Nasdaq Composite at 26,247.08, and a better-than-expected April payrolls report let investors treat growth as firm without repricing the Fed aggressively higher. But the same session left Europe clearly risk-off, most Asian benchmarks lower, gold at a fresh high near $4,740, and crude oddly weaker on the week despite fresh US-Iran fire around the Strait of Hormuz. The market is not calm; it is compartmentalizing. US megacap growth and mild sentiment are absorbing the shock for now, while energy-importing regions and safe-haven assets are already marking the risk.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Tone | Headline move | Real driver |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| **US** | Risk-on, but narrow | S&amp;P 500 7,398.93 (+0.84%); Nasdaq Composite 26,247.08 (+1.71%); Dow 49,609.16 (+0.02%); Russell 2000 2,861.21 (+0.76%); VIX around 17. | April nonfarm payrolls beat expectations at +115k versus roughly +62k consensus, while unemployment held at 4.3%. The market took the headline as growth-friendly, and soft internals kept bonds from forcing a harsher rates repricing. Nasdaq strength versus a flat Dow says AI/megacap leadership remains the load-bearing pillar. |</code></pre>
-<pre class="table-line"><code>| **Europe** | Risk-off, geopolitical | DAX 24,338.63 (-1.32%); STOXX 600 612.14 (-0.69%); FTSE 100 10,233.07 (-0.43%); CAC 40 8,112.57 (-1.09%); Bund 10Y around 3.00%. | Renewed Hormuz fighting reversed the midweek ceasefire narrative. Europe is more exposed to an oil shock because it imports energy and has more cyclical-industrial index weight. The FTSE fell less because energy exposure cushioned London. German fiscal supply concerns kept the Bund rally capped even in risk-off trading. |</code></pre>
-<pre class="table-line"><code>| **Asia** | Mixed-to-bearish | Nikkei 225 near 62,700; CSI 300 4,871.91 (-0.58%); Hang Seng 26,393.71 (-0.85%); ASX 200 8,744.40 (-1.51%); Kospi 7,498.00 (+0.11%). | Regional investors reduced risk on the same US-Iran headlines. Toyota&#x27;s 49% Q4 operating-profit slump, attributed partly to US tariffs, added a concrete earnings channel for Japan. The Kospi&#x27;s small gain kept Asia from becoming a uniform selloff, but the regional balance was defensive. |</code></pre>
-<pre class="table-line"><code>| **Macro** | Neutral with cautious risk-on tilt | Brent near $101, down about 7% on the week; WTI $94.68; gold around $4,740; Bitcoin $79,743; DXY 97.84; Fed funds 3.50%-3.75%. | The paradox is crude fading while tanker and Hormuz headlines worsen. The market is pricing some negotiated reopening or containment probability, while gold says tail-risk hedging is still active. The Fed hold with unusual dissents leaves rates reluctant to validate either a clean easing or hawkish-breakout story. |</code></pre>
-<pre class="table-line"><code>| **Sentiment** | Neutral-to-mildly constructive | CNN Fear &amp; Greed 67, in Greed; VIX 17.19; AAII bull/neutral/bear 38.3% / 28.7% / 33.3%; total put/call 0.74, equity put/call 0.53. | Market-based indicators lean constructive, but surveys do not show euphoria. Bulls are only 0.8 percentage points above the AAII historical average, bears remain above average, and the weekly move shifted investors from bearish to neutral more than from cautious to exuberant. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Tone</th><th>Headline move</th><th>Real driver</th></tr></thead>
+<tbody>
+<tr><td><strong>US</strong></td><td>Risk-on, but narrow</td><td>S&amp;P 500 7,398.93 (+0.84%); Nasdaq Composite 26,247.08 (+1.71%); Dow 49,609.16 (+0.02%); Russell 2000 2,861.21 (+0.76%); VIX around 17.</td><td>April nonfarm payrolls beat expectations at +115k versus roughly +62k consensus, while unemployment held at 4.3%. The market took the headline as growth-friendly, and soft internals kept bonds from forcing a harsher rates repricing. Nasdaq strength versus a flat Dow says AI/megacap leadership remains the load-bearing pillar.</td></tr>
+<tr><td><strong>Europe</strong></td><td>Risk-off, geopolitical</td><td>DAX 24,338.63 (-1.32%); STOXX 600 612.14 (-0.69%); FTSE 100 10,233.07 (-0.43%); CAC 40 8,112.57 (-1.09%); Bund 10Y around 3.00%.</td><td>Renewed Hormuz fighting reversed the midweek ceasefire narrative. Europe is more exposed to an oil shock because it imports energy and has more cyclical-industrial index weight. The FTSE fell less because energy exposure cushioned London. German fiscal supply concerns kept the Bund rally capped even in risk-off trading.</td></tr>
+<tr><td><strong>Asia</strong></td><td>Mixed-to-bearish</td><td>Nikkei 225 near 62,700; CSI 300 4,871.91 (-0.58%); Hang Seng 26,393.71 (-0.85%); ASX 200 8,744.40 (-1.51%); Kospi 7,498.00 (+0.11%).</td><td>Regional investors reduced risk on the same US-Iran headlines. Toyota&#x27;s 49% Q4 operating-profit slump, attributed partly to US tariffs, added a concrete earnings channel for Japan. The Kospi&#x27;s small gain kept Asia from becoming a uniform selloff, but the regional balance was defensive.</td></tr>
+<tr><td><strong>Macro</strong></td><td>Neutral with cautious risk-on tilt</td><td>Brent near $101, down about 7% on the week; WTI $94.68; gold around $4,740; Bitcoin $79,743; DXY 97.84; Fed funds 3.50%-3.75%.</td><td>The paradox is crude fading while tanker and Hormuz headlines worsen. The market is pricing some negotiated reopening or containment probability, while gold says tail-risk hedging is still active. The Fed hold with unusual dissents leaves rates reluctant to validate either a clean easing or hawkish-breakout story.</td></tr>
+<tr><td><strong>Sentiment</strong></td><td>Neutral-to-mildly constructive</td><td>CNN Fear &amp; Greed 67, in Greed; VIX 17.19; AAII bull/neutral/bear 38.3% / 28.7% / 33.3%; total put/call 0.74, equity put/call 0.53.</td><td>Market-based indicators lean constructive, but surveys do not show euphoria. Bulls are only 0.8 percentage points above the AAII historical average, bears remain above average, and the weekly move shifted investors from bearish to neutral more than from cautious to exuberant.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p>1. <strong>The crude/gold split is the cleanest macro warning.</strong> Brent down roughly 7% on the week says traders are discounting containment; gold at about $4,740 says hedgers are not buying the all-clear. If Brent reclaims $105, the negotiated-reopening assumption starts to break.</p>
 <p>2. <strong>US breadth is good enough, not convincing.</strong> The S&amp;P and Nasdaq made the headline, but Dow underperformance and megacap dependence leave the rally exposed to any AI guidance wobble. Russell 2000 near its 52-week high is the strongest broadening counterpoint.</p>

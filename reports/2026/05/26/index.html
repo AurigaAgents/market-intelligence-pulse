@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-26</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,26 +52,36 @@
 <h3>Opening Take</h3>
 <p>The so what from the approved bundle is that markets are still trading a peace dividend, but now with live-fire risk back on the screen. Monday&#x27;s US-Iran deal hopes drove the biggest macro impulse: oil&#x27;s war premium fell hard, equity futures improved, and Europe rotated into banks and airlines. Tuesday&#x27;s later files show the catch. Fresh US strikes in southern Iran produced a mild oil rebound and kept Asia mixed rather than euphoric. The global stance is therefore risk-on, but conditional: investors are paying for lower energy stress before the diplomacy has actually settled the Hormuz and Iran tail risk.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Driver | US | Europe | Asia | Macro / Sentiment |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Equity tone | Friday cash levels remain the anchor: S&amp;P 500 7,473.47, Dow around 50,660, Nasdaq around 25,100; Tuesday futures were positive | STOXX 600 630.5, STOXX 50 6,111, DAX 25,249 after Monday&#x27;s strong peace-trade rally | Nikkei 64,996.09 after profit-taking below 65,000; Hang Seng 25,599.45 flat; Shanghai 4,145.37 lower | CNN Fear &amp; Greed 59 says greed, but AAII bull-bear spread is -11.89% |</code></pre>
-<pre class="table-line"><code>| Main catalyst | Deal hopes and oil relief supported futures despite fragile headlines | Iran optimism lifted cyclicals, banks, and airlines; defense stocks faded | Fresh strikes and oil risk capped appetite across energy-importing markets | WTI near $91.68 and Brent near $97.88 after Monday&#x27;s drop, with a small Tuesday bounce |</code></pre>
-<pre class="table-line"><code>| Rates / FX | US 10Y at 4.49%, down 8 bps; lower yields helped duration assets | German 10Y Bund 2.97%, up 2 bps; EUR/USD 1.1643 | USD/JPY 159.13 keeps intervention risk on watch | DXY signal is softer in the macro file; gold held near $4,523 |</code></pre>
-<pre class="table-line"><code>| Leadership | Small caps and futures beta led the US reopening setup | Banks and airlines gained from lower oil; defense sold off | Japan remains the regional leader, but China/Hong Kong lacked conviction | Gold inflows and calm options markets create a stealth-risk-off split |</code></pre>
-<pre class="table-line"><code>| Warning label | VIX near 16.6-16.9 leaves cheap hedging against a headline reversal | ECB is trapped by 3.0% inflation and weak PMI data | Oil and yen pressure matter more than local growth surprise today | Low put/call ratios conflict with defensive ETF and retail behavior |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Driver</th><th>US</th><th>Europe</th><th>Asia</th><th>Macro / Sentiment</th></tr></thead>
+<tbody>
+<tr><td>Equity tone</td><td>Friday cash levels remain the anchor: S&amp;P 500 7,473.47, Dow around 50,660, Nasdaq around 25,100; Tuesday futures were positive</td><td>STOXX 600 630.5, STOXX 50 6,111, DAX 25,249 after Monday&#x27;s strong peace-trade rally</td><td>Nikkei 64,996.09 after profit-taking below 65,000; Hang Seng 25,599.45 flat; Shanghai 4,145.37 lower</td><td>CNN Fear &amp; Greed 59 says greed, but AAII bull-bear spread is -11.89%</td></tr>
+<tr><td>Main catalyst</td><td>Deal hopes and oil relief supported futures despite fragile headlines</td><td>Iran optimism lifted cyclicals, banks, and airlines; defense stocks faded</td><td>Fresh strikes and oil risk capped appetite across energy-importing markets</td><td>WTI near $91.68 and Brent near $97.88 after Monday&#x27;s drop, with a small Tuesday bounce</td></tr>
+<tr><td>Rates / FX</td><td>US 10Y at 4.49%, down 8 bps; lower yields helped duration assets</td><td>German 10Y Bund 2.97%, up 2 bps; EUR/USD 1.1643</td><td>USD/JPY 159.13 keeps intervention risk on watch</td><td>DXY signal is softer in the macro file; gold held near $4,523</td></tr>
+<tr><td>Leadership</td><td>Small caps and futures beta led the US reopening setup</td><td>Banks and airlines gained from lower oil; defense sold off</td><td>Japan remains the regional leader, but China/Hong Kong lacked conviction</td><td>Gold inflows and calm options markets create a stealth-risk-off split</td></tr>
+<tr><td>Warning label</td><td>VIX near 16.6-16.9 leaves cheap hedging against a headline reversal</td><td>ECB is trapped by 3.0% inflation and weak PMI data</td><td>Oil and yen pressure matter more than local growth surprise today</td><td>Low put/call ratios conflict with defensive ETF and retail behavior</td></tr>
+</tbody>
+</table>
+</div>
 <h3>What Drove The Day</h3>
 <p><strong>1. Oil still sets the macro temperature.</strong> The cleanest cross-asset signal is crude. WTI at $91.68 and Brent at $97.88 remain far below early-May stress after Monday&#x27;s peace-driven drop. Tuesday&#x27;s small bounce matters because it followed new US strikes. A confirmed Iran deal pulls inflation pressure lower; failed talks can return the war premium quickly.</p>
 <p><strong>2. The US tape wants confirmation.</strong> US cash markets were closed Monday, so the approved US file mixes Friday closes with Tuesday futures. The setup is constructive: S&amp;P futures +0.7%, Nasdaq 100 futures +1.1%, Russell 2000 strength, and the 10-year yield at 4.49%. Earnings remain a stabilizer, with the US file citing projected S&amp;P 500 earnings growth of 23% this year. The risk is that cash trading reopens into headlines that are less clean than the first peace impulse.</p>
 <p><strong>3. Europe was the clearest expression.</strong> Monday&#x27;s rally favored Santander, BBVA, Deutsche Bank, Air France-KLM, and Lufthansa while Rheinmetall, Hensoldt, and Leonardo faded. Tuesday consolidated, with STOXX 50 down 0.3% and STOXX 600 near 630.5. The bond signal is less friendly: Bunds at 2.97% say 3.0% euro-area inflation still blocks a full rates-relief story.</p>
 <p><strong>4. Asia refused to rubber-stamp optimism.</strong> The Nikkei&#x27;s 0.25% pullback to 64,996.09 was profit-taking after a record close above 65,000, not trend failure. But Hong Kong was flat, Shanghai slipped, and USD/JPY near 159 leaves intervention risk on watch. For energy importers, oil headlines matter more than local growth today.</p>
 <h3>Risk Dashboard</h3>
-<pre class="table-line"><code>| Risk | Trigger | Market impact | Watch level |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Iran talks fail | Fresh strikes escalate or Hormuz reopening stalls | Oil snaps higher, yields reprice inflation, equities lose the peace bid | Brent back above $102, then $110 |</code></pre>
-<pre class="table-line"><code>| Oil relief proves temporary | WTI holds above $90 despite deal headlines | Fed/ECB inflation fears stay alive | WTI $98 resistance; Brent $102 resistance |</code></pre>
-<pre class="table-line"><code>| Rates challenge multiples | US 10Y retests 4.60% or Bund breaks 3.00% | Small caps, banks, and duration growth lose support | US 10Y 4.60%; Bund 3.00% |</code></pre>
-<pre class="table-line"><code>| Asia FX stress | USD/JPY pushes beyond the 159-160 area | Japan leadership turns into intervention anxiety | USD/JPY 159.30-160.00 |</code></pre>
-<pre class="table-line"><code>| Sentiment divergence resolves badly | Retail fear migrates into institutional hedging | VIX jumps and equity outflows broaden | VIX above 18.50; put/call rising from 0.75 |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th>Trigger</th><th>Market impact</th><th>Watch level</th></tr></thead>
+<tbody>
+<tr><td>Iran talks fail</td><td>Fresh strikes escalate or Hormuz reopening stalls</td><td>Oil snaps higher, yields reprice inflation, equities lose the peace bid</td><td>Brent back above $102, then $110</td></tr>
+<tr><td>Oil relief proves temporary</td><td>WTI holds above $90 despite deal headlines</td><td>Fed/ECB inflation fears stay alive</td><td>WTI $98 resistance; Brent $102 resistance</td></tr>
+<tr><td>Rates challenge multiples</td><td>US 10Y retests 4.60% or Bund breaks 3.00%</td><td>Small caps, banks, and duration growth lose support</td><td>US 10Y 4.60%; Bund 3.00%</td></tr>
+<tr><td>Asia FX stress</td><td>USD/JPY pushes beyond the 159-160 area</td><td>Japan leadership turns into intervention anxiety</td><td>USD/JPY 159.30-160.00</td></tr>
+<tr><td>Sentiment divergence resolves badly</td><td>Retail fear migrates into institutional hedging</td><td>VIX jumps and equity outflows broaden</td><td>VIX above 18.50; put/call rising from 0.75</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-Segment Synthesis</h3>
 <p>The global stance is <strong>risk-on with a strike-risk discount</strong>. The bullish case is visible across the bundle: US futures improved, Europe rotated into peace beneficiaries, oil remains far below early-May panic levels, the US 10-year yield eased, and headline sentiment is still in greed. If diplomacy produces a durable Iran framework, the market can extend the move through lower oil, lower inflation expectations, and a wider runway for central banks.</p>
 <p>The bearish case is just as simple. The reports do not show a completed peace settlement; they show markets reacting to its rising probability. Meanwhile, the fresh US strikes, firm Bund yields, ECB inflation trap, yen weakness, and historic gold demand all say investors are not actually relaxed. The strongest interpretation is not &quot;all clear.&quot; It is a market paying up for de-escalation while quietly buying insurance against failure.</p>

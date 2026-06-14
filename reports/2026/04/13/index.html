@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-04-13</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,13 +52,18 @@
 <h3>Executive Summary</h3>
 <p>Global markets spent Monday repricing one thing above all else: a renewed inflation shock. The trigger was the collapse of U.S.-Iran talks and the resulting threat of a Strait of Hormuz blockade, which pushed Brent above $100 and forced investors to ask whether last week’s relief rally had moved too far, too fast. Equities did not fully break, volatility only moved back into the low-20s, and some indexes stabilized intraday, which says this is still a stress event rather than a full liquidation. But if crude stays elevated, the market’s inflation narrative changes fast, and that matters more than the geopolitics alone.</p>
 <h3>Market Scorecard</h3>
-<pre class="table-line"><code>| Region | Index | Close / Latest | Daily Δ | Signal |</code></pre>
-<pre class="table-line"><code>|--------|-------|----------------|---------|--------|</code></pre>
-<pre class="table-line"><code>| US | S&amp;P 500 | 6,823.89 | +0.10% intraday | Neutral |</code></pre>
-<pre class="table-line"><code>| EU | DAX 40 | 23,552.87 | -1.05% | Risk-Off |</code></pre>
-<pre class="table-line"><code>| Asia | Hang Seng | 25,660.85 | -0.90% | Risk-Off |</code></pre>
-<pre class="table-line"><code>| Macro | Brent Crude | 103.86 | +5.71% vs Apr 10 close | Risk-Off |</code></pre>
-<pre class="table-line"><code>| Sentiment | VIX | 21.17 | +1.46 vs Apr 10 close | Cautious |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Region</th><th>Index</th><th>Close / Latest</th><th>Daily Δ</th><th>Signal</th></tr></thead>
+<tbody>
+<tr><td>US</td><td>S&amp;P 500</td><td>6,823.89</td><td>+0.10% intraday</td><td>Neutral</td></tr>
+<tr><td>EU</td><td>DAX 40</td><td>23,552.87</td><td>-1.05%</td><td>Risk-Off</td></tr>
+<tr><td>Asia</td><td>Hang Seng</td><td>25,660.85</td><td>-0.90%</td><td>Risk-Off</td></tr>
+<tr><td>Macro</td><td>Brent Crude</td><td>103.86</td><td>+5.71% vs Apr 10 close</td><td>Risk-Off</td></tr>
+<tr><td>Sentiment</td><td>VIX</td><td>21.17</td><td>+1.46 vs Apr 10 close</td><td>Cautious</td></tr>
+</tbody>
+</table>
+</div>
 <h3>What Drove Markets Today</h3>
 <p>The first and dominant factor was oil. Reuters and other market coverage pointed to the same catalyst: failed U.S.-Iran talks and blockade rhetoric around the Strait of Hormuz. Brent at $103.86 and WTI at $105.63 are not just commodity moves, they are inflation signals. Higher oil immediately tightens financial conditions, pressures transport and margin-sensitive sectors, and complicates the idea that central banks can turn more dovish soon. That is why this market move felt larger than a standard geopolitical headline.</p>
 <p>The second factor was the inflation-and-rates transmission channel. In the U.S., the 10-year yield sat near 4.317%, and that mattered because it limited how much investors wanted to chase long-duration growth after the opening selloff. The market’s problem is not only that oil is higher. It is that higher oil lands in a market that still trades at rich valuations and remains sensitive to even modest shifts in rate expectations. “The market is not trading war, it is trading the return of the inflation tax” is the cleanest way to describe the session.</p>
@@ -65,13 +78,18 @@
 <p>There are three levels worth watching closely. First, S&amp;P 500 6,800. A hold above that area would argue the market still sees this as temporary. Second, VIX in the mid-20s. A move from 21 toward 25 without fresh bad news would imply deeper positioning stress. Third, the dollar. If DXY extends materially above current levels, pressure on non-U.S. assets will intensify.</p>
 <p>The next catalyst is diplomatic tone. Softer language out of Washington or any sign of shipping de-escalation would matter more than most economic data this week. If that does not come, investors will start talking less about headline geopolitics and more about whether oil’s move forces a re-think on inflation and easing timelines.</p>
 <h3>Risk Dashboard</h3>
-<pre class="table-line"><code>| Risk | Probability | Impact | Trigger |</code></pre>
-<pre class="table-line"><code>|------|-------------|--------|---------|</code></pre>
-<pre class="table-line"><code>| Crude remains above $100 for several sessions | Medium | High | Continued Hormuz disruption rhetoric or shipping stress |</code></pre>
-<pre class="table-line"><code>| Inflation scare lifts yields further | Medium | High | Oil stays elevated and rate markets reprice easing odds |</code></pre>
-<pre class="table-line"><code>| Volatility spike becomes broader deleveraging | Low-Med | High | VIX moves into the mid-20s without stabilization in equities |</code></pre>
-<pre class="table-line"><code>| Diplomacy calms markets quickly | Medium | Medium | Softer U.S.-Iran messaging or reduced blockade risk |</code></pre>
-<pre class="table-line"><code>| Europe underperforms sharply on energy sensitivity | Medium | Medium | Persistent oil strength plus ECB inflation concern |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th>Probability</th><th>Impact</th><th>Trigger</th></tr></thead>
+<tbody>
+<tr><td>Crude remains above $100 for several sessions</td><td>Medium</td><td>High</td><td>Continued Hormuz disruption rhetoric or shipping stress</td></tr>
+<tr><td>Inflation scare lifts yields further</td><td>Medium</td><td>High</td><td>Oil stays elevated and rate markets reprice easing odds</td></tr>
+<tr><td>Volatility spike becomes broader deleveraging</td><td>Low-Med</td><td>High</td><td>VIX moves into the mid-20s without stabilization in equities</td></tr>
+<tr><td>Diplomacy calms markets quickly</td><td>Medium</td><td>Medium</td><td>Softer U.S.-Iran messaging or reduced blockade risk</td></tr>
+<tr><td>Europe underperforms sharply on energy sensitivity</td><td>Medium</td><td>Medium</td><td>Persistent oil strength plus ECB inflation concern</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Deep Dive</h3>
 <h3>The Hook</h3>
 <p>The headline was geopolitical, but the market reaction was monetary. Monday’s collapse in U.S.-Iran talks and the threat of a Strait of Hormuz blockade pushed Brent crude to $103.86 and WTI to $105.63, and that instantly turned a foreign-policy story into an inflation story. That matters because equities can usually live with a short-lived geopolitical scare. They have a much harder time with an external shock that revives inflation just as valuations are still full and investors are leaning toward resilience.</p>

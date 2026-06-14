@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-09</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,13 +52,18 @@
 <h3>So What</h3>
 <p>Friday&#x27;s close says investors are paying for the ceasefire outcome while keeping one hand near the hedge button. The surface tape was risk-on in the US: the S&amp;P 500 closed at 7,398.93, the Nasdaq Composite at 26,247.08, and both extended a six-week rally on a payrolls print that was strong enough to calm recession fears without forcing an immediate Fed rethink. But the same day left Europe mildly risk-off, Asia split between Korea&#x27;s AI boom and China/Hong Kong weakness, Brent still above $100, and consumer sentiment at a record low. The market is not ignoring the Strait of Hormuz crisis; it is treating it as a tail risk that has not yet broken the growth/AI/soft-landing trade.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Tone | Headline move | Real driver |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| **US** | Risk-on, narrow leadership | S&amp;P 500 7,398.93 (+0.84% day, +2.3% week); Nasdaq Composite 26,247.08 (+1.71%, +4.5%); Dow 49,609.16 (+0.02%); VIX 17.19. | April payrolls beat expectations at 115k versus 65k expected, while unemployment held at 4.3%. AI and semiconductor-linked names drove the move: AKAM +28%, MU and SNDK +14%, INTC +13%, DELL +12%. The caveat is breadth: Nasdaq strength did far more work than the Dow. |</code></pre>
-<pre class="table-line"><code>| **Europe** | Mild risk-off | DAX 24,338.63 (-1.32%); STOXX 600 612.14 (-0.69%); FTSE 100 10,233.07 (-0.43%); EUR/USD 1.1774 (+0.41%). | Renewed US-Iran headlines and tariff threats hit exporters and cyclicals, while FTSE energy/miners cushioned London. A hawkish ECB repricing supports the euro but caps rate-sensitive multiples. German data are split: factory orders +5.0% MoM, construction PMI 42.1. |</code></pre>
-<pre class="table-line"><code>| **Asia** | Divergent, not broad panic | Nikkei 62,713.65 (-0.19%); Hang Seng 26,393.71 (-0.87%); KOSPI 7,498.00 (+0.11%); CSI 300 4,871.91 (-0.58%); USD/JPY 156.62. | China/Hong Kong absorbed the geopolitical drag; Japan consolidated after strength; Korea again diverged because Samsung and SK Hynix make the index a concentrated AI/semi proxy. PBOC&#x27;s 6.8138 USD/CNY fix kept policy restraint in view. |</code></pre>
-<pre class="table-line"><code>| **Macro** | Ceasefire-priced, tail-risk exposed | Brent $101.29 (+1.23% day, -6.35% week); WTI $95.42 (+0.64%, -6.47% week); gold $4,730.70; silver $80.87; DXY 97.90; BTC about $79k-$80k. | Oil is the paradox: up on Friday but down more than 6% on the week despite live Gulf incidents. Gold is elevated consolidation, not a fresh high. Dollar softness despite the jobs beat is the cleaner cross-asset warning. |</code></pre>
-<pre class="table-line"><code>| **Sentiment** | Greedy, not euphoric | CNN Fear &amp; Greed 68; AAII bull/bear spread +5.3 pp; equity put-call 0.53; QQQ -$2.16B five-day flow but +$10.31B one-month flow; UMich 48.2. | Wall Street is warm, but not at extreme-greed levels. The striking split is asset-market confidence against all-time-low consumer sentiment. Investors are still buying the rally while households are reporting recession-level pain. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Tone</th><th>Headline move</th><th>Real driver</th></tr></thead>
+<tbody>
+<tr><td><strong>US</strong></td><td>Risk-on, narrow leadership</td><td>S&amp;P 500 7,398.93 (+0.84% day, +2.3% week); Nasdaq Composite 26,247.08 (+1.71%, +4.5%); Dow 49,609.16 (+0.02%); VIX 17.19.</td><td>April payrolls beat expectations at 115k versus 65k expected, while unemployment held at 4.3%. AI and semiconductor-linked names drove the move: AKAM +28%, MU and SNDK +14%, INTC +13%, DELL +12%. The caveat is breadth: Nasdaq strength did far more work than the Dow.</td></tr>
+<tr><td><strong>Europe</strong></td><td>Mild risk-off</td><td>DAX 24,338.63 (-1.32%); STOXX 600 612.14 (-0.69%); FTSE 100 10,233.07 (-0.43%); EUR/USD 1.1774 (+0.41%).</td><td>Renewed US-Iran headlines and tariff threats hit exporters and cyclicals, while FTSE energy/miners cushioned London. A hawkish ECB repricing supports the euro but caps rate-sensitive multiples. German data are split: factory orders +5.0% MoM, construction PMI 42.1.</td></tr>
+<tr><td><strong>Asia</strong></td><td>Divergent, not broad panic</td><td>Nikkei 62,713.65 (-0.19%); Hang Seng 26,393.71 (-0.87%); KOSPI 7,498.00 (+0.11%); CSI 300 4,871.91 (-0.58%); USD/JPY 156.62.</td><td>China/Hong Kong absorbed the geopolitical drag; Japan consolidated after strength; Korea again diverged because Samsung and SK Hynix make the index a concentrated AI/semi proxy. PBOC&#x27;s 6.8138 USD/CNY fix kept policy restraint in view.</td></tr>
+<tr><td><strong>Macro</strong></td><td>Ceasefire-priced, tail-risk exposed</td><td>Brent $101.29 (+1.23% day, -6.35% week); WTI $95.42 (+0.64%, -6.47% week); gold $4,730.70; silver $80.87; DXY 97.90; BTC about $79k-$80k.</td><td>Oil is the paradox: up on Friday but down more than 6% on the week despite live Gulf incidents. Gold is elevated consolidation, not a fresh high. Dollar softness despite the jobs beat is the cleaner cross-asset warning.</td></tr>
+<tr><td><strong>Sentiment</strong></td><td>Greedy, not euphoric</td><td>CNN Fear &amp; Greed 68; AAII bull/bear spread +5.3 pp; equity put-call 0.53; QQQ -$2.16B five-day flow but +$10.31B one-month flow; UMich 48.2.</td><td>Wall Street is warm, but not at extreme-greed levels. The striking split is asset-market confidence against all-time-low consumer sentiment. Investors are still buying the rally while households are reporting recession-level pain.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p>1. <strong>Hormuz is underpriced only if it escalates.</strong> Brent above $100 is high enough to matter for inflation and margins, but the weekly oil drawdown says traders still assign meaningful probability to ceasefire/de-escalation. If Brent reclaims $108 and then $114, the benign read breaks quickly.</p>
 <p>2. <strong>Volatility is compressed relative to the headline risk, not historically crushed.</strong> VIX at 17.19 is low for an active Middle East war and a Fed worried about oil pass-through, but it is not a 2024-style 12-13 complacency print. The issue is mismatch, not an absolute record low.</p>

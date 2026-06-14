@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-23</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,26 +52,36 @@
 <h3>Opening Take</h3>
 <p>The so what from the accepted Friday-close bundle is that global markets are buying risk again, but the bid is conditional on three things staying benign at once: oil must not rebuild a Strait of Hormuz premium, yields must stay below this week&#x27;s stress levels, and AI-led earnings strength must keep broadening beyond a few mega-cap names. The US closed the week with an eighth straight S&amp;P 500 gain and a Dow record close. Europe added a fourth STOXX 600 advance. Asia rallied on Wall Street&#x27;s cue, softer Japan inflation, and a regional tech bid. The macro tape is supportive only in a narrow sense: Brent fell 4.8% Friday-to-Friday but still bounced 1.33% on Friday to $103.94, while DXY stayed range-bound near 99.24. This is a risk-on tape with an oil and rates tripwire, not an all-clear.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Driver | US | Europe | Asia | Macro / Sentiment |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Equity tone | S&amp;P near 7,500 after 8 weekly gains; Dow at record close | STOXX 600 625.12, fourth straight rise; DAX +1.15% Friday | Nikkei 63,339.07, +2.68%; Hang Seng and Shanghai positive | Fear &amp; Greed 59 and VIX 16.70 keep the surface risk-on |</code></pre>
-<pre class="table-line"><code>| Leadership | Dell +16% and HP +15% carried the AI-hardware rotation while Nvidia slipped | Infineon +8.46% mirrored the AI-server read-through; Puig -13.4% was the local drag | Lenovo +15% and SoftBank +11.89% reinforced the AI/tech impulse | Copper +1% weekly while oil fell supports “growth without inflation” |</code></pre>
-<pre class="table-line"><code>| Rates / FX | 10Y eased to 4.56%, but Tuesday&#x27;s 4.69% spike remains the warning line | Bund 10Y at 2.90%; UK gilt 10Y 4.907% after a borrowing miss | USD/JPY around 159 keeps exporters supported but near intervention risk | DXY 99.24, range-bound between roughly 98.97 and 99.52 |</code></pre>
-<pre class="table-line"><code>| Commodities | WTI near $97 keeps $100 as the geopolitical hinge | UK fuel volumes fell as consumers reacted to Middle East price volatility | Lower Japan core CPI delays near-term BoJ tightening pressure | Brent $103.94, +1.33% Friday but -4.8% Friday-to-Friday |</code></pre>
-<pre class="table-line"><code>| Sentiment | Earnings strength supports chase behavior | Four green days leave Europe vulnerable to headline reversal | Broad Asia rally still needs China follow-through | AAII bears 43.6% clash with Greed-zone headline sentiment |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Driver</th><th>US</th><th>Europe</th><th>Asia</th><th>Macro / Sentiment</th></tr></thead>
+<tbody>
+<tr><td>Equity tone</td><td>S&amp;P near 7,500 after 8 weekly gains; Dow at record close</td><td>STOXX 600 625.12, fourth straight rise; DAX +1.15% Friday</td><td>Nikkei 63,339.07, +2.68%; Hang Seng and Shanghai positive</td><td>Fear &amp; Greed 59 and VIX 16.70 keep the surface risk-on</td></tr>
+<tr><td>Leadership</td><td>Dell +16% and HP +15% carried the AI-hardware rotation while Nvidia slipped</td><td>Infineon +8.46% mirrored the AI-server read-through; Puig -13.4% was the local drag</td><td>Lenovo +15% and SoftBank +11.89% reinforced the AI/tech impulse</td><td>Copper +1% weekly while oil fell supports “growth without inflation”</td></tr>
+<tr><td>Rates / FX</td><td>10Y eased to 4.56%, but Tuesday&#x27;s 4.69% spike remains the warning line</td><td>Bund 10Y at 2.90%; UK gilt 10Y 4.907% after a borrowing miss</td><td>USD/JPY around 159 keeps exporters supported but near intervention risk</td><td>DXY 99.24, range-bound between roughly 98.97 and 99.52</td></tr>
+<tr><td>Commodities</td><td>WTI near $97 keeps $100 as the geopolitical hinge</td><td>UK fuel volumes fell as consumers reacted to Middle East price volatility</td><td>Lower Japan core CPI delays near-term BoJ tightening pressure</td><td>Brent $103.94, +1.33% Friday but -4.8% Friday-to-Friday</td></tr>
+<tr><td>Sentiment</td><td>Earnings strength supports chase behavior</td><td>Four green days leave Europe vulnerable to headline reversal</td><td>Broad Asia rally still needs China follow-through</td><td>AAII bears 43.6% clash with Greed-zone headline sentiment</td></tr>
+</tbody>
+</table>
+</div>
 <h3>What Drove The Day</h3>
 <p><strong>1. AI hardware replaced mega-cap concentration as the cleaner equity story.</strong> The US tape was not just “stocks up.” Nvidia fell 2% on Friday despite earlier strong results, while Dell and HP surged on AI-server and PC demand commentary. Europe picked up the same signal through Infineon, and Asia had its own version through Lenovo&#x27;s AI-linked earnings and SoftBank&#x27;s Arm exposure. That makes the rally healthier than a single-name melt-up, but it also creates a new test: hardware demand now has to validate the valuation move.</p>
 <p><strong>2. Softer macro constraints gave equities room.</strong> The US 10-year yield slipped to 4.56% after touching 4.69% earlier in the week. German yields held at 2.90%, while Japan&#x27;s core inflation slowed to 1.4%, a four-year low that reduced pressure for an immediate BoJ hike. The combination helped equities absorb still-high oil and a firm dollar. It does not remove the risk; it simply moves the problem to the next yield spike.</p>
 <p><strong>3. Oil is the decisive cross-asset hinge.</strong> The corrected macro cycle matters here. Brent was not down on Friday; it closed at $103.94, up 1.33% on the session. The weekly move, however, was lower as the US-Iran/Hormuz premium unwound. That distinction is the whole market: equities like the weekly de-escalation, but Friday&#x27;s bounce says the shock channel is not closed.</p>
 <p><strong>4. Sentiment is split between price action and surveys.</strong> CNN Fear &amp; Greed at 59 and VIX at 16.70 say investors are comfortable. AAII says something else: bulls fell to 31.7%, bears rose to 43.6%, and retail pessimism is back above the 40% line. That can be contrarian bullish if earnings keep working, but it also means the rally is being chased through worry rather than conviction.</p>
 <h3>Risk Dashboard</h3>
-<pre class="table-line"><code>| Risk | Trigger | Market impact | Watch level |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Oil premium rebuilds | US-Iran talks deteriorate or Hormuz headlines worsen | Inflation shock reprices Europe/Asia importers and US rates | Brent $106.50, then $110 |</code></pre>
-<pre class="table-line"><code>| Yield stress returns | US 10Y retests this week&#x27;s high | Nasdaq, small caps, and AI hardware lose duration support | 4.69% on 10Y |</code></pre>
-<pre class="table-line"><code>| Yen pressure breaks | USD/JPY holds above 160 | Nikkei exporter bid becomes policy-sensitive | USD/JPY 160 |</code></pre>
-<pre class="table-line"><code>| Europe overextends | DAX fails near 25,000 or STOXX stalls above 625 | Four-day risk-on streak becomes vulnerable to profit-taking | STOXX 600 625/630 |</code></pre>
-<pre class="table-line"><code>| Sentiment catches down | VIX rises while AAII bears stay above 40% | “Greed” positioning starts to look complacent | VIX 20; F&amp;G below 55 |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th>Trigger</th><th>Market impact</th><th>Watch level</th></tr></thead>
+<tbody>
+<tr><td>Oil premium rebuilds</td><td>US-Iran talks deteriorate or Hormuz headlines worsen</td><td>Inflation shock reprices Europe/Asia importers and US rates</td><td>Brent $106.50, then $110</td></tr>
+<tr><td>Yield stress returns</td><td>US 10Y retests this week&#x27;s high</td><td>Nasdaq, small caps, and AI hardware lose duration support</td><td>4.69% on 10Y</td></tr>
+<tr><td>Yen pressure breaks</td><td>USD/JPY holds above 160</td><td>Nikkei exporter bid becomes policy-sensitive</td><td>USD/JPY 160</td></tr>
+<tr><td>Europe overextends</td><td>DAX fails near 25,000 or STOXX stalls above 625</td><td>Four-day risk-on streak becomes vulnerable to profit-taking</td><td>STOXX 600 625/630</td></tr>
+<tr><td>Sentiment catches down</td><td>VIX rises while AAII bears stay above 40%</td><td>“Greed” positioning starts to look complacent</td><td>VIX 20; F&amp;G below 55</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-Segment Synthesis</h3>
 <p>The global stance is <strong>risk-on, but conditional</strong>. The strongest positive signal is breadth across regions: US records, European follow-through, and a large Asia rally all point in the same direction. The strongest quality signal is that leadership broadened from pure mega-cap AI into hardware, semiconductors, and regional tech. The strongest macro support is the Friday-to-Friday drop in oil and range-bound dollar.</p>
 <p>The constraint is that every supportive factor has a nearby failure point. The S&amp;P 500 is near 7,500 after eight green weeks. DAX 25,000 is close enough to invite profit-taking. USD/JPY is close enough to 160 to keep Japan policy risk alive. Brent is still above $100 even after the weekly premium unwind. The market can extend if oil stabilizes near $104, the US 10-year stays below 4.6%, and AI hardware earnings confirm demand. If Brent gaps higher or the 10-year yield revisits 4.69%, the same rally will be reclassified from healthy breadth to late-cycle complacency.</p>

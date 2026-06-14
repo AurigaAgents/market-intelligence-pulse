@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-18</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: not_started</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -45,25 +53,35 @@
 <p>The so what from Monday&#x27;s tape is that global markets are trading as one oil-to-yields complex. Brent is in the $111 area, WTI is still above $105, the US 10-year is around 4.59%, and Germany&#x27;s 10-year Bund touched 3.19% before easing. That mix is not a clean growth scare and not a simple geopolitical headline trade. It is a supply shock moving through inflation expectations, central-bank paths, sovereign yields, and then equity multiples.</p>
 <p>US cash had not opened when the US segment was filed, so the US equity anchor is Friday&#x27;s close: S&amp;P 500 7,408.50, Nasdaq 26,225.14, Dow 49,526.17, Russell 2000 2,793.30, and VIX 18.43. The Monday message came from weaker futures, higher oil, and a 10-year yield pressing back toward 4.60%. Europe confirmed the live stress: STOXX 600 603.64, down 0.54%, with Bunds still near decade-high territory. Asia was already mixed-to-lower, led by Nikkei and Hang Seng weakness, while Shanghai and KOSPI showed pockets of resilience. Sentiment is the important nuance: institutions are hedging, but retail and ETF flows have not capitulated.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Driver | US | Europe | Asia | Macro / Sentiment |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Oil and Iran risk | Futures lower as Brent trades near $110+ | Central driver; Brent $111.25 and inflation fear dominate | Broad risk-off pressure hit Hong Kong and Japan | WTI $105.31, Brent references in the $111-$115 zone |</code></pre>
-<pre class="table-line"><code>| Yield repricing | 10Y near 4.59%; Russell underperformed | Bund 3.14%, intraday high 3.19% | BOJ June hike risk pressured Nikkei | Fed/ECB/BoE stay defensive; DXY soft at 99.08 |</code></pre>
-<pre class="table-line"><code>| Equity dispersion | S&amp;P -1.24%, Nasdaq -1.54%, Russell -2.40% Friday | STOXX softer; DAX rebounded intraday; FTSE flat | Nikkei -0.97%, Hang Seng -1.11%, KOSPI +0.31% | Copper -3.09% says demand is not confirming oil&#x27;s surge |</code></pre>
-<pre class="table-line"><code>| Positioning | VIX elevated, not panic | Multiple compression outside energy | Korea&#x27;s sharp volatility shows fragile risk appetite | Equity put/call 0.59 vs index put/call 1.03: retail long, pros hedged |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Driver</th><th>US</th><th>Europe</th><th>Asia</th><th>Macro / Sentiment</th></tr></thead>
+<tbody>
+<tr><td>Oil and Iran risk</td><td>Futures lower as Brent trades near $110+</td><td>Central driver; Brent $111.25 and inflation fear dominate</td><td>Broad risk-off pressure hit Hong Kong and Japan</td><td>WTI $105.31, Brent references in the $111-$115 zone</td></tr>
+<tr><td>Yield repricing</td><td>10Y near 4.59%; Russell underperformed</td><td>Bund 3.14%, intraday high 3.19%</td><td>BOJ June hike risk pressured Nikkei</td><td>Fed/ECB/BoE stay defensive; DXY soft at 99.08</td></tr>
+<tr><td>Equity dispersion</td><td>S&amp;P -1.24%, Nasdaq -1.54%, Russell -2.40% Friday</td><td>STOXX softer; DAX rebounded intraday; FTSE flat</td><td>Nikkei -0.97%, Hang Seng -1.11%, KOSPI +0.31%</td><td>Copper -3.09% says demand is not confirming oil&#x27;s surge</td></tr>
+<tr><td>Positioning</td><td>VIX elevated, not panic</td><td>Multiple compression outside energy</td><td>Korea&#x27;s sharp volatility shows fragile risk appetite</td><td>Equity put/call 0.59 vs index put/call 1.03: retail long, pros hedged</td></tr>
+</tbody>
+</table>
+</div>
 <h3>What Drove the Day</h3>
 <p><strong>1. Oil is now the market&#x27;s first input.</strong> The rejected European cycle had understated the oil move; the corrected EU report puts Brent at $111.25, up 1.83% on the day and almost 70% year over year. The exact Brent reference differs by source and timestamp, but every accepted or corrected input agrees on direction: crude is elevated enough to reprice inflation risk. That is why the market is not treating the Iran story as a one-day headline.</p>
 <p><strong>2. Bonds are translating oil into equity stress.</strong> The US 10-year near 4.59% and the Bund high at 3.19% matter more than the index point moves. Equity investors can absorb higher oil when growth is accelerating. They struggle with higher oil when sovereign yields rise at the same time. Small caps are the cleanest US expression of that pressure, while European real estate, utilities, and non-energy cyclicals are vulnerable if Bunds break 3.20%.</p>
 <p><strong>3. Asia is adding a policy channel.</strong> Japan&#x27;s Nikkei fell 0.97% as investors positioned for a Bank of Japan move toward 1.0% in June. Hong Kong fell 1.11% with the regional risk-off tone. Shanghai was nearly flat and KOSPI closed slightly higher after extreme volatility, but those pockets of resilience do not overturn the global signal; they show that the pain is uneven rather than absent.</p>
 <p><strong>4. Sentiment has not broken yet.</strong> VIX at 18.43 is elevated but below the 20 handle that typically changes systematic behavior. AAII&#x27;s bull-bear spread is still positive at +2.71%. Equity put/call at 0.59 says single-name traders are still bullish-coded, while index put/call at 1.03 says professional hedging demand is real. This is hedged greed, not panic.</p>
 <h3>Risk Dashboard</h3>
-<pre class="table-line"><code>| Risk | Trigger | Impact | Watch level |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Oil shock extends | Brent holds above $110-$112 | Higher inflation premia and lower equity multiples | Brent $112 |</code></pre>
-<pre class="table-line"><code>| Duration stress broadens | US 10Y closes above 4.60% or Bund breaks 3.20% | Small caps, real estate, utilities, growth multiples weaken | US 10Y 4.60%; Bund 3.20% |</code></pre>
-<pre class="table-line"><code>| Sentiment flips | VIX takes a 20 handle and retail put/call rises | Hedged greed turns into active de-risking | VIX 20; equity P/C 0.70 |</code></pre>
-<pre class="table-line"><code>| Asia policy pressure | BOJ June hike pricing hardens | Nikkei and USD/JPY volatility rise | USD/JPY 158-159 |</code></pre>
-<pre class="table-line"><code>| De-escalation squeeze | Gulf diplomacy lowers crude quickly | Shorts and hedges become rebound fuel | Brent below $108 |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th>Trigger</th><th>Impact</th><th>Watch level</th></tr></thead>
+<tbody>
+<tr><td>Oil shock extends</td><td>Brent holds above $110-$112</td><td>Higher inflation premia and lower equity multiples</td><td>Brent $112</td></tr>
+<tr><td>Duration stress broadens</td><td>US 10Y closes above 4.60% or Bund breaks 3.20%</td><td>Small caps, real estate, utilities, growth multiples weaken</td><td>US 10Y 4.60%; Bund 3.20%</td></tr>
+<tr><td>Sentiment flips</td><td>VIX takes a 20 handle and retail put/call rises</td><td>Hedged greed turns into active de-risking</td><td>VIX 20; equity P/C 0.70</td></tr>
+<tr><td>Asia policy pressure</td><td>BOJ June hike pricing hardens</td><td>Nikkei and USD/JPY volatility rise</td><td>USD/JPY 158-159</td></tr>
+<tr><td>De-escalation squeeze</td><td>Gulf diplomacy lowers crude quickly</td><td>Shorts and hedges become rebound fuel</td><td>Brent below $108</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-Segment Synthesis</h3>
 <p>The stance is <strong>Neutral-to-Risk-Off with a stagflation bias</strong>. The bearish case is not simply that equities are down. It is that the same upstream factor explains the pressure across regions: crude lifts inflation fear, inflation fear lifts yields, yields compress multiples, and the dollar is not providing a classic safe-haven offset. The soft DXY near 99.08 is especially important because it means US rates can rise without the usual clean dollar refuge narrative.</p>
 <p>The best bullish argument is positioning. Investors are not washed out; they are hedged while still long. If Brent retreats below $108 and the US 10-year backs away from 4.60%, that hedging can be monetized and the dip-buying reflex can reassert itself, especially in small caps and growth. If Brent breaks $112 while Bunds and Treasuries stay bid, the next leg is less about headlines and more about mechanical multiple compression.</p>

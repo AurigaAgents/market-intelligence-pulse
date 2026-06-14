@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-07</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: not_started</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,13 +52,18 @@
 <h3>So What</h3>
 <p>Markets have moved from pricing the Iran/Hormuz shock as a one-way supply crisis to treating diplomacy as the new base case. The repricing is broad: Brent&#x27;s May 6 collapse pulled yields lower, sent US stocks to fresh records, let Europe digest a 2% rally with only mild profit-taking, and gave Japan a violent Golden Week catch-up bid. But the tape is not clean euphoria. Gold and silver are still firm, retail sentiment remains skeptical, and the whole structure depends on a U.S.-Iran framework that is not yet signed. The day&#x27;s message: risk-on, but with a geopolitical circuit breaker.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Tone | Headline move | Real driver |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| **US** | Broad risk-on, record highs | May 6 close: S&amp;P 500 7,365.12, +1.46%; Nasdaq 25,838.94, +2.02%; Dow 49,910.59, +1.24%; Russell 2000 2,886.77, +1.47%; VIX 17.39 | Iran-deal optimism compressed the oil/yield shock and pulled cyclicals, small caps, and industrials higher. AMD&#x27;s data-center guidance and a broader AI-capex bid amplified tech leadership, but breadth says the broader move was geopolitical relief, not just semiconductors. |</code></pre>
-<pre class="table-line"><code>| **EU** | Consolidation after relief rally | STOXX 600 rose 2.22% on May 6 to 623.25, then traded about 0.3% lower May 7 midday; DAX/CAC also slipped modestly; FTSE lagged | Profit-taking followed a sharp de-escalation rally. Brent below/near $100 hurt energy-heavy FTSE but helped the continental disinflation story. Bund yields slipping below 3% restored support for duration-sensitive cyclicals. |</code></pre>
-<pre class="table-line"><code>| **Asia** | Japan/Korea risk-on; China muted | Nikkei 225 62,833.84, +5.6%; KOSPI +1.43% to a record; Hang Seng +1.57%; CSI 300 +0.48% | Tokyo reopened after Golden Week and absorbed three sessions of US records, Iran relief, and AI-chip momentum in one print. Korea remained mega-cap AI-led. Mainland China lagged, confirming that this was global-risk sensitivity more than a China-led impulse. |</code></pre>
-<pre class="table-line"><code>| **Macro** | Risk-on with hedges | Brent about $101.96 after May 6&#x27;s -7.8% settle; WTI $95.66; DXY 98.03; gold around $4,702; silver $77.83; Bitcoin near $81,401 | Oil is still the source asset. The dollar softened as safe-haven demand unwound, but metals stayed bid on de-dollarization, tariff, and real-asset hedging. That contradiction is the key macro tell: investors are buying relief, not abandoning insurance. |</code></pre>
-<pre class="table-line"><code>| **Sentiment** | Constructive divergence | CNN Fear &amp; Greed 68.3; VIX mid-to-high teens; CBOE equity put/call 0.57; AAII bull-bear spread -1.6%; QQQ 5-day inflow +$1.39B | Price/flow gauges say greed, but retail surveys still show skepticism. Institutions are adding exposure through large ETFs while households have not capitulated into the rally. That is supportive until it turns into late-cycle retail chase. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Tone</th><th>Headline move</th><th>Real driver</th></tr></thead>
+<tbody>
+<tr><td><strong>US</strong></td><td>Broad risk-on, record highs</td><td>May 6 close: S&amp;P 500 7,365.12, +1.46%; Nasdaq 25,838.94, +2.02%; Dow 49,910.59, +1.24%; Russell 2000 2,886.77, +1.47%; VIX 17.39</td><td>Iran-deal optimism compressed the oil/yield shock and pulled cyclicals, small caps, and industrials higher. AMD&#x27;s data-center guidance and a broader AI-capex bid amplified tech leadership, but breadth says the broader move was geopolitical relief, not just semiconductors.</td></tr>
+<tr><td><strong>EU</strong></td><td>Consolidation after relief rally</td><td>STOXX 600 rose 2.22% on May 6 to 623.25, then traded about 0.3% lower May 7 midday; DAX/CAC also slipped modestly; FTSE lagged</td><td>Profit-taking followed a sharp de-escalation rally. Brent below/near $100 hurt energy-heavy FTSE but helped the continental disinflation story. Bund yields slipping below 3% restored support for duration-sensitive cyclicals.</td></tr>
+<tr><td><strong>Asia</strong></td><td>Japan/Korea risk-on; China muted</td><td>Nikkei 225 62,833.84, +5.6%; KOSPI +1.43% to a record; Hang Seng +1.57%; CSI 300 +0.48%</td><td>Tokyo reopened after Golden Week and absorbed three sessions of US records, Iran relief, and AI-chip momentum in one print. Korea remained mega-cap AI-led. Mainland China lagged, confirming that this was global-risk sensitivity more than a China-led impulse.</td></tr>
+<tr><td><strong>Macro</strong></td><td>Risk-on with hedges</td><td>Brent about $101.96 after May 6&#x27;s -7.8% settle; WTI $95.66; DXY 98.03; gold around $4,702; silver $77.83; Bitcoin near $81,401</td><td>Oil is still the source asset. The dollar softened as safe-haven demand unwound, but metals stayed bid on de-dollarization, tariff, and real-asset hedging. That contradiction is the key macro tell: investors are buying relief, not abandoning insurance.</td></tr>
+<tr><td><strong>Sentiment</strong></td><td>Constructive divergence</td><td>CNN Fear &amp; Greed 68.3; VIX mid-to-high teens; CBOE equity put/call 0.57; AAII bull-bear spread -1.6%; QQQ 5-day inflow +$1.39B</td><td>Price/flow gauges say greed, but retail surveys still show skepticism. Institutions are adding exposure through large ETFs while households have not capitulated into the rally. That is supportive until it turns into late-cycle retail chase.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p>1. <strong>The deal is still a headline, not a settlement.</strong> Markets are treating the reported one-page U.S.-Iran framework as high probability, while Trump simultaneously described signing as too soon and kept military pressure in the background. If Tehran rejects the framework or the 48-hour response window slips, the first reversal should appear in Brent and WTI.</p>
 <p>2. <strong>Brent $100 is the truth test.</strong> A sustained break below $100 would validate the disinflation and supply-relief narrative. A rebound through $108-$110 would tell equities that the peace premium was marked too aggressively.</p>

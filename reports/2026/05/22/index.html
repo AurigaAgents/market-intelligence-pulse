@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-22</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,26 +52,36 @@
 <h3>Opening Take</h3>
 <p>The so what from Friday&#x27;s bundle is that markets are accepting risk again, but only where the rate and geopolitical math still works. Asia delivered the strongest equity signal: Nikkei +2.68%, Hang Seng +0.90%, and Shanghai +0.89%, with USD/JPY still just below the 160 intervention line. Europe was also firmer intraday, helped by easing Bund yields and a STOXX 600 print near early-May resistance. The US tape was calmer and more selective: large-cap indices were little changed around the prior close while Russell 2000 outperformed. The counterweight is macro. Brent rebounded almost 3% to about $105.62 as the Hormuz premium returned, DXY held near 99.3, and central-bank expectations stayed hawkish enough to cap the rally. This is not a clean all-clear. It is a selective risk-on session with an oil-and-rates ceiling.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Driver | US | Europe | Asia | Macro / Sentiment |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Equity tone | Neutral; S&amp;P futures near 7,475 and Nasdaq barely positive Thursday, but Russell +0.93% | Positive intraday; DAX +0.48%, STOXX 600 +0.53% | Broadly risk-on; Nikkei +2.68%, HSI +0.90%, Shanghai +0.89% | CNN Fear &amp; Greed 60, but AAII bull-bear spread -11.9 |</code></pre>
-<pre class="table-line"><code>| Rates / FX | 10Y around 4.59%; 4.60%-4.65% is the stress zone | Bund 10Y eased to about 3.06%, supporting bond proxies | USD/JPY 158.93 keeps exporter tailwind alive, but raises intervention risk | DXY around 99.30-99.35 holds the dollar bid |</code></pre>
-<pre class="table-line"><code>| Geopolitics / oil | Thin Memorial Day-eve liquidity vulnerable to weekend headlines | Iran/Hormuz risk still the external shock channel | Regional equities traded relief and currency stability | Brent +2.96% says supply premium is not gone |</code></pre>
-<pre class="table-line"><code>| Positioning | Small-cap rotation hints at breadth, not broad conviction | Resistance just above current STOXX/DAX levels | Japan momentum confirmed; China recovered but remains weekly soft | VIX near 17 and equity put/call 0.49 are not panic |</code></pre>
-<pre class="table-line"><code>| Caveat | Pre-open/futures timing matters | Cash session was still open at collection | Asia data were final closes and verified | Oil/gold/gas magnitudes vary by snapshot |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Driver</th><th>US</th><th>Europe</th><th>Asia</th><th>Macro / Sentiment</th></tr></thead>
+<tbody>
+<tr><td>Equity tone</td><td>Neutral; S&amp;P futures near 7,475 and Nasdaq barely positive Thursday, but Russell +0.93%</td><td>Positive intraday; DAX +0.48%, STOXX 600 +0.53%</td><td>Broadly risk-on; Nikkei +2.68%, HSI +0.90%, Shanghai +0.89%</td><td>CNN Fear &amp; Greed 60, but AAII bull-bear spread -11.9</td></tr>
+<tr><td>Rates / FX</td><td>10Y around 4.59%; 4.60%-4.65% is the stress zone</td><td>Bund 10Y eased to about 3.06%, supporting bond proxies</td><td>USD/JPY 158.93 keeps exporter tailwind alive, but raises intervention risk</td><td>DXY around 99.30-99.35 holds the dollar bid</td></tr>
+<tr><td>Geopolitics / oil</td><td>Thin Memorial Day-eve liquidity vulnerable to weekend headlines</td><td>Iran/Hormuz risk still the external shock channel</td><td>Regional equities traded relief and currency stability</td><td>Brent +2.96% says supply premium is not gone</td></tr>
+<tr><td>Positioning</td><td>Small-cap rotation hints at breadth, not broad conviction</td><td>Resistance just above current STOXX/DAX levels</td><td>Japan momentum confirmed; China recovered but remains weekly soft</td><td>VIX near 17 and equity put/call 0.49 are not panic</td></tr>
+<tr><td>Caveat</td><td>Pre-open/futures timing matters</td><td>Cash session was still open at collection</td><td>Asia data were final closes and verified</td><td>Oil/gold/gas magnitudes vary by snapshot</td></tr>
+</tbody>
+</table>
+</div>
 <h3>What Drove The Day</h3>
 <p><strong>1. Equity investors bought relief, not certainty.</strong> Asia was the cleanest confirmation. The Nikkei&#x27;s close above 63,000 was verified against the official Nikkei feed, and the yen staying just under 160 kept the exporter story intact. Hong Kong and Shanghai also rose, but their weekly numbers remained negative, so the China read is recovery rather than breakout. Europe joined the bid through lower yields and rate-sensitive support, with the STOXX 600 pressing the 624 area.</p>
 <p><strong>2. The US signal was rotation under a rates constraint.</strong> The US report shows a flat headline tape around the S&amp;P futures pivot and a barely positive Nasdaq, while Russell 2000 gained 0.93%. That is useful breadth, but it sits under a 10-year yield around 4.59%. If 4.60% becomes support for yields rather than resistance, the same setup can flip quickly against long-duration technology and small-cap balance sheets.</p>
 <p><strong>3. Oil is the market&#x27;s unresolved contradiction.</strong> Brent at roughly $105.62 and +2.96% is not consistent with a fully de-risked geopolitical backdrop. The accepted macro review specifically separated the five-day de-escalation trend from Friday&#x27;s renewed Hormuz premium. That matters for equities because supply-led oil strength is inflationary without being growth-positive.</p>
 <p><strong>4. Sentiment is fragile, not washed out.</strong> AAII showed optimism disappearing: bulls fell to 31.7%, bears rose to 43.6%, and the bull-bear spread dropped to -11.9 points. Yet Cboe&#x27;s equity put/call ratio at 0.49 remains call-heavy, CNN Fear &amp; Greed stayed in greed at 60, and VIX hovered around 17. Investors are worried in surveys, but they have not hedged like a market in fear.</p>
 <h3>Risk Dashboard</h3>
-<pre class="table-line"><code>| Risk | Trigger | Market impact | Watch level |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Yield stress returns | US 10Y clears 4.62%-4.65% | Nasdaq and small caps lose the rotation bid | 10Y 4.60% first line |</code></pre>
-<pre class="table-line"><code>| Oil premium widens | US-Iran/Hormuz headlines worsen into the weekend | Inflation pressure rises; Europe/Asia importers fade | Brent $106.50, then $110 |</code></pre>
-<pre class="table-line"><code>| Yen intervention risk | USD/JPY breaks and holds above 160 | Nikkei exporter rally becomes policy-sensitive | USD/JPY 160 |</code></pre>
-<pre class="table-line"><code>| Sentiment catches down | VIX closes above 20 while AAII bears stay above 40% | Call-heavy positioning becomes vulnerable | VIX 20, F&amp;G below 55 |</code></pre>
-<pre class="table-line"><code>| Europe stalls at resistance | STOXX 600 fails near 624 and Bund relief reverses | Intraday risk-on becomes another fade | STOXX 600 624/628 |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th>Trigger</th><th>Market impact</th><th>Watch level</th></tr></thead>
+<tbody>
+<tr><td>Yield stress returns</td><td>US 10Y clears 4.62%-4.65%</td><td>Nasdaq and small caps lose the rotation bid</td><td>10Y 4.60% first line</td></tr>
+<tr><td>Oil premium widens</td><td>US-Iran/Hormuz headlines worsen into the weekend</td><td>Inflation pressure rises; Europe/Asia importers fade</td><td>Brent $106.50, then $110</td></tr>
+<tr><td>Yen intervention risk</td><td>USD/JPY breaks and holds above 160</td><td>Nikkei exporter rally becomes policy-sensitive</td><td>USD/JPY 160</td></tr>
+<tr><td>Sentiment catches down</td><td>VIX closes above 20 while AAII bears stay above 40%</td><td>Call-heavy positioning becomes vulnerable</td><td>VIX 20, F&amp;G below 55</td></tr>
+<tr><td>Europe stalls at resistance</td><td>STOXX 600 fails near 624 and Bund relief reverses</td><td>Intraday risk-on becomes another fade</td><td>STOXX 600 624/628</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-Segment Synthesis</h3>
 <p>The global stance is <strong>Neutral with a selective risk-on bias</strong>. The positive case is real: Asian closes were verified, Europe was bid, volatility stayed contained, and US small caps outperformed. The negative case is also real: oil&#x27;s supply premium returned, the dollar held firm, and yields remain too close to the stress zone to call the rally durable.</p>
 <p>The next useful confirmation is not another green index print. It is whether the rally can survive Brent above $105 and the US 10-year near 4.6%. If oil rolls over and yields stay contained, Friday&#x27;s breadth can extend after the long US weekend. If Brent pushes toward $110 or USD/JPY forces policy concern, the market will likely reprice this as a geopolitics-driven inflation shock rather than a benign relief rally. Until then, own the selective leadership, but do not mistake it for a global all-clear.</p>

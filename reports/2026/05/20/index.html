@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-20</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: not_started</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -45,26 +53,36 @@
 <p>The so what from Wednesday&#x27;s market bundle is that the oil shock is no longer traveling alone. It is moving through the bond market, and the bond market is doing the equity damage. US stocks have fallen for three sessions since the S&amp;P 500&#x27;s May 13 record, with the 10-year Treasury at 4.667% and the Nasdaq underperforming. Europe rallied, but not because the inflation problem disappeared; it rallied because oil eased intraday while the ECB hawkish frame stayed in place. Asia was weaker as global duration stress reached Japan&#x27;s bond market and pushed investors out of rate-sensitive technology. Macro assets were mixed: copper and bitcoin held bids, Brent stayed above $110, and gold stabilized near $4,500 after a monthly drawdown.</p>
 <p>This is not panic. VIX at 18.23 is still below the threshold that usually marks forced de-risking. It is a repricing of the discount rate under geopolitical uncertainty. The market can still recover if crude keeps falling and yields back away. But the cushion is thinner than it looks.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Driver | US | Europe | Asia | Macro / Sentiment |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Rates | US 10Y 4.667%, 2Y near 4.09%; tech and small caps lagged | Bund 10Y eased to 2.90%, but ECB deposit rate is 2.00% with hike risk alive | Japanese yield pressure fed a regional risk-off session | Yield stress is the main transmission channel; VIX higher but not broken |</code></pre>
-<pre class="table-line"><code>| Oil and geopolitics | Iran and crude keep inflation worries in the tape | Oil pullback helped equities rebound, but ECB inflation risk remains | Energy risk adds caution across import-sensitive markets | Brent near $111.50, down modestly but still elevated |</code></pre>
-<pre class="table-line"><code>| Equity tone | S&amp;P -0.67%, Nasdaq -0.80%, Russell -1.01% | STOXX 600 +0.54%, DAX +0.65%, CAC +0.70% | Nikkei -1.23%, Hang Seng -0.57%, Shanghai roughly flat-to-lower | Copper +0.87% and BTC near $77,400 argue against broad liquidation |</code></pre>
-<pre class="table-line"><code>| Policy frame | Higher yields push back against easy-risk assumptions | ECB is not in a cut cycle; market leans toward 2026 hikes | BOJ/JGB pressure is part of the global duration reset | Central banks have less room to cushion an oil-driven inflation shock |</code></pre>
-<pre class="table-line"><code>| Caveat | Reviewed and accepted | Cycle 2 corrected and accepted | Best-available, not yet reviewed | No standalone sentiment segment; sentiment read uses VIX, dollar and price action |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Driver</th><th>US</th><th>Europe</th><th>Asia</th><th>Macro / Sentiment</th></tr></thead>
+<tbody>
+<tr><td>Rates</td><td>US 10Y 4.667%, 2Y near 4.09%; tech and small caps lagged</td><td>Bund 10Y eased to 2.90%, but ECB deposit rate is 2.00% with hike risk alive</td><td>Japanese yield pressure fed a regional risk-off session</td><td>Yield stress is the main transmission channel; VIX higher but not broken</td></tr>
+<tr><td>Oil and geopolitics</td><td>Iran and crude keep inflation worries in the tape</td><td>Oil pullback helped equities rebound, but ECB inflation risk remains</td><td>Energy risk adds caution across import-sensitive markets</td><td>Brent near $111.50, down modestly but still elevated</td></tr>
+<tr><td>Equity tone</td><td>S&amp;P -0.67%, Nasdaq -0.80%, Russell -1.01%</td><td>STOXX 600 +0.54%, DAX +0.65%, CAC +0.70%</td><td>Nikkei -1.23%, Hang Seng -0.57%, Shanghai roughly flat-to-lower</td><td>Copper +0.87% and BTC near $77,400 argue against broad liquidation</td></tr>
+<tr><td>Policy frame</td><td>Higher yields push back against easy-risk assumptions</td><td>ECB is not in a cut cycle; market leans toward 2026 hikes</td><td>BOJ/JGB pressure is part of the global duration reset</td><td>Central banks have less room to cushion an oil-driven inflation shock</td></tr>
+<tr><td>Caveat</td><td>Reviewed and accepted</td><td>Cycle 2 corrected and accepted</td><td>Best-available, not yet reviewed</td><td>No standalone sentiment segment; sentiment read uses VIX, dollar and price action</td></tr>
+</tbody>
+</table>
+</div>
 <h3>What Drove The Day</h3>
 <p><strong>1. Duration is the common language.</strong> The US selloff, Europe&#x27;s relief rally, Japan&#x27;s bond stress and macro dispersion all point back to yields. US equities are not reacting only to Middle East headlines; they are reacting to the higher discount rate those headlines imply. Nasdaq and Russell weakness are consistent with that mechanism: long-duration growth and externally financed smaller companies pay first when yields rise.</p>
 <p><strong>2. Europe is rallying inside a hawkish regime.</strong> The STOXX 600, DAX and CAC recovered as crude eased, but the accepted EU cycle corrected an important point: the ECB deposit rate is 2.00%, not 2.50%, and the policy debate has shifted toward hold-or-hike risk, not more cuts. That makes the rally narrower than the headline. It is relief from the oil tick, not a clean easing signal.</p>
 <p><strong>3. Asia shows the global bond spillover.</strong> The Nikkei fell below 60,000, Hong Kong slipped, and mainland China was only slightly lower. The most useful signal is not the exact index spread; it is that Japanese yield pressure is now part of the same global duration reset that hit US Treasuries. Asian technology also de-risked ahead of major US AI earnings, keeping the region exposed to the next Wall Street catalyst.</p>
 <p><strong>4. Macro is not recessionary yet.</strong> Brent above $110 keeps inflation risk alive, but copper strength near $6.22 and bitcoin holding around $77,400 do not look like an across-the-board growth scare. Gold near $4,500 is better described as stabilization after liquidation than a fresh safety stampede. The cross-asset message is selective risk-taking under tighter financial conditions.</p>
 <h3>Risk Dashboard</h3>
-<pre class="table-line"><code>| Risk | Trigger | Market impact | Watch level |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Bond selloff extends | US 10Y moves toward 4.75% | Nasdaq, small caps and high-duration sectors lose support | US 10Y 4.75% |</code></pre>
-<pre class="table-line"><code>| Oil shock re-accelerates | Brent retakes $115 or Hormuz risk worsens | Inflation premium rises; ECB/Fed optionality narrows | Brent $115 |</code></pre>
-<pre class="table-line"><code>| Asia duration stress broadens | JGB curve pressure pulls global yields higher | Japan tech/exporters and global bond proxies weaken | Nikkei 60,000; USD/JPY 159 |</code></pre>
-<pre class="table-line"><code>| Sentiment breaks | VIX takes a 20 handle | Hedged selling becomes forced de-risking | VIX 20 |</code></pre>
-<pre class="table-line"><code>| Relief rally validates | Oil holds below $108 and yields fall | Equities can reprice Wednesday as a rates scare, not regime change | Brent $108; US 10Y 4.55% |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th>Trigger</th><th>Market impact</th><th>Watch level</th></tr></thead>
+<tbody>
+<tr><td>Bond selloff extends</td><td>US 10Y moves toward 4.75%</td><td>Nasdaq, small caps and high-duration sectors lose support</td><td>US 10Y 4.75%</td></tr>
+<tr><td>Oil shock re-accelerates</td><td>Brent retakes $115 or Hormuz risk worsens</td><td>Inflation premium rises; ECB/Fed optionality narrows</td><td>Brent $115</td></tr>
+<tr><td>Asia duration stress broadens</td><td>JGB curve pressure pulls global yields higher</td><td>Japan tech/exporters and global bond proxies weaken</td><td>Nikkei 60,000; USD/JPY 159</td></tr>
+<tr><td>Sentiment breaks</td><td>VIX takes a 20 handle</td><td>Hedged selling becomes forced de-risking</td><td>VIX 20</td></tr>
+<tr><td>Relief rally validates</td><td>Oil holds below $108 and yields fall</td><td>Equities can reprice Wednesday as a rates scare, not regime change</td><td>Brent $108; US 10Y 4.55%</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-Segment Synthesis</h3>
 <p>The global stance is <strong>Neutral-to-Risk-Off with a duration-stress bias</strong>. The equity tape is not uniformly weak: Europe rallied, China held up better than Japan, and copper plus bitcoin remain resilient. But the organizing risk is clear. Elevated oil keeps inflation alive, inflation keeps central banks constrained, and constrained central banks make bond yields the market&#x27;s main shock absorber.</p>
 <p>The bullish path requires three things at once: Brent below $108, the US 10-year back toward 4.55%, and AI earnings strong enough to stop tech de-risking. The bearish path is simpler: Brent stays above $110, the US 10-year tests 4.75%, and VIX finally breaks 20. In that case, this becomes less about geopolitics and more about mechanical multiple compression.</p>

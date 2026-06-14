@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-11</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: not_started</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,13 +52,18 @@
 <h3>So What</h3>
 <p>The day is not a simple risk-on session. It is a market trying to carry equity momentum while the energy shock refuses to leave the tape. Brent is still above the $100 line, Europe is pricing the shock through Bunds and ECB-hike risk, and Asia split between a Korean AI melt-up and oil-sensitive importers. US equities can still grind higher, but the rejected US segment means the only defensible US read is cautious: reviewer-corrected figures show modest index gains, not a clean volatility-crush rally. The global signal is therefore selective risk appetite under stagflation pressure, with Tuesday&#x27;s CPI as the next gate.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Tone | Headline move | Real driver |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| **US** | Constructive, but unapproved and caveated | Reviewer-corrected snapshot: S&amp;P 500 roughly 7,423 (+0.32%), Nasdaq Composite roughly 26,339 (+0.35%), Russell 2000 roughly 2,883 (+0.76%); VIX in the 17–18+ zone and up, not down. | The rejected US attempts cannot support a &quot;VIX collapse equals risk-on&quot; story. The usable signal is narrower: equities were modestly bid while volatility stayed elevated enough to warn against calling the session complacent. CPI remains the immediate event risk. |</code></pre>
-<pre class="table-line"><code>| **Europe** | Flat index tape, stagflation tilt | FTSE 100 around 8,650; DAX around 22,800; CAC around 7,690; FTSE MIB around 37,400; Bund 10Y near 3.00%; Brent around $103.93. | Trump&#x27;s rejection of Iran&#x27;s counterproposal kept the Strait of Hormuz shock alive. Energy majors and defense names help, while discretionary and rate-sensitive real estate remain the pressure points. ECB June hike pricing above 75% is the clearest expression of imported-inflation anxiety. |</code></pre>
-<pre class="table-line"><code>| **Asia** | Split; Korea risk-on, Japan/HK cautious | Unreviewed Asia snapshot: KOSPI 7,822.24 (+4.32%); Nikkei 62,417.88 (-0.47%); Topix 3,840.93 (+0.30%); Hang Seng 26,295.41 (-0.37%); CSI 300 4,951.84 (+1.64%). | Korea broke out on AI-memory leadership, with SK Hynix reportedly up more than 11%. Japan and Hong Kong were more exposed to yen, oil, and geopolitical drag. Mainland China held a policy/AI bid while Hong Kong carried a foreign-positioning discount. |</code></pre>
-<pre class="table-line"><code>| **Macro** | Neutral with stagflation risk | Brent $103.93; WTI about $95.42; gold $4,724; silver about $61.20; copper about $12,040/t; DXY 97.90; Bitcoin $80,817. | Hormuz remains the dominant macro variable. Oil is high enough to keep inflation risk alive, but gold was softer on the day because the real-rate channel outweighed pure safe-haven demand. Copper and silver still look industrial-led rather than fear-led. |</code></pre>
-<pre class="table-line"><code>| **Sentiment** | Risk-on, not euphoric | CNN Fear &amp; Greed 67, in Greed; VIX 18.30; AAII 38.3% bull / 33.0% bear / 28.7% neutral; Cboe equity put/call 0.53. | The fear-to-greed reversal is real, and options demand is call-heavy. But retail sentiment is only mildly bullish, bearishness remains material, and VIX near 18 is still above a calm bull-market comfort zone. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Tone</th><th>Headline move</th><th>Real driver</th></tr></thead>
+<tbody>
+<tr><td><strong>US</strong></td><td>Constructive, but unapproved and caveated</td><td>Reviewer-corrected snapshot: S&amp;P 500 roughly 7,423 (+0.32%), Nasdaq Composite roughly 26,339 (+0.35%), Russell 2000 roughly 2,883 (+0.76%); VIX in the 17–18+ zone and up, not down.</td><td>The rejected US attempts cannot support a &quot;VIX collapse equals risk-on&quot; story. The usable signal is narrower: equities were modestly bid while volatility stayed elevated enough to warn against calling the session complacent. CPI remains the immediate event risk.</td></tr>
+<tr><td><strong>Europe</strong></td><td>Flat index tape, stagflation tilt</td><td>FTSE 100 around 8,650; DAX around 22,800; CAC around 7,690; FTSE MIB around 37,400; Bund 10Y near 3.00%; Brent around $103.93.</td><td>Trump&#x27;s rejection of Iran&#x27;s counterproposal kept the Strait of Hormuz shock alive. Energy majors and defense names help, while discretionary and rate-sensitive real estate remain the pressure points. ECB June hike pricing above 75% is the clearest expression of imported-inflation anxiety.</td></tr>
+<tr><td><strong>Asia</strong></td><td>Split; Korea risk-on, Japan/HK cautious</td><td>Unreviewed Asia snapshot: KOSPI 7,822.24 (+4.32%); Nikkei 62,417.88 (-0.47%); Topix 3,840.93 (+0.30%); Hang Seng 26,295.41 (-0.37%); CSI 300 4,951.84 (+1.64%).</td><td>Korea broke out on AI-memory leadership, with SK Hynix reportedly up more than 11%. Japan and Hong Kong were more exposed to yen, oil, and geopolitical drag. Mainland China held a policy/AI bid while Hong Kong carried a foreign-positioning discount.</td></tr>
+<tr><td><strong>Macro</strong></td><td>Neutral with stagflation risk</td><td>Brent $103.93; WTI about $95.42; gold $4,724; silver about $61.20; copper about $12,040/t; DXY 97.90; Bitcoin $80,817.</td><td>Hormuz remains the dominant macro variable. Oil is high enough to keep inflation risk alive, but gold was softer on the day because the real-rate channel outweighed pure safe-haven demand. Copper and silver still look industrial-led rather than fear-led.</td></tr>
+<tr><td><strong>Sentiment</strong></td><td>Risk-on, not euphoric</td><td>CNN Fear &amp; Greed 67, in Greed; VIX 18.30; AAII 38.3% bull / 33.0% bear / 28.7% neutral; Cboe equity put/call 0.53.</td><td>The fear-to-greed reversal is real, and options demand is call-heavy. But retail sentiment is only mildly bullish, bearishness remains material, and VIX near 18 is still above a calm bull-market comfort zone.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p>1. <strong>Brent above $100 is the load-bearing macro fact.</strong> The EU and macro reviews both support the same conclusion: Hormuz has not been resolved, and Brent in the $100–105 corridor is strong enough to keep inflation and policy-risk premia alive.</p>
 <p>2. <strong>The ECB is the cleanest policy stress point.</strong> June hike pricing above 75% marks a full inversion from the earlier cut-cycle consensus. If energy inflation persists, Europe faces the classic bad mix: higher input costs, slower demand, and a central bank unable to lean dovish.</p>

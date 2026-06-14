@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-06-02</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: not_started</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,21 +52,31 @@
 <h3>So what</h3>
 <p>Markets are still leaning risk-on, but the engine is narrower and the macro ceiling is lower. US equities came into Tuesday from record closes, powered by a discriminatory AI hardware repricing after Nvidia&#x27;s Computex news. Hong Kong rallied 2.52% and Korea jumped on Samsung, yet Korea&#x27;s breadth was thin and Japan slipped. Oil gave back part of Monday&#x27;s Iran/Hormuz premium, helping Europe ex-UK and easing the inflation impulse, but Brent around $93-$94 and gold above $4,500 say tail risk has not disappeared. The clean read: momentum survives; fragility is concentrated in oil, rates, and breadth.</p>
 <h3>Factor matrix</h3>
-<pre class="table-line"><code>| Segment | Main signal | Key levels | Driver |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| US | Risk-on, stretched | Record S&amp;P 500/Nasdaq/Dow closes; VIX 16.28; 10Y ~4.47% | Nvidia-led AI supply-chain winners offset oil and small-cap pressure. |</code></pre>
-<pre class="table-line"><code>| Europe | Continental risk-on, UK lag | DAX ~25,240; CAC ~8,207; FTSE 10,339; Bund 2.96% | Iran de-escalation and lower Bund yields help DAX/CAC; UK energy exposure drags. |</code></pre>
-<pre class="table-line"><code>| Asia | Risk-on but narrow | Hang Seng 26,038.32; KOSPI 8,788.38; Nikkei 66,734.24 | Hong Kong tech rallied; Korea was Samsung-led; Japan capped by BOJ/yen risk. |</code></pre>
-<pre class="table-line"><code>| Macro | Neutral with risk-off tails | Brent $93-$94; WTI ~$91; gold ~$4,530; DXY ~99 | Oil premium is fading, not gone; gold and lower dollar keep insurance bid alive. |</code></pre>
-<pre class="table-line"><code>| Sentiment | Greed with retail doubt | CNN Fear &amp; Greed 57; put/call 0.70; AAII bears 41.9% | Options remain aggressive while individual investors are still skeptical. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th style="text-align: right">Main signal</th><th style="text-align: right">Key levels</th><th>Driver</th></tr></thead>
+<tbody>
+<tr><td>US</td><td style="text-align: right">Risk-on, stretched</td><td style="text-align: right">Record S&amp;P 500/Nasdaq/Dow closes; VIX 16.28; 10Y ~4.47%</td><td>Nvidia-led AI supply-chain winners offset oil and small-cap pressure.</td></tr>
+<tr><td>Europe</td><td style="text-align: right">Continental risk-on, UK lag</td><td style="text-align: right">DAX ~25,240; CAC ~8,207; FTSE 10,339; Bund 2.96%</td><td>Iran de-escalation and lower Bund yields help DAX/CAC; UK energy exposure drags.</td></tr>
+<tr><td>Asia</td><td style="text-align: right">Risk-on but narrow</td><td style="text-align: right">Hang Seng 26,038.32; KOSPI 8,788.38; Nikkei 66,734.24</td><td>Hong Kong tech rallied; Korea was Samsung-led; Japan capped by BOJ/yen risk.</td></tr>
+<tr><td>Macro</td><td style="text-align: right">Neutral with risk-off tails</td><td style="text-align: right">Brent $93-$94; WTI ~$91; gold ~$4,530; DXY ~99</td><td>Oil premium is fading, not gone; gold and lower dollar keep insurance bid alive.</td></tr>
+<tr><td>Sentiment</td><td style="text-align: right">Greed with retail doubt</td><td style="text-align: right">CNN Fear &amp; Greed 57; put/call 0.70; AAII bears 41.9%</td><td>Options remain aggressive while individual investors are still skeptical.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk dashboard</h3>
-<pre class="table-line"><code>| Risk | Probability | Impact | Trigger |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| Hormuz/Iran premium returns | Medium | High | Brent reclaims $98, or shipping headlines reverse today&#x27;s limited tanker relief. |</code></pre>
-<pre class="table-line"><code>| Rates break momentum | Medium | High | US 10Y above 4.55%-4.60, or payrolls/ISM revive the inflation narrative. |</code></pre>
-<pre class="table-line"><code>| AI concentration unwinds | Medium | Medium-High | Nvidia-linked hardware winners fade, or Samsung-led Korea loses breadth. |</code></pre>
-<pre class="table-line"><code>| Europe loses US beta | Medium | Medium | DAX fails 25,000, CAC loses 8,150, or FTSE breaks 10,300. |</code></pre>
-<pre class="table-line"><code>| Sentiment air pocket | Low-Medium | High | Greed slips below neutral while AAII pessimism stays elevated. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th style="text-align: right">Probability</th><th style="text-align: right">Impact</th><th>Trigger</th></tr></thead>
+<tbody>
+<tr><td>Hormuz/Iran premium returns</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>Brent reclaims $98, or shipping headlines reverse today&#x27;s limited tanker relief.</td></tr>
+<tr><td>Rates break momentum</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>US 10Y above 4.55%-4.60, or payrolls/ISM revive the inflation narrative.</td></tr>
+<tr><td>AI concentration unwinds</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium-High</td><td>Nvidia-linked hardware winners fade, or Samsung-led Korea loses breadth.</td></tr>
+<tr><td>Europe loses US beta</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium</td><td>DAX fails 25,000, CAC loses 8,150, or FTSE breaks 10,300.</td></tr>
+<tr><td>Sentiment air pocket</td><td style="text-align: right">Low-Medium</td><td style="text-align: right">High</td><td>Greed slips below neutral while AAII pessimism stays elevated.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-segment synthesis</h3>
 <p>The common thread is a two-speed market. One track is still rewarding AI supply chains. Nvidia&#x27;s PC-chip news lifted US hardware and semiconductor beneficiaries, while punishing perceived losers such as Qualcomm, Intel, and AMD. Asia repeated the pattern: Hong Kong&#x27;s corrected Hang Seng print at 26,038.32 makes it a real regional leader, and Korea&#x27;s KOSPI surge was powerful enough to matter globally. But the Korean advance came with a warning label: Samsung did most of the work, and only about one-fifth of constituents reportedly rose. That is risk appetite, but not broad risk appetite.</p>
 <p>The second track is macro repricing. Oil is no longer screaming the way it did on Monday&#x27;s Hormuz headlines, but Brent near $93-$94 and WTI near $90-$91 are still high enough to matter for inflation expectations and margins. Reuters-reported tanker movements reduced tail risk at the margin; unresolved US-Iran diplomacy keeps the premium alive. Gold&#x27;s move back toward the $4,530 area and DXY near 99 show the market has not abandoned insurance. It is simply refusing to pay crisis prices while there is evidence of physical flow.</p>

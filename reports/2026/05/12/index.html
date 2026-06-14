@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-12</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: not_started</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,13 +52,18 @@
 <h3>So What</h3>
 <p>Tuesday&#x27;s tape changed the question from “can risk assets absorb expensive oil?” to “can they absorb expensive oil plus a fresh inflation shock?” The approved bundle points to a broadly risk-off session: hot April CPI pushed US yields and the dollar higher, Brent stayed bid near $107.58 as the Iran/Hormuz stress remained unresolved, Europe had to digest oil, UK political risk, and hawkish ECB repricing at once, and Asia saw profit taking in the most crowded AI-beta pocket. The exception is sentiment: investors are still call-heavy and the Fear &amp; Greed index remains in Greed, so this is not capitulation. It is a market whose positioning still looks optimistic while the macro math has become materially less friendly.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Tone | Headline move | Real driver |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| **US** | Risk-Off | S&amp;P 500 futures 5,210.25 (-1.2%), Nasdaq 100 futures 18,340.50 (-1.5%), Dow futures -0.9%; US 10Y 4.62% (+12 bp), 2Y 4.95% (+18 bp), DXY 105.80 (+0.6%). | April CPI was the shock. Core CPI printed +0.4% month over month versus +0.3% expected, pushing Fed-cut expectations toward late Q4 2026 or early 2027 and pressuring long-duration growth stocks. |</code></pre>
-<pre class="table-line"><code>| **Europe** | Risk-Off, not panic | DAX 23,980.50 (-1.52%), FTSE 100 10,232.83 (-0.36%), CAC 40 7,990.20 (-0.82%), EUR/USD 1.17385, Bund 10Y 3.10%, Brent $107.58 (+3.2%). | Three shocks stacked together: oil/Hormuz inflation risk, UK leadership turmoil with the 10Y gilt around 5%, and German CPI at +2.9% y/y keeping ECB hike risk alive. Energy names were the relative winners; banks and rate-sensitive sectors carried the pain. |</code></pre>
-<pre class="table-line"><code>| **Asia** | Mixed to mildly Risk-Off | KOSPI 7,643.15 (-2.29%), Nikkei 62,742.57 (+0.52%), Hang Seng roughly +0.2% to +0.3%, Shanghai slightly negative. | Korea reversed after a crowded semiconductor run, with SK Hynix weakness supporting the profit-taking thesis. Japan was the regional exception, while China and Hong Kong were muted rather than decisive. Hormuz remained a throttle, not a new closure headline. |</code></pre>
-<pre class="table-line"><code>| **Macro** | Risk-Off | Brent $107.58 (+3.2%), WTI $101.61 (+3.08%), US 10Y 4.62%, US 2Y 4.95%, gold $4,693.10 (-0.87%). | The macro impulse is now a two-channel inflation shock: energy is elevated because the Hormuz disruption premium persists, and CPI validated the higher-for-longer rates channel. Gold&#x27;s decline shows real-yield pressure is overpowering haven demand at the margin. |</code></pre>
-<pre class="table-line"><code>| **Sentiment** | Risk-On, complacent | VIX 18.91 (+2.88%), CNN Fear &amp; Greed near 67, Cboe equity put/call 0.53, AAII bullish 38.31%, aggregate ETF inflows about $3.9B. | Investors still lean toward upside exposure. Volatility is firmer but not alarming, retail sentiment is only mildly bullish, and low put/call ratios point to constructive complacency rather than fear. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Tone</th><th>Headline move</th><th>Real driver</th></tr></thead>
+<tbody>
+<tr><td><strong>US</strong></td><td>Risk-Off</td><td>S&amp;P 500 futures 5,210.25 (-1.2%), Nasdaq 100 futures 18,340.50 (-1.5%), Dow futures -0.9%; US 10Y 4.62% (+12 bp), 2Y 4.95% (+18 bp), DXY 105.80 (+0.6%).</td><td>April CPI was the shock. Core CPI printed +0.4% month over month versus +0.3% expected, pushing Fed-cut expectations toward late Q4 2026 or early 2027 and pressuring long-duration growth stocks.</td></tr>
+<tr><td><strong>Europe</strong></td><td>Risk-Off, not panic</td><td>DAX 23,980.50 (-1.52%), FTSE 100 10,232.83 (-0.36%), CAC 40 7,990.20 (-0.82%), EUR/USD 1.17385, Bund 10Y 3.10%, Brent $107.58 (+3.2%).</td><td>Three shocks stacked together: oil/Hormuz inflation risk, UK leadership turmoil with the 10Y gilt around 5%, and German CPI at +2.9% y/y keeping ECB hike risk alive. Energy names were the relative winners; banks and rate-sensitive sectors carried the pain.</td></tr>
+<tr><td><strong>Asia</strong></td><td>Mixed to mildly Risk-Off</td><td>KOSPI 7,643.15 (-2.29%), Nikkei 62,742.57 (+0.52%), Hang Seng roughly +0.2% to +0.3%, Shanghai slightly negative.</td><td>Korea reversed after a crowded semiconductor run, with SK Hynix weakness supporting the profit-taking thesis. Japan was the regional exception, while China and Hong Kong were muted rather than decisive. Hormuz remained a throttle, not a new closure headline.</td></tr>
+<tr><td><strong>Macro</strong></td><td>Risk-Off</td><td>Brent $107.58 (+3.2%), WTI $101.61 (+3.08%), US 10Y 4.62%, US 2Y 4.95%, gold $4,693.10 (-0.87%).</td><td>The macro impulse is now a two-channel inflation shock: energy is elevated because the Hormuz disruption premium persists, and CPI validated the higher-for-longer rates channel. Gold&#x27;s decline shows real-yield pressure is overpowering haven demand at the margin.</td></tr>
+<tr><td><strong>Sentiment</strong></td><td>Risk-On, complacent</td><td>VIX 18.91 (+2.88%), CNN Fear &amp; Greed near 67, Cboe equity put/call 0.53, AAII bullish 38.31%, aggregate ETF inflows about $3.9B.</td><td>Investors still lean toward upside exposure. Volatility is firmer but not alarming, retail sentiment is only mildly bullish, and low put/call ratios point to constructive complacency rather than fear.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p>1. <strong>The CPI print moved the anchor.</strong> The US 2Y at 4.95% and 10Y above 4.60% say the market is not treating April inflation as a rounding error. A core +0.4% MoM print, in an oil-shock environment, makes the Fed-cut timeline harder to defend.</p>
 <p>2. <strong>Oil is still the global transmission belt.</strong> Brent at $107.58 is not just an energy-sector story. It feeds European import costs, keeps inflation expectations tense, and reinforces the US rates reaction by raising future pass-through risk.</p>

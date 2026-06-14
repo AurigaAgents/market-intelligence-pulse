@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-30</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,26 +52,36 @@
 <h3>So what</h3>
 <p>Friday&#x27;s close left global markets in a risk-on regime, but not a clean one. US equities set fresh records, Asia rallied hard, oil and gold fell on a tentative US-Iran truce extension, and sentiment moved into Greed. The catch is breadth: the bid is concentrated in AI infrastructure, semiconductors, and relief from lower energy risk. Small caps slipped, China fell while neighbors rallied, and the US 10-year yield stayed pinned near 4.45% after sticky PCE. This is not a broad soft-landing celebration; it is a crowded AI-capex trade wrapped in geopolitical relief.</p>
 <h3>Factor matrix</h3>
-<pre class="table-line"><code>| Segment | Main signal | Key levels | Driver |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| US | Risk-on, narrow | S&amp;P 500 7,580.06; Nasdaq 26,972.62; Dow 51,032.46 | Dell +32.8%, Snowflake +36%, NetApp/Okta/PagerDuty +26-33%; AI infrastructure repricing offset weak sector breadth. |</code></pre>
-<pre class="table-line"><code>| Europe | Mildly positive | STOXX 600 626.00; DAX 25,104.70; EUR/USD 1.1644; Bund 2.93% | Ceasefire headlines supported equities; Bunds rallied on cooling German inflation while euro strength and softer oil weighed on FTSE energy. |</code></pre>
-<pre class="table-line"><code>| Asia | Strong risk-on, China exception | Nikkei 66,329.50; KOSPI 8,476.15; Hang Seng 25,182; Shanghai 4,068.57 | Korea and Japan led on AI hardware and oil-importer relief; Shanghai fell despite the regional rally. |</code></pre>
-<pre class="table-line"><code>| Macro | Geopolitical premium unwinding | WTI $87.36-$87.75; Brent ~$92; gold ~$4,523-$4,585; DXY 98.9 | Tentative 60-day US-Iran MoU repriced crude lower; sticky PCE kept yields from validating an easy Fed-cut story. |</code></pre>
-<pre class="table-line"><code>| Sentiment | Greed, not euphoria | VIX 15.30/15.32; Fear &amp; Greed 60/61; AAII bulls 35.6% | Hedges unwound as tech earnings and in-line PCE reduced near-term tail risk; retail optimism is improved but still not extreme. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th style="text-align: right">Main signal</th><th style="text-align: right">Key levels</th><th>Driver</th></tr></thead>
+<tbody>
+<tr><td>US</td><td style="text-align: right">Risk-on, narrow</td><td style="text-align: right">S&amp;P 500 7,580.06; Nasdaq 26,972.62; Dow 51,032.46</td><td>Dell +32.8%, Snowflake +36%, NetApp/Okta/PagerDuty +26-33%; AI infrastructure repricing offset weak sector breadth.</td></tr>
+<tr><td>Europe</td><td style="text-align: right">Mildly positive</td><td style="text-align: right">STOXX 600 626.00; DAX 25,104.70; EUR/USD 1.1644; Bund 2.93%</td><td>Ceasefire headlines supported equities; Bunds rallied on cooling German inflation while euro strength and softer oil weighed on FTSE energy.</td></tr>
+<tr><td>Asia</td><td style="text-align: right">Strong risk-on, China exception</td><td style="text-align: right">Nikkei 66,329.50; KOSPI 8,476.15; Hang Seng 25,182; Shanghai 4,068.57</td><td>Korea and Japan led on AI hardware and oil-importer relief; Shanghai fell despite the regional rally.</td></tr>
+<tr><td>Macro</td><td style="text-align: right">Geopolitical premium unwinding</td><td style="text-align: right">WTI $87.36-$87.75; Brent ~$92; gold ~$4,523-$4,585; DXY 98.9</td><td>Tentative 60-day US-Iran MoU repriced crude lower; sticky PCE kept yields from validating an easy Fed-cut story.</td></tr>
+<tr><td>Sentiment</td><td style="text-align: right">Greed, not euphoria</td><td style="text-align: right">VIX 15.30/15.32; Fear &amp; Greed 60/61; AAII bulls 35.6%</td><td>Hedges unwound as tech earnings and in-line PCE reduced near-term tail risk; retail optimism is improved but still not extreme.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-segment synthesis</h3>
 <p>The day&#x27;s cleanest cross-market connection is lower tail risk. The tentative US-Iran 60-day truce extension, still pending President Trump&#x27;s approval, hit oil first: WTI dropped to a five-week low and crude logged its largest monthly decline of 2026. That helped oil importers, pressured energy-heavy indexes, pushed gold lower, and gave equity investors permission to keep bidding risk.</p>
 <p>But the equity leadership was not simply “peace trade.” It was AI capex. In the US, Dell&#x27;s best day on record and Snowflake&#x27;s prior-session surge confirmed that hyperscaler spending is being capitalized across servers, software, storage, and observability. Asia showed the same theme in hardware form: Samsung closed +5.84% after HBM4E sample-shipment headlines, the KOSPI hit a record 8,476.15, and Lenovo surged nearly 22% in Hong Kong. The story is no longer just Mag-7 mega-cap concentration; it is the full infrastructure stack being rerated.</p>
 <p>That makes the weak spots more important. The Russell 2000 fell 0.59% even as the S&amp;P 500 rose for a seventh straight day. US sector breadth was poor intraday, with most S&amp;P sectors red despite the index close. Shanghai lost 0.73% while Japan, Korea, Hong Kong, and Australia rallied, showing that local Chinese growth and policy doubts still override regional risk appetite. Europe was constructive but quiet: STOXX 600 +0.14%, DAX almost flat, and FTSE down as oil weakness hurt its commodity weight.</p>
 <p>Rates are the discipline. April PCE was not a disaster, but headline inflation at 3.8% and core at 3.3% are still too sticky for a clean Fed-easing narrative. The US 10-year near 4.45% says the bond market has not joined the equity celebration. As long as yields stay there, the rally needs earnings momentum and lower oil to keep doing the work.</p>
 <h3>Risk dashboard</h3>
-<pre class="table-line"><code>| Risk | Probability | Impact | Trigger |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| Iran MoU fails or Hormuz risk returns | Medium | High | No Trump signoff, renewed military incident, oil reversal above $90 WTI. |</code></pre>
-<pre class="table-line"><code>| AI-capex trade overcrowds | Medium | Medium-High | Dell/Snowflake-style winners fade, 27,000 Nasdaq rejection, semiconductor profit-taking in Korea/Japan. |</code></pre>
-<pre class="table-line"><code>| Sticky inflation reprices rates | Medium | High | Hot ISM or payrolls, 10-year break toward 4.60%, Fed-cut expectations fade. |</code></pre>
-<pre class="table-line"><code>| Breadth divergence worsens | Medium | Medium | Russell small caps fail 2,900; more sectors red while indexes rise. |</code></pre>
-<pre class="table-line"><code>| China decouples from regional rally | Medium | Medium | Shanghai loses 4,070 and policy support disappoints. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th style="text-align: right">Probability</th><th style="text-align: right">Impact</th><th>Trigger</th></tr></thead>
+<tbody>
+<tr><td>Iran MoU fails or Hormuz risk returns</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>No Trump signoff, renewed military incident, oil reversal above $90 WTI.</td></tr>
+<tr><td>AI-capex trade overcrowds</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium-High</td><td>Dell/Snowflake-style winners fade, 27,000 Nasdaq rejection, semiconductor profit-taking in Korea/Japan.</td></tr>
+<tr><td>Sticky inflation reprices rates</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>Hot ISM or payrolls, 10-year break toward 4.60%, Fed-cut expectations fade.</td></tr>
+<tr><td>Breadth divergence worsens</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium</td><td>Russell small caps fail 2,900; more sectors red while indexes rise.</td></tr>
+<tr><td>China decouples from regional rally</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium</td><td>Shanghai loses 4,070 and policy support disappoints.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Forward outlook</h3>
 <p>Next week is a three-part test. First, the Iran MoU either becomes a signed de-escalation or the oil move reverses. Second, US ISM and payrolls decide whether sticky PCE was a warning or background noise. Third, the ECB decision and Lagarde press conference test Europe&#x27;s unusual mix of firm euro, lower Bund yields, and still-hawkish policy pricing. The base case is constructive but fragile: risk can extend if oil falls again and AI leadership holds, but the rally is vulnerable to any catalyst that exposes narrow breadth.</p>
 <h3>Sources</h3>

@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-04-26</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -46,13 +54,18 @@
 <p>The headline tape looks risk-on: the S&amp;P 500 closed at a record 7,165.08, the Nasdaq Composite at a record 24,836.60, and Japan&#x27;s Nikkei 225 at 59,716. Under the surface, the global signal is less clean. US and Japanese benchmarks are being pulled higher by concentrated AI/semi leadership, while Europe is already de-risking and macro markets are still pricing geopolitical and policy-premium risk.</p>
 <p>The most important correction from the review layer is macro: Brent Jun&#x27;26 was verified at $105.33, not the stale lower print rejected in cycle 1, against WTI at $94.40. That creates a $10.93 Brent-WTI spread — a hard signal that seaborne crude still carries a geopolitical premium. That sits awkwardly beside sentiment indicators: CNN Fear &amp; Greed at 70, AAII Bullish at 46%, and QQQ five-day inflows of $6.5B say investors have largely re-embraced risk. The next week therefore starts with a gap between price momentum and macro insurance pricing.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Tone | Key move | Main driver |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| US | Risk-on, narrow | S&amp;P 500 +0.80%; Nasdaq +1.63%; Dow -0.16% | Semiconductors and AI capex led again; Nvidia retook the $5T market-cap line. VIX closed 18.71, down 3.11%, while the 10Y yield eased only 1.3 bps Friday after rising Mon-Thu. |</code></pre>
-<pre class="table-line"><code>| EU | Risk-off | STOXX 600 -0.58% daily / -2.54% weekly; CAC -3.17% weekly | Corrected weekly deltas show broad selling, not a one-day wobble. Geopolitical risk premium, profit-taking after Apr 17 highs, and cyclicals all contributed. |</code></pre>
-<pre class="table-line"><code>| Asia | Cautious risk-on | Nikkei 59,716 record; Topix nearly flat; USD/JPY ~159.5 | Japan&#x27;s rally is concentrated in AI/semi names. The BOJ-week setup is fragile because yen weakness is near the 160 intervention zone. |</code></pre>
-<pre class="table-line"><code>| Macro | Risk-off overlay | Brent $105.33; WTI $94.40; gold $4,740.90; DXY 98.51 | Wide Brent-WTI spread points to seaborne/geopolitical risk. Gold and a soft dollar also reflect Fed-credibility concerns around the Warsh/Powell/Tillis story. |</code></pre>
-<pre class="table-line"><code>| Sentiment | Greed | Fear &amp; Greed 70; AAII Bull 46%; equity put/call 0.53 | Volatility has been compressed and investors have chased tech, but positioning velocity is now a risk in itself. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Tone</th><th>Key move</th><th>Main driver</th></tr></thead>
+<tbody>
+<tr><td>US</td><td>Risk-on, narrow</td><td>S&amp;P 500 +0.80%; Nasdaq +1.63%; Dow -0.16%</td><td>Semiconductors and AI capex led again; Nvidia retook the $5T market-cap line. VIX closed 18.71, down 3.11%, while the 10Y yield eased only 1.3 bps Friday after rising Mon-Thu.</td></tr>
+<tr><td>EU</td><td>Risk-off</td><td>STOXX 600 -0.58% daily / -2.54% weekly; CAC -3.17% weekly</td><td>Corrected weekly deltas show broad selling, not a one-day wobble. Geopolitical risk premium, profit-taking after Apr 17 highs, and cyclicals all contributed.</td></tr>
+<tr><td>Asia</td><td>Cautious risk-on</td><td>Nikkei 59,716 record; Topix nearly flat; USD/JPY ~159.5</td><td>Japan&#x27;s rally is concentrated in AI/semi names. The BOJ-week setup is fragile because yen weakness is near the 160 intervention zone.</td></tr>
+<tr><td>Macro</td><td>Risk-off overlay</td><td>Brent $105.33; WTI $94.40; gold $4,740.90; DXY 98.51</td><td>Wide Brent-WTI spread points to seaborne/geopolitical risk. Gold and a soft dollar also reflect Fed-credibility concerns around the Warsh/Powell/Tillis story.</td></tr>
+<tr><td>Sentiment</td><td>Greed</td><td>Fear &amp; Greed 70; AAII Bull 46%; equity put/call 0.53</td><td>Volatility has been compressed and investors have chased tech, but positioning velocity is now a risk in itself.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p>1. <strong>Brent-WTI spread vs equity sentiment.</strong> If the spread remains near $10–11, the market is still paying for physical/geopolitical risk even as sentiment says risk has normalized. A compression below roughly $7 would validate the equity tape; a hold above $9 argues for caution.</p>
 <p>2. <strong>BOJ and USD/JPY 160.</strong> Asia&#x27;s key threshold is policy, not index level. A hawkish hold could strengthen the yen and pressure exporters; a dovish hold risks a move through 160 and intervention rhetoric.</p>

@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-05</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -45,13 +53,18 @@
 <h3>So What</h3>
 <p>Global markets are no longer pricing the Middle East shock as a one-way escalation trade. The important shift today is that crude fell even while Brent stayed above $110, gold and silver refused to sell off, and equities split by local vulnerability rather than by a uniform risk-off impulse. The market is saying: Hormuz is contested but still functional, inflation risk is real, and investors are willing to buy earnings or AI exposure where the local tape supports it. That is constructive, but not cleanly bullish. Long-end yields, oil above $110, and a normalization of options hedging all argue that the rebound is conditional, not complacent.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Tone | Headline move | Real driver |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| **US** | Mild risk-off with earnings support | S&amp;P 500 7,200.75, -0.41%; Nasdaq 25,067.80, -0.19%; Dow 48,941.90, -1.13%; VIX 18.29 | Monday&#x27;s UAE/Iran shock lifted oil and yields together. Strong Q1 earnings kept the S&amp;P near record territory, but the 30Y Treasury above 5% is the valuation warning. |</code></pre>
-<pre class="table-line"><code>| **EU** | Relief rally, UK drag | DAX 24,288, +1.24%; CAC 8,039.90, +0.80%; STOXX 600 608.62, +0.51%; FTSE 100 10,220.40, -1.38% | Continental Europe bounced on earnings, while HSBC&#x27;s Q1 miss hit London. Bund yields near 3.08% show energy inflation risk still in the discount rate. |</code></pre>
-<pre class="table-line"><code>| **Asia** | Holiday-thin, Hong Kong softer | Hang Seng 25,898, -0.76%; HSI Tech 4,929, -0.9%; KOSPI stale record 6,936.99; Tokyo closed | Hong Kong carried the region alone because Tokyo, Seoul, and Shanghai were closed. HSBC&#x27;s loss dragged the HSI; Korea&#x27;s prior chip-led record awaits the May 6 reopen. |</code></pre>
-<pre class="table-line"><code>| **Macro** | De-escalation in oil, structural bids elsewhere | WTI $102.54, -3.64%; Brent $111.57, -2.51%; gold $4,591; silver $73.96; BTC $81,286 | US-confirmed Hormuz transits and ceasefire language bled risk premium from crude, while central-bank gold demand and ETF-driven crypto flows stayed firm. |</code></pre>
-<pre class="table-line"><code>| **Sentiment** | Neutral, defensive undertone | Fear &amp; Greed 62; equity put/call 0.54; total put/call 0.87; AAII bull/bear spread -1.6% | Investors are not panicking, but they are adding hedges. The late-April call-heavy tape normalized quickly at the first geopolitical stress point. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Tone</th><th>Headline move</th><th>Real driver</th></tr></thead>
+<tbody>
+<tr><td><strong>US</strong></td><td>Mild risk-off with earnings support</td><td>S&amp;P 500 7,200.75, -0.41%; Nasdaq 25,067.80, -0.19%; Dow 48,941.90, -1.13%; VIX 18.29</td><td>Monday&#x27;s UAE/Iran shock lifted oil and yields together. Strong Q1 earnings kept the S&amp;P near record territory, but the 30Y Treasury above 5% is the valuation warning.</td></tr>
+<tr><td><strong>EU</strong></td><td>Relief rally, UK drag</td><td>DAX 24,288, +1.24%; CAC 8,039.90, +0.80%; STOXX 600 608.62, +0.51%; FTSE 100 10,220.40, -1.38%</td><td>Continental Europe bounced on earnings, while HSBC&#x27;s Q1 miss hit London. Bund yields near 3.08% show energy inflation risk still in the discount rate.</td></tr>
+<tr><td><strong>Asia</strong></td><td>Holiday-thin, Hong Kong softer</td><td>Hang Seng 25,898, -0.76%; HSI Tech 4,929, -0.9%; KOSPI stale record 6,936.99; Tokyo closed</td><td>Hong Kong carried the region alone because Tokyo, Seoul, and Shanghai were closed. HSBC&#x27;s loss dragged the HSI; Korea&#x27;s prior chip-led record awaits the May 6 reopen.</td></tr>
+<tr><td><strong>Macro</strong></td><td>De-escalation in oil, structural bids elsewhere</td><td>WTI $102.54, -3.64%; Brent $111.57, -2.51%; gold $4,591; silver $73.96; BTC $81,286</td><td>US-confirmed Hormuz transits and ceasefire language bled risk premium from crude, while central-bank gold demand and ETF-driven crypto flows stayed firm.</td></tr>
+<tr><td><strong>Sentiment</strong></td><td>Neutral, defensive undertone</td><td>Fear &amp; Greed 62; equity put/call 0.54; total put/call 0.87; AAII bull/bear spread -1.6%</td><td>Investors are not panicking, but they are adding hedges. The late-April call-heavy tape normalized quickly at the first geopolitical stress point.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p>1. <strong>Hormuz is functional, not safe.</strong> Two US-flagged merchant vessels reportedly crossed the Strait under protection and the US reaffirmed the ceasefire, which explains crude falling 2-4%. But April traffic and May 4 crossings were still extremely low, so the supply channel is not back to normal. Brent $110 is the floor to watch; $115+ would restore the escalation premium quickly.</p>
 <p>2. <strong>The long end is the hidden equity constraint.</strong> The US 30Y above 5% and the 10Y around 4.44% are not harmless if oil remains above $110. Earnings are cushioning equities, but duration-sensitive sectors cannot ignore a term-premium rebuild indefinitely. The next stress line is a US 10Y close above roughly 4.55%.</p>

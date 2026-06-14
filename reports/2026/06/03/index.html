@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-06-03</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,21 +52,31 @@
 <h3>So what</h3>
 <p>Markets are trying to hold a risk-on trend while the macro inputs get less friendly. The US comes in from a clean triple-record close and a nine-day S&amp;P 500 winning streak. Japan printed a record Nikkei close. Yet Europe sold off, Hong Kong weakened, oil is pushing toward the $100 danger zone, and the ECB is now framed for a June 11 hike after euro-area inflation re-accelerated. The tape is not broken; it is more conditional. Equities can keep grinding higher if oil stalls, yields behave, and AI/earnings leadership keeps working. If Brent breaks $100 and rates rise with it, the same positioning turns fragile fast.</p>
 <h3>Factor matrix</h3>
-<pre class="table-line"><code>| Segment | Main signal | Key levels | Driver |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| US | Risk-on, stretched | S&amp;P 500 7,609.78; VIX ~16; 10Y 4.49% | Record highs and broadening leadership are intact, but oil and yields are pressing the rally. |</code></pre>
-<pre class="table-line"><code>| Europe | Risk-off intraday | DAX 24,876; STOXX 600 622; EUR/USD 1.164 | Hormuz oil risk, tariff headlines, and a priced ECB hike hit cyclicals. |</code></pre>
-<pre class="table-line"><code>| Asia | Divergent | Nikkei 68,402; Hang Seng -1.62%; USD/JPY ~160 | Japan surged on momentum and yen weakness while Hong Kong faded and intervention risk rose. |</code></pre>
-<pre class="table-line"><code>| Macro | Inflation-risk skew | Brent $98.50; copper ATH; 10Y ~4.49%; DXY 99.3 | Supply tension is overpowering OPEC+ quota relief; commodities are lifting the inflation tail. |</code></pre>
-<pre class="table-line"><code>| Sentiment | Greed with hedges | CNN F&amp;G 57; AAII bears 41.9%; BofA B&amp;B 8.0 | Investors are constructive, but retail caution and institutional crowding cap the chase. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th style="text-align: right">Main signal</th><th style="text-align: right">Key levels</th><th>Driver</th></tr></thead>
+<tbody>
+<tr><td>US</td><td style="text-align: right">Risk-on, stretched</td><td style="text-align: right">S&amp;P 500 7,609.78; VIX ~16; 10Y 4.49%</td><td>Record highs and broadening leadership are intact, but oil and yields are pressing the rally.</td></tr>
+<tr><td>Europe</td><td style="text-align: right">Risk-off intraday</td><td style="text-align: right">DAX 24,876; STOXX 600 622; EUR/USD 1.164</td><td>Hormuz oil risk, tariff headlines, and a priced ECB hike hit cyclicals.</td></tr>
+<tr><td>Asia</td><td style="text-align: right">Divergent</td><td style="text-align: right">Nikkei 68,402; Hang Seng -1.62%; USD/JPY ~160</td><td>Japan surged on momentum and yen weakness while Hong Kong faded and intervention risk rose.</td></tr>
+<tr><td>Macro</td><td style="text-align: right">Inflation-risk skew</td><td style="text-align: right">Brent $98.50; copper ATH; 10Y ~4.49%; DXY 99.3</td><td>Supply tension is overpowering OPEC+ quota relief; commodities are lifting the inflation tail.</td></tr>
+<tr><td>Sentiment</td><td style="text-align: right">Greed with hedges</td><td style="text-align: right">CNN F&amp;G 57; AAII bears 41.9%; BofA B&amp;B 8.0</td><td>Investors are constructive, but retail caution and institutional crowding cap the chase.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk dashboard</h3>
-<pre class="table-line"><code>| Risk | Probability | Impact | Trigger |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| Oil shock becomes inflation shock | Medium-High | High | Brent clears $100, or Hormuz shipping/mining headlines worsen. |</code></pre>
-<pre class="table-line"><code>| Rates squeeze equity multiples | Medium | High | US 10Y sustains above 4.50%-4.60%, especially before CPI/FOMC. |</code></pre>
-<pre class="table-line"><code>| Europe stagflation trade deepens | Medium | Medium-High | ECB hike pricing hardens while DAX loses 24,800 or STOXX 600 loses 620. |</code></pre>
-<pre class="table-line"><code>| Yen intervention shock | Medium | Medium | USD/JPY breaks through 160 and forces a BoJ response. |</code></pre>
-<pre class="table-line"><code>| Crowding air pocket | Medium | High | CNN Greed slips toward neutral while BofA sell-signal positioning remains extended. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th style="text-align: right">Probability</th><th style="text-align: right">Impact</th><th>Trigger</th></tr></thead>
+<tbody>
+<tr><td>Oil shock becomes inflation shock</td><td style="text-align: right">Medium-High</td><td style="text-align: right">High</td><td>Brent clears $100, or Hormuz shipping/mining headlines worsen.</td></tr>
+<tr><td>Rates squeeze equity multiples</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>US 10Y sustains above 4.50%-4.60%, especially before CPI/FOMC.</td></tr>
+<tr><td>Europe stagflation trade deepens</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium-High</td><td>ECB hike pricing hardens while DAX loses 24,800 or STOXX 600 loses 620.</td></tr>
+<tr><td>Yen intervention shock</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium</td><td>USD/JPY breaks through 160 and forces a BoJ response.</td></tr>
+<tr><td>Crowding air pocket</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>CNN Greed slips toward neutral while BofA sell-signal positioning remains extended.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-segment synthesis</h3>
 <p>The cleanest cross-market story is that the rally still exists, but its permission slip is shorter. US equities ended Tuesday with S&amp;P 500, Dow, and Nasdaq all at records. The move was small in percentage terms, which matters: this was a grind, not a blow-off. VIX around the mid-15s to 16, a steepening 2s10s curve, and a contained dollar around 99 all support the idea that investors are not in panic mode. The warning is the bond-oil channel. A US 10-year yield near 4.49% is close enough to the valuation ceiling that a hot data print or another oil leg can bite long-duration growth.</p>
 <p>Europe shows what that bite looks like first. DAX fell about 1%, STOXX 600 slipped roughly 0.5%, and Euro STOXX 50 was lower as airlines, autos, and banks traded against the same three headwinds: higher oil, tariff proposals, and the ECB. The important correction from the review cycle is policy: the ECB deposit facility is 2.00%, not 2.15%, and economists now expect a June 11 deposit-rate hike to 2.25% after May HICP rose to 3.2% headline and 2.5% core. That is not benign disinflation. It is an energy-importing region facing higher input costs and tighter policy at the same time.</p>

@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-04-25</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -47,13 +55,18 @@
 <p>Across asset classes the message ran the other way: gold sat near a record at $4,725 with the dollar soft (DXY 98.51), copper slid -0.87%, six of eleven S&amp;P sectors closed red, consumer staples outperformed alongside semis, Europe took its fifth losing session in five for the FTSE, and oil held above $100 on a sustained Iran-war premium. That cross-asset signature — defensives bid while a narrow cohort of growth names melts up, with macro-debasement hedges firm — is a textbook late-cycle distribution print, not an early-cycle accumulation print.</p>
 <p>The next five sessions resolve the question. Microsoft, Alphabet, Meta, Amazon, and Apple report; the BoJ meets April 27-28; US PCE lands; the Iran-war diplomatic track remains unconfirmed after Iran denied a Pakistani meeting. Anything short of fresh upward revisions to data-center capex — against Nvidia at $5T and the SOX up ~47% YTD — likely triggers a sharp mean-reversion in the AI complex even on clean EPS prints.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Tone | Headline Move | Real Driver |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| **US** | Records, narrowing breadth | S&amp;P 500 +0.80%, Nasdaq +1.63%, Dow -0.16% | Intel Q1 beat-and-raise dragged AMD (+13%) and QCOM (+10%); P&amp;G fiscal-Q3 beat had staples bidding alongside semis |</code></pre>
-<pre class="table-line"><code>| **EU** | Risk-off | STOXX 600 -0.58%, FTSE -0.75% (5th red session), IBEX -1.09% | Apr 8 Iran-ceasefire optimism unwinding; Lufthansa Apr 22 jet-fuel flight cuts crystallized the supply-chain channel |</code></pre>
-<pre class="table-line"><code>| **Asia** | Bullish skew, structurally fragile | Nikkei 59,716 record (+0.97%), Hang Seng +0.24%, KOSPI ≈flat, Shanghai -0.33% | PBoC CNY 500 bn net 1Y MLF injection; softer Trump US-China trade tone; Nikkei still riding weak-yen export-margin tailwind |</code></pre>
-<pre class="table-line"><code>| **Macro** | Stagflation, not flight-to-quality | Brent $105.33, Gold $4,725.40, Copper -0.87%, DXY 98.51 | Hormuz double-blockade per IEA&#x27;s Birol — &quot;biggest energy security threat in history&quot;; German Ifo to 84.4 (lowest since May 2020) |</code></pre>
-<pre class="table-line"><code>| **Sentiment** | Risk-on, but not euphoric | CNN F&amp;G 66.03 (Greed), VIX 18.71, AAII bull-bear +11.6 | Retail flipped fast — AAII swung +22.7 pts in a week, the cleanest sentiment regime change of the quarter |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Tone</th><th>Headline Move</th><th>Real Driver</th></tr></thead>
+<tbody>
+<tr><td><strong>US</strong></td><td>Records, narrowing breadth</td><td>S&amp;P 500 +0.80%, Nasdaq +1.63%, Dow -0.16%</td><td>Intel Q1 beat-and-raise dragged AMD (+13%) and QCOM (+10%); P&amp;G fiscal-Q3 beat had staples bidding alongside semis</td></tr>
+<tr><td><strong>EU</strong></td><td>Risk-off</td><td>STOXX 600 -0.58%, FTSE -0.75% (5th red session), IBEX -1.09%</td><td>Apr 8 Iran-ceasefire optimism unwinding; Lufthansa Apr 22 jet-fuel flight cuts crystallized the supply-chain channel</td></tr>
+<tr><td><strong>Asia</strong></td><td>Bullish skew, structurally fragile</td><td>Nikkei 59,716 record (+0.97%), Hang Seng +0.24%, KOSPI ≈flat, Shanghai -0.33%</td><td>PBoC CNY 500 bn net 1Y MLF injection; softer Trump US-China trade tone; Nikkei still riding weak-yen export-margin tailwind</td></tr>
+<tr><td><strong>Macro</strong></td><td>Stagflation, not flight-to-quality</td><td>Brent $105.33, Gold $4,725.40, Copper -0.87%, DXY 98.51</td><td>Hormuz double-blockade per IEA&#x27;s Birol — &quot;biggest energy security threat in history&quot;; German Ifo to 84.4 (lowest since May 2020)</td></tr>
+<tr><td><strong>Sentiment</strong></td><td>Risk-on, but not euphoric</td><td>CNN F&amp;G 66.03 (Greed), VIX 18.71, AAII bull-bear +11.6</td><td>Retail flipped fast — AAII swung +22.7 pts in a week, the cleanest sentiment regime change of the quarter</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p>1. <strong>Iran war / Strait of Hormuz energy premium.</strong> IEA chief Fatih Birol called the dual blockade &quot;the biggest energy security threat in history,&quot; citing 13 mbpd of lost supply against the ~20 mbpd that previously transited. Brent holds above $100; the IEA&#x27;s 400 mb release &quot;reduces pain, not cures.&quot; Iran denies a Pakistani diplomatic channel exists. Without progress, Brent stays bid and the European cyclical complex stays under pressure.</p>
 <p>2. <strong>AI capex tail risk into next week&#x27;s earnings cluster.</strong> Five hyperscalers report with Nvidia at $5T and the SOX 18 days vertical. The asymmetry is unfavorable: clean prints without fresh data-center upward-revisions can sell off; a single soft capex commentary can resolve eighteen days of one-way price action.</p>

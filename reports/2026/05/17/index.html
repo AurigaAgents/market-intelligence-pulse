@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-17</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -45,35 +53,50 @@
 <p>The &quot;so what&quot; from Friday&#x27;s close is that this is no longer a clean equity-momentum market. The common chain across regions is oil risk turning into inflation risk, inflation risk turning into bond-yield risk, and bond-yield risk forcing investors to reprice the highest-duration parts of the equity book. US stocks pulled back from records, Europe sold off on Bund and gilt stress, Asia lost momentum after a light Trump-Xi deliverable, and sentiment stayed constructive only because investors hedged rather than liquidated. The market is not broken, but the next bullish confirmation has to come from rates and crude, not from another index headline.</p>
 <p>Cash markets were closed over the weekend, so this report anchors to the verified Friday, May 15 settlement tape.</p>
 <h3>Market Scorecard</h3>
-<pre class="table-line"><code>| Segment | Key level | Daily signal | Read-through |</code></pre>
-<pre class="table-line"><code>|---|---:|---|---|</code></pre>
-<pre class="table-line"><code>| US equities | S&amp;P 500 7,408.50; Nasdaq 26,225.14; Dow 49,526.17 | S&amp;P -1.24%; Nasdaq -1.54%; Russell 2000 -2.44% | Duration shock hit small caps and long-duration growth first |</code></pre>
-<pre class="table-line"><code>| Europe | STOXX 600 606.92; DAX 23,950.57; FTSE 100 10,195.37 | Broad sell-off; DAX -2.07%; Bund 10Y near 3.15% | Energy inflation plus sovereign-yield repricing |</code></pre>
-<pre class="table-line"><code>| Asia | Nikkei 61,409.29; KOSPI 7,493.18; Shanghai 4,183.05 | KOSPI -6.10%; Nikkei -1.98%; Shanghai +0.10% | Record-high exhaustion, BoJ tightening risk, China relative stability |</code></pre>
-<pre class="table-line"><code>| Macro | WTI $105.57; Brent $109.17; UST 10Y 4.59%; DXY 99.27 | Crude up more than 7% on the week; 10Y +11 bp | Stagflationary impulse: supply shock plus duration repricing |</code></pre>
-<pre class="table-line"><code>| Sentiment | VIX 18.43; CNN Fear &amp; Greed 63 | Greed, but with rising protection demand | Constructive positioning, not complacent euphoria |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th style="text-align: right">Key level</th><th>Daily signal</th><th>Read-through</th></tr></thead>
+<tbody>
+<tr><td>US equities</td><td style="text-align: right">S&amp;P 500 7,408.50; Nasdaq 26,225.14; Dow 49,526.17</td><td>S&amp;P -1.24%; Nasdaq -1.54%; Russell 2000 -2.44%</td><td>Duration shock hit small caps and long-duration growth first</td></tr>
+<tr><td>Europe</td><td style="text-align: right">STOXX 600 606.92; DAX 23,950.57; FTSE 100 10,195.37</td><td>Broad sell-off; DAX -2.07%; Bund 10Y near 3.15%</td><td>Energy inflation plus sovereign-yield repricing</td></tr>
+<tr><td>Asia</td><td style="text-align: right">Nikkei 61,409.29; KOSPI 7,493.18; Shanghai 4,183.05</td><td>KOSPI -6.10%; Nikkei -1.98%; Shanghai +0.10%</td><td>Record-high exhaustion, BoJ tightening risk, China relative stability</td></tr>
+<tr><td>Macro</td><td style="text-align: right">WTI $105.57; Brent $109.17; UST 10Y 4.59%; DXY 99.27</td><td>Crude up more than 7% on the week; 10Y +11 bp</td><td>Stagflationary impulse: supply shock plus duration repricing</td></tr>
+<tr><td>Sentiment</td><td style="text-align: right">VIX 18.43; CNN Fear &amp; Greed 63</td><td>Greed, but with rising protection demand</td><td>Constructive positioning, not complacent euphoria</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Driver | US | Europe | Asia | Macro | Sentiment |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Oil / Iran / Hormuz risk | Lifted breakeven and Treasury-yield pressure | Fed through Bunds and ECB hike expectations | Background weekend risk for export markets | Dominant supply-side shock; WTI $105.57 and Brent $109.17 | Reason investors bought protection while staying long |</code></pre>
-<pre class="table-line"><code>| Inflation re-acceleration | April CPI at 3.8% YoY hardened higher-for-longer expectations | Energy prices revived ECB-hike risk into June | Raises global discount-rate pressure | Core macro driver alongside crude | Explains why Greed did not translate into falling volatility |</code></pre>
-<pre class="table-line"><code>| Yield repricing | 10Y at 4.59%, 2Y near 4.09%; multiple compression | Bund at 15-year-high area; gilt stress around 5.185% | BoJ hawkish comments pressured Nikkei and yen crosses | Global duration sell-off was the transmission mechanism | Put/call and VIX behavior signal hedged exposure |</code></pre>
-<pre class="table-line"><code>| China / Trump-Xi | Prior record run had front-run a thaw | Exporters lacked a new positive catalyst | Summit stabilized China but delivered few tangible deals | Dollar and commodities did not treat it as a growth reset | Kept the wall of worry alive rather than clearing it |</code></pre>
-<pre class="table-line"><code>| Positioning unwind | Small caps and high-multiple tech led lower | Mining, real estate, and cyclicals under pressure | KOSPI reversed hard after breaching 8,000 | Copper&#x27;s -4.81% dissented from the inflation story | ETF issuance positive, but equity funds saw outflows |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Driver</th><th>US</th><th>Europe</th><th>Asia</th><th>Macro</th><th>Sentiment</th></tr></thead>
+<tbody>
+<tr><td>Oil / Iran / Hormuz risk</td><td>Lifted breakeven and Treasury-yield pressure</td><td>Fed through Bunds and ECB hike expectations</td><td>Background weekend risk for export markets</td><td>Dominant supply-side shock; WTI $105.57 and Brent $109.17</td><td>Reason investors bought protection while staying long</td></tr>
+<tr><td>Inflation re-acceleration</td><td>April CPI at 3.8% YoY hardened higher-for-longer expectations</td><td>Energy prices revived ECB-hike risk into June</td><td>Raises global discount-rate pressure</td><td>Core macro driver alongside crude</td><td>Explains why Greed did not translate into falling volatility</td></tr>
+<tr><td>Yield repricing</td><td>10Y at 4.59%, 2Y near 4.09%; multiple compression</td><td>Bund at 15-year-high area; gilt stress around 5.185%</td><td>BoJ hawkish comments pressured Nikkei and yen crosses</td><td>Global duration sell-off was the transmission mechanism</td><td>Put/call and VIX behavior signal hedged exposure</td></tr>
+<tr><td>China / Trump-Xi</td><td>Prior record run had front-run a thaw</td><td>Exporters lacked a new positive catalyst</td><td>Summit stabilized China but delivered few tangible deals</td><td>Dollar and commodities did not treat it as a growth reset</td><td>Kept the wall of worry alive rather than clearing it</td></tr>
+<tr><td>Positioning unwind</td><td>Small caps and high-multiple tech led lower</td><td>Mining, real estate, and cyclicals under pressure</td><td>KOSPI reversed hard after breaching 8,000</td><td>Copper&#x27;s -4.81% dissented from the inflation story</td><td>ETF issuance positive, but equity funds saw outflows</td></tr>
+</tbody>
+</table>
+</div>
 <h3>What Drove the Day</h3>
 <p><strong>1. Bonds became the market&#x27;s referee.</strong> The US analyst and macro retry converge on the same corrected number: the US 10-year closed around 4.59%, not the stale 4.41% level rejected in cycle one. That matters because the market has already crossed the 4.50% psychological pin. The next stress marker is 4.65%; above that, the equity market has to discount not only a higher Fed path but a wider term-premium regime. The Russell 2000&#x27;s 2.44% decline is the cleanest equity expression of that stress.</p>
 <p><strong>2. Europe confirmed this was global, not just US.</strong> The STOXX 600 fell 1.48%, the DAX lost 2.07%, and the CAC slipped back below 8,000. The European tape was hit by the same energy-inflation channel, but with local amplifiers: Bund yields near 3.15%, ECB June hike expectations, and UK political risk that pushed gilts toward 5.185% while sterling weakened for a fifth straight day. Mining weakness, especially the Antofagasta/Fresnillo pressure flagged by the reviewer as directionally right, shows that real-rate pressure mattered more than classic safe-haven behavior.</p>
 <p><strong>3. Asia lost the momentum handoff.</strong> The KOSPI&#x27;s reversal from above 8,000 to 7,493.18 was the most violent single index signal in the set, with the reviewer confirming the roughly 6.1% drop. Japan added a separate rates channel: BoJ hawkish pressure and USD/JPY near 158.77 kept the Nikkei under stress. China was the exception, with Shanghai slightly higher after the Trump-Xi summit avoided new friction. But &quot;no new friction&quot; is not the same as a fresh growth impulse.</p>
 <p><strong>4. Sentiment is hedged greed, not panic.</strong> CNN Fear &amp; Greed at 63 says investors are still in risk-taking mode. VIX at 18.43, put/call cooling from complacency, and positive ETF issuance say the same thing in a more nuanced way: capital has not left the market, but it is paying for insurance. That is healthier than blind euphoria, but it also means the tape is vulnerable if crude and yields gap higher together.</p>
 <h3>Risk Dashboard</h3>
-<pre class="table-line"><code>| Risk | Probability | Impact | Trigger to watch |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| Oil shock extends | Medium | High | Brent holds above $110 or fresh Hormuz/Iran escalation |</code></pre>
-<pre class="table-line"><code>| US 10Y breaks higher | Medium | High | Sustained close above 4.65% |</code></pre>
-<pre class="table-line"><code>| Equity pullback broadens | Medium | Medium-High | S&amp;P 500 loses 7,360 and VIX takes a 20-handle |</code></pre>
-<pre class="table-line"><code>| Europe rates stress deepens | Medium | Medium | Bund breaks 3.20% or gilt stress accelerates |</code></pre>
-<pre class="table-line"><code>| Asia momentum unwind continues | Medium | Medium | KOSPI fails 7,400 after the 8,000 rejection |</code></pre>
-<pre class="table-line"><code>| De-escalation squeeze | Low-Medium | Medium | Oil gaps lower on Iran headlines; hedges become rebound fuel |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th>Probability</th><th>Impact</th><th>Trigger to watch</th></tr></thead>
+<tbody>
+<tr><td>Oil shock extends</td><td>Medium</td><td>High</td><td>Brent holds above $110 or fresh Hormuz/Iran escalation</td></tr>
+<tr><td>US 10Y breaks higher</td><td>Medium</td><td>High</td><td>Sustained close above 4.65%</td></tr>
+<tr><td>Equity pullback broadens</td><td>Medium</td><td>Medium-High</td><td>S&amp;P 500 loses 7,360 and VIX takes a 20-handle</td></tr>
+<tr><td>Europe rates stress deepens</td><td>Medium</td><td>Medium</td><td>Bund breaks 3.20% or gilt stress accelerates</td></tr>
+<tr><td>Asia momentum unwind continues</td><td>Medium</td><td>Medium</td><td>KOSPI fails 7,400 after the 8,000 rejection</td></tr>
+<tr><td>De-escalation squeeze</td><td>Low-Medium</td><td>Medium</td><td>Oil gaps lower on Iran headlines; hedges become rebound fuel</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-Segment Synthesis</h3>
 <p>The best synthesis is <strong>Neutral-to-Risk-Off with a stagflationary bias</strong>. The bearish case is not that equities fell on Friday; it is that the same upstream shock explains almost every weak point: crude lifted inflation fears, inflation lifted sovereign yields, yields lifted the dollar and real-rate pressure, and real-rate pressure hit equities, gold, miners, and small caps. The copper decline is the useful dissent. It says this is not a clean global-demand reflation. It is closer to a cost-push shock where energy rises while industrial demand signals wobble.</p>
 <p>That distinction matters for next week. If oil stabilizes and the 10-year retreats below the 4.55%-4.60% zone, the market can frame Friday as an insurance-buying pause inside an intact bull trend. If Brent pushes through $110-$112 and the US 10-year tests 4.65%, the same positioning becomes a vulnerability: long exposure remains high enough that hedged greed can turn into active de-risking. The bull case survives, but it is now conditional on lower volatility in the two assets that matter most: crude and duration.</p>

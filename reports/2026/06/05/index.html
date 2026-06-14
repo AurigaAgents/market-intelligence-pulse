@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-06-05</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: not_started</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,21 +52,31 @@
 <h3>So what</h3>
 <p>A strong US jobs report turned a regional tech selloff into a global discount-rate test. May payrolls rose 172,000, more than double consensus near 80,000-85,000, unemployment held at 4.3%, and prior months were revised higher. The immediate market answer was higher yields, lower equities, and a sharper hit to long-duration technology. Asia and Europe had already inherited Broadcom-led AI-chip weakness; the US print made the same trade harder to defend. This is not panic. Brent is lower, VIX is still below 16, and passive flows remain strong. But the tape is asking whether AI leadership can keep carrying markets if the bond market stops pricing cuts and starts entertaining hikes.</p>
 <h3>Factor matrix</h3>
-<pre class="table-line"><code>| Segment | Main signal | Key levels | Driver |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| US | Risk-off duration shock | S&amp;P 500 about -1%; Nasdaq -1.6%; 10Y above 4.53%; 30Y above 5.00% | NFP +172k, unemployment 4.3%, and upward revisions killed the weak-labor support for rate cuts. |</code></pre>
-<pre class="table-line"><code>| Europe | Mild risk-off, uneven | STOXX 600 621.19, -0.66%; DAX -1.31%; Bund 3.03%; FTSE -0.40% | Broadcom/semiconductor pressure hit growth exposure while defensives and commodities cushioned London. |</code></pre>
-<pre class="table-line"><code>| Asia | AI-chip reset | KOSPI -5.54%; Nikkei -1.31%; Hang Seng -1.15%; USD/JPY 160.22 | Broadcom&#x27;s 12% US drop and TSMC supply warnings transmitted into Korea, Japan, and Hong Kong tech. |</code></pre>
-<pre class="table-line"><code>| Macro | Mixed tightening | Brent $94.65; gold $4,441; copper $6.42; DXY near 99 | Oil is weak on demand and OPEC+ supply additions; metals still reflect debasement and scarcity hedges. |</code></pre>
-<pre class="table-line"><code>| Sentiment | Neutral, hedged | Fear &amp; Greed 54; VIX 15.76; equity put/call 0.77; SPX put/call 1.09 | Retail optimism and passive ETF flows coexist with institutional index hedging. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th style="text-align: right">Main signal</th><th style="text-align: right">Key levels</th><th>Driver</th></tr></thead>
+<tbody>
+<tr><td>US</td><td style="text-align: right">Risk-off duration shock</td><td style="text-align: right">S&amp;P 500 about -1%; Nasdaq -1.6%; 10Y above 4.53%; 30Y above 5.00%</td><td>NFP +172k, unemployment 4.3%, and upward revisions killed the weak-labor support for rate cuts.</td></tr>
+<tr><td>Europe</td><td style="text-align: right">Mild risk-off, uneven</td><td style="text-align: right">STOXX 600 621.19, -0.66%; DAX -1.31%; Bund 3.03%; FTSE -0.40%</td><td>Broadcom/semiconductor pressure hit growth exposure while defensives and commodities cushioned London.</td></tr>
+<tr><td>Asia</td><td style="text-align: right">AI-chip reset</td><td style="text-align: right">KOSPI -5.54%; Nikkei -1.31%; Hang Seng -1.15%; USD/JPY 160.22</td><td>Broadcom&#x27;s 12% US drop and TSMC supply warnings transmitted into Korea, Japan, and Hong Kong tech.</td></tr>
+<tr><td>Macro</td><td style="text-align: right">Mixed tightening</td><td style="text-align: right">Brent $94.65; gold $4,441; copper $6.42; DXY near 99</td><td>Oil is weak on demand and OPEC+ supply additions; metals still reflect debasement and scarcity hedges.</td></tr>
+<tr><td>Sentiment</td><td style="text-align: right">Neutral, hedged</td><td style="text-align: right">Fear &amp; Greed 54; VIX 15.76; equity put/call 0.77; SPX put/call 1.09</td><td>Retail optimism and passive ETF flows coexist with institutional index hedging.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk dashboard</h3>
-<pre class="table-line"><code>| Risk | Probability | Impact | Trigger |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| Rates break the equity cushion | Medium-high | High | 10Y holds above 4.55% and 30Y stays above 5.00%. |</code></pre>
-<pre class="table-line"><code>| AI-chip weakness broadens | Medium | High | Broadcom fails to stabilize and Korea/Japan semis keep leading downside. |</code></pre>
-<pre class="table-line"><code>| Sentiment slips from neutral | Medium | Medium-high | Fear &amp; Greed loses 50 while VIX breaks 18. |</code></pre>
-<pre class="table-line"><code>| Europe develops a second leg lower | Medium | Medium | DAX loses 24,600 and listed-PE weakness spreads beyond one-day movers. |</code></pre>
-<pre class="table-line"><code>| Oil stops helping margins | Low-medium | Medium-high | Brent reclaims $98-$100 despite the current demand/supply softness. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th style="text-align: right">Probability</th><th style="text-align: right">Impact</th><th>Trigger</th></tr></thead>
+<tbody>
+<tr><td>Rates break the equity cushion</td><td style="text-align: right">Medium-high</td><td style="text-align: right">High</td><td>10Y holds above 4.55% and 30Y stays above 5.00%.</td></tr>
+<tr><td>AI-chip weakness broadens</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>Broadcom fails to stabilize and Korea/Japan semis keep leading downside.</td></tr>
+<tr><td>Sentiment slips from neutral</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium-high</td><td>Fear &amp; Greed loses 50 while VIX breaks 18.</td></tr>
+<tr><td>Europe develops a second leg lower</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium</td><td>DAX loses 24,600 and listed-PE weakness spreads beyond one-day movers.</td></tr>
+<tr><td>Oil stops helping margins</td><td style="text-align: right">Low-medium</td><td style="text-align: right">Medium-high</td><td>Brent reclaims $98-$100 despite the current demand/supply softness.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-segment synthesis</h3>
 <p>The cleanest read is rates first, chips second. The US payroll surprise is not just a headline beat; the revisions matter. March and April were both revised higher, leisure and hospitality added 70,000 jobs, local government added 55,000, and healthcare added 35,000. That breadth makes it harder to argue the labor market is already soft enough to force near-term cuts. The bond market responded accordingly: the 10-year moved above 4.53% and the 30-year crossed 5.00%. Equities sold off alongside Treasuries, which means this is a valuation shock rather than a simple growth scare.</p>
 <p>That matters most for technology because the AI trade is long-duration by construction. Broadcom had already broken the mood after its Thursday US selloff, and Asia showed where the pressure is most concentrated. Korea was the high-beta leg: KOSPI fell 5.54% as Samsung Electronics and SK Hynix led the downside. Japan&#x27;s Nikkei lost 1.31%, with Tokyo Electron and Advantest exposed, while USD/JPY near 160 added intervention risk. Hong Kong&#x27;s 1.15% decline was also tech-led, not a separate regulatory story. The rejected Asia attribution has been corrected: this is one Broadcom-to-regional-chip chain.</p>

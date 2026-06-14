@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-06-01</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: not_started</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,21 +52,31 @@
 <h3>So what</h3>
 <p>Markets started June by refusing to panic. Oil jumped roughly 3% on fresh US-Iran strike and Hormuz-risk headlines, US futures still pointed higher, Japan and Korea closed at records, and VIX stayed in the mid-15s. That is the day&#x27;s message: investors are treating geopolitics as an energy tax, not a systemic shock. The problem is that the same tape is also stretched. Rate markets are flirting with a Fed-hike narrative, Europe is waiting on an inflation print, Asia&#x27;s rally is concentrated in AI hardware, and sentiment has already moved into greed. Risk-on remains the base case, but the margin of safety narrowed.</p>
 <h3>Factor matrix</h3>
-<pre class="table-line"><code>| Segment | Main signal | Key levels | Driver |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| US | Risk-on, stretched | S&amp;P 500 cash 7,580.06; ES ~7,617.50; VIX ~15.8; 10Y 4.47% | May&#x27;s record rally carried into June, while Iran/oil and Fed-hike pricing added tail risk. |</code></pre>
-<pre class="table-line"><code>| Europe | Neutral, defensive tilt | STOXX 600 624.67; DAX ~25,077; Bund 2.93%; EUR/USD 1.1648 | Equities drifted lower before the May HICP flash; falling Bund yields suggest growth caution, not inflation comfort. |</code></pre>
-<pre class="table-line"><code>| Asia | AI-led risk-on ex-China | Nikkei 66,934.33; KOSPI 8,788.38; Hang Seng 25,398.18; Shanghai 4,057.74 | Japan and Korea hit records on AI/semiconductor leadership; mainland China lagged. |</code></pre>
-<pre class="table-line"><code>| Macro | Energy shock, not broad haven bid | Brent $93.85; WTI $90.38; gold ~$4,491; DXY 99.05 | Oil priced Iran fragility, but gold fell and the dollar barely moved, so panic hedges did not confirm. |</code></pre>
-<pre class="table-line"><code>| Sentiment | Greed with exhaustion risk | CNN Fear &amp; Greed 60; VIX 15.8; RSI &gt;70; savings rate 2.6% | Momentum and low hedge demand support equities, while consumer buffers and technical extension warn against complacency. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th style="text-align: right">Main signal</th><th style="text-align: right">Key levels</th><th>Driver</th></tr></thead>
+<tbody>
+<tr><td>US</td><td style="text-align: right">Risk-on, stretched</td><td style="text-align: right">S&amp;P 500 cash 7,580.06; ES ~7,617.50; VIX ~15.8; 10Y 4.47%</td><td>May&#x27;s record rally carried into June, while Iran/oil and Fed-hike pricing added tail risk.</td></tr>
+<tr><td>Europe</td><td style="text-align: right">Neutral, defensive tilt</td><td style="text-align: right">STOXX 600 624.67; DAX ~25,077; Bund 2.93%; EUR/USD 1.1648</td><td>Equities drifted lower before the May HICP flash; falling Bund yields suggest growth caution, not inflation comfort.</td></tr>
+<tr><td>Asia</td><td style="text-align: right">AI-led risk-on ex-China</td><td style="text-align: right">Nikkei 66,934.33; KOSPI 8,788.38; Hang Seng 25,398.18; Shanghai 4,057.74</td><td>Japan and Korea hit records on AI/semiconductor leadership; mainland China lagged.</td></tr>
+<tr><td>Macro</td><td style="text-align: right">Energy shock, not broad haven bid</td><td style="text-align: right">Brent $93.85; WTI $90.38; gold ~$4,491; DXY 99.05</td><td>Oil priced Iran fragility, but gold fell and the dollar barely moved, so panic hedges did not confirm.</td></tr>
+<tr><td>Sentiment</td><td style="text-align: right">Greed with exhaustion risk</td><td style="text-align: right">CNN Fear &amp; Greed 60; VIX 15.8; RSI &gt;70; savings rate 2.6%</td><td>Momentum and low hedge demand support equities, while consumer buffers and technical extension warn against complacency.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk dashboard</h3>
-<pre class="table-line"><code>| Risk | Probability | Impact | Trigger |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| Iran/Hormuz escalation | Medium | High | Brent through $96, WTI through $92, or fresh shipping disruption. |</code></pre>
-<pre class="table-line"><code>| Rates break the equity rally | Medium | High | Hot ISM/payrolls, US 10Y above 4.50%-4.60%, or explicit Fed-hike repricing. |</code></pre>
-<pre class="table-line"><code>| Eurozone inflation surprise | Medium | Medium | HICP above the low-3% consensus zone, Bunds back toward 3.00%, real estate/utilities selling off. |</code></pre>
-<pre class="table-line"><code>| AI leadership crowds out breadth | Medium | Medium-High | Nvidia-linked winners fade, Nasdaq rejects highs, or KOSPI loses the 8,476 prior-record area. |</code></pre>
-<pre class="table-line"><code>| Consumer fragility appears | Low-Medium | High | Savings-rate stress meets weaker labor data, turning current consumption strength into demand risk. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th style="text-align: right">Probability</th><th style="text-align: right">Impact</th><th>Trigger</th></tr></thead>
+<tbody>
+<tr><td>Iran/Hormuz escalation</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>Brent through $96, WTI through $92, or fresh shipping disruption.</td></tr>
+<tr><td>Rates break the equity rally</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>Hot ISM/payrolls, US 10Y above 4.50%-4.60%, or explicit Fed-hike repricing.</td></tr>
+<tr><td>Eurozone inflation surprise</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium</td><td>HICP above the low-3% consensus zone, Bunds back toward 3.00%, real estate/utilities selling off.</td></tr>
+<tr><td>AI leadership crowds out breadth</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium-High</td><td>Nvidia-linked winners fade, Nasdaq rejects highs, or KOSPI loses the 8,476 prior-record area.</td></tr>
+<tr><td>Consumer fragility appears</td><td style="text-align: right">Low-Medium</td><td style="text-align: right">High</td><td>Savings-rate stress meets weaker labor data, turning current consumption strength into demand risk.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-segment synthesis</h3>
 <p>The common thread is a market separating price shock from crisis shock. Brent near $94 and WTI near $90 say traders are paying for a higher probability of supply disruption after the latest US-Iran headlines. Yet gold slipped toward $4,491, DXY stayed around 99, and equity volatility did not reprice. In a genuine geopolitical panic, oil, gold, the dollar, and VIX would usually rise together. Today, only oil clearly did. That makes energy inflation the transmission channel, not fear itself.</p>
 <p>US assets show the tension most clearly. Futures pointed to a firmer open after a May rally that left the S&amp;P 500 at 7,580.06 and VIX near four-month lows. Nvidia&#x27;s Computex news added a fresh micro catalyst for the AI trade, helping semis and hardware partners even as Intel and AMD lagged. But the bond market is less forgiving: the 10-year yield at 4.47% and chatter that the next Fed move could be up place Friday&#x27;s payrolls at the center of the week. If NFP validates the hike narrative, stretched equity multiples lose their easiest support.</p>

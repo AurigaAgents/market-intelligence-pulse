@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-15</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -43,13 +51,18 @@
 <h3>Overview</h3>
 <p><strong>So what:</strong> The global tape is no longer a clean record-chase. The US entered Friday with a fresh S&amp;P 500 record close at 7,501.24 and the Dow above 50,000, but Europe and Asia used the same macro inputs very differently: higher oil, higher yields, a firmer dollar, and renewed Iran/Hormuz risk triggered equity selling rather than follow-through. The core signal is divergence. US investors are still paying for AI-led growth in a low-volatility, greed-regime market; non-US markets are already marking down the inflation and policy risk. That is not panic, but it is a fragile setup.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Approved cycle | Main signal | Risk read |</code></pre>
-<pre class="table-line"><code>|---|---:|---|---|</code></pre>
-<pre class="table-line"><code>| US | 1 | S&amp;P 500 record close at 7,501.24; Dow first close above 50,000; 10Y yield probing 4.49–4.55% | Risk-On, yield-constrained |</code></pre>
-<pre class="table-line"><code>| Europe | 2 | STOXX 600 verified May 14 close at 616.05, then fell about 1.3% live May 15 as oil and Iran risk revived inflation fears | Risk-Off reversal |</code></pre>
-<pre class="table-line"><code>| Asia | 2 | Broad regional selloff: Nikkei -1.99%, Hang Seng -1.62%, Shanghai -1.02%, KOSPI -6.12% | Risk-Off |</code></pre>
-<pre class="table-line"><code>| Macro | 2 | April PPI +1.4% MoM / +6.0% YoY, DXY 99.07, Brent corrected to $105.63 May 13 settlement with live May 15 reports near $108 | Stagflation pressure |</code></pre>
-<pre class="table-line"><code>| Sentiment | 2 | CNN Fear &amp; Greed 65, VIX 17-handle, equity put/call near 0.5, AAII polarized | Greed with fragility |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th style="text-align: right">Approved cycle</th><th>Main signal</th><th>Risk read</th></tr></thead>
+<tbody>
+<tr><td>US</td><td style="text-align: right">1</td><td>S&amp;P 500 record close at 7,501.24; Dow first close above 50,000; 10Y yield probing 4.49–4.55%</td><td>Risk-On, yield-constrained</td></tr>
+<tr><td>Europe</td><td style="text-align: right">2</td><td>STOXX 600 verified May 14 close at 616.05, then fell about 1.3% live May 15 as oil and Iran risk revived inflation fears</td><td>Risk-Off reversal</td></tr>
+<tr><td>Asia</td><td style="text-align: right">2</td><td>Broad regional selloff: Nikkei -1.99%, Hang Seng -1.62%, Shanghai -1.02%, KOSPI -6.12%</td><td>Risk-Off</td></tr>
+<tr><td>Macro</td><td style="text-align: right">2</td><td>April PPI +1.4% MoM / +6.0% YoY, DXY 99.07, Brent corrected to $105.63 May 13 settlement with live May 15 reports near $108</td><td>Stagflation pressure</td></tr>
+<tr><td>Sentiment</td><td style="text-align: right">2</td><td>CNN Fear &amp; Greed 65, VIX 17-handle, equity put/call near 0.5, AAII polarized</td><td>Greed with fragility</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p><strong>Equity trend:</strong> US cap-weighted equities are still strong. AI and mega-cap technology remain the dominant marginal buyers, and the Dow’s move through 50,000 suggests the rally has at least some cyclical breadth. The warning is that small caps and non-US equities are not confirming the same all-clear. Europe reversed the prior session’s gains and Asia sold off broadly.</p>
 <p><strong>Rates and dollar:</strong> The US 10-year yield near 4.5% is the market’s pressure point. The accepted US and macro reports both show a firmer-rate backdrop rather than a Fed-cut rally. DXY at 99.07, up for a third session, says global liquidity is tightening at the margin. That matters because equities are rallying on growth confidence while bonds and FX are pricing a less friendly inflation path.</p>

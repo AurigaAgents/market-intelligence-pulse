@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-08</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: not_started</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,13 +52,18 @@
 <h3>So What</h3>
 <p>Markets are not trading a clean panic, but they are no longer rewarding the first layer of Iran ceasefire optimism either. The visible tape is Risk-Off-Lite: continental Europe and China/Hong Kong slipped, Japan took profits near records, and Thursday&#x27;s US close reversed from fresh highs. The deeper cross-asset message is more constructive and more complicated. A strong US payrolls print did not push Treasury yields higher, the dollar stayed near 52-week lows, EUR/USD pressed toward 1.18 on hawkish ECB repricing, and gold plus copper rallied together. The day&#x27;s real signal is a market rotating away from pure equity beta and toward policy-divergence, hard-asset, and energy-circuit-breaker trades.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Tone | Headline move | Real driver |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| **US** | Risk-Off-Lite at the last close; constructive underneath | May 7 close: S&amp;P 500 7,337.11, -0.38%; Nasdaq 100 28,563.95, -0.12%; Dow -0.63%; Russell 2000 -1.63%. VIX remained subdued near 17. | Indices reversed after fresh 52-week highs, with small caps weaker at the close. But the important macro tell was that the May 8 payrolls beat did not lift yields: US10Y eased to about 4.36% and US2Y to 3.88%, preserving a soft-landing/rate-cut interpretation rather than a hawkish Fed shock. |</code></pre>
-<pre class="table-line"><code>| **Europe** | Continental pullback; FTSE hedge | DAX 24,432.20, -0.94%; CAC 40 -0.85%; STOXX 600 613.04, -0.55%; FTSE 100 only -0.14%; EUR/USD around 1.178. | Europe sits on the wrong side of a renewed Hormuz/oil risk premium while also pricing a more hawkish ECB. The FTSE&#x27;s oil-and-mining weight cushioned the same shock that pressured DAX/CAC exporters and industrials. |</code></pre>
-<pre class="table-line"><code>| **Asia** | Mixed-to-soft, not broken | Nikkei 225 -0.19%; Hang Seng -0.87%; CSI 300 -0.58%; KOSPI +0.11% after a +13.6% five-day run; USD/JPY 156.52. | Profit-taking followed a strong week, especially in Japan and Korea. Korea remains the standout because the AI/semi bid still offsets regional risk aversion. China weakness despite a firmer yuan shows the market reading FX strength as policy restraint, not a capital-flow tailwind. |</code></pre>
-<pre class="table-line"><code>| **Macro** | Reflation/hard-asset bid | Brent roughly $100-$101; WTI mid-$94 to mid-$96 depending on timestamp; gold around $4,735; copper $6.24/lb; DXY 97.96; BTC near $79.3k. | The market is treating Hormuz as recurring binary risk, but not the only driver. Gold, silver, and copper bid together while the dollar weakens and Bitcoin lags: that is closer to USD-debasement/reflation hedging than simple war panic. |</code></pre>
-<pre class="table-line"><code>| **Sentiment** | Greed, but not extreme; breadth caveat | CNN Fear &amp; Greed 67.77, VIX around 17.27, CBOE equity put/call 0.46. | The final sentiment analyst report was rejected for bad SPX/RUT prior-close baselines. Use the reviewer-verified correction: live SPX and RUT were both positive intraday, with Russell underperforming by roughly 40-50 bps, not crashing. Sentiment is warm and call-heavy, but not an &gt;80 extreme-greed top signal. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Tone</th><th>Headline move</th><th>Real driver</th></tr></thead>
+<tbody>
+<tr><td><strong>US</strong></td><td>Risk-Off-Lite at the last close; constructive underneath</td><td>May 7 close: S&amp;P 500 7,337.11, -0.38%; Nasdaq 100 28,563.95, -0.12%; Dow -0.63%; Russell 2000 -1.63%. VIX remained subdued near 17.</td><td>Indices reversed after fresh 52-week highs, with small caps weaker at the close. But the important macro tell was that the May 8 payrolls beat did not lift yields: US10Y eased to about 4.36% and US2Y to 3.88%, preserving a soft-landing/rate-cut interpretation rather than a hawkish Fed shock.</td></tr>
+<tr><td><strong>Europe</strong></td><td>Continental pullback; FTSE hedge</td><td>DAX 24,432.20, -0.94%; CAC 40 -0.85%; STOXX 600 613.04, -0.55%; FTSE 100 only -0.14%; EUR/USD around 1.178.</td><td>Europe sits on the wrong side of a renewed Hormuz/oil risk premium while also pricing a more hawkish ECB. The FTSE&#x27;s oil-and-mining weight cushioned the same shock that pressured DAX/CAC exporters and industrials.</td></tr>
+<tr><td><strong>Asia</strong></td><td>Mixed-to-soft, not broken</td><td>Nikkei 225 -0.19%; Hang Seng -0.87%; CSI 300 -0.58%; KOSPI +0.11% after a +13.6% five-day run; USD/JPY 156.52.</td><td>Profit-taking followed a strong week, especially in Japan and Korea. Korea remains the standout because the AI/semi bid still offsets regional risk aversion. China weakness despite a firmer yuan shows the market reading FX strength as policy restraint, not a capital-flow tailwind.</td></tr>
+<tr><td><strong>Macro</strong></td><td>Reflation/hard-asset bid</td><td>Brent roughly $100-$101; WTI mid-$94 to mid-$96 depending on timestamp; gold around $4,735; copper $6.24/lb; DXY 97.96; BTC near $79.3k.</td><td>The market is treating Hormuz as recurring binary risk, but not the only driver. Gold, silver, and copper bid together while the dollar weakens and Bitcoin lags: that is closer to USD-debasement/reflation hedging than simple war panic.</td></tr>
+<tr><td><strong>Sentiment</strong></td><td>Greed, but not extreme; breadth caveat</td><td>CNN Fear &amp; Greed 67.77, VIX around 17.27, CBOE equity put/call 0.46.</td><td>The final sentiment analyst report was rejected for bad SPX/RUT prior-close baselines. Use the reviewer-verified correction: live SPX and RUT were both positive intraday, with Russell underperforming by roughly 40-50 bps, not crashing. Sentiment is warm and call-heavy, but not an &gt;80 extreme-greed top signal.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p>1. <strong>Brent $100 remains the circuit breaker.</strong> Asia&#x27;s approved report had Brent near $100.10; macro had it near $101.20. That timestamp spread is normal, but the level is decisive. Sustained trade above $103 would revive CPI and margin pressure; a break below $100 would restore the de-escalation trade.</p>
 <p>2. <strong>US yields are refusing the hot-data script.</strong> A payrolls beat with lower 2Y/10Y yields is a meaningful asymmetry. If yields keep falling on strong data, equities can treat growth as durable and inflation as contained. If the long end snaps back above 4.40%, the soft-landing cushion weakens.</p>

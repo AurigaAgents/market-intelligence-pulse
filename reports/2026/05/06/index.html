@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-06</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -45,13 +53,18 @@
 <h3>So What</h3>
 <p>Markets priced the Iran/Hormuz shock as if the tail risk had moved from “shipping crisis” to “deal risk.” That single repricing drove the day: oil collapsed, Europe and Asia rallied, US futures and prior record closes stayed supported, and volatility remained calm rather than euphoric. The important caveat is timing. The market has bought the reported one-page U.S.–Iran framework before it is actually signed. That makes the tape risk-on, but conditional: the first asset to confirm or reject the story is still crude, not equities.</p>
 <h3>Factor Matrix</h3>
-<pre class="table-line"><code>| Segment | Tone | Headline move | Real driver |</code></pre>
-<pre class="table-line"><code>|---|---|---|---|</code></pre>
-<pre class="table-line"><code>| **US** | Risk-on, pre-open/stale snapshot | May 5 close: S&amp;P 500 7,259.22, +0.81%; Nasdaq 25,326.13, +1.03%; Dow 49,298.25, +0.73%; VIX 17.38 | Record closes were reinforced by May 6 futures as Iran-deal hopes pulled oil lower. Semis added a second impulse after reports that Apple was exploring Intel silicon for US-built devices. Treat the levels as a prior-close/pre-open snapshot, not a May 6 cash close. |</code></pre>
-<pre class="table-line"><code>| **EU** | Strong oil-relief rally | DAX 24,949.25, +2.24%; CAC 8,299.42, +2.94%; FTSE 10,438.66, +2.15%; Brent about $102.4, -6.8% | The cleanest close-area data show CAC, not DAX, as the leader. Brent’s fall confirmed the Hormuz de-escalation channel, while FTSE lagged because BP and Shell weights mechanically offset part of the relief bid. |</code></pre>
-<pre class="table-line"><code>| **Asia** | Broad importer relief, Korea exceptional | KOSPI 7,409.09, +6.81%; Hang Seng 26,213.78, +1.22%; Shanghai 4,160.17, +1.17%; Tokyo closed | Asia traded one narrative: less Hormuz risk, cheaper crude, firmer importer FX. Korea’s move was amplified by Samsung/HBM optimism and a post-holiday flow catch-up. Hong Kong participated rather than diverged. |</code></pre>
-<pre class="table-line"><code>| **Macro** | Risk-on correction from rejected report | WTI around $95, down about 7%; gold above $4,700; US 10Y near 4.36%, lower; 30Y near 4.94%; DXY softer; BTC near $81.5k | The rejected macro draft framed dollar/yields up and BTC down; the review found the opposite. The correct macro configuration is oil and yields lower, dollar softer, gold firm, and crypto resilient. |</code></pre>
-<pre class="table-line"><code>| **Sentiment** | Greed, but not extreme | CNN Fear &amp; Greed about 67; AAII bulls 38.1%, down 7.9 pp WoW; total put/call about 0.76; VIX 17.38 | Positioning confirms participation without capitulation into euphoria. ETF flow favored VOO and fixed income while QQQ saw outflow, so the record tape is healthier than panic, but not an all-in tech chase. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Tone</th><th>Headline move</th><th>Real driver</th></tr></thead>
+<tbody>
+<tr><td><strong>US</strong></td><td>Risk-on, pre-open/stale snapshot</td><td>May 5 close: S&amp;P 500 7,259.22, +0.81%; Nasdaq 25,326.13, +1.03%; Dow 49,298.25, +0.73%; VIX 17.38</td><td>Record closes were reinforced by May 6 futures as Iran-deal hopes pulled oil lower. Semis added a second impulse after reports that Apple was exploring Intel silicon for US-built devices. Treat the levels as a prior-close/pre-open snapshot, not a May 6 cash close.</td></tr>
+<tr><td><strong>EU</strong></td><td>Strong oil-relief rally</td><td>DAX 24,949.25, +2.24%; CAC 8,299.42, +2.94%; FTSE 10,438.66, +2.15%; Brent about $102.4, -6.8%</td><td>The cleanest close-area data show CAC, not DAX, as the leader. Brent’s fall confirmed the Hormuz de-escalation channel, while FTSE lagged because BP and Shell weights mechanically offset part of the relief bid.</td></tr>
+<tr><td><strong>Asia</strong></td><td>Broad importer relief, Korea exceptional</td><td>KOSPI 7,409.09, +6.81%; Hang Seng 26,213.78, +1.22%; Shanghai 4,160.17, +1.17%; Tokyo closed</td><td>Asia traded one narrative: less Hormuz risk, cheaper crude, firmer importer FX. Korea’s move was amplified by Samsung/HBM optimism and a post-holiday flow catch-up. Hong Kong participated rather than diverged.</td></tr>
+<tr><td><strong>Macro</strong></td><td>Risk-on correction from rejected report</td><td>WTI around $95, down about 7%; gold above $4,700; US 10Y near 4.36%, lower; 30Y near 4.94%; DXY softer; BTC near $81.5k</td><td>The rejected macro draft framed dollar/yields up and BTC down; the review found the opposite. The correct macro configuration is oil and yields lower, dollar softer, gold firm, and crypto resilient.</td></tr>
+<tr><td><strong>Sentiment</strong></td><td>Greed, but not extreme</td><td>CNN Fear &amp; Greed about 67; AAII bulls 38.1%, down 7.9 pp WoW; total put/call about 0.76; VIX 17.38</td><td>Positioning confirms participation without capitulation into euphoria. ETF flow favored VOO and fixed income while QQQ saw outflow, so the record tape is healthier than panic, but not an all-in tech chase.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk Dashboard</h3>
 <p>1. <strong>The MoU is priced before it is delivered.</strong> The equity rally and oil sell-off both rest on the same assumption: Washington and Tehran are close enough to a framework that Hormuz disruption risk can be marked down. If the framework slips, crude snaps first and equities follow.</p>
 <p>2. <strong>Brent near $100 is the market’s truth serum.</strong> EU and Asia reports independently put Brent around $102 after a 6-7% fall, with intraday lows below $100 in some prints. A clean break below $100 would validate de-escalation; a rebound toward $108-$110 would say the market overpaid for headlines.</p>

@@ -16,14 +16,22 @@
     blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
     pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
     .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
     .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
     .report-list { padding-left: 1.2rem; }
     .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
   </style>
 </head>
 <body>
 <main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
 <h1>Market Intelligence Pulse - 2026-05-31</h1>
 <p class="meta">Status: legacy-imported | Coverage: legacy-aggregate | Publication: posted</p>
 <blockquote>Legacy aggregate import. This report predates the claim-level ledger; source and claim coverage are aggregate-only, so provenance is weaker than current Market Intelligence Pulse reports.</blockquote>
@@ -44,21 +52,31 @@
 <h3>So what</h3>
 <p>Global markets enter June in a risk-on regime, but the signal is conditional rather than broad. Friday&#x27;s completed cash session left the S&amp;P 500 and Nasdaq at records, the STOXX 600 near its highs, Japan and Korea sharply higher, and VIX down near 15. The common catalyst was a possible US-Iran ceasefire extension that pulled energy risk premium out of crude and let investors keep adding equity exposure. The catch is that the rally is doing two different things at once: rewarding AI infrastructure aggressively while refusing to buy every cyclical asset. Nine of eleven US sectors fell on Friday, Shanghai declined, European gains were thin, retail investors stayed net bearish, and sticky inflation kept rates from confirming a clean easing story.</p>
 <h3>Factor matrix</h3>
-<pre class="table-line"><code>| Segment | Main signal | Key levels | Driver |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| US | Risk-on, narrow | S&amp;P 500 7,580.06; Nasdaq 26,972.62; Russell 2,919.34; VIX 15.32-15.81 | Dell +32.8%, Microsoft +5.5%, and the ninth straight S&amp;P weekly gain masked weak sector breadth. |</code></pre>
-<pre class="table-line"><code>| Europe | Mild positive, hawkish tail | STOXX 600 626.00; DAX 25,104.70; EUR/USD 1.1644; Bund 2.95% | Ceasefire optimism helped periphery, defense, airlines, and luxury; ECB tightening repricing capped the index impulse. |</code></pre>
-<pre class="table-line"><code>| Asia | Risk-on ex-mainland China | Nikkei 66,329.50; KOSPI 8,476.15; Hang Seng 25,182.39; Shanghai 4,068.57 | Japan and Korea led on AI hardware and global-risk spillover; Shanghai&#x27;s -0.73% kept the China read mixed. |</code></pre>
-<pre class="table-line"><code>| Macro | Geopolitical premium unwinding | WTI $87.46-$87.75; Brent ~$91-$92; gold ~$4,551; DXY 98.91; 10Y 4.45% | Oil sold off on truce hopes, but April core PCE at 3.8% kept the Fed-on-hold discipline intact. |</code></pre>
-<pre class="table-line"><code>| Sentiment | Greed, not euphoria | CNN Fear &amp; Greed 60; VIX 15.32; equity put/call 0.42; AAII spread -6.3 pp | Options markets show low hedge demand while retail remains cautious, a constructive but crowded divergence. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th style="text-align: right">Main signal</th><th style="text-align: right">Key levels</th><th>Driver</th></tr></thead>
+<tbody>
+<tr><td>US</td><td style="text-align: right">Risk-on, narrow</td><td style="text-align: right">S&amp;P 500 7,580.06; Nasdaq 26,972.62; Russell 2,919.34; VIX 15.32-15.81</td><td>Dell +32.8%, Microsoft +5.5%, and the ninth straight S&amp;P weekly gain masked weak sector breadth.</td></tr>
+<tr><td>Europe</td><td style="text-align: right">Mild positive, hawkish tail</td><td style="text-align: right">STOXX 600 626.00; DAX 25,104.70; EUR/USD 1.1644; Bund 2.95%</td><td>Ceasefire optimism helped periphery, defense, airlines, and luxury; ECB tightening repricing capped the index impulse.</td></tr>
+<tr><td>Asia</td><td style="text-align: right">Risk-on ex-mainland China</td><td style="text-align: right">Nikkei 66,329.50; KOSPI 8,476.15; Hang Seng 25,182.39; Shanghai 4,068.57</td><td>Japan and Korea led on AI hardware and global-risk spillover; Shanghai&#x27;s -0.73% kept the China read mixed.</td></tr>
+<tr><td>Macro</td><td style="text-align: right">Geopolitical premium unwinding</td><td style="text-align: right">WTI $87.46-$87.75; Brent ~$91-$92; gold ~$4,551; DXY 98.91; 10Y 4.45%</td><td>Oil sold off on truce hopes, but April core PCE at 3.8% kept the Fed-on-hold discipline intact.</td></tr>
+<tr><td>Sentiment</td><td style="text-align: right">Greed, not euphoria</td><td style="text-align: right">CNN Fear &amp; Greed 60; VIX 15.32; equity put/call 0.42; AAII spread -6.3 pp</td><td>Options markets show low hedge demand while retail remains cautious, a constructive but crowded divergence.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Risk dashboard</h3>
-<pre class="table-line"><code>| Risk | Probability | Impact | Trigger |</code></pre>
-<pre class="table-line"><code>|---|---:|---:|---|</code></pre>
-<pre class="table-line"><code>| US-Iran truce disappoints | Medium | High | No extension, Hormuz incident, WTI reclaiming $94 or Brent back above the low-$90s breakout zone. |</code></pre>
-<pre class="table-line"><code>| AI-capex trade overheats | Medium | Medium-High | Dell/Snowflake-style winners fade, Nasdaq rejects 27,000, Korea gives back its record close. |</code></pre>
-<pre class="table-line"><code>| Rates reprice against equities | Medium | High | Hot ISM/payrolls, US 10Y toward 4.60%, or Bunds through 3.00% as ECB hike pricing firms. |</code></pre>
-<pre class="table-line"><code>| Breadth divergence worsens | Medium | Medium | More US sectors fall while indexes rise; Russell loses 2,880; Europe fails at STOXX 630. |</code></pre>
-<pre class="table-line"><code>| China remains a drag | Medium | Medium | Shanghai loses 4,055 and Hang Seng fails to hold 25,000 despite regional strength. |</code></pre>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th style="text-align: right">Probability</th><th style="text-align: right">Impact</th><th>Trigger</th></tr></thead>
+<tbody>
+<tr><td>US-Iran truce disappoints</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>No extension, Hormuz incident, WTI reclaiming $94 or Brent back above the low-$90s breakout zone.</td></tr>
+<tr><td>AI-capex trade overheats</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium-High</td><td>Dell/Snowflake-style winners fade, Nasdaq rejects 27,000, Korea gives back its record close.</td></tr>
+<tr><td>Rates reprice against equities</td><td style="text-align: right">Medium</td><td style="text-align: right">High</td><td>Hot ISM/payrolls, US 10Y toward 4.60%, or Bunds through 3.00% as ECB hike pricing firms.</td></tr>
+<tr><td>Breadth divergence worsens</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium</td><td>More US sectors fall while indexes rise; Russell loses 2,880; Europe fails at STOXX 630.</td></tr>
+<tr><td>China remains a drag</td><td style="text-align: right">Medium</td><td style="text-align: right">Medium</td><td>Shanghai loses 4,055 and Hang Seng fails to hold 25,000 despite regional strength.</td></tr>
+</tbody>
+</table>
+</div>
 <h3>Cross-segment synthesis</h3>
 <p>The day&#x27;s cleanest through-line is the removal of oil tail risk. WTI fell roughly 1.7% into the high-$87s, Brent traded near $91-$92, and macro desks framed the move as the latest leg of a multi-week geopolitical-risk unwind. That helped equities, airlines, oil importers, and volatility sellers. It also softened the dollar: DXY stayed below 99, EUR/USD reached 1.1644, and gold still held near $4,550 as the weaker-dollar channel offset the usual peace-trade pressure on havens.</p>
 <p>But the equity transmission was selective. In the US, Dell&#x27;s record 32.8% surge after stronger AI-computing guidance was large enough to pull the S&amp;P 500 green while most sectors closed red. Nasdaq strength and Microsoft participation say the AI capex cycle remains the market&#x27;s preferred growth engine. Asia confirmed that from the hardware side: KOSPI gained 3.55% to a record 8,476.15, helped by Samsung/HBM news, while the Nikkei added 2.53%. That is not a generic global reflation trade; it is a specific rerating of servers, memory, hyperscaler demand, and adjacent infrastructure.</p>
