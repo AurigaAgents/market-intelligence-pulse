@@ -226,6 +226,14 @@ jobs:
           if [[ "$review_decision" == "APPROVED" ]]; then
             native_approval_needed="false"
           fi
+          existing_app_approval_count="$(
+            gh api "repos/${REPO}/pulls/${pr_number}/reviews?per_page=100" |
+              jq --arg reviewer_bot "${REVIEWER_APP_SLUG}[bot]" --arg head_sha "$head_sha" \
+                '[.[] | select(.user.login == $reviewer_bot and .state == "APPROVED" and .commit_id == $head_sha)] | length'
+          )"
+          if (( existing_app_approval_count > 0 )); then
+            native_approval_needed="false"
+          fi
           if ! grep -Eq "(Fixes|Refs|Closes)[[:space:]]+#${issue_number}|#${issue_number}" <<< "$pr_body"; then
             fail "PR #${pr_number} body does not reference issue #${issue_number}."
           fi
