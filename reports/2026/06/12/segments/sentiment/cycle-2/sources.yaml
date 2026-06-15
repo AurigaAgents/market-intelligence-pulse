@@ -1,0 +1,144 @@
+- id: S-2026-06-12-001
+  publisher: Yahoo Finance
+  title: CBOE Volatility Index (^VIX) Historical Data
+  url: https://finance.yahoo.com/quote/%5EVIX/history/
+  canonical_url: https://finance.yahoo.com/quote/%5EVIX/history/
+  accessed_at: 2026-06-14T22:28:00+00:00
+  source_type: market_data
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: live_or_dynamic_page
+- id: S-2026-06-12-002
+  publisher: Federal Reserve Bank of St. Louis (FRED)
+  title: 'CBOE Volatility Index: VIX (VIXCLS), Daily Close'
+  url: https://fred.stlouisfed.org/series/VIXCLS
+  canonical_url: https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS&cosd=2026-06-08&coed=2026-06-12
+  accessed_at: 2026-06-14T22:28:00+00:00
+  source_type: official_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: primary_official
+  archive:
+    stored: false
+    reason: live_or_dynamic_page
+- id: S-2026-06-12-003
+  publisher: YCharts
+  title: US Investor Sentiment, % Bullish (Weekly) — AAII Sentiment Survey
+  url: https://ycharts.com/indicators/us_investor_sentiment_bullish
+  canonical_url: https://ycharts.com/indicators/us_investor_sentiment_bullish
+  accessed_at: 2026-06-14T22:28:00+00:00
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_or_dynamic_page
+- id: S-2026-06-12-004
+  publisher: MacroMicro
+  title: US - AAII Investor Sentiment Survey (Bullish / Neutral / Bearish)
+  url: https://en.macromicro.me/charts/20828/us-aaii-sentimentsurvey
+  canonical_url: https://en.macromicro.me/charts/20828/us-aaii-sentimentsurvey
+  accessed_at: 2026-06-14T22:28:00+00:00
+  source_type: market_data
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_or_dynamic_page
+- id: S-2026-06-12-005
+  publisher: American Association of Individual Investors (AAII)
+  title: 'AAII Sentiment Survey: Pessimism Surges (week ending June 11, 2026)'
+  url: https://www.aaii.com/latest/article/497376-aaii-sentiment-survey-pessimism-surges
+  canonical_url: https://www.aaii.com/latest/article/497376-aaii-sentiment-survey-pessimism-surges
+  accessed_at: 2026-06-14T22:28:00+00:00
+  published_at: 2026-06-11
+  source_type: research
+  retrieval_method: web_fetch
+  mutable: false
+  paywall: true
+  reliability_tier: primary_research
+  archive:
+    stored: false
+    reason: copyright_or_member_gated
+- id: S-2026-06-12-006
+  publisher: University of Michigan, Surveys of Consumers
+  title: 'Surveys of Consumers — Preliminary Results for June 2026 (Index of Consumer Sentiment)'
+  url: https://www.sca.isr.umich.edu/
+  canonical_url: https://www.sca.isr.umich.edu/
+  accessed_at: 2026-06-14T22:30:00+00:00
+  published_at: 2026-06-12T10:00:00-04:00
+  source_type: official_data
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: primary_official
+  archive:
+    stored: false
+    reason: live_or_dynamic_page
+- id: S-2026-06-12-007
+  publisher: Trading Economics
+  title: United States Michigan Consumer Sentiment
+  url: https://tradingeconomics.com/united-states/consumer-confidence
+  canonical_url: https://tradingeconomics.com/united-states/consumer-confidence
+  accessed_at: 2026-06-14T22:30:00+00:00
+  source_type: market_data
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_or_dynamic_page
+- id: S-2026-06-12-008
+  publisher: Investopedia
+  title: 'Markets News, June 12, 2026: Indexes Close Higher on SpaceX Debut Day, Finish Up for Week; Oil Falls on Hopes of US-Iran Deal'
+  url: https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06122026-11996464
+  canonical_url: https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06122026-11996464
+  accessed_at: 2026-06-14T22:27:00+00:00
+  published_at: 2026-06-12T19:50:00-04:00
+  source_type: news
+  retrieval_method: firecrawl_scrape
+  mutable: false
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: copyright_article
+- id: S-2026-06-12-009
+  publisher: MacroMicro
+  title: US - CNN Fear and Greed Index (daily reading)
+  url: https://en.macromicro.me/charts/50108/cnn-fear-and-greed
+  canonical_url: https://en.macromicro.me/charts/50108/cnn-fear-and-greed
+  accessed_at: 2026-06-14T22:27:00+00:00
+  source_type: market_data
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_or_dynamic_page
+- id: S-2026-06-12-010
+  publisher: Seeking Alpha
+  title: Bearish sentiment jumps while bullish views slump, AAII survey shows
+  url: https://seekingalpha.com/news/4602666-bearish-sentiment-jumps-while-bullish-views-slump-aaii-survey-shows
+  canonical_url: https://seekingalpha.com/news/4602666-bearish-sentiment-jumps-while-bullish-views-slump-aaii-survey-shows
+  accessed_at: 2026-06-14T22:27:00+00:00
+  published_at: 2026-06-11
+  source_type: news
+  retrieval_method: web_search
+  mutable: false
+  paywall: true
+  reliability_tier: secondary_news
+  archive:
+    stored: false
+    reason: copyright_or_paywall
