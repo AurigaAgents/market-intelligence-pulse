@@ -1,0 +1,30 @@
+- id: S-2026-06-15-001
+  publisher: Associated Press
+  title: How major US stock indexes fared Monday 6/15/2026
+  url: https://www.wkyc.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-monday-6152026/616-71c2ff34-3a5b-4785-be01-c3b10e6411ac
+  canonical_url: https://www.wkyc.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-monday-6152026/616-71c2ff34-3a5b-4785-be01-c3b10e6411ac
+  accessed_at: "2026-06-15T22:10:00+00:00"
+  published_at: "2026-06-15T16:25:00-04:00"
+  source_type: news
+  retrieval_method: web_fetch
+  mutable: false
+  paywall: false
+  reliability_tier: wire_service
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-15-002
+  publisher: TheStreet
+  title: 'Stock Market Today (June 15, 2026): Nasdaq, S&P 500 jumps after U.S. and Iran announce peace deal'
+  url: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-15-2026
+  canonical_url: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-15-2026
+  accessed_at: "2026-06-15T22:10:00+00:00"
+  published_at: "2026-06-15T13:04:00-04:00"
+  source_type: news
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
