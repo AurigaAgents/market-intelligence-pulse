@@ -252,7 +252,19 @@ jobs:
           fi
 
           blocking_checks="$(
-            jq '[.statusCheckRollup[]? | select((.status != "COMPLETED") or ((.conclusion != null) and (.conclusion != "SUCCESS") and (.conclusion != "SKIPPED") and (.conclusion != "NEUTRAL")))] | length' <<< "$pr_json"
+            jq --arg own_context "$REVIEW_STATUS_CONTEXT" '
+              [
+                .statusCheckRollup[]?
+                | select((.context // .name // "") != $own_context)
+                | select(
+                    if has("state") then
+                      (.state != "SUCCESS")
+                    else
+                      ((.status != "COMPLETED") or ((.conclusion != null) and (.conclusion != "SUCCESS") and (.conclusion != "SKIPPED") and (.conclusion != "NEUTRAL")))
+                    end
+                  )
+              ] | length
+            ' <<< "$pr_json"
           )"
           [[ "$blocking_checks" == "0" ]] || fail "PR #${pr_number} has non-green or pending status checks."
 
