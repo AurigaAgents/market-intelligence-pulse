@@ -1,0 +1,30 @@
+- id: S-2026-06-12-001
+  publisher: Associated Press
+  title: How major US stock indexes fared Friday, 6/12/2026
+  url: https://www.washingtonpost.com/business/2026/06/12/wall-street-stocks-dow-nasdaq/d5d43c9a-669d-11f1-bdd4-805ebb99a693_story.html
+  canonical_url: https://www.washingtonpost.com/business/2026/06/12/wall-street-stocks-dow-nasdaq/d5d43c9a-669d-11f1-bdd4-805ebb99a693_story.html
+  accessed_at: "2026-06-14T22:58:00+00:00"
+  published_at: "2026-06-12T16:30:00-04:00"
+  source_type: news
+  retrieval_method: web_fetch
+  mutable: false
+  paywall: false
+  reliability_tier: wire_service
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-12-002
+  publisher: TheStreet
+  title: 'Stock Market Today (June 12, 2026): SpaceX jumps nearly 20% in biggest IPO in history; DoJ said to clear Paramount-WBD merger'
+  url: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026
+  canonical_url: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-12-2026
+  accessed_at: "2026-06-14T22:58:00+00:00"
+  published_at: "2026-06-12T18:53:00-04:00"
+  source_type: news
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
