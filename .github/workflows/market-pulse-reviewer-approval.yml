@@ -23,11 +23,13 @@ permissions:
   contents: read
   issues: read
   pull-requests: read
+  statuses: write
 
 env:
   APPROVAL_ENABLED: ${{ vars.MARKET_PULSE_REVIEWER_APPROVAL_ENABLED || 'false' }}
   ALLOWED_REVIEW_COMMENTERS: ${{ vars.MARKET_PULSE_ALLOWED_REVIEW_COMMENTERS || 'AurigaAgents' }}
   REVIEWER_APP_SLUG: ${{ vars.MARKET_PULSE_REVIEWER_APP_SLUG || 'market-pulse-reviewer' }}
+  REVIEW_STATUS_CONTEXT: ${{ vars.MARKET_PULSE_REVIEW_STATUS_CONTEXT || 'market-pulse/reviewer-verdict' }}
 
 jobs:
   approve-from-ledger:
@@ -80,14 +82,27 @@ jobs:
             printf '%s\n' "$text" | get_field "$key"
           }
 
+          write_status_outputs() {
+            local state="$1"
+            local description="$2"
+            {
+              echo "status_state=${state}"
+              echo "status_description=${description}"
+              echo "head_sha=${head_sha:-}"
+              echo "pr_number=${pr_number:-}"
+            } >> "$GITHUB_OUTPUT"
+          }
+
           fail() {
             echo "should_approve=false" >> "$GITHUB_OUTPUT"
+            write_status_outputs "failure" "$1"
             echo "::error::$1"
             exit 1
           }
 
           skip() {
             echo "should_approve=false" >> "$GITHUB_OUTPUT"
+            write_status_outputs "" "$1"
             echo "$1"
             exit 0
           }
@@ -111,7 +126,9 @@ jobs:
           event_verdict_created_at=""
           issue_number=""
           pr_number=""
+          head_sha=""
           dry_run="$DISPATCH_DRY_RUN"
+          native_approval_needed="true"
 
           if [[ "$EVENT_NAME" == "issue_comment" ]]; then
             event_verdict_body="$(jq -r '.comment.body // ""' "$GITHUB_EVENT_PATH")"
@@ -207,7 +224,7 @@ jobs:
             fail "PR #${pr_number} was authored by the reviewer app; refusing self-approval."
           fi
           if [[ "$review_decision" == "APPROVED" ]]; then
-            skip "PR #${pr_number} is already approved."
+            native_approval_needed="false"
           fi
           if ! grep -Eq "(Fixes|Refs|Closes)[[:space:]]+#${issue_number}|#${issue_number}" <<< "$pr_body"; then
             fail "PR #${pr_number} body does not reference issue #${issue_number}."
@@ -256,8 +273,11 @@ jobs:
             "Checked: managed issue label, state:review, expected reviewer, owner/reviewer separation, PR link, unchanged head after verdict, non-failing checks, validation proof, and privacy proof.")"
 
           echo "should_approve=true" >> "$GITHUB_OUTPUT"
+          echo "native_approval_needed=${native_approval_needed}" >> "$GITHUB_OUTPUT"
           echo "pr_number=${pr_number}" >> "$GITHUB_OUTPUT"
+          echo "head_sha=${head_sha}" >> "$GITHUB_OUTPUT"
           echo "dry_run=${dry_run}" >> "$GITHUB_OUTPUT"
+          write_status_outputs "success" "Market Pulse reviewer verdict accepted for PR #${pr_number}."
           {
             echo "approval_body<<APPROVAL_BODY"
             printf '%s\n' "$approval_body"
@@ -266,9 +286,36 @@ jobs:
 
           echo "Verdict for issue #${issue_number} can be mirrored to PR #${pr_number}."
 
+      - name: Set reviewer verdict status
+        if: always() && steps.validate.outputs.head_sha != '' && steps.validate.outputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEAD_SHA: ${{ steps.validate.outputs.head_sha }}
+          STATUS_STATE: ${{ steps.validate.outputs.status_state }}
+          STATUS_DESCRIPTION: ${{ steps.validate.outputs.status_description }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          state="${STATUS_STATE:-failure}"
+          description="${STATUS_DESCRIPTION:-Market Pulse reviewer verdict could not be validated.}"
+
+          if [[ "$APPROVAL_ENABLED" != "true" && "$state" == "success" ]]; then
+            state="failure"
+            description="Market Pulse reviewer adapter is disabled."
+          fi
+
+          description="$(printf '%s' "$description" | cut -c 1-140)"
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${HEAD_SHA}" \
+            -f state="$state" \
+            -f context="$REVIEW_STATUS_CONTEXT" \
+            -f description="$description" \
+            -f target_url="$RUN_URL"
+
       - name: Create reviewer app token
         id: app-token
-        if: steps.validate.outputs.should_approve == 'true' && env.APPROVAL_ENABLED == 'true' && steps.validate.outputs.dry_run != 'true'
+        if: steps.validate.outputs.should_approve == 'true' && steps.validate.outputs.native_approval_needed == 'true' && env.APPROVAL_ENABLED == 'true' && steps.validate.outputs.dry_run != 'true'
         uses: actions/create-github-app-token@v2
         with:
           app-id: ${{ secrets.MARKET_PULSE_REVIEWER_APP_ID }}
@@ -277,7 +324,7 @@ jobs:
           repositories: market-intelligence-pulse
 
       - name: Approve pull request
-        if: steps.validate.outputs.should_approve == 'true' && env.APPROVAL_ENABLED == 'true' && steps.validate.outputs.dry_run != 'true'
+        if: steps.validate.outputs.should_approve == 'true' && steps.validate.outputs.native_approval_needed == 'true' && env.APPROVAL_ENABLED == 'true' && steps.validate.outputs.dry_run != 'true'
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           PR_NUMBER: ${{ steps.validate.outputs.pr_number }}
