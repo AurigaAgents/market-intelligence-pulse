@@ -1,0 +1,18 @@
+- id: "S-2026-06-15-001"
+  publisher: "Yahoo Finance"
+  title: "Stock market today: Dow hits record, S&P 500, Nasdaq soar as tech rallies amid US-Iran pact to reopen Hormuz."
+  url: "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-15-224751171.html"
+  accessed_at: "2026-06-16T01:07:00Z"
+  source_type: "article"
+  retrieval_method: "search"
+  mutable: true
+  reliability_tier: "primary"
+- id: "S-2026-06-15-002"
+  publisher: "CNBC"
+  title: "Dow climbs more than 450 points for record close as oil..."
+  url: "https://www.cnbc.com/2026/06/14/stock-market-today-live-updates.html"
+  accessed_at: "2026-06-16T01:07:00Z"
+  source_type: "article"
+  retrieval_method: "search"
+  mutable: true
+  reliability_tier: "primary"
