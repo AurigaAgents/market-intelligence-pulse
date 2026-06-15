@@ -1,0 +1,299 @@
+name: Market Pulse review approval adapter
+
+on:
+  issue_comment:
+    types: [created, edited]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Managed issue number carrying SPC-REVIEW-VERDICT"
+        required: false
+        type: string
+      pr_number:
+        description: "Pull request number to approve"
+        required: false
+        type: string
+      dry_run:
+        description: "Validate only; do not create a native approval"
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+
+env:
+  APPROVAL_ENABLED: ${{ vars.MARKET_PULSE_REVIEWER_APPROVAL_ENABLED || 'false' }}
+  ALLOWED_REVIEW_COMMENTERS: ${{ vars.MARKET_PULSE_ALLOWED_REVIEW_COMMENTERS || 'AurigaAgents' }}
+  REVIEWER_APP_SLUG: ${{ vars.MARKET_PULSE_REVIEWER_APP_SLUG || 'market-pulse-reviewer' }}
+
+jobs:
+  approve-from-ledger:
+    name: Mirror approved agent review
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Validate ledger verdict
+        id: validate
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          DISPATCH_ISSUE_NUMBER: ${{ github.event.inputs.issue_number || '' }}
+          DISPATCH_PR_NUMBER: ${{ github.event.inputs.pr_number || '' }}
+          DISPATCH_DRY_RUN: ${{ github.event.inputs.dry_run || 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          REPO="${GITHUB_REPOSITORY}"
+
+          trim() {
+            sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//'
+          }
+
+          lower() {
+            tr '[:upper:]' '[:lower:]'
+          }
+
+          get_field() {
+            local key="$1"
+            awk -v key="$key" '
+              {
+                line = $0
+                low = tolower($0)
+                pattern = "^[[:space:]]*" tolower(key) "[[:space:]]*:"
+                if (low ~ pattern) {
+                  sub(/^[^:]*:[[:space:]]*/, "", line)
+                  sub(/[[:space:]]*$/, "", line)
+                  print line
+                  exit
+                }
+              }
+            '
+          }
+
+          field_from_text() {
+            local key="$1"
+            local text="$2"
+            printf '%s\n' "$text" | get_field "$key"
+          }
+
+          fail() {
+            echo "should_approve=false" >> "$GITHUB_OUTPUT"
+            echo "::error::$1"
+            exit 1
+          }
+
+          skip() {
+            echo "should_approve=false" >> "$GITHUB_OUTPUT"
+            echo "$1"
+            exit 0
+          }
+
+          actor_allowed() {
+            local actor="$1"
+            local normalized_allowed
+            normalized_allowed="$(printf ',%s,' "$ALLOWED_REVIEW_COMMENTERS" | tr -d '[:space:]')"
+            [[ "$normalized_allowed" == *",$actor,"* ]]
+          }
+
+          derive_issue_from_pr_body() {
+            local pr_body="$1"
+            printf '%s\n' "$pr_body" |
+              grep -Eoi '(fixes|refs|closes)[[:space:]]+#[0-9]+' |
+              head -n 1 |
+              grep -Eo '[0-9]+' || true
+          }
+
+          event_verdict_body=""
+          event_verdict_created_at=""
+          issue_number=""
+          pr_number=""
+          dry_run="$DISPATCH_DRY_RUN"
+
+          if [[ "$EVENT_NAME" == "issue_comment" ]]; then
+            event_verdict_body="$(jq -r '.comment.body // ""' "$GITHUB_EVENT_PATH")"
+            event_verdict_created_at="$(jq -r '.comment.created_at // ""' "$GITHUB_EVENT_PATH")"
+            comment_author="$(jq -r '.comment.user.login // ""' "$GITHUB_EVENT_PATH")"
+            issue_number="$(jq -r '.issue.number // ""' "$GITHUB_EVENT_PATH")"
+            dry_run="false"
+
+            if [[ "$event_verdict_body" != *"SPC-REVIEW-VERDICT"* ]]; then
+              skip "Comment is not an SPC review verdict."
+            fi
+            if ! actor_allowed "$comment_author"; then
+              skip "Comment author '$comment_author' is not allowed to trigger native review mirroring."
+            fi
+          else
+            issue_number="$DISPATCH_ISSUE_NUMBER"
+            pr_number="$DISPATCH_PR_NUMBER"
+          fi
+
+          if [[ -n "$pr_number" && -z "$issue_number" ]]; then
+            pr_probe="$(gh pr view "$pr_number" --repo "$REPO" --json body)"
+            issue_number="$(derive_issue_from_pr_body "$(jq -r '.body // ""' <<< "$pr_probe")")"
+          fi
+
+          [[ -n "$issue_number" ]] || fail "No managed issue number was provided or derivable."
+
+          issue_json="$(gh api "repos/${REPO}/issues/${issue_number}")"
+          is_pull_request="$(jq -r 'has("pull_request")' <<< "$issue_json")"
+          [[ "$is_pull_request" == "false" ]] || fail "Issue #${issue_number} is a pull request; expected a managed ledger issue."
+
+          issue_body="$(jq -r '.body // ""' <<< "$issue_json")"
+          labels="$(jq -r '.labels[].name' <<< "$issue_json")"
+
+          if ! grep -Fxq "managed:market-pulse" <<< "$labels"; then
+            fail "Issue #${issue_number} is not a managed Market Pulse issue."
+          fi
+          if ! grep -Fxq "state:review" <<< "$labels"; then
+            fail "Issue #${issue_number} is not in state:review."
+          fi
+
+          expected_reviewer="$(field_from_text "Primary reviewer" "$issue_body" | trim | lower)"
+          owner="$(field_from_text "Owner" "$issue_body" | trim | lower)"
+          [[ -n "$expected_reviewer" ]] || fail "Issue #${issue_number} has no Primary reviewer field."
+          [[ "$expected_reviewer" != *","* ]] || fail "Issue #${issue_number} has multiple primary reviewers; native mirroring requires one expected reviewer."
+          [[ "$owner" != "$expected_reviewer" ]] || fail "Issue #${issue_number} has the same owner and primary reviewer."
+
+          if [[ -n "$event_verdict_body" ]]; then
+            verdict_body="$event_verdict_body"
+            verdict_created_at="$event_verdict_created_at"
+          else
+            comments_json="$(gh api "repos/${REPO}/issues/${issue_number}/comments?per_page=100")"
+            verdict_body="$(
+              jq -r '[.[] | select(.body | contains("SPC-REVIEW-VERDICT"))][-1].body // ""' <<< "$comments_json"
+            )"
+            verdict_created_at="$(
+              jq -r '[.[] | select(.body | contains("SPC-REVIEW-VERDICT"))][-1].created_at // ""' <<< "$comments_json"
+            )"
+          fi
+
+          [[ -n "$verdict_body" ]] || fail "Issue #${issue_number} has no SPC-REVIEW-VERDICT comment."
+
+          reviewer="$(field_from_text "reviewer" "$verdict_body" | trim | lower)"
+          verdict="$(field_from_text "verdict" "$verdict_body" | trim | lower)"
+          verdict_pr="$(field_from_text "pr" "$verdict_body" | grep -Eo '[0-9]+' | head -n 1 || true)"
+          verdict_head_sha="$(field_from_text "head-sha" "$verdict_body" | trim | lower || true)"
+
+          [[ "$verdict" == "approve" ]] || fail "Latest verdict for issue #${issue_number} is not approve."
+          [[ "$reviewer" == "$expected_reviewer" ]] || fail "Verdict reviewer '$reviewer' does not match expected reviewer '$expected_reviewer'."
+
+          if [[ -n "$pr_number" && -n "$verdict_pr" && "$pr_number" != "$verdict_pr" ]]; then
+            fail "Dispatch PR #${pr_number} does not match verdict PR #${verdict_pr}."
+          fi
+          if [[ -z "$pr_number" ]]; then
+            pr_number="$verdict_pr"
+          fi
+          if [[ -z "$pr_number" ]]; then
+            pr_candidates="$(gh pr list --repo "$REPO" --state open --base main --json number,body)"
+            pr_number="$(
+              jq -r --arg issue "#${issue_number}" '[.[] | select((.body // "") | contains($issue))][0].number // ""' <<< "$pr_candidates"
+            )"
+          fi
+          [[ -n "$pr_number" ]] || fail "No PR number was provided or derivable for issue #${issue_number}."
+
+          pr_json="$(gh pr view "$pr_number" --repo "$REPO" --json number,body,author,baseRefName,headRefOid,commits,reviewDecision,statusCheckRollup)"
+          pr_body="$(jq -r '.body // ""' <<< "$pr_json")"
+          pr_author="$(jq -r '.author.login // ""' <<< "$pr_json")"
+          pr_base="$(jq -r '.baseRefName // ""' <<< "$pr_json")"
+          head_sha="$(jq -r '.headRefOid // ""' <<< "$pr_json" | lower)"
+          review_decision="$(jq -r '.reviewDecision // ""' <<< "$pr_json")"
+
+          [[ "$pr_base" == "main" ]] || fail "PR #${pr_number} does not target main."
+          if [[ "$pr_author" == "${REVIEWER_APP_SLUG}[bot]" ]]; then
+            fail "PR #${pr_number} was authored by the reviewer app; refusing self-approval."
+          fi
+          if [[ "$review_decision" == "APPROVED" ]]; then
+            skip "PR #${pr_number} is already approved."
+          fi
+          if ! grep -Eq "(Fixes|Refs|Closes)[[:space:]]+#${issue_number}|#${issue_number}" <<< "$pr_body"; then
+            fail "PR #${pr_number} body does not reference issue #${issue_number}."
+          fi
+
+          if [[ -n "$verdict_head_sha" && "$verdict_head_sha" != "$head_sha" ]]; then
+            fail "PR #${pr_number} head SHA changed after the verdict: expected ${verdict_head_sha}, current ${head_sha}."
+          fi
+
+          latest_commit_date="$(jq -r '.commits[-1].committedDate // .commits[-1].authoredDate // ""' <<< "$pr_json")"
+          if [[ -z "$verdict_head_sha" && -n "$latest_commit_date" && -n "$verdict_created_at" ]]; then
+            latest_commit_epoch="$(node -e 'console.log(Math.floor(Date.parse(process.argv[1]) / 1000))' "$latest_commit_date")"
+            verdict_epoch="$(node -e 'console.log(Math.floor(Date.parse(process.argv[1]) / 1000))' "$verdict_created_at")"
+            if (( latest_commit_epoch > verdict_epoch )); then
+              fail "PR #${pr_number} has commits newer than the latest reviewer verdict."
+            fi
+          fi
+
+          blocking_checks="$(
+            jq '[.statusCheckRollup[]? | select((.status != "COMPLETED") or ((.conclusion != null) and (.conclusion != "SUCCESS") and (.conclusion != "SKIPPED") and (.conclusion != "NEUTRAL")))] | length' <<< "$pr_json"
+          )"
+          [[ "$blocking_checks" == "0" ]] || fail "PR #${pr_number} has non-green or pending status checks."
+
+          pr_comments_json="$(gh api "repos/${REPO}/issues/${pr_number}/comments?per_page=100")"
+          pr_comments_text="$(jq -r '.[].body' <<< "$pr_comments_json")"
+          proof_text="$(printf '%s\n%s\n' "$pr_body" "$pr_comments_text")"
+
+          if ! printf '%s\n' "$proof_text" | grep -Eiq '("status"[[:space:]]*:[[:space:]]*"ok"|status[[:space:]]+ok)'; then
+            fail "PR #${pr_number} does not contain validation status ok proof."
+          fi
+          if ! printf '%s\n' "$proof_text" | grep -Eiq '("errors"[[:space:]]*:[[:space:]]*\[\]|errors[[:space:]]*\[\])'; then
+            fail "PR #${pr_number} does not contain empty validation errors proof."
+          fi
+          if ! printf '%s\n' "$proof_text" | grep -Eiq '(privacy[[:space:]-]*scan|no[[:space:]]+private[[:space:]]+paths|private[[:space:]]+paths.*no[[:space:]]+matches|scan.*no[[:space:]]+matches|findings[[:space:]]*\[\])'; then
+            fail "PR #${pr_number} does not contain privacy scan or no-private-path proof."
+          fi
+
+          approval_body="$(printf '%s\n' \
+            "SPC-NATIVE-APPROVAL" \
+            "source-issue: #${issue_number}" \
+            "source-reviewer: ${reviewer}" \
+            "source-verdict-created-at: ${verdict_created_at}" \
+            "head-sha: ${head_sha}" \
+            "" \
+            "Mirrors a structured Market Pulse agent verdict into a GitHub-native approval." \
+            "Checked: managed issue label, state:review, expected reviewer, owner/reviewer separation, PR link, unchanged head after verdict, non-failing checks, validation proof, and privacy proof.")"
+
+          echo "should_approve=true" >> "$GITHUB_OUTPUT"
+          echo "pr_number=${pr_number}" >> "$GITHUB_OUTPUT"
+          echo "dry_run=${dry_run}" >> "$GITHUB_OUTPUT"
+          {
+            echo "approval_body<<APPROVAL_BODY"
+            printf '%s\n' "$approval_body"
+            echo "APPROVAL_BODY"
+          } >> "$GITHUB_OUTPUT"
+
+          echo "Verdict for issue #${issue_number} can be mirrored to PR #${pr_number}."
+
+      - name: Create reviewer app token
+        id: app-token
+        if: steps.validate.outputs.should_approve == 'true' && env.APPROVAL_ENABLED == 'true' && steps.validate.outputs.dry_run != 'true'
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.MARKET_PULSE_REVIEWER_APP_ID }}
+          private-key: ${{ secrets.MARKET_PULSE_REVIEWER_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: market-intelligence-pulse
+
+      - name: Approve pull request
+        if: steps.validate.outputs.should_approve == 'true' && env.APPROVAL_ENABLED == 'true' && steps.validate.outputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR_NUMBER: ${{ steps.validate.outputs.pr_number }}
+          APPROVAL_BODY: ${{ steps.validate.outputs.approval_body }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          jq -n --arg body "$APPROVAL_BODY" '{event:"APPROVE", body:$body}' |
+            gh api --method POST "repos/${GITHUB_REPOSITORY}/pulls/${PR_NUMBER}/reviews" --input -
+
+      - name: Report dry run or disabled adapter
+        if: steps.validate.outputs.should_approve == 'true' && (env.APPROVAL_ENABLED != 'true' || steps.validate.outputs.dry_run == 'true')
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Native approval not created."
+          echo "approval_enabled=${APPROVAL_ENABLED}"
+          echo "dry_run=${{ steps.validate.outputs.dry_run }}"
+          echo "pr_number=${{ steps.validate.outputs.pr_number }}"
