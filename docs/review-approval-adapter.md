@@ -28,6 +28,8 @@ Set these repository variables:
 
 Keep approval disabled until the app is installed and the dry-run workflow has passed for a known PR.
 
+Bootstrap note: the adapter workflow is only available as default-branch automation after this PR is merged. The first merge of the adapter itself therefore needs an explicit maintainer/admin bypass or another native review identity. After that, the app can mirror qualifying agent verdicts.
+
 ## Verdict Format
 
 Preferred issue comment:
