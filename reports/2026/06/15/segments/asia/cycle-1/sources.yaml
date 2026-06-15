@@ -1,0 +1,30 @@
+- id: S-2026-06-15-001
+  publisher: "Nikkei Inc."
+  title: "Nikkei Stock Average (Nikkei 225)"
+  url: "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+  accessed_at: "2026-06-16T00:00:00Z"
+  published_at: "2026-06-15T00:00:00Z"
+  source_type: "index_provider"
+  retrieval_method: "web_search"
+  mutable: true
+  reliability_tier: "primary"
+- id: S-2026-06-15-002
+  publisher: "Trading Economics"
+  title: "Hong Kong Stock Market Index (HK50)"
+  url: "https://tradingeconomics.com/hong-kong/stock-market"
+  accessed_at: "2026-06-16T00:00:00Z"
+  published_at: "2026-06-15T00:00:00Z"
+  source_type: "financial_aggregator"
+  retrieval_method: "web_search"
+  mutable: true
+  reliability_tier: "secondary"
+- id: S-2026-06-15-003
+  publisher: "Investing.com"
+  title: "Shanghai Composite Historical Data (SSEC)"
+  url: "https://www.investing.com/indices/shanghai-composite-historical-data"
+  accessed_at: "2026-06-16T00:00:00Z"
+  published_at: "2026-06-15T00:00:00Z"
+  source_type: "financial_aggregator"
+  retrieval_method: "web_search"
+  mutable: true
+  reliability_tier: "secondary"
