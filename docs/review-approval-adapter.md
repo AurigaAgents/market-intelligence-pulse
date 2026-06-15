@@ -53,7 +53,7 @@ head-sha: 83bc4b13378be85d2e1b4905aaf410b3ae4a6786
 The workflow refuses to mark `market-pulse/reviewer-verdict` successful unless all checks pass:
 
 - the verdict comment author is allowlisted;
-- the ledger issue has `managed:market-pulse` and `state:review`;
+- the ledger issue has `managed:market-pulse` and either `state:review` or `state:ready`;
 - `Primary reviewer` matches the verdict `reviewer`;
 - issue owner and reviewer are different;
 - verdict is `approve`;

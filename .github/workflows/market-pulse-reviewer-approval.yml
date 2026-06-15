@@ -165,8 +165,8 @@ jobs:
           if ! grep -Fxq "managed:market-pulse" <<< "$labels"; then
             fail "Issue #${issue_number} is not a managed Market Pulse issue."
           fi
-          if ! grep -Fxq "state:review" <<< "$labels"; then
-            fail "Issue #${issue_number} is not in state:review."
+          if ! grep -Fxq "state:review" <<< "$labels" && ! grep -Fxq "state:ready" <<< "$labels"; then
+            fail "Issue #${issue_number} is not in state:review or state:ready."
           fi
 
           expected_reviewer="$(field_from_text "Primary reviewer" "$issue_body" | trim | lower)"
