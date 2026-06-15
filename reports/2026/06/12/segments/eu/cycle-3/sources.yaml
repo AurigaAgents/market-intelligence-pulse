@@ -1,0 +1,90 @@
+- id: S-2026-06-12-301
+  publisher: Reuters via Investing.com
+  title: European shares rally as Middle East peace hopes drag oil prices lower
+  url: https://m.investing.com/news/stock-market-news/european-stocks-rally-as-oil-falls-on-hopes-for-usiran-deal-4739013?ampMode=1
+  canonical_url: https://m.investing.com/news/stock-market-news/european-stocks-rally-as-oil-falls-on-hopes-for-usiran-deal-4739013?ampMode=1
+  accessed_at: "2026-06-14T23:39:48Z"
+  published_at: "2026-06-12T12:49:00-04:00"
+  source_type: wire_news
+  retrieval_method: web_open
+  mutable: true
+  paywall: false
+  reliability_tier: wire_service
+  archive:
+    stored: false
+    reason: dynamic_publisher_page
+- id: S-2026-06-12-302
+  publisher: MarketScreener
+  title: STOXX Europe 600 performance and quotes
+  url: https://www.marketscreener.com/quote/index/STOXX-EUROPE-600-EUR-7477/quotes/
+  canonical_url: https://www.marketscreener.com/quote/index/STOXX-EUROPE-600-EUR-7477/quotes/
+  accessed_at: "2026-06-14T23:39:48Z"
+  published_at: "2026-06-12"
+  source_type: market_data_page
+  retrieval_method: curl
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: dynamic_market_data_page
+- id: S-2026-06-12-303
+  publisher: MarketScreener
+  title: DAX Index overview
+  url: https://www.marketscreener.com/quote/index/DAX-7395/
+  canonical_url: https://www.marketscreener.com/quote/index/DAX-7395/
+  accessed_at: "2026-06-14T23:39:48Z"
+  published_at: "2026-06-12"
+  source_type: market_data_page
+  retrieval_method: curl
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: dynamic_market_data_page
+- id: S-2026-06-12-304
+  publisher: MarketScreener
+  title: CAC 40 performance and quotes
+  url: https://www.marketscreener.com/quote/index/CAC-40-4941/quotes/
+  canonical_url: https://www.marketscreener.com/quote/index/CAC-40-4941/quotes/
+  accessed_at: "2026-06-14T23:39:48Z"
+  published_at: "2026-06-12"
+  source_type: market_data_page
+  retrieval_method: curl
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: dynamic_market_data_page
+- id: S-2026-06-12-305
+  publisher: MarketScreener
+  title: FTSE 100 Index overview
+  url: https://www.marketscreener.com/quote/index/FTSE-100-7392/
+  canonical_url: https://www.marketscreener.com/quote/index/FTSE-100-7392/
+  accessed_at: "2026-06-14T23:39:48Z"
+  published_at: "2026-06-12"
+  source_type: market_data_page
+  retrieval_method: curl
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: dynamic_market_data_page
+- id: S-2026-06-12-306
+  publisher: MarketScreener
+  title: FTSE MIB Index components
+  url: https://www.marketscreener.com/quote/index/FTSE-MIB-121229431/components/
+  canonical_url: https://www.marketscreener.com/quote/index/FTSE-MIB-121229431/components/
+  accessed_at: "2026-06-14T23:39:48Z"
+  published_at: "2026-06-12"
+  source_type: market_data_page
+  retrieval_method: curl
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: dynamic_market_data_page
