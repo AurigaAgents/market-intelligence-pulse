@@ -1,0 +1,60 @@
+- id: S-2026-06-12-401
+  publisher: U.S. Department of the Treasury
+  title: Daily Treasury Par Yield Curve Rates, June 2026
+  url: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve
+  canonical_url: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve
+  accessed_at: "2026-06-15T09:43:32Z"
+  published_at: "2026-06-12"
+  source_type: government_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: official_primary_data
+  archive:
+    stored: false
+    reason: dynamic_government_table
+- id: S-2026-06-12-402
+  publisher: U.S. Bureau of Labor Statistics
+  title: Producer Price Index News Release - 2026 M05 Results
+  url: https://www.bls.gov/news.release/archives/ppi_06112026.htm
+  canonical_url: https://www.bls.gov/news.release/archives/ppi_06112026.htm
+  accessed_at: "2026-06-15T09:43:32Z"
+  published_at: "2026-06-11"
+  source_type: government_release
+  retrieval_method: web_fetch
+  mutable: false
+  paywall: false
+  reliability_tier: official_primary_data
+  archive:
+    stored: false
+    reason: official_archive_url
+- id: S-2026-06-12-403
+  publisher: MarketWatch
+  title: Global oil prices end at 3-month low after Pakistan says a U.S.-Iran peace deal has been reached
+  url: https://www.marketwatch.com/story/oil-prices-extend-declines-on-possible-u-s-iran-peace-deal-to-reopen-strait-of-hormuz-6d2822bd
+  canonical_url: https://www.marketwatch.com/story/oil-prices-extend-declines-on-possible-u-s-iran-peace-deal-to-reopen-strait-of-hormuz-6d2822bd
+  accessed_at: "2026-06-15T09:43:32Z"
+  published_at: "2026-06-12T19:39:00Z"
+  source_type: news
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: market_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-12-404
+  publisher: Investopedia
+  title: Markets News, June 12, 2026
+  url: https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06122026-11996464
+  canonical_url: https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06122026-11996464
+  accessed_at: "2026-06-15T09:43:32Z"
+  published_at: "2026-06-12"
+  source_type: news
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: market_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
