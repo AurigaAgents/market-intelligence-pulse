@@ -1,0 +1,74 @@
+- id: S-2026-06-16-501
+  publisher: U.S. Department of the Treasury
+  title: Daily Treasury Par Yield Curve Rates, June 2026
+  url: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve
+  canonical_url: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve
+  accessed_at: "2026-06-16T22:56:09Z"
+  published_at: "2026-06-16"
+  source_type: government_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: official_primary_data
+  archive:
+    stored: false
+    reason: dynamic_government_table
+- id: S-2026-06-16-502
+  publisher: Board of Governors of the Federal Reserve System
+  title: Meeting calendars and information
+  url: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+  canonical_url: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+  accessed_at: "2026-06-16T22:56:09Z"
+  source_type: official_central_bank_calendar
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: official_central_bank
+  archive:
+    stored: false
+    reason: public_dynamic_calendar
+- id: S-2026-06-16-503
+  publisher: Reuters
+  title: Nasdaq and S&P 500 slip while Dow hits record high
+  url: https://www.reuters.com/business/wall-street-futures-subdued-focus-shifts-fed-spacex-jumps-third-day-2026-06-16/
+  canonical_url: https://www.reuters.com/business/wall-street-futures-subdued-focus-shifts-fed-spacex-jumps-third-day-2026-06-16/
+  accessed_at: "2026-06-16T22:52:20Z"
+  published_at: "2026-06-16"
+  source_type: news_article
+  retrieval_method: web_fetch
+  mutable: false
+  paywall: false
+  reliability_tier: wire_service
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-16-504
+  publisher: United Press International
+  title: Brent crude oil falls below $80 per barrel; WTI continues to decline
+  url: https://www.upi.com/Top_News/World-News/2026/06/16/iran-brent-crude-oil-prices-fall-peace-agreement/9871781617881/
+  canonical_url: https://www.upi.com/Top_News/World-News/2026/06/16/iran-brent-crude-oil-prices-fall-peace-agreement/9871781617881/
+  accessed_at: "2026-06-16T22:52:22Z"
+  published_at: "2026-06-16T10:03:00-04:00"
+  source_type: news_article
+  retrieval_method: web_fetch
+  mutable: false
+  paywall: false
+  reliability_tier: wire_service
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-16-505
+  publisher: Trading Economics
+  title: United States 10 Year Government Bond Yield - Quote, Chart, Historical Data
+  url: https://tradingeconomics.com/united-states/government-bond-yield
+  canonical_url: https://tradingeconomics.com/united-states/government-bond-yield
+  accessed_at: "2026-06-16T22:52:20Z"
+  published_at: "2026-06-16"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_aggregator
+  archive:
+    stored: false
+    reason: live_quote_page
