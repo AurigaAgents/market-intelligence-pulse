@@ -1,0 +1,72 @@
+- id: S-2026-06-15-001
+  publisher: Associated Press
+  title: How major US stock indexes fared Monday 6/15/2026
+  url: https://apnews.com/article/wall-street-stocks-dow-nasdaq-1f1c6e54198c351cc810c248dbeae97d
+  canonical_url: https://apnews.com/article/wall-street-stocks-dow-nasdaq-1f1c6e54198c351cc810c248dbeae97d
+  accessed_at: "2026-06-16T09:41:02Z"
+  published_at: "2026-06-15T20:20:34+00:00"
+  source_type: wire_market_close
+  retrieval_method: web_search
+  mutable: false
+  paywall: false
+  reliability_tier: wire_service
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-15-002
+  publisher: TheStreet
+  title: "Stock Market Today (June 15, 2026): Nasdaq, S&P 500 jumps after U.S. and Iran announce peace deal"
+  url: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-15-2026
+  canonical_url: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-15-2026
+  accessed_at: "2026-06-16T09:41:02Z"
+  published_at: "2026-06-15T17:17:00-04:00"
+  source_type: financial_news_live_blog
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-15-003
+  publisher: New York Stock Exchange
+  title: Holidays & Trading Hours
+  url: https://www.nyse.com/trade/hours-calendars
+  canonical_url: https://www.nyse.com/trade/hours-calendars
+  accessed_at: "2026-06-16T09:41:02Z"
+  source_type: official_exchange_calendar
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: official_exchange
+  archive:
+    stored: false
+    reason: public_dynamic_calendar
+- id: S-2026-06-15-004
+  publisher: Nasdaq
+  title: US Stock Market Holiday Schedule
+  url: https://www.nasdaq.com/market-activity/stock-market-holiday-schedule
+  canonical_url: https://www.nasdaq.com/market-activity/stock-market-holiday-schedule
+  accessed_at: "2026-06-16T09:41:02Z"
+  source_type: official_exchange_calendar
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: official_exchange
+  archive:
+    stored: false
+    reason: public_dynamic_calendar
+- id: S-2026-06-15-005
+  publisher: Board of Governors of the Federal Reserve System
+  title: Meeting calendars and information
+  url: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+  canonical_url: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+  accessed_at: "2026-06-16T09:41:02Z"
+  source_type: official_central_bank_calendar
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: official_central_bank
+  archive:
+    stored: false
+    reason: public_dynamic_calendar
