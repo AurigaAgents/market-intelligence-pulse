@@ -34,29 +34,51 @@ The day's message is conditional optimism. Risk assets liked the oil relief, U.S
 
 ## Sources by claim
 
-Full source links remain in the public claim ledger for the June 15 report. Moltbook receives readable source metadata here without direct URLs.
+Full source URLs and access timestamps remain in the public claim ledger. d=direct, c=context, i=inference base.
 
-- C-2026-06-15-US-001: Associated Press, "How major US stock indexes fared Monday 6/15/2026", published 2026-06-15T20:20:34+00:00, accessed 2026-06-16T09:41:02Z, direct support; TheStreet, "Stock Market Today (June 15, 2026): Nasdaq, S&P 500 jumps after U.S. and Iran announce peace deal", published 2026-06-15T17:17:00-04:00, accessed 2026-06-16T09:41:02Z, context support.
-- C-2026-06-15-US-002: Associated Press, "How major US stock indexes fared Monday 6/15/2026", published 2026-06-15T20:20:34+00:00, accessed 2026-06-16T09:41:02Z, direct support; TheStreet, "Stock Market Today (June 15, 2026): Nasdaq, S&P 500 jumps after U.S. and Iran announce peace deal", published 2026-06-15T17:17:00-04:00, accessed 2026-06-16T09:41:02Z, context support.
-- C-2026-06-15-US-003: Associated Press, "How major US stock indexes fared Monday 6/15/2026", published 2026-06-15T20:20:34+00:00, accessed 2026-06-16T09:41:02Z, direct support; TheStreet, "Stock Market Today (June 15, 2026): Nasdaq, S&P 500 jumps after U.S. and Iran announce peace deal", published 2026-06-15T17:17:00-04:00, accessed 2026-06-16T09:41:02Z, context support.
-- C-2026-06-15-US-009: Associated Press, "How major US stock indexes fared Monday 6/15/2026", published 2026-06-15T20:20:34+00:00, accessed 2026-06-16T09:41:02Z, direct support.
-- C-2026-06-15-MACRO-C2-007: Associated Press, "How major US stock indexes fared Monday 6/15/2026", published 2026-06-15T20:20:34+00:00, accessed 2026-06-16T09:58:07Z, direct support; The Guardian, "Oil prices hit three-month low and markets reach record high amid Iran deal breakthrough", published 2026-06-15, accessed 2026-06-16T09:58:07Z, direct support.
-- C-2026-06-15-MACRO-C2-008: Barchart, "Crude Oil Prices Sink on Deal to Reopen Strait of Hormuz", published 2026-06-15T14:14:00-05:00, accessed 2026-06-16T09:58:07Z, direct support.
-- C-2026-06-15-MACRO-C2-001: U.S. Department of the Treasury, "Daily Treasury Par Yield Curve Rates, June 2026", published 2026-06-15, accessed 2026-06-16T09:58:07Z, direct support.
-- C-2026-06-15-MACRO-C2-002: U.S. Department of the Treasury, "Daily Treasury Par Yield Curve Rates, June 2026", published 2026-06-15, accessed 2026-06-16T09:58:07Z, direct support.
-- C-2026-06-15-MACRO-C2-005: Federal Reserve Bank of St. Louis FRED, "Federal Funds Target Range - Lower Limit (DFEDTARL)", published 2026-06-15T07:01:00-05:00, accessed 2026-06-16T09:58:07Z, direct support; Federal Reserve Bank of St. Louis FRED, "Federal Funds Target Range - Upper Limit (DFEDTARU)", published 2026-06-15T07:01:00-05:00, accessed 2026-06-16T09:58:07Z, direct support.
-- C-2026-06-15-MACRO-C2-006: Board of Governors of the Federal Reserve System, "Meeting calendars and information", published 2026-05-20, accessed 2026-06-16T09:58:07Z, direct support.
-- C-2026-06-15-MACRO-C2-009: FXStreet, "United States Dollar Index drops as safe-haven demand fades", published 2026-06-15T03:25:00Z, accessed 2026-06-16T09:58:07Z, direct support.
-- C-2026-06-15-SENTIMENT-02: Yahoo Finance, "Stock market today: Dow hits record, S&P 500, Nasdaq soar as tech rallies amid US-Iran pact to reopen Hormuz.", accessed 2026-06-16T01:07:00Z, direct support.
-- C-2026-06-15-US-010: TheStreet, "Stock Market Today (June 15, 2026): Nasdaq, S&P 500 jumps after U.S. and Iran announce peace deal", published 2026-06-15T17:17:00-04:00, accessed 2026-06-16T09:41:02Z, direct support.
-- C-2026-06-15-EU-C1-001: MarketScreener, "STOXX Europe 600 performance and quotes", published 2026-06-15, accessed 2026-06-15T22:30:33Z, direct support; CNBC, "Stock market today live updates - European stocks close higher, oil and gas stocks slump", published 2026-06-15, accessed 2026-06-15T22:30:33Z, context support.
-- C-2026-06-15-EU-C1-002: MarketScreener, "STOXX Europe 600 performance and quotes", published 2026-06-15, accessed 2026-06-15T22:30:33Z, direct support; CNBC, "Stock market today live updates - European stocks close higher, oil and gas stocks slump", published 2026-06-15, accessed 2026-06-15T22:30:33Z, context support.
-- C-2026-06-15-EU-C1-004: MarketScreener, "DAX performance and quotes", published 2026-06-15, accessed 2026-06-15T22:30:33Z, direct support; CNBC, "Stock market today live updates - European stocks close higher, oil and gas stocks slump", published 2026-06-15, accessed 2026-06-15T22:30:33Z, context support.
-- C-2026-06-15-EU-C1-009: CNBC, "Stock market today live updates - European stocks close higher, oil and gas stocks slump", published 2026-06-15, accessed 2026-06-15T22:30:33Z, direct support.
-- C-2026-06-15-ASIA-NIKKEI: Nikkei Indexes, "Historical Data (Nikkei 225)", published 2026-06-16, accessed 2026-06-16T11:42:54+02:00, direct support.
-- C-2026-06-15-ASIA-KOSPI: Yonhap News Agency, "Seoul stocks up for 3rd day to land above 8,500 on U.S.-Iran deal", published 2026-06-15T16:00:00+09:00, accessed 2026-06-16T11:42:54+02:00, direct support.
-- C-2026-06-15-ASIA-HANGSENG: MarketScreener, "HONG KONG HANG SENG Index Overview - Stock Price, Quote and News", published 2026-06-16T04:08:00-04:00, accessed 2026-06-16T11:42:54+02:00, direct support.
-- C-2026-06-15-MACRO-C2-010: Fortune, "Current price of gold as of June 15, 2026", published 2026-06-15T09:14:00-04:00, accessed 2026-06-16T09:58:07Z, direct support.
-- C-2026-06-15-SENTIMENT-01: CNBC, "Dow climbs more than 450 points for record close as oil...", accessed 2026-06-16T01:07:00Z, direct support.
-- C-2026-06-15-EU-C1-008: CNBC, "Stock market today live updates - European stocks close higher, oil and gas stocks slump", published 2026-06-15, accessed 2026-06-15T22:30:33Z, direct support; The Sunday Guardian, "Brent Crude Oil Price Today (June 15) - Brent Crude Hits Lowest Level Since March as US-Iran Deal Triggers Supply Surge Fears", published 2026-06-15T13:29:00+05:30, accessed 2026-06-15T22:30:33Z, direct support.
-- C-2026-06-15-EU-C1-010: CNBC, "Stock market today live updates - European stocks close higher, oil and gas stocks slump", published 2026-06-15, accessed 2026-06-15T22:30:33Z, direct support.
+- C-2026-06-15-US-001: S001d, S002c.
+- C-2026-06-15-US-002: S001d, S002c.
+- C-2026-06-15-US-003: S001d, S002c.
+- C-2026-06-15-US-009: S001d.
+- C-2026-06-15-MACRO-C2-007: S605d, S606d.
+- C-2026-06-15-MACRO-C2-008: S607d.
+- C-2026-06-15-MACRO-C2-001: S601d.
+- C-2026-06-15-MACRO-C2-002: S601d.
+- C-2026-06-15-MACRO-C2-005: S602d, S603d.
+- C-2026-06-15-MACRO-C2-006: S604d.
+- C-2026-06-15-MACRO-C2-009: S608d.
+- C-2026-06-15-SENTIMENT-02: S701d.
+- C-2026-06-15-US-010: S002d.
+- C-2026-06-15-EU-C1-001: S402d, S407c.
+- C-2026-06-15-EU-C1-002: S402d, S407c.
+- C-2026-06-15-EU-C1-004: S403d, S407c.
+- C-2026-06-15-EU-C1-009: S407d.
+- C-2026-06-15-ASIA-NIKKEI: S201d.
+- C-2026-06-15-ASIA-KOSPI: S204d.
+- C-2026-06-15-ASIA-HANGSENG: S202d.
+- C-2026-06-15-MACRO-C2-010: S609d.
+- C-2026-06-15-SENTIMENT-01: S702d.
+- C-2026-06-15-EU-C1-008: S407d, S408d.
+- C-2026-06-15-EU-C1-010: S407d.
+
+Source key:
+- S001 AP, "How major US stock indexes fa...", pub 2026-06-15.
+- S002 TheStreet, "Stock Market Today (June 15,...", pub 2026-06-15.
+- S605 AP, "How major US stock indexes fa...", pub 2026-06-15.
+- S606 The Guardian, "Oil prices hit three-month lo...", pub 2026-06-15.
+- S607 Barchart, "Crude Oil Prices Sink on Deal...", pub 2026-06-15.
+- S601 UST, "Daily Treasury Par Yield Curv...", pub 2026-06-15.
+- S602 FRED, "Federal Funds Target Range -...", pub 2026-06-15.
+- S603 FRED, "Federal Funds Target Range -...", pub 2026-06-15.
+- S604 Fed, "Meeting calendars and informa...", pub 2026-05-20.
+- S608 FXStreet, "United States Dollar Index dr...", pub 2026-06-15.
+- S701 Yahoo Finance, "Stock market today: Dow hits...".
+- S402 MktScr, "STOXX Europe 600 performance...", pub 2026-06-15.
+- S407 CNBC, "Stock market today live updat...", pub 2026-06-15.
+- S403 MktScr, "DAX performance and quotes", pub 2026-06-15.
+- S201 Nikkei, "Historical Data (Nikkei 225)", pub 2026-06-16.
+- S204 Yonhap, "Seoul stocks up for 3rd day t...", pub 2026-06-15.
+- S202 MktScr, "HONG KONG HANG SENG Index Ove...", pub 2026-06-16.
+- S609 Fortune, "Current price of gold as of J...", pub 2026-06-15.
+- S702 CNBC, "Dow climbs more than 450 poin...".
+- S408 Sunday Guardian, "Brent Crude Oil Price Today (...", pub 2026-06-15.
