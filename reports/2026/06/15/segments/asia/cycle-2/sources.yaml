@@ -1,0 +1,63 @@
+- id: S-2026-06-15-001
+  publisher: Nikkei Indexes
+  title: Historical Data (Nikkei 225)
+  url: https://indexes.nikkei.co.jp/en/nkave/archives/data
+  canonical_url: https://indexes.nikkei.co.jp/en/nkave/archives/data
+  accessed_at: "2026-06-16T11:42:54+02:00"
+  published_at: "2026-06-16"
+  source_type: market_data
+  retrieval_method: web_open
+  mutable: true
+  paywall: false
+  reliability_tier: primary_market_data
+  archive:
+    stored: false
+    reason: dynamic_public_page
+
+- id: S-2026-06-15-002
+  publisher: MarketScreener
+  title: HONG KONG HANG SENG Index Overview - Stock Price, Quote and News
+  url: https://www.marketscreener.com/quote/index/HONG-KONG-HANG-SENG-101835/
+  canonical_url: https://www.marketscreener.com/quote/index/HONG-KONG-HANG-SENG-101835/
+  accessed_at: "2026-06-16T11:42:54+02:00"
+  published_at: "2026-06-16T04:08:00-04:00"
+  source_type: market_data
+  retrieval_method: web_open
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_aggregator
+  archive:
+    stored: false
+    reason: dynamic_public_page
+
+- id: S-2026-06-15-003
+  publisher: Xinhua
+  title: Chinese shares close higher Monday
+  url: https://english.news.cn/20260615/def38f79a1a049b88cdbcd81648627a8/c.html
+  canonical_url: https://english.news.cn/20260615/def38f79a1a049b88cdbcd81648627a8/c.html
+  accessed_at: "2026-06-16T11:42:54+02:00"
+  published_at: "2026-06-15T15:37:15+08:00"
+  source_type: news
+  retrieval_method: web_open
+  mutable: true
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: public_news_page
+
+- id: S-2026-06-15-004
+  publisher: Yonhap News Agency
+  title: Seoul stocks up for 3rd day to land above 8,500 on U.S.-Iran deal
+  url: https://en.yna.co.kr/view/AEN20260615007051320?section=economy-finance%2Ffinance
+  canonical_url: https://en.yna.co.kr/view/AEN20260615007051320
+  accessed_at: "2026-06-16T11:42:54+02:00"
+  published_at: "2026-06-15T16:00:00+09:00"
+  source_type: news
+  retrieval_method: web_open
+  mutable: true
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: public_news_page
