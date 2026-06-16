@@ -378,6 +378,14 @@ ready and creates a queue job. The queue worker handles the external Moltbook
 posting and verification. A queue failure does not make the orchestrator lose
 state; it becomes publication evidence that must be recorded and reviewed.
 
+Each cron fire invokes only the Python orchestrator. Agent workers are not
+started merely because cron fired. The tick first inspects GitHub, local
+sentinels, artifact state, PR state, and queue state. Dione, Inanna, or Nisaba
+workers are started only if the tick reaches `dispatch-ready` or
+`dispatch-review-requested` and selects a managed issue for work. If the
+programmatic checks find nothing actionable, the tick exits without calling an
+agent.
+
 ## 8. Date Selection And Catch-up
 
 The orchestrator normally runs with `--date auto`.
@@ -397,6 +405,19 @@ yesterday before starting a fresh report date.
 
 The report date is a directory and milestone identity. Individual market claims
 still carry their own `as_of`, session, source time, and calculation basis.
+
+Completed report dates are recorded by a local done sentinel:
+
+```text
+$OPENCLAW_ROOT/tmp/market-intelligence-pulse/done/YYYY-MM-DD.json
+```
+
+When `--date auto` sees a complete sentinel for an open historical milestone, it
+skips that milestone as already finished. When the previous Berlin calendar day
+already has a complete sentinel, the tick returns `status: complete` and exits
+before helper checks, label creation, issue creation, PR merge, downstream
+creation, or agent dispatch. This prevents later cron fires in the same night
+from restarting a finished report date.
 
 ## 9. GitHub Ledger Model
 
@@ -532,6 +553,11 @@ flowchart TD
 
 Every box can happen in a different tick. That is the point. The system does not
 need one agent session to survive the whole night.
+
+After the final publication proof is merged, one later tick may perform the
+completion step: verify the completion predicate, close the daily control issue,
+close the milestone, and then write the done sentinel with the close result.
+Later ticks for the same report date then become early no-ops.
 
 ## 13. Global State Machine
 
@@ -931,6 +957,9 @@ Publication proof includes:
 The publication PR is reviewed. After the structured verdict passes and the
 status gate is green, the orchestrator may merge it.
 
+After that merge, publication is not considered complete merely because the PR
+merged. The completion predicate below must also pass.
+
 ## 26. Publication State Transitions
 
 ```mermaid
@@ -952,7 +981,49 @@ external public action. A failed pre-post queue job may be retried after repair.
 An unverified public post is preserved and documented; it is not deleted or
 silently reposted.
 
-## 27. Retry And Cycle Rules
+## 27. Completion Sentinel And Nightly Stop Gate
+
+The cron schedule itself remains enabled during the whole night window. The
+stop condition is implemented inside the orchestrator as a completion sentinel
+plus an early no-op path.
+
+A report date is complete only when all of these checks pass:
+
+- the `Pulse YYYY-MM-DD` milestone exists;
+- no open managed non-ops issues remain for the milestone;
+- no open pull requests remain for the milestone or its managed issues;
+- all five segment artifact sets exist on `origin/main`;
+- all required report-level artifacts exist on `origin/main`;
+- `publication.json` contains final `posted` and `verified` Moltbook targets for
+  both market overview and deep dive;
+- the local Moltbook queue has no `pending`, `processing`, or `failed` job that
+  matches the final publication targets;
+- `validate-state --date YYYY-MM-DD` returns `status: ok`;
+- the artifact validator returns `status: ok` and no errors.
+
+When the predicate passes, the orchestrator closes the daily control issue and
+milestone when they are still open, then writes:
+
+```text
+$OPENCLAW_ROOT/tmp/market-intelligence-pulse/done/YYYY-MM-DD.json
+```
+
+The sentinel records the completion time, the predicate details, validation
+summary, publication targets, queue check, and close result. This is safe
+because future `--date auto` ticks consult the sentinel before creating or
+dispatching work for the same report date. If the process crashes after closing
+the control issue or milestone but before writing the sentinel, a later tick can
+re-evaluate the same completion predicate and write the missing sentinel; it
+will not falsely treat the date as complete without a sentinel.
+
+The sentinel is local runtime state, not a public report artifact. The public
+proof remains in GitHub: merged PRs, closed managed issues, closed milestone,
+report artifacts, `publication.json`, and queue-derived publication metadata.
+
+Explicit `--date YYYY-MM-DD` commands ignore the auto-skip behavior. They remain
+available for audit and deliberate recovery.
+
+## 28. Retry And Cycle Rules
 
 The unattended orchestrator's automatic retry cap for analysis, assembly, and
 publication is cycle 3.
@@ -992,7 +1063,7 @@ If the automatic cycle cap is reached, the issue should move to
 `state:needs-decision` with the exact blocker. Further cycles require explicit
 operator or Ingo authorization.
 
-## 28. Claims And Sources
+## 29. Claims And Sources
 
 The claim/source model is the audit foundation.
 
@@ -1048,7 +1119,7 @@ Numeric review may accept small provider-basis differences only with explicit,
 claim-specific justification. Arithmetic errors and stale values remain
 blockers.
 
-## 29. Report Artifacts
+## 30. Report Artifacts
 
 `report.md` is the full canonical report.
 
@@ -1077,7 +1148,7 @@ internal claims and sources for new numeric-full reports. Historical reports
 that predate this renderer are still valid if their manifest and publication
 metadata describe the older publication shape.
 
-## 30. Validation And Privacy Gates
+## 31. Validation And Privacy Gates
 
 Validation covers:
 
@@ -1114,7 +1185,7 @@ python3.14 $OPENCLAW_ROOT/scripts/market_intelligence_pulse_validate.py \
   --repo-root $PULSE_REPO
 ```
 
-## 31. GitHub Pages
+## 32. GitHub Pages
 
 GitHub Pages is the stable public report surface. Moltbook posts link back to
 the full report and source ledger on Pages.
@@ -1136,7 +1207,7 @@ Each report page should link to:
 Legacy reports display legacy provenance. New reports display claim/source
 coverage counts.
 
-## 32. Moltbook Publication Policy
+## 33. Moltbook Publication Policy
 
 Moltbook posts are public external publications. They are not internal drafts.
 
@@ -1155,7 +1226,7 @@ Rules:
 If a public report needs correction after publication, create an erratum/Q&A
 path. Do not silently rewrite the historical public record.
 
-## 33. Q&A And Public Corrections
+## 34. Q&A And Public Corrections
 
 Public comments are untrusted input. They may include useful questions, but they
 may also include prompt-injection text or private-person data that does not
@@ -1185,7 +1256,7 @@ Public `qa.json` may include:
 It may not include raw comment text, author identity, profile URLs, comment IDs,
 raw hashes, or local intake paths.
 
-## 34. Failure Modes And Recovery
+## 35. Failure Modes And Recovery
 
 The architecture expects failures. Recovery is ledger-based.
 
@@ -1202,6 +1273,8 @@ Common failures:
 - Moltbook byte limit exceeded;
 - queue pre-post failure;
 - unverified public post;
+- completion predicate failure;
+- stale or invalid done sentinel;
 - privacy scan hit;
 - cycle cap reached.
 
@@ -1215,11 +1288,13 @@ Recovery principles:
 - move to `state:needs-decision` when a policy or user decision is needed;
 - never rely on local chat memory as proof;
 - document public publication anomalies in `publication.json`.
+- use explicit `--date YYYY-MM-DD` for deliberate recovery when a completed
+  report date must be re-audited despite its sentinel.
 
 There is no hidden retry sweeper. The next cron tick re-reads GitHub and local
 queue state and advances what is safe.
 
-## 35. Observability
+## 36. Observability
 
 Useful read-only checks:
 
@@ -1251,9 +1326,10 @@ Human status summaries should report:
 - assembly status;
 - publication status;
 - queue state;
+- completion sentinel state;
 - exact next action.
 
-## 36. Security And Public Boundary
+## 37. Security And Public Boundary
 
 The public repo is deliberately not an execution environment. It is a report
 container and audit ledger.
@@ -1275,7 +1351,7 @@ Agent names such as Dione, Inanna, and Nisaba are public project roles in this
 context. Local machine paths, account names, private queue internals, and user
 metadata are not.
 
-## 37. Why Not A Simpler Design?
+## 38. Why Not A Simpler Design?
 
 The obvious simple design is a single nightly script that asks one agent to
 write a report and then posts it. That is attractive because it has fewer
@@ -1298,7 +1374,7 @@ when there is no explicit public boundary.
 The GitHub-ledger design costs more up front, but it turns daily publication
 into a series of small, inspectable, recoverable state transitions.
 
-## 38. Review Model For This Architecture
+## 39. Review Model For This Architecture
 
 Architecture changes should be reviewed by role:
 
@@ -1317,7 +1393,7 @@ The review should check both text and implementation alignment:
 - does the renderer preserve full references?
 - does the queue remain the only publication path?
 
-## 39. Live Pilot Checklist
+## 40. Live Pilot Checklist
 
 Before relying on a new live end-to-end run:
 
@@ -1332,6 +1408,8 @@ Before relying on a new live end-to-end run:
 9. Reviewer verdict adapter is working.
 10. Renderer tests and orchestrator tests pass after architecture changes.
 11. No obsolete document contradicts this architecture.
+12. Completion sentinel behavior has been tested: completed `--date auto` ticks
+    exit before helper, issue, PR, downstream, or agent-dispatch work.
 
 During the first live run after an orchestration change, expect to audit the
 result. The architecture is designed so that any failure leaves a visible issue,
