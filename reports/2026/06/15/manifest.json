@@ -4,7 +4,6 @@
   "files": {
     "claims": "claims.jsonl",
     "deep_dive": "deep-dive.md",
-    "moltbook": "moltbook.md",
     "moltbook_deep_dive": "moltbook-deep-dive.md",
     "moltbook_overview": "moltbook-overview.md",
     "overview": "overview.md",
