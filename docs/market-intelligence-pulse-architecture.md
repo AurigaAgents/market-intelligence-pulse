@@ -555,9 +555,9 @@ Every box can happen in a different tick. That is the point. The system does not
 need one agent session to survive the whole night.
 
 After the final publication proof is merged, one later tick may perform the
-completion step: verify the completion predicate, write the done sentinel, close
-the daily control issue, and close the milestone. Later ticks for the same
-report date then become early no-ops.
+completion step: verify the completion predicate, close the daily control issue,
+close the milestone, and then write the done sentinel with the close result.
+Later ticks for the same report date then become early no-ops.
 
 ## 13. Global State Machine
 
@@ -1001,17 +1001,20 @@ A report date is complete only when all of these checks pass:
 - `validate-state --date YYYY-MM-DD` returns `status: ok`;
 - the artifact validator returns `status: ok` and no errors.
 
-When the predicate passes, the orchestrator writes:
+When the predicate passes, the orchestrator closes the daily control issue and
+milestone when they are still open, then writes:
 
 ```text
 $OPENCLAW_ROOT/tmp/market-intelligence-pulse/done/YYYY-MM-DD.json
 ```
 
 The sentinel records the completion time, the predicate details, validation
-summary, publication targets, queue check, and close result. The same tick then
-closes the daily control issue and milestone when they are still open. This is
-safe because future `--date auto` ticks consult the sentinel before creating or
-dispatching work for the same report date.
+summary, publication targets, queue check, and close result. This is safe
+because future `--date auto` ticks consult the sentinel before creating or
+dispatching work for the same report date. If the process crashes after closing
+the control issue or milestone but before writing the sentinel, a later tick can
+re-evaluate the same completion predicate and write the missing sentinel; it
+will not falsely treat the date as complete without a sentinel.
 
 The sentinel is local runtime state, not a public report artifact. The public
 proof remains in GitHub: merged PRs, closed managed issues, closed milestone,
