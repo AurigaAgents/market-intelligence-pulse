@@ -14,7 +14,9 @@ M0 itself is a local bootstrap checklist, not a project-control milestone.
 - `role:status-reporter`
 - `state:ready`
 - `state:active`
+- `state:review-requested`
 - `state:review`
+- `state:accepted`
 - `state:blocked`
 - `state:needs-decision`
 - `type:analysis`
@@ -66,3 +68,23 @@ Proof required:
 ```
 
 Automation ignores issues and pull requests that do not carry the managed labels and responsibility block.
+
+## Segment PR Contract
+
+Segment PRs use one standard title form:
+
+```text
+feat(<segment>): add <YYYY-MM-DD> <segment> analysis cycle <N>
+```
+
+The PR milestone must match the managed issue milestone, for example `Pulse
+2026-06-15`. PR bodies must include these top-level sections in this order:
+
+- `## Summary`
+- `## Expected artifacts`
+- `## Source and claim counts`
+- `## Validation proof`
+- `## Privacy proof`
+- `## Reviewer`
+
+The body must also contain `Fixes #<issue>`.

@@ -53,7 +53,7 @@ head-sha: 83bc4b13378be85d2e1b4905aaf410b3ae4a6786
 The workflow refuses to mark `market-pulse/reviewer-verdict` successful unless all checks pass:
 
 - the verdict comment author is allowlisted;
-- the ledger issue has `managed:market-pulse` and either `state:review` or `state:ready`;
+- the ledger issue has `managed:market-pulse` and is in `state:review`;
 - `Primary reviewer` matches the verdict `reviewer`;
 - issue owner and reviewer are different;
 - verdict is `approve`;
@@ -62,6 +62,11 @@ The workflow refuses to mark `market-pulse/reviewer-verdict` successful unless a
 - PR head SHA matches the verdict `head-sha`, or no commit is newer than the verdict;
 - status checks are empty or green, excluding the adapter's own `market-pulse/reviewer-verdict` context while it refreshes that status;
 - PR proof includes validation `status ok`, `errors []`, and privacy/no-private-path proof.
+
+The adapter does not dispatch reviewers. The local orchestrator dispatches a
+reviewer only after an owner has moved the issue to `state:review-requested`;
+the dispatch records a `MARKET-PULSE-REVIEW-LEASE` comment and moves the issue
+to `state:review`.
 
 When validation fails after the PR head SHA is known, the workflow writes `market-pulse/reviewer-verdict: failure` so a stale success on the same SHA is overwritten. If a matching `market-pulse-reviewer[bot]` approval already exists for the current head SHA, the workflow refreshes the commit status but skips creating a duplicate approval review.
 

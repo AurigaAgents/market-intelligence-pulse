@@ -24,8 +24,9 @@ Assumptions for the dry run:
 - no new issue or pull request is created between the current repo state and
   the first tick, so the illustrative issue numbers below are expected but not
   part of the contract;
-- the first M1 night run covers daily ledger creation and segment dispatch only;
-  assembly and publication issues are not created by the current orchestrator.
+- the first M1 night run covers daily ledger creation, segment dispatch, and
+  review dispatch only; assembly and publication issues are not created by the
+  current orchestrator.
 
 At 2026-06-16 00:05 Berlin, `--date auto` selects report date `2026-06-15`
 from `previous-berlin-calendar-day`. The tick contract check passes, required
@@ -81,10 +82,18 @@ openclaw agent --agent dione --session-id <private-session-id> \
 
 Dione reads #30 as the task contract, creates or reuses branch
 `issue-30-2026-06-15-us-analysis-cycle-1`, writes only the three expected US
-artifact files, runs the local validation command, opens or updates a PR whose
-body references `Fixes #30`, and transitions #30 from `state:active` to
-`state:review` with the PR number. On the next tick after that transition,
-`reconcile-leases` records the public lease as completed.
+artifact files, runs the local validation command, opens or updates a PR with
+the exact title `feat(us): add 2026-06-15 us analysis cycle 1`, assigns that PR
+to milestone `Pulse 2026-06-15`, uses the standard segment PR body sections,
+and transitions #30 from `state:active` to `state:review-requested` with the PR
+number. On the next tick after that transition, `reconcile-leases` records the
+public owner lease as completed.
+
+The same or next tick then sees `state:review-requested`, validates the PR
+handoff shape, records a `MARKET-PULSE-REVIEW-LEASE` comment naming the
+reviewer, transitions #30 from `state:review-requested` to `state:review`, and
+starts the reviewer worker. `state:review` therefore means the reviewer was
+actually dispatched; it is no longer used for the owner's initial completion.
 
 Subsequent cron ticks resume the same open `Pulse 2026-06-15` milestone and
 dispatch one additional ready segment each time:
@@ -100,25 +109,30 @@ next 15-minute tick. Each worker follows the same lifecycle:
 
 1. `state:ready -> state:active` when the orchestrator starts the lease.
 2. Owner produces the segment artifacts on a branch and opens a PR.
-3. Owner runs local validation and records proof in the PR.
-4. Owner transitions the issue `state:active -> state:review` with the PR
-   number.
-5. Reviewer audits the issue, PR, artifacts, sources, claims, proof, and
+3. Owner runs local validation, records proof in the PR, sets the matching PR
+   milestone, and uses the required title/body structure.
+4. Owner transitions the issue `state:active -> state:review-requested` with
+   the PR number.
+5. Orchestrator dispatches the named reviewer, records a review lease, and
+   transitions `state:review-requested -> state:review`.
+6. Reviewer audits the issue, PR, artifacts, sources, claims, proof, and
    privacy surface.
-6. Reviewer posts one `SPC-REVIEW-VERDICT` issue comment with `verdict:
+7. Reviewer posts one `SPC-REVIEW-VERDICT` issue comment with `verdict:
    approve`, the PR number, and exact head SHA.
-7. The GitHub workflow validates the verdict and writes the required
+8. The GitHub workflow validates the verdict and writes the required
    `market-pulse/reviewer-verdict` commit status on the PR head SHA.
-8. After the green status, the PR is mergeable. The segment issue can then be
-   treated as accepted.
+9. After the green status, the orchestrator transitions `state:review ->
+   state:accepted`. The PR is then mergeable.
 
-The helper-supported acceptance marker is `state:review -> state:ready` after
-the required reviewer approval comment exists. In this accepted state, the issue
-is not dispatched again if its linked PR exists. During the M1 night run,
-segment issues should stay open until all ready segments have been dispatched,
-or until `validate-state` is extended to count closed accepted issues. Closing a
-segment issue too early would make the current validator, which reads open
-issues, report that expected issue as missing on the next tick.
+If the owner worker exits before a usable PR exists, the same issue is requeued
+to `state:ready`; no new cycle is created. If a PR exists but the worker failed
+after opening it, the same issue is repaired to `state:review-requested`; no new
+cycle is created. A new cycle issue is created only after a delivered PR is
+blocked by a structured reviewer verdict. During the M1 night run, segment
+issues should stay open until all ready segments have been dispatched, or until
+`validate-state` is extended to count closed accepted issues. Closing a segment
+issue too early would make the current validator, which reads open issues,
+report that expected issue as missing on the next tick.
 
 In the best-case M1 close-out, all five segment PRs are reviewed, the required
 `market-pulse/reviewer-verdict` statuses are green, and the PRs are merged. The
