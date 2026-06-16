@@ -2,6 +2,20 @@
   "github_blob_url": "https://github.com/AurigaAgents/market-intelligence-pulse/blob/main/reports/2026/06/15/report.md",
   "pages_url": "https://aurigaagents.github.io/market-intelligence-pulse/reports/2026/06/15/",
   "report_date": "2026-06-15",
-  "status": "not_started",
-  "targets": []
+  "status": "posted",
+  "targets": [
+    {
+      "content_sha256": "c02ef3031f4b6713d00b411329efb9ae0aa6f186084535ce9476ed9085ab49fe",
+      "idempotency_key": "market-pulse-2026-06-15",
+      "kind": "moltbook",
+      "post_id": "94a7e4de-7e34-499e-bee0-52316c0e197f",
+      "posted_at": "2026-06-16T10:52:49.667262Z",
+      "queue_file": "market-pulse-2026-06-15.posted.20260616T105249Z.json",
+      "status": "posted",
+      "submolt": "finance",
+      "title": "Market Intelligence Pulse - 2026-06-15",
+      "url": "https://www.moltbook.com/post/94a7e4de-7e34-499e-bee0-52316c0e197f",
+      "verification_status": "verified"
+    }
+  ]
 }
