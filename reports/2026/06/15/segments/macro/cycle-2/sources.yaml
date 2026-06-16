@@ -1,0 +1,135 @@
+- id: S-2026-06-15-601
+  publisher: U.S. Department of the Treasury
+  title: Daily Treasury Par Yield Curve Rates, June 2026
+  url: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve
+  canonical_url: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15"
+  source_type: government_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: official_primary_data
+  archive:
+    stored: false
+    reason: dynamic_government_table
+- id: S-2026-06-15-602
+  publisher: Federal Reserve Bank of St. Louis FRED
+  title: Federal Funds Target Range - Lower Limit (DFEDTARL)
+  url: https://fred.stlouisfed.org/series/DFEDTARL
+  canonical_url: https://fred.stlouisfed.org/series/DFEDTARL
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T07:01:00-05:00"
+  source_type: official_economic_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: official_primary_data
+  archive:
+    stored: false
+    reason: public_dynamic_series
+- id: S-2026-06-15-603
+  publisher: Federal Reserve Bank of St. Louis FRED
+  title: Federal Funds Target Range - Upper Limit (DFEDTARU)
+  url: https://fred.stlouisfed.org/series/DFEDTARU
+  canonical_url: https://fred.stlouisfed.org/series/DFEDTARU
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T07:01:00-05:00"
+  source_type: official_economic_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: official_primary_data
+  archive:
+    stored: false
+    reason: public_dynamic_series
+- id: S-2026-06-15-604
+  publisher: Board of Governors of the Federal Reserve System
+  title: Meeting calendars and information
+  url: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+  canonical_url: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-05-20"
+  source_type: official_central_bank_calendar
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: official_central_bank
+  archive:
+    stored: false
+    reason: public_dynamic_calendar
+- id: S-2026-06-15-605
+  publisher: Associated Press
+  title: How major US stock indexes fared Monday 6/15/2026
+  url: https://apnews.com/article/wall-street-stocks-dow-nasdaq-1f1c6e54198c351cc810c248dbeae97d
+  canonical_url: https://apnews.com/article/wall-street-stocks-dow-nasdaq-1f1c6e54198c351cc810c248dbeae97d
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T20:20:34+00:00"
+  source_type: wire_market_close
+  retrieval_method: web_search
+  mutable: false
+  paywall: false
+  reliability_tier: wire_service
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-15-606
+  publisher: The Guardian
+  title: Oil prices hit three-month low and markets reach record high amid Iran deal breakthrough
+  url: https://www.theguardian.com/business/2026/jun/15/oil-prices-fall-strait-of-hormuz-reopening-hopes-iran-us-peace-deal
+  canonical_url: https://www.theguardian.com/business/2026/jun/15/oil-prices-fall-strait-of-hormuz-reopening-hopes-iran-us-peace-deal
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15"
+  source_type: news
+  retrieval_method: web_search
+  mutable: false
+  paywall: false
+  reliability_tier: market_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-15-607
+  publisher: Barchart
+  title: Crude Oil Prices Sink on Deal to Reopen Strait of Hormuz
+  url: https://www.barchart.com/story/news/2478744/crude-oil-prices-sink-on-deal-to-reopen-strait-of-hormuz
+  canonical_url: https://www.barchart.com/story/news/2478744/crude-oil-prices-sink-on-deal-to-reopen-strait-of-hormuz
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T14:14:00-05:00"
+  source_type: market_news
+  retrieval_method: web_search
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-15-608
+  publisher: FXStreet
+  title: United States Dollar Index drops as safe-haven demand fades
+  url: https://www.fxstreet.com/news/united-states-dollar-index-drops-as-safe-haven-demand-fades-202606150325
+  canonical_url: https://www.fxstreet.com/news/united-states-dollar-index-drops-as-safe-haven-demand-fades-202606150325
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T03:25:00Z"
+  source_type: fx_market_news
+  retrieval_method: web_search
+  mutable: false
+  paywall: false
+  reliability_tier: market_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-15-609
+  publisher: Fortune
+  title: Current price of gold as of June 15, 2026
+  url: https://fortune.com/article/current-price-of-gold-06-15-2026/
+  canonical_url: https://fortune.com/article/current-price-of-gold-06-15-2026/
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T09:14:00-04:00"
+  source_type: commodity_quote
+  retrieval_method: web_search
+  mutable: false
+  paywall: false
+  reliability_tier: market_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
