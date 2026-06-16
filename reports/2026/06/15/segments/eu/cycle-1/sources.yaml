@@ -1,0 +1,120 @@
+- id: S-2026-06-15-401
+  publisher: Reuters via MarketScreener
+  title: Europe's STOXX 600 hits all-time high
+  url: https://www.marketscreener.com/news/europe-s-stoxx-600-hits-all-time-high-ce7f5cded888fe27
+  canonical_url: https://www.marketscreener.com/news/europe-s-stoxx-600-hits-all-time-high-ce7f5cded888fe27
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15T03:48:00-04:00"
+  source_type: wire_news
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: wire_service
+  archive:
+    stored: false
+    reason: dynamic_publisher_page
+- id: S-2026-06-15-402
+  publisher: MarketScreener
+  title: STOXX Europe 600 performance and quotes
+  url: https://www.marketscreener.com/quote/index/STOXX-EUROPE-600-EUR-7477/quotes/
+  canonical_url: https://www.marketscreener.com/quote/index/STOXX-EUROPE-600-EUR-7477/quotes/
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: market_data_page
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: dynamic_market_data_page
+- id: S-2026-06-15-403
+  publisher: MarketScreener
+  title: DAX performance and quotes
+  url: https://www.marketscreener.com/quote/index/DAX-7395/quotes/
+  canonical_url: https://www.marketscreener.com/quote/index/DAX-7395/quotes/
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: market_data_page
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: dynamic_market_data_page
+- id: S-2026-06-15-404
+  publisher: MarketScreener
+  title: CAC 40 performance and quotes
+  url: https://www.marketscreener.com/quote/index/CAC-40-4941/quotes/
+  canonical_url: https://www.marketscreener.com/quote/index/CAC-40-4941/quotes/
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: market_data_page
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: dynamic_market_data_page
+- id: S-2026-06-15-405
+  publisher: MarketScreener
+  title: FTSE 100 performance and quotes
+  url: https://www.marketscreener.com/quote/index/FTSE-100-7392/quotes/
+  canonical_url: https://www.marketscreener.com/quote/index/FTSE-100-7392/quotes/
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: market_data_page
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: dynamic_market_data_page
+- id: S-2026-06-15-406
+  publisher: MarketScreener
+  title: FTSE MIB performance and quotes
+  url: https://www.marketscreener.com/quote/index/FTSE-MIB-121229431/quotes/
+  canonical_url: https://www.marketscreener.com/quote/index/FTSE-MIB-121229431/quotes/
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: market_data_page
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_vendor
+  archive:
+    stored: false
+    reason: dynamic_market_data_page
+- id: S-2026-06-15-407
+  publisher: CNBC
+  title: Stock market today live updates - European stocks close higher, oil and gas stocks slump
+  url: https://www.cnbc.com/2026/06/14/stock-market-today-live-updates.html
+  canonical_url: https://www.cnbc.com/2026/06/14/stock-market-today-live-updates.html
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: financial_media_liveblog
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: major_financial_media
+  archive:
+    stored: false
+    reason: dynamic_publisher_page
+- id: S-2026-06-15-408
+  publisher: The Sunday Guardian
+  title: Brent Crude Oil Price Today (June 15) - Brent Crude Hits Lowest Level Since March as US-Iran Deal Triggers Supply Surge Fears
+  url: https://sundayguardianlive.com/world/brent-crude-oil-price-today-june-15-brent-crude-hits-lowest-level-since-march-as-usiran-deal-triggers-supply-surge-fears-check-latest-global-rates-across-countries-markets-207392/
+  canonical_url: https://sundayguardianlive.com/world/brent-crude-oil-price-today-june-15-brent-crude-hits-lowest-level-since-march-as-usiran-deal-triggers-supply-surge-fears-check-latest-global-rates-across-countries-markets-207392/
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15T13:29:00+05:30"
+  source_type: news_article
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: news_outlet
+  archive:
+    stored: false
+    reason: dynamic_publisher_page
