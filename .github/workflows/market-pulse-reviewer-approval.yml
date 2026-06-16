@@ -278,7 +278,7 @@ jobs:
           if ! printf '%s\n' "$proof_text" | grep -Eiq '("errors"[[:space:]]*:[[:space:]]*\[\]|errors[[:space:]]*[:=]?[[:space:]]*\[\])'; then
             fail "PR #${pr_number} does not contain empty validation errors proof."
           fi
-          if ! printf '%s\n' "$proof_text" | grep -Eiq '(privacy[[:space:]-]*scan|privacy[_-]?scan[[:space:]]*=[[:space:]]*ok|privacy[_-]?check[[:space:]]*=[[:space:]]*ok|no[[:space:]]+private[[:space:]]+paths|no[[:space:]]+local[[:space:]]+(runtime|filesystem)[[:space:]]+paths|private[[:space:]]+paths.*no[[:space:]]+matches|scan.*no[[:space:]]+matches|findings[[:space:]]*\[\])'; then
+          if ! printf '%s\n' "$proof_text" | grep -Eiq '(privacy[[:space:]-]*scan|privacy[_-]?scan[[:space:]]*=[[:space:]]*ok|privacy[_-]?check[[:space:]]*=[[:space:]]*ok|no[[:space:]]+private[[:space:]]+paths|no[[:space:]]+local[[:space:]]+(runtime|filesystem)[[:space:]]+paths|private[[:space:]]+paths.*no[[:space:]]+matches|scan.*no[[:space:]]+matches|findings[[:space:]]*=?[[:space:]]*\[\])'; then
             fail "PR #${pr_number} does not contain privacy scan or no-private-path proof."
           fi
 
