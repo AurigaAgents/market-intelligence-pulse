@@ -6,11 +6,23 @@ This repository is a public report container. It stores reports, source and clai
 
 Execution stays outside this repository. Runtime scripts, validators, renderers, import tools, agent prompts, local state, credentials, and private intake data are not committed here.
 
+## Architecture
+
+The canonical workflow description is
+[`docs/market-intelligence-pulse-architecture.md`](docs/market-intelligence-pulse-architecture.md).
+It explains the end-to-end architecture, state model, phases, scripts, skills,
+validation gates, review gates, and Moltbook publication flow.
+
 ## Status
 
-Bootstrap phase: M0 private staging.
+Active GitHub-ledger workflow.
 
-Target public state:
+The repository is the public report and audit container for the current
+Market Intelligence Pulse workflow. Daily production is coordinated by managed
+GitHub milestones, issues, pull requests, review verdicts, and publication
+metadata.
+
+Target public guarantees:
 
 - stable GitHub Pages report URLs;
 - complete report Markdown and static pages;
