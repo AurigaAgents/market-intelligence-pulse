@@ -1,0 +1,30 @@
+- id: S-2026-06-16-001
+  publisher: Associated Press
+  title: How major US stock indexes fared Tuesday 6/16/2026
+  url: https://lasvegassun.com/news/2026/jun/16/how-major-us-stock-indexes-fared-tuesday-6162026/
+  canonical_url: https://lasvegassun.com/news/2026/jun/16/how-major-us-stock-indexes-fared-tuesday-6162026/
+  accessed_at: "2026-06-16T22:07:39+00:00"
+  published_at: "2026-06-16T13:16:42-07:00"
+  source_type: news
+  retrieval_method: web_fetch
+  mutable: false
+  paywall: false
+  reliability_tier: wire_service
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
+- id: S-2026-06-16-002
+  publisher: Investopedia
+  title: 'Stock Market Today: Dow Hits Record, Tech Stocks Slip as Fed Meeting Begins; SpaceX Stock Soars on Cursor Deal'
+  url: https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06162026-11999070
+  canonical_url: https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06162026-11999070
+  accessed_at: "2026-06-16T22:08:26+00:00"
+  published_at: "2026-06-16T14:31:00-04:00"
+  source_type: news
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
