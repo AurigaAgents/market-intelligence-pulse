@@ -1,0 +1,405 @@
+- id: "S-2026-06-15-001"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Monday 6/15/2026"
+  url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-1f1c6e54198c351cc810c248dbeae97d"
+  canonical_url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-1f1c6e54198c351cc810c248dbeae97d"
+  accessed_at: "2026-06-16T09:41:02Z"
+  published_at: "2026-06-15T20:20:34+00:00"
+  source_type: "wire_market_close"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-15-002"
+  publisher: "TheStreet"
+  title: "Stock Market Today (June 15, 2026): Nasdaq, S&P 500 jumps after U.S. and Iran announce peace deal"
+  url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-15-2026"
+  canonical_url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-15-2026"
+  accessed_at: "2026-06-16T09:41:02Z"
+  published_at: "2026-06-15T17:17:00-04:00"
+  source_type: "financial_news_live_blog"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "primary_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-15-003"
+  publisher: "New York Stock Exchange"
+  title: "Holidays & Trading Hours"
+  url: "https://www.nyse.com/trade/hours-calendars"
+  canonical_url: "https://www.nyse.com/trade/hours-calendars"
+  accessed_at: "2026-06-16T09:41:02Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "public_dynamic_calendar"
+- id: "S-2026-06-15-004"
+  publisher: "Nasdaq"
+  title: "US Stock Market Holiday Schedule"
+  url: "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+  canonical_url: "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+  accessed_at: "2026-06-16T09:41:02Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "public_dynamic_calendar"
+- id: "S-2026-06-15-005"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Meeting calendars and information"
+  url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  canonical_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  accessed_at: "2026-06-16T09:41:02Z"
+  source_type: "official_central_bank_calendar"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "public_dynamic_calendar"
+- id: "S-2026-06-15-401"
+  publisher: "Reuters via MarketScreener"
+  title: "Europe's STOXX 600 hits all-time high"
+  url: "https://www.marketscreener.com/news/europe-s-stoxx-600-hits-all-time-high-ce7f5cded888fe27"
+  canonical_url: "https://www.marketscreener.com/news/europe-s-stoxx-600-hits-all-time-high-ce7f5cded888fe27"
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15T03:48:00-04:00"
+  source_type: "wire_news"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "dynamic_publisher_page"
+- id: "S-2026-06-15-402"
+  publisher: "MarketScreener"
+  title: "STOXX Europe 600 performance and quotes"
+  url: "https://www.marketscreener.com/quote/index/STOXX-EUROPE-600-EUR-7477/quotes/"
+  canonical_url: "https://www.marketscreener.com/quote/index/STOXX-EUROPE-600-EUR-7477/quotes/"
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_vendor"
+  archive:
+    stored: false
+    reason: "dynamic_market_data_page"
+- id: "S-2026-06-15-403"
+  publisher: "MarketScreener"
+  title: "DAX performance and quotes"
+  url: "https://www.marketscreener.com/quote/index/DAX-7395/quotes/"
+  canonical_url: "https://www.marketscreener.com/quote/index/DAX-7395/quotes/"
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_vendor"
+  archive:
+    stored: false
+    reason: "dynamic_market_data_page"
+- id: "S-2026-06-15-404"
+  publisher: "MarketScreener"
+  title: "CAC 40 performance and quotes"
+  url: "https://www.marketscreener.com/quote/index/CAC-40-4941/quotes/"
+  canonical_url: "https://www.marketscreener.com/quote/index/CAC-40-4941/quotes/"
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_vendor"
+  archive:
+    stored: false
+    reason: "dynamic_market_data_page"
+- id: "S-2026-06-15-405"
+  publisher: "MarketScreener"
+  title: "FTSE 100 performance and quotes"
+  url: "https://www.marketscreener.com/quote/index/FTSE-100-7392/quotes/"
+  canonical_url: "https://www.marketscreener.com/quote/index/FTSE-100-7392/quotes/"
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_vendor"
+  archive:
+    stored: false
+    reason: "dynamic_market_data_page"
+- id: "S-2026-06-15-406"
+  publisher: "MarketScreener"
+  title: "FTSE MIB performance and quotes"
+  url: "https://www.marketscreener.com/quote/index/FTSE-MIB-121229431/quotes/"
+  canonical_url: "https://www.marketscreener.com/quote/index/FTSE-MIB-121229431/quotes/"
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_vendor"
+  archive:
+    stored: false
+    reason: "dynamic_market_data_page"
+- id: "S-2026-06-15-407"
+  publisher: "CNBC"
+  title: "Stock market today live updates - European stocks close higher, oil and gas stocks slump"
+  url: "https://www.cnbc.com/2026/06/14/stock-market-today-live-updates.html"
+  canonical_url: "https://www.cnbc.com/2026/06/14/stock-market-today-live-updates.html"
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15"
+  source_type: "financial_media_liveblog"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_media"
+  archive:
+    stored: false
+    reason: "dynamic_publisher_page"
+- id: "S-2026-06-15-408"
+  publisher: "The Sunday Guardian"
+  title: "Brent Crude Oil Price Today (June 15) - Brent Crude Hits Lowest Level Since March as US-Iran Deal Triggers Supply Surge Fears"
+  url: "https://sundayguardianlive.com/world/brent-crude-oil-price-today-june-15-brent-crude-hits-lowest-level-since-march-as-usiran-deal-triggers-supply-surge-fears-check-latest-global-rates-across-countries-markets-207392/"
+  canonical_url: "https://sundayguardianlive.com/world/brent-crude-oil-price-today-june-15-brent-crude-hits-lowest-level-since-march-as-usiran-deal-triggers-supply-surge-fears-check-latest-global-rates-across-countries-markets-207392/"
+  accessed_at: "2026-06-15T22:30:33Z"
+  published_at: "2026-06-15T13:29:00+05:30"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "news_outlet"
+  archive:
+    stored: false
+    reason: "dynamic_publisher_page"
+- id: "S-2026-06-15-201"
+  publisher: "Nikkei Indexes"
+  title: "Historical Data (Nikkei 225)"
+  url: "https://indexes.nikkei.co.jp/en/nkave/archives/data"
+  canonical_url: "https://indexes.nikkei.co.jp/en/nkave/archives/data"
+  accessed_at: "2026-06-16T11:42:54+02:00"
+  published_at: "2026-06-16"
+  source_type: "market_data"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "primary_market_data"
+  archive:
+    stored: false
+    reason: "dynamic_public_page"
+- id: "S-2026-06-15-202"
+  publisher: "MarketScreener"
+  title: "HONG KONG HANG SENG Index Overview - Stock Price, Quote and News"
+  url: "https://www.marketscreener.com/quote/index/HONG-KONG-HANG-SENG-101835/"
+  canonical_url: "https://www.marketscreener.com/quote/index/HONG-KONG-HANG-SENG-101835/"
+  accessed_at: "2026-06-16T11:42:54+02:00"
+  published_at: "2026-06-16T04:08:00-04:00"
+  source_type: "market_data"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "dynamic_public_page"
+- id: "S-2026-06-15-203"
+  publisher: "Xinhua"
+  title: "Chinese shares close higher Monday"
+  url: "https://english.news.cn/20260615/def38f79a1a049b88cdbcd81648627a8/c.html"
+  canonical_url: "https://english.news.cn/20260615/def38f79a1a049b88cdbcd81648627a8/c.html"
+  accessed_at: "2026-06-16T11:42:54+02:00"
+  published_at: "2026-06-15T15:37:15+08:00"
+  source_type: "news"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "primary_news"
+  archive:
+    stored: false
+    reason: "public_news_page"
+- id: "S-2026-06-15-204"
+  publisher: "Yonhap News Agency"
+  title: "Seoul stocks up for 3rd day to land above 8,500 on U.S.-Iran deal"
+  url: "https://en.yna.co.kr/view/AEN20260615007051320?section=economy-finance%2Ffinance"
+  canonical_url: "https://en.yna.co.kr/view/AEN20260615007051320"
+  accessed_at: "2026-06-16T11:42:54+02:00"
+  published_at: "2026-06-15T16:00:00+09:00"
+  source_type: "news"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "primary_news"
+  archive:
+    stored: false
+    reason: "public_news_page"
+- id: "S-2026-06-15-601"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15"
+  source_type: "government_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "dynamic_government_table"
+- id: "S-2026-06-15-602"
+  publisher: "Federal Reserve Bank of St. Louis FRED"
+  title: "Federal Funds Target Range - Lower Limit (DFEDTARL)"
+  url: "https://fred.stlouisfed.org/series/DFEDTARL"
+  canonical_url: "https://fred.stlouisfed.org/series/DFEDTARL"
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T07:01:00-05:00"
+  source_type: "official_economic_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "public_dynamic_series"
+- id: "S-2026-06-15-603"
+  publisher: "Federal Reserve Bank of St. Louis FRED"
+  title: "Federal Funds Target Range - Upper Limit (DFEDTARU)"
+  url: "https://fred.stlouisfed.org/series/DFEDTARU"
+  canonical_url: "https://fred.stlouisfed.org/series/DFEDTARU"
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T07:01:00-05:00"
+  source_type: "official_economic_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "public_dynamic_series"
+- id: "S-2026-06-15-604"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Meeting calendars and information"
+  url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  canonical_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-05-20"
+  source_type: "official_central_bank_calendar"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "public_dynamic_calendar"
+- id: "S-2026-06-15-605"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Monday 6/15/2026"
+  url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-1f1c6e54198c351cc810c248dbeae97d"
+  canonical_url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-1f1c6e54198c351cc810c248dbeae97d"
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T20:20:34+00:00"
+  source_type: "wire_market_close"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-15-606"
+  publisher: "The Guardian"
+  title: "Oil prices hit three-month low and markets reach record high amid Iran deal breakthrough"
+  url: "https://www.theguardian.com/business/2026/jun/15/oil-prices-fall-strait-of-hormuz-reopening-hopes-iran-us-peace-deal"
+  canonical_url: "https://www.theguardian.com/business/2026/jun/15/oil-prices-fall-strait-of-hormuz-reopening-hopes-iran-us-peace-deal"
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15"
+  source_type: "news"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "market_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-15-607"
+  publisher: "Barchart"
+  title: "Crude Oil Prices Sink on Deal to Reopen Strait of Hormuz"
+  url: "https://www.barchart.com/story/news/2478744/crude-oil-prices-sink-on-deal-to-reopen-strait-of-hormuz"
+  canonical_url: "https://www.barchart.com/story/news/2478744/crude-oil-prices-sink-on-deal-to-reopen-strait-of-hormuz"
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T14:14:00-05:00"
+  source_type: "market_news"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_vendor"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-15-608"
+  publisher: "FXStreet"
+  title: "United States Dollar Index drops as safe-haven demand fades"
+  url: "https://www.fxstreet.com/news/united-states-dollar-index-drops-as-safe-haven-demand-fades-202606150325"
+  canonical_url: "https://www.fxstreet.com/news/united-states-dollar-index-drops-as-safe-haven-demand-fades-202606150325"
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T03:25:00Z"
+  source_type: "fx_market_news"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "market_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-15-609"
+  publisher: "Fortune"
+  title: "Current price of gold as of June 15, 2026"
+  url: "https://fortune.com/article/current-price-of-gold-06-15-2026/"
+  canonical_url: "https://fortune.com/article/current-price-of-gold-06-15-2026/"
+  accessed_at: "2026-06-16T09:58:07Z"
+  published_at: "2026-06-15T09:14:00-04:00"
+  source_type: "commodity_quote"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "market_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-15-701"
+  publisher: "Yahoo Finance"
+  title: "Stock market today: Dow hits record, S&P 500, Nasdaq soar as tech rallies amid US-Iran pact to reopen Hormuz."
+  url: "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-15-224751171.html"
+  accessed_at: "2026-06-16T01:07:00Z"
+  source_type: "article"
+  retrieval_method: "search"
+  mutable: true
+  reliability_tier: "primary"
+- id: "S-2026-06-15-702"
+  publisher: "CNBC"
+  title: "Dow climbs more than 450 points for record close as oil..."
+  url: "https://www.cnbc.com/2026/06/14/stock-market-today-live-updates.html"
+  accessed_at: "2026-06-16T01:07:00Z"
+  source_type: "article"
+  retrieval_method: "search"
+  mutable: true
+  reliability_tier: "primary"
