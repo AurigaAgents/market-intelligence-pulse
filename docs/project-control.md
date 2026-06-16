@@ -69,16 +69,20 @@ Proof required:
 
 Automation ignores issues and pull requests that do not carry the managed labels and responsibility block.
 
-## Segment PR Contract
+## Artifact PR Contracts
 
-Segment PRs use one standard title form:
+Managed artifact PRs use standard title forms:
 
 ```text
 feat(<segment>): add <YYYY-MM-DD> <segment> analysis cycle <N>
+feat(report): assemble <YYYY-MM-DD> market pulse cycle <N>
+feat(publication): publish <YYYY-MM-DD> market pulse cycle <N>
 ```
 
 The PR milestone must match the managed issue milestone, for example `Pulse
-2026-06-15`. PR bodies must include these top-level sections in this order:
+2026-06-15`.
+
+PR bodies must include these top-level sections in this order:
 
 - `## Summary`
 - `## Expected artifacts`
