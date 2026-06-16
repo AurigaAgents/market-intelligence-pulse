@@ -141,7 +141,7 @@ reports/YYYY/MM/DD/
   qa.json
   moltbook-overview.md
   moltbook-deep-dive.md
-  moltbook-citation-map.json
+  moltbook-citation-map.json       new numeric-full reports
   segments/
     us/cycle-N/
       analysis.md
@@ -260,8 +260,10 @@ Renders validated report artifacts into Moltbook-ready publication copies. The
 current publication style is `numeric-full`: compact numeric references in the
 post body and a complete `## References` section at the end.
 
-The renderer also writes `moltbook-citation-map.json`, which maps internal claim
-IDs and source IDs to visible reference numbers.
+For new numeric-full publication copies, the renderer also writes
+`moltbook-citation-map.json`, which maps internal claim IDs and source IDs to
+visible reference numbers. Historical reports produced before this renderer
+upgrade may not have that file.
 
 ### 5.7 UGC Sanitizer
 
@@ -572,7 +574,7 @@ pull request still matches the accepted issue and the required status is green.
 | `state:review` | `state:accepted` | orchestrator/status gate | Structured approve verdict | `market-pulse/reviewer-verdict` successful |
 | `state:review` | `state:blocked` | reviewer | Structured block verdict | Exact required correction |
 | any | `state:needs-decision` | reviewer, owner, or orchestrator | Policy/scope/source/publication decision required | Decision request comment |
-| `state:blocked` | `state:ready` | orchestrator | Next cycle or resolved operational blocker | Cycle cap not exceeded |
+| `state:blocked` | `state:ready` | orchestrator | Next automatic cycle or resolved operational blocker | Automatic cycle cap not exceeded |
 | `state:accepted` | closed | orchestrator | Safe merge and proof recording | Linked PR merged or no PR required by contract |
 
 The only normal path into `state:accepted` is a structured reviewer verdict plus
@@ -717,13 +719,21 @@ Safe auto-merge checks:
 - `market-pulse/reviewer-verdict` is successful;
 - the PR is mergeable by GitHub.
 
-Expected PR titles:
+The review handoff checks the expected PR title before dispatching a reviewer
+for newly managed issues. The shared project-control helper enforces the segment
+title directly; the orchestrator enforces the assembly and publication titles
+during reviewer-dispatch validation.
+
+Expected PR titles for newly managed issues:
 
 ```text
 feat(<segment>): add YYYY-MM-DD <segment> analysis cycle N
 feat(report): assemble YYYY-MM-DD market pulse cycle N
 feat(publication): publish YYYY-MM-DD market pulse cycle N
 ```
+
+Older manually driven recovery PRs may use `fix(...)` or `chore(...)` titles.
+Those are historical records, not the naming contract for new unattended runs.
 
 The merge strategy is squash merge. Branch deletion is allowed after merge.
 
@@ -767,7 +777,7 @@ YYYY-MM-DD report assembly cycle 3
 
 The assembly owner combines segment evidence into report-level artifacts.
 
-Expected outputs:
+Expected outputs for new numeric-full reports:
 
 ```text
 reports/YYYY/MM/DD/report.md
@@ -863,7 +873,7 @@ That is what lets Moltbook stay readable while GitHub remains auditable.
 
 Publication starts only after report-level artifacts exist on `origin/main`.
 
-Required files:
+Required files for new numeric-full report publications:
 
 ```text
 reports/YYYY/MM/DD/claims.jsonl
@@ -887,7 +897,7 @@ creates:
 YYYY-MM-DD publication cycle 1
 ```
 
-Publication retry cycles follow the same cap:
+Publication retry cycles follow the same automatic cap:
 
 ```text
 YYYY-MM-DD publication cycle 2
@@ -944,7 +954,16 @@ silently reposted.
 
 ## 27. Retry And Cycle Rules
 
-The maximum cycle number for analysis, assembly, and publication is 3.
+The unattended orchestrator's automatic retry cap for analysis, assembly, and
+publication is cycle 3.
+
+That cap is an automation guardrail, not a statement that no human- or
+operator-authorized correction can ever go beyond cycle 3. If a report has
+already reached the automatic cap but the correct operational choice is still to
+repair and preserve the public audit trail, Ingo or an operator may authorize an
+explicit additional correction issue. Such issues should say why they exceed the
+automatic cap. The orchestrator must not silently create unlimited cycles on its
+own.
 
 There are two different retry shapes:
 
@@ -969,8 +988,9 @@ New cycle examples:
 
 These create a `cycle-N+1` issue. The old issue remains as the historical record.
 
-If the cycle cap is reached, the issue should move to `state:needs-decision`
-with the exact blocker.
+If the automatic cycle cap is reached, the issue should move to
+`state:needs-decision` with the exact blocker. Further cycles require explicit
+operator or Ingo authorization.
 
 ## 28. Claims And Sources
 
@@ -1053,7 +1073,9 @@ paths, or escaped prompt-injection blocks.
 copies.
 
 `moltbook-citation-map.json` links visible Moltbook reference numbers back to
-internal claims and sources.
+internal claims and sources for new numeric-full reports. Historical reports
+that predate this renderer are still valid if their manifest and publication
+metadata describe the older publication shape.
 
 ## 30. Validation And Privacy Gates
 
@@ -1070,7 +1092,8 @@ Validation covers:
 - Pages render output;
 - public-surface privacy patterns;
 - numeric audit gates for new reports;
-- Moltbook citation map and byte-budget metadata when present.
+- Moltbook citation map and byte-budget metadata when present, and as required
+  for new numeric-full publication runs.
 
 Privacy scanning hard-fails public artifacts that expose:
 
@@ -1314,4 +1337,3 @@ During the first live run after an orchestration change, expect to audit the
 result. The architecture is designed so that any failure leaves a visible issue,
 pull request, status, queue file, or validation error rather than a hidden
 intermediate state.
-

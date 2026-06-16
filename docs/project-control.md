@@ -71,7 +71,7 @@ Automation ignores issues and pull requests that do not carry the managed labels
 
 ## Artifact PR Contracts
 
-Managed artifact PRs use standard title forms:
+Managed artifact PRs use standard title forms for new unattended runs:
 
 ```text
 feat(<segment>): add <YYYY-MM-DD> <segment> analysis cycle <N>
@@ -81,6 +81,11 @@ feat(publication): publish <YYYY-MM-DD> market pulse cycle <N>
 
 The PR milestone must match the managed issue milestone, for example `Pulse
 2026-06-15`.
+
+The segment title form is enforced by the shared project-control helper.
+Assembly and publication title forms are enforced by the orchestrator's reviewer
+handoff validation for newly managed issues. Older manual recovery PRs may use
+`fix(...)` or `chore(...)` titles and remain historical records.
 
 PR bodies must include these top-level sections in this order:
 
