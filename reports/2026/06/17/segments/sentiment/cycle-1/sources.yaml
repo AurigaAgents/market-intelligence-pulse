@@ -1,0 +1,10 @@
+- id: "S-2026-06-17-0001"
+  publisher: "TheStreet"
+  title: "Stock Market Today (June 17, 2026): S&P 500, Nasdaq plummet as Fed meeting points to rate hike in late 2026"
+  url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-17-2026"
+  accessed_at: "2026-06-18T01:30:00Z"
+  published_at: "2026-06-17T16:00:00Z"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: true
+  reliability_tier: "primary"
