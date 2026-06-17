@@ -1,0 +1,113 @@
+- id: "S-2026-06-16-0501"
+  publisher: "Yahoo Finance"
+  title: "S&P 500 (^GSPC) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EGSPC/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EGSPC/history/"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance historical-prices page accessed live after the June 16 US close; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0502"
+  publisher: "Yahoo Finance"
+  title: "NASDAQ Composite (^IXIC) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EIXIC/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EIXIC/history/"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance historical-prices page accessed live after the June 16 US close; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0503"
+  publisher: "Yahoo Finance"
+  title: "Dow Jones Industrial Average (^DJI) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EDJI/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EDJI/history/"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance historical-prices page accessed live after the June 16 US close; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0504"
+  publisher: "Yahoo Finance"
+  title: "CBOE Volatility Index (^VIX) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX/history/"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance historical-prices page accessed live after the June 16 US close; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0505"
+  publisher: "Investing.com"
+  title: "CBOE Volatility Index (VIX) Historical Data"
+  url: "https://www.investing.com/indices/volatility-s-p-500-historical-data"
+  canonical_url: "https://www.investing.com/indices/volatility-s-p-500-historical-data"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Investing.com VIX historical-data page accessed live after the June 16 US close; cross-checks the VIX close and labels the June 15 close separately; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0506"
+  publisher: "Investopedia"
+  title: "Markets News, June 16, 2026: Dow Hits Record as Chip Stocks Lead Tech Lower; SpaceX Stock Soars on Cursor Deal"
+  url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06162026-11999070"
+  canonical_url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06162026-11999070"
+  accessed_at: "2026-06-16T23:57:52Z"
+  published_at: "2026-06-16"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Investopedia June 16 market-wrap accessed live; post-close lead summarizes the June 16 regular session; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0507"
+  publisher: "MacroMicro"
+  title: "US - CNN Fear and Greed Index"
+  url: "https://en.macromicro.me/charts/50108/cnn-fear-and-greed"
+  canonical_url: "https://en.macromicro.me/charts/50108/cnn-fear-and-greed"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public MacroMicro mirror of the CNN Fear & Greed Index; daily series records 2026-06-16 = 41.29; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0508"
+  publisher: "FinHacker.cz"
+  title: "Fear and Greed Index: Historical Data & Chart (2011-2026)"
+  url: "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  canonical_url: "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "low"
+  archive:
+    stored: false
+    reason: "Public FinHacker CNN Fear & Greed history; page last updated June 15 2026 18:44 ET, latest reading about 41 (Fear), used only as a prior-session reference; no archive artifact committed for this cycle."
