@@ -1,0 +1,105 @@
+- id: "S-2026-06-17-501"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  accessed_at: "2026-06-17T23:09:00Z"
+  published_at: "2026-06-17"
+  source_type: "government_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "dynamic_government_table"
+- id: "S-2026-06-17-502"
+  publisher: "CNBC"
+  title: "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year"
+  url: "https://www.cnbc.com/2026/06/17/treasury-yields-investors-await-warsh-fed-decision.html"
+  canonical_url: "https://www.cnbc.com/2026/06/17/treasury-yields-investors-await-warsh-fed-decision.html"
+  accessed_at: "2026-06-17T23:09:28Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-503"
+  publisher: "Reuters"
+  title: "Wall Street sinks on bets Fed will hike rates this year"
+  url: "https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17/"
+  canonical_url: "https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17/"
+  accessed_at: "2026-06-17T23:10:53Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-504"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Wednesday 6/17/2026"
+  url: "https://www.ctpost.com/business/article/how-major-us-stock-indexes-fared-wednesday-22310038.php"
+  canonical_url: "https://www.ctpost.com/business/article/how-major-us-stock-indexes-fared-wednesday-22310038.php"
+  accessed_at: "2026-06-17T23:09:29Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-505"
+  publisher: "Reuters"
+  title: "Instant View: Fed holds steady in Warsh's debut, but hawkish shift fuels bond-market rout"
+  url: "https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17/"
+  canonical_url: "https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17/"
+  accessed_at: "2026-06-17T23:10:55Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-506"
+  publisher: "Reuters"
+  title: "Strong US retail sales showcase economy's resilience despite Iran war"
+  url: "https://www.reuters.com/business/retail-consumer/us-retail-sales-beat-expectations-may-2026-06-17/"
+  canonical_url: "https://www.reuters.com/business/retail-consumer/us-retail-sales-beat-expectations-may-2026-06-17/"
+  accessed_at: "2026-06-17T23:12:28Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-507"
+  publisher: "Trading Economics"
+  title: "Crude Oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/crude-oil"
+  accessed_at: "2026-06-17T23:08:00Z"
+  published_at: "2026-06-17"
+  source_type: "market_data"
+  retrieval_method: "search"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_quote_page"
