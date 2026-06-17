@@ -1,0 +1,60 @@
+- id: "S-2026-06-17-0001"
+  publisher: "Las Vegas Sun"
+  title: "How major US stock indexes fared Wednesday 6/17/2026 (Associated Press markets wire)"
+  url: "https://lasvegassun.com/news/2026/jun/17/how-major-us-stock-indexes-fared-wednesday-6172026/"
+  canonical_url: "https://lasvegassun.com/news/2026/jun/17/how-major-us-stock-indexes-fared-wednesday-6172026/"
+  accessed_at: "2026-06-17T22:24:00Z"
+  published_at: "2026-06-17T13:16:00-04:00"
+  source_type: "news_wire_market_summary"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Associated Press markets-wire ledger carried by Las Vegas Sun, accessed live and updated after the close; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-0002"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Federal Reserve issues FOMC statement"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  accessed_at: "2026-06-17T22:24:00Z"
+  published_at: "2026-06-17T14:00:00-04:00"
+  source_type: "official_central_bank_statement"
+  retrieval_method: "web_open"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Permanent dated Federal Reserve press release accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-0003"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "June 17, 2026: FOMC Projections materials, accessible version (Summary of Economic Projections)"
+  url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  canonical_url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  accessed_at: "2026-06-17T22:24:00Z"
+  published_at: "2026-06-17T14:00:00-04:00"
+  source_type: "official_central_bank_projection"
+  retrieval_method: "web_open"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Permanent dated Federal Reserve Summary of Economic Projections accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-0004"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Implementation Note issued June 17, 2026"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm"
+  accessed_at: "2026-06-17T22:24:00Z"
+  published_at: "2026-06-17T14:00:00-04:00"
+  source_type: "official_central_bank_implementation_note"
+  retrieval_method: "web_open"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Permanent dated Federal Reserve implementation note accessed live; no archive artifact committed for this cycle."
