@@ -1,0 +1,380 @@
+- id: "S-2026-06-16-001"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Tuesday 6/16/2026"
+  url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c04e8a7897b45a5ddeb9d27e0431dba7"
+  canonical_url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c04e8a7897b45a5ddeb9d27e0431dba7"
+  accessed_at: "2026-06-17T04:37:25Z"
+  published_at: "2026-06-16T20:16:42Z"
+  source_type: "news_article"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public AP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-002"
+  publisher: "Investopedia"
+  title: "Markets News, June 16, 2026: Dow Hits Record as Chip Stocks Lead Tech Lower; SpaceX Stock Soars on Cursor Deal"
+  url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06162026-11999070"
+  canonical_url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06162026-11999070"
+  accessed_at: "2026-06-17T04:37:25Z"
+  published_at: "2026-06-16T16:09:00-04:00"
+  source_type: "market_news_article"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Investopedia article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-003"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Meeting calendars and information"
+  url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  canonical_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  accessed_at: "2026-06-17T04:37:25Z"
+  source_type: "official_central_bank_calendar"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Public Federal Reserve calendar accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-401"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU600 / STOXX Europe 600)"
+  url: "https://tradingeconomics.com/euro-area/stock-market"
+  canonical_url: "https://tradingeconomics.com/euro-area/stock-market"
+  accessed_at: "2026-06-16T22:20:00+00:00"
+  published_at: "2026-06-16"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
+- id: "S-2026-06-16-402"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DAX)"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-16T22:24:00+00:00"
+  published_at: "2026-06-16"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
+- id: "S-2026-06-16-403"
+  publisher: "Trading Economics"
+  title: "France Stock Market Index (CAC 40)"
+  url: "https://tradingeconomics.com/france/stock-market"
+  canonical_url: "https://tradingeconomics.com/france/stock-market"
+  accessed_at: "2026-06-16T22:24:00+00:00"
+  published_at: "2026-06-16"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
+- id: "S-2026-06-16-404"
+  publisher: "Trading Economics"
+  title: "United Kingdom Stock Market Index (FTSE 100)"
+  url: "https://tradingeconomics.com/united-kingdom/stock-market"
+  canonical_url: "https://tradingeconomics.com/united-kingdom/stock-market"
+  accessed_at: "2026-06-16T22:24:00+00:00"
+  published_at: "2026-06-16"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
+- id: "S-2026-06-16-405"
+  publisher: "Investing.com"
+  title: "European stocks close off record highs despite peace deal optimism"
+  url: "https://uk.investing.com/news/stock-market-news/european-stocks-pause-at-record-highs-as-postwar-inflation-hangover-looms-4729859"
+  canonical_url: "https://uk.investing.com/news/stock-market-news/european-stocks-pause-at-record-highs-as-postwar-inflation-hangover-looms-4729859"
+  accessed_at: "2026-06-16T22:25:41+00:00"
+  published_at: "2026-06-16T17:10:00+01:00"
+  source_type: "news"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "primary_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-16-201"
+  publisher: "Associated Press"
+  title: "Oil drops below $80 per barrel, while tech stocks weigh on a mixed Wall Street"
+  url: "https://apnews.com/article/stocks-markets-rates-oil-boj-306b81adb98fe2814c7133f1458373e8"
+  canonical_url: "https://apnews.com/article/stocks-markets-rates-oil-boj-306b81adb98fe2814c7133f1458373e8"
+  accessed_at: "2026-06-16T23:38:14Z"
+  source_type: "news_article"
+  retrieval_method: "web_open_and_curl_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public AP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-202"
+  publisher: "Bank of Japan"
+  title: "Change in the Guideline for Money Market Operations"
+  url: "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf"
+  canonical_url: "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf"
+  accessed_at: "2026-06-16T23:38:14Z"
+  published_at: "2026-06-16"
+  source_type: "central_bank_statement_pdf"
+  retrieval_method: "web_open_and_curl_status_200"
+  mutable: false
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Official BOJ PDF accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-203"
+  publisher: "RTTNews"
+  title: "Market Sentiment Remains Tethered To U.S.-Iran Peace Deal"
+  url: "https://www.rttnews.com/amp/3660631/market-sentiment-remains-tethered-to-u-s-iran-peace-deal.aspx"
+  canonical_url: "https://www.rttnews.com/amp/3660631/market-sentiment-remains-tethered-to-u-s-iran-peace-deal.aspx"
+  accessed_at: "2026-06-16T23:38:14Z"
+  published_at: "2026-06-16T09:34:00-04:00"
+  source_type: "market_snapshot_article"
+  retrieval_method: "web_open_and_curl_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public RTTNews AMP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-204"
+  publisher: "Pinetree Securities"
+  title: "Market brief 16/06/2026"
+  url: "https://pinetree.vn/en/post/20260616/market-brief-16-06-2026/"
+  canonical_url: "https://pinetree.vn/en/post/20260616/market-brief-16-06-2026/"
+  accessed_at: "2026-06-16T23:38:14Z"
+  published_at: "2026-06-16"
+  source_type: "market_brief"
+  retrieval_method: "web_open_and_curl_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Pinetree market brief accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-205"
+  publisher: "Trading Economics"
+  title: "Chinese Yuan - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/china/currency"
+  canonical_url: "https://tradingeconomics.com/china/currency"
+  accessed_at: "2026-06-16T23:38:14Z"
+  published_at: "2026-06-16"
+  source_type: "market_data_page"
+  retrieval_method: "web_open_and_curl_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics market-data page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-601"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  accessed_at: "2026-06-16T22:56:09Z"
+  published_at: "2026-06-16"
+  source_type: "government_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "dynamic_government_table"
+- id: "S-2026-06-16-602"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Meeting calendars and information"
+  url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  canonical_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  accessed_at: "2026-06-16T22:56:09Z"
+  source_type: "official_central_bank_calendar"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "public_dynamic_calendar"
+- id: "S-2026-06-16-603"
+  publisher: "Reuters"
+  title: "Nasdaq and S&P 500 slip while Dow hits record high"
+  url: "https://www.reuters.com/business/wall-street-futures-subdued-focus-shifts-fed-spacex-jumps-third-day-2026-06-16/"
+  canonical_url: "https://www.reuters.com/business/wall-street-futures-subdued-focus-shifts-fed-spacex-jumps-third-day-2026-06-16/"
+  accessed_at: "2026-06-16T22:52:20Z"
+  published_at: "2026-06-16"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-16-604"
+  publisher: "United Press International"
+  title: "Brent crude oil falls below $80 per barrel; WTI continues to decline"
+  url: "https://www.upi.com/Top_News/World-News/2026/06/16/iran-brent-crude-oil-prices-fall-peace-agreement/9871781617881/"
+  canonical_url: "https://www.upi.com/Top_News/World-News/2026/06/16/iran-brent-crude-oil-prices-fall-peace-agreement/9871781617881/"
+  accessed_at: "2026-06-16T22:52:22Z"
+  published_at: "2026-06-16T10:03:00-04:00"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-16-605"
+  publisher: "Trading Economics"
+  title: "United States 10 Year Government Bond Yield - Quote, Chart, Historical Data"
+  url: "https://tradingeconomics.com/united-states/government-bond-yield"
+  canonical_url: "https://tradingeconomics.com/united-states/government-bond-yield"
+  accessed_at: "2026-06-16T22:52:20Z"
+  published_at: "2026-06-16"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_quote_page"
+- id: "S-2026-06-16-701"
+  publisher: "Yahoo Finance"
+  title: "S&P 500 (^GSPC) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EGSPC/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EGSPC/history/"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance historical-prices page accessed live after the June 16 US close; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-702"
+  publisher: "Yahoo Finance"
+  title: "NASDAQ Composite (^IXIC) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EIXIC/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EIXIC/history/"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance historical-prices page accessed live after the June 16 US close; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-703"
+  publisher: "Yahoo Finance"
+  title: "Dow Jones Industrial Average (^DJI) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EDJI/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EDJI/history/"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance historical-prices page accessed live after the June 16 US close; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-704"
+  publisher: "Yahoo Finance"
+  title: "CBOE Volatility Index (^VIX) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX/history/"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance historical-prices page accessed live after the June 16 US close; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-705"
+  publisher: "Investing.com"
+  title: "CBOE Volatility Index (VIX) Historical Data"
+  url: "https://www.investing.com/indices/volatility-s-p-500-historical-data"
+  canonical_url: "https://www.investing.com/indices/volatility-s-p-500-historical-data"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Investing.com VIX historical-data page accessed live after the June 16 US close; cross-checks the VIX close and labels the June 15 close separately; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-706"
+  publisher: "Investopedia"
+  title: "Markets News, June 16, 2026: Dow Hits Record as Chip Stocks Lead Tech Lower; SpaceX Stock Soars on Cursor Deal"
+  url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06162026-11999070"
+  canonical_url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06162026-11999070"
+  accessed_at: "2026-06-16T23:57:52Z"
+  published_at: "2026-06-16"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Investopedia June 16 market-wrap accessed live; post-close lead summarizes the June 16 regular session; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-707"
+  publisher: "MacroMicro"
+  title: "US - CNN Fear and Greed Index"
+  url: "https://en.macromicro.me/charts/50108/cnn-fear-and-greed"
+  canonical_url: "https://en.macromicro.me/charts/50108/cnn-fear-and-greed"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public MacroMicro mirror of the CNN Fear & Greed Index; daily series records 2026-06-16 = 41.29; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-708"
+  publisher: "FinHacker.cz"
+  title: "Fear and Greed Index: Historical Data & Chart (2011-2026)"
+  url: "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  canonical_url: "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  accessed_at: "2026-06-16T23:57:52Z"
+  source_type: "market_data_page"
+  retrieval_method: "firecrawl_scrape_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "low"
+  archive:
+    stored: false
+    reason: "Public FinHacker CNN Fear & Greed history; page last updated June 15 2026 18:44 ET, latest reading about 41 (Fear), used only as a prior-session reference; no archive artifact committed for this cycle."
