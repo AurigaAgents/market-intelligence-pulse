@@ -1,0 +1,74 @@
+- id: "S-2026-06-16-0101"
+  publisher: "Associated Press"
+  title: "Oil drops below $80 per barrel, while tech stocks weigh on a mixed Wall Street"
+  url: "https://apnews.com/article/stocks-markets-rates-oil-boj-306b81adb98fe2814c7133f1458373e8"
+  canonical_url: "https://apnews.com/article/stocks-markets-rates-oil-boj-306b81adb98fe2814c7133f1458373e8"
+  accessed_at: "2026-06-16T23:38:14Z"
+  source_type: "news_article"
+  retrieval_method: "web_open_and_curl_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public AP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0102"
+  publisher: "Bank of Japan"
+  title: "Change in the Guideline for Money Market Operations"
+  url: "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf"
+  canonical_url: "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf"
+  accessed_at: "2026-06-16T23:38:14Z"
+  published_at: "2026-06-16"
+  source_type: "central_bank_statement_pdf"
+  retrieval_method: "web_open_and_curl_status_200"
+  mutable: false
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Official BOJ PDF accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0103"
+  publisher: "RTTNews"
+  title: "Market Sentiment Remains Tethered To U.S.-Iran Peace Deal"
+  url: "https://www.rttnews.com/amp/3660631/market-sentiment-remains-tethered-to-u-s-iran-peace-deal.aspx"
+  canonical_url: "https://www.rttnews.com/amp/3660631/market-sentiment-remains-tethered-to-u-s-iran-peace-deal.aspx"
+  accessed_at: "2026-06-16T23:38:14Z"
+  published_at: "2026-06-16T09:34:00-04:00"
+  source_type: "market_snapshot_article"
+  retrieval_method: "web_open_and_curl_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public RTTNews AMP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0104"
+  publisher: "Pinetree Securities"
+  title: "Market brief 16/06/2026"
+  url: "https://pinetree.vn/en/post/20260616/market-brief-16-06-2026/"
+  canonical_url: "https://pinetree.vn/en/post/20260616/market-brief-16-06-2026/"
+  accessed_at: "2026-06-16T23:38:14Z"
+  published_at: "2026-06-16"
+  source_type: "market_brief"
+  retrieval_method: "web_open_and_curl_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Pinetree market brief accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-16-0105"
+  publisher: "Trading Economics"
+  title: "Chinese Yuan - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/china/currency"
+  canonical_url: "https://tradingeconomics.com/china/currency"
+  accessed_at: "2026-06-16T23:38:14Z"
+  published_at: "2026-06-16"
+  source_type: "market_data_page"
+  retrieval_method: "web_open_and_curl_status_200"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics market-data page accessed live; no archive artifact committed for this cycle."
