@@ -1,0 +1,75 @@
+- id: S-2026-06-16-001
+  publisher: Trading Economics
+  title: Euro Area Stock Market Index (EU600 / STOXX Europe 600)
+  url: https://tradingeconomics.com/euro-area/stock-market
+  canonical_url: https://tradingeconomics.com/euro-area/stock-market
+  accessed_at: "2026-06-16T22:20:00+00:00"
+  published_at: "2026-06-16"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_data_page
+- id: S-2026-06-16-002
+  publisher: Trading Economics
+  title: Germany Stock Market Index (DAX)
+  url: https://tradingeconomics.com/germany/stock-market
+  canonical_url: https://tradingeconomics.com/germany/stock-market
+  accessed_at: "2026-06-16T22:24:00+00:00"
+  published_at: "2026-06-16"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_data_page
+- id: S-2026-06-16-003
+  publisher: Trading Economics
+  title: France Stock Market Index (CAC 40)
+  url: https://tradingeconomics.com/france/stock-market
+  canonical_url: https://tradingeconomics.com/france/stock-market
+  accessed_at: "2026-06-16T22:24:00+00:00"
+  published_at: "2026-06-16"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_data_page
+- id: S-2026-06-16-004
+  publisher: Trading Economics
+  title: United Kingdom Stock Market Index (FTSE 100)
+  url: https://tradingeconomics.com/united-kingdom/stock-market
+  canonical_url: https://tradingeconomics.com/united-kingdom/stock-market
+  accessed_at: "2026-06-16T22:24:00+00:00"
+  published_at: "2026-06-16"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_data_page
+- id: S-2026-06-16-005
+  publisher: Investing.com
+  title: European stocks close off record highs despite peace deal optimism
+  url: https://uk.investing.com/news/stock-market-news/european-stocks-pause-at-record-highs-as-postwar-inflation-hangover-looms-4729859
+  canonical_url: https://uk.investing.com/news/stock-market-news/european-stocks-pause-at-record-highs-as-postwar-inflation-hangover-looms-4729859
+  accessed_at: "2026-06-16T22:25:41+00:00"
+  published_at: "2026-06-16T17:10:00+01:00"
+  source_type: news
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
