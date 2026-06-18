@@ -1,0 +1,1404 @@
+{
+  "deep_dive": {
+    "citation_group_count": 5,
+    "claim_map": {
+      "C-2026-06-17-ASIA-REGIONAL-BREADTH": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-201",
+            "source_key": "S201",
+            "support": "inference_base",
+            "visible_reference_key": "nikkei indexes|https://indexes.nikkei.co.jp/en/nkave/index/profile",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-17-202",
+            "source_key": "S202",
+            "support": "inference_base",
+            "visible_reference_key": "chosunbiz|https://biz.chosun.com/en/en-finance/2026/06/17/iw6m3sybcnacppfdcgb3keo6u4",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-17-203",
+            "source_key": "S203",
+            "support": "inference_base",
+            "visible_reference_key": "investing.com|https://www.investing.com/indices/shanghai-composite-historical-data",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-17-204",
+            "source_key": "S204",
+            "support": "inference_base",
+            "visible_reference_key": "google finance|https://www.google.com/finance/beta/quote/hsi%3aindexhangseng",
+            "visible_reference_number": 17
+          }
+        ],
+        "visible_reference_numbers": [
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "C-2026-06-17-EU-001": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-405",
+            "source_key": "S405",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5estoxx",
+            "visible_reference_number": 10
+          },
+          {
+            "source_id": "S-2026-06-17-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-17-401",
+            "source_key": "S401",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 12
+          }
+        ],
+        "visible_reference_numbers": [
+          10,
+          11,
+          12
+        ]
+      },
+      "C-2026-06-17-EU-007": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-17-402",
+            "source_key": "S402",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 13
+          },
+          {
+            "source_id": "S-2026-06-17-401",
+            "source_key": "S401",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 12
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          12,
+          13
+        ]
+      },
+      "C-2026-06-17-EU-008": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html",
+            "visible_reference_number": 11
+          }
+        ],
+        "visible_reference_numbers": [
+          11
+        ]
+      },
+      "C-2026-06-17-EU-012": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-17-402",
+            "source_key": "S402",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 13
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          13
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-001": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-601",
+            "source_key": "S601",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/textview?field_tdr_date_value=202606&type=daily_treasury_yield_curve",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-002": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-601",
+            "source_key": "S601",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/textview?field_tdr_date_value=202606&type=daily_treasury_yield_curve",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-004": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-601",
+            "source_key": "S601",
+            "support": "inference_base",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/textview?field_tdr_date_value=202606&type=daily_treasury_yield_curve",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-005": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-602",
+            "source_key": "S602",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/17/treasury-yields-investors-await-warsh-fed-decision.html",
+            "visible_reference_number": 3
+          },
+          {
+            "source_id": "S-2026-06-17-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          3,
+          7
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-007": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-602",
+            "source_key": "S602",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/17/treasury-yields-investors-await-warsh-fed-decision.html",
+            "visible_reference_number": 3
+          },
+          {
+            "source_id": "S-2026-06-17-603",
+            "source_key": "S603",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          3,
+          4
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-008": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-603",
+            "source_key": "S603",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-17-606",
+            "source_key": "S606",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/retail-consumer/us-retail-sales-beat-expectations-may-2026-06-17",
+            "visible_reference_number": 5
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          5
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-009": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-17-603",
+            "source_key": "S603",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          7
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-014": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          7
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-016": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-606",
+            "source_key": "S606",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/retail-consumer/us-retail-sales-beat-expectations-may-2026-06-17",
+            "visible_reference_number": 5
+          }
+        ],
+        "visible_reference_numbers": [
+          5
+        ]
+      },
+      "C-2026-06-17-SENT-C2-004": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-705",
+            "source_key": "S705",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          4
+        ]
+      },
+      "C-2026-06-17-SENT-C2-005": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-704",
+            "source_key": "S704",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5evix",
+            "visible_reference_number": 9
+          }
+        ],
+        "visible_reference_numbers": [
+          9
+        ]
+      },
+      "C-2026-06-17-SENT-C2-006": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-704",
+            "source_key": "S704",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5evix",
+            "visible_reference_number": 9
+          },
+          {
+            "source_id": "S-2026-06-17-705",
+            "source_key": "S705",
+            "support": "inference_base",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          9
+        ]
+      },
+      "C-2026-06-17-SENT-C2-007": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-702",
+            "source_key": "S702",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://www.expressnews.com/news/world/article/shares-are-mixed-and-oil-trades-below-80-on-22308930.php",
+            "visible_reference_number": 18
+          },
+          {
+            "source_id": "S-2026-06-17-705",
+            "source_key": "S705",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          18
+        ]
+      },
+      "C-2026-06-17-US-DJIA-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          8
+        ]
+      },
+      "C-2026-06-17-US-FOMC-DECISION": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-002",
+            "source_key": "S002",
+            "support": "direct",
+            "visible_reference_key": "board of governors of the federal reserve system|https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1
+        ]
+      },
+      "C-2026-06-17-US-NASDAQ-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          8
+        ]
+      },
+      "C-2026-06-17-US-SEP-DOTS-2026": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-003",
+            "source_key": "S003",
+            "support": "direct",
+            "visible_reference_key": "board of governors of the federal reserve system|https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+            "visible_reference_number": 2
+          },
+          {
+            "source_id": "S-2026-06-17-002",
+            "source_key": "S002",
+            "support": "inference_base",
+            "visible_reference_key": "board of governors of the federal reserve system|https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      },
+      "C-2026-06-17-US-SEP-MEDIANS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-003",
+            "source_key": "S003",
+            "support": "direct",
+            "visible_reference_key": "board of governors of the federal reserve system|https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          2
+        ]
+      },
+      "C-2026-06-17-US-SPX-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          8
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": true,
+    "generated_at": "2026-06-18T09:03:33Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 6037,
+    "reference_count": 18,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-002": "2026-06-17T23:37:09Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-17T14:00:00-04:00",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "selected_source_id": "S-2026-06-17-002",
+        "source_ids": [
+          "S-2026-06-17-002"
+        ],
+        "title": "Federal Reserve issues FOMC statement",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-003": "2026-06-17T23:37:09Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-17T14:00:00-04:00",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "selected_source_id": "S-2026-06-17-003",
+        "source_ids": [
+          "S-2026-06-17-003"
+        ],
+        "title": "June 17, 2026: FOMC Projections materials, accessible version",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-602": "2026-06-17T23:09:28Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-17",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-17-602",
+        "source_ids": [
+          "S-2026-06-17-602"
+        ],
+        "title": "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year",
+        "url": "https://www.cnbc.com/2026/06/17/treasury-yields-investors-await-warsh-fed-decision.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-603": "2026-06-17T23:10:53Z",
+          "S-2026-06-17-705": "2026-06-18T00:10:30Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-17",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-17-603",
+        "source_ids": [
+          "S-2026-06-17-603",
+          "S-2026-06-17-705"
+        ],
+        "title": "Wall Street sinks on bets Fed will hike rates this year",
+        "url": "https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-606": "2026-06-17T23:12:28Z"
+        },
+        "number": 5,
+        "published_at": "2026-06-17",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-17-606",
+        "source_ids": [
+          "S-2026-06-17-606"
+        ],
+        "title": "Strong US retail sales showcase economy's resilience despite Iran war",
+        "url": "https://www.reuters.com/business/retail-consumer/us-retail-sales-beat-expectations-may-2026-06-17/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-601": "2026-06-17T23:09:00Z"
+        },
+        "number": 6,
+        "published_at": "2026-06-17",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-17-601",
+        "source_ids": [
+          "S-2026-06-17-601"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-605": "2026-06-17T23:10:55Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-17",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-17-605",
+        "source_ids": [
+          "S-2026-06-17-605"
+        ],
+        "title": "Instant View: Fed holds steady in Warsh's debut, but hawkish shift fuels bond-market rout",
+        "url": "https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-001": "2026-06-17T23:37:09Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-17T20:16:52Z",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-17-001",
+        "source_ids": [
+          "S-2026-06-17-001"
+        ],
+        "title": "How major US stock indexes fared Wednesday 6/17/2026",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-704": "2026-06-18T00:10:00Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-17",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-17-704",
+        "source_ids": [
+          "S-2026-06-17-704"
+        ],
+        "title": "Cboe Volatility Index (^VIX) and Russell 2000 (^RUT) index quotes",
+        "url": "https://finance.yahoo.com/quote/%5EVIX/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-405": "2026-06-17T22:42:00+00:00"
+        },
+        "number": 10,
+        "published_at": "2026-06-17",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-17-405",
+        "source_ids": [
+          "S-2026-06-17-405"
+        ],
+        "title": "STXE 600 I (^STOXX) Quote - STOXX Europe 600 close and day range",
+        "url": "https://finance.yahoo.com/quote/%5ESTOXX/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-406": "2026-06-17T22:44:00+00:00"
+        },
+        "number": 11,
+        "published_at": "2026-06-17T12:18:00-04:00",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-17-406",
+        "source_ids": [
+          "S-2026-06-17-406"
+        ],
+        "title": "European shares end higher as markets await Iran deal details, Fed policy; BMW slides",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-401": "2026-06-17T22:39:22+00:00"
+        },
+        "number": 12,
+        "published_at": "2026-06-17",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-17-401",
+        "source_ids": [
+          "S-2026-06-17-401"
+        ],
+        "title": "Euro Area Stock Market Index (EU50 / Euro STOXX 50)",
+        "url": "https://tradingeconomics.com/euro-area/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-402": "2026-06-17T22:39:22+00:00"
+        },
+        "number": 13,
+        "published_at": "2026-06-17",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-17-402",
+        "source_ids": [
+          "S-2026-06-17-402"
+        ],
+        "title": "Germany Stock Market Index (DE40 / DAX)",
+        "url": "https://tradingeconomics.com/germany/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-201": "2026-06-17T23:53:03Z"
+        },
+        "number": 14,
+        "published_at": null,
+        "publisher": "Nikkei Indexes",
+        "selected_source_id": "S-2026-06-17-201",
+        "source_ids": [
+          "S-2026-06-17-201"
+        ],
+        "title": "Nikkei Stock Average (Nikkei 225)",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-202": "2026-06-17T23:53:03Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-17",
+        "publisher": "CHOSUNBIZ",
+        "selected_source_id": "S-2026-06-17-202",
+        "source_ids": [
+          "S-2026-06-17-202"
+        ],
+        "title": "Korea stocks surge as SK hynix powers KOSPI to record; KOSDAQ climbs",
+        "url": "https://biz.chosun.com/en/en-finance/2026/06/17/IW6M3SYBCNACPPFDCGB3KEO6U4/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-203": "2026-06-17T23:53:03Z"
+        },
+        "number": 16,
+        "published_at": null,
+        "publisher": "Investing.com",
+        "selected_source_id": "S-2026-06-17-203",
+        "source_ids": [
+          "S-2026-06-17-203"
+        ],
+        "title": "Shanghai Composite Historical Data",
+        "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-204": "2026-06-17T23:53:03Z"
+        },
+        "number": 17,
+        "published_at": null,
+        "publisher": "Google Finance",
+        "selected_source_id": "S-2026-06-17-204",
+        "source_ids": [
+          "S-2026-06-17-204"
+        ],
+        "title": "Hang Seng Index Price, Real-time Quote & News",
+        "url": "https://www.google.com/finance/beta/quote/HSI%3AINDEXHANGSENG"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-702": "2026-06-18T00:08:43Z"
+        },
+        "number": 18,
+        "published_at": "2026-06-17",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-17-702",
+        "source_ids": [
+          "S-2026-06-17-702"
+        ],
+        "title": "US stocks sink on worries about a possible hike to interest rates this year by the Federal Reserve",
+        "url": "https://www.expressnews.com/news/world/article/shares-are-mixed-and-oil-trades-below-80-on-22308930.php"
+      }
+    ],
+    "report_date": "2026-06-17",
+    "style": "numeric-full",
+    "title": "The Fed Hold That Tightened Conditions - 2026-06-17",
+    "warnings": []
+  },
+  "generated_at": "2026-06-18T09:03:33Z",
+  "overview": {
+    "citation_group_count": 4,
+    "claim_map": {
+      "C-2026-06-17-ASIA-KOSPI-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "chosunbiz|https://biz.chosun.com/en/en-finance/2026/06/17/iw6m3sybcnacppfdcgb3keo6u4",
+            "visible_reference_number": 15
+          }
+        ],
+        "visible_reference_numbers": [
+          15
+        ]
+      },
+      "C-2026-06-17-ASIA-REGIONAL-BREADTH": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-201",
+            "source_key": "S201",
+            "support": "inference_base",
+            "visible_reference_key": "nikkei indexes|https://indexes.nikkei.co.jp/en/nkave/index/profile",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-17-202",
+            "source_key": "S202",
+            "support": "inference_base",
+            "visible_reference_key": "chosunbiz|https://biz.chosun.com/en/en-finance/2026/06/17/iw6m3sybcnacppfdcgb3keo6u4",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-17-203",
+            "source_key": "S203",
+            "support": "inference_base",
+            "visible_reference_key": "investing.com|https://www.investing.com/indices/shanghai-composite-historical-data",
+            "visible_reference_number": 17
+          },
+          {
+            "source_id": "S-2026-06-17-204",
+            "source_key": "S204",
+            "support": "inference_base",
+            "visible_reference_key": "google finance|https://www.google.com/finance/beta/quote/hsi%3aindexhangseng",
+            "visible_reference_number": 18
+          }
+        ],
+        "visible_reference_numbers": [
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "C-2026-06-17-EU-001": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-405",
+            "source_key": "S405",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5estoxx",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-17-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-17-401",
+            "source_key": "S401",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 13
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          12,
+          13
+        ]
+      },
+      "C-2026-06-17-EU-006": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-17-402",
+            "source_key": "S402",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-17-401",
+            "source_key": "S401",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 13
+          }
+        ],
+        "visible_reference_numbers": [
+          12,
+          13,
+          14
+        ]
+      },
+      "C-2026-06-17-EU-007": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-17-402",
+            "source_key": "S402",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-17-401",
+            "source_key": "S401",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 13
+          }
+        ],
+        "visible_reference_numbers": [
+          12,
+          13,
+          14
+        ]
+      },
+      "C-2026-06-17-EU-008": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html",
+            "visible_reference_number": 12
+          }
+        ],
+        "visible_reference_numbers": [
+          12
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-001": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-601",
+            "source_key": "S601",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/textview?field_tdr_date_value=202606&type=daily_treasury_yield_curve",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-004": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-601",
+            "source_key": "S601",
+            "support": "inference_base",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/textview?field_tdr_date_value=202606&type=daily_treasury_yield_curve",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-007": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-602",
+            "source_key": "S602",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/17/treasury-yields-investors-await-warsh-fed-decision.html",
+            "visible_reference_number": 3
+          },
+          {
+            "source_id": "S-2026-06-17-603",
+            "source_key": "S603",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          3,
+          4
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-009": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17",
+            "visible_reference_number": 5
+          },
+          {
+            "source_id": "S-2026-06-17-603",
+            "source_key": "S603",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          5
+        ]
+      },
+      "C-2026-06-17-MACRO-C1-014": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17",
+            "visible_reference_number": 5
+          }
+        ],
+        "visible_reference_numbers": [
+          5
+        ]
+      },
+      "C-2026-06-17-SENT-C2-004": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-705",
+            "source_key": "S705",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          4
+        ]
+      },
+      "C-2026-06-17-SENT-C2-005": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-704",
+            "source_key": "S704",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5evix",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          8
+        ]
+      },
+      "C-2026-06-17-SENT-C2-008": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-701",
+            "source_key": "S701",
+            "support": "direct",
+            "visible_reference_key": "federal reserve|https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+            "visible_reference_number": 9
+          },
+          {
+            "source_id": "S-2026-06-17-705",
+            "source_key": "S705",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-17-703",
+            "source_key": "S703",
+            "support": "direct",
+            "visible_reference_key": "barron's|https://www.barrons.com/livecoverage/stock-market-news-today-061726",
+            "visible_reference_number": 10
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          9,
+          10
+        ]
+      },
+      "C-2026-06-17-US-DJIA-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          7
+        ]
+      },
+      "C-2026-06-17-US-FOMC-DECISION": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-002",
+            "source_key": "S002",
+            "support": "direct",
+            "visible_reference_key": "board of governors of the federal reserve system|https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1
+        ]
+      },
+      "C-2026-06-17-US-NASDAQ-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          7
+        ]
+      },
+      "C-2026-06-17-US-RUT-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          7
+        ]
+      },
+      "C-2026-06-17-US-SEP-DOTS-2026": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-003",
+            "source_key": "S003",
+            "support": "direct",
+            "visible_reference_key": "board of governors of the federal reserve system|https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+            "visible_reference_number": 2
+          },
+          {
+            "source_id": "S-2026-06-17-002",
+            "source_key": "S002",
+            "support": "inference_base",
+            "visible_reference_key": "board of governors of the federal reserve system|https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      },
+      "C-2026-06-17-US-SPX-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-17-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          7
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": true,
+    "generated_at": "2026-06-18T09:03:33Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 4597,
+    "reference_count": 18,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-002": "2026-06-17T23:37:09Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-17T14:00:00-04:00",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "selected_source_id": "S-2026-06-17-002",
+        "source_ids": [
+          "S-2026-06-17-002"
+        ],
+        "title": "Federal Reserve issues FOMC statement",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-003": "2026-06-17T23:37:09Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-17T14:00:00-04:00",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "selected_source_id": "S-2026-06-17-003",
+        "source_ids": [
+          "S-2026-06-17-003"
+        ],
+        "title": "June 17, 2026: FOMC Projections materials, accessible version",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-602": "2026-06-17T23:09:28Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-17",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-17-602",
+        "source_ids": [
+          "S-2026-06-17-602"
+        ],
+        "title": "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year",
+        "url": "https://www.cnbc.com/2026/06/17/treasury-yields-investors-await-warsh-fed-decision.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-603": "2026-06-17T23:10:53Z",
+          "S-2026-06-17-705": "2026-06-18T00:10:30Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-17",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-17-603",
+        "source_ids": [
+          "S-2026-06-17-603",
+          "S-2026-06-17-705"
+        ],
+        "title": "Wall Street sinks on bets Fed will hike rates this year",
+        "url": "https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-605": "2026-06-17T23:10:55Z"
+        },
+        "number": 5,
+        "published_at": "2026-06-17",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-17-605",
+        "source_ids": [
+          "S-2026-06-17-605"
+        ],
+        "title": "Instant View: Fed holds steady in Warsh's debut, but hawkish shift fuels bond-market rout",
+        "url": "https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-601": "2026-06-17T23:09:00Z"
+        },
+        "number": 6,
+        "published_at": "2026-06-17",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-17-601",
+        "source_ids": [
+          "S-2026-06-17-601"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-001": "2026-06-17T23:37:09Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-17T20:16:52Z",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-17-001",
+        "source_ids": [
+          "S-2026-06-17-001"
+        ],
+        "title": "How major US stock indexes fared Wednesday 6/17/2026",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-704": "2026-06-18T00:10:00Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-17",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-17-704",
+        "source_ids": [
+          "S-2026-06-17-704"
+        ],
+        "title": "Cboe Volatility Index (^VIX) and Russell 2000 (^RUT) index quotes",
+        "url": "https://finance.yahoo.com/quote/%5EVIX/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-701": "2026-06-18T00:08:15Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-17",
+        "publisher": "Federal Reserve",
+        "selected_source_id": "S-2026-06-17-701",
+        "source_ids": [
+          "S-2026-06-17-701"
+        ],
+        "title": "Federal Reserve issues FOMC statement",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-703": "2026-06-18T00:09:00Z"
+        },
+        "number": 10,
+        "published_at": "2026-06-17",
+        "publisher": "Barron's",
+        "selected_source_id": "S-2026-06-17-703",
+        "source_ids": [
+          "S-2026-06-17-703"
+        ],
+        "title": "Stock Market Today: Dow Falls After Fed Meeting",
+        "url": "https://www.barrons.com/livecoverage/stock-market-news-today-061726"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-405": "2026-06-17T22:42:00+00:00"
+        },
+        "number": 11,
+        "published_at": "2026-06-17",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-17-405",
+        "source_ids": [
+          "S-2026-06-17-405"
+        ],
+        "title": "STXE 600 I (^STOXX) Quote - STOXX Europe 600 close and day range",
+        "url": "https://finance.yahoo.com/quote/%5ESTOXX/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-406": "2026-06-17T22:44:00+00:00"
+        },
+        "number": 12,
+        "published_at": "2026-06-17T12:18:00-04:00",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-17-406",
+        "source_ids": [
+          "S-2026-06-17-406"
+        ],
+        "title": "European shares end higher as markets await Iran deal details, Fed policy; BMW slides",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-401": "2026-06-17T22:39:22+00:00"
+        },
+        "number": 13,
+        "published_at": "2026-06-17",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-17-401",
+        "source_ids": [
+          "S-2026-06-17-401"
+        ],
+        "title": "Euro Area Stock Market Index (EU50 / Euro STOXX 50)",
+        "url": "https://tradingeconomics.com/euro-area/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-402": "2026-06-17T22:39:22+00:00"
+        },
+        "number": 14,
+        "published_at": "2026-06-17",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-17-402",
+        "source_ids": [
+          "S-2026-06-17-402"
+        ],
+        "title": "Germany Stock Market Index (DE40 / DAX)",
+        "url": "https://tradingeconomics.com/germany/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-202": "2026-06-17T23:53:03Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-17",
+        "publisher": "CHOSUNBIZ",
+        "selected_source_id": "S-2026-06-17-202",
+        "source_ids": [
+          "S-2026-06-17-202"
+        ],
+        "title": "Korea stocks surge as SK hynix powers KOSPI to record; KOSDAQ climbs",
+        "url": "https://biz.chosun.com/en/en-finance/2026/06/17/IW6M3SYBCNACPPFDCGB3KEO6U4/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-201": "2026-06-17T23:53:03Z"
+        },
+        "number": 16,
+        "published_at": null,
+        "publisher": "Nikkei Indexes",
+        "selected_source_id": "S-2026-06-17-201",
+        "source_ids": [
+          "S-2026-06-17-201"
+        ],
+        "title": "Nikkei Stock Average (Nikkei 225)",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-203": "2026-06-17T23:53:03Z"
+        },
+        "number": 17,
+        "published_at": null,
+        "publisher": "Investing.com",
+        "selected_source_id": "S-2026-06-17-203",
+        "source_ids": [
+          "S-2026-06-17-203"
+        ],
+        "title": "Shanghai Composite Historical Data",
+        "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-17-204": "2026-06-17T23:53:03Z"
+        },
+        "number": 18,
+        "published_at": null,
+        "publisher": "Google Finance",
+        "selected_source_id": "S-2026-06-17-204",
+        "source_ids": [
+          "S-2026-06-17-204"
+        ],
+        "title": "Hang Seng Index Price, Real-time Quote & News",
+        "url": "https://www.google.com/finance/beta/quote/HSI%3AINDEXHANGSENG"
+      }
+    ],
+    "report_date": "2026-06-17",
+    "style": "numeric-full",
+    "title": "Global Markets - 2026-06-17",
+    "warnings": []
+  },
+  "report_date": "2026-06-17",
+  "status": "ok",
+  "style": "numeric-full"
+}
