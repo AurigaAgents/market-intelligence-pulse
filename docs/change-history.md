@@ -30,17 +30,32 @@ Entries may be amended within the same pull request after review completes.
   `docs/review-approval-adapter.md`, `docs/project-control.md`,
   `docs/report-contract.md`, `docs/publication-policy.md`,
   `docs/legacy-migration.md`, `docs/github-pages.md`, and this file.
-- Adapter changed:
-  `.github/workflows/market-pulse-reviewer-approval.yml`.
 - Current-state reason: document the guarded review-verdict helper, milestone
   audit, transition timestamp labels, lease-based failover, deterministic agent
   replacement, completed-sentinel success semantics, current Moltbook artifact
-  contract, documentation review rule, and docs/change-history-based status gate
-  after a reviewer verdict was posted to the wrong pull request and a reviewed
-  documentation PR had no machine-visible status.
+  contract, and documentation review rule after a reviewer verdict was posted
+  to the wrong pull request.
 - Reviewers: Dione via Trinity Bus review
   `20260618-143910-nisaba-to-dione-031b3bf2`; Inanna via Trinity Bus review
-  `20260618-144420-nisaba-to-inanna-eb89980d`; Inanna adapter-gate review
-  `20260618-150958-nisaba-to-inanna-5dc67ab8`.
+  `20260618-144420-nisaba-to-inanna-eb89980d`.
+- Verdict: approve.
+- Follow-up: none.
+
+### Documentation Status Adapter
+
+- Implementation reference: PR #130 and the adapter workflow commit on this
+  branch.
+- Documents changed: `docs/market-intelligence-pulse-architecture.md`,
+  `docs/review-approval-adapter.md`, and this file.
+- Adapter changed:
+  `.github/workflows/market-pulse-reviewer-approval.yml`.
+- Current-state reason: let reviewed documentation-only and
+  documentation-governance PRs satisfy the required
+  `market-pulse/reviewer-verdict` status from the review ledger in
+  `docs/change-history.md`, without requiring an unrelated managed report
+  issue or a manual status bypass.
+- Reviewers: Inanna via Trinity Bus review
+  `20260618-150958-nisaba-to-inanna-5dc67ab8`; Dione via Trinity Bus review
+  `20260618-151604-nisaba-to-dione-9a24fc9d`.
 - Verdict: approve.
 - Follow-up: none.

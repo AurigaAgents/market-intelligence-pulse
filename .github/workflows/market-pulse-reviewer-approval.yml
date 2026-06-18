@@ -171,17 +171,38 @@ jobs:
                 base64 --decode
             )"
             [[ -n "$change_history" ]] || fail "docs/change-history.md is empty or unavailable at ${head_sha}."
-            if printf '%s\n' "$change_history" | grep -Eiq 'Reviewers?:[[:space:]]*pending|Verdict:[[:space:]]*pending'; then
-              fail "docs/change-history.md still contains a pending reviewer or verdict."
-            fi
-            if ! printf '%s\n' "$change_history" | grep -Eq "(PR|pull request)[[:space:]]*#${pr_number}\b|/pull/${pr_number}\b"; then
+            pr_history_block="$(
+              printf '%s\n' "$change_history" |
+                awk -v pr_re="(PR|pull request)[[:space:]]*#${pr_number}([^0-9]|$)|/pull/${pr_number}([^0-9]|$)" '
+                  /^### / {
+                    if (block ~ pr_re) {
+                      found = block
+                    }
+                    block = $0 ORS
+                    next
+                  }
+                  {
+                    block = block $0 ORS
+                  }
+                  END {
+                    if (block ~ pr_re) {
+                      found = block
+                    }
+                    printf "%s", found
+                  }
+                '
+            )"
+            if [[ -z "$pr_history_block" ]]; then
               fail "docs/change-history.md does not reference PR #${pr_number}."
             fi
-            if ! printf '%s\n' "$change_history" | grep -Eiq 'Reviewers?:.*(Dione|Inanna|Nisaba)'; then
-              fail "docs/change-history.md does not name a Trinity reviewer."
+            if printf '%s\n' "$pr_history_block" | grep -Eiq 'Reviewers?:[[:space:]]*pending|Verdict:[[:space:]]*pending'; then
+              fail "docs/change-history.md PR #${pr_number} entry still contains a pending reviewer or verdict."
             fi
-            if ! printf '%s\n' "$change_history" | grep -Eiq 'Verdict:[[:space:]]*approve'; then
-              fail "docs/change-history.md does not record an approve verdict."
+            if ! printf '%s\n' "$pr_history_block" | grep -Eiq 'Reviewers?:.*(Dione|Inanna|Nisaba)'; then
+              fail "docs/change-history.md PR #${pr_number} entry does not name a Trinity reviewer."
+            fi
+            if ! printf '%s\n' "$pr_history_block" | grep -Eiq 'Verdict:[[:space:]]*approve'; then
+              fail "docs/change-history.md PR #${pr_number} entry does not record an approve verdict."
             fi
 
             pr_comments_json="$(gh api "repos/${REPO}/issues/${pr_number}/comments?per_page=100")"
