@@ -1531,6 +1531,13 @@ docs-changing pull request should not merge with a pending reviewer entry unless
 the change is an emergency correction and the follow-up reviewer is explicitly
 named.
 
+Documentation-only and documentation-governance pull requests satisfy the
+required `market-pulse/reviewer-verdict` status through the review adapter's
+change-history path. That path validates that the PR changes only `docs/` files
+or the adapter workflow itself, that `docs/change-history.md` references the PR,
+that at least one Trinity reviewer approved it, and that the PR body records the
+current validation and audit proof.
+
 ## 41. Live Pilot Checklist
 
 Before relying on a new live end-to-end run:

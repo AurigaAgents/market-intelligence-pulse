@@ -30,13 +30,17 @@ Entries may be amended within the same pull request after review completes.
   `docs/review-approval-adapter.md`, `docs/project-control.md`,
   `docs/report-contract.md`, `docs/publication-policy.md`,
   `docs/legacy-migration.md`, `docs/github-pages.md`, and this file.
+- Adapter changed:
+  `.github/workflows/market-pulse-reviewer-approval.yml`.
 - Current-state reason: document the guarded review-verdict helper, milestone
   audit, transition timestamp labels, lease-based failover, deterministic agent
   replacement, completed-sentinel success semantics, current Moltbook artifact
-  contract, and documentation review rule after a reviewer verdict was posted
-  to the wrong pull request.
+  contract, documentation review rule, and docs/change-history-based status gate
+  after a reviewer verdict was posted to the wrong pull request and a reviewed
+  documentation PR had no machine-visible status.
 - Reviewers: Dione via Trinity Bus review
   `20260618-143910-nisaba-to-dione-031b3bf2`; Inanna via Trinity Bus review
-  `20260618-144420-nisaba-to-inanna-eb89980d`.
+  `20260618-144420-nisaba-to-inanna-eb89980d`; Inanna adapter-gate review
+  `20260618-150958-nisaba-to-inanna-5dc67ab8`.
 - Verdict: approve.
 - Follow-up: none.

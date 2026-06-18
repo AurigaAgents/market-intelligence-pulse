@@ -1,6 +1,6 @@
 # Review Approval Adapter
 
-Market Pulse uses agent review verdicts as the substantive review record. The workflow is the native GitHub adapter: it validates a structured, already-recorded `SPC-REVIEW-VERDICT`, writes the required `market-pulse/reviewer-verdict` commit status on the PR head SHA, and optionally mirrors the verdict into an `APPROVE` pull-request review for audit visibility.
+Market Pulse uses agent review verdicts as the substantive review record. The workflow is the native GitHub adapter: it validates a structured, already-recorded `SPC-REVIEW-VERDICT`, writes the required `market-pulse/reviewer-verdict` commit status on the PR head SHA, and optionally mirrors the verdict into an `APPROVE` pull-request review for audit visibility. Documentation-only and documentation-governance PRs use the same required status, but their review source is `docs/change-history.md`.
 
 ## App Contract
 
@@ -84,6 +84,26 @@ The workflow refuses to mark `market-pulse/reviewer-verdict` successful unless a
 - PR head SHA matches the verdict `head-sha`, or no commit is newer than the verdict;
 - status checks are empty or green, excluding the adapter's own `market-pulse/reviewer-verdict` context while it refreshes that status;
 - PR proof includes validation `status ok`, `errors []`, and privacy/no-private-path proof.
+
+For documentation-only or documentation-governance PRs that have no managed
+ledger issue, the workflow may be run manually with `pr_number`. That path does
+not accept arbitrary code changes. It requires:
+
+- changed files are under `docs/`, except that
+  `.github/workflows/market-pulse-reviewer-approval.yml` may change when the
+  adapter itself is being documented or hardened;
+- `docs/change-history.md` changed and references the PR;
+- the change-history entry has no pending reviewer or verdict;
+- the entry names at least one Trinity reviewer and records `Verdict: approve`;
+- the PR proof records `git diff --check`,
+  `market_intelligence_pulse_validate.py`, and `audit-milestone` with
+  `status: ok`;
+- no other status check is pending or failing.
+
+When those checks pass, the workflow writes the same
+`market-pulse/reviewer-verdict` success status on the PR head SHA. It does not
+create a native GitHub approval because the review evidence already lives in
+the documentation change-history ledger.
 
 The adapter does not dispatch reviewers. The local orchestrator dispatches a
 reviewer only after an owner has moved the issue to `state:review-requested`;

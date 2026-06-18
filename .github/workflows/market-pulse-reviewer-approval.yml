@@ -122,6 +122,91 @@ jobs:
               grep -Eo '[0-9]+' || true
           }
 
+          validate_docs_change_history_pr() {
+            [[ -n "$pr_number" ]] || fail "Docs change-history validation requires pr_number."
+
+            pr_json="$(gh pr view "$pr_number" --repo "$REPO" --json number,body,author,baseRefName,headRefOid,files,statusCheckRollup)"
+            pr_body="$(jq -r '.body // ""' <<< "$pr_json")"
+            pr_author="$(jq -r '.author.login // ""' <<< "$pr_json")"
+            pr_base="$(jq -r '.baseRefName // ""' <<< "$pr_json")"
+            head_sha="$(jq -r '.headRefOid // ""' <<< "$pr_json" | lower)"
+            [[ "$pr_base" == "main" ]] || fail "PR #${pr_number} does not target main."
+            [[ -n "$head_sha" ]] || fail "PR #${pr_number} has no head SHA."
+            if [[ "$pr_author" == "${REVIEWER_APP_SLUG}[bot]" ]]; then
+              fail "PR #${pr_number} was authored by the reviewer app; refusing self-approval."
+            fi
+
+            changed_files="$(jq -r '.files[].path' <<< "$pr_json")"
+            [[ -n "$changed_files" ]] || fail "PR #${pr_number} has no changed files."
+            disallowed_files="$(
+              printf '%s\n' "$changed_files" |
+                awk '$0 !~ /^docs\// && $0 != ".github/workflows/market-pulse-reviewer-approval.yml"'
+            )"
+            if [[ -n "$disallowed_files" ]]; then
+              fail "Docs change-history validation only accepts docs/ changes and the review adapter workflow. Disallowed: $(printf '%s' "$disallowed_files" | paste -sd ',' -)"
+            fi
+            if ! grep -Fxq "docs/change-history.md" <<< "$changed_files"; then
+              fail "Docs PR #${pr_number} does not update docs/change-history.md."
+            fi
+
+            blocking_checks="$(
+              jq --arg own_context "$REVIEW_STATUS_CONTEXT" '
+                [
+                  .statusCheckRollup[]?
+                  | select((.context // .name // "") != $own_context)
+                  | select(
+                      if has("state") then
+                        (.state != "SUCCESS")
+                      else
+                        ((.status != "COMPLETED") or ((.conclusion != null) and (.conclusion != "SUCCESS") and (.conclusion != "SKIPPED") and (.conclusion != "NEUTRAL")))
+                      end
+                    )
+                ] | length
+              ' <<< "$pr_json"
+            )"
+            [[ "$blocking_checks" == "0" ]] || fail "PR #${pr_number} has non-green or pending status checks."
+
+            change_history="$(
+              gh api "repos/${REPO}/contents/docs/change-history.md?ref=${head_sha}" --jq '.content' |
+                base64 --decode
+            )"
+            [[ -n "$change_history" ]] || fail "docs/change-history.md is empty or unavailable at ${head_sha}."
+            if printf '%s\n' "$change_history" | grep -Eiq 'Reviewers?:[[:space:]]*pending|Verdict:[[:space:]]*pending'; then
+              fail "docs/change-history.md still contains a pending reviewer or verdict."
+            fi
+            if ! printf '%s\n' "$change_history" | grep -Eq "(PR|pull request)[[:space:]]*#${pr_number}\b|/pull/${pr_number}\b"; then
+              fail "docs/change-history.md does not reference PR #${pr_number}."
+            fi
+            if ! printf '%s\n' "$change_history" | grep -Eiq 'Reviewers?:.*(Dione|Inanna|Nisaba)'; then
+              fail "docs/change-history.md does not name a Trinity reviewer."
+            fi
+            if ! printf '%s\n' "$change_history" | grep -Eiq 'Verdict:[[:space:]]*approve'; then
+              fail "docs/change-history.md does not record an approve verdict."
+            fi
+
+            pr_comments_json="$(gh api "repos/${REPO}/issues/${pr_number}/comments?per_page=100")"
+            pr_comments_text="$(jq -r '.[].body' <<< "$pr_comments_json")"
+            proof_text="$(printf '%s\n%s\n' "$pr_body" "$pr_comments_text")"
+            if ! printf '%s\n' "$proof_text" | grep -Fq 'git diff --check'; then
+              fail "PR #${pr_number} does not record git diff --check proof."
+            fi
+            if ! printf '%s\n' "$proof_text" | grep -Fq 'market_intelligence_pulse_validate.py'; then
+              fail "PR #${pr_number} does not record artifact validator proof."
+            fi
+            if ! printf '%s\n' "$proof_text" | grep -Eq 'audit-milestone.*status: ok|status: ok.*audit-milestone'; then
+              fail "PR #${pr_number} does not record audit-milestone status ok proof."
+            fi
+
+            echo "should_approve=false" >> "$GITHUB_OUTPUT"
+            echo "native_approval_needed=false" >> "$GITHUB_OUTPUT"
+            echo "pr_number=${pr_number}" >> "$GITHUB_OUTPUT"
+            echo "head_sha=${head_sha}" >> "$GITHUB_OUTPUT"
+            echo "dry_run=${dry_run}" >> "$GITHUB_OUTPUT"
+            write_status_outputs "success" "Docs change-history review accepted for PR #${pr_number}."
+            echo "Docs change-history review for PR #${pr_number} accepted."
+            exit 0
+          }
+
           event_verdict_body=""
           event_verdict_created_at=""
           issue_number=""
@@ -151,6 +236,10 @@ jobs:
           if [[ -n "$pr_number" && -z "$issue_number" ]]; then
             pr_probe="$(gh pr view "$pr_number" --repo "$REPO" --json body)"
             issue_number="$(derive_issue_from_pr_body "$(jq -r '.body // ""' <<< "$pr_probe")")"
+          fi
+
+          if [[ -z "$issue_number" && "$EVENT_NAME" == "workflow_dispatch" && -n "$pr_number" ]]; then
+            validate_docs_change_history_pr
           fi
 
           [[ -n "$issue_number" ]] || fail "No managed issue number was provided or derivable."
