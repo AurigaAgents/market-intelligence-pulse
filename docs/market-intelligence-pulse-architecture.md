@@ -27,9 +27,13 @@ documents, and rendered GitHub Pages output. Execution stays outside the
 repository. Runtime scripts, credentials, agent sessions, local queue state,
 private intake data, and cron configuration are not committed here.
 
-The current workflow is the first complete GitHub-ledger workflow for this
-project. Git provides version history. Document names therefore do not carry
-workflow version numbers.
+The current workflow is the complete GitHub-ledger workflow for this project.
+Project documents are living current-state documents: when the system changes,
+obsolete descriptions are removed or corrected instead of kept as parallel
+history in the architecture text. Git provides exact line history. The
+documentation review ledger in `docs/change-history.md` records the reason,
+scope, implementation reference, and reviewer for each substantive
+documentation change.
 
 ## 2. Why This Architecture Exists
 
@@ -172,9 +176,11 @@ repository.
 `$OPENCLAW_ROOT/scripts/market_intelligence_pulse_run_daily_pipeline.py`
 
 This is the re-entrant daily tick. It creates or resumes a daily milestone,
-creates missing issues, reconciles leases, creates retry issues, merges accepted
-pull requests, checks downstream artifact gates, dispatches owners and
-reviewers, and exits.
+creates missing issues, audits milestone consistency, reconciles leases, creates
+retry issues, merges accepted pull requests, refreshes `origin/main`, closes
+superseded blocked analysis issues, checks downstream artifact gates, validates
+state, dispatches owners and reviewers, audits again, evaluates completion, and
+exits.
 
 It is deliberately short-running. It does not wait for an analyst, reviewer,
 writer, publisher, or queue worker to complete. It advances whatever is ready
@@ -194,6 +200,10 @@ python3.14 $OPENCLAW_ROOT/scripts/market_intelligence_pulse_run_daily_pipeline.p
 python3.14 $OPENCLAW_ROOT/scripts/market_intelligence_pulse_run_daily_pipeline.py \
   --repo AurigaAgents/market-intelligence-pulse \
   --json validate-state --date auto
+
+python3.14 $OPENCLAW_ROOT/scripts/market_intelligence_pulse_run_daily_pipeline.py \
+  --repo AurigaAgents/market-intelligence-pulse \
+  --json audit-milestone --date auto --dry-run
 ```
 
 ### 5.2 Project Control Helper
@@ -222,7 +232,30 @@ The helper still uses the historical contract name `market-pulse-v3` internally.
 That name is a compatibility identifier for automation, not a document-version
 policy.
 
-### 5.3 Validator And Privacy Scanner
+### 5.3 Review Verdict Guard
+
+`$OPENCLAW_ROOT/scripts/market_intelligence_pulse_post_review_verdict.py`
+
+Reviewer agents use this helper in normal operation instead of posting raw
+GitHub comments. The helper verifies the managed issue, linked pull request,
+reviewer assignment, milestone, owner/reviewer separation, head SHA, and proof
+requirements before writing the canonical `SPC-REVIEW-VERDICT` to the ledger
+issue.
+
+Example:
+
+```bash
+python3.14 $OPENCLAW_ROOT/scripts/market_intelligence_pulse_post_review_verdict.py \
+  --repo AurigaAgents/market-intelligence-pulse \
+  --issue <issue-number> \
+  --pr <pr-number> \
+  --reviewer <dione|inanna|nisaba> \
+  --verdict approve \
+  --head-sha <exact-pr-head-sha> \
+  --evidence-file <review-evidence.md>
+```
+
+### 5.4 Validator And Privacy Scanner
 
 `$OPENCLAW_ROOT/scripts/market_intelligence_pulse_validate.py`
 
@@ -236,7 +269,7 @@ Runs the privacy scan wrapper for the same core validation code.
 The validator hard-fails new reports when required public artifacts or
 claim/source relations are missing.
 
-### 5.4 Page Builder
+### 5.5 Page Builder
 
 `$OPENCLAW_ROOT/scripts/market_intelligence_pulse_build_pages.py`
 
@@ -244,7 +277,7 @@ Builds static GitHub Pages output from committed report artifacts. GitHub serves
 the rendered static files. The repository does not rely on repo-local Python
 execution for page rendering.
 
-### 5.5 Report Assembler
+### 5.6 Report Assembler
 
 `$OPENCLAW_ROOT/scripts/market_intelligence_pulse_assemble_report.py`
 
@@ -252,7 +285,7 @@ Combines accepted segment artifacts into top-level daily artifacts. It remaps
 segment source IDs into a unified top-level source ledger, writes report files,
 generates publication scaffolding, and calls the Moltbook rendering bundle.
 
-### 5.6 Moltbook Renderer
+### 5.7 Moltbook Renderer
 
 `$OPENCLAW_ROOT/scripts/market_intelligence_pulse_render_moltbook.py`
 
@@ -265,7 +298,7 @@ For new numeric-full publication copies, the renderer also writes
 visible reference numbers. Historical reports produced before this renderer
 upgrade may not have that file.
 
-### 5.7 UGC Sanitizer
+### 5.8 UGC Sanitizer
 
 `$OPENCLAW_ROOT/scripts/market_intelligence_pulse_sanitize_ugc.py`
 
@@ -273,7 +306,7 @@ Sanitizes user-generated content before any Q&A issue or public metadata entry
 is created. Raw Moltbook comments are untrusted input. They are never copied
 verbatim into prompts, issues, memory, public JSON, or Telegram summaries.
 
-### 5.8 Moltbook Queue
+### 5.9 Moltbook Queue
 
 `$OPENCLAW_ROOT/scripts/moltbook_post_queue.py`
 
@@ -306,7 +339,7 @@ unverified/
 failed/
 ```
 
-### 5.9 Watchdogs And Operational Helpers
+### 5.10 Watchdogs And Operational Helpers
 
 `$OPENCLAW_ROOT/scripts/moltbook_post_queue_watchdog.py` checks queue health.
 
@@ -468,6 +501,27 @@ State labels:
 - `state:needs-decision`: a policy, source, scope, publication, or user decision
   is needed.
 
+State timestamp labels:
+
+- `since:<STATE_CODE>:<YYYYMMDDTHHMMSSZ>` records when the issue entered its
+  current state. There must be exactly one current `since:*` label on each open
+  managed issue.
+- `t:<FROM_CODE>-<TO_CODE>:<YYYYMMDDTHHMMSSZ>` records each state transition as
+  an immutable label index for fast GitHub queries.
+- State codes are `R=ready`, `A=active`, `Q=review-requested`, `V=review`,
+  `C=accepted`, `B=blocked`, `D=needs-decision`, and `X=closed` where helper
+  code needs to describe terminal close events.
+- `agent-replaced:<role>:<YYYYMMDDTHHMMSSZ>` records deterministic owner or
+  reviewer replacement after repeated expired leases. It is a diagnostic index,
+  not the primary proof of replacement.
+
+Labels are only the index. The audit trail for every transition is the
+structured `MARKET-PULSE-STATE-TRANSITION` issue comment emitted by
+`software_project_control.py`, with `from`, `to`, `actor`, `timestamp`, and
+where available `pr`, `head_sha`, `lease_token`, and `reason`.
+Agent replacement is recorded by a `MARKET-PULSE-AGENT-REPLACEMENT` comment
+with the role, old agent, new agent, timestamp, and reason.
+
 Type labels:
 
 - `type:ops`: daily control issue.
@@ -606,6 +660,17 @@ pull request still matches the accepted issue and the required status is green.
 The only normal path into `state:accepted` is a structured reviewer verdict plus
 the GitHub status adapter. Free-text "looks good" comments are not a merge gate.
 
+Reviewer verdicts must be posted through
+`$OPENCLAW_ROOT/scripts/market_intelligence_pulse_post_review_verdict.py`
+in normal operation. The helper validates the target ledger issue and linked PR
+before posting the canonical `SPC-REVIEW-VERDICT` to the issue. Raw `gh issue
+comment` and PR comments are recovery/debug tools, not the reviewer workflow.
+
+If a valid verdict is posted on a PR anyway, the milestone audit can repair only
+the unambiguous case: one linked managed issue, matching milestone, matching
+reviewer, matching PR number, and matching head SHA. Otherwise the orchestrator
+reports the inconsistency and leaves the item for decision.
+
 ## 15. Phase 0: Daily Tick Setup
 
 Each tick begins with non-content work.
@@ -617,16 +682,30 @@ flowchart TD
     C --> D[select or create Pulse milestone]
     D --> E[create control issue if missing]
     E --> F[create missing segment issues]
-    F --> G[reconcile private and public leases]
-    G --> H[create retry issues if needed]
-    H --> I[merge already accepted PRs]
-    I --> J[check downstream gates]
+    F --> G[audit milestone and repair unambiguous ledger drift]
+    G --> H[reconcile private and public leases]
+    H --> I[create retry issues if needed]
+    I --> J[merge already accepted PRs]
+    J --> K[refresh origin/main]
+    K --> L[close superseded blocked analysis issues]
+    L --> M[check downstream gates]
+    M --> N[validate state]
+    N --> O[dispatch ready owners and reviewers]
+    O --> P[audit milestone again]
+    P --> Q[evaluate completion]
 ```
 
 The helper contract test is important. The orchestrator depends on
 `software_project_control.py` for state transitions. If the helper contract
 changes incompatibly, the tick must stop rather than mutate issues using stale
 assumptions.
+
+The orchestrator runs `audit-milestone` after issue creation and before lease
+reconciliation, then again after owner and reviewer dispatch. The audit checks
+state-label cardinality, current `since:*` labels, PR-to-issue milestone
+consistency, PR-only review verdicts, artifact gate summaries, and private
+lease mappings. Automatic repair is limited to facts that can be proven from
+the ledger; ambiguous findings are surfaced as errors or warnings.
 
 ## 16. Phase 1: Segment Analysis
 
@@ -1023,6 +1102,10 @@ report artifacts, `publication.json`, and queue-derived publication metadata.
 Explicit `--date YYYY-MM-DD` commands ignore the auto-skip behavior. They remain
 available for audit and deliberate recovery.
 
+For `--date auto`, a completed sentinel no-op returns `status: complete` and a
+zero process exit code. The cron must treat this as success, not as a failed
+tick.
+
 ## 28. Retry And Cycle Rules
 
 The unattended orchestrator's automatic retry cap for analysis, assembly, and
@@ -1049,6 +1132,22 @@ Operational retry examples:
 - lease expired without delivered work.
 
 These can return the same issue to `state:ready`.
+
+Lease liveness is decided from both the public lease comments and the private
+OpenClaw worker mapping. A worker is considered no longer live when its process
+is gone and the private lease has expired, even if the log ended without a clean
+failure record. The orchestrator then expires the public lease and requeues the
+issue according to the state machine.
+
+Agent replacement is deliberately conservative:
+
+- after the first expired owner or reviewer lease, the same assigned agent may
+  be dispatched again;
+- after two expired leases for the same role on the same issue, the orchestrator
+  rotates deterministically to the next eligible Trinity agent;
+- the replacement may not make owner and reviewer identical;
+- every replacement records `MARKET-PULSE-AGENT-REPLACEMENT` and an
+  `agent-replaced:<role>:<timestamp>` label.
 
 New cycle examples:
 
@@ -1267,7 +1366,10 @@ Common failures:
 - stale market data;
 - missing PR proof;
 - reviewer block;
+- reviewer verdict posted to the pull request instead of the managed issue;
 - failed status adapter;
+- expired owner or reviewer lease;
+- repeated worker timeout requiring deterministic agent replacement;
 - merge conflict;
 - Pages render defect;
 - Moltbook byte limit exceeded;
@@ -1287,7 +1389,7 @@ Recovery principles:
   work;
 - move to `state:needs-decision` when a policy or user decision is needed;
 - never rely on local chat memory as proof;
-- document public publication anomalies in `publication.json`.
+- document public publication anomalies in `publication.json`;
 - use explicit `--date YYYY-MM-DD` for deliberate recovery when a completed
   report date must be re-audited despite its sentinel.
 
@@ -1306,6 +1408,9 @@ python3.14 $OPENCLAW_ROOT/scripts/market_intelligence_pulse_run_daily_pipeline.p
   --repo AurigaAgents/market-intelligence-pulse --json validate-state --date auto
 
 python3.14 $OPENCLAW_ROOT/scripts/market_intelligence_pulse_run_daily_pipeline.py \
+  --repo AurigaAgents/market-intelligence-pulse --json audit-milestone --date auto --dry-run
+
+python3.14 $OPENCLAW_ROOT/scripts/market_intelligence_pulse_run_daily_pipeline.py \
   --repo AurigaAgents/market-intelligence-pulse --json tick --date $REPORT_DATE \
   --dry-run --dispatch-limit 1
 
@@ -1320,6 +1425,7 @@ Human status summaries should report:
 - milestone;
 - issue counts by type and state;
 - active leases;
+- audit-milestone errors, warnings, and repairs;
 - open PRs and required status checks;
 - latest blocker;
 - segment cycle counts;
@@ -1374,9 +1480,19 @@ when there is no explicit public boundary.
 The GitHub-ledger design costs more up front, but it turns daily publication
 into a series of small, inspectable, recoverable state transitions.
 
-## 39. Review Model For This Architecture
+## 39. Review Model For Project Documents
 
-Architecture changes should be reviewed by role:
+Project documents describe the current system. They should not preserve
+obsolete architecture text inline merely because the old text once existed.
+When implementation changes make text stale, the stale text is replaced,
+deleted, or moved into a clearly marked legacy policy only if it still governs
+legacy artifacts.
+
+Every substantive documentation change requires at least one reviewer before it
+is merged. The reviewer may be an architecture, validation, data, publication,
+or operations reviewer depending on the changed surface.
+
+Architecture and documentation changes should be reviewed by role:
 
 - architecture reviewer: phase sequencing, state model, downstream gates,
   merge/publication boundaries;
@@ -1392,8 +1508,37 @@ The review should check both text and implementation alignment:
 - do skills instruct agents consistently with this document?
 - does the renderer preserve full references?
 - does the queue remain the only publication path?
+- did the author check the surrounding document for stale or improvable text
+  instead of only appending a new paragraph?
 
-## 40. Live Pilot Checklist
+## 40. Documentation Change History
+
+`docs/change-history.md` is the documentation review ledger. It exists because
+commit messages are not rich enough to explain every content change, why it was
+made, and who reviewed the documentation implications.
+
+The change history is not a substitute for current-state documentation. It
+should be short and audit-oriented:
+
+- date and implementation reference;
+- documents touched;
+- current-state reason for the change;
+- reviewer and verdict;
+- follow-up only when something remains intentionally open.
+
+Entries may be amended within the same pull request after review completes. A
+docs-changing pull request should not merge with a pending reviewer entry unless
+the change is an emergency correction and the follow-up reviewer is explicitly
+named.
+
+Documentation-only and documentation-governance pull requests satisfy the
+required `market-pulse/reviewer-verdict` status through the review adapter's
+change-history path. That path validates that the PR changes only `docs/` files
+or the adapter workflow itself, that `docs/change-history.md` references the PR,
+that at least one Trinity reviewer approved it, and that the PR body records the
+current validation and audit proof.
+
+## 41. Live Pilot Checklist
 
 Before relying on a new live end-to-end run:
 

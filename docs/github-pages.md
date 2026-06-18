@@ -1,6 +1,8 @@
 # GitHub Pages
 
-Pages are rendered locally and served from committed static files. GitHub Actions and repo-local render scripts are out of scope for the initial implementation.
+Pages are rendered locally and served from committed static files. GitHub
+Actions and repo-local render scripts are not part of the current rendering
+path.
 
 Requirements:
 

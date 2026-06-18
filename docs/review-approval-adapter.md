@@ -1,6 +1,6 @@
 # Review Approval Adapter
 
-Market Pulse uses agent review verdicts as the substantive review record. The workflow is the native GitHub adapter: it validates a structured, already-recorded `SPC-REVIEW-VERDICT`, writes the required `market-pulse/reviewer-verdict` commit status on the PR head SHA, and optionally mirrors the verdict into an `APPROVE` pull-request review for audit visibility.
+Market Pulse uses agent review verdicts as the substantive review record. The workflow is the native GitHub adapter: it validates a structured, already-recorded `SPC-REVIEW-VERDICT`, writes the required `market-pulse/reviewer-verdict` commit status on the PR head SHA, and optionally mirrors the verdict into an `APPROVE` pull-request review for audit visibility. Documentation-only and documentation-governance PRs use the same required status, but their review source is `docs/change-history.md`.
 
 ## App Contract
 
@@ -35,7 +35,29 @@ Bootstrap note: the adapter workflow is only available as default-branch automat
 
 ## Verdict Format
 
-Preferred issue comment:
+Reviewer agents must not post verdicts with raw `gh issue comment` or PR
+comments in the normal path. They should use the guarded local helper, which
+validates the managed issue, PR, reviewer, milestone, and head SHA before
+posting the verdict on the ledger issue:
+
+```bash
+python3.14 $OPENCLAW_ROOT/scripts/market_intelligence_pulse_post_review_verdict.py \
+  --repo AurigaAgents/market-intelligence-pulse \
+  --issue 111 \
+  --pr 116 \
+  --reviewer inanna \
+  --verdict approve \
+  --head-sha 83bc4b13378be85d2e1b4905aaf410b3ae4a6786 \
+  --evidence-file /path/to/review-evidence.md
+```
+
+The helper refuses to post if the issue number is a pull request, the issue is
+not `managed:market-pulse`, the issue is not in `state:review`, the reviewer
+does not match `Primary reviewer`, owner and reviewer are the same, the PR does
+not close the issue, the PR milestone differs from the issue milestone, or the
+head SHA changed. For `approve`, it also requires validation and privacy proof.
+
+Canonical issue comment:
 
 ```text
 SPC-REVIEW-VERDICT
@@ -63,10 +85,36 @@ The workflow refuses to mark `market-pulse/reviewer-verdict` successful unless a
 - status checks are empty or green, excluding the adapter's own `market-pulse/reviewer-verdict` context while it refreshes that status;
 - PR proof includes validation `status ok`, `errors []`, and privacy/no-private-path proof.
 
+For documentation-only or documentation-governance PRs that have no managed
+ledger issue, the workflow may be run manually with `pr_number`. That path does
+not accept arbitrary code changes. It requires:
+
+- changed files are under `docs/`, except that
+  `.github/workflows/market-pulse-reviewer-approval.yml` may change when the
+  adapter itself is being documented or hardened;
+- `docs/change-history.md` changed and references the PR;
+- the change-history entry has no pending reviewer or verdict;
+- the entry names at least one Trinity reviewer and records `Verdict: approve`;
+- the PR proof records `git diff --check`,
+  `market_intelligence_pulse_validate.py`, and `audit-milestone` with
+  `status: ok`;
+- no other status check is pending or failing.
+
+When those checks pass, the workflow writes the same
+`market-pulse/reviewer-verdict` success status on the PR head SHA. It does not
+create a native GitHub approval because the review evidence already lives in
+the documentation change-history ledger.
+
 The adapter does not dispatch reviewers. The local orchestrator dispatches a
 reviewer only after an owner has moved the issue to `state:review-requested`;
 the dispatch records a `MARKET-PULSE-REVIEW-LEASE` comment and moves the issue
 to `state:review`.
+
+The orchestrator also runs a milestone audit before and after dispatch. If a
+reviewer accidentally posted a valid `SPC-REVIEW-VERDICT` on the PR instead of
+the issue, the audit may mirror it to the managed issue only when issue, PR,
+reviewer, and head SHA match uniquely. Ambiguous cases stay visible as audit
+errors and require a decision instead of silent repair.
 
 When validation fails after the PR head SHA is known, the workflow writes `market-pulse/reviewer-verdict: failure` so a stale success on the same SHA is overwritten. If a matching `market-pulse-reviewer[bot]` approval already exists for the current head SHA, the workflow refreshes the commit status but skips creating a duplicate approval review.
 
