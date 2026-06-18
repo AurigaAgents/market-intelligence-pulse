@@ -468,6 +468,21 @@ State labels:
 - `state:needs-decision`: a policy, source, scope, publication, or user decision
   is needed.
 
+State timestamp labels:
+
+- `since:<STATE_CODE>:<YYYYMMDDTHHMMSSZ>` records when the issue entered its
+  current state. There must be exactly one current `since:*` label on an open
+  managed issue once the hardening is active.
+- `t:<FROM_CODE>-<TO_CODE>:<YYYYMMDDTHHMMSSZ>` records each state transition as
+  an immutable label index for fast GitHub queries.
+- State codes are `R=ready`, `A=active`, `Q=review-requested`, `V=review`,
+  `C=accepted`, `B=blocked`, and `D=needs-decision`.
+
+Labels are only the index. The audit trail for every transition is the
+structured `MARKET-PULSE-STATE-TRANSITION` issue comment emitted by
+`software_project_control.py`, with `from`, `to`, `actor`, `timestamp`, and
+where available `pr`, `head_sha`, `lease_token`, and `reason`.
+
 Type labels:
 
 - `type:ops`: daily control issue.
@@ -606,6 +621,17 @@ pull request still matches the accepted issue and the required status is green.
 The only normal path into `state:accepted` is a structured reviewer verdict plus
 the GitHub status adapter. Free-text "looks good" comments are not a merge gate.
 
+Reviewer verdicts must be posted through
+`/Users/u2ai/OpenClaw/scripts/market_intelligence_pulse_post_review_verdict.py`
+in normal operation. The helper validates the target ledger issue and linked PR
+before posting the canonical `SPC-REVIEW-VERDICT` to the issue. Raw `gh issue
+comment` and PR comments are recovery/debug tools, not the reviewer workflow.
+
+If a valid verdict is posted on a PR anyway, the milestone audit can repair only
+the unambiguous case: one linked managed issue, matching milestone, matching
+reviewer, matching PR number, and matching head SHA. Otherwise the orchestrator
+reports the inconsistency and leaves the item for decision.
+
 ## 15. Phase 0: Daily Tick Setup
 
 Each tick begins with non-content work.
@@ -618,15 +644,23 @@ flowchart TD
     D --> E[create control issue if missing]
     E --> F[create missing segment issues]
     F --> G[reconcile private and public leases]
-    G --> H[create retry issues if needed]
-    H --> I[merge already accepted PRs]
-    I --> J[check downstream gates]
+    G --> H[audit milestone and repair unambiguous ledger drift]
+    H --> I[create retry issues if needed]
+    I --> J[merge already accepted PRs]
+    J --> K[check downstream gates]
 ```
 
 The helper contract test is important. The orchestrator depends on
 `software_project_control.py` for state transitions. If the helper contract
 changes incompatibly, the tick must stop rather than mutate issues using stale
 assumptions.
+
+The orchestrator runs `audit-milestone` before lease reconciliation and again
+after dispatch. The audit checks state-label cardinality, current `since:*`
+labels, PR-to-issue milestone consistency, PR-only review verdicts, artifact
+gate summaries, and private lease mappings. Automatic repair is limited to
+facts that can be proven from the ledger; ambiguous findings are surfaced as
+errors or warnings.
 
 ## 16. Phase 1: Segment Analysis
 
@@ -1023,6 +1057,10 @@ report artifacts, `publication.json`, and queue-derived publication metadata.
 Explicit `--date YYYY-MM-DD` commands ignore the auto-skip behavior. They remain
 available for audit and deliberate recovery.
 
+For `--date auto`, a completed sentinel no-op returns `status: complete` and a
+zero process exit code. The cron must treat this as success, not as a failed
+tick.
+
 ## 28. Retry And Cycle Rules
 
 The unattended orchestrator's automatic retry cap for analysis, assembly, and
@@ -1049,6 +1087,22 @@ Operational retry examples:
 - lease expired without delivered work.
 
 These can return the same issue to `state:ready`.
+
+Lease liveness is decided from both the public lease comments and the private
+OpenClaw worker mapping. A worker is considered no longer live when its process
+is gone and the private lease has expired, even if the log ended without a clean
+failure record. The orchestrator then expires the public lease and requeues the
+issue according to the state machine.
+
+Agent replacement is deliberately conservative:
+
+- after the first expired owner or reviewer lease, the same assigned agent may
+  be dispatched again;
+- after two expired leases for the same role on the same issue, the orchestrator
+  rotates deterministically to the next eligible Trinity agent;
+- the replacement may not make owner and reviewer identical;
+- every replacement records `MARKET-PULSE-AGENT-REPLACEMENT` and an
+  `agent-replaced:<role>:<timestamp>` label.
 
 New cycle examples:
 
