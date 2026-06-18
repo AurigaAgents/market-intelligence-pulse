@@ -1,0 +1,75 @@
+- id: "S-2026-06-17-201"
+  publisher: "Federal Reserve"
+  title: "Federal Reserve issues FOMC statement"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  accessed_at: "2026-06-18T00:08:15Z"
+  published_at: "2026-06-17"
+  source_type: "government_press_release"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "stable_government_press_release"
+- id: "S-2026-06-17-202"
+  publisher: "Associated Press"
+  title: "US stocks sink on worries about a possible hike to interest rates this year by the Federal Reserve"
+  url: "https://www.expressnews.com/news/world/article/shares-are-mixed-and-oil-trades-below-80-on-22308930.php"
+  canonical_url: "https://www.expressnews.com/news/world/article/shares-are-mixed-and-oil-trades-below-80-on-22308930.php"
+  accessed_at: "2026-06-18T00:08:43Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-203"
+  publisher: "Barron's"
+  title: "Stock Market Today: Dow Falls After Fed Meeting"
+  url: "https://www.barrons.com/livecoverage/stock-market-news-today-061726"
+  canonical_url: "https://www.barrons.com/livecoverage/stock-market-news-today-061726"
+  accessed_at: "2026-06-18T00:09:00Z"
+  published_at: "2026-06-17"
+  source_type: "news_liveblog"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: true
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "paywalled_live_coverage_page"
+- id: "S-2026-06-17-204"
+  publisher: "Yahoo Finance"
+  title: "Cboe Volatility Index (^VIX) and Russell 2000 (^RUT) index quotes"
+  url: "https://finance.yahoo.com/quote/%5EVIX/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX/"
+  accessed_at: "2026-06-18T00:10:00Z"
+  published_at: "2026-06-17"
+  source_type: "market_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_quote_page"
+- id: "S-2026-06-17-205"
+  publisher: "Reuters"
+  title: "Wall Street sinks on bets Fed will hike rates this year"
+  url: "https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17/"
+  canonical_url: "https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17/"
+  accessed_at: "2026-06-18T00:10:30Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
