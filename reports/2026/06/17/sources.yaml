@@ -1,0 +1,384 @@
+- id: "S-2026-06-17-001"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Wednesday 6/17/2026"
+  url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70"
+  canonical_url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70"
+  accessed_at: "2026-06-17T23:37:09Z"
+  published_at: "2026-06-17T20:16:52Z"
+  source_type: "news_article"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public AP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-002"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Federal Reserve issues FOMC statement"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  accessed_at: "2026-06-17T23:37:09Z"
+  published_at: "2026-06-17T14:00:00-04:00"
+  source_type: "official_central_bank_statement"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve HTML statement accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-003"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "June 17, 2026: FOMC Projections materials, accessible version"
+  url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  canonical_url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  accessed_at: "2026-06-17T23:37:09Z"
+  published_at: "2026-06-17T14:00:00-04:00"
+  source_type: "official_central_bank_projection_material"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve accessible SEP HTML page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-004"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Implementation Note issued June 17, 2026"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm"
+  accessed_at: "2026-06-17T23:37:09Z"
+  published_at: "2026-06-17T14:00:00-04:00"
+  source_type: "official_central_bank_implementation_note"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve implementation note accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-401"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU50 / Euro STOXX 50)"
+  url: "https://tradingeconomics.com/euro-area/stock-market"
+  canonical_url: "https://tradingeconomics.com/euro-area/stock-market"
+  accessed_at: "2026-06-17T22:39:22+00:00"
+  published_at: "2026-06-17"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
+- id: "S-2026-06-17-402"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DE40 / DAX)"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-17T22:39:22+00:00"
+  published_at: "2026-06-17"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
+- id: "S-2026-06-17-403"
+  publisher: "Trading Economics"
+  title: "France Stock Market Index (FR40 / CAC 40)"
+  url: "https://tradingeconomics.com/france/stock-market"
+  canonical_url: "https://tradingeconomics.com/france/stock-market"
+  accessed_at: "2026-06-17T22:39:23+00:00"
+  published_at: "2026-06-17"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
+- id: "S-2026-06-17-404"
+  publisher: "Trading Economics"
+  title: "United Kingdom Stock Market Index (GB100 / FTSE 100)"
+  url: "https://tradingeconomics.com/united-kingdom/stock-market"
+  canonical_url: "https://tradingeconomics.com/united-kingdom/stock-market"
+  accessed_at: "2026-06-17T22:39:23+00:00"
+  published_at: "2026-06-17"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+- id: "S-2026-06-17-405"
+  publisher: "Yahoo Finance"
+  title: "STXE 600 I (^STOXX) Quote - STOXX Europe 600 close and day range"
+  url: "https://finance.yahoo.com/quote/%5ESTOXX/"
+  canonical_url: "https://finance.yahoo.com/quote/%5ESTOXX/"
+  accessed_at: "2026-06-17T22:42:00+00:00"
+  published_at: "2026-06-17"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
+- id: "S-2026-06-17-406"
+  publisher: "Reuters"
+  title: "European shares end higher as markets await Iran deal details, Fed policy; BMW slides"
+  url: "https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html"
+  canonical_url: "https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html"
+  accessed_at: "2026-06-17T22:44:00+00:00"
+  published_at: "2026-06-17T12:18:00-04:00"
+  source_type: "news"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "primary_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-201"
+  publisher: "Nikkei Indexes"
+  title: "Nikkei Stock Average (Nikkei 225)"
+  url: "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+  canonical_url: "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+  accessed_at: "2026-06-17T23:53:03Z"
+  source_type: "official_index_page"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_index_provider"
+  archive:
+    stored: false
+    reason: "Official Nikkei Indexes HTML page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-202"
+  publisher: "CHOSUNBIZ"
+  title: "Korea stocks surge as SK hynix powers KOSPI to record; KOSDAQ climbs"
+  url: "https://biz.chosun.com/en/en-finance/2026/06/17/IW6M3SYBCNACPPFDCGB3KEO6U4/?outputType=amp"
+  canonical_url: "https://biz.chosun.com/en/en-finance/2026/06/17/IW6M3SYBCNACPPFDCGB3KEO6U4/"
+  accessed_at: "2026-06-17T23:53:03Z"
+  published_at: "2026-06-17"
+  source_type: "news_article_market_report"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public AMP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-203"
+  publisher: "Investing.com"
+  title: "Shanghai Composite Historical Data"
+  url: "https://www.investing.com/indices/shanghai-composite-historical-data"
+  canonical_url: "https://www.investing.com/indices/shanghai-composite-historical-data"
+  accessed_at: "2026-06-17T23:53:03Z"
+  source_type: "market_data_historical_table"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Public historical-data table accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-204"
+  publisher: "Google Finance"
+  title: "Hang Seng Index Price, Real-time Quote & News"
+  url: "https://www.google.com/finance/beta/quote/HSI%3AINDEXHANGSENG"
+  canonical_url: "https://www.google.com/finance/beta/quote/HSI%3AINDEXHANGSENG"
+  accessed_at: "2026-06-17T23:53:03Z"
+  source_type: "market_data_quote_page"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Public Google Finance quote page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-601"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  accessed_at: "2026-06-17T23:09:00Z"
+  published_at: "2026-06-17"
+  source_type: "government_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "dynamic_government_table"
+- id: "S-2026-06-17-602"
+  publisher: "CNBC"
+  title: "2-year Treasury yield rockets higher as many Fed officials signal possible hike this year"
+  url: "https://www.cnbc.com/2026/06/17/treasury-yields-investors-await-warsh-fed-decision.html"
+  canonical_url: "https://www.cnbc.com/2026/06/17/treasury-yields-investors-await-warsh-fed-decision.html"
+  accessed_at: "2026-06-17T23:09:28Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-603"
+  publisher: "Reuters"
+  title: "Wall Street sinks on bets Fed will hike rates this year"
+  url: "https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17/"
+  canonical_url: "https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17/"
+  accessed_at: "2026-06-17T23:10:53Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-604"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Wednesday 6/17/2026"
+  url: "https://www.ctpost.com/business/article/how-major-us-stock-indexes-fared-wednesday-22310038.php"
+  canonical_url: "https://www.ctpost.com/business/article/how-major-us-stock-indexes-fared-wednesday-22310038.php"
+  accessed_at: "2026-06-17T23:09:29Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-605"
+  publisher: "Reuters"
+  title: "Instant View: Fed holds steady in Warsh's debut, but hawkish shift fuels bond-market rout"
+  url: "https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17/"
+  canonical_url: "https://www.reuters.com/business/view-fed-holds-steady-warshs-debut-analysts-see-hawkish-shift-2026-06-17/"
+  accessed_at: "2026-06-17T23:10:55Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-606"
+  publisher: "Reuters"
+  title: "Strong US retail sales showcase economy's resilience despite Iran war"
+  url: "https://www.reuters.com/business/retail-consumer/us-retail-sales-beat-expectations-may-2026-06-17/"
+  canonical_url: "https://www.reuters.com/business/retail-consumer/us-retail-sales-beat-expectations-may-2026-06-17/"
+  accessed_at: "2026-06-17T23:12:28Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-607"
+  publisher: "Trading Economics"
+  title: "Crude Oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/crude-oil"
+  accessed_at: "2026-06-17T23:08:00Z"
+  published_at: "2026-06-17"
+  source_type: "market_data"
+  retrieval_method: "search"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_quote_page"
+- id: "S-2026-06-17-701"
+  publisher: "Federal Reserve"
+  title: "Federal Reserve issues FOMC statement"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  accessed_at: "2026-06-18T00:08:15Z"
+  published_at: "2026-06-17"
+  source_type: "government_press_release"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "stable_government_press_release"
+- id: "S-2026-06-17-702"
+  publisher: "Associated Press"
+  title: "US stocks sink on worries about a possible hike to interest rates this year by the Federal Reserve"
+  url: "https://www.expressnews.com/news/world/article/shares-are-mixed-and-oil-trades-below-80-on-22308930.php"
+  canonical_url: "https://www.expressnews.com/news/world/article/shares-are-mixed-and-oil-trades-below-80-on-22308930.php"
+  accessed_at: "2026-06-18T00:08:43Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-17-703"
+  publisher: "Barron's"
+  title: "Stock Market Today: Dow Falls After Fed Meeting"
+  url: "https://www.barrons.com/livecoverage/stock-market-news-today-061726"
+  canonical_url: "https://www.barrons.com/livecoverage/stock-market-news-today-061726"
+  accessed_at: "2026-06-18T00:09:00Z"
+  published_at: "2026-06-17"
+  source_type: "news_liveblog"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: true
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "paywalled_live_coverage_page"
+- id: "S-2026-06-17-704"
+  publisher: "Yahoo Finance"
+  title: "Cboe Volatility Index (^VIX) and Russell 2000 (^RUT) index quotes"
+  url: "https://finance.yahoo.com/quote/%5EVIX/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX/"
+  accessed_at: "2026-06-18T00:10:00Z"
+  published_at: "2026-06-17"
+  source_type: "market_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_quote_page"
+- id: "S-2026-06-17-705"
+  publisher: "Reuters"
+  title: "Wall Street sinks on bets Fed will hike rates this year"
+  url: "https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17/"
+  canonical_url: "https://www.reuters.com/business/sp-nasdaq-futures-inch-up-ahead-warshs-debut-2026-06-17/"
+  accessed_at: "2026-06-18T00:10:30Z"
+  published_at: "2026-06-17"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
