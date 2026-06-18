@@ -1,0 +1,87 @@
+- id: S-2026-06-17-001
+  publisher: Trading Economics
+  title: Euro Area Stock Market Index (EU50 / Euro STOXX 50)
+  url: https://tradingeconomics.com/euro-area/stock-market
+  canonical_url: https://tradingeconomics.com/euro-area/stock-market
+  accessed_at: "2026-06-17T22:39:22+00:00"
+  published_at: "2026-06-17"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_data_page
+- id: S-2026-06-17-002
+  publisher: Trading Economics
+  title: Germany Stock Market Index (DE40 / DAX)
+  url: https://tradingeconomics.com/germany/stock-market
+  canonical_url: https://tradingeconomics.com/germany/stock-market
+  accessed_at: "2026-06-17T22:39:22+00:00"
+  published_at: "2026-06-17"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_data_page
+- id: S-2026-06-17-003
+  publisher: Trading Economics
+  title: France Stock Market Index (FR40 / CAC 40)
+  url: https://tradingeconomics.com/france/stock-market
+  canonical_url: https://tradingeconomics.com/france/stock-market
+  accessed_at: "2026-06-17T22:39:23+00:00"
+  published_at: "2026-06-17"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_data_page
+- id: S-2026-06-17-004
+  publisher: Trading Economics
+  title: United Kingdom Stock Market Index (GB100 / FTSE 100)
+  url: https://tradingeconomics.com/united-kingdom/stock-market
+  canonical_url: https://tradingeconomics.com/united-kingdom/stock-market
+  accessed_at: "2026-06-17T22:39:23+00:00"
+  published_at: "2026-06-17"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+- id: S-2026-06-17-005
+  publisher: Yahoo Finance
+  title: STXE 600 I (^STOXX) Quote - STOXX Europe 600 close and day range
+  url: https://finance.yahoo.com/quote/%5ESTOXX/
+  canonical_url: https://finance.yahoo.com/quote/%5ESTOXX/
+  accessed_at: "2026-06-17T22:42:00+00:00"
+  published_at: "2026-06-17"
+  source_type: market_data
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: live_data_page
+- id: S-2026-06-17-006
+  publisher: Reuters
+  title: "European shares end higher as markets await Iran deal details, Fed policy; BMW slides"
+  url: https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html
+  canonical_url: https://finance.yahoo.com/markets/stocks/articles/european-shares-flat-investors-await-072556591.html
+  accessed_at: "2026-06-17T22:44:00+00:00"
+  published_at: "2026-06-17T12:18:00-04:00"
+  source_type: news
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: primary_news
+  archive:
+    stored: false
+    reason: copyright_or_dynamic_page
