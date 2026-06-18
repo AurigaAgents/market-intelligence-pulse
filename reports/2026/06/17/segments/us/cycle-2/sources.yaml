@@ -1,0 +1,60 @@
+- id: "S-2026-06-17-0001"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Wednesday 6/17/2026"
+  url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70"
+  canonical_url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-c5c1c0551c4fae25ef2c6bda73638e70"
+  accessed_at: "2026-06-17T23:37:09Z"
+  published_at: "2026-06-17T20:16:52Z"
+  source_type: "news_article"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public AP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-0002"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Federal Reserve issues FOMC statement"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  accessed_at: "2026-06-17T23:37:09Z"
+  published_at: "2026-06-17T14:00:00-04:00"
+  source_type: "official_central_bank_statement"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve HTML statement accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-0003"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "June 17, 2026: FOMC Projections materials, accessible version"
+  url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  canonical_url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  accessed_at: "2026-06-17T23:37:09Z"
+  published_at: "2026-06-17T14:00:00-04:00"
+  source_type: "official_central_bank_projection_material"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve accessible SEP HTML page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-17-0004"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Implementation Note issued June 17, 2026"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm"
+  accessed_at: "2026-06-17T23:37:09Z"
+  published_at: "2026-06-17T14:00:00-04:00"
+  source_type: "official_central_bank_implementation_note"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve implementation note accessed live; no archive artifact committed for this cycle."
