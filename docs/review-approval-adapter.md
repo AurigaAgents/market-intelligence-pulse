@@ -41,7 +41,7 @@ validates the managed issue, PR, reviewer, milestone, and head SHA before
 posting the verdict on the ledger issue:
 
 ```bash
-python3.14 /Users/u2ai/OpenClaw/scripts/market_intelligence_pulse_post_review_verdict.py \
+python3.14 $OPENCLAW_ROOT/scripts/market_intelligence_pulse_post_review_verdict.py \
   --repo AurigaAgents/market-intelligence-pulse \
   --issue 111 \
   --pr 116 \

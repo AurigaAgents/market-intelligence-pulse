@@ -1,6 +1,8 @@
 # Legacy Migration
 
-M0 imports eligible legacy market reports into the public report layout while preserving their weaker provenance status.
+Legacy migration records the already-imported pre-ledger market reports and
+their weaker provenance status. It does not define the contract for new daily
+runs.
 
 Expected source range:
 
@@ -11,6 +13,11 @@ Expected source range:
 - `legacy-partial-run` directories: 9;
 - `legacy-engagement-only` directories: 4.
 
-Legacy reports are public only when they can be represented safely without private runtime data. Partial-run and engagement-only records are summarized here unless a later explicit decision creates a separate archival treatment.
+Legacy reports are public only when they can be represented safely without
+private runtime data. Partial-run and engagement-only records remain out of the
+normal report contract unless a later explicit decision creates a separate
+archival treatment.
 
-Local import scripts and proof files live under ignored `tmp/legacy-import-YYYYMMDD/` during M0 and are removed after successful verification.
+Local import scripts and proof files lived under ignored
+`tmp/legacy-import-YYYYMMDD/` during M0 and were removed after successful
+verification. They are not part of the active pipeline.
