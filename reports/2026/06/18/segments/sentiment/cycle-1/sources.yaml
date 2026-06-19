@@ -1,0 +1,75 @@
+- id: "S-2026-06-18-301"
+  publisher: "Reuters"
+  title: "Wall St indexes advance with boost from chips, Iran optimism"
+  url: "https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18/"
+  canonical_url: "https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18/"
+  accessed_at: "2026-06-19T03:52:14Z"
+  published_at: "2026-06-18"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-18-302"
+  publisher: "TheStreet"
+  title: "Stock Market Today (June 18, 2026): Russell 2000, Nasdaq rise after Fed surprise, U.S. ends Iran blockade"
+  url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026"
+  canonical_url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026"
+  accessed_at: "2026-06-19T03:52:14Z"
+  published_at: "2026-06-18"
+  source_type: "news_liveblog"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "dynamic_liveblog_page"
+- id: "S-2026-06-18-303"
+  publisher: "CNN"
+  title: "Fear and Greed Index - Investor Sentiment"
+  url: "https://www.cnn.com/markets/fear-and-greed"
+  canonical_url: "https://edition.cnn.com/markets/fear-and-greed"
+  accessed_at: "2026-06-19T03:52:49Z"
+  published_at: "2026-06-18"
+  source_type: "sentiment_indicator"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_sentiment_dashboard"
+- id: "S-2026-06-18-304"
+  publisher: "Yahoo Finance"
+  title: "S&P 500 (^GSPC), Nasdaq Composite (^IXIC), and Cboe Volatility Index (^VIX) index quotes"
+  url: "https://finance.yahoo.com/quote/%5EGSPC/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EGSPC/"
+  accessed_at: "2026-06-19T03:52:01Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_quote_page"
+- id: "S-2026-06-18-305"
+  publisher: "Advisor Perspectives"
+  title: "Treasury Yields Snapshot: June 18, 2026"
+  url: "https://www.advisorperspectives.com/dshort/updates/2026/06/18/treasury-yields-snapshot-june-18-2026"
+  canonical_url: "https://www.advisorperspectives.com/dshort/updates/2026/06/18/treasury-yields-snapshot-june-18-2026"
+  accessed_at: "2026-06-19T03:52:49Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_data_provider"
+  archive:
+    stored: false
+    reason: "stable_data_snapshot"
