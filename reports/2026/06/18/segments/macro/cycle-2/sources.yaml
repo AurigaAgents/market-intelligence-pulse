@@ -1,0 +1,120 @@
+- id: "S-2026-06-18-601"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18"
+  source_type: "government_data"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Dynamic government table accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-602"
+  publisher: "Federal Reserve Board"
+  title: "Federal Reserve issues FOMC statement"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-17"
+  source_type: "central_bank_statement"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_source"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve HTML page accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-603"
+  publisher: "Federal Reserve Board"
+  title: "June 17, 2026: FOMC Projections materials, accessible version"
+  url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  canonical_url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-17"
+  source_type: "central_bank_projection_materials"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_source"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve HTML projection materials accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-604"
+  publisher: "Bank of England"
+  title: "Bank Rate maintained at 3.75% - June 2026 Monetary Policy Summary and Minutes"
+  url: "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+  canonical_url: "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18"
+  source_type: "central_bank_minutes"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_source"
+  archive:
+    stored: false
+    reason: "Official Bank of England HTML minutes accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-605"
+  publisher: "Swiss National Bank"
+  title: "Monetary policy assessment of 18 June 2026"
+  url: "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618"
+  canonical_url: "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18"
+  source_type: "central_bank_statement"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_source"
+  archive:
+    stored: false
+    reason: "Official Swiss National Bank HTML press release accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-606"
+  publisher: "U.S. Department of Labor"
+  title: "Unemployment Insurance Weekly Claims, June 18, 2026"
+  url: "https://www.dol.gov/ui/data.pdf"
+  canonical_url: "https://www.dol.gov/ui/data.pdf"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18T08:30:00-04:00"
+  source_type: "government_data_pdf"
+  retrieval_method: "web_search_and_live_public_pdf"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Current weekly PDF endpoint accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-607"
+  publisher: "Trading Economics"
+  title: "United States Dollar - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/currency"
+  canonical_url: "https://tradingeconomics.com/united-states/currency"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18"
+  source_type: "market_data_quote_page_and_news_stream"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Live market-data page accessed after the June 18 item; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-608"
+  publisher: "DTN Progressive Farmer"
+  title: "WTI Hits $73 as US-Iran Deal Eases Supply Worries"
+  url: "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/06/18/wti-hits-73-us-iran-deal-eases"
+  canonical_url: "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/06/18/wti-hits-73-us-iran-deal-eases"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18"
+  source_type: "news_article_market_report"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Public market article accessed live; no archive artifact committed for this segment cycle."
