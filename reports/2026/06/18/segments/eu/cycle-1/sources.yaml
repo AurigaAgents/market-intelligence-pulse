@@ -1,0 +1,90 @@
+- id: "S-2026-06-18-0001"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU50) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/euro-area/stock-market"
+  canonical_url: "https://tradingeconomics.com/euro-area/stock-market"
+  accessed_at: "2026-06-19T02:54:30Z"
+  published_at: "2026-06-18T15:30:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics Euro Area (EU50 / Euro STOXX 50) index page accessed live; values anchored to the dated June 18 daily-summary close and cross-checked against the 2026-06-17 prior close. No archive artifact committed for this cycle."
+- id: "S-2026-06-18-0002"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DE40) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-19T02:54:35Z"
+  published_at: "2026-06-18T15:30:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics Germany (DE40 / DAX) index page accessed live; DAX close 25,038.80 confirmed against the Actual/Previous table (previous 24,934.67). No archive artifact committed for this cycle."
+- id: "S-2026-06-18-0003"
+  publisher: "Trading Economics"
+  title: "France Stock Market Index (FR40) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/france/stock-market"
+  canonical_url: "https://tradingeconomics.com/france/stock-market"
+  accessed_at: "2026-06-19T02:56:10Z"
+  published_at: "2026-06-18T15:30:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics France (FR40 / CAC 40) index page accessed live; CAC 40 close 8,467.98 (+37.19) cross-checked against the 2026-06-17 prior close 8,430.79, with single-stock detail from the components table. No archive artifact committed for this cycle."
+- id: "S-2026-06-18-0004"
+  publisher: "Trading Economics"
+  title: "United Kingdom Stock Market Index (GB100) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-kingdom/stock-market"
+  canonical_url: "https://tradingeconomics.com/united-kingdom/stock-market"
+  accessed_at: "2026-06-19T02:56:15Z"
+  published_at: "2026-06-18T15:30:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics United Kingdom (GB100 / FTSE 100) index page accessed live; FTSE 100 close 10,399.70 (-108.91) cross-checked against the 2026-06-17 prior close 10,508.61, plus the Bank of England 7-2 hold and single-stock detail. No archive artifact committed for this cycle."
+- id: "S-2026-06-18-0005"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU600) - Index Price | Live Quote | Historical Chart"
+  url: "https://tradingeconomics.com/stoxx:ind"
+  canonical_url: "https://tradingeconomics.com/stoxx:ind"
+  accessed_at: "2026-06-19T02:56:20Z"
+  published_at: "2026-06-19T00:00:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics STOXX Europe 600 (EU600) live-quote page accessed live; quote 637.14 carried flat (0.00%) into the June 19 pre-market, corroborating the ~637 June 18 close level and single-stock detail for Roche and Novartis. No archive artifact committed for this cycle."
+- id: "S-2026-06-18-0006"
+  publisher: "Reuters"
+  title: "European shares retreat as markets mull hawkish US Federal Reserve"
+  url: "https://www.reuters.com/markets/europe/european-shares-subdued-fed-rate-hike-bets-2026-06-18/"
+  canonical_url: "https://www.reuters.com/markets/europe/european-shares-subdued-fed-rate-hike-bets-2026-06-18/"
+  accessed_at: "2026-06-19T02:58:05Z"
+  published_at: "2026-06-18"
+  source_type: "news_wire_market_summary"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Reuters European-close wrap (by Utkarsh Hathi, Johann M Cherian and Shashwat Chauhan) accessed live; the authoritative source for the STOXX 600 -0.3% close, the five-day-streak snap, the sector scoreboard, the Bank of England hold, the Fed/Warsh framing and the Edenred and IT-services single-stock moves. No archive artifact committed for this cycle."
