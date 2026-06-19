@@ -1,0 +1,489 @@
+- id: "S-2026-06-18-001"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Thursday 6/18/2026"
+  url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+  canonical_url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+  accessed_at: "2026-06-19T09:22:19Z"
+  published_at: "2026-06-18T20:26:30Z"
+  source_type: "news_article"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Public AP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-002"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  accessed_at: "2026-06-19T09:22:19Z"
+  source_type: "official_market_data"
+  retrieval_method: "live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_government_data"
+  archive:
+    stored: false
+    reason: "Official Treasury table accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-003"
+  publisher: "Associated Press"
+  title: "World shares are mixed after a tech-led rally on Wall Street"
+  url: "https://apnews.com/article/stocks-markets-rates-iran-oil-24b4d022fb308e6336ac45a2b191c009"
+  canonical_url: "https://apnews.com/article/stocks-markets-rates-iran-oil-24b4d022fb308e6336ac45a2b191c009"
+  accessed_at: "2026-06-19T09:22:19Z"
+  source_type: "news_article"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Public AP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-004"
+  publisher: "Associated Press"
+  title: "US and Iran sign initial deal to end war, ease sanctions and open Strait of Hormuz"
+  url: "https://apnews.com/article/iran-us-israel-war-oil-deal-june-17-2026-19652f4611b704c0a991bf1f5bc9a4b9"
+  canonical_url: "https://apnews.com/article/iran-us-israel-war-oil-deal-june-17-2026-19652f4611b704c0a991bf1f5bc9a4b9"
+  accessed_at: "2026-06-19T09:22:19Z"
+  source_type: "news_article"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Public AP article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-005"
+  publisher: "Board of Governors of the Federal Reserve System"
+  title: "Federal Reserve issues FOMC statement"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  accessed_at: "2026-06-19T09:22:19Z"
+  published_at: "2026-06-17T14:00:00-04:00"
+  source_type: "official_central_bank_statement"
+  retrieval_method: "live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve HTML statement accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-006"
+  publisher: "New York Stock Exchange"
+  title: "Holidays and Trading Hours"
+  url: "https://www.nyse.com/trade/hours-calendars"
+  canonical_url: "https://www.nyse.com/trade/hours-calendars"
+  accessed_at: "2026-06-19T09:22:19Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "Official NYSE holiday calendar accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-007"
+  publisher: "Nasdaq Trader"
+  title: "Trading Calendar"
+  url: "https://www.nasdaqtrader.com/trader.aspx?id=Calendar"
+  canonical_url: "https://www.nasdaqtrader.com/trader.aspx?id=Calendar"
+  accessed_at: "2026-06-19T09:22:19Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "Official Nasdaq Trader calendar accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-401"
+  publisher: "Yahoo Finance"
+  title: "STXE 600 I (^STOXX) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5ESTOXX/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5ESTOXX/history/"
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Yahoo Finance historical table accessed for the June 18 STOXX Europe 600 row; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-402"
+  publisher: "Yahoo Finance"
+  title: "EURO STOXX 50 I (^STOXX50E) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5ESTOXX50E/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5ESTOXX50E/history/"
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Yahoo Finance historical table accessed for the June 18 EURO STOXX 50 row; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-403"
+  publisher: "ADVFN"
+  title: "DAX More Historical Data - DAX Historical Prices"
+  url: "https://www.advfn.com/stock-market/DBI/DAX/historical/more-historical-data"
+  canonical_url: "https://www.advfn.com/stock-market/DBI/DAX/historical/more-historical-data"
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Public ADVFN historical table accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-404"
+  publisher: "Yahoo Finance"
+  title: "CAC 40 (^FCHI) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EFCHI/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EFCHI/history/"
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Yahoo Finance historical table accessed for the June 18 CAC 40 row; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-405"
+  publisher: "Investors Chronicle"
+  title: "FTSE 100 Index historical prices"
+  url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  canonical_url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Public Investors Chronicle/LSEG historical table accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-406"
+  publisher: "DPA via Yahoo Finance"
+  title: "European markets close broadly lower on interest rate concerns"
+  url: "https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html"
+  canonical_url: "https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html"
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18T20:26:00+01:00"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "newswire_syndication"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance syndication accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-407"
+  publisher: "Bank of England"
+  title: "Bank Rate maintained at 3.75% - June 2026 Monetary Policy Summary and Minutes"
+  url: "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+  canonical_url: "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: "official_central_bank_statement"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_central_bank"
+  archive:
+    stored: false
+    reason: "Official Bank of England HTML statement accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-201"
+  publisher: "Nikkei Indexes"
+  title: "Daily Summary - Nikkei Stock Average (Nikkei 225), Thu, Jun 18, 2026"
+  url: "https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06182026&idx=nk225"
+  canonical_url: "https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06182026&idx=nk225"
+  accessed_at: "2026-06-19T09:40:03Z"
+  published_at: "2026-06-18"
+  source_type: "official_index_daily_summary"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_index_provider"
+  archive:
+    stored: false
+    reason: "Official Nikkei Indexes HTML page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-202"
+  publisher: "The Star / Reuters"
+  title: "South Korea's KOSPI index tops 9,000 as chipmakers hit records"
+  url: "https://www.thestar.com.my/business/business-news/2026/06/18/south-korea039s-kospi-index-tops-9000-as-chipmakers-hit-records"
+  canonical_url: "https://www.thestar.com.my/business/business-news/2026/06/18/south-korea039s-kospi-index-tops-9000-as-chipmakers-hit-records"
+  accessed_at: "2026-06-19T09:40:03Z"
+  published_at: "2026-06-18"
+  source_type: "news_article_market_report"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Public Reuters-carried article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-203"
+  publisher: "Seoul Economic Daily"
+  title: "KOSPI Tops 9,000 for First Time as Chip-Less Retail Investors Suffer"
+  url: "https://en.sedaily.com/finance/2026/06/18/kospi-tops-9000-for-first-time-as-chip-less-retail"
+  canonical_url: "https://en.sedaily.com/finance/2026/06/18/kospi-tops-9000-for-first-time-as-chip-less-retail"
+  accessed_at: "2026-06-19T09:40:03Z"
+  published_at: "2026-06-18T15:50:13+09:00"
+  source_type: "news_article_market_report"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "local_financial_press"
+  archive:
+    stored: false
+    reason: "Public English article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-204"
+  publisher: "Investing.com"
+  title: "Shanghai Composite Historical Data"
+  url: "https://www.investing.com/indices/shanghai-composite-historical-data"
+  canonical_url: "https://www.investing.com/indices/shanghai-composite-historical-data"
+  accessed_at: "2026-06-19T09:40:03Z"
+  source_type: "market_data_historical_table"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Public historical-data table accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-205"
+  publisher: "Trading Economics"
+  title: "Hong Kong Stock Market Index (HK50) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/hong-kong/stock-market"
+  canonical_url: "https://tradingeconomics.com/hong-kong/stock-market"
+  accessed_at: "2026-06-19T09:40:03Z"
+  published_at: "2026-06-18"
+  source_type: "market_data_quote_page_and_news_stream"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Public quote and news-stream page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-206"
+  publisher: "The Edge Malaysia"
+  title: "Japan's Nikkei gauge crosses 71,000 on US-Iran peace deal"
+  url: "https://theedgemalaysia.com/node/807337"
+  canonical_url: "https://theedgemalaysia.com/node/807337"
+  accessed_at: "2026-06-19T09:40:03Z"
+  published_at: "2026-06-18"
+  source_type: "news_article_market_report"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_press"
+  archive:
+    stored: false
+    reason: "Public market article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-601"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18"
+  source_type: "government_data"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Dynamic government table accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-602"
+  publisher: "Federal Reserve Board"
+  title: "Federal Reserve issues FOMC statement"
+  url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  canonical_url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-17"
+  source_type: "central_bank_statement"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_source"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve HTML page accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-603"
+  publisher: "Federal Reserve Board"
+  title: "June 17, 2026: FOMC Projections materials, accessible version"
+  url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  canonical_url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-17"
+  source_type: "central_bank_projection_materials"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_source"
+  archive:
+    stored: false
+    reason: "Official Federal Reserve HTML projection materials accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-604"
+  publisher: "Bank of England"
+  title: "Bank Rate maintained at 3.75% - June 2026 Monetary Policy Summary and Minutes"
+  url: "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+  canonical_url: "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18"
+  source_type: "central_bank_minutes"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_source"
+  archive:
+    stored: false
+    reason: "Official Bank of England HTML minutes accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-605"
+  publisher: "Swiss National Bank"
+  title: "Monetary policy assessment of 18 June 2026"
+  url: "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618"
+  canonical_url: "https://www.snb.ch/en/publications/communication/press-releases-restricted/pre_20260618"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18"
+  source_type: "central_bank_statement"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_source"
+  archive:
+    stored: false
+    reason: "Official Swiss National Bank HTML press release accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-606"
+  publisher: "U.S. Department of Labor"
+  title: "Unemployment Insurance Weekly Claims, June 18, 2026"
+  url: "https://www.dol.gov/ui/data.pdf"
+  canonical_url: "https://www.dol.gov/ui/data.pdf"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18T08:30:00-04:00"
+  source_type: "government_data_pdf"
+  retrieval_method: "web_search_and_live_public_pdf"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Current weekly PDF endpoint accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-607"
+  publisher: "Trading Economics"
+  title: "United States Dollar - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/currency"
+  canonical_url: "https://tradingeconomics.com/united-states/currency"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18"
+  source_type: "market_data_quote_page_and_news_stream"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Live market-data page accessed after the June 18 item; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-608"
+  publisher: "DTN Progressive Farmer"
+  title: "WTI Hits $73 as US-Iran Deal Eases Supply Worries"
+  url: "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/06/18/wti-hits-73-us-iran-deal-eases"
+  canonical_url: "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/06/18/wti-hits-73-us-iran-deal-eases"
+  accessed_at: "2026-06-19T09:59:41Z"
+  published_at: "2026-06-18"
+  source_type: "news_article_market_report"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Public market article accessed live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-18-701"
+  publisher: "Reuters"
+  title: "Wall St indexes advance with boost from chips, Iran optimism"
+  url: "https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18/"
+  canonical_url: "https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18/"
+  accessed_at: "2026-06-19T03:52:14Z"
+  published_at: "2026-06-18"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-18-702"
+  publisher: "TheStreet"
+  title: "Stock Market Today (June 18, 2026): Russell 2000, Nasdaq rise after Fed surprise, U.S. ends Iran blockade"
+  url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026"
+  canonical_url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026"
+  accessed_at: "2026-06-19T03:52:14Z"
+  published_at: "2026-06-18"
+  source_type: "news_liveblog"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "dynamic_liveblog_page"
+- id: "S-2026-06-18-703"
+  publisher: "CNN"
+  title: "Fear and Greed Index - Investor Sentiment"
+  url: "https://www.cnn.com/markets/fear-and-greed"
+  canonical_url: "https://edition.cnn.com/markets/fear-and-greed"
+  accessed_at: "2026-06-19T03:52:49Z"
+  published_at: "2026-06-18"
+  source_type: "sentiment_indicator"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_sentiment_dashboard"
+- id: "S-2026-06-18-704"
+  publisher: "Yahoo Finance"
+  title: "S&P 500 (^GSPC), Nasdaq Composite (^IXIC), and Cboe Volatility Index (^VIX) index quotes"
+  url: "https://finance.yahoo.com/quote/%5EGSPC/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EGSPC/"
+  accessed_at: "2026-06-19T03:52:01Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_quote_page"
+- id: "S-2026-06-18-705"
+  publisher: "Advisor Perspectives"
+  title: "Treasury Yields Snapshot: June 18, 2026"
+  url: "https://www.advisorperspectives.com/dshort/updates/2026/06/18/treasury-yields-snapshot-june-18-2026"
+  canonical_url: "https://www.advisorperspectives.com/dshort/updates/2026/06/18/treasury-yields-snapshot-june-18-2026"
+  accessed_at: "2026-06-19T03:52:49Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_data_provider"
+  archive:
+    stored: false
+    reason: "stable_data_snapshot"

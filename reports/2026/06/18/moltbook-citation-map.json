@@ -1,0 +1,1502 @@
+{
+  "deep_dive": {
+    "citation_group_count": 5,
+    "claim_map": {
+      "C-2026-06-18-ASIA-C2-KOSPI-CHIP-BREADTH": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "the star / reuters|https://www.thestar.com.my/business/business-news/2026/06/18/south-korea039s-kospi-index-tops-9000-as-chipmakers-hit-records",
+            "visible_reference_number": 17
+          }
+        ],
+        "visible_reference_numbers": [
+          17
+        ]
+      },
+      "C-2026-06-18-ASIA-C2-REGIONAL-BREADTH": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-201",
+            "source_key": "S201",
+            "support": "inference_base",
+            "visible_reference_key": "nikkei indexes|https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06182026&idx=nk225",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-18-202",
+            "source_key": "S202",
+            "support": "inference_base",
+            "visible_reference_key": "the star / reuters|https://www.thestar.com.my/business/business-news/2026/06/18/south-korea039s-kospi-index-tops-9000-as-chipmakers-hit-records",
+            "visible_reference_number": 17
+          },
+          {
+            "source_id": "S-2026-06-18-204",
+            "source_key": "S204",
+            "support": "inference_base",
+            "visible_reference_key": "investing.com|https://www.investing.com/indices/shanghai-composite-historical-data",
+            "visible_reference_number": 18
+          },
+          {
+            "source_id": "S-2026-06-18-205",
+            "source_key": "S205",
+            "support": "inference_base",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/hong-kong/stock-market",
+            "visible_reference_number": 19
+          }
+        ],
+        "visible_reference_numbers": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "C-2026-06-18-EU-C3-FTSE100-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-405",
+            "source_key": "S405",
+            "support": "direct",
+            "visible_reference_key": "investors chronicle|https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=ftse%3afsi",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-18-406",
+            "source_key": "S406",
+            "support": "context",
+            "visible_reference_key": "dpa via yahoo finance|https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html",
+            "visible_reference_number": 12
+          }
+        ],
+        "visible_reference_numbers": [
+          12,
+          15
+        ]
+      },
+      "C-2026-06-18-EU-C3-RATE-CONCERNS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "dpa via yahoo finance|https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-18-407",
+            "source_key": "S407",
+            "support": "context",
+            "visible_reference_key": "bank of england|https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026",
+            "visible_reference_number": 13
+          }
+        ],
+        "visible_reference_numbers": [
+          12,
+          13
+        ]
+      },
+      "C-2026-06-18-EU-C3-STOXX600-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-401",
+            "source_key": "S401",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5estoxx/history",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-18-406",
+            "source_key": "S406",
+            "support": "context",
+            "visible_reference_key": "dpa via yahoo finance|https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html",
+            "visible_reference_number": 12
+          }
+        ],
+        "visible_reference_numbers": [
+          12,
+          14
+        ]
+      },
+      "C-2026-06-18-MACRO-C2-DXY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-607",
+            "source_key": "S607",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/united-states/currency",
+            "visible_reference_number": 20
+          }
+        ],
+        "visible_reference_numbers": [
+          20
+        ]
+      },
+      "C-2026-06-18-MACRO-C2-FED-SEP": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-603",
+            "source_key": "S603",
+            "support": "direct",
+            "visible_reference_key": "federal reserve board|https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+            "visible_reference_number": 10
+          },
+          {
+            "source_id": "S-2026-06-18-602",
+            "source_key": "S602",
+            "support": "context",
+            "visible_reference_key": "federal reserve board|https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+            "visible_reference_number": 11
+          }
+        ],
+        "visible_reference_numbers": [
+          10,
+          11
+        ]
+      },
+      "C-2026-06-18-MACRO-C2-HORMUZ-SUPPLY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-608",
+            "source_key": "S608",
+            "support": "direct",
+            "visible_reference_key": "dtn progressive farmer|https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/06/18/wti-hits-73-us-iran-deal-eases",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          7
+        ]
+      },
+      "C-2026-06-18-MACRO-C2-TREASURY-CURVE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-601",
+            "source_key": "S601",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/textview?field_tdr_date_value=202606&type=daily_treasury_yield_curve",
+            "visible_reference_number": 9
+          }
+        ],
+        "visible_reference_numbers": [
+          9
+        ]
+      },
+      "C-2026-06-18-SENT-C1-004": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-702",
+            "source_key": "S702",
+            "support": "direct",
+            "visible_reference_key": "thestreet|https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          8
+        ]
+      },
+      "C-2026-06-18-SENT-C1-005": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-704",
+            "source_key": "S704",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5egspc",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          2
+        ]
+      },
+      "C-2026-06-18-SENT-C1-006": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-701",
+            "source_key": "S701",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          4
+        ]
+      },
+      "C-2026-06-18-SENT-C1-007": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-701",
+            "source_key": "S701",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-18-702",
+            "source_key": "S702",
+            "support": "direct",
+            "visible_reference_key": "thestreet|https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          8
+        ]
+      },
+      "C-2026-06-18-SENT-C1-008": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-703",
+            "source_key": "S703",
+            "support": "direct",
+            "visible_reference_key": "cnn|https://edition.cnn.com/markets/fear-and-greed",
+            "visible_reference_number": 3
+          }
+        ],
+        "visible_reference_numbers": [
+          3
+        ]
+      },
+      "C-2026-06-18-SENT-C1-010": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-701",
+            "source_key": "S701",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          4
+        ]
+      },
+      "C-2026-06-18-US-C2-NASDAQ-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1
+        ]
+      },
+      "C-2026-06-18-US-C2-RUT-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1
+        ]
+      },
+      "C-2026-06-18-US-C2-SPX-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1
+        ]
+      },
+      "C-2026-06-18-US-C2-TECH-LEADERSHIP": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-003",
+            "source_key": "S003",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/stocks-markets-rates-iran-oil-24b4d022fb308e6336ac45a2b191c009",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6
+        ]
+      },
+      "C-2026-06-18-US-C2-US-IRAN-DEAL": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-004",
+            "source_key": "S004",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/iran-us-israel-war-oil-deal-june-17-2026-19652f4611b704c0a991bf1f5bc9a4b9",
+            "visible_reference_number": 5
+          },
+          {
+            "source_id": "S-2026-06-18-003",
+            "source_key": "S003",
+            "support": "context",
+            "visible_reference_key": "associated press|https://apnews.com/article/stocks-markets-rates-iran-oil-24b4d022fb308e6336ac45a2b191c009",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          5,
+          6
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": true,
+    "generated_at": "2026-06-19T11:28:32Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 6520,
+    "reference_count": 20,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-001": "2026-06-19T09:22:19Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-18T20:26:30Z",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-18-001",
+        "source_ids": [
+          "S-2026-06-18-001"
+        ],
+        "title": "How major US stock indexes fared Thursday 6/18/2026",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-704": "2026-06-19T03:52:01Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-18",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-18-704",
+        "source_ids": [
+          "S-2026-06-18-704"
+        ],
+        "title": "S&P 500 (^GSPC), Nasdaq Composite (^IXIC), and Cboe Volatility Index (^VIX) index quotes",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-703": "2026-06-19T03:52:49Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-18",
+        "publisher": "CNN",
+        "selected_source_id": "S-2026-06-18-703",
+        "source_ids": [
+          "S-2026-06-18-703"
+        ],
+        "title": "Fear and Greed Index - Investor Sentiment",
+        "url": "https://edition.cnn.com/markets/fear-and-greed"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-701": "2026-06-19T03:52:14Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-18",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-18-701",
+        "source_ids": [
+          "S-2026-06-18-701"
+        ],
+        "title": "Wall St indexes advance with boost from chips, Iran optimism",
+        "url": "https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-004": "2026-06-19T09:22:19Z"
+        },
+        "number": 5,
+        "published_at": null,
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-18-004",
+        "source_ids": [
+          "S-2026-06-18-004"
+        ],
+        "title": "US and Iran sign initial deal to end war, ease sanctions and open Strait of Hormuz",
+        "url": "https://apnews.com/article/iran-us-israel-war-oil-deal-june-17-2026-19652f4611b704c0a991bf1f5bc9a4b9"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-003": "2026-06-19T09:22:19Z"
+        },
+        "number": 6,
+        "published_at": null,
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-18-003",
+        "source_ids": [
+          "S-2026-06-18-003"
+        ],
+        "title": "World shares are mixed after a tech-led rally on Wall Street",
+        "url": "https://apnews.com/article/stocks-markets-rates-iran-oil-24b4d022fb308e6336ac45a2b191c009"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-608": "2026-06-19T09:59:41Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-18",
+        "publisher": "DTN Progressive Farmer",
+        "selected_source_id": "S-2026-06-18-608",
+        "source_ids": [
+          "S-2026-06-18-608"
+        ],
+        "title": "WTI Hits $73 as US-Iran Deal Eases Supply Worries",
+        "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/06/18/wti-hits-73-us-iran-deal-eases"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-702": "2026-06-19T03:52:14Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-18",
+        "publisher": "TheStreet",
+        "selected_source_id": "S-2026-06-18-702",
+        "source_ids": [
+          "S-2026-06-18-702"
+        ],
+        "title": "Stock Market Today (June 18, 2026): Russell 2000, Nasdaq rise after Fed surprise, U.S. ends Iran blockade",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-002": "2026-06-19T09:22:19Z",
+          "S-2026-06-18-601": "2026-06-19T09:59:41Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-18",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-18-601",
+        "source_ids": [
+          "S-2026-06-18-002",
+          "S-2026-06-18-601"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-603": "2026-06-19T09:59:41Z"
+        },
+        "number": 10,
+        "published_at": "2026-06-17",
+        "publisher": "Federal Reserve Board",
+        "selected_source_id": "S-2026-06-18-603",
+        "source_ids": [
+          "S-2026-06-18-603"
+        ],
+        "title": "June 17, 2026: FOMC Projections materials, accessible version",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-602": "2026-06-19T09:59:41Z"
+        },
+        "number": 11,
+        "published_at": "2026-06-17",
+        "publisher": "Federal Reserve Board",
+        "selected_source_id": "S-2026-06-18-602",
+        "source_ids": [
+          "S-2026-06-18-602"
+        ],
+        "title": "Federal Reserve issues FOMC statement",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-406": "2026-06-19T10:50:05Z"
+        },
+        "number": 12,
+        "published_at": "2026-06-18T20:26:00+01:00",
+        "publisher": "DPA via Yahoo Finance",
+        "selected_source_id": "S-2026-06-18-406",
+        "source_ids": [
+          "S-2026-06-18-406"
+        ],
+        "title": "European markets close broadly lower on interest rate concerns",
+        "url": "https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-407": "2026-06-19T10:50:05Z",
+          "S-2026-06-18-604": "2026-06-19T09:59:41Z"
+        },
+        "number": 13,
+        "published_at": "2026-06-18",
+        "publisher": "Bank of England",
+        "selected_source_id": "S-2026-06-18-407",
+        "source_ids": [
+          "S-2026-06-18-407",
+          "S-2026-06-18-604"
+        ],
+        "title": "Bank Rate maintained at 3.75% - June 2026 Monetary Policy Summary and Minutes",
+        "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-401": "2026-06-19T10:50:05Z"
+        },
+        "number": 14,
+        "published_at": "2026-06-18",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-18-401",
+        "source_ids": [
+          "S-2026-06-18-401"
+        ],
+        "title": "STXE 600 I (^STOXX) Historical Data",
+        "url": "https://finance.yahoo.com/quote/%5ESTOXX/history/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-405": "2026-06-19T10:50:05Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-18",
+        "publisher": "Investors Chronicle",
+        "selected_source_id": "S-2026-06-18-405",
+        "source_ids": [
+          "S-2026-06-18-405"
+        ],
+        "title": "FTSE 100 Index historical prices",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-201": "2026-06-19T09:40:03Z"
+        },
+        "number": 16,
+        "published_at": "2026-06-18",
+        "publisher": "Nikkei Indexes",
+        "selected_source_id": "S-2026-06-18-201",
+        "source_ids": [
+          "S-2026-06-18-201"
+        ],
+        "title": "Daily Summary - Nikkei Stock Average (Nikkei 225), Thu, Jun 18, 2026",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06182026&idx=nk225"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-202": "2026-06-19T09:40:03Z"
+        },
+        "number": 17,
+        "published_at": "2026-06-18",
+        "publisher": "The Star / Reuters",
+        "selected_source_id": "S-2026-06-18-202",
+        "source_ids": [
+          "S-2026-06-18-202"
+        ],
+        "title": "South Korea's KOSPI index tops 9,000 as chipmakers hit records",
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/18/south-korea039s-kospi-index-tops-9000-as-chipmakers-hit-records"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-204": "2026-06-19T09:40:03Z"
+        },
+        "number": 18,
+        "published_at": null,
+        "publisher": "Investing.com",
+        "selected_source_id": "S-2026-06-18-204",
+        "source_ids": [
+          "S-2026-06-18-204"
+        ],
+        "title": "Shanghai Composite Historical Data",
+        "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-205": "2026-06-19T09:40:03Z"
+        },
+        "number": 19,
+        "published_at": "2026-06-18",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-18-205",
+        "source_ids": [
+          "S-2026-06-18-205"
+        ],
+        "title": "Hong Kong Stock Market Index (HK50) - Quote - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/hong-kong/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-607": "2026-06-19T09:59:41Z"
+        },
+        "number": 20,
+        "published_at": "2026-06-18",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-18-607",
+        "source_ids": [
+          "S-2026-06-18-607"
+        ],
+        "title": "United States Dollar - Quote - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/united-states/currency"
+      }
+    ],
+    "report_date": "2026-06-18",
+    "style": "numeric-full",
+    "title": "The Relief Rally That Still Priced a Hawkish Fed - 2026-06-18",
+    "warnings": []
+  },
+  "generated_at": "2026-06-19T11:28:32Z",
+  "overview": {
+    "citation_group_count": 5,
+    "claim_map": {
+      "C-2026-06-18-ASIA-C2-HANG-SENG-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-205",
+            "source_key": "S205",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/hong-kong/stock-market",
+            "visible_reference_number": 24
+          }
+        ],
+        "visible_reference_numbers": [
+          24
+        ]
+      },
+      "C-2026-06-18-ASIA-C2-KOSPI-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "the star / reuters|https://www.thestar.com.my/business/business-news/2026/06/18/south-korea039s-kospi-index-tops-9000-as-chipmakers-hit-records",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-18-203",
+            "source_key": "S203",
+            "support": "direct",
+            "visible_reference_key": "seoul economic daily|https://en.sedaily.com/finance/2026/06/18/kospi-tops-9000-for-first-time-as-chip-less-retail",
+            "visible_reference_number": 22
+          }
+        ],
+        "visible_reference_numbers": [
+          21,
+          22
+        ]
+      },
+      "C-2026-06-18-ASIA-C2-NIKKEI-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "nikkei indexes|https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06182026&idx=nk225",
+            "visible_reference_number": 19
+          },
+          {
+            "source_id": "S-2026-06-18-206",
+            "source_key": "S206",
+            "support": "context",
+            "visible_reference_key": "the edge malaysia|https://theedgemalaysia.com/node/807337",
+            "visible_reference_number": 20
+          }
+        ],
+        "visible_reference_numbers": [
+          19,
+          20
+        ]
+      },
+      "C-2026-06-18-ASIA-C2-SHANGHAI-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-204",
+            "source_key": "S204",
+            "support": "direct",
+            "visible_reference_key": "investing.com|https://www.investing.com/indices/shanghai-composite-historical-data",
+            "visible_reference_number": 23
+          }
+        ],
+        "visible_reference_numbers": [
+          23
+        ]
+      },
+      "C-2026-06-18-EU-C3-CAC40-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-404",
+            "source_key": "S404",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5efchi/history",
+            "visible_reference_number": 17
+          },
+          {
+            "source_id": "S-2026-06-18-406",
+            "source_key": "S406",
+            "support": "context",
+            "visible_reference_key": "dpa via yahoo finance|https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html",
+            "visible_reference_number": 14
+          }
+        ],
+        "visible_reference_numbers": [
+          14,
+          17
+        ]
+      },
+      "C-2026-06-18-EU-C3-DAX-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-403",
+            "source_key": "S403",
+            "support": "direct",
+            "visible_reference_key": "advfn|https://www.advfn.com/stock-market/dbi/dax/historical/more-historical-data",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-18-406",
+            "source_key": "S406",
+            "support": "context",
+            "visible_reference_key": "dpa via yahoo finance|https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html",
+            "visible_reference_number": 14
+          }
+        ],
+        "visible_reference_numbers": [
+          14,
+          16
+        ]
+      },
+      "C-2026-06-18-EU-C3-EUROSTOXX50-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-402",
+            "source_key": "S402",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5estoxx50e/history",
+            "visible_reference_number": 18
+          }
+        ],
+        "visible_reference_numbers": [
+          18
+        ]
+      },
+      "C-2026-06-18-EU-C3-FTSE100-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-405",
+            "source_key": "S405",
+            "support": "direct",
+            "visible_reference_key": "investors chronicle|https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=ftse%3afsi",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-18-406",
+            "source_key": "S406",
+            "support": "context",
+            "visible_reference_key": "dpa via yahoo finance|https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html",
+            "visible_reference_number": 14
+          }
+        ],
+        "visible_reference_numbers": [
+          14,
+          15
+        ]
+      },
+      "C-2026-06-18-EU-C3-STOXX600-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-401",
+            "source_key": "S401",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5estoxx/history",
+            "visible_reference_number": 13
+          },
+          {
+            "source_id": "S-2026-06-18-406",
+            "source_key": "S406",
+            "support": "context",
+            "visible_reference_key": "dpa via yahoo finance|https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html",
+            "visible_reference_number": 14
+          }
+        ],
+        "visible_reference_numbers": [
+          13,
+          14
+        ]
+      },
+      "C-2026-06-18-MACRO-C2-DXY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-607",
+            "source_key": "S607",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/united-states/currency",
+            "visible_reference_number": 12
+          }
+        ],
+        "visible_reference_numbers": [
+          12
+        ]
+      },
+      "C-2026-06-18-MACRO-C2-FED-SEP": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-603",
+            "source_key": "S603",
+            "support": "direct",
+            "visible_reference_key": "federal reserve board|https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+            "visible_reference_number": 10
+          },
+          {
+            "source_id": "S-2026-06-18-602",
+            "source_key": "S602",
+            "support": "context",
+            "visible_reference_key": "federal reserve board|https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+            "visible_reference_number": 11
+          }
+        ],
+        "visible_reference_numbers": [
+          10,
+          11
+        ]
+      },
+      "C-2026-06-18-MACRO-C2-HORMUZ-SUPPLY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-608",
+            "source_key": "S608",
+            "support": "direct",
+            "visible_reference_key": "dtn progressive farmer|https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/06/18/wti-hits-73-us-iran-deal-eases",
+            "visible_reference_number": 26
+          }
+        ],
+        "visible_reference_numbers": [
+          26
+        ]
+      },
+      "C-2026-06-18-MACRO-C2-OIL-SETTLEMENT": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-608",
+            "source_key": "S608",
+            "support": "direct",
+            "visible_reference_key": "dtn progressive farmer|https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/06/18/wti-hits-73-us-iran-deal-eases",
+            "visible_reference_number": 26
+          }
+        ],
+        "visible_reference_numbers": [
+          26
+        ]
+      },
+      "C-2026-06-18-MACRO-C2-TREASURY-CURVE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-601",
+            "source_key": "S601",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/textview?field_tdr_date_value=202606&type=daily_treasury_yield_curve",
+            "visible_reference_number": 9
+          }
+        ],
+        "visible_reference_numbers": [
+          9
+        ]
+      },
+      "C-2026-06-18-SENT-C1-005": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-704",
+            "source_key": "S704",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5egspc",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          2
+        ]
+      },
+      "C-2026-06-18-SENT-C1-006": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-701",
+            "source_key": "S701",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          7
+        ]
+      },
+      "C-2026-06-18-SENT-C1-007": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-701",
+            "source_key": "S701",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-18-702",
+            "source_key": "S702",
+            "support": "direct",
+            "visible_reference_key": "thestreet|https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          7,
+          8
+        ]
+      },
+      "C-2026-06-18-SENT-C1-008": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-703",
+            "source_key": "S703",
+            "support": "direct",
+            "visible_reference_key": "cnn|https://edition.cnn.com/markets/fear-and-greed",
+            "visible_reference_number": 3
+          }
+        ],
+        "visible_reference_numbers": [
+          3
+        ]
+      },
+      "C-2026-06-18-SENT-C1-010": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-701",
+            "source_key": "S701",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          7
+        ]
+      },
+      "C-2026-06-18-US-C2-JUNETEENTH-CLOSURE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-006",
+            "source_key": "S006",
+            "support": "direct",
+            "visible_reference_key": "new york stock exchange|https://www.nyse.com/trade/hours-calendars",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-18-007",
+            "source_key": "S007",
+            "support": "direct",
+            "visible_reference_key": "nasdaq trader|https://www.nasdaqtrader.com/trader.aspx?id=calendar",
+            "visible_reference_number": 5
+          },
+          {
+            "source_id": "S-2026-06-18-001",
+            "source_key": "S001",
+            "support": "context",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          4,
+          5
+        ]
+      },
+      "C-2026-06-18-US-C2-NASDAQ-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1
+        ]
+      },
+      "C-2026-06-18-US-C2-OIL-SETTLEMENTS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-003",
+            "source_key": "S003",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/stocks-markets-rates-iran-oil-24b4d022fb308e6336ac45a2b191c009",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6
+        ]
+      },
+      "C-2026-06-18-US-C2-RUT-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1
+        ]
+      },
+      "C-2026-06-18-US-C2-SPX-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1
+        ]
+      },
+      "C-2026-06-18-US-C2-TECH-LEADERSHIP": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-003",
+            "source_key": "S003",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/stocks-markets-rates-iran-oil-24b4d022fb308e6336ac45a2b191c009",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6
+        ]
+      },
+      "C-2026-06-18-US-C2-US-IRAN-DEAL": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-18-004",
+            "source_key": "S004",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/iran-us-israel-war-oil-deal-june-17-2026-19652f4611b704c0a991bf1f5bc9a4b9",
+            "visible_reference_number": 25
+          },
+          {
+            "source_id": "S-2026-06-18-003",
+            "source_key": "S003",
+            "support": "context",
+            "visible_reference_key": "associated press|https://apnews.com/article/stocks-markets-rates-iran-oil-24b4d022fb308e6336ac45a2b191c009",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6,
+          25
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": true,
+    "generated_at": "2026-06-19T11:28:32Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 6049,
+    "reference_count": 26,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-001": "2026-06-19T09:22:19Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-18T20:26:30Z",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-18-001",
+        "source_ids": [
+          "S-2026-06-18-001"
+        ],
+        "title": "How major US stock indexes fared Thursday 6/18/2026",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-704": "2026-06-19T03:52:01Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-18",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-18-704",
+        "source_ids": [
+          "S-2026-06-18-704"
+        ],
+        "title": "S&P 500 (^GSPC), Nasdaq Composite (^IXIC), and Cboe Volatility Index (^VIX) index quotes",
+        "url": "https://finance.yahoo.com/quote/%5EGSPC/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-703": "2026-06-19T03:52:49Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-18",
+        "publisher": "CNN",
+        "selected_source_id": "S-2026-06-18-703",
+        "source_ids": [
+          "S-2026-06-18-703"
+        ],
+        "title": "Fear and Greed Index - Investor Sentiment",
+        "url": "https://edition.cnn.com/markets/fear-and-greed"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-006": "2026-06-19T09:22:19Z"
+        },
+        "number": 4,
+        "published_at": null,
+        "publisher": "New York Stock Exchange",
+        "selected_source_id": "S-2026-06-18-006",
+        "source_ids": [
+          "S-2026-06-18-006"
+        ],
+        "title": "Holidays and Trading Hours",
+        "url": "https://www.nyse.com/trade/hours-calendars"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-007": "2026-06-19T09:22:19Z"
+        },
+        "number": 5,
+        "published_at": null,
+        "publisher": "Nasdaq Trader",
+        "selected_source_id": "S-2026-06-18-007",
+        "source_ids": [
+          "S-2026-06-18-007"
+        ],
+        "title": "Trading Calendar",
+        "url": "https://www.nasdaqtrader.com/trader.aspx?id=Calendar"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-003": "2026-06-19T09:22:19Z"
+        },
+        "number": 6,
+        "published_at": null,
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-18-003",
+        "source_ids": [
+          "S-2026-06-18-003"
+        ],
+        "title": "World shares are mixed after a tech-led rally on Wall Street",
+        "url": "https://apnews.com/article/stocks-markets-rates-iran-oil-24b4d022fb308e6336ac45a2b191c009"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-701": "2026-06-19T03:52:14Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-18",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-18-701",
+        "source_ids": [
+          "S-2026-06-18-701"
+        ],
+        "title": "Wall St indexes advance with boost from chips, Iran optimism",
+        "url": "https://www.reuters.com/business/wall-st-futures-bounce-back-us-iran-deal-optimism-balances-hawkish-fed-intel-up-2026-06-18/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-702": "2026-06-19T03:52:14Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-18",
+        "publisher": "TheStreet",
+        "selected_source_id": "S-2026-06-18-702",
+        "source_ids": [
+          "S-2026-06-18-702"
+        ],
+        "title": "Stock Market Today (June 18, 2026): Russell 2000, Nasdaq rise after Fed surprise, U.S. ends Iran blockade",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-002": "2026-06-19T09:22:19Z",
+          "S-2026-06-18-601": "2026-06-19T09:59:41Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-18",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-18-601",
+        "source_ids": [
+          "S-2026-06-18-002",
+          "S-2026-06-18-601"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-603": "2026-06-19T09:59:41Z"
+        },
+        "number": 10,
+        "published_at": "2026-06-17",
+        "publisher": "Federal Reserve Board",
+        "selected_source_id": "S-2026-06-18-603",
+        "source_ids": [
+          "S-2026-06-18-603"
+        ],
+        "title": "June 17, 2026: FOMC Projections materials, accessible version",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-602": "2026-06-19T09:59:41Z"
+        },
+        "number": 11,
+        "published_at": "2026-06-17",
+        "publisher": "Federal Reserve Board",
+        "selected_source_id": "S-2026-06-18-602",
+        "source_ids": [
+          "S-2026-06-18-602"
+        ],
+        "title": "Federal Reserve issues FOMC statement",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-607": "2026-06-19T09:59:41Z"
+        },
+        "number": 12,
+        "published_at": "2026-06-18",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-18-607",
+        "source_ids": [
+          "S-2026-06-18-607"
+        ],
+        "title": "United States Dollar - Quote - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/united-states/currency"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-401": "2026-06-19T10:50:05Z"
+        },
+        "number": 13,
+        "published_at": "2026-06-18",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-18-401",
+        "source_ids": [
+          "S-2026-06-18-401"
+        ],
+        "title": "STXE 600 I (^STOXX) Historical Data",
+        "url": "https://finance.yahoo.com/quote/%5ESTOXX/history/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-406": "2026-06-19T10:50:05Z"
+        },
+        "number": 14,
+        "published_at": "2026-06-18T20:26:00+01:00",
+        "publisher": "DPA via Yahoo Finance",
+        "selected_source_id": "S-2026-06-18-406",
+        "source_ids": [
+          "S-2026-06-18-406"
+        ],
+        "title": "European markets close broadly lower on interest rate concerns",
+        "url": "https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-405": "2026-06-19T10:50:05Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-18",
+        "publisher": "Investors Chronicle",
+        "selected_source_id": "S-2026-06-18-405",
+        "source_ids": [
+          "S-2026-06-18-405"
+        ],
+        "title": "FTSE 100 Index historical prices",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-403": "2026-06-19T10:50:05Z"
+        },
+        "number": 16,
+        "published_at": "2026-06-18",
+        "publisher": "ADVFN",
+        "selected_source_id": "S-2026-06-18-403",
+        "source_ids": [
+          "S-2026-06-18-403"
+        ],
+        "title": "DAX More Historical Data - DAX Historical Prices",
+        "url": "https://www.advfn.com/stock-market/DBI/DAX/historical/more-historical-data"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-404": "2026-06-19T10:50:05Z"
+        },
+        "number": 17,
+        "published_at": "2026-06-18",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-18-404",
+        "source_ids": [
+          "S-2026-06-18-404"
+        ],
+        "title": "CAC 40 (^FCHI) Historical Data",
+        "url": "https://finance.yahoo.com/quote/%5EFCHI/history/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-402": "2026-06-19T10:50:05Z"
+        },
+        "number": 18,
+        "published_at": "2026-06-18",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-18-402",
+        "source_ids": [
+          "S-2026-06-18-402"
+        ],
+        "title": "EURO STOXX 50 I (^STOXX50E) Historical Data",
+        "url": "https://finance.yahoo.com/quote/%5ESTOXX50E/history/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-201": "2026-06-19T09:40:03Z"
+        },
+        "number": 19,
+        "published_at": "2026-06-18",
+        "publisher": "Nikkei Indexes",
+        "selected_source_id": "S-2026-06-18-201",
+        "source_ids": [
+          "S-2026-06-18-201"
+        ],
+        "title": "Daily Summary - Nikkei Stock Average (Nikkei 225), Thu, Jun 18, 2026",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06182026&idx=nk225"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-206": "2026-06-19T09:40:03Z"
+        },
+        "number": 20,
+        "published_at": "2026-06-18",
+        "publisher": "The Edge Malaysia",
+        "selected_source_id": "S-2026-06-18-206",
+        "source_ids": [
+          "S-2026-06-18-206"
+        ],
+        "title": "Japan's Nikkei gauge crosses 71,000 on US-Iran peace deal",
+        "url": "https://theedgemalaysia.com/node/807337"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-202": "2026-06-19T09:40:03Z"
+        },
+        "number": 21,
+        "published_at": "2026-06-18",
+        "publisher": "The Star / Reuters",
+        "selected_source_id": "S-2026-06-18-202",
+        "source_ids": [
+          "S-2026-06-18-202"
+        ],
+        "title": "South Korea's KOSPI index tops 9,000 as chipmakers hit records",
+        "url": "https://www.thestar.com.my/business/business-news/2026/06/18/south-korea039s-kospi-index-tops-9000-as-chipmakers-hit-records"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-203": "2026-06-19T09:40:03Z"
+        },
+        "number": 22,
+        "published_at": "2026-06-18T15:50:13+09:00",
+        "publisher": "Seoul Economic Daily",
+        "selected_source_id": "S-2026-06-18-203",
+        "source_ids": [
+          "S-2026-06-18-203"
+        ],
+        "title": "KOSPI Tops 9,000 for First Time as Chip-Less Retail Investors Suffer",
+        "url": "https://en.sedaily.com/finance/2026/06/18/kospi-tops-9000-for-first-time-as-chip-less-retail"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-204": "2026-06-19T09:40:03Z"
+        },
+        "number": 23,
+        "published_at": null,
+        "publisher": "Investing.com",
+        "selected_source_id": "S-2026-06-18-204",
+        "source_ids": [
+          "S-2026-06-18-204"
+        ],
+        "title": "Shanghai Composite Historical Data",
+        "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-205": "2026-06-19T09:40:03Z"
+        },
+        "number": 24,
+        "published_at": "2026-06-18",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-18-205",
+        "source_ids": [
+          "S-2026-06-18-205"
+        ],
+        "title": "Hong Kong Stock Market Index (HK50) - Quote - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/hong-kong/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-004": "2026-06-19T09:22:19Z"
+        },
+        "number": 25,
+        "published_at": null,
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-18-004",
+        "source_ids": [
+          "S-2026-06-18-004"
+        ],
+        "title": "US and Iran sign initial deal to end war, ease sanctions and open Strait of Hormuz",
+        "url": "https://apnews.com/article/iran-us-israel-war-oil-deal-june-17-2026-19652f4611b704c0a991bf1f5bc9a4b9"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-18-608": "2026-06-19T09:59:41Z"
+        },
+        "number": 26,
+        "published_at": "2026-06-18",
+        "publisher": "DTN Progressive Farmer",
+        "selected_source_id": "S-2026-06-18-608",
+        "source_ids": [
+          "S-2026-06-18-608"
+        ],
+        "title": "WTI Hits $73 as US-Iran Deal Eases Supply Worries",
+        "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/06/18/wti-hits-73-us-iran-deal-eases"
+      }
+    ],
+    "report_date": "2026-06-18",
+    "style": "numeric-full",
+    "title": "Global Markets - 2026-06-18",
+    "warnings": []
+  },
+  "report_date": "2026-06-18",
+  "status": "ok",
+  "style": "numeric-full"
+}
