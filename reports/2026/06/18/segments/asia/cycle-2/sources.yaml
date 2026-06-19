@@ -1,0 +1,89 @@
+- id: "S-2026-06-18-501"
+  publisher: "Nikkei Indexes"
+  title: "Daily Summary - Nikkei Stock Average (Nikkei 225), Thu, Jun 18, 2026"
+  url: "https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06182026&idx=nk225"
+  canonical_url: "https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06182026&idx=nk225"
+  accessed_at: "2026-06-19T09:40:03Z"
+  published_at: "2026-06-18"
+  source_type: "official_index_daily_summary"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_index_provider"
+  archive:
+    stored: false
+    reason: "Official Nikkei Indexes HTML page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-502"
+  publisher: "The Star / Reuters"
+  title: "South Korea's KOSPI index tops 9,000 as chipmakers hit records"
+  url: "https://www.thestar.com.my/business/business-news/2026/06/18/south-korea039s-kospi-index-tops-9000-as-chipmakers-hit-records"
+  canonical_url: "https://www.thestar.com.my/business/business-news/2026/06/18/south-korea039s-kospi-index-tops-9000-as-chipmakers-hit-records"
+  accessed_at: "2026-06-19T09:40:03Z"
+  published_at: "2026-06-18"
+  source_type: "news_article_market_report"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Public Reuters-carried article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-503"
+  publisher: "Seoul Economic Daily"
+  title: "KOSPI Tops 9,000 for First Time as Chip-Less Retail Investors Suffer"
+  url: "https://en.sedaily.com/finance/2026/06/18/kospi-tops-9000-for-first-time-as-chip-less-retail"
+  canonical_url: "https://en.sedaily.com/finance/2026/06/18/kospi-tops-9000-for-first-time-as-chip-less-retail"
+  accessed_at: "2026-06-19T09:40:03Z"
+  published_at: "2026-06-18T15:50:13+09:00"
+  source_type: "news_article_market_report"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "local_financial_press"
+  archive:
+    stored: false
+    reason: "Public English article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-504"
+  publisher: "Investing.com"
+  title: "Shanghai Composite Historical Data"
+  url: "https://www.investing.com/indices/shanghai-composite-historical-data"
+  canonical_url: "https://www.investing.com/indices/shanghai-composite-historical-data"
+  accessed_at: "2026-06-19T09:40:03Z"
+  source_type: "market_data_historical_table"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Public historical-data table accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-505"
+  publisher: "Trading Economics"
+  title: "Hong Kong Stock Market Index (HK50) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/hong-kong/stock-market"
+  canonical_url: "https://tradingeconomics.com/hong-kong/stock-market"
+  accessed_at: "2026-06-19T09:40:03Z"
+  published_at: "2026-06-18"
+  source_type: "market_data_quote_page_and_news_stream"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Public quote and news-stream page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-506"
+  publisher: "The Edge Malaysia"
+  title: "Japan's Nikkei gauge crosses 71,000 on US-Iran peace deal"
+  url: "https://theedgemalaysia.com/node/807337"
+  canonical_url: "https://theedgemalaysia.com/node/807337"
+  accessed_at: "2026-06-19T09:40:03Z"
+  published_at: "2026-06-18"
+  source_type: "news_article_market_report"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_press"
+  archive:
+    stored: false
+    reason: "Public market article accessed live; no archive artifact committed for this cycle."
