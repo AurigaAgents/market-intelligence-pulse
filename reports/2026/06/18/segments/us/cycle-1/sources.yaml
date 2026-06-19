@@ -1,0 +1,45 @@
+- id: "S-2026-06-18-0001"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Thursday 6/18/2026"
+  url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+  canonical_url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+  accessed_at: "2026-06-19T02:45:40Z"
+  published_at: "2026-06-18T16:26:00-04:00"
+  source_type: "news_wire_market_summary"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Associated Press markets-wire summary accessed live via AP News; corroborated by Yahoo Finance and San Mateo Daily Journal mirrors. No archive artifact committed for this cycle."
+- id: "S-2026-06-18-0002"
+  publisher: "NPR"
+  title: "U.S. and Iran announce an initial deal to end the war and reopen the Strait of Hormuz"
+  url: "https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates"
+  canonical_url: "https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates"
+  accessed_at: "2026-06-19T02:46:26Z"
+  published_at: "2026-06-15T09:00:00-04:00"
+  source_type: "news_report_geopolitical"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public NPR news report accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-0003"
+  publisher: "Trading Economics"
+  title: "US 10 Year Treasury Note Yield - Quote - Chart - Historical Data"
+  url: "https://tradingeconomics.com/united-states/government-bond-yield"
+  canonical_url: "https://tradingeconomics.com/united-states/government-bond-yield"
+  accessed_at: "2026-06-19T02:46:08Z"
+  published_at: "2026-06-19T00:00:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics yield-data page accessed live; no archive artifact committed for this cycle."
