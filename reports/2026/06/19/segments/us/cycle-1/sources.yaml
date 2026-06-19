@@ -1,0 +1,72 @@
+- id: "S-2026-06-19-101"
+  publisher: "USA Today"
+  title: "Is the stock market open or closed on Juneteenth 2026? See schedule"
+  url: "https://www.usatoday.com/story/money/investing/2026/06/18/stock-market-open-closed-juneteenth-2026/90586801007/"
+  canonical_url: "https://www.usatoday.com/story/money/investing/2026/06/18/stock-market-open-closed-juneteenth-2026/90586801007/"
+  accessed_at: "2026-06-19T22:09:36Z"
+  published_at: "2026-06-18"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "national_news_outlet"
+  archive:
+    stored: false
+    reason: "Public USA Today article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-19-102"
+  publisher: "Securities Industry and Financial Markets Association (SIFMA)"
+  title: "Holiday Schedule"
+  url: "https://www.sifma.org/resources/general/holiday-schedule/"
+  canonical_url: "https://www.sifma.org/resources/general/holiday-schedule"
+  accessed_at: "2026-06-19T22:09:35Z"
+  source_type: "official_market_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "industry_association_official"
+  archive:
+    stored: false
+    reason: "Official SIFMA US holiday-schedule page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-19-103"
+  publisher: "New York Stock Exchange"
+  title: "Holidays & Trading Hours"
+  url: "https://www.nyse.com/trade/hours-calendars"
+  canonical_url: "https://www.nyse.com/trade/hours-calendars"
+  accessed_at: "2026-06-19T22:11:00Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "Official NYSE holiday calendar accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-19-104"
+  publisher: "Nasdaq"
+  title: "U.S. Stock Market Holiday Schedule"
+  url: "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+  canonical_url: "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+  accessed_at: "2026-06-19T22:11:00Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "Official Nasdaq US holiday schedule accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-19-105"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Thursday 6/18/2026"
+  url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+  canonical_url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+  accessed_at: "2026-06-19T22:10:09Z"
+  published_at: "2026-06-18"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Public AP closing-index ledger accessed live; used only as last-regular-session-close context. No archive artifact committed for this cycle."
