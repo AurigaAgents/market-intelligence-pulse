@@ -1,0 +1,70 @@
+- id: "S-2026-06-18-0101"
+  publisher: "Nikkei Indexes"
+  title: "Nikkei Stock Average (Nikkei 225)"
+  url: "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+  canonical_url: "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+  accessed_at: "2026-06-19T03:11:00Z"
+  source_type: "official_index_page"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_index_provider"
+  archive:
+    stored: false
+    reason: "Official Nikkei Indexes HTML page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-0102"
+  publisher: "Trading Economics"
+  title: "South Korea Stock Market - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/south-korea/stock-market"
+  canonical_url: "https://tradingeconomics.com/south-korea/stock-market"
+  accessed_at: "2026-06-19T03:12:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Public Trading Economics page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-0103"
+  publisher: "Investing.com"
+  title: "Shanghai Composite Historical Data"
+  url: "https://www.investing.com/indices/shanghai-composite-historical-data"
+  canonical_url: "https://www.investing.com/indices/shanghai-composite-historical-data"
+  accessed_at: "2026-06-19T03:11:00Z"
+  source_type: "market_data_historical_table"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Public historical-data table accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-0104"
+  publisher: "Yahoo Finance"
+  title: "HANG SENG INDEX (^HSI) Charts, Data & News"
+  url: "https://finance.yahoo.com/quote/%5EHSI/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EHSI/"
+  accessed_at: "2026-06-19T03:12:00Z"
+  source_type: "market_data_quote_page"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance quote page accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-18-0105"
+  publisher: "Trading Economics"
+  title: "Hong Kong Stock Market Index (HK50) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/hong-kong/stock-market"
+  canonical_url: "https://tradingeconomics.com/hong-kong/stock-market"
+  accessed_at: "2026-06-19T03:13:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Public Trading Economics page accessed live; no archive artifact committed for this cycle."
