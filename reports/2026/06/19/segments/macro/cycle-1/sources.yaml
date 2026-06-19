@@ -1,0 +1,209 @@
+- id: "S-2026-06-19-601"
+  publisher: "SIFMA"
+  title: "SIFMA Fixed Income Market Close Recommendation in the U.S., the U.K. and Japan for Juneteenth 2026"
+  url: "https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendation-in-the-u-s-the-u-k-and-japan-for-juneteenth-2026"
+  canonical_url: "https://www.sifma.org/resources/guides-playbooks/holiday-schedule"
+  accessed_at: "2026-06-19T23:19:00Z"
+  source_type: "market_holiday_recommendation"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "industry_association_official"
+  archive:
+    stored: false
+    reason: "SIFMA close recommendation confirmed via web search result; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-602"
+  publisher: "Reuters"
+  title: "Shares ease as investors ponder US-Iran peace talks; yen nears 40-year lows"
+  url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-19/"
+  canonical_url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-19/"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "news_article_market_report"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Dated June 19 Reuters global-markets wrap scraped live; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-603"
+  publisher: "Investing.com"
+  title: "US Dollar Index (DXY) Historical Data"
+  url: "https://www.investing.com/indices/usdollar-historical-data"
+  canonical_url: "https://www.investing.com/indices/usdollar-historical-data"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "DXY June 19 historical row (close 100.80, -0.05%, high 101.13, low 100.70) read via web search result; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-604"
+  publisher: "CNBC"
+  title: "DXY: ICE U.S. Dollar Index - Stock Price, Quote and News"
+  url: "https://www.cnbc.com/quotes/.DXY"
+  canonical_url: "https://www.cnbc.com/quotes/.DXY"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data_quote_page"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_market_data"
+  archive:
+    stored: false
+    reason: "DXY quote cross-check (prev close 100.849, day high 101.127, 52-week high 101.13 dated 06/19/26) read via web search result; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-605"
+  publisher: "Trading Economics"
+  title: "Germany 10-Year Bond Yield - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/germany/government-bond-yield"
+  canonical_url: "https://tradingeconomics.com/germany/government-bond-yield"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Bund page scraped: 10Y rose to 2.96% on June 19, +0.04 pp from the previous session. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-606"
+  publisher: "Dow Jones / The Wall Street Journal"
+  title: "Germany 10 Year Government Bond - TMBMKDE-10Y"
+  url: "https://www.wsj.com/market-data/quotes/bond/BX/TMBMKDE-10Y"
+  canonical_url: "https://www.wsj.com/market-data/quotes/bond/BX/TMBMKDE-10Y"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data_quote_page"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_market_data"
+  archive:
+    stored: false
+    reason: "WSJ Bund cross-check (yield 2.992%, +0.060, dated 06/19/2026) read via web search result; used to disclose the vendor spread versus Trading Economics. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-607"
+  publisher: "Deutsche Bundesbank"
+  title: "Daily yields of current Federal securities"
+  url: "https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields/daily-yields-of-current-federal-securities-772220"
+  canonical_url: "https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields/daily-yields-of-current-federal-securities-772220"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "central_bank_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Bundesbank daily-yield table confirmed to carry a 19.06.2026 entry for the current 10-year Federal bond; cited as the official primary reference underlying the vendor 10Y quotes. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-608"
+  publisher: "Financial Times"
+  title: "UK 10 year Gilt Bond - Markets data"
+  url: "https://markets.ft.com/data/bonds/tearsheet/summary?s=UK10YG"
+  canonical_url: "https://markets.ft.com/data/bonds/tearsheet/summary?s=UK10YG"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data_quote_page"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_market_data"
+  archive:
+    stored: false
+    reason: "FT UK 10Y gilt tearsheet (4.84, +0.003 / +0.07%, as of Jun 19 2026 18:30 BST) read via web search result. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-609"
+  publisher: "Dow Jones / The Wall Street Journal"
+  title: "U.K. 10 Year Gilt - TMBMKGB-10Y"
+  url: "https://www.wsj.com/market-data/quotes/bond/BX/TMBMKGB-10Y"
+  canonical_url: "https://www.wsj.com/market-data/quotes/bond/BX/TMBMKGB-10Y"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data_quote_page"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_market_data"
+  archive:
+    stored: false
+    reason: "WSJ UK 10Y gilt cross-check (yield 4.846%, +0.078, dated 06/19/2026) read via web search result; used to disclose the daily-change vendor difference versus the FT. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-610"
+  publisher: "Federal Statistical Office of Germany (Destatis)"
+  title: "Producer prices in May 2026: +2.2% on May 2025 (Press release No. 212 of 19 June 2026)"
+  url: "https://www.destatis.de/EN/Press/2026/06/PE26_212_61241.html"
+  canonical_url: "https://www.destatis.de/EN/Press/2026/06/PE26_212_61241.html"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "government_press_release"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_source"
+  archive:
+    stored: false
+    reason: "Official Destatis press release fetched live: PPI +2.2% y/y and +0.3% m/m for May 2026, mineral oil +34.9% y/y on the Iran/Middle East conflict. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-611"
+  publisher: "Trading Economics"
+  title: "Germany Producer Prices Change"
+  url: "https://tradingeconomics.com/germany/producer-prices-change"
+  canonical_url: "https://tradingeconomics.com/germany/producer-prices-change"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics PPI page scraped for the breakdown (intermediate goods +4.2%, energy +2.5%, mineral oil +34.9%, ex-energy +2.3%, m/m +0.3% vs +0.7% expected); reconciles with the Destatis primary. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-612"
+  publisher: "Yahoo Finance"
+  title: "Brent Crude Oil Last Day Financ (BZ=F) Historical Prices"
+  url: "https://finance.yahoo.com/quote/BZ=F/history/"
+  canonical_url: "https://finance.yahoo.com/quote/BZ=F/history/"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Brent BZ=F June 19 row (close 80.59, +0.93%, open 79.34, high 80.82, low 78.80) read via web search result. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-613"
+  publisher: "Trading Economics"
+  title: "Brent crude oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Brent cross-check (80.58 USD/Bbl on June 19, near $80) read via web search result. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-19-614"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-19T23:19:00Z"
+  published_at: "2026-06-18"
+  source_type: "government_data"
+  retrieval_method: "web_fetch_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury par-yield CSV fetched live: last row is 06/18/2026 (2Y 4.19, 10Y 4.46, 30Y 4.90); no 06/19/2026 row exists, confirming the Juneteenth fixed-income closure. No archive artifact committed for this segment cycle."
