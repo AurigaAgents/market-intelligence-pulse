@@ -1,0 +1,120 @@
+- id: "S-2026-06-18-0007"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DE40) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-19T09:22:06Z"
+  published_at: "2026-06-18T15:30:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics Germany (DE40 / DAX) index page accessed live on 2026-06-19; Actual/Previous table shows Jun 18 close as Previous 25,026.80 (Jun 19 Actual 25,127.30). Cross-checked against Yahoo Finance ^GDAXI historical (Jun 17 close 24,934.67 as prior)."
+- id: "S-2026-06-18-0008"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU50) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/euro-area/stock-market"
+  canonical_url: "https://tradingeconomics.com/euro-area/stock-market"
+  accessed_at: "2026-06-19T09:22:06Z"
+  published_at: "2026-06-18T15:30:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics Euro Area (EU50 / Euro STOXX 50) index page accessed live on 2026-06-19; Actual/Previous table shows Jun 18 close as Previous 6,318.65 (Jun 19 Actual 6,343.10). Vendor-basis note: Yahoo Finance ^STOXX50E (price-return variant) shows Jun 18 close 6,323.27 — a 4.62-point difference from the TE CFD-based EU50 figure; the TE basis is used for the primary claim."
+- id: "S-2026-06-18-0009"
+  publisher: "Trading Economics"
+  title: "France Stock Market Index (FR40) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/france/stock-market"
+  canonical_url: "https://tradingeconomics.com/france/stock-market"
+  accessed_at: "2026-06-19T09:22:18Z"
+  published_at: "2026-06-18T15:30:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics France (FR40 / CAC 40) index page accessed live on 2026-06-19; Actual/Previous table shows Jun 18 close as Previous 8,467.98 (Jun 19 Actual 8,489.30). Cross-checked against Google Finance PX1:INDEXEURO (8,467.98, +0.44%) per cycle-1 review."
+- id: "S-2026-06-18-0010"
+  publisher: "Trading Economics"
+  title: "United Kingdom Stock Market Index (GB100) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-kingdom/stock-market"
+  canonical_url: "https://tradingeconomics.com/united-kingdom/stock-market"
+  accessed_at: "2026-06-19T09:22:18Z"
+  published_at: "2026-06-18T15:30:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics United Kingdom (GB100 / FTSE 100) index page accessed live on 2026-06-19; Actual/Previous table shows Jun 18 close as Previous 10,399.70 (Jun 19 Actual 10,391.41). BoE rate 3.75% confirmed in the UK Interest Rate sidebar."
+- id: "S-2026-06-18-0011"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU600) - Index Price | Live Quote | Historical Chart"
+  url: "https://tradingeconomics.com/stoxx:ind"
+  canonical_url: "https://tradingeconomics.com/stoxx:ind"
+  accessed_at: "2026-06-19T09:22:34Z"
+  published_at: "2026-06-19T00:00:00Z"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Trading Economics STOXX Europe 600 (EU600) live-quote page accessed live on 2026-06-19; quote 638.34 (Jun 19), up 1.20 (0.19%) from prior session, implying a Jun 18 close of 637.14 — corroborated by Reuters' 'closed 0.3% lower' against the 639.31 prior close."
+- id: "S-2026-06-18-0012"
+  publisher: "Reuters"
+  title: "European shares retreat as markets mull hawkish US Federal Reserve"
+  url: "https://www.reuters.com/markets/europe/european-shares-subdued-fed-rate-hike-bets-2026-06-18/"
+  canonical_url: "https://www.reuters.com/markets/europe/european-shares-subdued-fed-rate-hike-bets-2026-06-18/"
+  accessed_at: "2026-06-19T09:22:19Z"
+  published_at: "2026-06-18"
+  source_type: "news_wire_market_summary"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "high"
+  archive:
+    stored: false
+    reason: "Public Reuters European-close wrap (by Utkarsh Hathi, Johann M Cherian and Shashwat Chauhan) accessed live on 2026-06-19; authoritative source for the STOXX 600 -0.3% close, five-day-streak snap, sector scoreboard (mining -3.1%, oil & gas -1.5%, travel & leisure +0.8%), automakers (Mercedes/VW/Stellantis -2.8% to -4.6%, BMW -4%), IT services (Capgemini -8.9% six-year low), Edenred +17.2%, BoE hold at 3.75%, and Fed/Warsh hawkish framing."
+- id: "S-2026-06-18-0013"
+  publisher: "Yahoo Finance"
+  title: "DAX P (^GDAXI) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EGDAXI/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EGDAXI/history/"
+  accessed_at: "2026-06-19T09:22:35Z"
+  published_at: "2026-06-18"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance ^GDAXI historical-data page accessed live on 2026-06-19; Jun 17, 2026 row shows close 24,934.67 (the prior-close anchor for the Jun 18 DAX claim). The Jun 18 close of 25,026.80 (+0.37%, +92.13) was confirmed in the cycle-1 review from the same Yahoo Finance quote page."
+- id: "S-2026-06-18-0014"
+  publisher: "Yahoo Finance"
+  title: "EURO STOXX 50 I (^STOXX50E) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5ESTOXX50E/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5ESTOXX50E/history/"
+  accessed_at: "2026-06-19T09:22:35Z"
+  published_at: "2026-06-18"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_open"
+  mutable: true
+  paywall: false
+  reliability_tier: "medium"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance ^STOXX50E historical-data page accessed live on 2026-06-19; Jun 18 row shows close 6,323.27 (price-return variant) and Jun 17 close 6,300.07 (prior). The TE EU50 CFD basis (6,318.65) is used as the primary claim value; this Yahoo price-return variant is disclosed as the cross-verification source."
