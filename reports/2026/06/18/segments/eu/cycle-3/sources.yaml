@@ -1,0 +1,105 @@
+- id: S-2026-06-18-501
+  publisher: Yahoo Finance
+  title: STXE 600 I (^STOXX) Historical Data
+  url: https://finance.yahoo.com/quote/%5ESTOXX/history/
+  canonical_url: https://finance.yahoo.com/quote/%5ESTOXX/history/
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: market_data
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: "Live Yahoo Finance historical table accessed for the June 18 STOXX Europe 600 row; no archive artifact committed for this cycle."
+- id: S-2026-06-18-502
+  publisher: Yahoo Finance
+  title: EURO STOXX 50 I (^STOXX50E) Historical Data
+  url: https://finance.yahoo.com/quote/%5ESTOXX50E/history/
+  canonical_url: https://finance.yahoo.com/quote/%5ESTOXX50E/history/
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: market_data
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: "Live Yahoo Finance historical table accessed for the June 18 EURO STOXX 50 row; no archive artifact committed for this cycle."
+- id: S-2026-06-18-503
+  publisher: ADVFN
+  title: DAX More Historical Data - DAX Historical Prices
+  url: https://www.advfn.com/stock-market/DBI/DAX/historical/more-historical-data
+  canonical_url: https://www.advfn.com/stock-market/DBI/DAX/historical/more-historical-data
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: "Public ADVFN historical table accessed live; no archive artifact committed for this cycle."
+- id: S-2026-06-18-504
+  publisher: Yahoo Finance
+  title: CAC 40 (^FCHI) Historical Data
+  url: https://finance.yahoo.com/quote/%5EFCHI/history/
+  canonical_url: https://finance.yahoo.com/quote/%5EFCHI/history/
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: market_data
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: "Live Yahoo Finance historical table accessed for the June 18 CAC 40 row; no archive artifact committed for this cycle."
+- id: S-2026-06-18-505
+  publisher: Investors Chronicle
+  title: FTSE 100 Index historical prices
+  url: https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI
+  canonical_url: https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: market_data
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_provider
+  archive:
+    stored: false
+    reason: "Public Investors Chronicle/LSEG historical table accessed live; no archive artifact committed for this cycle."
+- id: S-2026-06-18-506
+  publisher: DPA via Yahoo Finance
+  title: European markets close broadly lower on interest rate concerns
+  url: https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html
+  canonical_url: https://finance.yahoo.com/economy/policy/articles/european-markets-close-broadly-lower-192636339.html
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18T20:26:00+01:00"
+  source_type: news_article
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: newswire_syndication
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance syndication accessed live; no archive artifact committed for this cycle."
+- id: S-2026-06-18-507
+  publisher: Bank of England
+  title: Bank Rate maintained at 3.75% - June 2026 Monetary Policy Summary and Minutes
+  url: https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026
+  canonical_url: https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026
+  accessed_at: "2026-06-19T10:50:05Z"
+  published_at: "2026-06-18"
+  source_type: official_central_bank_statement
+  retrieval_method: web_fetch
+  mutable: true
+  paywall: false
+  reliability_tier: official_central_bank
+  archive:
+    stored: false
+    reason: "Official Bank of England HTML statement accessed live; no archive artifact committed for this cycle."
