@@ -1,0 +1,105 @@
+- id: "S-2026-06-18-501"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  accessed_at: "2026-06-19T03:44:00Z"
+  published_at: "2026-06-18"
+  source_type: "government_data"
+  retrieval_method: "web_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "dynamic_government_table"
+- id: "S-2026-06-18-502"
+  publisher: "Trading Economics"
+  title: "United States Dollar - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/currency"
+  canonical_url: "https://tradingeconomics.com/united-states/currency"
+  accessed_at: "2026-06-19T03:46:00Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_quote_page"
+- id: "S-2026-06-18-503"
+  publisher: "Trading Economics"
+  title: "Crude Oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/crude-oil"
+  accessed_at: "2026-06-19T03:46:30Z"
+  published_at: "2026-06-18"
+  source_type: "market_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_quote_page"
+- id: "S-2026-06-18-504"
+  publisher: "Reuters"
+  title: "US weekly jobless claims stay elevated amid seasonal volatility, but labor market stable"
+  url: "https://www.spokesman.com/stories/2026/jun/18/us-weekly-jobless-claims-stay-elevated-amid-season/"
+  canonical_url: "https://www.spokesman.com/stories/2026/jun/18/us-weekly-jobless-claims-stay-elevated-amid-season/"
+  accessed_at: "2026-06-19T03:48:00Z"
+  published_at: "2026-06-18"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-18-505"
+  publisher: "IndexBox"
+  title: "Bank of England Holds Interest Rate at 3.75% in June 2026 Amid Mixed Inflation and Labour Data"
+  url: "https://www.indexbox.io/blog/bank-of-england-holds-rate-at-375-as-iran-war-inflation-fears-ease/"
+  canonical_url: "https://www.indexbox.io/blog/bank-of-england-holds-rate-at-375-as-iran-war-inflation-fears-ease/"
+  accessed_at: "2026-06-19T03:48:30Z"
+  published_at: "2026-06-18"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-18-506"
+  publisher: "investingLive"
+  title: "SNB leaves key policy rate unchanged at 0% in June meeting, as widely expected"
+  url: "https://investinglive.com/centralbank/snb-leaves-key-policy-rate-unchanged-at-0-in-june-meeting-as-widely-expected-20260618/"
+  canonical_url: "https://investinglive.com/centralbank/snb-leaves-key-policy-rate-unchanged-at-0-in-june-meeting-as-widely-expected-20260618/"
+  accessed_at: "2026-06-19T03:43:00Z"
+  published_at: "2026-06-18"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-18-507"
+  publisher: "Fortune"
+  title: "Current price of oil as of June 18, 2026"
+  url: "https://fortune.com/article/price-of-oil-06-18-2026/"
+  canonical_url: "https://fortune.com/article/price-of-oil-06-18-2026/"
+  accessed_at: "2026-06-19T03:46:45Z"
+  published_at: "2026-06-18"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
