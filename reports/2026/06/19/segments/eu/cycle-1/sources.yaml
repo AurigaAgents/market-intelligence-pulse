@@ -1,0 +1,105 @@
+- id: S-2026-06-19-501
+  publisher: Trading Economics
+  title: Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News
+  url: https://tradingeconomics.com/euro-area/stock-market
+  canonical_url: https://tradingeconomics.com/euro-area/stock-market
+  accessed_at: "2026-06-19T22:30:00Z"
+  published_at: "2026-06-19"
+  source_type: market_data
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: "Live Trading Economics Euro Area page accessed for the dated June 19 Friday wrap: EURO STOXX 50 eased 0.3% to 6,302 and STOXX Europe 600 dropped 0.2% to 636; weekly EU50 +1.9%, STOXX 600 +0.4%; luxury and tech movers. CFD-tracked index levels, no archive artifact committed for this cycle."
+- id: S-2026-06-19-502
+  publisher: Trading Economics
+  title: Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News
+  url: https://tradingeconomics.com/germany/stock-market
+  canonical_url: https://tradingeconomics.com/germany/stock-market
+  accessed_at: "2026-06-19T22:30:00Z"
+  published_at: "2026-06-19"
+  source_type: market_data
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: "Live Trading Economics Germany page accessed for the dated June 19 figure: DE40 fell to 24,986, losing 0.16% from the previous session, snapping a six-day advance on quad-witching; Volkswagen ex-dividend, defense gainers, Mercedes-Benz; weekly +1.6%. CFD-tracked index level, no archive artifact committed for this cycle."
+- id: S-2026-06-19-503
+  publisher: Trading Economics
+  title: France Stock Market Index (FR40) - Quote, Chart, Historical Data, News
+  url: https://tradingeconomics.com/france/stock-market
+  canonical_url: https://tradingeconomics.com/france/stock-market
+  accessed_at: "2026-06-19T22:30:00Z"
+  published_at: "2026-06-19"
+  source_type: market_data
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: data_aggregator
+  archive:
+    stored: false
+    reason: "Live Trading Economics France page accessed for the dated June 19 Friday wrap: FR40 fell to 8,421, losing 0.55% from the previous session after US-Iran Switzerland talks were called off; luxury and industrial movers; Wunsch ECB comment. CFD-tracked index level, no archive artifact committed for this cycle."
+- id: S-2026-06-19-504
+  publisher: Investors Chronicle
+  title: FTSE 100 Index historical prices
+  url: https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI
+  canonical_url: https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI
+  accessed_at: "2026-06-19T22:30:00Z"
+  published_at: "2026-06-19"
+  source_type: market_data
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: market_data_provider
+  archive:
+    stored: false
+    reason: "Public Investors Chronicle/LSEG historical table accessed live: Friday, June 19, 2026 open 10,400.46, high 10,418.58, low 10,352.90, close 10,363.27, volume 1,814,775,645; tearsheet header change -36.43 / -0.35%, data as of Jun 19 2026 16:45 BST; Thursday, June 18 close 10,399.70. Precise official FTSE 100 close; no archive artifact committed for this cycle."
+- id: S-2026-06-19-505
+  publisher: Reuters
+  title: European stocks tick lower as mining losses weigh
+  url: https://www.reuters.com/markets/europe/european-stocks-muted-us-iran-peace-talks-called-off-2026-06-19/
+  canonical_url: https://www.reuters.com/markets/europe/european-stocks-muted-us-iran-peace-talks-called-off-2026-06-19/
+  accessed_at: "2026-06-19T22:30:00Z"
+  published_at: "2026-06-19"
+  source_type: news_article
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: major_newswire
+  archive:
+    stored: false
+    reason: "Public Reuters Europe markets close wrap accessed live: STOXX 600 closed 0.2% lower with a 0.4% weekly gain after record highs; US-Iran Switzerland talks cancelled amid Israel-Hezbollah hostilities then ceasefire; mining -2.1% (Antofagasta, Pan African Resources), travel and leisure -0.9%, energy +1.3%; German PPI +2.2% y/y; ECB hiked the prior week with a July pause expected; PPHE takeover talks ended. No archive artifact committed for this cycle."
+- id: S-2026-06-19-506
+  publisher: RTTNews
+  title: Major European Markets Close Weak Amid US-Iran Peace Talks Uncertainty
+  url: https://www.rttnews.com/3661486/major-european-markets-close-weak-amid-us-iran-peace-talks-uncertainty.aspx
+  canonical_url: https://www.rttnews.com/3661486/major-european-markets-close-weak-amid-us-iran-peace-talks-uncertainty.aspx
+  accessed_at: "2026-06-19T22:30:00Z"
+  published_at: "2026-06-19T13:08:00-04:00"
+  source_type: news_article
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: true
+  reliability_tier: financial_news
+  archive:
+    stored: false
+    reason: "RTTNews European close wrap (published 6/19/2026 1:08 PM ET) accessed live; the index-level summary appeared in the free portion before the subscriber gate: Stoxx 600 -0.24%, FTSE 100 -0.35%, DAX -0.16%, CAC 40 -0.55%, Switzerland SMI +0.06%, driver the cancellation of US-Iran Switzerland talks after Israel-Hezbollah hostilities. No archive artifact committed for this cycle."
+- id: S-2026-06-19-507
+  publisher: Dow Jones Newswires via Morningstar
+  title: European Stocks Mixed, U.S. Markets Closed
+  url: https://www.morningstar.com/news/dow-jones/202606191187/european-stocks-mixed-us-markets-closed
+  canonical_url: https://www.morningstar.com/news/dow-jones/202606191187/european-stocks-mixed-us-markets-closed
+  accessed_at: "2026-06-19T22:30:00Z"
+  published_at: "2026-06-19T07:48:00Z"
+  source_type: news_article
+  retrieval_method: firecrawl_scrape
+  mutable: true
+  paywall: false
+  reliability_tier: newswire_syndication
+  archive:
+    stored: false
+    reason: "Dow Jones Newswires morning wrap (June 19, 2026 03:48 ET / 07:48 GMT) used only as holiday context: US markets closed, with the Stoxx Europe 600 flat in morning trading. Morning snapshot, not a close basis; no archive artifact committed for this cycle."
