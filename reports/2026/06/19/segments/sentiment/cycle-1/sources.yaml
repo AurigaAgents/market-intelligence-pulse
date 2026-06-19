@@ -1,0 +1,105 @@
+- id: "S-2026-06-19-701"
+  publisher: "CNN"
+  title: "Fear and Greed Index - Investor Sentiment"
+  url: "https://www.cnn.com/markets/fear-and-greed"
+  canonical_url: "https://edition.cnn.com/markets/fear-and-greed"
+  accessed_at: "2026-06-19T23:22:48Z"
+  published_at: "2026-06-18"
+  source_type: "sentiment_indicator"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "live_sentiment_dashboard"
+- id: "S-2026-06-19-702"
+  publisher: "CNBC"
+  title: "Global stock markets close lower on Friday as investors assess durability of U.S.-Iran peace deal"
+  url: "https://www.cnbc.com/2026/06/19/asia-pacific-markets-poised-for-mixed-open-as-iran-deal-faces-scrutiny.html"
+  canonical_url: "https://www.cnbc.com/2026/06/19/asia-pacific-markets-poised-for-mixed-open-as-iran-deal-faces-scrutiny.html"
+  accessed_at: "2026-06-19T23:23:30Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "dynamic_news_page"
+- id: "S-2026-06-19-703"
+  publisher: "Reuters"
+  title: "Brent set for 8% weekly fall as Israel, Hezbollah agree ceasefire"
+  url: "https://www.reuters.com/business/energy/oil-falls-supply-starts-moving-through-strait-hormuz-2026-06-19/"
+  canonical_url: "https://www.reuters.com/business/energy/oil-falls-supply-starts-moving-through-strait-hormuz-2026-06-19/"
+  accessed_at: "2026-06-19T23:23:13Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-19-704"
+  publisher: "CNN"
+  title: "Oil prices are falling and stocks are up. Traders worry they've gone too far"
+  url: "https://edition.cnn.com/2026/06/19/business/markets-oil-stocks-gas-strait-of-hormuz"
+  canonical_url: "https://edition.cnn.com/2026/06/19/business/markets-oil-stocks-gas-strait-of-hormuz"
+  accessed_at: "2026-06-19T23:22:59Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-19-705"
+  publisher: "Al Jazeera"
+  title: "Oil prices rise as Lebanon fighting erupts and Hormuz traffic still slow"
+  url: "https://www.aljazeera.com/economy/2026/6/19/oil-prices-rise-as-lebanon-fighting-erupts-and-hormuz-traffic-still-slow"
+  canonical_url: "https://www.aljazeera.com/economy/2026/6/19/oil-prices-rise-as-lebanon-fighting-erupts-and-hormuz-traffic-still-slow"
+  accessed_at: "2026-06-19T23:23:12Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-19-706"
+  publisher: "Associated Press"
+  title: "World shares are mixed and US futures fall after a tech-led rally on Wall St"
+  url: "https://www.wsls.com/business/2026/06/19/asian-shares-retreat-in-thin-holiday-trading-after-a-tech-led-rally-on-wall-st/"
+  canonical_url: "https://apnews.com/article/world-shares-mixed-us-futures-fall-tech-led-rally-wall-st"
+  accessed_at: "2026-06-19T23:23:30Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-19-707"
+  publisher: "Trading Economics"
+  title: "Brent crude oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  accessed_at: "2026-06-19T23:23:13Z"
+  published_at: "2026-06-19"
+  source_type: "market_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
