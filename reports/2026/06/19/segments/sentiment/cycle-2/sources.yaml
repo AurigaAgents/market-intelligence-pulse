@@ -1,0 +1,150 @@
+- id: "S-2026-06-19-721"
+  publisher: "Yahoo Finance"
+  title: "Key closures on Juneteenth include these markets. 2026 schedule"
+  url: "https://finance.yahoo.com/markets/stocks/articles/key-closures-juneteenth-markets-2026-182108105.html"
+  canonical_url: "https://finance.yahoo.com/markets/stocks/articles/key-closures-juneteenth-markets-2026-182108105.html"
+  accessed_at: "2026-06-19T23:52:30Z"
+  published_at: "2026-06-19"
+  source_type: "reference"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-19-722"
+  publisher: "MarineLink"
+  title: "Brent Oil Remains On Track for 8% Weekly Decline as Israel, Hezbollah Agree to Ceasefire (Reuters)"
+  url: "https://www.marinelink.com/news/brent-oil-remains-track-weekly-decline-540492"
+  canonical_url: "https://www.marinelink.com/news/brent-oil-remains-track-weekly-decline-540492"
+  accessed_at: "2026-06-19T23:56:10Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-19-723"
+  publisher: "Trading Economics"
+  title: "Japanese Shares Scale Fresh Record Highs - Japan Stock Market Index (JP225)"
+  url: "https://tradingeconomics.com/japan/stock-market/news/528482"
+  canonical_url: "https://tradingeconomics.com/japan/stock-market"
+  accessed_at: "2026-06-19T23:53:05Z"
+  published_at: "2026-06-19"
+  source_type: "market_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
+- id: "S-2026-06-19-724"
+  publisher: "CNBC"
+  title: "Japan core inflation holds steady in May, matching expectations despite energy price concerns"
+  url: "https://www.cnbc.com/2026/06/19/japan-core-inflation-holds-steady-in-may-matching-expectations-despite-energy-price-concerns.html"
+  canonical_url: "https://www.cnbc.com/2026/06/19/japan-core-inflation-holds-steady-in-may-matching-expectations-despite-energy-price-concerns.html"
+  accessed_at: "2026-06-19T23:55:40Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-19-725"
+  publisher: "Japan Today"
+  title: "Bank of Japan hikes rate to 31-year high of 1%"
+  url: "https://japantoday.com/category/business/bank-of-japan-hikes-rate-to-31-year-high"
+  canonical_url: "https://japantoday.com/category/business/bank-of-japan-hikes-rate-to-31-year-high"
+  accessed_at: "2026-06-19T23:55:42Z"
+  published_at: "2026-06-16"
+  source_type: "news_article"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "general_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-19-726"
+  publisher: "CBS News"
+  title: "U.S.-Iran deal signing sets stage for nuclear negotiations, but initial talks in Switzerland postponed"
+  url: "https://www.cbsnews.com/live-updates/iran-war-trump-us-deal-strait-of-hormuz/"
+  canonical_url: "https://www.cbsnews.com/live-updates/iran-war-trump-us-deal-strait-of-hormuz/"
+  accessed_at: "2026-06-19T23:57:20Z"
+  published_at: "2026-06-19"
+  source_type: "news_liveblog"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "general_news"
+  archive:
+    stored: false
+    reason: "live_liveblog_page"
+- id: "S-2026-06-19-727"
+  publisher: "Yahoo Finance (Reuters)"
+  title: "Key European markets close weak amid uncertainty over US-Iran talks"
+  url: "https://finance.yahoo.com/markets/world-indices/articles/key-european-markets-close-weak-174415732.html"
+  canonical_url: "https://finance.yahoo.com/markets/world-indices/articles/key-european-markets-close-weak-174415732.html"
+  accessed_at: "2026-06-19T23:58:30Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-19-728"
+  publisher: "Trading Economics"
+  title: "United Kingdom Stock Market Index (GB100) - FTSE 100 and UK 10Y gilt yield"
+  url: "https://tradingeconomics.com/united-kingdom/stock-market"
+  canonical_url: "https://tradingeconomics.com/united-kingdom/stock-market"
+  accessed_at: "2026-06-19T23:58:35Z"
+  published_at: "2026-06-19"
+  source_type: "market_data"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "live_data_page"
+- id: "S-2026-06-19-729"
+  publisher: "The Sunday Guardian"
+  title: "US Stock Market Open or Closed Today: Why Dow Jones, S&P 500, NYSE & Nasdaq Are Shut on June 19, 2026 - Juneteenth"
+  url: "https://sundayguardianlive.com/business/us-stock-market-open-or-closed-today-why-dow-jones-sp-500-nyse-nasdaq-are-shut-on-june-19-2026-juneteenth-what-investors-must-know-209782/"
+  canonical_url: "https://sundayguardianlive.com/business/us-stock-market-open-or-closed-today-why-dow-jones-sp-500-nyse-nasdaq-are-shut-on-june-19-2026-juneteenth-what-investors-must-know-209782/"
+  accessed_at: "2026-06-19T23:57:00Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "general_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
+- id: "S-2026-06-19-730"
+  publisher: "TheStreet"
+  title: "Stock Market Today (June 18, 2026): Russell 2000, Nasdaq rise after Fed surprise, U.S. ends Iran blockade"
+  url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026"
+  canonical_url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-18-2026"
+  accessed_at: "2026-06-19T23:57:05Z"
+  published_at: "2026-06-18"
+  source_type: "news_article"
+  retrieval_method: "web_search"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "copyright_or_dynamic_page"
