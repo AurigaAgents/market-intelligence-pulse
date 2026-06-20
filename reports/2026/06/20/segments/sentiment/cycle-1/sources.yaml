@@ -1,0 +1,208 @@
+- id: "S-2026-06-20-701"
+  publisher: "whit3rabbit/fear-greed-data"
+  title: "fear-greed.csv"
+  url: "https://raw.githubusercontent.com/whit3rabbit/fear-greed-data/main/fear-greed.csv"
+  canonical_url: "https://github.com/whit3rabbit/fear-greed-data"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-19T00:59:47Z"
+  source_type: "market_sentiment_dataset"
+  retrieval_method: "raw_csv_fetch_live_public_repository"
+  mutable: true
+  paywall: false
+  reliability_tier: "public_cnn_endpoint_mirror"
+  archive:
+    stored: false
+    reason: "Public raw GitHub CSV accessed live. Tail rows showed 2026-06-18 and 2026-06-19 both at 37.2571428571429, rating fear; 2026-06-12 was 35.5142857142857 and 2026-05-19 implied by the JSON previous_1_month field was 59.3714285714286. The repository documents that 2021-02-01 onward is regenerated from CNN's live endpoint. CNN's endpoint returned a bot block to direct curl during this cycle, so the mirror is used transparently."
+- id: "S-2026-06-20-702"
+  publisher: "MacroMicro"
+  title: "CNN Fear and Greed Index"
+  url: "https://en.macromicro.me/charts/80897/CNN-Fear-and-Greed-Index"
+  canonical_url: "https://en.macromicro.me/charts/80897/CNN-Fear-and-Greed-Index"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-19"
+  source_type: "market_sentiment_chart"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "sentiment_data_aggregator"
+  archive:
+    stored: false
+    reason: "MacroMicro search result and page access during this cycle showed Latest Stats for CNN Fear and Greed Index at 2026-06-19, 37.26, corroborating the public GitHub mirror. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-703"
+  publisher: "Cboe Global Markets"
+  title: "VIX Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-19"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public CSV accessed live. Tail rows included 06/17/2026 close 18.44, 06/18/2026 open 17.23 high 17.60 low 16.35 close 16.40, and 06/19/2026 open 17.04 high 17.27 low 16.72 close 16.78. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-704"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 9-Day Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-18"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX9D CSV accessed live. Latest row shown in the fetched tail was 06/18/2026 open 15.30 high 16.40 low 13.92 close 13.93. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-705"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 3-Month Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-18"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX3M CSV accessed live. Latest row shown in the fetched tail was 06/18/2026 open 19.69 high 20.07 low 19.50 close 19.57. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-706"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 6-Month Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-18"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX6M CSV accessed live. Latest row shown in the fetched tail was 06/18/2026 open 21.98 high 22.27 low 21.92 close 21.99. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-707"
+  publisher: "Cboe Global Markets"
+  title: "Cboe Daily Market Statistics"
+  url: "https://www.cboe.com/markets/us/options/market-statistics/daily/"
+  canonical_url: "https://www.cboe.com/markets/us/options/market-statistics/daily/"
+  accessed_at: "2026-06-20T23:10:41Z"
+  source_type: "official_options_market_statistics"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_statistics"
+  archive:
+    stored: false
+    reason: "Cboe public daily market statistics page accessed live. Ratios table showed total put/call 0.91, index put/call 1.17, ETP put/call 1.10, equity put/call 0.58, VIX put/call 0.20, SPX + SPXW put/call 1.32. Volume table showed all-products calls 8,507,519, puts 7,735,936, total 16,243,455; equity-options calls 3,510,642, puts 2,051,457, total 5,562,099. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-708"
+  publisher: "YCharts"
+  title: "CBOE Equity Put/Call Ratio"
+  url: "https://ycharts.com/indicators/cboe_equity_put_call_ratio"
+  canonical_url: "https://ycharts.com/indicators/cboe_equity_put_call_ratio"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-18T23:30:00-04:00"
+  source_type: "market_data_provider"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider_cboe_sourced"
+  archive:
+    stored: false
+    reason: "Public YCharts page accessed live. It reported CBOE Equity Put/Call Ratio 0.58 for Jun 18 2026, last updated Jun 18 2026 23:30 EDT, source Chicago Board Options Exchange, with historical rows showing 0.59 on Jun 17 and 0.59 on Jun 16. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-709"
+  publisher: "YCharts"
+  title: "CBOE Total Put/Call Ratio"
+  url: "https://ycharts.com/indicators/total_putcall_ratio"
+  canonical_url: "https://ycharts.com/indicators/total_putcall_ratio"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-18T23:30:00-04:00"
+  source_type: "market_data_provider"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider_cboe_sourced"
+  archive:
+    stored: false
+    reason: "Public YCharts page accessed live. It reported CBOE Total Put/Call Ratio 0.91 for Jun 18 2026, last updated Jun 18 2026 23:30 EDT, source Chicago Board Options Exchange, with historical rows showing 0.86 on Jun 17 and 0.84 on Jun 16. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-710"
+  publisher: "Seeking Alpha / AAII"
+  title: "AAII Sentiment Survey: Pessimism Draws Back"
+  url: "https://seekingalpha.com/article/4916123-aaii-sentiment-survey-pessimism-draws-back"
+  canonical_url: "https://seekingalpha.com/article/4916123-aaii-sentiment-survey-pessimism-draws-back"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-18T14:20:00-04:00"
+  source_type: "sentiment_survey_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "survey_publisher_post"
+  archive:
+    stored: false
+    reason: "Public Seeking Alpha page by AAII accessed live. Summary stated bullish sentiment increased 6.2 percentage points to 36.6%, neutral sentiment increased 2.1 percentage points to 24.1%, and bearish sentiment decreased 8.3 percentage points to 39.4%. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-711"
+  publisher: "Investment Company Institute"
+  title: "Release: Combined Estimated Long-Term Flows and ETF Net Issuance"
+  url: "https://www.ici.org/research/stats/combined_flows"
+  canonical_url: "https://www.ici.org/research/stats/combined_flows"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-17"
+  source_type: "fund_flow_release"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "industry_association_statistics"
+  archive:
+    stored: false
+    reason: "ICI public release accessed live. For week ended 2026-06-10 it reported total estimated long-term mutual fund and ETF inflows of $31.52 billion, mutual fund outflows of $16.81 billion, ETF net issuance of $48.33 billion, equity inflows of $16.64 billion, domestic equity inflows of $18.28 billion, bond inflows of $18.21 billion, and commodity outflows of $2.27 billion. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-712"
+  publisher: "ETF.com"
+  title: "U.S. Equities Draw In $22.8B During SpaceX IPO Week"
+  url: "https://www.etf.com/sections/weekly-etf-flows/us-equities-draw-228b-during-spacex-ipo-week"
+  canonical_url: "https://www.etf.com/sections/weekly-etf-flows/us-equities-draw-228b-during-spacex-ipo-week"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-15"
+  source_type: "etf_flow_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_media_flow_data"
+  archive:
+    stored: false
+    reason: "Public ETF.com weekly flow article accessed live. It reported $41.80292 billion of total weekly US-listed ETF net flows for the week ending Friday 2026-06-12, including US equity +$22.82601 billion, US fixed income +$11.06851 billion, commodities -$1.70351 billion, VOO +$48.15254 billion, SPY +$8.84344 billion, QQQ -$1.65081 billion, and GLD -$873.17 million. Data as of 6 a.m. ET on publication date. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-713"
+  publisher: "New York Stock Exchange"
+  title: "Holidays & Trading Hours"
+  url: "https://www.nyse.com/markets/hours-calendars"
+  canonical_url: "https://www.nyse.com/trade/hours-calendars"
+  accessed_at: "2026-06-20T23:10:41Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_calendar"
+  archive:
+    stored: false
+    reason: "Official NYSE holidays and trading-hours page accessed live. It lists Juneteenth National Independence Day on Friday, June 19, 2026 and shows core NYSE trading sessions at 9:30 a.m. to 4:00 p.m. ET for regular trading sessions. June 20, 2026 was a Saturday, so the sentiment report-date basis is weekend no-session. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-714"
+  publisher: "ETF.com"
+  title: "ETF Fund Flows: SMH Adds $6.9B on Semiconductor Fervor"
+  url: "https://www.etf.com/sections/daily-etf-flows/etf-fund-flows-smh-adds-69b-semiconductor-fervor"
+  canonical_url: "https://www.etf.com/sections/daily-etf-flows/etf-fund-flows-smh-adds-69b-semiconductor-fervor"
+  accessed_at: "2026-06-20T23:10:41Z"
+  published_at: "2026-06-18"
+  source_type: "etf_flow_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_media_flow_data"
+  archive:
+    stored: false
+    reason: "Public ETF.com daily flow article accessed live. It reported daily total ETF flows of $64.55 billion, US equity ETF flows of $53.80392 billion, SMH inflows of $6.93293 billion, QQQ inflows of $3.42966 billion, IVV inflows of $20.44421 billion, commodity ETF inflows of $191.42 million, and US fixed income inflows of $1.43992 billion. Data as of 6 a.m. ET on publication date. No archive artifact committed for this cycle."
