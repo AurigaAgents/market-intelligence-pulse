@@ -1,0 +1,90 @@
+- id: "S-2026-06-20-601"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-20T22:54:53Z"
+  published_at: "2026-06-18"
+  source_type: "government_data"
+  retrieval_method: "web_fetch_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury par-yield CSV fetched live on June 20: last row is 06/18/2026 (2Y 4.19, 10Y 4.46, 30Y 4.90); no 06/19/2026 or 06/20/2026 row exists, confirming the Juneteenth-plus-weekend gap. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-20-602"
+  publisher: "CNBC"
+  title: "Iran reportedly closes Strait of Hormuz again, casting shadow over nuclear talks"
+  url: "https://www.cnbc.com/2026/06/20/iran-reportedly-closes-strait-of-hormuz-again-raising-doubt-over-talks.html"
+  canonical_url: "https://www.cnbc.com/2026/06/20/iran-reportedly-closes-strait-of-hormuz-again-raising-doubt-over-talks.html"
+  accessed_at: "2026-06-20T22:53:00Z"
+  published_at: "2026-06-20"
+  source_type: "news_article_market_report"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Dated June 20 CNBC report scraped live: Iran's Hormuz re-closure declaration, the U.S. CENTCOM denial (Capt. Tim Hawkins), record tanker flow, the Wednesday interim deal, Sunday Switzerland talks and Trump's toll threat. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-20-603"
+  publisher: "PBS NewsHour (Associated Press)"
+  title: "Trump threatens to charge U.S. tolls in Strait of Hormuz if final Iran deal not reached in 60 days"
+  url: "https://www.pbs.org/newshour/world/trump-threatens-to-charge-us-tolls-in-strait-of-hormuz-if-final-iran-deal-not-reached-in-60-days"
+  canonical_url: "https://www.pbs.org/newshour/world/trump-threatens-to-charge-us-tolls-in-strait-of-hormuz-if-final-iran-deal-not-reached-in-60-days"
+  accessed_at: "2026-06-20T22:53:00Z"
+  published_at: "2026-06-20"
+  source_type: "news_article_wire_service"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service_via_public_broadcaster"
+  archive:
+    stored: false
+    reason: "Dated June 20 (4:03 PM EDT) AP report via PBS scraped live: Iran's stated closure rationale, 55 ships / 17M+ bbl transiting Saturday, Lebanon casualties and >4,000 death toll, Hezbollah/Israel cease-fire signals, and the 60-day final-deal window. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-20-604"
+  publisher: "Trading Economics"
+  title: "Brent crude oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  accessed_at: "2026-06-20T22:55:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Brent page scraped live (last updated June 20): Brent rose to $80.59/Bbl on June 19, +0.93% on the day and roughly -8% on the week, with thin Friday Gulf traffic and Tehran's mandatory-insurance demand noted. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-20-605"
+  publisher: "Trading Economics"
+  title: "United States Dollar - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/currency"
+  canonical_url: "https://tradingeconomics.com/united-states/currency"
+  accessed_at: "2026-06-20T22:55:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics U.S. Dollar page scraped live (last updated June 20): DXY around 100.8 on June 19 (spot 100.7852, -0.06%), near one-year highs, +1.1% on the week, on a hawkish Fed signal, about half of FOMC projecting a hike, Chair Kevin Warsh, and ~50% odds of a September 25 bp hike. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-20-606"
+  publisher: "CNBC"
+  title: "DXY: ICE U.S. Dollar Index - Stock Price, Quote and News"
+  url: "https://www.cnbc.com/quotes/.DXY"
+  canonical_url: "https://www.cnbc.com/quotes/.DXY"
+  accessed_at: "2026-06-20T22:55:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data_quote_page"
+  retrieval_method: "web_search"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_market_data"
+  archive:
+    stored: false
+    reason: "CNBC .DXY quote cross-check read via web search result: prior close 100.849, day high 101.127, day low 100.697, open 100.813, 52-week high 101.13 dated 06/19/26. Used to corroborate the dollar's level and fresh 52-week high. No archive artifact committed for this segment cycle."
