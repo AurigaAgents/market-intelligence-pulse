@@ -1,0 +1,58 @@
+- id: "S-2026-06-20-101"
+  publisher: "Yahoo Finance"
+  title: "Is the stock market open on Juneteenth? Here's the holiday trading schedule in 2026."
+  url: "https://finance.yahoo.com/personal-finance/investing/article/is-the-stock-market-open-on-juneteenth-heres-the-holiday-trading-schedule-in-2026-210239142.html"
+  canonical_url: "https://finance.yahoo.com/personal-finance/investing/article/is-the-stock-market-open-on-juneteenth-heres-the-holiday-trading-schedule-in-2026-210239142.html"
+  accessed_at: "2026-06-20T22:09:24Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_media"
+  archive:
+    stored: false
+    reason: "Public Yahoo Finance schedule article accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-20-102"
+  publisher: "New York Stock Exchange"
+  title: "Holidays & Trading Hours"
+  url: "https://www.nyse.com/trade/hours-calendars"
+  canonical_url: "https://www.nyse.com/trade/hours-calendars"
+  accessed_at: "2026-06-20T22:10:00Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "Official NYSE holiday and trading-hours calendar accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-20-103"
+  publisher: "Nasdaq"
+  title: "U.S. Stock Market Holiday Schedule"
+  url: "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+  canonical_url: "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+  accessed_at: "2026-06-20T22:10:00Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "Official Nasdaq US stock-market holiday schedule accessed live; no archive artifact committed for this cycle."
+- id: "S-2026-06-20-104"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Thursday 6/18/2026"
+  url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+  canonical_url: "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+  accessed_at: "2026-06-20T22:09:22Z"
+  published_at: "2026-06-18"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Public AP closing-index ledger accessed live; used only as last-regular-session context. No archive artifact committed for this cycle."
