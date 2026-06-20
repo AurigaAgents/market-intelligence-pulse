@@ -1,0 +1,163 @@
+- id: "S-2026-06-20-601"
+  publisher: "Japan Exchange Group"
+  title: "Market Holidays"
+  url: "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/"
+  canonical_url: "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/"
+  accessed_at: "2026-06-20T22:39:00Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "Official JPX market-holidays page accessed live: JPX markets are closed on Saturdays, Sundays, national holidays and listed exchange holidays; no June 20 cash-equity session is available because June 20, 2026 is a Saturday. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-602"
+  publisher: "HKEX"
+  title: "HKEX Calendar"
+  url: "https://www.hkex.com.hk/News/HKEX-Calendar?sc_lang=en"
+  canonical_url: "https://www.hkex.com.hk/News/HKEX-Calendar?sc_lang=en"
+  accessed_at: "2026-06-20T22:39:00Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "Official HKEX calendar notice accessed live: Hong Kong markets were closed on Friday, June 19, 2026, while some derivatives holiday-trading products remained available; Hong Kong markets re-open as usual on Monday, June 22. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-603"
+  publisher: "Federal Reserve Bank of St. Louis FRED"
+  title: "Nikkei Stock Average, Nikkei 225 (NIKKEI225)"
+  url: "https://fred.stlouisfed.org/series/NIKKEI225"
+  canonical_url: "https://fred.stlouisfed.org/series/NIKKEI225"
+  accessed_at: "2026-06-20T22:39:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_rehosted_index_data"
+  archive:
+    stored: false
+    reason: "FRED Nikkei 225 series accessed live: 2026-06-19 close 71,250.06; 2026-06-18 close 71,053.49; next release date June 22, 2026. FRED states observations represent daily market-close index values and identifies Nikkei Industry Research Institute / Nikkei Indexes as source. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-604"
+  publisher: "Trading Economics"
+  title: "Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/japan/stock-market"
+  canonical_url: "https://tradingeconomics.com/japan/stock-market"
+  accessed_at: "2026-06-20T22:39:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Japan page accessed: JP225 71,250.06 on June 19, 2026, +196.57 / +0.28%; page notes technology shares mostly advanced while financial, industrial and consumer stocks were weaker, and that Japan's index reached an all-time high in June 2026. Data are described as CFD-tracked market reference, so the basis is disclosed in claims. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-605"
+  publisher: "Trading Economics"
+  title: "Hong Kong Stock Market Index (HK50) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/hong-kong/stock-market"
+  canonical_url: "https://tradingeconomics.com/hong-kong/stock-market"
+  accessed_at: "2026-06-20T22:39:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Hong Kong page accessed: HK50 23,924.81 on June 18, 2026, -387.35 / -1.59%; page states the Hong Kong market was closed on Friday for a public holiday and would resume trading on Monday. Data are CFD-tracked market reference, so the basis is disclosed in claims. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-606"
+  publisher: "Trading Economics"
+  title: "China Shanghai Composite Stock Market Index - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/china/stock-market"
+  canonical_url: "https://tradingeconomics.com/china/stock-market"
+  accessed_at: "2026-06-20T22:39:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics China page accessed: Shanghai Composite 4,090.48 on June 18, 2026, -17.59 / -0.43%; CSI 300 4,941.60, +10.21 / +0.21%; page states markets would be closed on June 19 for the Dragon Boat Festival holiday. Data are CFD-tracked market reference, so the basis is disclosed in claims. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-607"
+  publisher: "Trading Economics"
+  title: "BSE SENSEX Stock Market Index - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/india/stock-market"
+  canonical_url: "https://tradingeconomics.com/india/stock-market"
+  accessed_at: "2026-06-20T22:39:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics India page accessed: SENSEX 76,802.90 on June 19, 2026, -607.07 / -0.78%; NIFTY 50 24,013.10, -154.90 / -0.64%; page notes the index still advanced 1.7% for the week. Data are CFD-tracked market reference, so the basis is disclosed in claims. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-608"
+  publisher: "Trading Economics"
+  title: "South Korea Stock Market - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/south-korea/stock-market"
+  canonical_url: "https://tradingeconomics.com/south-korea/stock-market"
+  accessed_at: "2026-06-20T22:39:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics South Korea page accessed: KOSPI 9,052.42 on June 19, 2026, -11.42 / -0.13%; page says renewed Middle East uncertainty and cancelled US-Iran talks prompted profit-taking after a rally to record highs, while foreign investors remained net buyers. Data are CFD-tracked market reference, so the basis is disclosed in claims. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-609"
+  publisher: "Trading Economics"
+  title: "Taiwan Stock Market Index (TWSE) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/taiwan/stock-market"
+  canonical_url: "https://tradingeconomics.com/taiwan/stock-market"
+  accessed_at: "2026-06-20T22:39:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Taiwan page accessed: TSI 46,465.20 on June 18, 2026, +587.81 / +1.28%; page says the index reached an all-time high in June 2026 and lists Taiwan Semiconductor +1.05% on June 18. Data are CFD-tracked market reference, so the basis is disclosed in claims. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-610"
+  publisher: "Trading Economics"
+  title: "Australia Stock Market Index - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/australia/stock-market"
+  canonical_url: "https://tradingeconomics.com/australia/stock-market"
+  accessed_at: "2026-06-20T22:39:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Australia page accessed: ASX200 8,828.70 on June 19, 2026, -82.40 / -0.92%; page says non-energy minerals and industrials were among top losers, BHP fell after flagging cost overruns and impairment, and the index still advanced 0.3% for the week. Data are CFD-tracked market reference, so the basis is disclosed in claims. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-611"
+  publisher: "Trading Economics"
+  title: "Singapore Stock Market (STI) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/singapore/stock-market"
+  canonical_url: "https://tradingeconomics.com/singapore/stock-market"
+  accessed_at: "2026-06-20T22:39:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Singapore page accessed: STI 5,192.70 on June 19, 2026, -20.14 / -0.39%; page says the STI reached an all-time high in June 2026 and lists bank-component weakness on June 19. Data are CFD-tracked market reference, so the basis is disclosed in claims. No archive artifact committed for this cycle."
