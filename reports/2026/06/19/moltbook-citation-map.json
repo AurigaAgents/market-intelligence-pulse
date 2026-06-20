@@ -1,0 +1,1050 @@
+{
+  "deep_dive": {
+    "citation_group_count": 6,
+    "claim_map": {
+      "C-2026-06-19-ASIA-C1-REGIONAL-BREADTH": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-201",
+            "source_key": "S201",
+            "support": "inference_base",
+            "visible_reference_key": "nikkei indexes|https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06192026&idx=nk225",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-19-202",
+            "source_key": "S202",
+            "support": "inference_base",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/19/asia-pacific-markets-poised-for-mixed-open-as-iran-deal-faces-scrutiny.html",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-19-205",
+            "source_key": "S205",
+            "support": "inference_base",
+            "visible_reference_key": "investing.com|https://www.investing.com/indices/topix-historical-data",
+            "visible_reference_number": 13
+          },
+          {
+            "source_id": "S-2026-06-19-203",
+            "source_key": "S203",
+            "support": "context",
+            "visible_reference_key": "associated press / u.s. news & world report|https://www.usnews.com/news/business/articles/2026-06-19/asian-shares-retreat-in-thin-holiday-trading-after-a-tech-led-rally-on-wall-st",
+            "visible_reference_number": 14
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      "C-2026-06-19-EU-C1-SESSION-DRIVER": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-405",
+            "source_key": "S405",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/markets/europe/european-stocks-muted-us-iran-peace-talks-called-off-2026-06-19",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-19-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "rttnews|https://www.rttnews.com/3661486/major-european-markets-close-weak-amid-us-iran-peace-talks-uncertainty.aspx",
+            "visible_reference_number": 8
+          },
+          {
+            "source_id": "S-2026-06-19-407",
+            "source_key": "S407",
+            "support": "context",
+            "visible_reference_key": "dow jones newswires via morningstar|https://www.morningstar.com/news/dow-jones/202606191187/european-stocks-mixed-us-markets-closed",
+            "visible_reference_number": 9
+          },
+          {
+            "source_id": "S-2026-06-19-402",
+            "source_key": "S402",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 10
+          }
+        ],
+        "visible_reference_numbers": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "C-2026-06-19-MACRO-C1-OIL-BRENT": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-612",
+            "source_key": "S612",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/bz=f/history",
+            "visible_reference_number": 3
+          },
+          {
+            "source_id": "S-2026-06-19-613",
+            "source_key": "S613",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/commodity/brent-crude-oil",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-19-602",
+            "source_key": "S602",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/china/global-markets-global-markets-2026-06-19",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          2,
+          3,
+          4
+        ]
+      },
+      "C-2026-06-19-MACRO-C1-US-HOLIDAY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-601",
+            "source_key": "S601",
+            "support": "direct",
+            "visible_reference_key": "sifma|https://www.sifma.org/resources/guides-playbooks/holiday-schedule",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-19-602",
+            "source_key": "S602",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/china/global-markets-global-markets-2026-06-19",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      },
+      "C-2026-06-19-SENT-C2-011": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-706",
+            "source_key": "S706",
+            "support": "direct",
+            "visible_reference_key": "cbs news|https://www.cbsnews.com/live-updates/iran-war-trump-us-deal-strait-of-hormuz",
+            "visible_reference_number": 5
+          },
+          {
+            "source_id": "S-2026-06-19-702",
+            "source_key": "S702",
+            "support": "context",
+            "visible_reference_key": "marinelink|https://www.marinelink.com/news/brent-oil-remains-track-weekly-decline-540492",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          5,
+          6
+        ]
+      },
+      "C-2026-06-19-SENT-C2-013": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-707",
+            "source_key": "S707",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance (reuters)|https://finance.yahoo.com/markets/world-indices/articles/key-european-markets-close-weak-174415732.html",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-19-703",
+            "source_key": "S703",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/japan/stock-market",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-19-702",
+            "source_key": "S702",
+            "support": "context",
+            "visible_reference_key": "marinelink|https://www.marinelink.com/news/brent-oil-remains-track-weekly-decline-540492",
+            "visible_reference_number": 6
+          },
+          {
+            "source_id": "S-2026-06-19-709",
+            "source_key": "S709",
+            "support": "context",
+            "visible_reference_key": "the sunday guardian|https://sundayguardianlive.com/business/us-stock-market-open-or-closed-today-why-dow-jones-sp-500-nyse-nasdaq-are-shut-on-june-19-2026-juneteenth-what-investors-must-know-209782",
+            "visible_reference_number": 17
+          }
+        ],
+        "visible_reference_numbers": [
+          6,
+          15,
+          16,
+          17
+        ]
+      },
+      "C-2026-06-19-US-C1-REOPEN": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "usa today|https://www.usatoday.com/story/money/investing/2026/06/18/stock-market-open-closed-juneteenth-2026/90586801007",
+            "visible_reference_number": 18
+          },
+          {
+            "source_id": "S-2026-06-19-003",
+            "source_key": "S003",
+            "support": "context",
+            "visible_reference_key": "new york stock exchange|https://www.nyse.com/trade/hours-calendars",
+            "visible_reference_number": 19
+          }
+        ],
+        "visible_reference_numbers": [
+          18,
+          19
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": true,
+    "generated_at": "2026-06-20T07:13:01Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 5584,
+    "reference_count": 19,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-601": "2026-06-19T23:19:00Z"
+        },
+        "number": 1,
+        "published_at": null,
+        "publisher": "SIFMA",
+        "selected_source_id": "S-2026-06-19-601",
+        "source_ids": [
+          "S-2026-06-19-601"
+        ],
+        "title": "SIFMA Fixed Income Market Close Recommendation in the U.S., the U.K. and Japan for Juneteenth 2026",
+        "url": "https://www.sifma.org/resources/guides-playbooks/holiday-schedule"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-602": "2026-06-19T23:19:00Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-19",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-19-602",
+        "source_ids": [
+          "S-2026-06-19-602"
+        ],
+        "title": "Shares ease as investors ponder US-Iran peace talks; yen nears 40-year lows",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-19/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-612": "2026-06-19T23:19:00Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-19",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-19-612",
+        "source_ids": [
+          "S-2026-06-19-612"
+        ],
+        "title": "Brent Crude Oil Last Day Financ (BZ=F) Historical Prices",
+        "url": "https://finance.yahoo.com/quote/BZ=F/history/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-613": "2026-06-19T23:19:00Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-19",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-19-613",
+        "source_ids": [
+          "S-2026-06-19-613"
+        ],
+        "title": "Brent crude oil - Price - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-706": "2026-06-19T23:57:20Z"
+        },
+        "number": 5,
+        "published_at": "2026-06-19",
+        "publisher": "CBS News",
+        "selected_source_id": "S-2026-06-19-706",
+        "source_ids": [
+          "S-2026-06-19-706"
+        ],
+        "title": "U.S.-Iran deal signing sets stage for nuclear negotiations, but initial talks in Switzerland postponed",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-deal-strait-of-hormuz/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-702": "2026-06-19T23:56:10Z"
+        },
+        "number": 6,
+        "published_at": "2026-06-19",
+        "publisher": "MarineLink",
+        "selected_source_id": "S-2026-06-19-702",
+        "source_ids": [
+          "S-2026-06-19-702"
+        ],
+        "title": "Brent Oil Remains On Track for 8% Weekly Decline as Israel, Hezbollah Agree to Ceasefire (Reuters)",
+        "url": "https://www.marinelink.com/news/brent-oil-remains-track-weekly-decline-540492"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-405": "2026-06-19T22:30:00Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-19",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-19-405",
+        "source_ids": [
+          "S-2026-06-19-405"
+        ],
+        "title": "European stocks tick lower as mining losses weigh",
+        "url": "https://www.reuters.com/markets/europe/european-stocks-muted-us-iran-peace-talks-called-off-2026-06-19/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-406": "2026-06-19T22:30:00Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-19T13:08:00-04:00",
+        "publisher": "RTTNews",
+        "selected_source_id": "S-2026-06-19-406",
+        "source_ids": [
+          "S-2026-06-19-406"
+        ],
+        "title": "Major European Markets Close Weak Amid US-Iran Peace Talks Uncertainty",
+        "url": "https://www.rttnews.com/3661486/major-european-markets-close-weak-amid-us-iran-peace-talks-uncertainty.aspx"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-407": "2026-06-19T22:30:00Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-19T07:48:00Z",
+        "publisher": "Dow Jones Newswires via Morningstar",
+        "selected_source_id": "S-2026-06-19-407",
+        "source_ids": [
+          "S-2026-06-19-407"
+        ],
+        "title": "European Stocks Mixed, U.S. Markets Closed",
+        "url": "https://www.morningstar.com/news/dow-jones/202606191187/european-stocks-mixed-us-markets-closed"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-402": "2026-06-19T22:30:00Z"
+        },
+        "number": 10,
+        "published_at": "2026-06-19",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-19-402",
+        "source_ids": [
+          "S-2026-06-19-402"
+        ],
+        "title": "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/germany/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-201": "2026-06-20T06:42:18Z"
+        },
+        "number": 11,
+        "published_at": "2026-06-19",
+        "publisher": "Nikkei Indexes",
+        "selected_source_id": "S-2026-06-19-201",
+        "source_ids": [
+          "S-2026-06-19-201"
+        ],
+        "title": "Daily Summary - Nikkei Stock Average (Nikkei 225), Fri, Jun 19, 2026",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06192026&idx=nk225"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-202": "2026-06-20T06:42:41Z"
+        },
+        "number": 12,
+        "published_at": "2026-06-19",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-19-202",
+        "source_ids": [
+          "S-2026-06-19-202"
+        ],
+        "title": "Global stock markets close lower on Friday as investors assess durability of U.S.-Iran peace deal",
+        "url": "https://www.cnbc.com/2026/06/19/asia-pacific-markets-poised-for-mixed-open-as-iran-deal-faces-scrutiny.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-205": "2026-06-20T06:42:50Z"
+        },
+        "number": 13,
+        "published_at": null,
+        "publisher": "Investing.com",
+        "selected_source_id": "S-2026-06-19-205",
+        "source_ids": [
+          "S-2026-06-19-205"
+        ],
+        "title": "TOPIX Historical Data (TOPX)",
+        "url": "https://www.investing.com/indices/topix-historical-data"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-203": "2026-06-20T06:42:41Z"
+        },
+        "number": 14,
+        "published_at": "2026-06-19",
+        "publisher": "Associated Press / U.S. News & World Report",
+        "selected_source_id": "S-2026-06-19-203",
+        "source_ids": [
+          "S-2026-06-19-203"
+        ],
+        "title": "World Shares Are Mixed and US Futures Fall After a Tech-Led Rally on Wall St",
+        "url": "https://www.usnews.com/news/business/articles/2026-06-19/asian-shares-retreat-in-thin-holiday-trading-after-a-tech-led-rally-on-wall-st"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-707": "2026-06-19T23:58:30Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-19",
+        "publisher": "Yahoo Finance (Reuters)",
+        "selected_source_id": "S-2026-06-19-707",
+        "source_ids": [
+          "S-2026-06-19-707"
+        ],
+        "title": "Key European markets close weak amid uncertainty over US-Iran talks",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/key-european-markets-close-weak-174415732.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-703": "2026-06-19T23:53:05Z"
+        },
+        "number": 16,
+        "published_at": "2026-06-19",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-19-703",
+        "source_ids": [
+          "S-2026-06-19-703"
+        ],
+        "title": "Japanese Shares Scale Fresh Record Highs - Japan Stock Market Index (JP225)",
+        "url": "https://tradingeconomics.com/japan/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-709": "2026-06-19T23:57:00Z"
+        },
+        "number": 17,
+        "published_at": "2026-06-19",
+        "publisher": "The Sunday Guardian",
+        "selected_source_id": "S-2026-06-19-709",
+        "source_ids": [
+          "S-2026-06-19-709"
+        ],
+        "title": "US Stock Market Open or Closed Today: Why Dow Jones, S&P 500, NYSE & Nasdaq Are Shut on June 19, 2026 - Juneteenth",
+        "url": "https://sundayguardianlive.com/business/us-stock-market-open-or-closed-today-why-dow-jones-sp-500-nyse-nasdaq-are-shut-on-june-19-2026-juneteenth-what-investors-must-know-209782/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-001": "2026-06-19T22:09:36Z"
+        },
+        "number": 18,
+        "published_at": "2026-06-18",
+        "publisher": "USA Today",
+        "selected_source_id": "S-2026-06-19-001",
+        "source_ids": [
+          "S-2026-06-19-001"
+        ],
+        "title": "Is the stock market open or closed on Juneteenth 2026? See schedule",
+        "url": "https://www.usatoday.com/story/money/investing/2026/06/18/stock-market-open-closed-juneteenth-2026/90586801007/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-003": "2026-06-19T22:11:00Z"
+        },
+        "number": 19,
+        "published_at": null,
+        "publisher": "New York Stock Exchange",
+        "selected_source_id": "S-2026-06-19-003",
+        "source_ids": [
+          "S-2026-06-19-003"
+        ],
+        "title": "Holidays & Trading Hours",
+        "url": "https://www.nyse.com/trade/hours-calendars"
+      }
+    ],
+    "report_date": "2026-06-19",
+    "style": "numeric-full",
+    "title": "The Holiday Tape That Tested the Relief Trade - 2026-06-19",
+    "warnings": []
+  },
+  "generated_at": "2026-06-20T07:13:01Z",
+  "overview": {
+    "citation_group_count": 5,
+    "claim_map": {
+      "C-2026-06-19-ASIA-C1-REGIONAL-BREADTH": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-201",
+            "source_key": "S201",
+            "support": "inference_base",
+            "visible_reference_key": "nikkei indexes|https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06192026&idx=nk225",
+            "visible_reference_number": 8
+          },
+          {
+            "source_id": "S-2026-06-19-202",
+            "source_key": "S202",
+            "support": "inference_base",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/19/asia-pacific-markets-poised-for-mixed-open-as-iran-deal-faces-scrutiny.html",
+            "visible_reference_number": 9
+          },
+          {
+            "source_id": "S-2026-06-19-205",
+            "source_key": "S205",
+            "support": "inference_base",
+            "visible_reference_key": "investing.com|https://www.investing.com/indices/topix-historical-data",
+            "visible_reference_number": 10
+          },
+          {
+            "source_id": "S-2026-06-19-203",
+            "source_key": "S203",
+            "support": "context",
+            "visible_reference_key": "associated press / u.s. news & world report|https://www.usnews.com/news/business/articles/2026-06-19/asian-shares-retreat-in-thin-holiday-trading-after-a-tech-led-rally-on-wall-st",
+            "visible_reference_number": 11
+          }
+        ],
+        "visible_reference_numbers": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "C-2026-06-19-EU-C1-SESSION-DRIVER": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-405",
+            "source_key": "S405",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/markets/europe/european-stocks-muted-us-iran-peace-talks-called-off-2026-06-19",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-19-406",
+            "source_key": "S406",
+            "support": "direct",
+            "visible_reference_key": "rttnews|https://www.rttnews.com/3661486/major-european-markets-close-weak-amid-us-iran-peace-talks-uncertainty.aspx",
+            "visible_reference_number": 5
+          },
+          {
+            "source_id": "S-2026-06-19-407",
+            "source_key": "S407",
+            "support": "context",
+            "visible_reference_key": "dow jones newswires via morningstar|https://www.morningstar.com/news/dow-jones/202606191187/european-stocks-mixed-us-markets-closed",
+            "visible_reference_number": 6
+          },
+          {
+            "source_id": "S-2026-06-19-402",
+            "source_key": "S402",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "C-2026-06-19-MACRO-C1-DXY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-603",
+            "source_key": "S603",
+            "support": "direct",
+            "visible_reference_key": "investing.com|https://www.investing.com/indices/usdollar-historical-data",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-19-604",
+            "source_key": "S604",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/quotes/.dxy",
+            "visible_reference_number": 13
+          },
+          {
+            "source_id": "S-2026-06-19-602",
+            "source_key": "S602",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/china/global-markets-global-markets-2026-06-19",
+            "visible_reference_number": 14
+          }
+        ],
+        "visible_reference_numbers": [
+          12,
+          13,
+          14
+        ]
+      },
+      "C-2026-06-19-MACRO-C1-OIL-BRENT": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-612",
+            "source_key": "S612",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/bz=f/history",
+            "visible_reference_number": 17
+          },
+          {
+            "source_id": "S-2026-06-19-613",
+            "source_key": "S613",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/commodity/brent-crude-oil",
+            "visible_reference_number": 18
+          },
+          {
+            "source_id": "S-2026-06-19-602",
+            "source_key": "S602",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/china/global-markets-global-markets-2026-06-19",
+            "visible_reference_number": 14
+          }
+        ],
+        "visible_reference_numbers": [
+          14,
+          17,
+          18
+        ]
+      },
+      "C-2026-06-19-MACRO-C1-TREASURY-CARRY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-614",
+            "source_key": "S614",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-19-601",
+            "source_key": "S601",
+            "support": "context",
+            "visible_reference_key": "sifma|https://www.sifma.org/resources/guides-playbooks/holiday-schedule",
+            "visible_reference_number": 16
+          }
+        ],
+        "visible_reference_numbers": [
+          15,
+          16
+        ]
+      },
+      "C-2026-06-19-SENT-C2-001": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-701",
+            "source_key": "S701",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/markets/stocks/articles/key-closures-juneteenth-markets-2026-182108105.html",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-19-709",
+            "source_key": "S709",
+            "support": "direct",
+            "visible_reference_key": "the sunday guardian|https://sundayguardianlive.com/business/us-stock-market-open-or-closed-today-why-dow-jones-sp-500-nyse-nasdaq-are-shut-on-june-19-2026-juneteenth-what-investors-must-know-209782",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      },
+      "C-2026-06-19-SENT-C2-013": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-707",
+            "source_key": "S707",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance (reuters)|https://finance.yahoo.com/markets/world-indices/articles/key-european-markets-close-weak-174415732.html",
+            "visible_reference_number": 19
+          },
+          {
+            "source_id": "S-2026-06-19-703",
+            "source_key": "S703",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/japan/stock-market",
+            "visible_reference_number": 20
+          },
+          {
+            "source_id": "S-2026-06-19-702",
+            "source_key": "S702",
+            "support": "context",
+            "visible_reference_key": "marinelink|https://www.marinelink.com/news/brent-oil-remains-track-weekly-decline-540492",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-19-709",
+            "source_key": "S709",
+            "support": "context",
+            "visible_reference_key": "the sunday guardian|https://sundayguardianlive.com/business/us-stock-market-open-or-closed-today-why-dow-jones-sp-500-nyse-nasdaq-are-shut-on-june-19-2026-juneteenth-what-investors-must-know-209782",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          2,
+          19,
+          20,
+          21
+        ]
+      },
+      "C-2026-06-19-US-C1-LAST-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-19-005",
+            "source_key": "S005",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3",
+            "visible_reference_number": 3
+          }
+        ],
+        "visible_reference_numbers": [
+          3
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": true,
+    "generated_at": "2026-06-20T07:13:01Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 5538,
+    "reference_count": 21,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-701": "2026-06-19T23:52:30Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-19",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-19-701",
+        "source_ids": [
+          "S-2026-06-19-701"
+        ],
+        "title": "Key closures on Juneteenth include these markets. 2026 schedule",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/key-closures-juneteenth-markets-2026-182108105.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-709": "2026-06-19T23:57:00Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-19",
+        "publisher": "The Sunday Guardian",
+        "selected_source_id": "S-2026-06-19-709",
+        "source_ids": [
+          "S-2026-06-19-709"
+        ],
+        "title": "US Stock Market Open or Closed Today: Why Dow Jones, S&P 500, NYSE & Nasdaq Are Shut on June 19, 2026 - Juneteenth",
+        "url": "https://sundayguardianlive.com/business/us-stock-market-open-or-closed-today-why-dow-jones-sp-500-nyse-nasdaq-are-shut-on-june-19-2026-juneteenth-what-investors-must-know-209782/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-005": "2026-06-19T22:10:09Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-18",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-19-005",
+        "source_ids": [
+          "S-2026-06-19-005"
+        ],
+        "title": "How major US stock indexes fared Thursday 6/18/2026",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-411ec68891aa5dc7d7f684e0305e2aa3"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-405": "2026-06-19T22:30:00Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-19",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-19-405",
+        "source_ids": [
+          "S-2026-06-19-405"
+        ],
+        "title": "European stocks tick lower as mining losses weigh",
+        "url": "https://www.reuters.com/markets/europe/european-stocks-muted-us-iran-peace-talks-called-off-2026-06-19/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-406": "2026-06-19T22:30:00Z"
+        },
+        "number": 5,
+        "published_at": "2026-06-19T13:08:00-04:00",
+        "publisher": "RTTNews",
+        "selected_source_id": "S-2026-06-19-406",
+        "source_ids": [
+          "S-2026-06-19-406"
+        ],
+        "title": "Major European Markets Close Weak Amid US-Iran Peace Talks Uncertainty",
+        "url": "https://www.rttnews.com/3661486/major-european-markets-close-weak-amid-us-iran-peace-talks-uncertainty.aspx"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-407": "2026-06-19T22:30:00Z"
+        },
+        "number": 6,
+        "published_at": "2026-06-19T07:48:00Z",
+        "publisher": "Dow Jones Newswires via Morningstar",
+        "selected_source_id": "S-2026-06-19-407",
+        "source_ids": [
+          "S-2026-06-19-407"
+        ],
+        "title": "European Stocks Mixed, U.S. Markets Closed",
+        "url": "https://www.morningstar.com/news/dow-jones/202606191187/european-stocks-mixed-us-markets-closed"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-402": "2026-06-19T22:30:00Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-19",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-19-402",
+        "source_ids": [
+          "S-2026-06-19-402"
+        ],
+        "title": "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/germany/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-201": "2026-06-20T06:42:18Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-19",
+        "publisher": "Nikkei Indexes",
+        "selected_source_id": "S-2026-06-19-201",
+        "source_ids": [
+          "S-2026-06-19-201"
+        ],
+        "title": "Daily Summary - Nikkei Stock Average (Nikkei 225), Fri, Jun 19, 2026",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/archives/summary?dt=06192026&idx=nk225"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-202": "2026-06-20T06:42:41Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-19",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-19-202",
+        "source_ids": [
+          "S-2026-06-19-202"
+        ],
+        "title": "Global stock markets close lower on Friday as investors assess durability of U.S.-Iran peace deal",
+        "url": "https://www.cnbc.com/2026/06/19/asia-pacific-markets-poised-for-mixed-open-as-iran-deal-faces-scrutiny.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-205": "2026-06-20T06:42:50Z"
+        },
+        "number": 10,
+        "published_at": null,
+        "publisher": "Investing.com",
+        "selected_source_id": "S-2026-06-19-205",
+        "source_ids": [
+          "S-2026-06-19-205"
+        ],
+        "title": "TOPIX Historical Data (TOPX)",
+        "url": "https://www.investing.com/indices/topix-historical-data"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-203": "2026-06-20T06:42:41Z"
+        },
+        "number": 11,
+        "published_at": "2026-06-19",
+        "publisher": "Associated Press / U.S. News & World Report",
+        "selected_source_id": "S-2026-06-19-203",
+        "source_ids": [
+          "S-2026-06-19-203"
+        ],
+        "title": "World Shares Are Mixed and US Futures Fall After a Tech-Led Rally on Wall St",
+        "url": "https://www.usnews.com/news/business/articles/2026-06-19/asian-shares-retreat-in-thin-holiday-trading-after-a-tech-led-rally-on-wall-st"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-603": "2026-06-19T23:19:00Z"
+        },
+        "number": 12,
+        "published_at": "2026-06-19",
+        "publisher": "Investing.com",
+        "selected_source_id": "S-2026-06-19-603",
+        "source_ids": [
+          "S-2026-06-19-603"
+        ],
+        "title": "US Dollar Index (DXY) Historical Data",
+        "url": "https://www.investing.com/indices/usdollar-historical-data"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-604": "2026-06-19T23:19:00Z"
+        },
+        "number": 13,
+        "published_at": "2026-06-19",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-19-604",
+        "source_ids": [
+          "S-2026-06-19-604"
+        ],
+        "title": "DXY: ICE U.S. Dollar Index - Stock Price, Quote and News",
+        "url": "https://www.cnbc.com/quotes/.DXY"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-602": "2026-06-19T23:19:00Z"
+        },
+        "number": 14,
+        "published_at": "2026-06-19",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-19-602",
+        "source_ids": [
+          "S-2026-06-19-602"
+        ],
+        "title": "Shares ease as investors ponder US-Iran peace talks; yen nears 40-year lows",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-19/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-614": "2026-06-19T23:19:00Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-18",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-19-614",
+        "source_ids": [
+          "S-2026-06-19-614"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-601": "2026-06-19T23:19:00Z"
+        },
+        "number": 16,
+        "published_at": null,
+        "publisher": "SIFMA",
+        "selected_source_id": "S-2026-06-19-601",
+        "source_ids": [
+          "S-2026-06-19-601"
+        ],
+        "title": "SIFMA Fixed Income Market Close Recommendation in the U.S., the U.K. and Japan for Juneteenth 2026",
+        "url": "https://www.sifma.org/resources/guides-playbooks/holiday-schedule"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-612": "2026-06-19T23:19:00Z"
+        },
+        "number": 17,
+        "published_at": "2026-06-19",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-19-612",
+        "source_ids": [
+          "S-2026-06-19-612"
+        ],
+        "title": "Brent Crude Oil Last Day Financ (BZ=F) Historical Prices",
+        "url": "https://finance.yahoo.com/quote/BZ=F/history/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-613": "2026-06-19T23:19:00Z"
+        },
+        "number": 18,
+        "published_at": "2026-06-19",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-19-613",
+        "source_ids": [
+          "S-2026-06-19-613"
+        ],
+        "title": "Brent crude oil - Price - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-707": "2026-06-19T23:58:30Z"
+        },
+        "number": 19,
+        "published_at": "2026-06-19",
+        "publisher": "Yahoo Finance (Reuters)",
+        "selected_source_id": "S-2026-06-19-707",
+        "source_ids": [
+          "S-2026-06-19-707"
+        ],
+        "title": "Key European markets close weak amid uncertainty over US-Iran talks",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/key-european-markets-close-weak-174415732.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-703": "2026-06-19T23:53:05Z"
+        },
+        "number": 20,
+        "published_at": "2026-06-19",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-19-703",
+        "source_ids": [
+          "S-2026-06-19-703"
+        ],
+        "title": "Japanese Shares Scale Fresh Record Highs - Japan Stock Market Index (JP225)",
+        "url": "https://tradingeconomics.com/japan/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-19-702": "2026-06-19T23:56:10Z"
+        },
+        "number": 21,
+        "published_at": "2026-06-19",
+        "publisher": "MarineLink",
+        "selected_source_id": "S-2026-06-19-702",
+        "source_ids": [
+          "S-2026-06-19-702"
+        ],
+        "title": "Brent Oil Remains On Track for 8% Weekly Decline as Israel, Hezbollah Agree to Ceasefire (Reuters)",
+        "url": "https://www.marinelink.com/news/brent-oil-remains-track-weekly-decline-540492"
+      }
+    ],
+    "report_date": "2026-06-19",
+    "style": "numeric-full",
+    "title": "Global Markets - 2026-06-19",
+    "warnings": []
+  },
+  "report_date": "2026-06-19",
+  "status": "ok",
+  "style": "numeric-full"
+}
