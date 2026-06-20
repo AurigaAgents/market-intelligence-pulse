@@ -1,0 +1,118 @@
+- id: "S-2026-06-20-501"
+  publisher: "Euronext"
+  title: "Trading hours & Holidays"
+  url: "https://live.euronext.com/en/resources/trading-hours-holidays"
+  canonical_url: "https://live.euronext.com/en/resources/trading-hours-holidays"
+  accessed_at: "2026-06-20T22:25:00Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "Official Euronext trading-hours and holidays page accessed live: the Euronext Cash and Derivatives Markets are open Monday to Friday throughout 2026 except listed holidays; the 2026 list shows no full closure between early June and Christmas (Friday 25 December, with 24 December a half trading day). No archive artifact committed for this cycle."
+- id: "S-2026-06-20-502"
+  publisher: "London Stock Exchange"
+  title: "Business days"
+  url: "https://www.londonstockexchange.com/equities-trading/business-days"
+  canonical_url: "https://www.londonstockexchange.com/equities-trading/business-days"
+  accessed_at: "2026-06-20T22:26:00Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "Official London Stock Exchange business-days page accessed live: the LSE generally operates its Trading Services each weekday; the bank-holiday table lists the next non-trading day after June 19 as Monday 31 August 2026 (Summer Bank Holiday). No archive artifact committed for this cycle."
+- id: "S-2026-06-20-503"
+  publisher: "Investors Chronicle"
+  title: "FTSE 100 Index historical prices"
+  url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  canonical_url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  accessed_at: "2026-06-20T22:24:00Z"
+  published_at: "2026-06-19"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Public Investors Chronicle/LSEG historical table accessed live: Friday, June 19, 2026 open 10,400.46, high 10,418.58, low 10,352.90, close 10,363.27, volume 1,814,775,645; tearsheet header change -36.43 / -0.35%, data as of Jun 19 2026 16:45 BST; Thursday, June 18 close 10,399.70; Friday, June 12 close 10,471.72. The most recent row is June 19, confirming no weekend session. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-504"
+  publisher: "Reuters"
+  title: "European stocks tick lower as mining losses weigh"
+  url: "https://www.reuters.com/markets/europe/european-stocks-muted-us-iran-peace-talks-called-off-2026-06-19/"
+  canonical_url: "https://www.reuters.com/markets/europe/european-stocks-muted-us-iran-peace-talks-called-off-2026-06-19/"
+  accessed_at: "2026-06-20T22:24:00Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Public Reuters Europe markets close wrap accessed live: the pan-European STOXX 600 closed 0.2% lower, still eking out a 0.4% weekly gain after record highs; mining stocks weighed; US-Iran talks in Switzerland cancelled as fighting flared in Lebanon, with an Israel-Hezbollah ceasefire later; PPHE slid after $1.2 billion takeover talks ended. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-505"
+  publisher: "CNBC"
+  title: "Global stock markets close lower on Friday as investors assess durability of U.S.-Iran peace deal"
+  url: "https://www.cnbc.com/2026/06/19/asia-pacific-markets-poised-for-mixed-open-as-iran-deal-faces-scrutiny.html"
+  canonical_url: "https://www.cnbc.com/2026/06/19/asia-pacific-markets-poised-for-mixed-open-as-iran-deal-faces-scrutiny.html"
+  accessed_at: "2026-06-20T22:28:00Z"
+  published_at: "2026-06-19"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_media"
+  archive:
+    stored: false
+    reason: "Public CNBC global-markets close wrap accessed live: the pan-European Stoxx 600 closed down 0.2%, the FTSE 100 shed 0.35%, France's CAC 40 lost 0.55%, and Germany's DAX finished flat; oil and gas led while miners and travel lagged; the article also states US stock and bond markets were closed for the Juneteenth public holiday. Independent corroboration of the June 19 percent moves and the US holiday. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-506"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/euro-area/stock-market"
+  canonical_url: "https://tradingeconomics.com/euro-area/stock-market"
+  accessed_at: "2026-06-20T22:25:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Euro Area page accessed (last updated June 20, 2026): the dated Friday wrap states the Euro STOXX 50 eased 0.3% to 6,302 and the STOXX Europe 600 dropped 0.2% to 636, with weekly gains of 1.9% and 0.4%; the page's CFD-settle summary line reports the EU50 fell to 6,288 on June 19, losing 0.56%. Both vendor figures captured; CFD-tracked rounded levels. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-507"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-20T22:26:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Germany page accessed: the DE40 settle line reports the index fell to 24,986 on June 19, 2026, losing 0.16% in a session marked by futures-and-options expiry; weekly gain about 1.6%; Volkswagen dropped more than 4% ex-dividend while defense names and Mercedes-Benz gained. CFD-tracked index level. No archive artifact committed for this cycle."
+- id: "S-2026-06-20-508"
+  publisher: "Trading Economics"
+  title: "France Stock Market Index (FR40) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/france/stock-market"
+  canonical_url: "https://tradingeconomics.com/france/stock-market"
+  accessed_at: "2026-06-20T22:26:00Z"
+  published_at: "2026-06-20"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics France page accessed: the FR40 fell to 8,421 on June 19, 2026, losing 0.55% after scheduled US-Iran talks in Switzerland were called off; luxury and industrial movers lower while TotalEnergies rose; Pierre Wunsch said the ECB could raise rates again as soon as next month if inflation broadened beyond energy. CFD-tracked index level. No archive artifact committed for this cycle."
