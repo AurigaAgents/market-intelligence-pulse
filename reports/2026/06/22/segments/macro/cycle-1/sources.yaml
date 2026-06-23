@@ -1,0 +1,90 @@
+- id: "S-2026-06-22-601"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-23T10:25:00Z"
+  published_at: "2026-06-22"
+  source_type: "government_data"
+  retrieval_method: "firecrawl_scrape_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury par-yield CSV fetched live on June 23: newest row is 06/22/2026 (2Y 4.24, 3Y 4.25, 5Y 4.29, 7Y 4.39, 10Y 4.51, 20Y 4.97, 30Y 4.95) and the prior row is 06/18/2026 (2Y 4.19, 10Y 4.46, 30Y 4.90); no 06/19, 06/20 or 06/21 row exists, confirming the Juneteenth-plus-weekend gap and the June 18 comparison basis. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-602"
+  publisher: "Trading Economics"
+  title: "United States Dollar - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/currency"
+  canonical_url: "https://tradingeconomics.com/united-states/currency"
+  accessed_at: "2026-06-23T10:23:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics U.S. Dollar page scraped live (last updated June 23): DXY rose to 101.167 on June 23 (Actual 101.17, Previous June 22 close 101.02), near its highest since May 2025; markets positioned for further Fed tightening with Deutsche Bank and BofA Global Research forecasting a September hike; fed funds 3.75%, May CPI 4.20%, PCE due this week. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-603"
+  publisher: "Trading Economics"
+  title: "Brent crude oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  accessed_at: "2026-06-23T10:23:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Brent page scraped live (last updated June 23): Brent fell to 77.45-77.48 USD/Bbl on June 23 (down ~0.54-0.58% on the day), its lowest in nearly three months and down ~19.9% over the past month, as US-Iran peace-talk progress and a US 60-day Iranian-oil license eased supply concerns; corroborates the June 22 ~$77.9 Brent settle. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-604"
+  publisher: "CNBC"
+  title: "Oil prices fluctuate: Trump threatens fresh strikes on Iran"
+  url: "https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html"
+  canonical_url: "https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html"
+  accessed_at: "2026-06-23T10:28:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article_market_report"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Dated June 22 CNBC oil report scraped live: Brent crude futures fell 3.3% to close at $77.90/bbl and WTI lost 2.3% to settle at $74.82/bbl; the U.S. Treasury issued a 60-day license authorizing production, delivery and sale of Iranian oil with US imports payable in dollars; Qatar and Pakistan said the parties agreed on a roadmap to a final deal within 60 days with a high-level committee and week-long technical talks; includes Quantum Strategy (David Roche) inventory-liquidation caveat and a Goldman Sachs EV-demand note. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-605"
+  publisher: "CNBC"
+  title: "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon"
+  url: "https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html"
+  canonical_url: "https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html"
+  accessed_at: "2026-06-23T10:25:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Dated June 22 CNBC report scraped live: Qatar/Pakistan joint statement on the Burgenstock (Lake Lucerne) summit, a roadmap to a final deal within 60 days building on the June 17 MoU, a High Level Committee with nuclear/sanctions/dispute-resolution working groups, a US-Iran-Lebanon de-confliction cell, the toll-free Strait of Hormuz reopening for at least 60 days, FM Araghchi's claimed waivers for oil/petrochemical exports plus port-blockade lifting, frozen-asset releases and a reconstruction plan, and the surrounding tensions (Trump threat, IRGC Hormuz-closure claim, US denial). No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-606"
+  publisher: "Reuters (via Investing.com)"
+  title: "Oil slips after US-Iran conclude talks in Switzerland"
+  url: "https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687"
+  canonical_url: "https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687"
+  accessed_at: "2026-06-23T10:27:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article_wire_service"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service_via_market_data_portal"
+  archive:
+    stored: false
+    reason: "Reuters dispatch (Florence Tan, dated SINGAPORE June 22) carried by Investing.com, scraped live: early-Monday Brent at $79.04/bbl (-1.90%) by 0656 GMT after an intraday spike to $82.30 on Trump's strike threat and Iran's Hormuz-closure claim; expiring July WTI at $76.53 rolling to the August contract at $75.30; no U.S. settlement Friday due to the Juneteenth holiday; oil fell more than 8% the prior week; 25M+ barrels of Iranian crude moved through the blockade line since Monday; UAE/Kuwait/Iraq offered more supply; ING warned of 'very real risks' of a flare-up during the 60-day ceasefire. No archive artifact committed for this segment cycle."
