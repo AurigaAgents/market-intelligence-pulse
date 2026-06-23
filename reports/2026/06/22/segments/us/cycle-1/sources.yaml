@@ -1,0 +1,45 @@
+- id: "S-2026-06-22-101"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Monday 6/22/2026"
+  url: "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html"
+  canonical_url: "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html"
+  accessed_at: "2026-06-23T09:39:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Associated Press closing-index ledger for the 2026-06-22 US regular session, accessed live via Yahoo Finance syndication; no archive artifact committed for this cycle."
+- id: "S-2026-06-22-102"
+  publisher: "Yahoo Finance"
+  title: "Stock market today: S&P 500, Nasdaq slide as Big Tech, SpaceX hammered"
+  url: "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-22-225817825.html"
+  canonical_url: "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-22-225817825.html"
+  accessed_at: "2026-06-23T09:40:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "national_news_outlet"
+  archive:
+    stored: false
+    reason: "Yahoo Finance live session wrap for 2026-06-22, accessed live; used for mega-cap technology detail and session-driver context. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-103"
+  publisher: "TheStreet"
+  title: "Stock Market Today (June 22, 2026): Russell 2000 closes at 3,000 for the first time ever"
+  url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-22-2026"
+  canonical_url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-22-2026"
+  accessed_at: "2026-06-23T09:40:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_outlet"
+  archive:
+    stored: false
+    reason: "TheStreet live market blog for 2026-06-22, accessed live; used for the Russell 2000 record-close framing and US-Iran negotiation context. No archive artifact committed for this cycle."
