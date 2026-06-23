@@ -1,0 +1,18 @@
+{
+  "github_blob_url": "https://github.com/AurigaAgents/market-intelligence-pulse/blob/main/reports/2026/06/22/report.md",
+  "pages_url": "https://aurigaagents.github.io/market-intelligence-pulse/reports/2026/06/22/",
+  "report_date": "2026-06-22",
+  "status": "not_started",
+  "targets": [
+    {
+      "evidence_note": "Prepared overview publication copy with numeric-full citations.",
+      "kind": "moltbook",
+      "status": "not_started"
+    },
+    {
+      "evidence_note": "Prepared deep-dive publication copy with numeric-full citations.",
+      "kind": "moltbook",
+      "status": "not_started"
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+- id: "S-2026-06-22-001"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Monday 6/22/2026"
+  url: "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html"
+  canonical_url: "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html"
+  accessed_at: "2026-06-23T09:39:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Associated Press closing-index ledger for the 2026-06-22 US regular session, accessed live via Yahoo Finance syndication; no archive artifact committed for this cycle."
+- id: "S-2026-06-22-002"
+  publisher: "Yahoo Finance"
+  title: "Stock market today: S&P 500, Nasdaq slide as Big Tech, SpaceX hammered"
+  url: "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-22-225817825.html"
+  canonical_url: "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-22-225817825.html"
+  accessed_at: "2026-06-23T09:40:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "national_news_outlet"
+  archive:
+    stored: false
+    reason: "Yahoo Finance live session wrap for 2026-06-22, accessed live; used for mega-cap technology detail and session-driver context. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-003"
+  publisher: "TheStreet"
+  title: "Stock Market Today (June 22, 2026): Russell 2000 closes at 3,000 for the first time ever"
+  url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-22-2026"
+  canonical_url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-22-2026"
+  accessed_at: "2026-06-23T09:40:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_outlet"
+  archive:
+    stored: false
+    reason: "TheStreet live market blog for 2026-06-22, accessed live; used for the Russell 2000 record-close framing and US-Iran negotiation context. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-401"
+  publisher: "Deutsche Presse-Agentur (dpa)"
+  title: "European stocks close mostly higher"
+  url: "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-mostly-higher-184238521.html"
+  canonical_url: "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-mostly-higher-184238521.html"
+  accessed_at: "2026-06-23T09:53:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "dpa European market close wrap for Monday June 22, 2026, accessed live via Yahoo Finance syndication (published 8:42 PM GMT+2): the STOXX Europe 600 rose 0.58%, the FTSE 100 0.72%, Germany's DAX 0.62%, while France's CAC 40 fell 0.25%. The session was driven by positive progress in US-Iran peace negotiations and easing inflation concerns from weak oil prices; financials and miners led, with UK lenders NatWest, Barclays and Lloyds each up about 4% and Infineon up nearly 5% on a humanoid-robot collaboration with VinRobotics, while luxury weakened (Hermes nearly -6%, LVMH and EssilorLuxottica -2% to -4%). No archive artifact committed for this cycle."
+- id: "S-2026-06-22-402"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/euro-area/stock-market"
+  canonical_url: "https://tradingeconomics.com/euro-area/stock-market"
+  accessed_at: "2026-06-23T09:52:00Z"
+  published_at: "2026-06-22"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Euro Area page (page last updated June 23, 2026) carrying the dated Monday June 22 wrap: the Euro STOXX 50 added 0.4% to 6,320 and the STOXX Europe 600 rose 0.7% to 640, supported by lower energy prices after Iran and the US signed a memorandum of understanding and Iran reported progress toward a permanent peace deal; banks led as eurozone sovereign yields pulled back (Santander, BBVA, Nordea about +2%), Infineon jumped 5% on the AI-infrastructure rally, while LVMH and Hermes fell 3.6% and 6%. The dated index table shows the FR40 (CAC 40) at 8,400.11, -21.03 / -0.25% for Jun/22, and the Euro Stoxx Banks gauge +1.00% for Jun/22. Trading Economics's own stats also cite an EU50 June intraday all-time high of 6,357, so the EU50 record-high characterization is not asserted in this cycle. CFD-tracked rounded levels. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-403"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-23T09:52:00Z"
+  published_at: "2026-06-22"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Germany page News Stream item dated 2026-06-22: 'The DAX Index rose 154 points or 0.62 percent on Monday to close at 25140 points,' led by Infineon (+6.09%), Zalando (+4.12%) and MTU Aero Engines (+1.65%), with Scout24 (-1.86%), SAP (-1.85%) and Deutsche Telekom (-1.80%) the top losers; the page's June 22 'Previous' settle is 25,139.69 and the components table shows Siemens +1.64% for Jun/22. CFD-tracked index level. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-404"
+  publisher: "Investors Chronicle"
+  title: "FTSE 100 Index historical prices"
+  url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  canonical_url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  accessed_at: "2026-06-23T09:52:00Z"
+  published_at: "2026-06-22"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Public Investors Chronicle/LSEG FTSE 100 historical daily table accessed live: Monday, June 22, 2026 open 10,363.58, high 10,443.16, low 10,346.63, close 10,437.85, volume 1,061,872,669; Friday, June 19, 2026 close 10,363.27. The June 22 close of 10,437.85 is up 74.58 points (+0.72%) from the June 19 close. Data provided by LSEG, delayed at least 15 minutes. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-201"
+  publisher: "Associated Press via Spectrum News"
+  title: "US stocks hold near their records as trading resumes on Wall Street after a holiday weekend"
+  url: "https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress"
+  canonical_url: "https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-22T09:37:00-04:00"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP market wrap carried by Spectrum News, accessed live: Asian markets were mixed on June 22, 2026; Nikkei 225 72,353.96 (+1.6%, all-time record), KOSPI 9,114.55 (+0.7%, record close), Hang Seng 23,768.52 (-0.7%), Shanghai Composite 4,163.10 (+1.8%), ASX 200 8,816.10 (-0.1%), Taiex +2.8%, Sensex +0.5%. AP also reported Brent crude down about 2% to $79.02 and US crude down 74 cents to $75.11 as US-Iran talks progressed, and cited AI-linked shares including SK Hynix +5.6%, SoftBank +1.9% and Tokyo Electron +3.2%. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-202"
+  publisher: "MarketWatch"
+  title: "Japanese stocks climb for eighth day as Hang Seng drops"
+  url: "https://www.marketwatch.com/data-news/japanese-stocks-climb-for-eighth-day-as-hang-seng-drops-c785d88c-49d9782456dc"
+  canonical_url: "https://www.marketwatch.com/data-news/japanese-stocks-climb-for-eighth-day-as-hang-seng-drops-c785d88c-49d9782456dc"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-22T05:30:00-04:00"
+  source_type: "market_data_news"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "MarketWatch Automation article supported by Dow Jones/FactSet market data, accessed live: Asia-Pacific stocks mostly grew on Monday June 22; Hang Seng Index down 0.7% at 23,768.52 and Nikkei 225 up 1.5% to 72,353.96. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-203"
+  publisher: "Trading Economics"
+  title: "Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/japan/stock-market"
+  canonical_url: "https://tradingeconomics.com/japan/stock-market"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-22"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Japan page accessed June 23, 2026: News Stream item dated 2026-06-22 says the Nikkei 225 went up 1,128 points or 1.58% on Monday to close at 72,379, led by J Front Retailing (+15.56%), Toppan (+10.87%) and Toto (+10.82%). The page identifies the JP225 as a CFD-derived index; this source is used as directional corroboration, while cash close precision is taken from AP/MarketWatch. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-204"
+  publisher: "Yonhap News Agency"
+  title: "KOSPI 9,114.55 UP 62.13 points (close)"
+  url: "https://en.yna.co.kr/view/AEN20260622007400320"
+  canonical_url: "https://en.yna.co.kr/view/AEN20260622007400320"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-22T15:32:00+09:00"
+  source_type: "newswire_market_close"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Yonhap close bulletin accessed live: KOSPI 9,114.55, up 62.13 points at the June 22, 2026 close. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-205"
+  publisher: "MarketScreener"
+  title: "HONG KONG HANG SENG Index Overview - Stock Price, Quote and News"
+  url: "https://www.marketscreener.com/quote/index/HONG-KONG-HANG-SENG-101835/"
+  canonical_url: "https://www.marketscreener.com/quote/index/HONG-KONG-HANG-SENG-101835/"
+  accessed_at: "2026-06-23T10:09:13Z"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "MarketScreener Hang Seng page accessed live: five-day quote table shows 2026-06-22 at 23,768.52 (-0.65%) and 2026-06-18 at 23,924.81; delayed quote Hong Kong S.E., last update June 23, 2026 at 04:08 EDT. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-206"
+  publisher: "Hong Kong Exchanges and Clearing Limited (HKEX)"
+  title: "HKEX Calendar"
+  url: "https://www.hkex.com.hk/News/HKEX-Calendar?defaultdate=2026-06-19"
+  canonical_url: "https://www.hkex.com.hk/News/HKEX-Calendar?defaultdate=2026-06-19"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-19"
+  source_type: "exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "HKEX calendar for June 19, 2026 accessed live: Hong Kong public holiday, Tuen Ng Festival, Hong Kong Market is closed; Chinese Mainland public holiday, Dragon Boat Festival holiday. Used to establish why Hong Kong and Shanghai June 22 daily moves compare with June 18. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-207"
+  publisher: "The Wall Street Journal"
+  title: "Shanghai Composite Index SHCOMP Historical Prices"
+  url: "https://www.wsj.com/market-data/quotes/index/CN/XSHG/SHCOMP/historical-prices"
+  canonical_url: "https://www.wsj.com/market-data/quotes/index/CN/XSHG/SHCOMP/historical-prices"
+  accessed_at: "2026-06-23T10:09:13Z"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "WSJ historical prices table accessed live: Shanghai Composite 2026-06-22 open 4,093.95, high 4,164.42, low 4,070.17, close 4,163.10; previous listed session 2026-06-18 close 4,090.48. WSJ overview also showed prior close 4,163.10 on June 23. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-208"
+  publisher: "LGT Private Banking"
+  title: "Investors weigh US-Iran deal progress"
+  url: "https://www.lgt.com/li-en/market-assessments/market-view/investors-weigh-us-iran-deal-progress--359112"
+  canonical_url: "https://www.lgt.com/li-en/market-assessments/market-view/investors-weigh-us-iran-deal-progress--359112"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-22"
+  source_type: "market_commentary"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_institution_commentary"
+  archive:
+    stored: false
+    reason: "LGT market view dated June 22, 2026 accessed live: most Asian equity markets rose as easing US-Iran concern improved risk appetite, while elevated US-rate expectations limited broader enthusiasm; Japan and South Korea led gains, KOSPI up about 0.5%, SK Hynix nearly +6%, CSI 300 up, Shanghai Composite +0.8%, Hang Seng -0.8%, ASX 200 flat, and the PBOC left Loan Prime Rates unchanged. Used as context source only where consistent with primary market-data sources. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-601"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-23T10:25:00Z"
+  published_at: "2026-06-22"
+  source_type: "government_data"
+  retrieval_method: "firecrawl_scrape_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury par-yield CSV fetched live on June 23: newest row is 06/22/2026 (2Y 4.24, 3Y 4.25, 5Y 4.29, 7Y 4.39, 10Y 4.51, 20Y 4.97, 30Y 4.95) and the prior row is 06/18/2026 (2Y 4.19, 10Y 4.46, 30Y 4.90); no 06/19, 06/20 or 06/21 row exists, confirming the Juneteenth-plus-weekend gap and the June 18 comparison basis. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-602"
+  publisher: "Trading Economics"
+  title: "United States Dollar - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/currency"
+  canonical_url: "https://tradingeconomics.com/united-states/currency"
+  accessed_at: "2026-06-23T10:23:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics U.S. Dollar page scraped live (last updated June 23): DXY rose to 101.167 on June 23 (Actual 101.17, Previous June 22 close 101.02), near its highest since May 2025; markets positioned for further Fed tightening with Deutsche Bank and BofA Global Research forecasting a September hike; fed funds 3.75%, May CPI 4.20%, PCE due this week. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-603"
+  publisher: "Trading Economics"
+  title: "Brent crude oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  accessed_at: "2026-06-23T10:23:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Brent page scraped live (last updated June 23): Brent fell to 77.45-77.48 USD/Bbl on June 23 (down ~0.54-0.58% on the day), its lowest in nearly three months and down ~19.9% over the past month, as US-Iran peace-talk progress and a US 60-day Iranian-oil license eased supply concerns; corroborates the June 22 ~$77.9 Brent settle. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-604"
+  publisher: "CNBC"
+  title: "Oil prices fluctuate: Trump threatens fresh strikes on Iran"
+  url: "https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html"
+  canonical_url: "https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html"
+  accessed_at: "2026-06-23T10:28:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article_market_report"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Dated June 22 CNBC oil report scraped live: Brent crude futures fell 3.3% to close at $77.90/bbl and WTI lost 2.3% to settle at $74.82/bbl; the U.S. Treasury issued a 60-day license authorizing production, delivery and sale of Iranian oil with US imports payable in dollars; Qatar and Pakistan said the parties agreed on a roadmap to a final deal within 60 days with a high-level committee and week-long technical talks; includes Quantum Strategy (David Roche) inventory-liquidation caveat and a Goldman Sachs EV-demand note. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-605"
+  publisher: "CNBC"
+  title: "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon"
+  url: "https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html"
+  canonical_url: "https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html"
+  accessed_at: "2026-06-23T10:25:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Dated June 22 CNBC report scraped live: Qatar/Pakistan joint statement on the Burgenstock (Lake Lucerne) summit, a roadmap to a final deal within 60 days building on the June 17 MoU, a High Level Committee with nuclear/sanctions/dispute-resolution working groups, a US-Iran-Lebanon de-confliction cell, the toll-free Strait of Hormuz reopening for at least 60 days, FM Araghchi's claimed waivers for oil/petrochemical exports plus port-blockade lifting, frozen-asset releases and a reconstruction plan, and the surrounding tensions (Trump threat, IRGC Hormuz-closure claim, US denial). No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-606"
+  publisher: "Reuters (via Investing.com)"
+  title: "Oil slips after US-Iran conclude talks in Switzerland"
+  url: "https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687"
+  canonical_url: "https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687"
+  accessed_at: "2026-06-23T10:27:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article_wire_service"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service_via_market_data_portal"
+  archive:
+    stored: false
+    reason: "Reuters dispatch (Florence Tan, dated SINGAPORE June 22) carried by Investing.com, scraped live: early-Monday Brent at $79.04/bbl (-1.90%) by 0656 GMT after an intraday spike to $82.30 on Trump's strike threat and Iran's Hormuz-closure claim; expiring July WTI at $76.53 rolling to the August contract at $75.30; no U.S. settlement Friday due to the Juneteenth holiday; oil fell more than 8% the prior week; 25M+ barrels of Iranian crude moved through the blockade line since Monday; UAE/Kuwait/Iraq offered more supply; ING warned of 'very real risks' of a flare-up during the 60-day ceasefire. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-22-701"
+  publisher: "New York Stock Exchange"
+  title: "Holidays & Trading Hours"
+  url: "https://www.nyse.com/markets/hours-calendars"
+  canonical_url: "https://www.nyse.com/trade/hours-calendars"
+  accessed_at: "2026-06-23T10:39:21Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_calendar"
+  archive:
+    stored: false
+    reason: "Official NYSE trading-hours page identifies regular core trading as 9:30 a.m. to 4:00 p.m. ET and lists Juneteenth National Independence Day on Friday, June 19, 2026. June 22, 2026 was the following Monday regular session."
+- id: "S-2026-06-22-702"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Monday 6/22/2026"
+  url: "https://apnews.com/article/15484e7e5b168601a3f2c0061eb3ffd1"
+  canonical_url: "https://apnews.com/article/15484e7e5b168601a3f2c0061eb3ffd1"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "market_close_wire"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_news_wire_market_close"
+  archive:
+    stored: false
+    reason: "AP public market-close article accessed via live web search. It reported S&P 500 -0.4% to 7,472.79, Nasdaq Composite -1.3% to 26,166.60, Dow +0.3% to 51,712.71, Russell 2000 +0.8% to 3,004.40, weaker Big Tech, falling oil prices, and higher Treasury yields pressuring stocks."
+- id: "S-2026-06-22-703"
+  publisher: "whit3rabbit/fear-greed-data"
+  title: "fear-greed.csv"
+  url: "https://raw.githubusercontent.com/whit3rabbit/fear-greed-data/main/fear-greed.csv"
+  canonical_url: "https://github.com/whit3rabbit/fear-greed-data"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "market_sentiment_dataset"
+  retrieval_method: "raw_csv_fetch_live_public_repository"
+  mutable: true
+  paywall: false
+  reliability_tier: "public_cnn_endpoint_mirror"
+  archive:
+    stored: false
+    reason: "Raw GitHub CSV accessed live. Tail rows showed 2026-06-15 41.5714285714286 fear, 2026-06-19 31.6 fear, and 2026-06-22 34.7428571428571 fear."
+- id: "S-2026-06-22-704"
+  publisher: "MacroMicro"
+  title: "CNN Fear and Greed Index"
+  url: "https://en.macromicro.me/charts/80897/CNN-Fear-and-Greed-Index"
+  canonical_url: "https://en.macromicro.me/charts/80897/CNN-Fear-and-Greed-Index"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "market_sentiment_chart"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "sentiment_data_aggregator"
+  archive:
+    stored: false
+    reason: "MacroMicro search result and page access during collection showed CNN Fear and Greed Index value 34.74 dated 2026-06-22, corroborating the GitHub mirror."
+- id: "S-2026-06-22-705"
+  publisher: "Cboe Global Markets"
+  title: "VIX Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public CSV accessed live. Tail rows included 06/19/2026 open 17.04 high 17.27 low 16.72 close 16.78 and 06/22/2026 open 17.48 high 17.92 low 16.49 close 17.28."
+- id: "S-2026-06-22-706"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 9-Day Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX9D CSV accessed live. Latest relevant row was 06/22/2026 open 15.55 high 17.55 low 15.00 close 16.29."
+- id: "S-2026-06-22-707"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 3-Month Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX3M CSV accessed live. Latest relevant row was 06/22/2026 open 19.51 high 20.12 low 19.34 close 19.76."
+- id: "S-2026-06-22-708"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 6-Month Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX6M CSV accessed live. Latest relevant row was 06/22/2026 open 22.00 high 22.49 low 21.88 close 22.15."
+- id: "S-2026-06-22-709"
+  publisher: "Cboe Global Markets"
+  title: "Cboe Daily Market Statistics"
+  url: "https://www.cboe.com/markets/us/options/market-statistics/daily/"
+  canonical_url: "https://www.cboe.com/markets/us/options/market-statistics/daily/"
+  accessed_at: "2026-06-23T10:39:21Z"
+  source_type: "official_options_market_statistics"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_statistics"
+  archive:
+    stored: false
+    reason: "Cboe public daily market statistics page accessed live. Embedded ratios table showed total put/call 0.92, index put/call 1.08, exchange traded products put/call 1.15, equity put/call 0.60, VIX put/call 0.23, and SPX + SPXW put/call 1.22."
+- id: "S-2026-06-22-710"
+  publisher: "American Association of Individual Investors"
+  title: "AAII Sentiment Survey: Pessimism Draws Back"
+  url: "https://insights.aaii.com/p/aaii-sentiment-survey-pessimism-draws"
+  canonical_url: "https://www.aaii.com/sentimentsurvey"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-20"
+  source_type: "sentiment_survey_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "survey_publisher_post"
+  archive:
+    stored: false
+    reason: "AAII public post accessed live. It reported bullish sentiment 36.6%, neutral 24.1%, bearish 39.4%, changes of +6.2, +2.1, and -8.3 percentage points, and a bull-bear spread of -2.8 percentage points."
+- id: "S-2026-06-22-711"
+  publisher: "Investment Company Institute"
+  title: "Release: Combined Estimated Long-Term Flows and ETF Net Issuance"
+  url: "https://www.ici.org/research/stats/combined_flows"
+  canonical_url: "https://www.ici.org/research/stats/combined_flows"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-17"
+  source_type: "fund_flow_release"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "industry_association_statistics"
+  archive:
+    stored: false
+    reason: "ICI public release accessed live. For week ended 2026-06-10 it reported total long-term mutual fund and ETF inflows of $31.52 billion, mutual fund outflows of $16.81 billion, ETF net issuance of $48.33 billion, equity inflows of $16.64 billion, bond inflows of $18.21 billion, and commodity outflows of $2.27 billion."
+- id: "S-2026-06-22-712"
+  publisher: "ETF.com"
+  title: "Post-SpaceX IPO, Investors Pour $83B Into U.S. Equities"
+  url: "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+  canonical_url: "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "etf_flow_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_media_flow_data"
+  archive:
+    stored: false
+    reason: "ETF.com public weekly-flow article accessed live. It reported all data as of 6 a.m. ET on the article date, total ETF flows of $119.83133 billion, U.S. equity flows of $83.62423 billion, international equity flows of $21.66015 billion, U.S. fixed income flows of $8.15492 billion, leveraged ETF outflows of $0.50768 billion, IVV creations of $30.40332 billion, XLK creations of $8.32734 billion, SMH creations of $7.44425 billion, and SPY redemptions of $29.62405 billion."

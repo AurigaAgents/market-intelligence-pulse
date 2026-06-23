@@ -1,0 +1,1565 @@
+{
+  "deep_dive": {
+    "citation_group_count": 5,
+    "claim_map": {
+      "C-2026-06-22-ASIA-C1-DRIVERS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "associated press via spectrum news|https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-22-208",
+            "source_key": "S208",
+            "support": "direct",
+            "visible_reference_key": "lgt private banking|https://www.lgt.com/li-en/market-assessments/market-view/investors-weigh-us-iran-deal-progress--359112",
+            "visible_reference_number": 15
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          15
+        ]
+      },
+      "C-2026-06-22-ASIA-C1-JAPAN-RECORD": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "associated press via spectrum news|https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-22-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "marketwatch|https://www.marketwatch.com/data-news/japanese-stocks-climb-for-eighth-day-as-hang-seng-drops-c785d88c-49d9782456dc",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-22-203",
+            "source_key": "S203",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/japan/stock-market",
+            "visible_reference_number": 13
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          12,
+          13
+        ]
+      },
+      "C-2026-06-22-ASIA-C1-KOREA-RECORD": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-204",
+            "source_key": "S204",
+            "support": "direct",
+            "visible_reference_key": "yonhap news agency|https://en.yna.co.kr/view/aen20260622007400320",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-22-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "associated press via spectrum news|https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-22-208",
+            "source_key": "S208",
+            "support": "context",
+            "visible_reference_key": "lgt private banking|https://www.lgt.com/li-en/market-assessments/market-view/investors-weigh-us-iran-deal-progress--359112",
+            "visible_reference_number": 15
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          14,
+          15
+        ]
+      },
+      "C-2026-06-22-EU-C1-INDEX-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-401",
+            "source_key": "S401",
+            "support": "direct",
+            "visible_reference_key": "deutsche presse-agentur (dpa)|https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-mostly-higher-184238521.html",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-22-402",
+            "source_key": "S402",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 8
+          },
+          {
+            "source_id": "S-2026-06-22-403",
+            "source_key": "S403",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 9
+          },
+          {
+            "source_id": "S-2026-06-22-404",
+            "source_key": "S404",
+            "support": "direct",
+            "visible_reference_key": "investors chronicle|https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=ftse%3afsi",
+            "visible_reference_number": 10
+          }
+        ],
+        "visible_reference_numbers": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "C-2026-06-22-EU-C1-SESSION-DRIVERS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-401",
+            "source_key": "S401",
+            "support": "direct",
+            "visible_reference_key": "deutsche presse-agentur (dpa)|https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-mostly-higher-184238521.html",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-22-402",
+            "source_key": "S402",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          7,
+          8
+        ]
+      },
+      "C-2026-06-22-MACRO-C1-DOLLAR": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-602",
+            "source_key": "S602",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/united-states/currency",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6
+        ]
+      },
+      "C-2026-06-22-MACRO-C1-FRAGILITY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-22-606",
+            "source_key": "S606",
+            "support": "direct",
+            "visible_reference_key": "reuters (via investing.com)|https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687",
+            "visible_reference_number": 3
+          },
+          {
+            "source_id": "S-2026-06-22-604",
+            "source_key": "S604",
+            "support": "context",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2,
+          3
+        ]
+      },
+      "C-2026-06-22-MACRO-C1-IRAN-ROADMAP": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-22-604",
+            "source_key": "S604",
+            "support": "context",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      },
+      "C-2026-06-22-MACRO-C1-OIL-SELLOFF": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-604",
+            "source_key": "S604",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html",
+            "visible_reference_number": 2
+          },
+          {
+            "source_id": "S-2026-06-22-606",
+            "source_key": "S606",
+            "support": "direct",
+            "visible_reference_key": "reuters (via investing.com)|https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687",
+            "visible_reference_number": 3
+          },
+          {
+            "source_id": "S-2026-06-22-603",
+            "source_key": "S603",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/commodity/brent-crude-oil",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          2,
+          3,
+          4
+        ]
+      },
+      "C-2026-06-22-MACRO-C1-TREASURY-CURVE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-601",
+            "source_key": "S601",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv",
+            "visible_reference_number": 5
+          }
+        ],
+        "visible_reference_numbers": [
+          5
+        ]
+      },
+      "C-2026-06-22-SENTIMENT-C1-AAII": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-710",
+            "source_key": "S710",
+            "support": "direct",
+            "visible_reference_key": "american association of individual investors|https://www.aaii.com/sentimentsurvey",
+            "visible_reference_number": 23
+          }
+        ],
+        "visible_reference_numbers": [
+          23
+        ]
+      },
+      "C-2026-06-22-SENTIMENT-C1-FLOWS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-711",
+            "source_key": "S711",
+            "support": "direct",
+            "visible_reference_key": "investment company institute|https://www.ici.org/research/stats/combined_flows",
+            "visible_reference_number": 25
+          },
+          {
+            "source_id": "S-2026-06-22-712",
+            "source_key": "S712",
+            "support": "direct",
+            "visible_reference_key": "etf.com|https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities",
+            "visible_reference_number": 24
+          }
+        ],
+        "visible_reference_numbers": [
+          24,
+          25
+        ]
+      },
+      "C-2026-06-22-SENTIMENT-C1-SYNTHESIS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-702",
+            "source_key": "S702",
+            "support": "inference_base",
+            "visible_reference_key": "associated press|https://apnews.com/article/15484e7e5b168601a3f2c0061eb3ffd1",
+            "visible_reference_number": 19
+          },
+          {
+            "source_id": "S-2026-06-22-703",
+            "source_key": "S703",
+            "support": "inference_base",
+            "visible_reference_key": "whit3rabbit/fear-greed-data|https://github.com/whit3rabbit/fear-greed-data",
+            "visible_reference_number": 20
+          },
+          {
+            "source_id": "S-2026-06-22-705",
+            "source_key": "S705",
+            "support": "inference_base",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-22-709",
+            "source_key": "S709",
+            "support": "inference_base",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/markets/us/options/market-statistics/daily",
+            "visible_reference_number": 22
+          },
+          {
+            "source_id": "S-2026-06-22-710",
+            "source_key": "S710",
+            "support": "inference_base",
+            "visible_reference_key": "american association of individual investors|https://www.aaii.com/sentimentsurvey",
+            "visible_reference_number": 23
+          },
+          {
+            "source_id": "S-2026-06-22-712",
+            "source_key": "S712",
+            "support": "inference_base",
+            "visible_reference_key": "etf.com|https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities",
+            "visible_reference_number": 24
+          }
+        ],
+        "visible_reference_numbers": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "C-2026-06-22-US-C1-BIG-TECH": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-002",
+            "source_key": "S002",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-22-225817825.html",
+            "visible_reference_number": 18
+          },
+          {
+            "source_id": "S-2026-06-22-001",
+            "source_key": "S001",
+            "support": "context",
+            "visible_reference_key": "associated press|https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html",
+            "visible_reference_number": 16
+          }
+        ],
+        "visible_reference_numbers": [
+          16,
+          18
+        ]
+      },
+      "C-2026-06-22-US-C1-EQUITY-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html",
+            "visible_reference_number": 16
+          }
+        ],
+        "visible_reference_numbers": [
+          16
+        ]
+      },
+      "C-2026-06-22-US-C1-RUSSELL-MILESTONE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-22-003",
+            "source_key": "S003",
+            "support": "context",
+            "visible_reference_key": "thestreet|https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-22-2026",
+            "visible_reference_number": 17
+          }
+        ],
+        "visible_reference_numbers": [
+          16,
+          17
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": true,
+    "generated_at": "2026-06-23T11:16:30Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 6451,
+    "reference_count": 25,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-605": "2026-06-23T10:25:00Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-22",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-22-605",
+        "source_ids": [
+          "S-2026-06-22-605"
+        ],
+        "title": "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon",
+        "url": "https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-604": "2026-06-23T10:28:00Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-22",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-22-604",
+        "source_ids": [
+          "S-2026-06-22-604"
+        ],
+        "title": "Oil prices fluctuate: Trump threatens fresh strikes on Iran",
+        "url": "https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-606": "2026-06-23T10:27:00Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-22",
+        "publisher": "Reuters (via Investing.com)",
+        "selected_source_id": "S-2026-06-22-606",
+        "source_ids": [
+          "S-2026-06-22-606"
+        ],
+        "title": "Oil slips after US-Iran conclude talks in Switzerland",
+        "url": "https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-603": "2026-06-23T10:23:00Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-22-603",
+        "source_ids": [
+          "S-2026-06-22-603"
+        ],
+        "title": "Brent crude oil - Price - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-601": "2026-06-23T10:25:00Z"
+        },
+        "number": 5,
+        "published_at": "2026-06-22",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-22-601",
+        "source_ids": [
+          "S-2026-06-22-601"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-602": "2026-06-23T10:23:00Z"
+        },
+        "number": 6,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-22-602",
+        "source_ids": [
+          "S-2026-06-22-602"
+        ],
+        "title": "United States Dollar - Quote - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/united-states/currency"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-401": "2026-06-23T09:53:00Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-22",
+        "publisher": "Deutsche Presse-Agentur (dpa)",
+        "selected_source_id": "S-2026-06-22-401",
+        "source_ids": [
+          "S-2026-06-22-401"
+        ],
+        "title": "European stocks close mostly higher",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-mostly-higher-184238521.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-402": "2026-06-23T09:52:00Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-22",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-22-402",
+        "source_ids": [
+          "S-2026-06-22-402"
+        ],
+        "title": "Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/euro-area/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-403": "2026-06-23T09:52:00Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-22",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-22-403",
+        "source_ids": [
+          "S-2026-06-22-403"
+        ],
+        "title": "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/germany/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-404": "2026-06-23T09:52:00Z"
+        },
+        "number": 10,
+        "published_at": "2026-06-22",
+        "publisher": "Investors Chronicle",
+        "selected_source_id": "S-2026-06-22-404",
+        "source_ids": [
+          "S-2026-06-22-404"
+        ],
+        "title": "FTSE 100 Index historical prices",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-201": "2026-06-23T10:09:13Z"
+        },
+        "number": 11,
+        "published_at": "2026-06-22T09:37:00-04:00",
+        "publisher": "Associated Press via Spectrum News",
+        "selected_source_id": "S-2026-06-22-201",
+        "source_ids": [
+          "S-2026-06-22-201"
+        ],
+        "title": "US stocks hold near their records as trading resumes on Wall Street after a holiday weekend",
+        "url": "https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-202": "2026-06-23T10:09:13Z"
+        },
+        "number": 12,
+        "published_at": "2026-06-22T05:30:00-04:00",
+        "publisher": "MarketWatch",
+        "selected_source_id": "S-2026-06-22-202",
+        "source_ids": [
+          "S-2026-06-22-202"
+        ],
+        "title": "Japanese stocks climb for eighth day as Hang Seng drops",
+        "url": "https://www.marketwatch.com/data-news/japanese-stocks-climb-for-eighth-day-as-hang-seng-drops-c785d88c-49d9782456dc"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-203": "2026-06-23T10:09:13Z"
+        },
+        "number": 13,
+        "published_at": "2026-06-22",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-22-203",
+        "source_ids": [
+          "S-2026-06-22-203"
+        ],
+        "title": "Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/japan/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-204": "2026-06-23T10:09:13Z"
+        },
+        "number": 14,
+        "published_at": "2026-06-22T15:32:00+09:00",
+        "publisher": "Yonhap News Agency",
+        "selected_source_id": "S-2026-06-22-204",
+        "source_ids": [
+          "S-2026-06-22-204"
+        ],
+        "title": "KOSPI 9,114.55 UP 62.13 points (close)",
+        "url": "https://en.yna.co.kr/view/AEN20260622007400320"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-208": "2026-06-23T10:09:13Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-22",
+        "publisher": "LGT Private Banking",
+        "selected_source_id": "S-2026-06-22-208",
+        "source_ids": [
+          "S-2026-06-22-208"
+        ],
+        "title": "Investors weigh US-Iran deal progress",
+        "url": "https://www.lgt.com/li-en/market-assessments/market-view/investors-weigh-us-iran-deal-progress--359112"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-001": "2026-06-23T09:39:00Z"
+        },
+        "number": 16,
+        "published_at": "2026-06-22",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-22-001",
+        "source_ids": [
+          "S-2026-06-22-001"
+        ],
+        "title": "How major US stock indexes fared Monday 6/22/2026",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-003": "2026-06-23T09:40:00Z"
+        },
+        "number": 17,
+        "published_at": "2026-06-22",
+        "publisher": "TheStreet",
+        "selected_source_id": "S-2026-06-22-003",
+        "source_ids": [
+          "S-2026-06-22-003"
+        ],
+        "title": "Stock Market Today (June 22, 2026): Russell 2000 closes at 3,000 for the first time ever",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-22-2026"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-002": "2026-06-23T09:40:00Z"
+        },
+        "number": 18,
+        "published_at": "2026-06-22",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-22-002",
+        "source_ids": [
+          "S-2026-06-22-002"
+        ],
+        "title": "Stock market today: S&P 500, Nasdaq slide as Big Tech, SpaceX hammered",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-22-225817825.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-702": "2026-06-23T10:39:21Z"
+        },
+        "number": 19,
+        "published_at": "2026-06-22",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-22-702",
+        "source_ids": [
+          "S-2026-06-22-702"
+        ],
+        "title": "How major US stock indexes fared Monday 6/22/2026",
+        "url": "https://apnews.com/article/15484e7e5b168601a3f2c0061eb3ffd1"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-703": "2026-06-23T10:39:21Z"
+        },
+        "number": 20,
+        "published_at": "2026-06-22",
+        "publisher": "whit3rabbit/fear-greed-data",
+        "selected_source_id": "S-2026-06-22-703",
+        "source_ids": [
+          "S-2026-06-22-703"
+        ],
+        "title": "fear-greed.csv",
+        "url": "https://github.com/whit3rabbit/fear-greed-data"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-705": "2026-06-23T10:39:21Z",
+          "S-2026-06-22-706": "2026-06-23T10:39:21Z",
+          "S-2026-06-22-707": "2026-06-23T10:39:21Z",
+          "S-2026-06-22-708": "2026-06-23T10:39:21Z"
+        },
+        "number": 21,
+        "published_at": "2026-06-22",
+        "publisher": "Cboe Global Markets",
+        "selected_source_id": "S-2026-06-22-707",
+        "source_ids": [
+          "S-2026-06-22-705",
+          "S-2026-06-22-706",
+          "S-2026-06-22-707",
+          "S-2026-06-22-708"
+        ],
+        "title": "Cboe S&P 500 3-Month Volatility Index Historical Data CSV",
+        "url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-709": "2026-06-23T10:39:21Z"
+        },
+        "number": 22,
+        "published_at": null,
+        "publisher": "Cboe Global Markets",
+        "selected_source_id": "S-2026-06-22-709",
+        "source_ids": [
+          "S-2026-06-22-709"
+        ],
+        "title": "Cboe Daily Market Statistics",
+        "url": "https://www.cboe.com/markets/us/options/market-statistics/daily/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-710": "2026-06-23T10:39:21Z"
+        },
+        "number": 23,
+        "published_at": "2026-06-20",
+        "publisher": "American Association of Individual Investors",
+        "selected_source_id": "S-2026-06-22-710",
+        "source_ids": [
+          "S-2026-06-22-710"
+        ],
+        "title": "AAII Sentiment Survey: Pessimism Draws Back",
+        "url": "https://www.aaii.com/sentimentsurvey"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-712": "2026-06-23T10:39:21Z"
+        },
+        "number": 24,
+        "published_at": "2026-06-22",
+        "publisher": "ETF.com",
+        "selected_source_id": "S-2026-06-22-712",
+        "source_ids": [
+          "S-2026-06-22-712"
+        ],
+        "title": "Post-SpaceX IPO, Investors Pour $83B Into U.S. Equities",
+        "url": "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-711": "2026-06-23T10:39:21Z"
+        },
+        "number": 25,
+        "published_at": "2026-06-17",
+        "publisher": "Investment Company Institute",
+        "selected_source_id": "S-2026-06-22-711",
+        "source_ids": [
+          "S-2026-06-22-711"
+        ],
+        "title": "Release: Combined Estimated Long-Term Flows and ETF Net Issuance",
+        "url": "https://www.ici.org/research/stats/combined_flows"
+      }
+    ],
+    "report_date": "2026-06-22",
+    "style": "numeric-full",
+    "title": "The Oil-Relief Rotation With a Rates Ceiling - 2026-06-22",
+    "warnings": []
+  },
+  "generated_at": "2026-06-23T11:16:30Z",
+  "overview": {
+    "citation_group_count": 5,
+    "claim_map": {
+      "C-2026-06-22-ASIA-C1-JAPAN-RECORD": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "associated press via spectrum news|https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-22-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "marketwatch|https://www.marketwatch.com/data-news/japanese-stocks-climb-for-eighth-day-as-hang-seng-drops-c785d88c-49d9782456dc",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-22-203",
+            "source_key": "S203",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/japan/stock-market",
+            "visible_reference_number": 16
+          }
+        ],
+        "visible_reference_numbers": [
+          14,
+          15,
+          16
+        ]
+      },
+      "C-2026-06-22-ASIA-C1-KOREA-RECORD": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-204",
+            "source_key": "S204",
+            "support": "direct",
+            "visible_reference_key": "yonhap news agency|https://en.yna.co.kr/view/aen20260622007400320",
+            "visible_reference_number": 17
+          },
+          {
+            "source_id": "S-2026-06-22-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "associated press via spectrum news|https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-22-208",
+            "source_key": "S208",
+            "support": "context",
+            "visible_reference_key": "lgt private banking|https://www.lgt.com/li-en/market-assessments/market-view/investors-weigh-us-iran-deal-progress--359112",
+            "visible_reference_number": 18
+          }
+        ],
+        "visible_reference_numbers": [
+          14,
+          17,
+          18
+        ]
+      },
+      "C-2026-06-22-EU-C1-INDEX-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-401",
+            "source_key": "S401",
+            "support": "direct",
+            "visible_reference_key": "deutsche presse-agentur (dpa)|https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-mostly-higher-184238521.html",
+            "visible_reference_number": 10
+          },
+          {
+            "source_id": "S-2026-06-22-402",
+            "source_key": "S402",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-22-403",
+            "source_key": "S403",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-22-404",
+            "source_key": "S404",
+            "support": "direct",
+            "visible_reference_key": "investors chronicle|https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=ftse%3afsi",
+            "visible_reference_number": 13
+          }
+        ],
+        "visible_reference_numbers": [
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "C-2026-06-22-EU-C1-SESSION-DRIVERS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-401",
+            "source_key": "S401",
+            "support": "direct",
+            "visible_reference_key": "deutsche presse-agentur (dpa)|https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-mostly-higher-184238521.html",
+            "visible_reference_number": 10
+          },
+          {
+            "source_id": "S-2026-06-22-402",
+            "source_key": "S402",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 11
+          }
+        ],
+        "visible_reference_numbers": [
+          10,
+          11
+        ]
+      },
+      "C-2026-06-22-MACRO-C1-DOLLAR": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-602",
+            "source_key": "S602",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/united-states/currency",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          8
+        ]
+      },
+      "C-2026-06-22-MACRO-C1-IRAN-ROADMAP": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html",
+            "visible_reference_number": 3
+          },
+          {
+            "source_id": "S-2026-06-22-604",
+            "source_key": "S604",
+            "support": "context",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          3,
+          4
+        ]
+      },
+      "C-2026-06-22-MACRO-C1-OIL-SELLOFF": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-604",
+            "source_key": "S604",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-22-606",
+            "source_key": "S606",
+            "support": "direct",
+            "visible_reference_key": "reuters (via investing.com)|https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687",
+            "visible_reference_number": 5
+          },
+          {
+            "source_id": "S-2026-06-22-603",
+            "source_key": "S603",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/commodity/brent-crude-oil",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          5,
+          6
+        ]
+      },
+      "C-2026-06-22-MACRO-C1-TREASURY-CURVE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-601",
+            "source_key": "S601",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          7
+        ]
+      },
+      "C-2026-06-22-SENTIMENT-C1-FEAR-GREED": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-703",
+            "source_key": "S703",
+            "support": "direct",
+            "visible_reference_key": "whit3rabbit/fear-greed-data|https://github.com/whit3rabbit/fear-greed-data",
+            "visible_reference_number": 20
+          },
+          {
+            "source_id": "S-2026-06-22-704",
+            "source_key": "S704",
+            "support": "context",
+            "visible_reference_key": "macromicro|https://en.macromicro.me/charts/80897/cnn-fear-and-greed-index",
+            "visible_reference_number": 25
+          }
+        ],
+        "visible_reference_numbers": [
+          20,
+          25
+        ]
+      },
+      "C-2026-06-22-SENTIMENT-C1-FLOWS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-711",
+            "source_key": "S711",
+            "support": "direct",
+            "visible_reference_key": "investment company institute|https://www.ici.org/research/stats/combined_flows",
+            "visible_reference_number": 26
+          },
+          {
+            "source_id": "S-2026-06-22-712",
+            "source_key": "S712",
+            "support": "direct",
+            "visible_reference_key": "etf.com|https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities",
+            "visible_reference_number": 24
+          }
+        ],
+        "visible_reference_numbers": [
+          24,
+          26
+        ]
+      },
+      "C-2026-06-22-SENTIMENT-C1-SYNTHESIS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-702",
+            "source_key": "S702",
+            "support": "inference_base",
+            "visible_reference_key": "associated press|https://apnews.com/article/15484e7e5b168601a3f2c0061eb3ffd1",
+            "visible_reference_number": 19
+          },
+          {
+            "source_id": "S-2026-06-22-703",
+            "source_key": "S703",
+            "support": "inference_base",
+            "visible_reference_key": "whit3rabbit/fear-greed-data|https://github.com/whit3rabbit/fear-greed-data",
+            "visible_reference_number": 20
+          },
+          {
+            "source_id": "S-2026-06-22-705",
+            "source_key": "S705",
+            "support": "inference_base",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-22-709",
+            "source_key": "S709",
+            "support": "inference_base",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/markets/us/options/market-statistics/daily",
+            "visible_reference_number": 22
+          },
+          {
+            "source_id": "S-2026-06-22-710",
+            "source_key": "S710",
+            "support": "inference_base",
+            "visible_reference_key": "american association of individual investors|https://www.aaii.com/sentimentsurvey",
+            "visible_reference_number": 23
+          },
+          {
+            "source_id": "S-2026-06-22-712",
+            "source_key": "S712",
+            "support": "inference_base",
+            "visible_reference_key": "etf.com|https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities",
+            "visible_reference_number": 24
+          }
+        ],
+        "visible_reference_numbers": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "C-2026-06-22-SENTIMENT-C1-VOLATILITY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-705",
+            "source_key": "S705",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-22-706",
+            "source_key": "S706",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-22-707",
+            "source_key": "S707",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-22-708",
+            "source_key": "S708",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 21
+          }
+        ],
+        "visible_reference_numbers": [
+          21
+        ]
+      },
+      "C-2026-06-22-US-C1-BIG-TECH": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-002",
+            "source_key": "S002",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-22-225817825.html",
+            "visible_reference_number": 9
+          },
+          {
+            "source_id": "S-2026-06-22-001",
+            "source_key": "S001",
+            "support": "context",
+            "visible_reference_key": "associated press|https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          9
+        ]
+      },
+      "C-2026-06-22-US-C1-EQUITY-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1
+        ]
+      },
+      "C-2026-06-22-US-C1-RUSSELL-MILESTONE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-22-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-22-003",
+            "source_key": "S003",
+            "support": "context",
+            "visible_reference_key": "thestreet|https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-22-2026",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": true,
+    "generated_at": "2026-06-23T11:16:30Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 6017,
+    "reference_count": 26,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-001": "2026-06-23T09:39:00Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-22",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-22-001",
+        "source_ids": [
+          "S-2026-06-22-001"
+        ],
+        "title": "How major US stock indexes fared Monday 6/22/2026",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201507146.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-003": "2026-06-23T09:40:00Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-22",
+        "publisher": "TheStreet",
+        "selected_source_id": "S-2026-06-22-003",
+        "source_ids": [
+          "S-2026-06-22-003"
+        ],
+        "title": "Stock Market Today (June 22, 2026): Russell 2000 closes at 3,000 for the first time ever",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-22-2026"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-605": "2026-06-23T10:25:00Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-22",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-22-605",
+        "source_ids": [
+          "S-2026-06-22-605"
+        ],
+        "title": "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon",
+        "url": "https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-604": "2026-06-23T10:28:00Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-22",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-22-604",
+        "source_ids": [
+          "S-2026-06-22-604"
+        ],
+        "title": "Oil prices fluctuate: Trump threatens fresh strikes on Iran",
+        "url": "https://www.cnbc.com/2026/06/22/oil-prices-wti-brent-crude-trump-iran-threat-strait-hormuz-closure.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-606": "2026-06-23T10:27:00Z"
+        },
+        "number": 5,
+        "published_at": "2026-06-22",
+        "publisher": "Reuters (via Investing.com)",
+        "selected_source_id": "S-2026-06-22-606",
+        "source_ids": [
+          "S-2026-06-22-606"
+        ],
+        "title": "Oil slips after US-Iran conclude talks in Switzerland",
+        "url": "https://www.investing.com/news/commodities-news/brent-oil-rises-more-than-1bbl-after-bumpy-start-to-usiran-peace-talks-4751687"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-603": "2026-06-23T10:23:00Z"
+        },
+        "number": 6,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-22-603",
+        "source_ids": [
+          "S-2026-06-22-603"
+        ],
+        "title": "Brent crude oil - Price - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-601": "2026-06-23T10:25:00Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-22",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-22-601",
+        "source_ids": [
+          "S-2026-06-22-601"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-602": "2026-06-23T10:23:00Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-22-602",
+        "source_ids": [
+          "S-2026-06-22-602"
+        ],
+        "title": "United States Dollar - Quote - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/united-states/currency"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-002": "2026-06-23T09:40:00Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-22",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-22-002",
+        "source_ids": [
+          "S-2026-06-22-002"
+        ],
+        "title": "Stock market today: S&P 500, Nasdaq slide as Big Tech, SpaceX hammered",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-june-22-225817825.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-401": "2026-06-23T09:53:00Z"
+        },
+        "number": 10,
+        "published_at": "2026-06-22",
+        "publisher": "Deutsche Presse-Agentur (dpa)",
+        "selected_source_id": "S-2026-06-22-401",
+        "source_ids": [
+          "S-2026-06-22-401"
+        ],
+        "title": "European stocks close mostly higher",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-mostly-higher-184238521.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-402": "2026-06-23T09:52:00Z"
+        },
+        "number": 11,
+        "published_at": "2026-06-22",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-22-402",
+        "source_ids": [
+          "S-2026-06-22-402"
+        ],
+        "title": "Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/euro-area/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-403": "2026-06-23T09:52:00Z"
+        },
+        "number": 12,
+        "published_at": "2026-06-22",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-22-403",
+        "source_ids": [
+          "S-2026-06-22-403"
+        ],
+        "title": "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/germany/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-404": "2026-06-23T09:52:00Z"
+        },
+        "number": 13,
+        "published_at": "2026-06-22",
+        "publisher": "Investors Chronicle",
+        "selected_source_id": "S-2026-06-22-404",
+        "source_ids": [
+          "S-2026-06-22-404"
+        ],
+        "title": "FTSE 100 Index historical prices",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-201": "2026-06-23T10:09:13Z"
+        },
+        "number": 14,
+        "published_at": "2026-06-22T09:37:00-04:00",
+        "publisher": "Associated Press via Spectrum News",
+        "selected_source_id": "S-2026-06-22-201",
+        "source_ids": [
+          "S-2026-06-22-201"
+        ],
+        "title": "US stocks hold near their records as trading resumes on Wall Street after a holiday weekend",
+        "url": "https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-202": "2026-06-23T10:09:13Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-22T05:30:00-04:00",
+        "publisher": "MarketWatch",
+        "selected_source_id": "S-2026-06-22-202",
+        "source_ids": [
+          "S-2026-06-22-202"
+        ],
+        "title": "Japanese stocks climb for eighth day as Hang Seng drops",
+        "url": "https://www.marketwatch.com/data-news/japanese-stocks-climb-for-eighth-day-as-hang-seng-drops-c785d88c-49d9782456dc"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-203": "2026-06-23T10:09:13Z"
+        },
+        "number": 16,
+        "published_at": "2026-06-22",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-22-203",
+        "source_ids": [
+          "S-2026-06-22-203"
+        ],
+        "title": "Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/japan/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-204": "2026-06-23T10:09:13Z"
+        },
+        "number": 17,
+        "published_at": "2026-06-22T15:32:00+09:00",
+        "publisher": "Yonhap News Agency",
+        "selected_source_id": "S-2026-06-22-204",
+        "source_ids": [
+          "S-2026-06-22-204"
+        ],
+        "title": "KOSPI 9,114.55 UP 62.13 points (close)",
+        "url": "https://en.yna.co.kr/view/AEN20260622007400320"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-208": "2026-06-23T10:09:13Z"
+        },
+        "number": 18,
+        "published_at": "2026-06-22",
+        "publisher": "LGT Private Banking",
+        "selected_source_id": "S-2026-06-22-208",
+        "source_ids": [
+          "S-2026-06-22-208"
+        ],
+        "title": "Investors weigh US-Iran deal progress",
+        "url": "https://www.lgt.com/li-en/market-assessments/market-view/investors-weigh-us-iran-deal-progress--359112"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-702": "2026-06-23T10:39:21Z"
+        },
+        "number": 19,
+        "published_at": "2026-06-22",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-22-702",
+        "source_ids": [
+          "S-2026-06-22-702"
+        ],
+        "title": "How major US stock indexes fared Monday 6/22/2026",
+        "url": "https://apnews.com/article/15484e7e5b168601a3f2c0061eb3ffd1"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-703": "2026-06-23T10:39:21Z"
+        },
+        "number": 20,
+        "published_at": "2026-06-22",
+        "publisher": "whit3rabbit/fear-greed-data",
+        "selected_source_id": "S-2026-06-22-703",
+        "source_ids": [
+          "S-2026-06-22-703"
+        ],
+        "title": "fear-greed.csv",
+        "url": "https://github.com/whit3rabbit/fear-greed-data"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-705": "2026-06-23T10:39:21Z",
+          "S-2026-06-22-706": "2026-06-23T10:39:21Z",
+          "S-2026-06-22-707": "2026-06-23T10:39:21Z",
+          "S-2026-06-22-708": "2026-06-23T10:39:21Z"
+        },
+        "number": 21,
+        "published_at": "2026-06-22",
+        "publisher": "Cboe Global Markets",
+        "selected_source_id": "S-2026-06-22-707",
+        "source_ids": [
+          "S-2026-06-22-705",
+          "S-2026-06-22-706",
+          "S-2026-06-22-707",
+          "S-2026-06-22-708"
+        ],
+        "title": "Cboe S&P 500 3-Month Volatility Index Historical Data CSV",
+        "url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-709": "2026-06-23T10:39:21Z"
+        },
+        "number": 22,
+        "published_at": null,
+        "publisher": "Cboe Global Markets",
+        "selected_source_id": "S-2026-06-22-709",
+        "source_ids": [
+          "S-2026-06-22-709"
+        ],
+        "title": "Cboe Daily Market Statistics",
+        "url": "https://www.cboe.com/markets/us/options/market-statistics/daily/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-710": "2026-06-23T10:39:21Z"
+        },
+        "number": 23,
+        "published_at": "2026-06-20",
+        "publisher": "American Association of Individual Investors",
+        "selected_source_id": "S-2026-06-22-710",
+        "source_ids": [
+          "S-2026-06-22-710"
+        ],
+        "title": "AAII Sentiment Survey: Pessimism Draws Back",
+        "url": "https://www.aaii.com/sentimentsurvey"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-712": "2026-06-23T10:39:21Z"
+        },
+        "number": 24,
+        "published_at": "2026-06-22",
+        "publisher": "ETF.com",
+        "selected_source_id": "S-2026-06-22-712",
+        "source_ids": [
+          "S-2026-06-22-712"
+        ],
+        "title": "Post-SpaceX IPO, Investors Pour $83B Into U.S. Equities",
+        "url": "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-704": "2026-06-23T10:39:21Z"
+        },
+        "number": 25,
+        "published_at": "2026-06-22",
+        "publisher": "MacroMicro",
+        "selected_source_id": "S-2026-06-22-704",
+        "source_ids": [
+          "S-2026-06-22-704"
+        ],
+        "title": "CNN Fear and Greed Index",
+        "url": "https://en.macromicro.me/charts/80897/CNN-Fear-and-Greed-Index"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-22-711": "2026-06-23T10:39:21Z"
+        },
+        "number": 26,
+        "published_at": "2026-06-17",
+        "publisher": "Investment Company Institute",
+        "selected_source_id": "S-2026-06-22-711",
+        "source_ids": [
+          "S-2026-06-22-711"
+        ],
+        "title": "Release: Combined Estimated Long-Term Flows and ETF Net Issuance",
+        "url": "https://www.ici.org/research/stats/combined_flows"
+      }
+    ],
+    "report_date": "2026-06-22",
+    "style": "numeric-full",
+    "title": "Global Markets - 2026-06-22",
+    "warnings": []
+  },
+  "report_date": "2026-06-22",
+  "status": "ok",
+  "style": "numeric-full"
+}
