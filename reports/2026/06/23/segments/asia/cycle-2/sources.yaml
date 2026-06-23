@@ -1,0 +1,90 @@
+- id: "S-2026-06-23-20801"
+  publisher: "UPI"
+  title: "KOSPI crashes nearly 10 pct on massive tech sell-offs"
+  url: "https://www.upi.com/amp/Top_News/World-News/2026/06/23/korea-KOSPI-Korea-Stock-Index-crash-10-percent-massive-tech-sell-off/6981782211546/"
+  canonical_url: "https://www.upi.com/Top_News/World-News/2026/06/23/korea-KOSPI-Korea-Stock-Index-crash-10-percent-massive-tech-sell-off/6981782211546/"
+  accessed_at: "2026-06-23T23:23:41Z"
+  published_at: "2026-06-23T06:54:00-04:00"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service_syndication"
+  archive:
+    stored: false
+    reason: "UPI public page with Yonhap News Agency byline; used for the KOSPI close, point and percent move, KRX circuit-breaker time and 20-minute halt, investor-flow split, Samsung/SK Hynix close moves, won quote, and Korea bond-yield context. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-20802"
+  publisher: "Anadolu Agency"
+  title: "South Korean stocks crash 10% on massive tech sell-off"
+  url: "https://www.aa.com.tr/en/economy/south-korean-stocks-crash-10-on-massive-tech-sell-off/3975282"
+  canonical_url: "https://www.aa.com.tr/en/economy/south-korean-stocks-crash-10-on-massive-tech-sell-off/3975282"
+  accessed_at: "2026-06-23T23:23:47Z"
+  published_at: "2026-06-23"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Anadolu Agency public article corroborating the KOSPI close, point and percent move, market-wide halt context, turnover, decliners/gainers, Samsung/SK Hynix and other large-cap losses, and won quote. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-20803"
+  publisher: "Jiji Press"
+  title: "Nikkei Average/TOPIX Index (Closing)"
+  url: "https://jen.jiji.com/jc/eng?g=mkt&k=2026062300782"
+  canonical_url: "https://jen.jiji.com/jc/eng?g=mkt&k=2026062300782"
+  accessed_at: "2026-06-23T23:24:39Z"
+  published_at: "2026-06-23T15:30:00+09:00"
+  source_type: "market_data_brief"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_wire"
+  archive:
+    stored: false
+    reason: "Jiji Press market brief for the 2026-06-23 15:30 JST Tokyo close; used for Nikkei Average and TOPIX closes and point moves. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-20804"
+  publisher: "The Business Times"
+  title: "Tech sell-off drags Asian stocks lower from record"
+  url: "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/tech-sell-drags-asian-stocks-lower-record"
+  canonical_url: "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/tech-sell-drags-asian-stocks-lower-record"
+  accessed_at: "2026-06-23T23:25:34Z"
+  published_at: "2026-06-23T10:31:00+08:00"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_outlet"
+  archive:
+    stored: false
+    reason: "Business Times public article, updated 2026-06-23 15:45 Singapore time, used for the regional MSCI Asia gauge decline, prior record-high context, Asian tech sub-gauge losing streak break, late-session Topix/Hang Seng/Shanghai snapshots, Brent below $78, and AI/semiconductor rotation framing. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-20805"
+  publisher: "Reuters"
+  title: "Tech selloff drags global stocks lower"
+  url: "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-06-23/"
+  canonical_url: "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-06-23/"
+  accessed_at: "2026-06-23T23:25:36Z"
+  published_at: "2026-06-23"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Reuters global-markets wrap used for the global technology and semiconductor selloff, Korea's nearly 10% drop confirmation, oil below $80, yen near long-term lows, and rate/yield context. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-20806"
+  publisher: "Trading Economics"
+  title: "Brent crude oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  accessed_at: "2026-06-23T23:25:39Z"
+  published_at: "2026-06-23"
+  source_type: "market_data_page"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Trading Economics public commodity page used for the June 23 Brent CFD reference, daily percent change, and month/year context; explicitly not treated as an official ICE settlement. No archive artifact committed for this cycle."
