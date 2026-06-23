@@ -1,0 +1,75 @@
+- id: "S-2026-06-23-501"
+  publisher: "Reuters"
+  title: "Europe's STOXX 600 ends lower as tech selloff, rising Fed hike bets weigh"
+  url: "https://www.marketscreener.com/news/stoxx-600-hits-over-one-week-low-on-fed-hike-bets-tech-selloff-ce7f5fdada8aff20"
+  canonical_url: "https://www.marketscreener.com/news/stoxx-600-hits-over-one-week-low-on-fed-hike-bets-tech-selloff-ce7f5fdada8aff20"
+  accessed_at: "2026-06-23T22:25:00Z"
+  published_at: "2026-06-23"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters European market-close wrap for Tuesday June 23, 2026 (published 04:49 EDT, modified 12:21 EDT), accessed live via MarketScreener syndication: the STOXX 600 closed 0.7% lower at a more-than-one-week low as a global technology selloff and rising bets on imminent US Federal Reserve rate hikes weighed; France's CAC 40 fell 0.7%, Germany's DAX 0.3%, and the UK's FTSE 100 0.2%. The tech sector was the biggest weight on the STOXX 600 with a 3.7% fall, its biggest daily drop since February, with Infineon -6.3% and STMicroelectronics -8.5%; European mining shed 3.3% tracking lower precious-metal prices, while defensive healthcare (+1.9%) and food and beverage (+1.7%) gained. The page's STOXX Europe 600 widget showed 634.63, -0.73% (prior 639.27), and the EURO STOXX 50 -1.28%. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-502"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/euro-area/stock-market"
+  canonical_url: "https://tradingeconomics.com/euro-area/stock-market"
+  accessed_at: "2026-06-23T22:25:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Euro Area page (last updated June 23, 2026) carrying the dated June 23 close: the EU50 (EURO STOXX 50) fell to 6,232.46, -78.86 / -1.25% (previous 6,311.32), and the EU600 (STOXX Europe 600) closed 634.64, -4.63 / -0.72%; the dated index table also shows FR40 (CAC 40) 8,340.71 / -0.71%, DE40 (DAX) 24,893.58 / -0.98%, and the Euro Stoxx Banks gauge 295.04 / -1.05% for Jun/23. The news wrap attributed the pullback from records to a tech selloff (ASML -5.74%, Infineon over -6%) on fears hyperscalers overspent on AI infrastructure, triggered by SpaceX raising more cash after its IPO and SK Hynix signalling slower AI-chip output to favour commodity DRAM; Siemens (-2.42%) and Schneider Electric (-4.53%) retreated, while pharma rose (Sanofi +1.5% after EU approval of its Cenrifki treatment). The US Treasury issued a 60-day license authorizing sale of Iranian oil, pushing crude to a three-month low. Trading Economics notes an EU50 June all-time high of 6,357, so no record-high claim is made. CFD-tracked levels. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-503"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-23T22:25:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Germany page News Stream item dated 2026-06-23: 'The DAX Index decreased 246 points or 0.98 percent on Tuesday to close at 24894 points,' with the dated index table showing DE40 24,893.58, -246.11 / -0.98% (previous settle 25,139.69). The decline was led by Infineon (-6.26% to 80.56; news item -5.86%), Siemens Energy (-3.93%) and Vonovia (-3.21%, after a convertible-bond issue); top gainers were SAP (+1.74% on the table, +2.13% in the news item), Airbus (+1.97%) and Qiagen (+1.51%). A separate intraday wrap rounded the close to 'about 1% down at 24,937' and flagged Hochtief -4.3%, plus utility RWE's EUR 4 billion capital raise for a majority stake in Amprion. German June flash PMI showed private-sector activity shrinking the most since 2024, with services at a roughly 3.5-year low. DAX all-time high 25,584.60 (January 2026). CFD-tracked level. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-504"
+  publisher: "Investors Chronicle"
+  title: "FTSE 100 Index historical prices"
+  url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  canonical_url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  accessed_at: "2026-06-23T22:25:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Public Investors Chronicle/LSEG FTSE 100 historical daily table accessed live (data delayed at least 15 minutes, as of Jun 23 2026 16:35 BST): Tuesday, June 23, 2026 open 10,438.24, high 10,462.19, low 10,332.40, close 10,428.85, volume 886,362,424; Monday, June 22, 2026 close 10,437.85. The June 23 close of 10,428.85 is down 9.00 points (-0.09%) from the June 22 close, making the FTSE 100 the clear relative outperformer among major European indexes on the day. Data provided by LSEG, delayed at least 15 minutes. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-505"
+  publisher: "Trading Economics"
+  title: "France Stock Market Index (FR40) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/france/stock-market"
+  canonical_url: "https://tradingeconomics.com/france/stock-market"
+  accessed_at: "2026-06-23T22:25:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics France page dated June 23, 2026: the FR40 (CAC 40) fell 0.7% to close at 8,341 (table 8,340.71, -59.40 / -0.71%), extending losses for a third straight session as investors priced roughly 50 bps of US Federal Reserve hikes by year-end and an additional 25 bps from the ECB. STMicroelectronics plunged 8.1% in the global chip selloff and Schneider Electric fell 4.53%, while Airbus gained 1.97% (wrap +2.2%). Luxury was mixed: LVMH +0.49%, Hermes -0.93%, L'Oreal -0.56%, Kering -0.9%. Financials traded lower (Societe Generale -1.5%, BNP Paribas -0.39%). FR40 all-time high 8,642.23 (February 2026). CFD-tracked level. No archive artifact committed for this cycle."
