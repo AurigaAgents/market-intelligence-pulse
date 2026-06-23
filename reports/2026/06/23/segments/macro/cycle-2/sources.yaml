@@ -1,0 +1,75 @@
+- id: "S-2026-06-23-701"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-23T23:47:14Z"
+  published_at: "2026-06-23"
+  source_type: "government_data"
+  retrieval_method: "web_fetch_live_public_html"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury table fetched live. The 06/23/2026 row shows 2Y 4.16%, 10Y 4.50%, and 30Y 4.94%; the 06/22/2026 row shows 2Y 4.24%, 10Y 4.51%, and 30Y 4.95%. Treasury states par-yield inputs are indicative bid-side market quotations obtained at or near 3:30 PM each trading day."
+- id: "S-2026-06-23-702"
+  publisher: "Reuters"
+  title: "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid"
+  url: "https://www.reuters.com/world/asia-pacific/dollar-firms-hawkish-fed-bets-oil-rebound-yen-near-40-year-low-2026-06-23/"
+  canonical_url: "https://www.reuters.com/world/asia-pacific/dollar-firms-hawkish-fed-bets-oil-rebound-yen-near-40-year-low-2026-06-23/"
+  accessed_at: "2026-06-23T23:46:12Z"
+  published_at: "2026-06-23"
+  source_type: "news_article_fx_market_report"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Reuters article fetched live; used for DXY level, daily move, session high, FedWatch probability context, and safe-haven dollar driver. No separate archive artifact committed for this segment cycle."
+- id: "S-2026-06-23-703"
+  publisher: "Reuters"
+  title: "Oil prices finish 1% lower as investors focus on Hormuz flows after peace talks"
+  url: "https://www.reuters.com/business/energy/oil-gains-after-selloff-awaits-progress-strait-hormuz-flows-2026-06-23/"
+  canonical_url: "https://www.reuters.com/business/energy/oil-gains-after-selloff-awaits-progress-strait-hormuz-flows-2026-06-23/"
+  accessed_at: "2026-06-23T23:46:36Z"
+  published_at: "2026-06-23"
+  source_type: "news_article_energy_market_report"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Reuters article fetched live; used for exact June 23 Brent and WTI futures settlement values and Hormuz/sanctions-waiver context. No separate archive artifact committed for this segment cycle."
+- id: "S-2026-06-23-704"
+  publisher: "CNBC"
+  title: "Treasury yields fall despite rate hike concerns hitting tech stocks"
+  url: "https://www.cnbc.com/amp/2026/06/23/treasury-yields-interest-rate-concerns-hit-tech-stocks.html"
+  canonical_url: "https://www.cnbc.com/2026/06/23/treasury-yields-interest-rate-concerns-hit-tech-stocks.html"
+  accessed_at: "2026-06-23T23:46:15Z"
+  published_at: "2026-06-23T05:08:00-04:00"
+  source_type: "financial_news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_outlet"
+  archive:
+    stored: false
+    reason: "CNBC article fetched live; used only as intraday context for falling Treasury yields, rate-hike concerns, and Thursday PCE focus. Official Treasury closing levels come from S-2026-06-23-701."
+- id: "S-2026-06-23-705"
+  publisher: "Reuters"
+  title: "Chip stocks plunge, but bargain-hunters stem losses in other tech names"
+  url: "https://www.reuters.com/business/media-telecom/nasdaq-100-set-shed-over-1-trillion-tech-selloff-deepens-spacex-slides-2026-06-23/"
+  canonical_url: "https://www.reuters.com/business/media-telecom/nasdaq-100-set-shed-over-1-trillion-tech-selloff-deepens-spacex-slides-2026-06-23/"
+  accessed_at: "2026-06-23T23:46:33Z"
+  published_at: "2026-06-23"
+  source_type: "news_article_equity_market_report"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Reuters article fetched live; used for the June 23 technology and semiconductor risk-off driver, Nasdaq Composite move, market-value loss, SOX move, and named chip-stock declines. No separate archive artifact committed for this segment cycle."
