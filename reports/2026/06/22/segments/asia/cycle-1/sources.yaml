@@ -1,0 +1,118 @@
+- id: "S-2026-06-22-601"
+  publisher: "Associated Press via Spectrum News"
+  title: "US stocks hold near their records as trading resumes on Wall Street after a holiday weekend"
+  url: "https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress"
+  canonical_url: "https://mynews13.com/fl/orlando/ap-top-news/2026/06/22/asian-shares-are-mixed-and-us-futures-fall-as-iran-talks-make-progress"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-22T09:37:00-04:00"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP market wrap carried by Spectrum News, accessed live: Asian markets were mixed on June 22, 2026; Nikkei 225 72,353.96 (+1.6%, all-time record), KOSPI 9,114.55 (+0.7%, record close), Hang Seng 23,768.52 (-0.7%), Shanghai Composite 4,163.10 (+1.8%), ASX 200 8,816.10 (-0.1%), Taiex +2.8%, Sensex +0.5%. AP also reported Brent crude down about 2% to $79.02 and US crude down 74 cents to $75.11 as US-Iran talks progressed, and cited AI-linked shares including SK Hynix +5.6%, SoftBank +1.9% and Tokyo Electron +3.2%. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-602"
+  publisher: "MarketWatch"
+  title: "Japanese stocks climb for eighth day as Hang Seng drops"
+  url: "https://www.marketwatch.com/data-news/japanese-stocks-climb-for-eighth-day-as-hang-seng-drops-c785d88c-49d9782456dc"
+  canonical_url: "https://www.marketwatch.com/data-news/japanese-stocks-climb-for-eighth-day-as-hang-seng-drops-c785d88c-49d9782456dc"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-22T05:30:00-04:00"
+  source_type: "market_data_news"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "MarketWatch Automation article supported by Dow Jones/FactSet market data, accessed live: Asia-Pacific stocks mostly grew on Monday June 22; Hang Seng Index down 0.7% at 23,768.52 and Nikkei 225 up 1.5% to 72,353.96. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-603"
+  publisher: "Trading Economics"
+  title: "Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/japan/stock-market"
+  canonical_url: "https://tradingeconomics.com/japan/stock-market"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-22"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Japan page accessed June 23, 2026: News Stream item dated 2026-06-22 says the Nikkei 225 went up 1,128 points or 1.58% on Monday to close at 72,379, led by J Front Retailing (+15.56%), Toppan (+10.87%) and Toto (+10.82%). The page identifies the JP225 as a CFD-derived index; this source is used as directional corroboration, while cash close precision is taken from AP/MarketWatch. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-604"
+  publisher: "Yonhap News Agency"
+  title: "KOSPI 9,114.55 UP 62.13 points (close)"
+  url: "https://en.yna.co.kr/view/AEN20260622007400320"
+  canonical_url: "https://en.yna.co.kr/view/AEN20260622007400320"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-22T15:32:00+09:00"
+  source_type: "newswire_market_close"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Yonhap close bulletin accessed live: KOSPI 9,114.55, up 62.13 points at the June 22, 2026 close. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-605"
+  publisher: "MarketScreener"
+  title: "HONG KONG HANG SENG Index Overview - Stock Price, Quote and News"
+  url: "https://www.marketscreener.com/quote/index/HONG-KONG-HANG-SENG-101835/"
+  canonical_url: "https://www.marketscreener.com/quote/index/HONG-KONG-HANG-SENG-101835/"
+  accessed_at: "2026-06-23T10:09:13Z"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "MarketScreener Hang Seng page accessed live: five-day quote table shows 2026-06-22 at 23,768.52 (-0.65%) and 2026-06-18 at 23,924.81; delayed quote Hong Kong S.E., last update June 23, 2026 at 04:08 EDT. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-606"
+  publisher: "Hong Kong Exchanges and Clearing Limited (HKEX)"
+  title: "HKEX Calendar"
+  url: "https://www.hkex.com.hk/News/HKEX-Calendar?defaultdate=2026-06-19"
+  canonical_url: "https://www.hkex.com.hk/News/HKEX-Calendar?defaultdate=2026-06-19"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-19"
+  source_type: "exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange"
+  archive:
+    stored: false
+    reason: "HKEX calendar for June 19, 2026 accessed live: Hong Kong public holiday, Tuen Ng Festival, Hong Kong Market is closed; Chinese Mainland public holiday, Dragon Boat Festival holiday. Used to establish why Hong Kong and Shanghai June 22 daily moves compare with June 18. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-607"
+  publisher: "The Wall Street Journal"
+  title: "Shanghai Composite Index SHCOMP Historical Prices"
+  url: "https://www.wsj.com/market-data/quotes/index/CN/XSHG/SHCOMP/historical-prices"
+  canonical_url: "https://www.wsj.com/market-data/quotes/index/CN/XSHG/SHCOMP/historical-prices"
+  accessed_at: "2026-06-23T10:09:13Z"
+  source_type: "market_data"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "WSJ historical prices table accessed live: Shanghai Composite 2026-06-22 open 4,093.95, high 4,164.42, low 4,070.17, close 4,163.10; previous listed session 2026-06-18 close 4,090.48. WSJ overview also showed prior close 4,163.10 on June 23. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-608"
+  publisher: "LGT Private Banking"
+  title: "Investors weigh US-Iran deal progress"
+  url: "https://www.lgt.com/li-en/market-assessments/market-view/investors-weigh-us-iran-deal-progress--359112"
+  canonical_url: "https://www.lgt.com/li-en/market-assessments/market-view/investors-weigh-us-iran-deal-progress--359112"
+  accessed_at: "2026-06-23T10:09:13Z"
+  published_at: "2026-06-22"
+  source_type: "market_commentary"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_institution_commentary"
+  archive:
+    stored: false
+    reason: "LGT market view dated June 22, 2026 accessed live: most Asian equity markets rose as easing US-Iran concern improved risk appetite, while elevated US-rate expectations limited broader enthusiasm; Japan and South Korea led gains, KOSPI up about 0.5%, SK Hynix nearly +6%, CSI 300 up, Shanghai Composite +0.8%, Hang Seng -0.8%, ASX 200 flat, and the PBOC left Loan Prime Rates unchanged. Used as context source only where consistent with primary market-data sources. No archive artifact committed for this cycle."
