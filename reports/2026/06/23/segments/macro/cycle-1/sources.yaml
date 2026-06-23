@@ -1,0 +1,90 @@
+- id: "S-2026-06-23-601"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-23T23:04:48Z"
+  published_at: "2026-06-23"
+  source_type: "government_data"
+  retrieval_method: "curl_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury par-yield CSV fetched live. The newest row is 06/23/2026: 3M 3.85, 6M 3.96, 1Y 4.01, 2Y 4.16, 3Y 4.22, 5Y 4.27, 7Y 4.38, 10Y 4.50, 20Y 4.96, 30Y 4.94. The prior row, 06/22/2026, was 2Y 4.24, 10Y 4.51, 30Y 4.95. No local archive artifact committed for this segment."
+- id: "S-2026-06-23-602"
+  publisher: "Trading Economics"
+  title: "United States Dollar - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/currency"
+  canonical_url: "https://tradingeconomics.com/united-states/currency"
+  accessed_at: "2026-06-23T23:04:48Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics DXY page fetched live. The meta description and stats block state that the DXY exchange rate rose to 101.3749 on June 23, 2026, up 0.35% from the previous session; the page says the dollar strengthened 2.15% over the prior month and was last updated June 23, 2026. The page narrative says the dollar rose for a fourth consecutive session to 101.3, its highest since April last year, supported by prospective Fed hikes, flight to safety from technology-stock selling, stronger-than-expected flash S&P Global PMI data, and attention to the week's PCE inflation report. No local archive artifact committed for this segment."
+- id: "S-2026-06-23-603"
+  publisher: "Trading Economics"
+  title: "Brent crude oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  accessed_at: "2026-06-23T23:05:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Brent page fetched live. The meta description and stats block state that Brent fell to 76.77 USD/Bbl on June 23, 2026, down 1.45% from the previous day and down 20.58% over the prior month. The page narrative says Brent fell to about $77 per barrel, its lowest level in nearly three months, as traders monitored progress toward resolving the conflict with Iran; it cites a new 60-day U.S. waiver for global buyers including American refineries to purchase Iranian crude and fuels, four working groups on nuclear issues and sanctions, rising Persian Gulf supply, and caveats around negotiations, Lebanon, and the Strait of Hormuz. No local archive artifact committed for this segment."
+- id: "S-2026-06-23-604"
+  publisher: "Trading Economics"
+  title: "Crude Oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/crude-oil"
+  accessed_at: "2026-06-23T23:05:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics WTI crude oil page fetched live. The meta description and stats block state that crude oil fell to 72.95 USD/Bbl on June 23, 2026, down 1.23% from the previous day and down 22.30% over the prior month. The page narrative says crude fell to about $73.1 per barrel, its lowest level in nearly three months, on the same US-Iran progress and supply-normalization narrative as Brent, with caveats around negotiations, Lebanon, and the Strait of Hormuz. No local archive artifact committed for this segment."
+- id: "S-2026-06-23-605"
+  publisher: "Trading Economics"
+  title: "United States Stock Market Index (USVIX) - Index Price | Live Quote | Historical Chart"
+  url: "https://tradingeconomics.com/vix:ind"
+  canonical_url: "https://tradingeconomics.com/vix:ind"
+  accessed_at: "2026-06-23T23:05:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics USVIX page fetched live. The page metadata says the United States Stock Market Index (USVIX) was last updated June 23, 2026; TEChartsMeta shows value 19.49. The page text says USVIX traded at 19.49 on Tuesday June 23, increasing 2.21 since the previous trading session. No local archive artifact committed for this segment."
+- id: "S-2026-06-23-606"
+  publisher: "Trading Economics"
+  title: "United States Stock Market Index - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/stock-market"
+  canonical_url: "https://tradingeconomics.com/united-states/stock-market"
+  accessed_at: "2026-06-23T23:05:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics US stock market page fetched live. The meta description and stats block state that the US500 fell to 7367 points on June 23, 2026, losing 1.42% from the previous session. The page narrative says U.S. stock indices closed negative amid a selloff in heavyweight chip producers, with the S&P 500 down 1.4% and the Nasdaq 100 down 3.3%; it cites skepticism over AI infrastructure returns, SK Hynix slowing advanced AI-chip production to boost commodity DRAM capacity, and weakness in Nvidia, Broadcom, Qualcomm, AMD, Micron, Sandisk, Tesla, and Oracle. It also says Treasury yields remained elevated despite lower energy prices after the hawkish dot plot, while healthcare and consumer defensives aided a near-flat Dow. No local archive artifact committed for this segment."
