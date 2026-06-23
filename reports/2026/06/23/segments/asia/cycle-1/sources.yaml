@@ -1,0 +1,60 @@
+- id: "S-2026-06-23-201"
+  publisher: "Agence France-Presse via Asia Financial"
+  title: "Key Asian Markets Slump in Tech Sell-off, Kospi Plunges 10%"
+  url: "https://www.asiafinancial.com/key-asian-markets-slump-in-tech-sell-off-kospi-plunges-10"
+  canonical_url: "https://www.asiafinancial.com/key-asian-markets-slump-in-tech-sell-off-kospi-plunges-10"
+  accessed_at: "2026-06-23T22:40:00Z"
+  published_at: "2026-06-23"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "AFP wire story syndicated via Asia Financial for 2026-06-23, accessed live; used for verified regional index closes (Kospi, Nikkei, Hang Seng, Shanghai Composite), Samsung/SK Hynix single-stock moves, SoftBank, Tokyo Electron, SpaceX, and oil close figures. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-202"
+  publisher: "Bloomberg via The Edge Singapore"
+  title: "Korean stocks' 9% tumble from record triggers trading halt"
+  url: "https://www.theedgesingapore.com/cityandcountry/global-markets/korean-stocks-9-tumble-record-triggers-trading-halt"
+  canonical_url: "https://www.theedgesingapore.com/cityandcountry/global-markets/korean-stocks-9-tumble-record-triggers-trading-halt"
+  accessed_at: "2026-06-23T22:40:00Z"
+  published_at: "2026-06-23"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Bloomberg wire story by Youkyung Lee and Sangmi Cha, syndicated via The Edge Singapore for 2026-06-23, accessed live; used for the 20-minute Korea Exchange circuit breaker, foreign-investor selling flow, Samsung and SK Hynix single-stock percentages, leveraged-ETF amplification, and the Allspring Global Investments analyst quote. No archive artifact committed for this cycle."
+- id: "S-2026-06-23-203"
+  publisher: "Trading Economics"
+  title: "Japanese Shares Retreat on Profit Taking"
+  url: "https://tradingeconomics.com/japan/stock-market"
+  canonical_url: "https://tradingeconomics.com/japan/stock-market"
+  accessed_at: "2026-06-23T22:40:00Z"
+  published_at: "2026-06-23"
+  source_type: "market_data_summary"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Trading Economics Japan Stock Market summary for 2026-06-23, accessed live; used for the Nikkei 225 and Topix close levels and single-stock moves (SoftBank Group, Kioxia, Tokyo Electron, Ibiden). No archive artifact committed for this cycle."
+- id: "S-2026-06-23-204"
+  publisher: "Investing.com (Reuters wire)"
+  title: "Asia stocks slide as AI rally cools; Korea tumbles on chip selloff"
+  url: "https://www.investing.com/news/stock-market-news/asia-stocks-slide-as-ai-rally-cools-korea-tumbles-on-chip-selloff-4754608"
+  canonical_url: "https://www.investing.com/news/stock-market-news/asia-stocks-slide-as-ai-rally-cools-korea-tumbles-on-chip-selloff-4754608"
+  accessed_at: "2026-06-23T22:40:00Z"
+  published_at: "2026-06-23"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Reuters wire story syndicated via Investing.com for the 2026-06-23 Asian session, accessed live; used for the early-session intraday readings, the US-Iran negotiation context, the hawkish Federal Reserve context, and the Japanese PMI detail. Intraday readings from this article were superseded by final closes carried at higher confidence from the AFP and Trading Economics sources. No archive artifact committed for this cycle."
