@@ -1,0 +1,60 @@
+- id: "S-2026-06-22-501"
+  publisher: "Deutsche Presse-Agentur (dpa)"
+  title: "European stocks close mostly higher"
+  url: "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-mostly-higher-184238521.html"
+  canonical_url: "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-mostly-higher-184238521.html"
+  accessed_at: "2026-06-23T09:53:00Z"
+  published_at: "2026-06-22"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "dpa European market close wrap for Monday June 22, 2026, accessed live via Yahoo Finance syndication (published 8:42 PM GMT+2): the STOXX Europe 600 rose 0.58%, the FTSE 100 0.72%, Germany's DAX 0.62%, while France's CAC 40 fell 0.25%. The session was driven by positive progress in US-Iran peace negotiations and easing inflation concerns from weak oil prices; financials and miners led, with UK lenders NatWest, Barclays and Lloyds each up about 4% and Infineon up nearly 5% on a humanoid-robot collaboration with VinRobotics, while luxury weakened (Hermes nearly -6%, LVMH and EssilorLuxottica -2% to -4%). No archive artifact committed for this cycle."
+- id: "S-2026-06-22-502"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/euro-area/stock-market"
+  canonical_url: "https://tradingeconomics.com/euro-area/stock-market"
+  accessed_at: "2026-06-23T09:52:00Z"
+  published_at: "2026-06-22"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Euro Area page (page last updated June 23, 2026) carrying the dated Monday June 22 wrap: the Euro STOXX 50 added 0.4% to 6,320 and the STOXX Europe 600 rose 0.7% to 640, supported by lower energy prices after Iran and the US signed a memorandum of understanding and Iran reported progress toward a permanent peace deal; banks led as eurozone sovereign yields pulled back (Santander, BBVA, Nordea about +2%), Infineon jumped 5% on the AI-infrastructure rally, while LVMH and Hermes fell 3.6% and 6%. The dated index table shows the FR40 (CAC 40) at 8,400.11, -21.03 / -0.25% for Jun/22, and the Euro Stoxx Banks gauge +1.00% for Jun/22. Trading Economics's own stats also cite an EU50 June intraday all-time high of 6,357, so the EU50 record-high characterization is not asserted in this cycle. CFD-tracked rounded levels. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-503"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-23T09:52:00Z"
+  published_at: "2026-06-22"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Germany page News Stream item dated 2026-06-22: 'The DAX Index rose 154 points or 0.62 percent on Monday to close at 25140 points,' led by Infineon (+6.09%), Zalando (+4.12%) and MTU Aero Engines (+1.65%), with Scout24 (-1.86%), SAP (-1.85%) and Deutsche Telekom (-1.80%) the top losers; the page's June 22 'Previous' settle is 25,139.69 and the components table shows Siemens +1.64% for Jun/22. CFD-tracked index level. No archive artifact committed for this cycle."
+- id: "S-2026-06-22-504"
+  publisher: "Investors Chronicle"
+  title: "FTSE 100 Index historical prices"
+  url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  canonical_url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  accessed_at: "2026-06-23T09:52:00Z"
+  published_at: "2026-06-22"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Public Investors Chronicle/LSEG FTSE 100 historical daily table accessed live: Monday, June 22, 2026 open 10,363.58, high 10,443.16, low 10,346.63, close 10,437.85, volume 1,061,872,669; Friday, June 19, 2026 close 10,363.27. The June 22 close of 10,437.85 is up 74.58 points (+0.72%) from the June 19 close. Data provided by LSEG, delayed at least 15 minutes. No archive artifact committed for this cycle."
