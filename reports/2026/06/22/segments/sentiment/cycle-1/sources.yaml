@@ -1,0 +1,178 @@
+- id: "S-2026-06-22-801"
+  publisher: "New York Stock Exchange"
+  title: "Holidays & Trading Hours"
+  url: "https://www.nyse.com/markets/hours-calendars"
+  canonical_url: "https://www.nyse.com/trade/hours-calendars"
+  accessed_at: "2026-06-23T10:39:21Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_calendar"
+  archive:
+    stored: false
+    reason: "Official NYSE trading-hours page identifies regular core trading as 9:30 a.m. to 4:00 p.m. ET and lists Juneteenth National Independence Day on Friday, June 19, 2026. June 22, 2026 was the following Monday regular session."
+- id: "S-2026-06-22-802"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Monday 6/22/2026"
+  url: "https://apnews.com/article/15484e7e5b168601a3f2c0061eb3ffd1"
+  canonical_url: "https://apnews.com/article/15484e7e5b168601a3f2c0061eb3ffd1"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "market_close_wire"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_news_wire_market_close"
+  archive:
+    stored: false
+    reason: "AP public market-close article accessed via live web search. It reported S&P 500 -0.4% to 7,472.79, Nasdaq Composite -1.3% to 26,166.60, Dow +0.3% to 51,712.71, Russell 2000 +0.8% to 3,004.40, weaker Big Tech, falling oil prices, and higher Treasury yields pressuring stocks."
+- id: "S-2026-06-22-803"
+  publisher: "whit3rabbit/fear-greed-data"
+  title: "fear-greed.csv"
+  url: "https://raw.githubusercontent.com/whit3rabbit/fear-greed-data/main/fear-greed.csv"
+  canonical_url: "https://github.com/whit3rabbit/fear-greed-data"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "market_sentiment_dataset"
+  retrieval_method: "raw_csv_fetch_live_public_repository"
+  mutable: true
+  paywall: false
+  reliability_tier: "public_cnn_endpoint_mirror"
+  archive:
+    stored: false
+    reason: "Raw GitHub CSV accessed live. Tail rows showed 2026-06-15 41.5714285714286 fear, 2026-06-19 31.6 fear, and 2026-06-22 34.7428571428571 fear."
+- id: "S-2026-06-22-804"
+  publisher: "MacroMicro"
+  title: "CNN Fear and Greed Index"
+  url: "https://en.macromicro.me/charts/80897/CNN-Fear-and-Greed-Index"
+  canonical_url: "https://en.macromicro.me/charts/80897/CNN-Fear-and-Greed-Index"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "market_sentiment_chart"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "sentiment_data_aggregator"
+  archive:
+    stored: false
+    reason: "MacroMicro search result and page access during collection showed CNN Fear and Greed Index value 34.74 dated 2026-06-22, corroborating the GitHub mirror."
+- id: "S-2026-06-22-805"
+  publisher: "Cboe Global Markets"
+  title: "VIX Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public CSV accessed live. Tail rows included 06/19/2026 open 17.04 high 17.27 low 16.72 close 16.78 and 06/22/2026 open 17.48 high 17.92 low 16.49 close 17.28."
+- id: "S-2026-06-22-806"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 9-Day Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX9D CSV accessed live. Latest relevant row was 06/22/2026 open 15.55 high 17.55 low 15.00 close 16.29."
+- id: "S-2026-06-22-807"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 3-Month Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX3M CSV accessed live. Latest relevant row was 06/22/2026 open 19.51 high 20.12 low 19.34 close 19.76."
+- id: "S-2026-06-22-808"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 6-Month Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX6M CSV accessed live. Latest relevant row was 06/22/2026 open 22.00 high 22.49 low 21.88 close 22.15."
+- id: "S-2026-06-22-809"
+  publisher: "Cboe Global Markets"
+  title: "Cboe Daily Market Statistics"
+  url: "https://www.cboe.com/markets/us/options/market-statistics/daily/"
+  canonical_url: "https://www.cboe.com/markets/us/options/market-statistics/daily/"
+  accessed_at: "2026-06-23T10:39:21Z"
+  source_type: "official_options_market_statistics"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_statistics"
+  archive:
+    stored: false
+    reason: "Cboe public daily market statistics page accessed live. Embedded ratios table showed total put/call 0.92, index put/call 1.08, exchange traded products put/call 1.15, equity put/call 0.60, VIX put/call 0.23, and SPX + SPXW put/call 1.22."
+- id: "S-2026-06-22-810"
+  publisher: "American Association of Individual Investors"
+  title: "AAII Sentiment Survey: Pessimism Draws Back"
+  url: "https://insights.aaii.com/p/aaii-sentiment-survey-pessimism-draws"
+  canonical_url: "https://www.aaii.com/sentimentsurvey"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-20"
+  source_type: "sentiment_survey_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "survey_publisher_post"
+  archive:
+    stored: false
+    reason: "AAII public post accessed live. It reported bullish sentiment 36.6%, neutral 24.1%, bearish 39.4%, changes of +6.2, +2.1, and -8.3 percentage points, and a bull-bear spread of -2.8 percentage points."
+- id: "S-2026-06-22-811"
+  publisher: "Investment Company Institute"
+  title: "Release: Combined Estimated Long-Term Flows and ETF Net Issuance"
+  url: "https://www.ici.org/research/stats/combined_flows"
+  canonical_url: "https://www.ici.org/research/stats/combined_flows"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-17"
+  source_type: "fund_flow_release"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "industry_association_statistics"
+  archive:
+    stored: false
+    reason: "ICI public release accessed live. For week ended 2026-06-10 it reported total long-term mutual fund and ETF inflows of $31.52 billion, mutual fund outflows of $16.81 billion, ETF net issuance of $48.33 billion, equity inflows of $16.64 billion, bond inflows of $18.21 billion, and commodity outflows of $2.27 billion."
+- id: "S-2026-06-22-812"
+  publisher: "ETF.com"
+  title: "Post-SpaceX IPO, Investors Pour $83B Into U.S. Equities"
+  url: "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+  canonical_url: "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+  accessed_at: "2026-06-23T10:39:21Z"
+  published_at: "2026-06-22"
+  source_type: "etf_flow_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_media_flow_data"
+  archive:
+    stored: false
+    reason: "ETF.com public weekly-flow article accessed live. It reported all data as of 6 a.m. ET on the article date, total ETF flows of $119.83133 billion, U.S. equity flows of $83.62423 billion, international equity flows of $21.66015 billion, U.S. fixed income flows of $8.15492 billion, leveraged ETF outflows of $0.50768 billion, IVV creations of $30.40332 billion, XLK creations of $8.32734 billion, SMH creations of $7.44425 billion, and SPY redemptions of $29.62405 billion."
