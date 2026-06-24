@@ -214,7 +214,7 @@ jobs:
             if ! printf '%s\n' "$proof_text" | grep -Fq 'market_intelligence_pulse_validate.py'; then
               fail "PR #${pr_number} does not record artifact validator proof."
             fi
-            if ! printf '%s\n' "$proof_text" | grep -Eq 'audit-milestone.*status: ok|status: ok.*audit-milestone'; then
+            if ! printf '%s\n' "$proof_text" | grep -Eiq 'audit-milestone.*status[[:space:]`"*]*[:=]?[[:space:]`"*]*ok|status[[:space:]`"*]*[:=]?[[:space:]`"*]*ok.*audit-milestone'; then
               fail "PR #${pr_number} does not record audit-milestone status ok proof."
             fi
 
@@ -382,13 +382,16 @@ jobs:
           pr_comments_text="$(jq -r '.[].body' <<< "$pr_comments_json")"
           proof_text="$(printf '%s\n%s\n' "$pr_body" "$pr_comments_text")"
 
-          if ! printf '%s\n' "$proof_text" | grep -Eiq '("status"[[:space:]]*:[[:space:]]*"ok"|status[[:space:]]*[:=]?[[:space:]]+ok|status[[:space:]]*=[[:space:]]*ok)'; then
+          # Proof tokens may be wrapped in markdown (backticks / quotes / bold),
+          # e.g. `status: ` + backtick + `ok`; tolerate that formatting so a clean
+          # report is not blocked by cosmetics ([[:space:]`"*] around the tokens).
+          if ! printf '%s\n' "$proof_text" | grep -Eiq 'status[[:space:]`"*]*[:=]?[[:space:]`"*]*ok'; then
             fail "PR #${pr_number} does not contain validation status ok proof."
           fi
-          if ! printf '%s\n' "$proof_text" | grep -Eiq '("errors"[[:space:]]*:[[:space:]]*\[\]|errors[[:space:]]*[:=]?[[:space:]]*\[\])'; then
+          if ! printf '%s\n' "$proof_text" | grep -Eiq 'errors[[:space:]`"*]*[:=]?[[:space:]`"*]*\[[[:space:]]*\]'; then
             fail "PR #${pr_number} does not contain empty validation errors proof."
           fi
-          if ! printf '%s\n' "$proof_text" | grep -Eiq '(privacy[[:space:]-]*scan|privacy[_-]?scan[[:space:]]*=[[:space:]]*ok|privacy[_-]?check[[:space:]]*=[[:space:]]*ok|no[[:space:]]+private[[:space:]]+paths|no[[:space:]]+local[[:space:]]+(runtime|filesystem)[[:space:]]+paths|private[[:space:]]+paths.*no[[:space:]]+matches|scan.*no[[:space:]]+matches|findings[[:space:]]*=?[[:space:]]*\[\])'; then
+          if ! printf '%s\n' "$proof_text" | grep -Eiq '(privacy[[:space:]-]*scan|privacy[_-]?scan[[:space:]]*=[[:space:]]*ok|privacy[_-]?check[[:space:]]*=[[:space:]]*ok|no[[:space:]]+private[[:space:]]+paths|no[[:space:]]+local[[:space:]]+(runtime|filesystem)[[:space:]]+paths|private[[:space:]]+paths.*no[[:space:]]+matches|scan.*no[[:space:]]+matches|findings[[:space:]`"*]*[:=]?[[:space:]`"*]*\[[[:space:]]*\])'; then
             fail "PR #${pr_number} does not contain privacy scan or no-private-path proof."
           fi
 
