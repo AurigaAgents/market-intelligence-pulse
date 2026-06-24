@@ -1,0 +1,60 @@
+- id: "S-2026-06-24-201"
+  publisher: "Associated Press via KARE11"
+  title: "How major US stock indexes fared Wednesday 6/24/2026"
+  url: "https://www.kare11.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64"
+  canonical_url: "https://www.kare11.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64"
+  accessed_at: "2026-06-24T23:24:00Z"
+  published_at: "2026-06-24T15:39:00-05:00"
+  source_type: "newswire_index_close_summary"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP syndicated index-close summary published with a fixed timestamp (3:39 PM CDT June 24, 2026). Provides final regular-session closes for S&P 500 (7,358.22, -7.24, -0.1%), Dow (51,848.90, +182.06, +0.4%), Nasdaq (25,476.64, -110.40, -0.4%), Russell 2000 (2,986.63, +11.15, +0.4%); week-to-date and year-to-date point changes. AP close summaries are stable post-publication; no archive artifact committed for this cycle."
+- id: "S-2026-06-24-202"
+  publisher: "Associated Press via Spectrum News Bay News 9"
+  title: "US stocks end mixed, weighed down by more losses for tech giants"
+  url: "https://baynews9.com/fl/tampa/ap-top-news/2026/06/24/us-stocks-edge-higher-as-falling-oil-prices-help-take-pressure-off-the-market"
+  canonical_url: "https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market/"
+  accessed_at: "2026-06-24T23:23:00Z"
+  published_at: "2026-06-24T17:19:00-04:00"
+  source_type: "newswire_market_close_wrap"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP market-close wrap published 5:19 PM ET June 24, 2026 with final close-level data. Provides: S&P 500 fell 7.24 points or 0.1% to 7,358.22 despite nearly 2 out of every 3 stocks gaining; Dow rose 182.06 or 0.4% to 51,848.90; Nasdaq fell 110.40 or 0.4% to 25,476.64; Microsoft -2.3% (heaviest weight), Oracle -4.6%, Alphabet -0.2%; Brent $73.87 -3.8%, US crude $70.34 -3.9%; Exxon Mobil -2%, Chevron -2.6%; KB Home +16.7%, D.R. Horton +6.7%; 10-year Treasury yield 4.40% (from 4.50%), 2-year 4.15% (from 4.16%); gold -3.4% to $4,008.80; PCE expected 4.1% for May. No archive artifact committed for this cycle."
+- id: "S-2026-06-24-203"
+  publisher: "CNBC"
+  title: "Stock market news for June 24, 2026"
+  url: "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html"
+  canonical_url: "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html"
+  accessed_at: "2026-06-24T23:23:00Z"
+  published_at: "2026-06-24"
+  source_type: "financial_news_live_blog_close"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC live blog for June 24, 2026, accessed after close with final settlement section. Close-level data explicitly labelled as end-of-session: S&P 500 7,358.22 (-0.10%), Nasdaq 25,476.64 (-0.43%), Dow 51,848.90 (+182.06, +0.35%); Brent settled $73.74 (-4.33%), WTI $70.34 (-3.92%); 10-year yield dropped below 4.5%; Micron ended down 0.3%, Sandisk dropped 2.5%; Exxon Mobil, Chevron, ConocoPhillips, SLB all declined more than 2%; Microsoft -2.3%, Oracle -4.6%; Alphabet -0.2%; Bitcoin $59,023.98; FactSet consensus for Micron EPS $20.83 on revenue $35.75B. The close-section figures are final settlement values; the live blog may update but the close data is labelled as final. No archive artifact committed for this cycle."
+- id: "S-2026-06-24-204"
+  publisher: "Investopedia"
+  title: "Stock Market Today: S&P 500, Nasdaq Fall as Tech Shares Give Up Early Gains; Oil Prices Drop to Lowest Level Since Start of War"
+  url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06242026-12005546"
+  canonical_url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06242026-12005546"
+  accessed_at: "2026-06-24T23:24:00Z"
+  published_at: "2026-06-24T15:35:00-04:00"
+  source_type: "market_data_news"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Investopedia market coverage timestamped 3:35 PM EDT June 24, 2026 (approximately 25 minutes before close). Used only for qualitative context and non-numeric claims in this cycle: S&P 500 and Nasdaq fell for a third straight day, Cerebras first post-IPO earnings gross-margin guidance, JPMorgan S&P 500 year-end target raise to 7,800, PCE preview narrative (4.1% expected, core 3.4%), Wendy's meme-stock surge, dollar index context. All close-level numeric claims in this cycle are anchored to AP and CNBC close data (S-2026-06-24-201, S-2026-06-24-202, S-2026-06-24-203), not to this intraday Investopedia snapshot. No archive artifact committed for this cycle."
