@@ -1,0 +1,90 @@
+- id: "S-2026-06-23-701"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-24T00:23:59Z"
+  published_at: "2026-06-23"
+  source_type: "government_data"
+  retrieval_method: "web_fetch_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury daily par-yield CSV for June 2026, re-fetched 2026-06-24. The dated 06/23/2026 row (2Y 4.16, 10Y 4.50, 30Y 4.94) and 06/22/2026 row (2Y 4.24, 10Y 4.51, 30Y 4.95) are immutable historical rows; inputs are indicative bid-side market quotations near 3:30 PM New York."
+- id: "S-2026-06-23-702"
+  publisher: "Reuters"
+  title: "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid"
+  url: "https://www.reuters.com/world/asia-pacific/dollar-firms-hawkish-fed-bets-oil-rebound-yen-near-40-year-low-2026-06-23/"
+  canonical_url: "https://www.reuters.com/world/asia-pacific/dollar-firms-hawkish-fed-bets-oil-rebound-yen-near-40-year-low-2026-06-23/"
+  accessed_at: "2026-06-24T00:25:30Z"
+  published_at: "2026-06-23"
+  source_type: "news_article_fx_market_report"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Reuters dollar wrap, re-verified 2026-06-24: dollar index +0.38% to 101.39 after a 101.42 high (highest since May 2025); euro -0.41% at $1.138; CME FedWatch July hike odds 36.3% vs 8.5% a week earlier, September 69.1% vs 29.1%. Values reproduce verbatim at proof time."
+- id: "S-2026-06-23-703"
+  publisher: "Reuters"
+  title: "Oil prices finish 1% lower as investors focus on Hormuz flows after peace talks"
+  url: "https://www.reuters.com/business/energy/oil-gains-after-selloff-awaits-progress-strait-hormuz-flows-2026-06-23/"
+  canonical_url: "https://www.reuters.com/business/energy/oil-gains-after-selloff-awaits-progress-strait-hormuz-flows-2026-06-23/"
+  accessed_at: "2026-06-24T00:25:20Z"
+  published_at: "2026-06-23"
+  source_type: "news_article_energy_market_settlement_report"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Reuters oil settlement wrap, re-verified 2026-06-24: Brent settled -82 cents, -1.1%, at $77.08/bbl; WTI finished -65 cents, -0.9%, at $73.21/bbl; both hit near-four-month lows during the session. Settlement values are final and reproduce verbatim."
+- id: "S-2026-06-23-704"
+  publisher: "Reuters"
+  title: "Wall Street ends lower on semiconductor selloff as AI spending concerns mount"
+  url: "https://www.reuters.com/business/nasdaq-futures-fall-2-tech-worries-fed-hike-bets-2026-06-23/"
+  canonical_url: "https://www.reuters.com/business/nasdaq-futures-fall-2-tech-worries-fed-hike-bets-2026-06-23/"
+  accessed_at: "2026-06-24T00:26:10Z"
+  published_at: "2026-06-23T16:38:00-04:00"
+  source_type: "news_article_equity_market_close_wrap"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Reuters end-of-day close wrap (published 4:38 PM EDT, after the 4 PM cash close). Final settled closing values: Dow -47.22/-0.09% to 51,665.49; S&P 500 -107.32/-1.44% to 7,365.47; Nasdaq Composite -579.56/-2.21% to 25,587.04; Philadelphia Semiconductor (.SOX) -7.9%; S&P 500 IT sector -3.7%; Nvidia -4.1%; Micron and SanDisk both around 13%; VIX +2.23 to 19.52. Post-close figures are final, not intraday; independently corroborated by S-2026-06-23-705 and S-2026-06-23-706."
+- id: "S-2026-06-23-705"
+  publisher: "NBC News"
+  title: "Global tech sell-off intensifies, led by AI and chip stocks"
+  url: "https://www.nbcnews.com/business/business-news/tech-sell-off-markets-spacex-alphabet-nasdaq100-stocks-rcna351331"
+  canonical_url: "https://www.nbcnews.com/business/business-news/tech-sell-off-markets-spacex-alphabet-nasdaq100-stocks-rcna351331"
+  accessed_at: "2026-06-24T00:24:52Z"
+  published_at: "2026-06-23T16:15:00-04:00"
+  source_type: "financial_news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_outlet"
+  archive:
+    stored: false
+    reason: "NBC News market-close recap (updated 4:15 PM EDT). Corroborates the close: Nasdaq Composite -2.2%, Nasdaq 100 -3.2%, S&P 500 -1.4%, Russell 2000 ~-1%, Dow -46 points; Sandisk, Micron and Arm plunged more than 10%; Nvidia -4.15%; SpaceX ended +1.7%. Used as corroboration for the equity-close claim."
+- id: "S-2026-06-23-706"
+  publisher: "Investopedia"
+  title: "Markets News, June 23, 2026: Stocks Fall as Tech Sell-Off Expands to Memory, Chips; SpaceX Rebounds Off Record Low"
+  url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619"
+  canonical_url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619"
+  accessed_at: "2026-06-24T00:24:53Z"
+  published_at: "2026-06-23"
+  source_type: "financial_news_daily_recap"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_outlet"
+  retrieval_method: "web_fetch_live_public_page"
+  archive:
+    stored: false
+    reason: "Investopedia dated daily market recap. Corroborates Nasdaq -2.2%, S&P 500 -1.4%, Dow -0.1%; Micron -13%, Western Digital -8%, Sandisk -14%, Nvidia -4%; WTI ~-1% to $73.40, Brent ~$76.90; 10Y 4.50% from 4.51%; DXY +0.4% to 101.40. Cross-checks the equity-close, oil, and dollar claims."
