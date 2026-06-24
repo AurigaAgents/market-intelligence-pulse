@@ -1,0 +1,179 @@
+- id: "S-2026-06-24-801"
+  publisher: "New York Stock Exchange"
+  title: "Holidays & Trading Hours"
+  url: "https://www.nyse.com/markets/hours-calendars"
+  canonical_url: "https://www.nyse.com/trade/hours-calendars"
+  accessed_at: "2026-06-24T23:08:00Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_calendar"
+  archive:
+    stored: false
+    reason: "NYSE trading-hours page confirms June 24, 2026 was a regular Wednesday cash-equity session with core trading hours 09:30-16:00 ET. No holiday closure."
+- id: "S-2026-06-24-802"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Wednesday 6/24/2026"
+  url: "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64"
+  canonical_url: "https://apnews.com/article/how-major-us-stock-indexes-fared-wednesday-6-24-2026"
+  accessed_at: "2026-06-24T23:10:07Z"
+  published_at: "2026-06-24"
+  source_type: "market_close_wire"
+  retrieval_method: "web_search_and_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_news_wire_market_close"
+  archive:
+    stored: false
+    reason: "AP public market-close article accessed via KVUE mirror. Reported a mixed close: S&P 500 fell 7.24 points or 0.1% to 7,358.22, Dow rose 182.06 points or 0.4% to 51,848.90, Nasdaq Composite fell 110.40 points or 0.4% to 25,476.64, Russell 2000 rose 11.15 points or 0.4% to 2,986.63. AP noted more stocks rose than fell within the S&P 500 despite the index decline, losses for tech giants including Microsoft weighed on the market, Brent crude dropped 3.8% toward prewar levels, and Treasury yields fell."
+- id: "S-2026-06-24-803"
+  publisher: "Reuters"
+  title: "Stocks edge lower as dollar rises to one-year high"
+  url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24/"
+  canonical_url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24/"
+  accessed_at: "2026-06-24T23:09:40Z"
+  published_at: "2026-06-24"
+  source_type: "market_close_wire"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_news_wire_market_close"
+  archive:
+    stored: false
+    reason: "Reuters global markets wrap published June 24, 2026. Reported on Wall Street: Dow rose 0.46%, S&P 500 fell 0.28%, Nasdaq Composite fell 0.76%. Technology stocks reversed early gains and continued their descent ahead of Micron earnings. Dollar index rose 0.24% to 101.63 (one-year high). Brent crude settled down 4.33% at $73.74. Gold fell 3.2% to $3,976.73. Euro at $1.1352, yen at 161.81. MSCI world stocks fell 0.31%. Cited analysts attributing the rotation to AI valuation concerns and Fed rate-hike pricing."
+- id: "S-2026-06-24-804"
+  publisher: "Finhacker.cz"
+  title: "Fear and Greed Index: Historical Data & Chart (2011-2026)"
+  url: "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  canonical_url: "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  accessed_at: "2026-06-24T23:08:25Z"
+  published_at: "2026-06-23"
+  source_type: "market_sentiment_dataset"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "third_party_cnn_endpoint_tracker"
+  archive:
+    stored: false
+    reason: "Finhacker.cz public CNN Fear & Greed tracker accessed live on June 24 at collection time. Data updated timestamp read as 'Jun 23, 2026, 8:00 PM ET' — the tracker had not published a June 24 post-close update at the time of access. Current value displayed: 28 (fear). This is the same reading used for the June 23 report and represents the latest Finhacker-published value available for the June 24 report date."
+- id: "S-2026-06-24-805"
+  publisher: "CNN"
+  title: "Fear and Greed Index - Investor Sentiment"
+  url: "https://www.cnn.com/markets/fear-and-greed"
+  canonical_url: "https://edition.cnn.com/markets/fear-and-greed"
+  accessed_at: "2026-06-24T23:08:25Z"
+  published_at: "2026-06-24"
+  source_type: "market_sentiment_chart"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "publisher_sentiment_page"
+  archive:
+    stored: false
+    reason: "CNN public Fear & Greed page accessed live on June 24. Displayed value 27 (fear) with 'Previous close 27', '1 week ago 32', '1 month ago 58', '1 year ago 57', 'Last updated Jun 24 at 5:18:16 AM ET'. The page showed June 23 market data (S&P 500 7,365.46, Nasdaq 25,587.04, Dow 51,666.84) alongside the reading, indicating the 27 value reflects an early-June-24 pre-market computation rather than a verified June 24 post-close update. The CNN page also displayed the same 'Index Update' notice about the Stock Price Breadth methodology change (McClellan Summation Index) noted in prior reports. The 27 value is one point below the Finhacker June 23 reading of 28."
+- id: "S-2026-06-24-806"
+  publisher: "Yahoo Finance"
+  title: "CBOE Volatility Index (^VIX) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX/history/"
+  accessed_at: "2026-06-24T23:08:55Z"
+  published_at: "2026-06-24"
+  source_type: "market_data_aggregator"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_data_aggregator"
+  archive:
+    stored: false
+    reason: "Yahoo Finance VIX historical data accessed live. June 24, 2026 row: Open 19.13, High 20.34, Low 18.04, Close 18.63, Adj Close 18.63. June 23, 2026 close confirmed at 19.49. The 0.86-point one-day decline represents a 4.41% drop in the VIX."
+- id: "S-2026-06-24-807"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 9-Day Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-24T23:08:30Z"
+  published_at: "2026-06-24"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX9D CSV accessed live. June 24, 2026 row: open 19.170000, high 20.670000, low 17.000000, close 18.070000. VIX9D closed below VIX for the first time in two sessions, restoring the normal upward-sloping curve at the front end after June 23's flat/inverted VIX9D-to-VIX relationship."
+- id: "S-2026-06-24-808"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 3-Month Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX3M_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-24T23:08:30Z"
+  published_at: "2026-06-24"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX3M CSV accessed live. June 24, 2026 row: open 20.960000, high 21.350000, low 20.150000, close 20.370000."
+- id: "S-2026-06-24-809"
+  publisher: "Cboe Global Markets"
+  title: "Cboe S&P 500 6-Month Volatility Index Historical Data CSV"
+  url: "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX6M_History.csv"
+  canonical_url: "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+  accessed_at: "2026-06-24T23:08:30Z"
+  published_at: "2026-06-24"
+  source_type: "official_volatility_index_data"
+  retrieval_method: "raw_csv_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_index_data"
+  archive:
+    stored: false
+    reason: "Cboe public VIX6M CSV accessed live. June 24, 2026 row: open 22.920000, high 23.120000, low 22.370000, close 22.400000."
+- id: "S-2026-06-24-810"
+  publisher: "American Association of Individual Investors"
+  title: "AAII Investor Sentiment Survey"
+  url: "https://www.aaii.com/sentimentsurvey"
+  canonical_url: "https://www.aaii.com/sentimentsurvey"
+  accessed_at: "2026-06-24T23:08:54Z"
+  published_at: "2026-06-18"
+  source_type: "sentiment_survey_page"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "survey_publisher_page"
+  archive:
+    stored: false
+    reason: "AAII public sentiment survey page accessed live on June 24. Latest results table remained week ending 6/17/2026: bullish 36.6%, neutral 24.1%, bearish 39.4%. Historical averages: bullish 37.5%, neutral 31.5%, bearish 31.0%. This is the same survey available for the June 23 report and remains the latest AAII reading for June 24. The next AAII release is scheduled for early Thursday June 25."
+- id: "S-2026-06-24-811"
+  publisher: "Investment Company Institute"
+  title: "Release: Combined Estimated Long-Term Flows and ETF Net Issuance"
+  url: "https://www.ici.org/research/stats/combined_flows"
+  canonical_url: "https://www.ici.org/research/stats/combined_flows"
+  accessed_at: "2026-06-24T23:09:48Z"
+  published_at: "2026-06-17"
+  source_type: "fund_flow_release"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "industry_association_statistics"
+  archive:
+    stored: false
+    reason: "ICI public release accessed live on June 24. Published June 17, 2026 for week ended June 10, 2026 — remained the latest ICI combined-flow release available for the June 24 report date. Total estimated long-term mutual fund and ETF inflows $31.52 billion. Mutual fund outflows $16.81 billion. ETF net issuance $48.33 billion. Equity inflows $16.64 billion. Bond inflows $18.21 billion. Commodity outflows $2.27 billion. A web-search snippet referenced a newer June 24 ICI mutual-fund-flow release for the week ended June 17 reporting $25.80 billion of outflows, but that release was not verifiable on the live ICI page at collection time and is therefore not used."
+- id: "S-2026-06-24-812"
+  publisher: "ETF.com"
+  title: "Post-SpaceX IPO, Investors Pour $83B Into U.S. Equities"
+  url: "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+  canonical_url: "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+  accessed_at: "2026-06-24T23:10:02Z"
+  published_at: "2026-06-22"
+  source_type: "etf_flow_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_media_flow_data"
+  archive:
+    stored: false
+    reason: "ETF.com public weekly-flow listing page accessed live on June 24. The most recent weekly-flow article remained the June 22 publication covering flows as of 6 a.m. ET that day — the same reading used for the June 23 report. Total ETF flows $119.83133 billion. U.S. equity flows $83.62423 billion. International equity flows $21.66015 billion. U.S. fixed income flows $8.15492 billion. No new ETF.com weekly-flow article had been published between the June 23 and June 24 report dates at collection time."
