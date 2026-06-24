@@ -1,0 +1,1516 @@
+{
+  "deep_dive": {
+    "citation_group_count": 5,
+    "claim_map": {
+      "C-2026-06-23-ASIA-C2-JAPAN-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-203",
+            "source_key": "S203",
+            "support": "direct",
+            "visible_reference_key": "jiji press|https://jen.jiji.com/jc/eng?g=mkt&k=2026062300782",
+            "visible_reference_number": 5
+          }
+        ],
+        "visible_reference_numbers": [
+          5
+        ]
+      },
+      "C-2026-06-23-ASIA-C2-KOREA-CHIPMAKERS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "upi|https://www.upi.com/top_news/world-news/2026/06/23/korea-kospi-korea-stock-index-crash-10-percent-massive-tech-sell-off/6981782211546",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-23-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "anadolu agency|https://www.aa.com.tr/en/economy/south-korean-stocks-crash-10-on-massive-tech-sell-off/3975282",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      },
+      "C-2026-06-23-ASIA-C2-KOSPI-CLOSE-HALT": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "upi|https://www.upi.com/top_news/world-news/2026/06/23/korea-kospi-korea-stock-index-crash-10-percent-massive-tech-sell-off/6981782211546",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-23-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "anadolu agency|https://www.aa.com.tr/en/economy/south-korean-stocks-crash-10-on-massive-tech-sell-off/3975282",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      },
+      "C-2026-06-23-ASIA-C2-OIL-RELIEF": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-206",
+            "source_key": "S206",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/commodity/brent-crude-oil",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-23-205",
+            "source_key": "S205",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-06-23",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-23-204",
+            "source_key": "S204",
+            "support": "context",
+            "visible_reference_key": "the business times|https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/tech-sell-drags-asian-stocks-lower-record",
+            "visible_reference_number": 16
+          }
+        ],
+        "visible_reference_numbers": [
+          14,
+          15,
+          16
+        ]
+      },
+      "C-2026-06-23-EU-C1-SECTOR-ROTATION": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-401",
+            "source_key": "S401",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.marketscreener.com/news/stoxx-600-hits-over-one-week-low-on-fed-hike-bets-tech-selloff-ce7f5fdada8aff20",
+            "visible_reference_number": 6
+          },
+          {
+            "source_id": "S-2026-06-23-402",
+            "source_key": "S402",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-23-403",
+            "source_key": "S403",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 8
+          },
+          {
+            "source_id": "S-2026-06-23-405",
+            "source_key": "S405",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/france/stock-market",
+            "visible_reference_number": 9
+          }
+        ],
+        "visible_reference_numbers": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "C-2026-06-23-MACRO-C3-DOLLAR": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-602",
+            "source_key": "S602",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/asia-pacific/dollar-firms-hawkish-fed-bets-oil-rebound-yen-near-40-year-low-2026-06-23",
+            "visible_reference_number": 17
+          },
+          {
+            "source_id": "S-2026-06-23-606",
+            "source_key": "S606",
+            "support": "context",
+            "visible_reference_key": "investopedia|https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619",
+            "visible_reference_number": 12
+          }
+        ],
+        "visible_reference_numbers": [
+          12,
+          17
+        ]
+      },
+      "C-2026-06-23-MACRO-C3-EQUITY-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-604",
+            "source_key": "S604",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/nasdaq-futures-fall-2-tech-worries-fed-hike-bets-2026-06-23",
+            "visible_reference_number": 10
+          },
+          {
+            "source_id": "S-2026-06-23-605",
+            "source_key": "S605",
+            "support": "context",
+            "visible_reference_key": "nbc news|https://www.nbcnews.com/business/business-news/tech-sell-off-markets-spacex-alphabet-nasdaq100-stocks-rcna351331",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-23-606",
+            "source_key": "S606",
+            "support": "context",
+            "visible_reference_key": "investopedia|https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619",
+            "visible_reference_number": 12
+          }
+        ],
+        "visible_reference_numbers": [
+          10,
+          11,
+          12
+        ]
+      },
+      "C-2026-06-23-MACRO-C3-OIL-SETTLEMENT": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-603",
+            "source_key": "S603",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/energy/oil-gains-after-selloff-awaits-progress-strait-hormuz-flows-2026-06-23",
+            "visible_reference_number": 13
+          },
+          {
+            "source_id": "S-2026-06-23-606",
+            "source_key": "S606",
+            "support": "context",
+            "visible_reference_key": "investopedia|https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619",
+            "visible_reference_number": 12
+          }
+        ],
+        "visible_reference_numbers": [
+          12,
+          13
+        ]
+      },
+      "C-2026-06-23-MACRO-C3-SYNTHESIS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-601",
+            "source_key": "S601",
+            "support": "inference_base",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv",
+            "visible_reference_number": 18
+          },
+          {
+            "source_id": "S-2026-06-23-602",
+            "source_key": "S602",
+            "support": "inference_base",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/asia-pacific/dollar-firms-hawkish-fed-bets-oil-rebound-yen-near-40-year-low-2026-06-23",
+            "visible_reference_number": 17
+          },
+          {
+            "source_id": "S-2026-06-23-603",
+            "source_key": "S603",
+            "support": "inference_base",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/energy/oil-gains-after-selloff-awaits-progress-strait-hormuz-flows-2026-06-23",
+            "visible_reference_number": 13
+          },
+          {
+            "source_id": "S-2026-06-23-604",
+            "source_key": "S604",
+            "support": "inference_base",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/nasdaq-futures-fall-2-tech-worries-fed-hike-bets-2026-06-23",
+            "visible_reference_number": 10
+          }
+        ],
+        "visible_reference_numbers": [
+          10,
+          13,
+          17,
+          18
+        ]
+      },
+      "C-2026-06-23-SENTIMENT-C1-AAII": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-711",
+            "source_key": "S711",
+            "support": "direct",
+            "visible_reference_key": "american association of individual investors|https://www.aaii.com/sentimentsurvey",
+            "visible_reference_number": 24
+          }
+        ],
+        "visible_reference_numbers": [
+          24
+        ]
+      },
+      "C-2026-06-23-SENTIMENT-C1-FEAR-GREED": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-703",
+            "source_key": "S703",
+            "support": "direct",
+            "visible_reference_key": "finhacker.cz|https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart",
+            "visible_reference_number": 19
+          },
+          {
+            "source_id": "S-2026-06-23-704",
+            "source_key": "S704",
+            "support": "context",
+            "visible_reference_key": "cnn|https://edition.cnn.com/markets/fear-and-greed",
+            "visible_reference_number": 20
+          }
+        ],
+        "visible_reference_numbers": [
+          19,
+          20
+        ]
+      },
+      "C-2026-06-23-SENTIMENT-C1-FLOWS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-712",
+            "source_key": "S712",
+            "support": "direct",
+            "visible_reference_key": "investment company institute|https://www.ici.org/research/stats/combined_flows",
+            "visible_reference_number": 25
+          },
+          {
+            "source_id": "S-2026-06-23-713",
+            "source_key": "S713",
+            "support": "direct",
+            "visible_reference_key": "etf.com|https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities",
+            "visible_reference_number": 26
+          }
+        ],
+        "visible_reference_numbers": [
+          25,
+          26
+        ]
+      },
+      "C-2026-06-23-SENTIMENT-C1-SYNTHESIS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-702",
+            "source_key": "S702",
+            "support": "inference_base",
+            "visible_reference_key": "associated press|https://apnews.com/article/wall-street-stocks-dow-nasdaq-8a525396331d3cf41e9a341026c005e7",
+            "visible_reference_number": 27
+          },
+          {
+            "source_id": "S-2026-06-23-703",
+            "source_key": "S703",
+            "support": "inference_base",
+            "visible_reference_key": "finhacker.cz|https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart",
+            "visible_reference_number": 19
+          },
+          {
+            "source_id": "S-2026-06-23-705",
+            "source_key": "S705",
+            "support": "inference_base",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable-products/vix",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-23-710",
+            "source_key": "S710",
+            "support": "inference_base",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/markets/us/options/market-statistics/daily",
+            "visible_reference_number": 28
+          },
+          {
+            "source_id": "S-2026-06-23-711",
+            "source_key": "S711",
+            "support": "inference_base",
+            "visible_reference_key": "american association of individual investors|https://www.aaii.com/sentimentsurvey",
+            "visible_reference_number": 24
+          },
+          {
+            "source_id": "S-2026-06-23-713",
+            "source_key": "S713",
+            "support": "inference_base",
+            "visible_reference_key": "etf.com|https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities",
+            "visible_reference_number": 26
+          }
+        ],
+        "visible_reference_numbers": [
+          19,
+          21,
+          24,
+          26,
+          27,
+          28
+        ]
+      },
+      "C-2026-06-23-SENTIMENT-C1-VOLATILITY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-705",
+            "source_key": "S705",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable-products/vix",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-23-706",
+            "source_key": "S706",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5evix/history",
+            "visible_reference_number": 22
+          },
+          {
+            "source_id": "S-2026-06-23-707",
+            "source_key": "S707",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 23
+          },
+          {
+            "source_id": "S-2026-06-23-708",
+            "source_key": "S708",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 23
+          },
+          {
+            "source_id": "S-2026-06-23-709",
+            "source_key": "S709",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 23
+          }
+        ],
+        "visible_reference_numbers": [
+          21,
+          22,
+          23
+        ]
+      },
+      "C-2026-06-23-US-C1-ASIA-ROUT": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-003",
+            "source_key": "S003",
+            "support": "direct",
+            "visible_reference_key": "thestreet|https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026",
+            "visible_reference_number": 3
+          },
+          {
+            "source_id": "S-2026-06-23-002",
+            "source_key": "S002",
+            "support": "context",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/economy/live/stock-market-today-sp-500-nasdaq-sink-as-ai-trade-cools-off-semiconductor-stocks-retreat-230258084.html",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          3,
+          4
+        ]
+      },
+      "C-2026-06-23-US-C1-BREADTH-ROTATION": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-003",
+            "source_key": "S003",
+            "support": "direct",
+            "visible_reference_key": "thestreet|https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026",
+            "visible_reference_number": 3
+          }
+        ],
+        "visible_reference_numbers": [
+          3
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": true,
+    "generated_at": "2026-06-24T08:13:17Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 7478,
+    "reference_count": 28,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-201": "2026-06-23T23:23:41Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-23T06:54:00-04:00",
+        "publisher": "UPI",
+        "selected_source_id": "S-2026-06-23-201",
+        "source_ids": [
+          "S-2026-06-23-201"
+        ],
+        "title": "KOSPI crashes nearly 10 pct on massive tech sell-offs",
+        "url": "https://www.upi.com/Top_News/World-News/2026/06/23/korea-KOSPI-Korea-Stock-Index-crash-10-percent-massive-tech-sell-off/6981782211546/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-202": "2026-06-23T23:23:47Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-23",
+        "publisher": "Anadolu Agency",
+        "selected_source_id": "S-2026-06-23-202",
+        "source_ids": [
+          "S-2026-06-23-202"
+        ],
+        "title": "South Korean stocks crash 10% on massive tech sell-off",
+        "url": "https://www.aa.com.tr/en/economy/south-korean-stocks-crash-10-on-massive-tech-sell-off/3975282"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-003": "2026-06-23T22:13:00Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-23",
+        "publisher": "TheStreet",
+        "selected_source_id": "S-2026-06-23-003",
+        "source_ids": [
+          "S-2026-06-23-003"
+        ],
+        "title": "Stock Market Today (June 23, 2026): Nasdaq, S&P 500 fall as BoFA rate hike note, Asian market tumble sends semis sinking",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-002": "2026-06-23T22:13:00Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-23",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-23-002",
+        "source_ids": [
+          "S-2026-06-23-002"
+        ],
+        "title": "Stock market today: S&P 500, Nasdaq sink as AI trade cools off, semiconductor stocks retreat",
+        "url": "https://finance.yahoo.com/economy/live/stock-market-today-sp-500-nasdaq-sink-as-ai-trade-cools-off-semiconductor-stocks-retreat-230258084.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-203": "2026-06-23T23:24:39Z"
+        },
+        "number": 5,
+        "published_at": "2026-06-23T15:30:00+09:00",
+        "publisher": "Jiji Press",
+        "selected_source_id": "S-2026-06-23-203",
+        "source_ids": [
+          "S-2026-06-23-203"
+        ],
+        "title": "Nikkei Average/TOPIX Index (Closing)",
+        "url": "https://jen.jiji.com/jc/eng?g=mkt&k=2026062300782"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-401": "2026-06-23T22:25:00Z"
+        },
+        "number": 6,
+        "published_at": "2026-06-23",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-23-401",
+        "source_ids": [
+          "S-2026-06-23-401"
+        ],
+        "title": "Europe's STOXX 600 ends lower as tech selloff, rising Fed hike bets weigh",
+        "url": "https://www.marketscreener.com/news/stoxx-600-hits-over-one-week-low-on-fed-hike-bets-tech-selloff-ce7f5fdada8aff20"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-402": "2026-06-23T22:25:00Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-23-402",
+        "source_ids": [
+          "S-2026-06-23-402"
+        ],
+        "title": "Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/euro-area/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-403": "2026-06-23T22:25:00Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-23-403",
+        "source_ids": [
+          "S-2026-06-23-403"
+        ],
+        "title": "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/germany/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-405": "2026-06-23T22:25:00Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-23-405",
+        "source_ids": [
+          "S-2026-06-23-405"
+        ],
+        "title": "France Stock Market Index (FR40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/france/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-604": "2026-06-24T00:26:10Z"
+        },
+        "number": 10,
+        "published_at": "2026-06-23T16:38:00-04:00",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-23-604",
+        "source_ids": [
+          "S-2026-06-23-604"
+        ],
+        "title": "Wall Street ends lower on semiconductor selloff as AI spending concerns mount",
+        "url": "https://www.reuters.com/business/nasdaq-futures-fall-2-tech-worries-fed-hike-bets-2026-06-23/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-605": "2026-06-24T00:24:52Z"
+        },
+        "number": 11,
+        "published_at": "2026-06-23T16:15:00-04:00",
+        "publisher": "NBC News",
+        "selected_source_id": "S-2026-06-23-605",
+        "source_ids": [
+          "S-2026-06-23-605"
+        ],
+        "title": "Global tech sell-off intensifies, led by AI and chip stocks",
+        "url": "https://www.nbcnews.com/business/business-news/tech-sell-off-markets-spacex-alphabet-nasdaq100-stocks-rcna351331"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-606": "2026-06-24T00:24:53Z"
+        },
+        "number": 12,
+        "published_at": "2026-06-23",
+        "publisher": "Investopedia",
+        "selected_source_id": "S-2026-06-23-606",
+        "source_ids": [
+          "S-2026-06-23-606"
+        ],
+        "title": "Markets News, June 23, 2026: Stocks Fall as Tech Sell-Off Expands to Memory, Chips; SpaceX Rebounds Off Record Low",
+        "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-603": "2026-06-24T00:25:20Z"
+        },
+        "number": 13,
+        "published_at": "2026-06-23",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-23-603",
+        "source_ids": [
+          "S-2026-06-23-603"
+        ],
+        "title": "Oil prices finish 1% lower as investors focus on Hormuz flows after peace talks",
+        "url": "https://www.reuters.com/business/energy/oil-gains-after-selloff-awaits-progress-strait-hormuz-flows-2026-06-23/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-206": "2026-06-23T23:25:39Z"
+        },
+        "number": 14,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-23-206",
+        "source_ids": [
+          "S-2026-06-23-206"
+        ],
+        "title": "Brent crude oil - Price - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-205": "2026-06-23T23:25:36Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-23",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-23-205",
+        "source_ids": [
+          "S-2026-06-23-205"
+        ],
+        "title": "Tech selloff drags global stocks lower",
+        "url": "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-06-23/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-204": "2026-06-23T23:25:34Z"
+        },
+        "number": 16,
+        "published_at": "2026-06-23T10:31:00+08:00",
+        "publisher": "The Business Times",
+        "selected_source_id": "S-2026-06-23-204",
+        "source_ids": [
+          "S-2026-06-23-204"
+        ],
+        "title": "Tech sell-off drags Asian stocks lower from record",
+        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/tech-sell-drags-asian-stocks-lower-record"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-602": "2026-06-24T00:25:30Z"
+        },
+        "number": 17,
+        "published_at": "2026-06-23",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-23-602",
+        "source_ids": [
+          "S-2026-06-23-602"
+        ],
+        "title": "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid",
+        "url": "https://www.reuters.com/world/asia-pacific/dollar-firms-hawkish-fed-bets-oil-rebound-yen-near-40-year-low-2026-06-23/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-601": "2026-06-24T00:23:59Z"
+        },
+        "number": 18,
+        "published_at": "2026-06-23",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-23-601",
+        "source_ids": [
+          "S-2026-06-23-601"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-703": "2026-06-23T23:09:33Z"
+        },
+        "number": 19,
+        "published_at": "2026-06-23",
+        "publisher": "Finhacker.cz",
+        "selected_source_id": "S-2026-06-23-703",
+        "source_ids": [
+          "S-2026-06-23-703"
+        ],
+        "title": "Fear and Greed Index: Historical Data & Chart (2011-2026)",
+        "url": "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-704": "2026-06-23T23:09:32Z"
+        },
+        "number": 20,
+        "published_at": "2026-06-23",
+        "publisher": "CNN",
+        "selected_source_id": "S-2026-06-23-704",
+        "source_ids": [
+          "S-2026-06-23-704"
+        ],
+        "title": "Fear and Greed Index - Investor Sentiment",
+        "url": "https://edition.cnn.com/markets/fear-and-greed"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-705": "2026-06-23T23:09:32Z"
+        },
+        "number": 21,
+        "published_at": "2026-06-23",
+        "publisher": "Cboe Global Markets",
+        "selected_source_id": "S-2026-06-23-705",
+        "source_ids": [
+          "S-2026-06-23-705"
+        ],
+        "title": "VIX Volatility Products - Cboe",
+        "url": "https://www.cboe.com/tradable-products/vix/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-706": "2026-06-23T23:09:11Z"
+        },
+        "number": 22,
+        "published_at": "2026-06-23",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-23-706",
+        "source_ids": [
+          "S-2026-06-23-706"
+        ],
+        "title": "CBOE Volatility Index (^VIX) Historical Data",
+        "url": "https://finance.yahoo.com/quote/%5EVIX/history/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-707": "2026-06-23T23:08:09Z",
+          "S-2026-06-23-708": "2026-06-23T23:08:09Z",
+          "S-2026-06-23-709": "2026-06-23T23:08:09Z"
+        },
+        "number": 23,
+        "published_at": "2026-06-23",
+        "publisher": "Cboe Global Markets",
+        "selected_source_id": "S-2026-06-23-708",
+        "source_ids": [
+          "S-2026-06-23-707",
+          "S-2026-06-23-708",
+          "S-2026-06-23-709"
+        ],
+        "title": "Cboe S&P 500 3-Month Volatility Index Historical Data CSV",
+        "url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-711": "2026-06-23T23:09:11Z"
+        },
+        "number": 24,
+        "published_at": "2026-06-18",
+        "publisher": "American Association of Individual Investors",
+        "selected_source_id": "S-2026-06-23-711",
+        "source_ids": [
+          "S-2026-06-23-711"
+        ],
+        "title": "AAII Investor Sentiment Survey",
+        "url": "https://www.aaii.com/sentimentsurvey"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-712": "2026-06-23T23:11:55Z"
+        },
+        "number": 25,
+        "published_at": "2026-06-17",
+        "publisher": "Investment Company Institute",
+        "selected_source_id": "S-2026-06-23-712",
+        "source_ids": [
+          "S-2026-06-23-712"
+        ],
+        "title": "Release: Combined Estimated Long-Term Flows and ETF Net Issuance",
+        "url": "https://www.ici.org/research/stats/combined_flows"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-713": "2026-06-23T23:11:54Z"
+        },
+        "number": 26,
+        "published_at": "2026-06-22",
+        "publisher": "ETF.com",
+        "selected_source_id": "S-2026-06-23-713",
+        "source_ids": [
+          "S-2026-06-23-713"
+        ],
+        "title": "Post-SpaceX IPO, Investors Pour $83B Into U.S. Equities",
+        "url": "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-702": "2026-06-23T23:08:09Z"
+        },
+        "number": 27,
+        "published_at": "2026-06-23",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-23-702",
+        "source_ids": [
+          "S-2026-06-23-702"
+        ],
+        "title": "How major US stock indexes fared Tuesday 6/23/2026",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-8a525396331d3cf41e9a341026c005e7"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-710": "2026-06-23T23:08:10Z"
+        },
+        "number": 28,
+        "published_at": null,
+        "publisher": "Cboe Global Markets",
+        "selected_source_id": "S-2026-06-23-710",
+        "source_ids": [
+          "S-2026-06-23-710"
+        ],
+        "title": "Cboe Daily Market Statistics",
+        "url": "https://www.cboe.com/markets/us/options/market-statistics/daily/"
+      }
+    ],
+    "report_date": "2026-06-23",
+    "style": "numeric-full",
+    "title": "The AI Unwind Becomes a Global Macro Test - 2026-06-23",
+    "warnings": []
+  },
+  "generated_at": "2026-06-24T08:13:17Z",
+  "overview": {
+    "citation_group_count": 7,
+    "claim_map": {
+      "C-2026-06-23-ASIA-C2-JAPAN-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-203",
+            "source_key": "S203",
+            "support": "direct",
+            "visible_reference_key": "jiji press|https://jen.jiji.com/jc/eng?g=mkt&k=2026062300782",
+            "visible_reference_number": 6
+          }
+        ],
+        "visible_reference_numbers": [
+          6
+        ]
+      },
+      "C-2026-06-23-ASIA-C2-KOREA-CHIPMAKERS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "upi|https://www.upi.com/top_news/world-news/2026/06/23/korea-kospi-korea-stock-index-crash-10-percent-massive-tech-sell-off/6981782211546",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-23-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "anadolu agency|https://www.aa.com.tr/en/economy/south-korean-stocks-crash-10-on-massive-tech-sell-off/3975282",
+            "visible_reference_number": 5
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          5
+        ]
+      },
+      "C-2026-06-23-ASIA-C2-KOSPI-CLOSE-HALT": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "upi|https://www.upi.com/top_news/world-news/2026/06/23/korea-kospi-korea-stock-index-crash-10-percent-massive-tech-sell-off/6981782211546",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-23-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "anadolu agency|https://www.aa.com.tr/en/economy/south-korean-stocks-crash-10-on-massive-tech-sell-off/3975282",
+            "visible_reference_number": 5
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          5
+        ]
+      },
+      "C-2026-06-23-EU-C1-INDEX-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-401",
+            "source_key": "S401",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.marketscreener.com/news/stoxx-600-hits-over-one-week-low-on-fed-hike-bets-tech-selloff-ce7f5fdada8aff20",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-23-402",
+            "source_key": "S402",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-23-403",
+            "source_key": "S403",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 13
+          },
+          {
+            "source_id": "S-2026-06-23-404",
+            "source_key": "S404",
+            "support": "direct",
+            "visible_reference_key": "investors chronicle|https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=ftse%3afsi",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-23-405",
+            "source_key": "S405",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/france/stock-market",
+            "visible_reference_number": 15
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "C-2026-06-23-EU-C1-MOVERS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-403",
+            "source_key": "S403",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 13
+          },
+          {
+            "source_id": "S-2026-06-23-405",
+            "source_key": "S405",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/france/stock-market",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-23-402",
+            "source_key": "S402",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-23-401",
+            "source_key": "S401",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.marketscreener.com/news/stoxx-600-hits-over-one-week-low-on-fed-hike-bets-tech-selloff-ce7f5fdada8aff20",
+            "visible_reference_number": 11
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          12,
+          13,
+          15
+        ]
+      },
+      "C-2026-06-23-EU-C1-SECTOR-ROTATION": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-401",
+            "source_key": "S401",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.marketscreener.com/news/stoxx-600-hits-over-one-week-low-on-fed-hike-bets-tech-selloff-ce7f5fdada8aff20",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-23-402",
+            "source_key": "S402",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-23-403",
+            "source_key": "S403",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 13
+          },
+          {
+            "source_id": "S-2026-06-23-405",
+            "source_key": "S405",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/france/stock-market",
+            "visible_reference_number": 15
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          12,
+          13,
+          15
+        ]
+      },
+      "C-2026-06-23-MACRO-C3-DOLLAR": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-602",
+            "source_key": "S602",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/asia-pacific/dollar-firms-hawkish-fed-bets-oil-rebound-yen-near-40-year-low-2026-06-23",
+            "visible_reference_number": 9
+          },
+          {
+            "source_id": "S-2026-06-23-606",
+            "source_key": "S606",
+            "support": "context",
+            "visible_reference_key": "investopedia|https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          8,
+          9
+        ]
+      },
+      "C-2026-06-23-MACRO-C3-OIL-SETTLEMENT": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-603",
+            "source_key": "S603",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/energy/oil-gains-after-selloff-awaits-progress-strait-hormuz-flows-2026-06-23",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-23-606",
+            "source_key": "S606",
+            "support": "context",
+            "visible_reference_key": "investopedia|https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          7,
+          8
+        ]
+      },
+      "C-2026-06-23-MACRO-C3-TREASURY-CURVE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-601",
+            "source_key": "S601",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv",
+            "visible_reference_number": 10
+          },
+          {
+            "source_id": "S-2026-06-23-606",
+            "source_key": "S606",
+            "support": "context",
+            "visible_reference_key": "investopedia|https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          8,
+          10
+        ]
+      },
+      "C-2026-06-23-SENTIMENT-C1-AAII": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-711",
+            "source_key": "S711",
+            "support": "direct",
+            "visible_reference_key": "american association of individual investors|https://www.aaii.com/sentimentsurvey",
+            "visible_reference_number": 18
+          }
+        ],
+        "visible_reference_numbers": [
+          18
+        ]
+      },
+      "C-2026-06-23-SENTIMENT-C1-FEAR-GREED": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-703",
+            "source_key": "S703",
+            "support": "direct",
+            "visible_reference_key": "finhacker.cz|https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-23-704",
+            "source_key": "S704",
+            "support": "context",
+            "visible_reference_key": "cnn|https://edition.cnn.com/markets/fear-and-greed",
+            "visible_reference_number": 17
+          }
+        ],
+        "visible_reference_numbers": [
+          16,
+          17
+        ]
+      },
+      "C-2026-06-23-SENTIMENT-C1-FLOWS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-712",
+            "source_key": "S712",
+            "support": "direct",
+            "visible_reference_key": "investment company institute|https://www.ici.org/research/stats/combined_flows",
+            "visible_reference_number": 19
+          },
+          {
+            "source_id": "S-2026-06-23-713",
+            "source_key": "S713",
+            "support": "direct",
+            "visible_reference_key": "etf.com|https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities",
+            "visible_reference_number": 20
+          }
+        ],
+        "visible_reference_numbers": [
+          19,
+          20
+        ]
+      },
+      "C-2026-06-23-US-C1-BREADTH-ROTATION": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-003",
+            "source_key": "S003",
+            "support": "direct",
+            "visible_reference_key": "thestreet|https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026",
+            "visible_reference_number": 3
+          }
+        ],
+        "visible_reference_numbers": [
+          3
+        ]
+      },
+      "C-2026-06-23-US-C1-CHIP-SELLOFF": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://www.bozemandailychronicle.com/ap_news/business/how-major-us-stock-indexes-fared-tuesday-6-23-2026/article_09d24143-aa75-57ca-afed-c72b5afe122e.html",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-23-003",
+            "source_key": "S003",
+            "support": "context",
+            "visible_reference_key": "thestreet|https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026",
+            "visible_reference_number": 3
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          3
+        ]
+      },
+      "C-2026-06-23-US-C1-EQUITY-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-23-001",
+            "source_key": "S001",
+            "support": "direct",
+            "visible_reference_key": "associated press|https://www.bozemandailychronicle.com/ap_news/business/how-major-us-stock-indexes-fared-tuesday-6-23-2026/article_09d24143-aa75-57ca-afed-c72b5afe122e.html",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-23-002",
+            "source_key": "S002",
+            "support": "context",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/economy/live/stock-market-today-sp-500-nasdaq-sink-as-ai-trade-cools-off-semiconductor-stocks-retreat-230258084.html",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": true,
+    "generated_at": "2026-06-24T08:13:17Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 6086,
+    "reference_count": 20,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-001": "2026-06-23T22:13:00Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-23",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-23-001",
+        "source_ids": [
+          "S-2026-06-23-001"
+        ],
+        "title": "How major US stock indexes fared Tuesday 6/23/2026",
+        "url": "https://www.bozemandailychronicle.com/ap_news/business/how-major-us-stock-indexes-fared-tuesday-6-23-2026/article_09d24143-aa75-57ca-afed-c72b5afe122e.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-002": "2026-06-23T22:13:00Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-23",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-23-002",
+        "source_ids": [
+          "S-2026-06-23-002"
+        ],
+        "title": "Stock market today: S&P 500, Nasdaq sink as AI trade cools off, semiconductor stocks retreat",
+        "url": "https://finance.yahoo.com/economy/live/stock-market-today-sp-500-nasdaq-sink-as-ai-trade-cools-off-semiconductor-stocks-retreat-230258084.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-003": "2026-06-23T22:13:00Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-23",
+        "publisher": "TheStreet",
+        "selected_source_id": "S-2026-06-23-003",
+        "source_ids": [
+          "S-2026-06-23-003"
+        ],
+        "title": "Stock Market Today (June 23, 2026): Nasdaq, S&P 500 fall as BoFA rate hike note, Asian market tumble sends semis sinking",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-201": "2026-06-23T23:23:41Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-23T06:54:00-04:00",
+        "publisher": "UPI",
+        "selected_source_id": "S-2026-06-23-201",
+        "source_ids": [
+          "S-2026-06-23-201"
+        ],
+        "title": "KOSPI crashes nearly 10 pct on massive tech sell-offs",
+        "url": "https://www.upi.com/Top_News/World-News/2026/06/23/korea-KOSPI-Korea-Stock-Index-crash-10-percent-massive-tech-sell-off/6981782211546/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-202": "2026-06-23T23:23:47Z"
+        },
+        "number": 5,
+        "published_at": "2026-06-23",
+        "publisher": "Anadolu Agency",
+        "selected_source_id": "S-2026-06-23-202",
+        "source_ids": [
+          "S-2026-06-23-202"
+        ],
+        "title": "South Korean stocks crash 10% on massive tech sell-off",
+        "url": "https://www.aa.com.tr/en/economy/south-korean-stocks-crash-10-on-massive-tech-sell-off/3975282"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-203": "2026-06-23T23:24:39Z"
+        },
+        "number": 6,
+        "published_at": "2026-06-23T15:30:00+09:00",
+        "publisher": "Jiji Press",
+        "selected_source_id": "S-2026-06-23-203",
+        "source_ids": [
+          "S-2026-06-23-203"
+        ],
+        "title": "Nikkei Average/TOPIX Index (Closing)",
+        "url": "https://jen.jiji.com/jc/eng?g=mkt&k=2026062300782"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-603": "2026-06-24T00:25:20Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-23",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-23-603",
+        "source_ids": [
+          "S-2026-06-23-603"
+        ],
+        "title": "Oil prices finish 1% lower as investors focus on Hormuz flows after peace talks",
+        "url": "https://www.reuters.com/business/energy/oil-gains-after-selloff-awaits-progress-strait-hormuz-flows-2026-06-23/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-606": "2026-06-24T00:24:53Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-23",
+        "publisher": "Investopedia",
+        "selected_source_id": "S-2026-06-23-606",
+        "source_ids": [
+          "S-2026-06-23-606"
+        ],
+        "title": "Markets News, June 23, 2026: Stocks Fall as Tech Sell-Off Expands to Memory, Chips; SpaceX Rebounds Off Record Low",
+        "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06232026-12004619"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-602": "2026-06-24T00:25:30Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-23",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-23-602",
+        "source_ids": [
+          "S-2026-06-23-602"
+        ],
+        "title": "Dollar climbs to 13-month high on Fed hike bets, safe-haven bid",
+        "url": "https://www.reuters.com/world/asia-pacific/dollar-firms-hawkish-fed-bets-oil-rebound-yen-near-40-year-low-2026-06-23/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-601": "2026-06-24T00:23:59Z"
+        },
+        "number": 10,
+        "published_at": "2026-06-23",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-23-601",
+        "source_ids": [
+          "S-2026-06-23-601"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-401": "2026-06-23T22:25:00Z"
+        },
+        "number": 11,
+        "published_at": "2026-06-23",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-23-401",
+        "source_ids": [
+          "S-2026-06-23-401"
+        ],
+        "title": "Europe's STOXX 600 ends lower as tech selloff, rising Fed hike bets weigh",
+        "url": "https://www.marketscreener.com/news/stoxx-600-hits-over-one-week-low-on-fed-hike-bets-tech-selloff-ce7f5fdada8aff20"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-402": "2026-06-23T22:25:00Z"
+        },
+        "number": 12,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-23-402",
+        "source_ids": [
+          "S-2026-06-23-402"
+        ],
+        "title": "Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/euro-area/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-403": "2026-06-23T22:25:00Z"
+        },
+        "number": 13,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-23-403",
+        "source_ids": [
+          "S-2026-06-23-403"
+        ],
+        "title": "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/germany/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-404": "2026-06-23T22:25:00Z"
+        },
+        "number": 14,
+        "published_at": "2026-06-23",
+        "publisher": "Investors Chronicle",
+        "selected_source_id": "S-2026-06-23-404",
+        "source_ids": [
+          "S-2026-06-23-404"
+        ],
+        "title": "FTSE 100 Index historical prices",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-405": "2026-06-23T22:25:00Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-23-405",
+        "source_ids": [
+          "S-2026-06-23-405"
+        ],
+        "title": "France Stock Market Index (FR40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/france/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-703": "2026-06-23T23:09:33Z"
+        },
+        "number": 16,
+        "published_at": "2026-06-23",
+        "publisher": "Finhacker.cz",
+        "selected_source_id": "S-2026-06-23-703",
+        "source_ids": [
+          "S-2026-06-23-703"
+        ],
+        "title": "Fear and Greed Index: Historical Data & Chart (2011-2026)",
+        "url": "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-704": "2026-06-23T23:09:32Z"
+        },
+        "number": 17,
+        "published_at": "2026-06-23",
+        "publisher": "CNN",
+        "selected_source_id": "S-2026-06-23-704",
+        "source_ids": [
+          "S-2026-06-23-704"
+        ],
+        "title": "Fear and Greed Index - Investor Sentiment",
+        "url": "https://edition.cnn.com/markets/fear-and-greed"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-711": "2026-06-23T23:09:11Z"
+        },
+        "number": 18,
+        "published_at": "2026-06-18",
+        "publisher": "American Association of Individual Investors",
+        "selected_source_id": "S-2026-06-23-711",
+        "source_ids": [
+          "S-2026-06-23-711"
+        ],
+        "title": "AAII Investor Sentiment Survey",
+        "url": "https://www.aaii.com/sentimentsurvey"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-712": "2026-06-23T23:11:55Z"
+        },
+        "number": 19,
+        "published_at": "2026-06-17",
+        "publisher": "Investment Company Institute",
+        "selected_source_id": "S-2026-06-23-712",
+        "source_ids": [
+          "S-2026-06-23-712"
+        ],
+        "title": "Release: Combined Estimated Long-Term Flows and ETF Net Issuance",
+        "url": "https://www.ici.org/research/stats/combined_flows"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-23-713": "2026-06-23T23:11:54Z"
+        },
+        "number": 20,
+        "published_at": "2026-06-22",
+        "publisher": "ETF.com",
+        "selected_source_id": "S-2026-06-23-713",
+        "source_ids": [
+          "S-2026-06-23-713"
+        ],
+        "title": "Post-SpaceX IPO, Investors Pour $83B Into U.S. Equities",
+        "url": "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+      }
+    ],
+    "report_date": "2026-06-23",
+    "style": "numeric-full",
+    "title": "Global Markets - 2026-06-23",
+    "warnings": []
+  },
+  "report_date": "2026-06-23",
+  "status": "ok",
+  "style": "numeric-full"
+}

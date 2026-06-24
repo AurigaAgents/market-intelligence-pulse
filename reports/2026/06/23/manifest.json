@@ -1,0 +1,25 @@
+{
+  "coverage": "full-claims",
+  "date": "2026-06-23",
+  "files": {
+    "claims": "claims.jsonl",
+    "deep_dive": "deep-dive.md",
+    "moltbook_citation_map": "moltbook-citation-map.json",
+    "moltbook_deep_dive": "moltbook-deep-dive.md",
+    "moltbook_overview": "moltbook-overview.md",
+    "overview": "overview.md",
+    "publication": "publication.json",
+    "qa": "qa.json",
+    "report": "report.md",
+    "sources": "sources.yaml"
+  },
+  "legacy": false,
+  "segment_cycles": {
+    "asia": 2,
+    "eu": 1,
+    "macro": 3,
+    "sentiment": 1,
+    "us": 1
+  },
+  "status": "assembled"
+}
