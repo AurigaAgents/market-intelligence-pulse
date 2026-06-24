@@ -1,0 +1,147 @@
+- id: "S-2026-06-24-701"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-24T22:54:21Z"
+  published_at: "2026-06-24"
+  source_type: "government_data"
+  retrieval_method: "web_fetch_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury par-yield CSV fetched live: newest row is 06/24/2026 (2Y 4.11, 3Y 4.15, 5Y 4.17, 7Y 4.28, 10Y 4.41, 20Y 4.87, 30Y 4.86) and the prior row is 06/23/2026 (2Y 4.16, 3Y 4.22, 5Y 4.27, 7Y 4.38, 10Y 4.50, 20Y 4.96, 30Y 4.94); yields fell roughly 5-10 bp across the curve, 2s10s narrowed to +30 bp from +34 bp, and the 20Y (4.87) sits 1 bp above the 30Y (4.86). No archive artifact committed for this segment cycle."
+- id: "S-2026-06-24-702"
+  publisher: "Reuters"
+  title: "Trading Day: Tech jitters smother inflation relief"
+  url: "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24/"
+  canonical_url: "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24/"
+  accessed_at: "2026-06-24T22:59:30Z"
+  published_at: "2026-06-24"
+  source_type: "news_article_market_wrap"
+  retrieval_method: "firecrawl_scrape_stealth"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Reuters end-of-day cross-asset column (ORLANDO, June 24, Jamie McGeever). Key Market Moves: BONDS - U.S. yields -9 bps at long end, 2s/10s curve flattest since March last year, benchmark 2s/10s closed at 25 bp, flattening accelerated after last week's Fed statement and Chair Kevin Warsh's press conference, 5-year auction drew weak demand. FX - dollar index rises for sixth day, hits 13-month high; Norwegian crown -1% on oil. COMMODITIES - Gold below $4,000/oz, lowest this year, down 12% in June (worst month since 2008); silver -8%, down 55% from January peak; oil -4%. Inflation expectations: US 5y breakeven 2.20% (lowest this year), 10y breakeven lowest since April 2025, euro-area 1y inflation swaps below the ECB 2% target, 2y UK inflation swap lowest in six months. Linked column: oil's slide softens the dollar's inflationary bite abroad. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-24-703"
+  publisher: "Reuters"
+  title: "Nasdaq, S&P end lower as tech stocks fall"
+  url: "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/"
+  canonical_url: "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/"
+  accessed_at: "2026-06-24T22:58:00Z"
+  published_at: "2026-06-24"
+  source_type: "news_article_market_report"
+  retrieval_method: "firecrawl_scrape_stealth"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Reuters U.S. equity close wrap (June 24, Abigail Summerville). Oil prices fell to their lowest since the start of the Iran war as more tankers were expected to move out of the Strait of Hormuz; Trump said Iran told Washington no tolls were being sought. 'Traders are adding to bets of a second rate hike from the Fed by the end of December, according to CME Group's FedWatch tool. Previously, the market expected a single 25-basis-point rise.' PCE (the Fed's preferred gauge) due Thursday. Mounting fears of a more hawkish Federal Reserve fueled the week's tech downturn (>$1tn erased from the Nasdaq 100). Closes: Dow 51,848.90 (+0.35%), S&P 500 7,358.22 (-0.10%), Nasdaq 25,476.64 (-0.43%). No archive artifact committed for this segment cycle."
+- id: "S-2026-06-24-704"
+  publisher: "Morningstar"
+  title: "May PCE Expected to Show Rising Inflation"
+  url: "https://www.morningstar.com/economy/may-pce-expected-show-rising-inflation"
+  canonical_url: "https://www.morningstar.com/economy/may-pce-expected-show-rising-inflation"
+  accessed_at: "2026-06-24T22:56:30Z"
+  source_type: "news_article_data_preview"
+  retrieval_method: "firecrawl_scrape"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Morningstar May PCE preview (Preston Caldwell). FactSet consensus: headline PCE +4.1% YoY (highest since April 2023), +0.5% MoM; core PCE +0.4% MoM and 3.3% YoY. Release: Thursday, June 25, 8:30 a.m. EDT. April was +3.8% headline. UBS: headline +0.49% MoM / 4.10% YoY, core +0.36% MoM / 3.45% YoY. BofA: +4.1%. Economists widely expect May to mark this year's inflation peak as lower oil and fading tariff effects curb pressures; the case is growing for at least one Fed rate hike in 2026 under Chair Warsh; core services ex-housing rose from 3.3% (Q4 2025) to 3.7%. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-24-705"
+  publisher: "U.S. Bureau of Economic Analysis"
+  title: "Personal Consumption Expenditures Price Index"
+  url: "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+  canonical_url: "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+  accessed_at: "2026-06-24T22:56:59Z"
+  source_type: "government_data"
+  retrieval_method: "web_fetch"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "BEA official PCE Price Index page: year-over-year change April 2026 +3.8%, March 2026 +3.5%, February 2026 +2.9%, January 2026 +2.9%. Current release May 28, 2026 (April data); next release June 25, 2026 (May data). Confirms the rising official inflation trajectory into the May print. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-24-706"
+  publisher: "Trading Economics"
+  title: "Brent crude oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  accessed_at: "2026-06-24T22:55:00Z"
+  published_at: "2026-06-24"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Brent page (last updated June 24): Brent fell below $74, to 73.97 USD/Bbl on June 24, 2026, down 4.04% on the day and its lowest since late February, as increasing Strait of Hormuz tanker traffic and US-Iran peace-talk progress eased supply fears; down 23.48% over the past month. IEA estimates the UAE is exporting at ~85% of pre-war levels (~60M barrels recently from the Persian Gulf); oil down ~40% from its wartime peak. US EIA crude inventories at their lowest since 1984, Cushing below operational minimums. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-24-707"
+  publisher: "Trading Economics"
+  title: "United States Dollar - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/currency"
+  canonical_url: "https://tradingeconomics.com/united-states/currency"
+  accessed_at: "2026-06-24T22:55:10Z"
+  published_at: "2026-06-23"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics U.S. Dollar / ICE DXY page: DXY 101.1326 at the June 23, 2026 close (+0.11%), with the live ticker near 101.1 in early June 24 trade; page text states the dollar is hovering near its highest since May 2025. Macro context: markets positioned for Fed rate hikes after last week's hawkish stance, Deutsche Bank and BofA Global Research forecasting a September hike, focus on this week's PCE. Note: TE's DXY series was last updated June 23, so the June 24 close (reported elsewhere near 101.6) is not yet in this series - vendor/snapshot basis disclosed. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-24-708"
+  publisher: "The Japan Times"
+  title: "BOJ summary affirms rate hike stance as inflation risks mount"
+  url: "https://www.japantimes.co.jp/business/2026/06/24/economy/boj-summary-rate-hikes/"
+  canonical_url: "https://www.japantimes.co.jp/business/2026/06/24/economy/boj-summary-rate-hikes/"
+  accessed_at: "2026-06-24T22:58:25Z"
+  published_at: "2026-06-24"
+  source_type: "news_article"
+  retrieval_method: "web_fetch"
+  mutable: false
+  paywall: true
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Japan Times / Bloomberg (Toru Fujioka, June 24). Summary of Opinions from the June 15-16 BOJ board meeting, released Wednesday: the bank signaled the need for further rate increases. One of nine board members: 'given that underlying CPI inflation has been approaching 2% and financial conditions have been accommodative, it is appropriate for the bank to continue to raise the policy interest rate.' The BOJ raised the policy rate last week to the highest since 1995 - its first hike since December - and made clear it would continue pushing the rate higher, though the summary gave no clear hint on the timing of the next move. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-24-709"
+  publisher: "Trading Economics"
+  title: "Japan Interest Rate"
+  url: "https://tradingeconomics.com/japan/interest-rate"
+  canonical_url: "https://tradingeconomics.com/japan/interest-rate"
+  accessed_at: "2026-06-24T23:00:30Z"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Japan policy-rate page (source: Bank of Japan): the BOJ lifted its key short-term rate by 25 bps to 1.0% in a 7-1 vote at its June meeting, the highest level since September 1995, aimed at preventing the Iran-war-driven energy shock from fueling broader inflation; first hike since December; board member Asada Toichiro dissented, citing greater downside risks to output and employment. The board said underlying inflation could accelerate above the 2% target amid rising energy costs while financial conditions stay accommodative, and that it will continue raising rates as warranted while monitoring the Middle East conflict. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-24-710"
+  publisher: "MarketWatch"
+  title: "U.S. Dollar Index (DXY) - market data snapshot"
+  url: "https://www.marketwatch.com/investing/index/dxy"
+  canonical_url: "https://www.marketwatch.com/investing/index/dxy"
+  accessed_at: "2026-06-24T22:57:40Z"
+  published_at: "2026-06-24"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_stealth"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "MarketWatch market-data bar (quotes as of Jun 24, 2026 close): Gold future 4,018.80 (+10.00 / +0.25%), Crude Oil (WTI electronic) 69.91 (-0.43 / -0.61% post-settle), VIX 18.63 (-0.86 / -4.41%), Dow 51,848.90 (+0.35%), S&P 500 7,358.22 (-0.10%), Nasdaq 25,476.64 (-0.43%). Headline teaser: 'Did the Trump White House just give Warsh the green light to hike interest rates?'. Used to cross-check the COMEX gold future, WTI level and the VIX. No archive artifact committed for this segment cycle."
