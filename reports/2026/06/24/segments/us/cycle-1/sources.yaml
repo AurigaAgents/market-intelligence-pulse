@@ -1,0 +1,60 @@
+- id: "S-2026-06-24-101"
+  publisher: "Associated Press"
+  title: "How major US stock indexes fared Wednesday 6/24/2026"
+  url: "https://www.kens5.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64"
+  canonical_url: "https://www.kens5.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64"
+  accessed_at: "2026-06-24T22:10:00Z"
+  published_at: "2026-06-24"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "Associated Press closing-index ledger for the 2026-06-24 US regular session, accessed live via the KENS 5 AP syndication feed; used for verified index closes, daily point/percent moves, week-to-date and year-to-date figures, the positive-breadth note, the Brent crude decline, and the falling-Treasury-yield framing. No archive artifact committed for this cycle."
+- id: "S-2026-06-24-102"
+  publisher: "Yahoo Finance"
+  title: "Stock market today: Dow rises, S&P 500 and Nasdaq slip as AI jitters return ahead of Micron earnings"
+  url: "https://finance.yahoo.com/markets/live/stock-market-today-dow-rises-sp-500-and-nasdaq-slip-as-ai-jitters-return-ahead-of-micron-earnings-230105138.html"
+  canonical_url: "https://finance.yahoo.com/markets/live/stock-market-today-dow-rises-sp-500-and-nasdaq-slip-as-ai-jitters-return-ahead-of-micron-earnings-230105138.html"
+  accessed_at: "2026-06-24T22:10:00Z"
+  published_at: "2026-06-24"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "national_news_outlet"
+  archive:
+    stored: false
+    reason: "Yahoo Finance live session wrap for 2026-06-24, updated 4:03 PM EDT and accessed live; carried the at-close S&P 500 quote (7,358.22, -0.10%), the oil plunge and Strait of Hormuz transit context, the resumed tech profit-taking on valuation and rate-hike worries, and the Micron after-the-bell earnings framing. No archive artifact committed for this cycle."
+- id: "S-2026-06-24-103"
+  publisher: "Investopedia"
+  title: "Stock Market Today: S&P 500, Nasdaq Fall as Tech Shares Give Up Early Gains; Oil Prices Drop to Lowest Level Since Start of War"
+  url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06242026-12005546"
+  canonical_url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06242026-12005546"
+  accessed_at: "2026-06-24T22:10:00Z"
+  published_at: "2026-06-24"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_outlet"
+  archive:
+    stored: false
+    reason: "Investopedia live market coverage for 2026-06-24 (late-session update 3:35 PM EDT), accessed live; used for the give-up-early-gains and third-consecutive-lower-close framing, the single-stock chip and mega-cap moves (Micron, SanDisk, Western Digital, Nvidia, Microsoft, Tesla, Cerebras), the Treasury-yield levels, the oil price levels, the S&P/Dow index reconstitution, and the Thursday PCE preview. Single-stock, yield, and oil figures from this live page are intraday and carried at medium confidence. No archive artifact committed for this cycle."
+- id: "S-2026-06-24-104"
+  publisher: "Investing.com"
+  title: "Dow up 500 points as stocks rebound after bruising tech sell-off; eyes on Micron"
+  url: "https://www.investing.com/news/stock-market-news/us-stock-futures-rise-after-bruising-tech-selloff-micron-earnings-on-tap-4757097"
+  canonical_url: "https://www.investing.com/news/stock-market-news/us-stock-futures-rise-after-bruising-tech-selloff-micron-earnings-on-tap-4757097"
+  accessed_at: "2026-06-24T22:10:00Z"
+  published_at: "2026-06-24"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news_outlet"
+  archive:
+    stored: false
+    reason: "Investing.com (Reuters-sourced) live market update for 2026-06-24, updated 11:45 AM EDT and accessed live; used for the intraday rebound peak (S&P 500 +0.7% to 7,416.86, Dow +1.1% to 52,215.29 near its intraday record) that later faded, the Micron Q3 earnings expectations (EPS $19.92 on revenue $34.66B), and CME FedWatch rate-hike positioning. These intraday figures are explicitly labelled and carried at medium confidence. No archive artifact committed for this cycle."
