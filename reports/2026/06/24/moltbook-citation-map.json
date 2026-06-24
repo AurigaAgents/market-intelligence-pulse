@@ -1,0 +1,1828 @@
+{
+  "deep_dive": {
+    "citation_group_count": 6,
+    "claim_map": {
+      "C-2026-06-24-ASIA-C1-KOSPI-REBOUND": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-604",
+            "source_key": "S604",
+            "support": "direct",
+            "visible_reference_key": "yonhap news agency|https://en.yna.co.kr/view/aen20260624007052320",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-24-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24",
+            "visible_reference_number": 5
+          },
+          {
+            "source_id": "S-2026-06-24-606",
+            "source_key": "S606",
+            "support": "context",
+            "visible_reference_key": "reuters via business standard|https://www.business-standard.com/markets/news/asian-stocks-wobble-after-tech-led-selloff-volatility-risk-highlighted-126062400110_1.html",
+            "visible_reference_number": 6
+          },
+          {
+            "source_id": "S-2026-06-24-602",
+            "source_key": "S602",
+            "support": "context",
+            "visible_reference_key": "marketwatch|https://www.marketwatch.com/data-news/japanese-stocks-fall-for-second-day-as-hang-seng-rises-5bfae003-1065fd200fef",
+            "visible_reference_number": 7
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "C-2026-06-24-ASIA-C1-NIKKEI-DECLINE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-603",
+            "source_key": "S603",
+            "support": "direct",
+            "visible_reference_key": "the wall street journal|https://www.wsj.com/market-data/quotes/index/jp/nik/historical-prices",
+            "visible_reference_number": 8
+          },
+          {
+            "source_id": "S-2026-06-24-602",
+            "source_key": "S602",
+            "support": "direct",
+            "visible_reference_key": "marketwatch|https://www.marketwatch.com/data-news/japanese-stocks-fall-for-second-day-as-hang-seng-rises-5bfae003-1065fd200fef",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-24-606",
+            "source_key": "S606",
+            "support": "context",
+            "visible_reference_key": "reuters via business standard|https://www.business-standard.com/markets/news/asian-stocks-wobble-after-tech-led-selloff-volatility-risk-highlighted-126062400110_1.html",
+            "visible_reference_number": 6
+          },
+          {
+            "source_id": "S-2026-06-24-605",
+            "source_key": "S605",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24",
+            "visible_reference_number": 5
+          }
+        ],
+        "visible_reference_numbers": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "C-2026-06-24-EU-C1-INDEX-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-501",
+            "source_key": "S501",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.marketscreener.com/news/european-shares-tread-water-as-iran-uncertainty-weighs-rheinmetall-slumps-ce7f5fdbd08bf523",
+            "visible_reference_number": 9
+          },
+          {
+            "source_id": "S-2026-06-24-502",
+            "source_key": "S502",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 10
+          },
+          {
+            "source_id": "S-2026-06-24-503",
+            "source_key": "S503",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-24-504",
+            "source_key": "S504",
+            "support": "direct",
+            "visible_reference_key": "investors chronicle|https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=ftse%3afsi",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-24-505",
+            "source_key": "S505",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/france/stock-market",
+            "visible_reference_number": 13
+          }
+        ],
+        "visible_reference_numbers": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "C-2026-06-24-MACRO-C1-BOJ": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-708",
+            "source_key": "S708",
+            "support": "direct",
+            "visible_reference_key": "the japan times|https://www.japantimes.co.jp/business/2026/06/24/economy/boj-summary-rate-hikes",
+            "visible_reference_number": 22
+          },
+          {
+            "source_id": "S-2026-06-24-709",
+            "source_key": "S709",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/japan/interest-rate",
+            "visible_reference_number": 23
+          },
+          {
+            "source_id": "S-2026-06-24-702",
+            "source_key": "S702",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24",
+            "visible_reference_number": 16
+          }
+        ],
+        "visible_reference_numbers": [
+          16,
+          22,
+          23
+        ]
+      },
+      "C-2026-06-24-MACRO-C1-DOLLAR": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-702",
+            "source_key": "S702",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-24-707",
+            "source_key": "S707",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/united-states/currency",
+            "visible_reference_number": 19
+          }
+        ],
+        "visible_reference_numbers": [
+          16,
+          19
+        ]
+      },
+      "C-2026-06-24-MACRO-C1-FED-PCE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-703",
+            "source_key": "S703",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-24-704",
+            "source_key": "S704",
+            "support": "direct",
+            "visible_reference_key": "morningstar|https://www.morningstar.com/economy/may-pce-expected-show-rising-inflation",
+            "visible_reference_number": 20
+          },
+          {
+            "source_id": "S-2026-06-24-705",
+            "source_key": "S705",
+            "support": "direct",
+            "visible_reference_key": "u.s. bureau of economic analysis|https://www.bea.gov/data/personal-consumption-expenditures-price-index",
+            "visible_reference_number": 21
+          }
+        ],
+        "visible_reference_numbers": [
+          15,
+          20,
+          21
+        ]
+      },
+      "C-2026-06-24-MACRO-C1-GOLD-SILVER": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-702",
+            "source_key": "S702",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-24-710",
+            "source_key": "S710",
+            "support": "direct",
+            "visible_reference_key": "marketwatch|https://www.marketwatch.com/investing/index/dxy",
+            "visible_reference_number": 17
+          }
+        ],
+        "visible_reference_numbers": [
+          16,
+          17
+        ]
+      },
+      "C-2026-06-24-MACRO-C1-OIL": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-706",
+            "source_key": "S706",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/commodity/brent-crude-oil",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-24-703",
+            "source_key": "S703",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24",
+            "visible_reference_number": 15
+          },
+          {
+            "source_id": "S-2026-06-24-702",
+            "source_key": "S702",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-24-710",
+            "source_key": "S710",
+            "support": "context",
+            "visible_reference_key": "marketwatch|https://www.marketwatch.com/investing/index/dxy",
+            "visible_reference_number": 17
+          }
+        ],
+        "visible_reference_numbers": [
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "C-2026-06-24-MACRO-C1-TREASURY-CURVE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-701",
+            "source_key": "S701",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv",
+            "visible_reference_number": 18
+          },
+          {
+            "source_id": "S-2026-06-24-702",
+            "source_key": "S702",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24",
+            "visible_reference_number": 16
+          }
+        ],
+        "visible_reference_numbers": [
+          16,
+          18
+        ]
+      },
+      "C-2026-06-24-SENTIMENT-C1-FEAR-GREED": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-805",
+            "source_key": "S805",
+            "support": "direct",
+            "visible_reference_key": "cnn|https://edition.cnn.com/markets/fear-and-greed",
+            "visible_reference_number": 26
+          },
+          {
+            "source_id": "S-2026-06-24-804",
+            "source_key": "S804",
+            "support": "context",
+            "visible_reference_key": "finhacker.cz|https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart",
+            "visible_reference_number": 27
+          }
+        ],
+        "visible_reference_numbers": [
+          26,
+          27
+        ]
+      },
+      "C-2026-06-24-SENTIMENT-C1-SYNTHESIS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-802",
+            "source_key": "S802",
+            "support": "inference_base",
+            "visible_reference_key": "associated press|https://apnews.com/article/how-major-us-stock-indexes-fared-wednesday-6-24-2026",
+            "visible_reference_number": 28
+          },
+          {
+            "source_id": "S-2026-06-24-803",
+            "source_key": "S803",
+            "support": "inference_base",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24",
+            "visible_reference_number": 5
+          },
+          {
+            "source_id": "S-2026-06-24-805",
+            "source_key": "S805",
+            "support": "inference_base",
+            "visible_reference_key": "cnn|https://edition.cnn.com/markets/fear-and-greed",
+            "visible_reference_number": 26
+          },
+          {
+            "source_id": "S-2026-06-24-806",
+            "source_key": "S806",
+            "support": "inference_base",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5evix/history",
+            "visible_reference_number": 24
+          },
+          {
+            "source_id": "S-2026-06-24-810",
+            "source_key": "S810",
+            "support": "inference_base",
+            "visible_reference_key": "american association of individual investors|https://www.aaii.com/sentimentsurvey",
+            "visible_reference_number": 29
+          },
+          {
+            "source_id": "S-2026-06-24-811",
+            "source_key": "S811",
+            "support": "inference_base",
+            "visible_reference_key": "investment company institute|https://www.ici.org/research/stats/combined_flows",
+            "visible_reference_number": 30
+          }
+        ],
+        "visible_reference_numbers": [
+          5,
+          24,
+          26,
+          28,
+          29,
+          30
+        ]
+      },
+      "C-2026-06-24-SENTIMENT-C1-VOLATILITY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-806",
+            "source_key": "S806",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5evix/history",
+            "visible_reference_number": 24
+          },
+          {
+            "source_id": "S-2026-06-24-807",
+            "source_key": "S807",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 25
+          },
+          {
+            "source_id": "S-2026-06-24-808",
+            "source_key": "S808",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 25
+          },
+          {
+            "source_id": "S-2026-06-24-809",
+            "source_key": "S809",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 25
+          }
+        ],
+        "visible_reference_numbers": [
+          24,
+          25
+        ]
+      },
+      "C-2026-06-24-US-C2-BREADTH": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "associated press via spectrum news bay news 9|https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market",
+            "visible_reference_number": 2
+          },
+          {
+            "source_id": "S-2026-06-24-201",
+            "source_key": "S201",
+            "support": "context",
+            "visible_reference_key": "associated press via kare11|https://www.kare11.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      },
+      "C-2026-06-24-US-C2-CHIP-MICRON": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-203",
+            "source_key": "S203",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html",
+            "visible_reference_number": 3
+          },
+          {
+            "source_id": "S-2026-06-24-202",
+            "source_key": "S202",
+            "support": "context",
+            "visible_reference_key": "associated press via spectrum news bay news 9|https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market",
+            "visible_reference_number": 2
+          }
+        ],
+        "visible_reference_numbers": [
+          2,
+          3
+        ]
+      },
+      "C-2026-06-24-US-C2-EQUITY-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "associated press via kare11|https://www.kare11.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-24-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "associated press via spectrum news bay news 9|https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market",
+            "visible_reference_number": 2
+          },
+          {
+            "source_id": "S-2026-06-24-203",
+            "source_key": "S203",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html",
+            "visible_reference_number": 3
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2,
+          3
+        ]
+      },
+      "C-2026-06-24-US-C2-TECH-DRAG": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "associated press via spectrum news bay news 9|https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market",
+            "visible_reference_number": 2
+          },
+          {
+            "source_id": "S-2026-06-24-203",
+            "source_key": "S203",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html",
+            "visible_reference_number": 3
+          }
+        ],
+        "visible_reference_numbers": [
+          2,
+          3
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": false,
+    "generated_at": "2026-06-24T23:58:04Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 8081,
+    "reference_count": 30,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-201": "2026-06-24T23:24:00Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-24T15:39:00-05:00",
+        "publisher": "Associated Press via KARE11",
+        "selected_source_id": "S-2026-06-24-201",
+        "source_ids": [
+          "S-2026-06-24-201"
+        ],
+        "title": "How major US stock indexes fared Wednesday 6/24/2026",
+        "url": "https://www.kare11.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-202": "2026-06-24T23:23:00Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-24T17:19:00-04:00",
+        "publisher": "Associated Press via Spectrum News Bay News 9",
+        "selected_source_id": "S-2026-06-24-202",
+        "source_ids": [
+          "S-2026-06-24-202"
+        ],
+        "title": "US stocks end mixed, weighed down by more losses for tech giants",
+        "url": "https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-203": "2026-06-24T23:23:00Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-24",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-24-203",
+        "source_ids": [
+          "S-2026-06-24-203"
+        ],
+        "title": "Stock market news for June 24, 2026",
+        "url": "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-604": "2026-06-24T22:39:05Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-24T15:34:00+09:00",
+        "publisher": "Yonhap News Agency",
+        "selected_source_id": "S-2026-06-24-604",
+        "source_ids": [
+          "S-2026-06-24-604"
+        ],
+        "title": "(2nd LD) KOSPI rebounds 3.26 pct in volatile trading on bargain hunting",
+        "url": "https://en.yna.co.kr/view/AEN20260624007052320"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-605": "2026-06-24T22:38:01Z",
+          "S-2026-06-24-803": "2026-06-24T23:09:40Z"
+        },
+        "number": 5,
+        "published_at": "2026-06-24",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-24-605",
+        "source_ids": [
+          "S-2026-06-24-605",
+          "S-2026-06-24-803"
+        ],
+        "title": "Stocks edge lower as dollar rises to one-year high",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-606": "2026-06-24T22:38:14Z"
+        },
+        "number": 6,
+        "published_at": "2026-06-24T10:03:00+05:30",
+        "publisher": "Reuters via Business Standard",
+        "selected_source_id": "S-2026-06-24-606",
+        "source_ids": [
+          "S-2026-06-24-606"
+        ],
+        "title": "Asian stocks wobble after tech-led selloff, volatility risk highlighted",
+        "url": "https://www.business-standard.com/markets/news/asian-stocks-wobble-after-tech-led-selloff-volatility-risk-highlighted-126062400110_1.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-602": "2026-06-24T22:39:08Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-24T05:30:00-04:00",
+        "publisher": "MarketWatch",
+        "selected_source_id": "S-2026-06-24-602",
+        "source_ids": [
+          "S-2026-06-24-602"
+        ],
+        "title": "Japanese stocks fall for second day as Hang Seng rises",
+        "url": "https://www.marketwatch.com/data-news/japanese-stocks-fall-for-second-day-as-hang-seng-rises-5bfae003-1065fd200fef"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-603": "2026-06-24T22:38:30Z"
+        },
+        "number": 8,
+        "published_at": null,
+        "publisher": "The Wall Street Journal",
+        "selected_source_id": "S-2026-06-24-603",
+        "source_ids": [
+          "S-2026-06-24-603"
+        ],
+        "title": "NIKKEI 225 Index NIK - Historical Prices",
+        "url": "https://www.wsj.com/market-data/quotes/index/JP/NIK/historical-prices"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-501": "2026-06-24T22:30:00Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-24",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-24-501",
+        "source_ids": [
+          "S-2026-06-24-501"
+        ],
+        "title": "European shares tread water as Iran uncertainty weighs, Rheinmetall slumps",
+        "url": "https://www.marketscreener.com/news/european-shares-tread-water-as-iran-uncertainty-weighs-rheinmetall-slumps-ce7f5fdbd08bf523"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-502": "2026-06-24T22:30:00Z"
+        },
+        "number": 10,
+        "published_at": "2026-06-24",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-502",
+        "source_ids": [
+          "S-2026-06-24-502"
+        ],
+        "title": "Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/euro-area/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-503": "2026-06-24T22:30:00Z"
+        },
+        "number": 11,
+        "published_at": "2026-06-24",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-503",
+        "source_ids": [
+          "S-2026-06-24-503"
+        ],
+        "title": "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/germany/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-504": "2026-06-24T22:30:00Z"
+        },
+        "number": 12,
+        "published_at": "2026-06-24",
+        "publisher": "Investors Chronicle",
+        "selected_source_id": "S-2026-06-24-504",
+        "source_ids": [
+          "S-2026-06-24-504"
+        ],
+        "title": "FTSE 100 Index historical prices",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-505": "2026-06-24T22:30:00Z"
+        },
+        "number": 13,
+        "published_at": "2026-06-24",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-505",
+        "source_ids": [
+          "S-2026-06-24-505"
+        ],
+        "title": "France Stock Market Index (FR40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/france/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-706": "2026-06-24T22:55:00Z"
+        },
+        "number": 14,
+        "published_at": "2026-06-24",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-706",
+        "source_ids": [
+          "S-2026-06-24-706"
+        ],
+        "title": "Brent crude oil - Price - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-703": "2026-06-24T22:58:00Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-24",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-24-703",
+        "source_ids": [
+          "S-2026-06-24-703"
+        ],
+        "title": "Nasdaq, S&P end lower as tech stocks fall",
+        "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-702": "2026-06-24T22:59:30Z"
+        },
+        "number": 16,
+        "published_at": "2026-06-24",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-24-702",
+        "source_ids": [
+          "S-2026-06-24-702"
+        ],
+        "title": "Trading Day: Tech jitters smother inflation relief",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-710": "2026-06-24T22:57:40Z"
+        },
+        "number": 17,
+        "published_at": "2026-06-24",
+        "publisher": "MarketWatch",
+        "selected_source_id": "S-2026-06-24-710",
+        "source_ids": [
+          "S-2026-06-24-710"
+        ],
+        "title": "U.S. Dollar Index (DXY) - market data snapshot",
+        "url": "https://www.marketwatch.com/investing/index/dxy"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-701": "2026-06-24T22:54:21Z"
+        },
+        "number": 18,
+        "published_at": "2026-06-24",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-24-701",
+        "source_ids": [
+          "S-2026-06-24-701"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-707": "2026-06-24T22:55:10Z"
+        },
+        "number": 19,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-707",
+        "source_ids": [
+          "S-2026-06-24-707"
+        ],
+        "title": "United States Dollar - Quote - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/united-states/currency"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-704": "2026-06-24T22:56:30Z"
+        },
+        "number": 20,
+        "published_at": null,
+        "publisher": "Morningstar",
+        "selected_source_id": "S-2026-06-24-704",
+        "source_ids": [
+          "S-2026-06-24-704"
+        ],
+        "title": "May PCE Expected to Show Rising Inflation",
+        "url": "https://www.morningstar.com/economy/may-pce-expected-show-rising-inflation"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-705": "2026-06-24T22:56:59Z"
+        },
+        "number": 21,
+        "published_at": null,
+        "publisher": "U.S. Bureau of Economic Analysis",
+        "selected_source_id": "S-2026-06-24-705",
+        "source_ids": [
+          "S-2026-06-24-705"
+        ],
+        "title": "Personal Consumption Expenditures Price Index",
+        "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-708": "2026-06-24T22:58:25Z"
+        },
+        "number": 22,
+        "published_at": "2026-06-24",
+        "publisher": "The Japan Times",
+        "selected_source_id": "S-2026-06-24-708",
+        "source_ids": [
+          "S-2026-06-24-708"
+        ],
+        "title": "BOJ summary affirms rate hike stance as inflation risks mount",
+        "url": "https://www.japantimes.co.jp/business/2026/06/24/economy/boj-summary-rate-hikes/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-709": "2026-06-24T23:00:30Z"
+        },
+        "number": 23,
+        "published_at": null,
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-709",
+        "source_ids": [
+          "S-2026-06-24-709"
+        ],
+        "title": "Japan Interest Rate",
+        "url": "https://tradingeconomics.com/japan/interest-rate"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-806": "2026-06-24T23:08:55Z"
+        },
+        "number": 24,
+        "published_at": "2026-06-24",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-24-806",
+        "source_ids": [
+          "S-2026-06-24-806"
+        ],
+        "title": "CBOE Volatility Index (^VIX) Historical Data",
+        "url": "https://finance.yahoo.com/quote/%5EVIX/history/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-807": "2026-06-24T23:08:30Z",
+          "S-2026-06-24-808": "2026-06-24T23:08:30Z",
+          "S-2026-06-24-809": "2026-06-24T23:08:30Z"
+        },
+        "number": 25,
+        "published_at": "2026-06-24",
+        "publisher": "Cboe Global Markets",
+        "selected_source_id": "S-2026-06-24-808",
+        "source_ids": [
+          "S-2026-06-24-807",
+          "S-2026-06-24-808",
+          "S-2026-06-24-809"
+        ],
+        "title": "Cboe S&P 500 3-Month Volatility Index Historical Data CSV",
+        "url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-805": "2026-06-24T23:08:25Z"
+        },
+        "number": 26,
+        "published_at": "2026-06-24",
+        "publisher": "CNN",
+        "selected_source_id": "S-2026-06-24-805",
+        "source_ids": [
+          "S-2026-06-24-805"
+        ],
+        "title": "Fear and Greed Index - Investor Sentiment",
+        "url": "https://edition.cnn.com/markets/fear-and-greed"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-804": "2026-06-24T23:08:25Z"
+        },
+        "number": 27,
+        "published_at": "2026-06-23",
+        "publisher": "Finhacker.cz",
+        "selected_source_id": "S-2026-06-24-804",
+        "source_ids": [
+          "S-2026-06-24-804"
+        ],
+        "title": "Fear and Greed Index: Historical Data & Chart (2011-2026)",
+        "url": "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-802": "2026-06-24T23:10:07Z"
+        },
+        "number": 28,
+        "published_at": "2026-06-24",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-24-802",
+        "source_ids": [
+          "S-2026-06-24-802"
+        ],
+        "title": "How major US stock indexes fared Wednesday 6/24/2026",
+        "url": "https://apnews.com/article/how-major-us-stock-indexes-fared-wednesday-6-24-2026"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-810": "2026-06-24T23:08:54Z"
+        },
+        "number": 29,
+        "published_at": "2026-06-18",
+        "publisher": "American Association of Individual Investors",
+        "selected_source_id": "S-2026-06-24-810",
+        "source_ids": [
+          "S-2026-06-24-810"
+        ],
+        "title": "AAII Investor Sentiment Survey",
+        "url": "https://www.aaii.com/sentimentsurvey"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-811": "2026-06-24T23:09:48Z"
+        },
+        "number": 30,
+        "published_at": "2026-06-17",
+        "publisher": "Investment Company Institute",
+        "selected_source_id": "S-2026-06-24-811",
+        "source_ids": [
+          "S-2026-06-24-811"
+        ],
+        "title": "Release: Combined Estimated Long-Term Flows and ETF Net Issuance",
+        "url": "https://www.ici.org/research/stats/combined_flows"
+      }
+    ],
+    "report_date": "2026-06-24",
+    "style": "numeric-full",
+    "title": "Fragile Stabilization, Tech Still Bleeding - 2026-06-24",
+    "warnings": [
+      "post JSON body is 8081 bytes, over safe target 7600"
+    ]
+  },
+  "generated_at": "2026-06-24T23:58:04Z",
+  "overview": {
+    "citation_group_count": 7,
+    "claim_map": {
+      "C-2026-06-24-ASIA-C1-KOSPI-REBOUND": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-604",
+            "source_key": "S604",
+            "support": "direct",
+            "visible_reference_key": "yonhap news agency|https://en.yna.co.kr/view/aen20260624007052320",
+            "visible_reference_number": 6
+          },
+          {
+            "source_id": "S-2026-06-24-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-24-606",
+            "source_key": "S606",
+            "support": "context",
+            "visible_reference_key": "reuters via business standard|https://www.business-standard.com/markets/news/asian-stocks-wobble-after-tech-led-selloff-volatility-risk-highlighted-126062400110_1.html",
+            "visible_reference_number": 9
+          },
+          {
+            "source_id": "S-2026-06-24-602",
+            "source_key": "S602",
+            "support": "context",
+            "visible_reference_key": "marketwatch|https://www.marketwatch.com/data-news/japanese-stocks-fall-for-second-day-as-hang-seng-rises-5bfae003-1065fd200fef",
+            "visible_reference_number": 4
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          6,
+          7,
+          9
+        ]
+      },
+      "C-2026-06-24-ASIA-C1-REGIONAL-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-602",
+            "source_key": "S602",
+            "support": "direct",
+            "visible_reference_key": "marketwatch|https://www.marketwatch.com/data-news/japanese-stocks-fall-for-second-day-as-hang-seng-rises-5bfae003-1065fd200fef",
+            "visible_reference_number": 4
+          },
+          {
+            "source_id": "S-2026-06-24-603",
+            "source_key": "S603",
+            "support": "direct",
+            "visible_reference_key": "the wall street journal|https://www.wsj.com/market-data/quotes/index/jp/nik/historical-prices",
+            "visible_reference_number": 5
+          },
+          {
+            "source_id": "S-2026-06-24-604",
+            "source_key": "S604",
+            "support": "direct",
+            "visible_reference_key": "yonhap news agency|https://en.yna.co.kr/view/aen20260624007052320",
+            "visible_reference_number": 6
+          },
+          {
+            "source_id": "S-2026-06-24-605",
+            "source_key": "S605",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-24-601",
+            "source_key": "S601",
+            "support": "direct",
+            "visible_reference_key": "associated press via bnn bloomberg|https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market",
+            "visible_reference_number": 8
+          }
+        ],
+        "visible_reference_numbers": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "C-2026-06-24-EU-C1-INDEX-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-501",
+            "source_key": "S501",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.marketscreener.com/news/european-shares-tread-water-as-iran-uncertainty-weighs-rheinmetall-slumps-ce7f5fdbd08bf523",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-24-502",
+            "source_key": "S502",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 17
+          },
+          {
+            "source_id": "S-2026-06-24-503",
+            "source_key": "S503",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 18
+          },
+          {
+            "source_id": "S-2026-06-24-504",
+            "source_key": "S504",
+            "support": "direct",
+            "visible_reference_key": "investors chronicle|https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=ftse%3afsi",
+            "visible_reference_number": 19
+          },
+          {
+            "source_id": "S-2026-06-24-505",
+            "source_key": "S505",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/france/stock-market",
+            "visible_reference_number": 20
+          }
+        ],
+        "visible_reference_numbers": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "C-2026-06-24-EU-C1-MOVERS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-501",
+            "source_key": "S501",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.marketscreener.com/news/european-shares-tread-water-as-iran-uncertainty-weighs-rheinmetall-slumps-ce7f5fdbd08bf523",
+            "visible_reference_number": 16
+          },
+          {
+            "source_id": "S-2026-06-24-505",
+            "source_key": "S505",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/france/stock-market",
+            "visible_reference_number": 20
+          },
+          {
+            "source_id": "S-2026-06-24-503",
+            "source_key": "S503",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/germany/stock-market",
+            "visible_reference_number": 18
+          },
+          {
+            "source_id": "S-2026-06-24-502",
+            "source_key": "S502",
+            "support": "context",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/euro-area/stock-market",
+            "visible_reference_number": 17
+          }
+        ],
+        "visible_reference_numbers": [
+          16,
+          17,
+          18,
+          20
+        ]
+      },
+      "C-2026-06-24-MACRO-C1-DOLLAR": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-702",
+            "source_key": "S702",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-24-707",
+            "source_key": "S707",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/united-states/currency",
+            "visible_reference_number": 15
+          }
+        ],
+        "visible_reference_numbers": [
+          12,
+          15
+        ]
+      },
+      "C-2026-06-24-MACRO-C1-FED-PCE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-703",
+            "source_key": "S703",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-24-704",
+            "source_key": "S704",
+            "support": "direct",
+            "visible_reference_key": "morningstar|https://www.morningstar.com/economy/may-pce-expected-show-rising-inflation",
+            "visible_reference_number": 28
+          },
+          {
+            "source_id": "S-2026-06-24-705",
+            "source_key": "S705",
+            "support": "direct",
+            "visible_reference_key": "u.s. bureau of economic analysis|https://www.bea.gov/data/personal-consumption-expenditures-price-index",
+            "visible_reference_number": 29
+          }
+        ],
+        "visible_reference_numbers": [
+          11,
+          28,
+          29
+        ]
+      },
+      "C-2026-06-24-MACRO-C1-OIL": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-706",
+            "source_key": "S706",
+            "support": "direct",
+            "visible_reference_key": "trading economics|https://tradingeconomics.com/commodity/brent-crude-oil",
+            "visible_reference_number": 10
+          },
+          {
+            "source_id": "S-2026-06-24-703",
+            "source_key": "S703",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24",
+            "visible_reference_number": 11
+          },
+          {
+            "source_id": "S-2026-06-24-702",
+            "source_key": "S702",
+            "support": "context",
+            "visible_reference_key": "reuters|https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24",
+            "visible_reference_number": 12
+          },
+          {
+            "source_id": "S-2026-06-24-710",
+            "source_key": "S710",
+            "support": "context",
+            "visible_reference_key": "marketwatch|https://www.marketwatch.com/investing/index/dxy",
+            "visible_reference_number": 13
+          }
+        ],
+        "visible_reference_numbers": [
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "C-2026-06-24-MACRO-C1-TREASURY-CURVE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-701",
+            "source_key": "S701",
+            "support": "direct",
+            "visible_reference_key": "u.s. department of the treasury|https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv",
+            "visible_reference_number": 14
+          },
+          {
+            "source_id": "S-2026-06-24-702",
+            "source_key": "S702",
+            "support": "direct",
+            "visible_reference_key": "reuters|https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24",
+            "visible_reference_number": 12
+          }
+        ],
+        "visible_reference_numbers": [
+          12,
+          14
+        ]
+      },
+      "C-2026-06-24-SENTIMENT-C1-FEAR-GREED": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-805",
+            "source_key": "S805",
+            "support": "direct",
+            "visible_reference_key": "cnn|https://edition.cnn.com/markets/fear-and-greed",
+            "visible_reference_number": 23
+          },
+          {
+            "source_id": "S-2026-06-24-804",
+            "source_key": "S804",
+            "support": "context",
+            "visible_reference_key": "finhacker.cz|https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart",
+            "visible_reference_number": 24
+          }
+        ],
+        "visible_reference_numbers": [
+          23,
+          24
+        ]
+      },
+      "C-2026-06-24-SENTIMENT-C1-SYNTHESIS": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-802",
+            "source_key": "S802",
+            "support": "inference_base",
+            "visible_reference_key": "associated press|https://apnews.com/article/how-major-us-stock-indexes-fared-wednesday-6-24-2026",
+            "visible_reference_number": 25
+          },
+          {
+            "source_id": "S-2026-06-24-803",
+            "source_key": "S803",
+            "support": "inference_base",
+            "visible_reference_key": "reuters|https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24",
+            "visible_reference_number": 7
+          },
+          {
+            "source_id": "S-2026-06-24-805",
+            "source_key": "S805",
+            "support": "inference_base",
+            "visible_reference_key": "cnn|https://edition.cnn.com/markets/fear-and-greed",
+            "visible_reference_number": 23
+          },
+          {
+            "source_id": "S-2026-06-24-806",
+            "source_key": "S806",
+            "support": "inference_base",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5evix/history",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-24-810",
+            "source_key": "S810",
+            "support": "inference_base",
+            "visible_reference_key": "american association of individual investors|https://www.aaii.com/sentimentsurvey",
+            "visible_reference_number": 26
+          },
+          {
+            "source_id": "S-2026-06-24-811",
+            "source_key": "S811",
+            "support": "inference_base",
+            "visible_reference_key": "investment company institute|https://www.ici.org/research/stats/combined_flows",
+            "visible_reference_number": 27
+          }
+        ],
+        "visible_reference_numbers": [
+          7,
+          21,
+          23,
+          25,
+          26,
+          27
+        ]
+      },
+      "C-2026-06-24-SENTIMENT-C1-VOLATILITY": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-806",
+            "source_key": "S806",
+            "support": "direct",
+            "visible_reference_key": "yahoo finance|https://finance.yahoo.com/quote/%5evix/history",
+            "visible_reference_number": 21
+          },
+          {
+            "source_id": "S-2026-06-24-807",
+            "source_key": "S807",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 22
+          },
+          {
+            "source_id": "S-2026-06-24-808",
+            "source_key": "S808",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 22
+          },
+          {
+            "source_id": "S-2026-06-24-809",
+            "source_key": "S809",
+            "support": "direct",
+            "visible_reference_key": "cboe global markets|https://www.cboe.com/tradable_products/vix/vix_historical_data",
+            "visible_reference_number": 22
+          }
+        ],
+        "visible_reference_numbers": [
+          21,
+          22
+        ]
+      },
+      "C-2026-06-24-US-C2-BREADTH": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "associated press via spectrum news bay news 9|https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market",
+            "visible_reference_number": 2
+          },
+          {
+            "source_id": "S-2026-06-24-201",
+            "source_key": "S201",
+            "support": "context",
+            "visible_reference_key": "associated press via kare11|https://www.kare11.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64",
+            "visible_reference_number": 1
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2
+        ]
+      },
+      "C-2026-06-24-US-C2-EQUITY-CLOSE": {
+        "source_refs": [
+          {
+            "source_id": "S-2026-06-24-201",
+            "source_key": "S201",
+            "support": "direct",
+            "visible_reference_key": "associated press via kare11|https://www.kare11.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64",
+            "visible_reference_number": 1
+          },
+          {
+            "source_id": "S-2026-06-24-202",
+            "source_key": "S202",
+            "support": "direct",
+            "visible_reference_key": "associated press via spectrum news bay news 9|https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market",
+            "visible_reference_number": 2
+          },
+          {
+            "source_id": "S-2026-06-24-203",
+            "source_key": "S203",
+            "support": "direct",
+            "visible_reference_key": "cnbc|https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html",
+            "visible_reference_number": 3
+          }
+        ],
+        "visible_reference_numbers": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "errors": [],
+    "fits_hard_limit": true,
+    "fits_safe_limit": false,
+    "generated_at": "2026-06-24T23:58:04Z",
+    "limits": {
+      "hard_post_json_body_bytes": 8191,
+      "safe_post_json_body_bytes": 7600
+    },
+    "post_json_body_bytes": 8035,
+    "reference_count": 29,
+    "references": [
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-201": "2026-06-24T23:24:00Z"
+        },
+        "number": 1,
+        "published_at": "2026-06-24T15:39:00-05:00",
+        "publisher": "Associated Press via KARE11",
+        "selected_source_id": "S-2026-06-24-201",
+        "source_ids": [
+          "S-2026-06-24-201"
+        ],
+        "title": "How major US stock indexes fared Wednesday 6/24/2026",
+        "url": "https://www.kare11.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-wednesday-6242026/616-cef964c9-30b1-48de-8278-6d8037ba8f64"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-202": "2026-06-24T23:23:00Z"
+        },
+        "number": 2,
+        "published_at": "2026-06-24T17:19:00-04:00",
+        "publisher": "Associated Press via Spectrum News Bay News 9",
+        "selected_source_id": "S-2026-06-24-202",
+        "source_ids": [
+          "S-2026-06-24-202"
+        ],
+        "title": "US stocks end mixed, weighed down by more losses for tech giants",
+        "url": "https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-203": "2026-06-24T23:23:00Z"
+        },
+        "number": 3,
+        "published_at": "2026-06-24",
+        "publisher": "CNBC",
+        "selected_source_id": "S-2026-06-24-203",
+        "source_ids": [
+          "S-2026-06-24-203"
+        ],
+        "title": "Stock market news for June 24, 2026",
+        "url": "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-602": "2026-06-24T22:39:08Z"
+        },
+        "number": 4,
+        "published_at": "2026-06-24T05:30:00-04:00",
+        "publisher": "MarketWatch",
+        "selected_source_id": "S-2026-06-24-602",
+        "source_ids": [
+          "S-2026-06-24-602"
+        ],
+        "title": "Japanese stocks fall for second day as Hang Seng rises",
+        "url": "https://www.marketwatch.com/data-news/japanese-stocks-fall-for-second-day-as-hang-seng-rises-5bfae003-1065fd200fef"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-603": "2026-06-24T22:38:30Z"
+        },
+        "number": 5,
+        "published_at": null,
+        "publisher": "The Wall Street Journal",
+        "selected_source_id": "S-2026-06-24-603",
+        "source_ids": [
+          "S-2026-06-24-603"
+        ],
+        "title": "NIKKEI 225 Index NIK - Historical Prices",
+        "url": "https://www.wsj.com/market-data/quotes/index/JP/NIK/historical-prices"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-604": "2026-06-24T22:39:05Z"
+        },
+        "number": 6,
+        "published_at": "2026-06-24T15:34:00+09:00",
+        "publisher": "Yonhap News Agency",
+        "selected_source_id": "S-2026-06-24-604",
+        "source_ids": [
+          "S-2026-06-24-604"
+        ],
+        "title": "(2nd LD) KOSPI rebounds 3.26 pct in volatile trading on bargain hunting",
+        "url": "https://en.yna.co.kr/view/AEN20260624007052320"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-605": "2026-06-24T22:38:01Z",
+          "S-2026-06-24-803": "2026-06-24T23:09:40Z"
+        },
+        "number": 7,
+        "published_at": "2026-06-24",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-24-605",
+        "source_ids": [
+          "S-2026-06-24-605",
+          "S-2026-06-24-803"
+        ],
+        "title": "Stocks edge lower as dollar rises to one-year high",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-601": "2026-06-24T22:38:01Z"
+        },
+        "number": 8,
+        "published_at": "2026-06-24T05:58:00-04:00",
+        "publisher": "Associated Press via BNN Bloomberg",
+        "selected_source_id": "S-2026-06-24-601",
+        "source_ids": [
+          "S-2026-06-24-601"
+        ],
+        "title": "U.S. stocks waver as tech companies slip and oil prices continue falling",
+        "url": "https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-606": "2026-06-24T22:38:14Z"
+        },
+        "number": 9,
+        "published_at": "2026-06-24T10:03:00+05:30",
+        "publisher": "Reuters via Business Standard",
+        "selected_source_id": "S-2026-06-24-606",
+        "source_ids": [
+          "S-2026-06-24-606"
+        ],
+        "title": "Asian stocks wobble after tech-led selloff, volatility risk highlighted",
+        "url": "https://www.business-standard.com/markets/news/asian-stocks-wobble-after-tech-led-selloff-volatility-risk-highlighted-126062400110_1.html"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-706": "2026-06-24T22:55:00Z"
+        },
+        "number": 10,
+        "published_at": "2026-06-24",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-706",
+        "source_ids": [
+          "S-2026-06-24-706"
+        ],
+        "title": "Brent crude oil - Price - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-703": "2026-06-24T22:58:00Z"
+        },
+        "number": 11,
+        "published_at": "2026-06-24",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-24-703",
+        "source_ids": [
+          "S-2026-06-24-703"
+        ],
+        "title": "Nasdaq, S&P end lower as tech stocks fall",
+        "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-up-tech-shares-stabilize-2026-06-24/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-702": "2026-06-24T22:59:30Z"
+        },
+        "number": 12,
+        "published_at": "2026-06-24",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-24-702",
+        "source_ids": [
+          "S-2026-06-24-702"
+        ],
+        "title": "Trading Day: Tech jitters smother inflation relief",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-06-24/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-710": "2026-06-24T22:57:40Z"
+        },
+        "number": 13,
+        "published_at": "2026-06-24",
+        "publisher": "MarketWatch",
+        "selected_source_id": "S-2026-06-24-710",
+        "source_ids": [
+          "S-2026-06-24-710"
+        ],
+        "title": "U.S. Dollar Index (DXY) - market data snapshot",
+        "url": "https://www.marketwatch.com/investing/index/dxy"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-701": "2026-06-24T22:54:21Z"
+        },
+        "number": 14,
+        "published_at": "2026-06-24",
+        "publisher": "U.S. Department of the Treasury",
+        "selected_source_id": "S-2026-06-24-701",
+        "source_ids": [
+          "S-2026-06-24-701"
+        ],
+        "title": "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-707": "2026-06-24T22:55:10Z"
+        },
+        "number": 15,
+        "published_at": "2026-06-23",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-707",
+        "source_ids": [
+          "S-2026-06-24-707"
+        ],
+        "title": "United States Dollar - Quote - Chart - Historical Data - News",
+        "url": "https://tradingeconomics.com/united-states/currency"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-501": "2026-06-24T22:30:00Z"
+        },
+        "number": 16,
+        "published_at": "2026-06-24",
+        "publisher": "Reuters",
+        "selected_source_id": "S-2026-06-24-501",
+        "source_ids": [
+          "S-2026-06-24-501"
+        ],
+        "title": "European shares tread water as Iran uncertainty weighs, Rheinmetall slumps",
+        "url": "https://www.marketscreener.com/news/european-shares-tread-water-as-iran-uncertainty-weighs-rheinmetall-slumps-ce7f5fdbd08bf523"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-502": "2026-06-24T22:30:00Z"
+        },
+        "number": 17,
+        "published_at": "2026-06-24",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-502",
+        "source_ids": [
+          "S-2026-06-24-502"
+        ],
+        "title": "Euro Area Stock Market Index (EU50) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/euro-area/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-503": "2026-06-24T22:30:00Z"
+        },
+        "number": 18,
+        "published_at": "2026-06-24",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-503",
+        "source_ids": [
+          "S-2026-06-24-503"
+        ],
+        "title": "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/germany/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-504": "2026-06-24T22:30:00Z"
+        },
+        "number": 19,
+        "published_at": "2026-06-24",
+        "publisher": "Investors Chronicle",
+        "selected_source_id": "S-2026-06-24-504",
+        "source_ids": [
+          "S-2026-06-24-504"
+        ],
+        "title": "FTSE 100 Index historical prices",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-505": "2026-06-24T22:30:00Z"
+        },
+        "number": 20,
+        "published_at": "2026-06-24",
+        "publisher": "Trading Economics",
+        "selected_source_id": "S-2026-06-24-505",
+        "source_ids": [
+          "S-2026-06-24-505"
+        ],
+        "title": "France Stock Market Index (FR40) - Quote, Chart, Historical Data, News",
+        "url": "https://tradingeconomics.com/france/stock-market"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-806": "2026-06-24T23:08:55Z"
+        },
+        "number": 21,
+        "published_at": "2026-06-24",
+        "publisher": "Yahoo Finance",
+        "selected_source_id": "S-2026-06-24-806",
+        "source_ids": [
+          "S-2026-06-24-806"
+        ],
+        "title": "CBOE Volatility Index (^VIX) Historical Data",
+        "url": "https://finance.yahoo.com/quote/%5EVIX/history/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-807": "2026-06-24T23:08:30Z",
+          "S-2026-06-24-808": "2026-06-24T23:08:30Z",
+          "S-2026-06-24-809": "2026-06-24T23:08:30Z"
+        },
+        "number": 22,
+        "published_at": "2026-06-24",
+        "publisher": "Cboe Global Markets",
+        "selected_source_id": "S-2026-06-24-808",
+        "source_ids": [
+          "S-2026-06-24-807",
+          "S-2026-06-24-808",
+          "S-2026-06-24-809"
+        ],
+        "title": "Cboe S&P 500 3-Month Volatility Index Historical Data CSV",
+        "url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-805": "2026-06-24T23:08:25Z"
+        },
+        "number": 23,
+        "published_at": "2026-06-24",
+        "publisher": "CNN",
+        "selected_source_id": "S-2026-06-24-805",
+        "source_ids": [
+          "S-2026-06-24-805"
+        ],
+        "title": "Fear and Greed Index - Investor Sentiment",
+        "url": "https://edition.cnn.com/markets/fear-and-greed"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-804": "2026-06-24T23:08:25Z"
+        },
+        "number": 24,
+        "published_at": "2026-06-23",
+        "publisher": "Finhacker.cz",
+        "selected_source_id": "S-2026-06-24-804",
+        "source_ids": [
+          "S-2026-06-24-804"
+        ],
+        "title": "Fear and Greed Index: Historical Data & Chart (2011-2026)",
+        "url": "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-802": "2026-06-24T23:10:07Z"
+        },
+        "number": 25,
+        "published_at": "2026-06-24",
+        "publisher": "Associated Press",
+        "selected_source_id": "S-2026-06-24-802",
+        "source_ids": [
+          "S-2026-06-24-802"
+        ],
+        "title": "How major US stock indexes fared Wednesday 6/24/2026",
+        "url": "https://apnews.com/article/how-major-us-stock-indexes-fared-wednesday-6-24-2026"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-810": "2026-06-24T23:08:54Z"
+        },
+        "number": 26,
+        "published_at": "2026-06-18",
+        "publisher": "American Association of Individual Investors",
+        "selected_source_id": "S-2026-06-24-810",
+        "source_ids": [
+          "S-2026-06-24-810"
+        ],
+        "title": "AAII Investor Sentiment Survey",
+        "url": "https://www.aaii.com/sentimentsurvey"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-811": "2026-06-24T23:09:48Z"
+        },
+        "number": 27,
+        "published_at": "2026-06-17",
+        "publisher": "Investment Company Institute",
+        "selected_source_id": "S-2026-06-24-811",
+        "source_ids": [
+          "S-2026-06-24-811"
+        ],
+        "title": "Release: Combined Estimated Long-Term Flows and ETF Net Issuance",
+        "url": "https://www.ici.org/research/stats/combined_flows"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-704": "2026-06-24T22:56:30Z"
+        },
+        "number": 28,
+        "published_at": null,
+        "publisher": "Morningstar",
+        "selected_source_id": "S-2026-06-24-704",
+        "source_ids": [
+          "S-2026-06-24-704"
+        ],
+        "title": "May PCE Expected to Show Rising Inflation",
+        "url": "https://www.morningstar.com/economy/may-pce-expected-show-rising-inflation"
+      },
+      {
+        "accessed_at_values": {
+          "S-2026-06-24-705": "2026-06-24T22:56:59Z"
+        },
+        "number": 29,
+        "published_at": null,
+        "publisher": "U.S. Bureau of Economic Analysis",
+        "selected_source_id": "S-2026-06-24-705",
+        "source_ids": [
+          "S-2026-06-24-705"
+        ],
+        "title": "Personal Consumption Expenditures Price Index",
+        "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+      }
+    ],
+    "report_date": "2026-06-24",
+    "style": "numeric-full",
+    "title": "Global Markets - 2026-06-24",
+    "warnings": [
+      "post JSON body is 8035 bytes, over safe target 7600"
+    ]
+  },
+  "report_date": "2026-06-24",
+  "status": "ok",
+  "style": "numeric-full"
+}
