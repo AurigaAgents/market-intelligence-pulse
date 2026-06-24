@@ -1,0 +1,89 @@
+- id: "S-2026-06-24-601"
+  publisher: "Associated Press via BNN Bloomberg"
+  title: "U.S. stocks waver as tech companies slip and oil prices continue falling"
+  url: "https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market/"
+  canonical_url: "https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-rise-as-falling-oil-prices-help-take-pressure-off-the-market/"
+  accessed_at: "2026-06-24T22:38:01Z"
+  published_at: "2026-06-24T05:58:00-04:00"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP market wrap carried by BNN Bloomberg, accessed live: Asian stocks were mixed on Wednesday June 24, 2026 following a sell-off in big technology stocks. AP reported the Hang Seng 0.3% higher at 23,412.18, Shanghai Composite up 0.1% to 4,110.81, and Australia's S&P/ASX 200 up 0.2%. AP also reported Brent crude fell 3.8% to $73.87 and US crude fell 3.9% to $70.34 as US-Iran negotiations progressed, and gold fell 3.4% to $4,008.80. The article was updated through the US session to a close version; the Asia-relevant data points are consistent with MarketWatch, Yonhap, and Reuters close-level reporting. No archive artifact committed for this cycle."
+- id: "S-2026-06-24-602"
+  publisher: "MarketWatch"
+  title: "Japanese stocks fall for second day as Hang Seng rises"
+  url: "https://www.marketwatch.com/data-news/japanese-stocks-fall-for-second-day-as-hang-seng-rises-5bfae003-1065fd200fef"
+  canonical_url: "https://www.marketwatch.com/data-news/japanese-stocks-fall-for-second-day-as-hang-seng-rises-5bfae003-1065fd200fef"
+  accessed_at: "2026-06-24T22:39:08Z"
+  published_at: "2026-06-24T05:30:00-04:00"
+  source_type: "market_data_news"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "MarketWatch Automation article supported by Dow Jones/FactSet market data, accessed live: Asia-Pacific stocks mostly grew Wednesday June 24; Japanese shares declining for the second day. Hang Seng Index up 0.33% at 23,412.18, Nikkei 225 down 0.88% to 69,174.97, Shanghai Composite up 0.11% to 4,110.81, KOSPI up 3.3% to 8,471.02, S&P/ASX 200 up 0.24% to 8,808.40, FTSE Straits Times up 0.20% to 5,216.44. Also listed Hang Seng constituent movers including Semicon Mfg Intl +8.93%, WuXi AppTec +8.33%, and Nikkei movers including Sharp +15.14% and Sakura Internet -5.74%. No archive artifact committed for this cycle."
+- id: "S-2026-06-24-603"
+  publisher: "The Wall Street Journal"
+  title: "NIKKEI 225 Index NIK - Historical Prices"
+  url: "https://www.wsj.com/market-data/quotes/index/JP/NIK/historical-prices"
+  canonical_url: "https://www.wsj.com/market-data/quotes/index/JP/NIK/historical-prices"
+  accessed_at: "2026-06-24T22:38:30Z"
+  source_type: "market_data"
+  retrieval_method: "web_search_live_snippet"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "WSJ market data page for the Nikkei 225 accessed live via search snippet: as of 3:45 PM JST on 2026-06-24, the Nikkei 225 stood at 69,174.97, down 613.41 points or 0.88%, with an intraday range of 68,461.10 to 70,218.71 and a 52-week range starting at 38,711.11. Used to confirm the Nikkei close level and point change. No archive artifact committed for this cycle."
+- id: "S-2026-06-24-604"
+  publisher: "Yonhap News Agency"
+  title: "(2nd LD) KOSPI rebounds 3.26 pct in volatile trading on bargain hunting"
+  url: "https://en.yna.co.kr/view/AEN20260624007052320"
+  canonical_url: "https://en.yna.co.kr/view/AEN20260624007052320"
+  accessed_at: "2026-06-24T22:39:05Z"
+  published_at: "2026-06-24T15:34:00+09:00"
+  source_type: "newswire_market_close"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Yonhap close bulletin accessed live: KOSPI gained 267.18 points, or 3.26 percent, to close at 8,471.02 on June 24, 2026, after choppy trading. Foreign investors sold a net 4.66 trillion won while retail and institutional investors were net buyers. Samsung Electronics rose 9.84% to 340,500 won and SK hynix rose 0.98% to 2.58 million won. The won was quoted at 1,541.8 per dollar. Yonhap said the rebound followed one of the market's steepest declines on record in the previous session, and cited analyst caution ahead of Micron earnings and US PCE data. No archive artifact committed for this cycle."
+- id: "S-2026-06-24-605"
+  publisher: "Reuters"
+  title: "Stocks edge lower as dollar rises to one-year high"
+  url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24/"
+  canonical_url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-24/"
+  accessed_at: "2026-06-24T22:38:01Z"
+  published_at: "2026-06-24"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters global markets wrap accessed live: stocks fell on Wednesday as valuation worries continued to weigh on sentiment while the dollar climbed to a one-year high. MSCI's gauge of stocks across the globe fell 0.31%, MSCI's index of Asian equities outside Japan rose 0.04%, and the KOSPI gained 3.26% after dropping 10% in the prior session. Brent fell to $73.74 per barrel, settling down 4.33%. The dollar index rose 0.24% to 101.63 (highest since May 2025), the yen traded around 161.81, and spot gold fell 3.2% to $3,976.73. No archive artifact committed for this cycle."
+- id: "S-2026-06-24-606"
+  publisher: "Reuters via Business Standard"
+  title: "Asian stocks wobble after tech-led selloff, volatility risk highlighted"
+  url: "https://www.business-standard.com/markets/news/asian-stocks-wobble-after-tech-led-selloff-volatility-risk-highlighted-126062400110_1.html"
+  canonical_url: "https://www.business-standard.com/markets/news/asian-stocks-wobble-after-tech-led-selloff-volatility-risk-highlighted-126062400110_1.html"
+  accessed_at: "2026-06-24T22:38:14Z"
+  published_at: "2026-06-24T10:03:00+05:30"
+  source_type: "news_article"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters article carried by Business Standard, accessed live: Asian stocks were wobbly on Wednesday June 24, 2026 after a global selloff in technology and semiconductor shares. MSCI Asia-Pacific shares outside Japan was down 0.02%. South Korean shares jumped 2.2% (intraday) after plunging 10% on Tuesday in their sharpest one-day drop since March, while Japan's Nikkei was last down 0.8%. The yen hovered near 40-year lows at 161.57 per dollar. A BOJ summary released Wednesday showed some board members called for further rate hikes after the central bank raised rates to a 31-year high of 1.00%. The dollar index rose 0.02% to 101.43. No archive artifact committed for this cycle."
