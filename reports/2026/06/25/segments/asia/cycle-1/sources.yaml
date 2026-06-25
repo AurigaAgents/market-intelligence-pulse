@@ -1,0 +1,135 @@
+- id: "S-2026-06-25-201"
+  publisher: "Associated Press via Southern California News Group"
+  title: "Wall Street drifts in mixed trading after Micron soars and Apple drops"
+  url: "https://www.sbsun.com/2026/06/25/financial-markets-ai-stocks/"
+  canonical_url: "https://www.sbsun.com/2026/06/25/financial-markets-ai-stocks/"
+  accessed_at: "2026-06-25T22:37:00Z"
+  published_at: "2026-06-25"
+  source_type: "newswire_market_wrap"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP market wrap by Stan Choe, published June 25, 2026 at 6:38 AM PDT, updated 2:44 PM PDT (AP wire via sbsun.com syndication). The article is a global market day-wrap carrying AP copyright and explicitly naming Asian market close moves alongside the US session narrative: 'South Korea's Kospi jumped 5.4% after its own AI winners shot higher, including a 13.1% surge for SK Hynix. Other markets also rallied, including gains of 4.6% for Japan's Nikkei 225 and 0.7% for the United Kingdom's FTSE 100. A 1.4% drop for Hong Kong's Hang Seng was an outlier.' Also reports Shanghai Composite 'picked up 0.2% to 4,120.28.' AP is the primary close anchor for the US segment; this syndication is treated as an AP-anchored source for the Asia close summary. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-202"
+  publisher: "Reuters"
+  title: "World stocks climb on chip rally; dollar steadies near one-year high"
+  url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-06-25/"
+  canonical_url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-06-25/"
+  accessed_at: "2026-06-25T22:37:00Z"
+  published_at: "2026-06-25"
+  source_type: "newswire_global_markets_wrapup"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters global markets wrapup by Chibuike Oguh in New York, with additional reporting by Alun John, edited by Kevin Liffey, Edmund Klamann, Rod Nickel (datelined NEW YORK, June 25). Key cross-asset and FX anchors: Brent crude settled up 2% at $75.26 a barrel (pre-war levels as tankers pass through Hormuz); dollar index fell 0.15% to 101.45; euro at $1.137 (a whisker above Wednesday's 13-month low); Japanese yen 'near its lowest in 40 years against the dollar' at 161.80 per dollar, with more intervention widely expected from Tokyo; 10-year US Treasury yield fell 0.59 bp to 4.394%; STOXX 600 rose 0.80%; MSCI world gauge rose 0.37%; Micron up 15.7%; Qualcomm up 3.8%; Apple -6.1%; Microsoft -3.5%. Provides the FX, commodity, and rates backdrop against which Asia traded. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-203"
+  publisher: "Trading Economics"
+  title: "Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/japan/stock-market"
+  canonical_url: "https://tradingeconomics.com/japan/stock-market"
+  accessed_at: "2026-06-25T22:37:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Japan page for June 25, 2026 (last updated June 25, 2026). The Nikkei 225 (JP225) closed at 72,366 (72,366.34 per the official Nikkei close and Yahoo Finance historical), up +3,191.37 (+4.61%) from the June 24 close of 69,174.97. The broader Topix rose 1.33% to 4,016. News stream headline: 'Japanese Shares Surge on Micron Forecast' — the index snapped a two-day losing streak as Japanese equities tracked gains in US stock futures following Micron Technology's strong outlook. Chipmakers and AI-related companies led: Kioxia Holdings +13.1%, Tokyo Electron +8.1%, Advantest +14.9%, Taiyo Yuden +11.3%, Murata Manufacturing +7.9%. Dated component table (Jun/25): Advantest 35,900 / +15.06%, Tokyo Electron 75,340 / +7.78%, Fast Retailing 84,300 / +3.38%, Toyota Motor 2,700.50 / +0.54%, Mitsubishi UFJ Financial 3,233 / +0.87%, Sony 3,197 / -1.63%, Hitachi 4,554 / -2.92%, Mitsubishi Corp 4,400 / -2.87%, Mitsui 4,446 / -3.26%. Related indicators: Japan inflation 1.50% (May 2026), BoJ policy rate 1.00% (up from 0.75%), unemployment 2.50%. CFD-tracked levels; cash-close versus CFD basis disclosed. Nikkei all-time high 73,007 (June 2026). No archive artifact committed for this cycle."
+- id: "S-2026-06-25-204"
+  publisher: "Trading Economics"
+  title: "Hong Kong Stock Market Index (HK50) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/hong-kong/stock-market"
+  canonical_url: "https://tradingeconomics.com/hong-kong/stock-market"
+  accessed_at: "2026-06-25T22:37:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Hong Kong page for June 25, 2026 (last updated June 25, 2026). The Hang Seng Index (HK50) fell 335 points, or 1.4%, to close at 23,077 (23,076.91 per Yahoo Finance historical and Investing.com), from the June 24 close of 23,412.18, touching its lowest level since May 2025; the CFD ticker later in the day showed 23,012 / -1.72%. News stream headline: 'Hong Kong Stocks Sink to One-Year Low' — losses were partly tempered by strength in technology shares after Micron's forecast, but notable losers included Tencent (-1.73%), Meituan (-2.44%), Xiaomi (-2.87%), Sunny Optical Technology (-11.7%), and Trip.com (-10.9%). HSBC +0.07% was flat. The page notes strong southbound inflows from mainland China supporting Hong Kong equities amid IPO revival. Cross-index table (Jun/25): SHANGHAI 4,120.28 / +0.23%, CSI 300 5,020.10 / +1.56%, SHANGHAI 50 2,977.57 / +1.14%, CH50 15,887.91 / +1.18%. HK all-time high 33,484.08 (Jan 2018). CFD-tracked level; cash-close versus CFD basis disclosed. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-205"
+  publisher: "Trading Economics"
+  title: "South Korea Stock Market (KOSPI) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/south-korea/stock-market"
+  canonical_url: "https://tradingeconomics.com/south-korea/stock-market"
+  accessed_at: "2026-06-25T22:37:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics South Korea page for June 25, 2026 (last updated June 25, 2026). The KOSPI climbed 5.42% to close at 8,930 (8,930.30 on the dated index table), up +459.28 from the June 24 close of 8,471.02. News stream headline: 'South Korean Shares Extend Rally on Chip Optimism' — Samsung Electronics closed +5.29% and SK hynix +13.91%; SK hynix also gained support from plans to raise up to KRW 45.5 trillion (~$29.4 billion) through a Nasdaq ADR listing to fund AI chip capacity expansion. Other gainers: SK Square +6.61%, SK Inc. +20.51%, Hyundai Mobis +1.38%, HD Hyundai Electric +1.92%, Kia Corporation +0.7%. The page notes improving shipping conditions in the Strait of Hormuz easing energy supply concerns and supporting risk appetite. Dated table (Jun/25): KOSPI 8,930.30, day +5.42%, month +10.97%, year +189.99%. KOSPI all-time high 9,385.59 (June 2026). CFD-tracked levels; cash-close versus CFD basis disclosed. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-206"
+  publisher: "Trading Economics"
+  title: "Australia Stock Market Index (ASX200) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/australia/stock-market"
+  canonical_url: "https://tradingeconomics.com/australia/stock-market"
+  accessed_at: "2026-06-25T22:37:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Australia page for June 25, 2026 (last updated June 25, 2026). The ASX 200 slipped 60 points, or 0.7%, to close at 8,749 (8,749.90 on the CFD ticker), down -58.50 (-0.66%) from the June 24 close of 8,808.40, touching its lowest level in two weeks. News stream headline: 'ASX 200 Down 0.7% at Finish' — a stronger-than-expected rise in Australia's May employment added weight to expectations that the RBA will keep its hawkish stance, with Deputy Governor Andrew Hauser stressing inflation remains 'too high.' Losers: Evolution Mining -3.9%, Northern Star Resources -3.1% (gold miners slid as bullion hit a seven-month low), Woodside -3.3%, Santos -2.6% (oil retreated to pre-Iran war levels), Judo Capital -39% (cut 2026 earnings outlook). Big four banks shed 1.2% to 3.7%: CBA -1.27%, Westpac -2.01%, NAB -3.35%, ANZ -2.19%. Dated table (Jun/25): ASX200 8,750, day -0.66%, month +1.07%, year +2.34%. Related: Australia CPI 4.00% (May), RBA rate 4.35%, unemployment 4.40%. ASX all-time high 9,202.90 (February 2026). CFD-tracked levels; cash-close versus CFD basis disclosed. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-207"
+  publisher: "Xinhua"
+  title: "Chinese shares close higher Thursday"
+  url: "https://english.news.cn/20260625/c531adadf89748149e6980b046291241/c.html"
+  canonical_url: "https://english.news.cn/20260625/c531adadf89748149e6980b046291241/c.html"
+  accessed_at: "2026-06-25T22:37:00Z"
+  published_at: "2026-06-25"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "national_newswire"
+  archive:
+    stored: false
+    reason: "Xinhua English headline 'Chinese shares close higher Thursday' (BEIJING, June 25, Xinhua, published 19:28 Beijing time). The benchmark Shanghai Composite Index closed up 0.23% to 4,120.28 points. The Shenzhen Component Index closed 1.82% higher at 16,344.08 points. Combined turnover of stocks covered by the two indices reached 3.59 trillion yuan (~$526.32 billion), up from 3.28 trillion yuan the previous day. The ChiNext Index gained 2.84% to 4,371.99 points. The STAR Composite Index closed 2.1% higher at 2,391.95 points. Shares related to memory chips and ultracapacitors led gains; the precious metal sector saw major declines. Authoritative official close for mainland A-shares. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-208"
+  publisher: "Reuters"
+  title: "Global chip stocks jump as blowout Micron results reignite AI rally"
+  url: "https://www.reuters.com/world/asia-pacific/south-korean-chip-shares-rally-after-microns-upbeat-earnings-2026-06-25/"
+  canonical_url: "https://www.reuters.com/world/asia-pacific/south-korean-chip-shares-rally-after-microns-upbeat-earnings-2026-06-25/"
+  accessed_at: "2026-06-25T22:37:00Z"
+  published_at: "2026-06-25"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters chip-stocks rally wrap dated June 25 by Heekyong Yang and Hyunjoo Jin in Seoul, Rashika Singh, Shashwat Chauhan and Purvi Agarwal in Bengaluru, edited by Ed Davies, Amanda Cooper, Kevin Buckland, Devika Syamnath. Provides the Asia-specific chip-stock close anchors: 'In Asia, South Korean chip heavyweights SK Hynix and Samsung Electronics closed higher at 13% and 5.3%, respectively' (the Trading Economics South Korea page gives the more precise SK hynix +13.91% and Samsung +5.29% closes). Also reports Micron surged more than 17% to a record high, Western Digital +5.6%, SanDisk +15%, Seagate +6.7%, Philadelphia SE Semiconductor Index +1.9%; and the Micron CEO Sanjay Mehrotra quote that 'tight conditions should persist beyond calendar 2027' and the $22 billion customer pre-pay commitment. J.P. Morgan recommended 'add on any dips' and maintained an overweight stance on South Korea. LSEG chart data cited: year-to-date gains of 296% (Micron), 258% (Samsung), 184% (SK Hynix), 266% (Western Digital). No archive artifact committed for this cycle."
+- id: "S-2026-06-25-209"
+  publisher: "Nikkei Indexes (Nikkei Inc.)"
+  title: "Nikkei 225 — Official Close (Jun/25/2026)"
+  url: "https://indexes.nikkei.co.jp/en/nkave"
+  canonical_url: "https://indexes.nikkei.co.jp/en/nkave"
+  accessed_at: "2026-06-25T22:37:00Z"
+  published_at: "2026-06-25"
+  source_type: "index_provider_official"
+  retrieval_method: "web_search_verified_official_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "index_provider_official"
+  archive:
+    stored: false
+    reason: "Official Nikkei Inc. indexes portal (indexes.nikkei.co.jp/en/nkave) listing for the Nikkei 225 close on Jun/25/2026: 72,366.34, +3,191.37 (+4.61%), as surfaced via web-search preview of the official page. The page also carried other Nikkei-family index levels dated Jun/24 (Nikkei 225 Volatility Index 39.69, JPX-Nikkei Index 400 35,993.50, Nikkei Semiconductor Stock Index 32,594.66) at time of access. The official Nikkei 225 close for June 25 is independently corroborated by Yahoo Finance historical data (close 72,366.34, open 70,114.09, high 72,594.22, low 69,982.67), Investing.com historical (close 72,419.00, prior 71,385.00 — slight CFD basis difference), FRED series NIKKEI225 (previous observation 69,174.97 on 2026-06-24), and CNBC quote (.N225 prev close 69,174.97, 52-week high 72,831.73 on 06/22/26). No archive artifact committed for this cycle."
