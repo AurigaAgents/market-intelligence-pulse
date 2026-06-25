@@ -1,0 +1,194 @@
+- id: "S-2026-06-25-801"
+  publisher: "New York Stock Exchange"
+  title: "Holidays & Trading Hours"
+  url: "https://www.nyse.com/markets/hours-calendars"
+  canonical_url: "https://www.nyse.com/trade/hours-calendars"
+  accessed_at: "2026-06-25T23:10:00Z"
+  source_type: "official_exchange_calendar"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_exchange_calendar"
+  archive:
+    stored: false
+    reason: "NYSE trading-hours page confirms June 25, 2026 was a regular Thursday cash-equity session with core trading hours 09:30-16:00 ET. No holiday closure. PCE-report day and the session of Micron earnings reaction."
+- id: "S-2026-06-25-802"
+  publisher: "Associated Press via WDRB"
+  title: "How major US stock indexes fared Thursday 6/25/2026"
+  url: "https://www.wdrb.com/news/national/how-major-us-stock-indexes-fared-thursday-6-25-2026/article_4178819c-2146-5153-a43e-4a68d79bd702.html"
+  canonical_url: "https://www.wdrb.com/news/national/how-major-us-stock-indexes-fared-thursday-6-25-2026/article_4178819c-2146-5153-a43e-4a68d79bd702.html"
+  accessed_at: "2026-06-25T23:10:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_close_wire"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_news_wire_market_close"
+  archive:
+    stored: false
+    reason: "AP syndicated index-close summary for Thursday June 25, 2026. Provides final regular-session closes for S&P 500 (7,357.49, -0.73, <0.1%), Dow (51,920.62, +71.72, +0.1%), Nasdaq Composite (25,358.60, -118.03, -0.5%, fourth straight decline), Russell 2000 (3,007.86, +21.23, +0.7%). AP close summaries are stable post-publication."
+- id: "S-2026-06-25-803"
+  publisher: "Reuters"
+  title: "World stocks climb on chip rally; dollar steadies near one-year high"
+  url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-06-25/"
+  canonical_url: "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-06-25/"
+  accessed_at: "2026-06-25T23:10:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_close_wire"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_news_wire_market_close"
+  archive:
+    stored: false
+    reason: "Reuters global markets wrapup by Chibuike Oguh in New York, datelined NEW YORK, June 25. Cross-asset anchors: Brent crude settled up 2% at $75.26 a barrel; dollar index fell 0.15% to 101.45; euro at $1.137 (near 13-month low); yen at 161.80 (near 40-year low); 10-year US Treasury yield fell 0.59 bp to 4.394%; MSCI world stocks rose 0.37%; STOXX 600 rose 0.80%. Provides the FX, commodity, and rates backdrop against which US sentiment traded."
+- id: "S-2026-06-25-804"
+  publisher: "CNN Business"
+  title: "Fear and Greed Index - Investor Sentiment"
+  url: "https://www.cnn.com/markets/fear-and-greed"
+  canonical_url: "https://www.cnn.com/markets/fear-and-greed"
+  accessed_at: "2026-06-25T23:11:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_sentiment_index"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "primary_composite_sentiment_index"
+  archive:
+    stored: false
+    reason: "CNN Fear & Greed Index page accessed live on June 25 at collection time. Current value displayed: 26 (fear), with 'Previous close 25', '1 week ago 37', '1 month ago 58', '1 year ago 59', 'Last updated Jun 25 at 1:59:33 PM ET'. Seven indicators shown: market momentum=fear, stock price strength=fear (NYSE net new 52-wk H/L 1.40%), stock price breadth=extreme fear (McClellan Volume Summation Index 1,400.47), put/call options=fear (5-day avg 0.70), market volatility=neutral (VIX 16.76 vs 50-day MA 21.71; intraday-stamped). The page carries an 'Index Update' note about the McClellan Summation Index methodology change for Stock Price Breadth."
+- id: "S-2026-06-25-805"
+  publisher: "Finhacker.cz"
+  title: "Fear and Greed Index: Historical Data & Chart (2011-2026)"
+  url: "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  canonical_url: "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  accessed_at: "2026-06-25T23:11:00Z"
+  published_at: "2026-06-24"
+  source_type: "market_sentiment_dataset"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "third_party_cnn_endpoint_tracker"
+  archive:
+    stored: false
+    reason: "Finhacker.cz public CNN Fear & Greed tracker accessed live on June 25 at collection time. Data updated timestamp read as 'Jun 24, 2026, 8:00 PM ET' and the current value printed as 26 (fear), matching CNN's current reading. The tracker had not published a verified June 25 post-close update at the time of access; the 26 value reflects the June 24 post-close snapshot and agrees with CNN's latest intraday read."
+- id: "S-2026-06-25-806"
+  publisher: "Yahoo Finance"
+  title: "CBOE Volatility Index (^VIX) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX/history/"
+  accessed_at: "2026-06-25T23:14:00Z"
+  published_at: "2026-06-25"
+  source_type: "volatility_index_dataset"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_data_aggregator"
+  archive:
+    stored: false
+    reason: "Yahoo Finance historical data table for ^VIX, accessed after the June 25 close. June 25, 2026 row: Open 18.11, High 19.95, Low 17.72, Close 18.89. Prior session June 24, 2026 close 18.63 (confirmed by FRED VIXCLS daily close series updated Jun 25, 2026 8:38 AM CDT showing 2026-06-24: 18.63). Investing.com corroborates close 18.90 (+1.45%) and the 4:14:46 PM close stamp. The one-day change is +0.26 points or +1.40%."
+- id: "S-2026-06-25-807"
+  publisher: "Yahoo Finance"
+  title: "CBOE S&P 500 9-Day Volatility I (^VIX9D) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX9D/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX9D/history/"
+  accessed_at: "2026-06-25T23:14:00Z"
+  published_at: "2026-06-25"
+  source_type: "volatility_index_dataset"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_data_aggregator"
+  archive:
+    stored: false
+    reason: "Yahoo Finance historical data table for ^VIX9D, accessed after the June 25 close. June 25, 2026 row: Open 16.63, High 20.03, Low 16.63, Close 17.92. Prior verified close (June 24, per the June 24 sentiment cycle-1 report and the Yahoo sidebar 'Previous Close 18.07'): 18.07. One-day change: -0.15 points or -0.83%. Yahoo's table skips non-trading days; the prior session row is June 18 at 13.93, and Yahoo did not populate rows for the June 19 Juneteenth holiday or the June 22-24 sessions in the VIX9D history view at access time, but the 18.07 prior close is confirmed by the quote sidebar and by the June 24 sentiment cycle-1 claim C-2026-06-24-SENTIMENT-C1-VOLATILITY."
+- id: "S-2026-06-25-808"
+  publisher: "Yahoo Finance"
+  title: "CBOE S&P 500 3-Month Volatility (^VIX3M) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX3M/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX3M/history/"
+  accessed_at: "2026-06-25T23:14:00Z"
+  published_at: "2026-06-25"
+  source_type: "volatility_index_dataset"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_data_aggregator"
+  archive:
+    stored: false
+    reason: "Yahoo Finance historical data table for ^VIX3M, accessed after the June 25 close. June 25, 2026 row: Open 19.88, High 20.98, Low 19.88, Close 20.33. Prior session June 24 close 20.37 (per June 24 sentiment cycle-1 claim and Saxo Bank Options Brief). One-day change: -0.04 points or -0.20%."
+- id: "S-2026-06-25-809"
+  publisher: "Yahoo Finance"
+  title: "CBOE S&P 500 6-Month Volatility (^VIX6M) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX6M/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX6M/history/"
+  accessed_at: "2026-06-25T23:14:00Z"
+  published_at: "2026-06-25"
+  source_type: "volatility_index_dataset"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_data_aggregator"
+  archive:
+    stored: false
+    reason: "Yahoo Finance historical data table for ^VIX6M, accessed after the June 25 close. June 25, 2026 row: Open 22.10, High 23.11, Low 22.10, Close 22.35. Prior session June 24 close 22.40 (per June 24 sentiment cycle-1 claim and Saxo Bank Options Brief). One-day change: -0.05 points or -0.22%."
+- id: "S-2026-06-25-810"
+  publisher: "American Association of Individual Investors"
+  title: "AAII Investor Sentiment Survey (week ending 6/24/2026, published 2026-06-25)"
+  url: "https://www.aaii.com/sentimentsurvey"
+  canonical_url: "https://www.aaii.com/sentimentsurvey"
+  accessed_at: "2026-06-25T23:12:00Z"
+  published_at: "2026-06-25"
+  source_type: "investor_sentiment_survey"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "primary_survey_publisher"
+  archive:
+    stored: false
+    reason: "AAII Investor Sentiment Survey results page accessed live on June 25 after the survey release. Week ending 6/24/2026 results: Bullish 44.9%, Neutral 18.9%, Bearish 36.1%. Compared to week ending 6/17/2026 (Bullish 36.6%, Neutral 24.1%, Bearish 39.4%), bullish sentiment increased 8.4 percentage points and is above its historical average of 37.5% for the first time in six weeks. Bull-bear spread +8.8 pp. Historical averages: 37.5% / 31.5% / 31.0%. Companion article titled 'AAII Sentiment Survey: Optimism Leaps' (aaii.com/latest/article/503774). Special question asked about the US-Iran memorandum of understanding and economic expectations."
+- id: "S-2026-06-25-811"
+  publisher: "Investment Company Institute"
+  title: "Combined Estimated Long-Term Fund Flows and ETF Net Issuance (week ended 2026-06-17, published 2026-06-24)"
+  url: "https://www.ici.org/research/stats/combined_flows"
+  canonical_url: "https://www.ici.org/research/stats/combined_flows"
+  accessed_at: "2026-06-25T23:13:00Z"
+  published_at: "2026-06-24"
+  source_type: "fund_flow_statistical_release"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "industry_association_primary_release"
+  archive:
+    stored: false
+    reason: "ICI Combined Estimated Long-Term Flows and ETF Net Issuance release dated June 24, 2026. Total estimated inflows to long-term mutual funds and ETFs were $66.23 billion for the week ended June 17, 2026. Mutual fund outflows were $25.80 billion while ETF net issuance was $92.03 billion. Equity funds had inflows of $55.75 billion (domestic $49.60B, world $6.15B). Bond funds had inflows of $16.46 billion (taxable $13.43B, muni $3.03B). Hybrid outflows $4.68B. Commodity fund outflows $1.31B. This is the latest available ICI weekly release for the June 25 report date; the next release (week ended June 24) had not been published at collection time."
+- id: "S-2026-06-25-812"
+  publisher: "ETF.com"
+  title: "Post-SpaceX IPO, Investors Pour $83B Into U.S. Equities (weekly flows published 2026-06-22)"
+  url: "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+  canonical_url: "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+  accessed_at: "2026-06-25T23:13:00Z"
+  published_at: "2026-06-22"
+  source_type: "fund_flow_analysis"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "specialist_etf_flow_publisher"
+  archive:
+    stored: false
+    reason: "ETF.com weekly flows article published June 22, 2026. Total ETF inflows $119.83 billion led by $83.62 billion into U.S. equity ETFs and $21.66 billion into international equity ETFs. U.S. fixed income $8.15B, international fixed income $2.67B, commodities $0.83B, leveraged ETFs -$0.51B. Top creations: IVV +$30.40B, SPYM +$12.87B, XLK +$8.33B, SMH +$7.44B, SCHD +$5.46B. Top redemptions: SPY -$29.62B, VOO -$14.42B, ARKK -$2.01B, KORU -$1.86B, SOXL -$1.65B. Article notes this is the first full week of trading post-SpaceX IPO. Data as of 6 a.m. ET on the publish date."
+- id: "S-2026-06-25-813"
+  publisher: "Cboe Global Markets via YCharts"
+  title: "CBOE Total Put/Call Ratio (release 2026-06-25 20:00 EDT)"
+  url: "https://ycharts.com/indicators/total_putcall_ratio"
+  canonical_url: "https://ycharts.com/indicators/total_putcall_ratio"
+  accessed_at: "2026-06-25T23:15:00Z"
+  published_at: "2026-06-25"
+  source_type: "options_sentiment_dataset"
+  retrieval_method: "web_search_live_data_release"
+  mutable: false
+  paywall: false
+  reliability_tier: "exchange_primary_via_aggregator"
+  archive:
+    stored: false
+    reason: "YCharts release of CBOE daily options market statistics timestamped Jun 25 2026 20:00 EDT. Total Put/Call Ratio 1.02. Companion readings from the same release via YCharts: CBOE Equity Put/Call Ratio 0.61. Cboe daily market statistics page (cboe.com/markets/us/options/market-statistics/daily) corroborates: INDEX PUT/CALL RATIO 1.16, EXCHANGE TRADED PRODUCTS PUT/CALL RATIO 1.38, EQUITY PUT/CALL RATIO 0.61, TOTAL PUT/CALL RATIO 1.02. Barchart S&P 500 Index Put/Call for Jun 25 2026: Put Volume 907,215 / Call Volume 694,491 (ratio 1.31). These are end-of-day settle values."
