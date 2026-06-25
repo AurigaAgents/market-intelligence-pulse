@@ -1,0 +1,120 @@
+- id: "S-2026-06-25-701"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-25T22:54:00Z"
+  published_at: "2026-06-25"
+  source_type: "government_data"
+  retrieval_method: "curl_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury par-yield CSV fetched live: newest row is 06/25/2026 (2Y 4.09, 3Y 4.13, 5Y 4.15, 7Y 4.26, 10Y 4.40, 20Y 4.87, 30Y 4.86) directly after the 06/24/2026 row (2Y 4.11, 3Y 4.15, 5Y 4.17, 7Y 4.28, 10Y 4.41, 20Y 4.87, 30Y 4.86). Par yields fell about 1-2 bp across the front and belly and were flat at the long end; the 2s10s slope on the constant-maturity par basis widened 1 bp to +31 bp from +30 bp; the 20Y (4.87) sits 1 bp above the 30Y (4.86). No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-702"
+  publisher: "U.S. Bureau of Economic Analysis"
+  title: "Personal Income and Outlays, May 2026 (BEA 26-31)"
+  url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  canonical_url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  accessed_at: "2026-06-25T22:55:00Z"
+  published_at: "2026-06-25"
+  source_type: "government_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "BEA Personal Income and Outlays release for May 2026, issued 8:30 a.m. EDT Thursday, June 25, 2026 (the Fed's preferred PCE inflation gauge). From the preceding month, the PCE price index rose 0.4 percent; excluding food and energy it rose 0.3 percent. From a year ago, the PCE price index rose 4.1 percent and the core (ex food and energy) index rose 3.4 percent. Personal income increased 181.6 billion dollars (0.7 percent monthly); current-dollar PCE rose 0.4 percent and real PCE was unchanged (0.0 percent). BEA's headline PCE year-over-year trend is February 2.9, March 3.5, April 3.8, May 4.1 percent. News releases are stable post-publication; no archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-703"
+  publisher: "Trading Economics"
+  title: "Brent crude oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  accessed_at: "2026-06-25T22:54:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Brent page (updated June 25, 2026): Brent rose to 74.74 USD/Bbl, up 1.35 percent on the day; over the past month Brent is down 22.69 percent and it is 12.06 percent higher than a year ago (CFD basis). TE news text: 'Brent crude oil rose nearly 2% to $74.7 a barrel on Thursday as traders monitored shipments through the Strait of Hormuz after a cargo ship was struck by an unknown projectile off the Omani coast,' threatening the normalization of regional oil flows; Saudi Arabian tankers continued toward the Ras Tanura terminal to resume Persian Gulf exports; the market is also watching a potential 2026 global supply surplus, with Iraq demanding a higher OPEC quota, while US Cushing, Oklahoma stocks are roughly 19 million barrels, below operational minimums. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-704"
+  publisher: "Trading Economics"
+  title: "United States Dollar (DXY) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/currency"
+  canonical_url: "https://tradingeconomics.com/united-states/currency"
+  accessed_at: "2026-06-25T22:56:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics U.S. Dollar / ICE DXY page (updated June 25, 2026): the DXY fell to 101.4472, down 0.16 percent from the previous session, with the live ticker near 101.46. Over the past month the dollar has strengthened 2.30 percent and is up 4.43 percent over twelve months. The dollar eased slightly on June 25, pausing a multi-session climb, consistent with the in-line monthly PCE print and the renewed geopolitical bid in oil and gold. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-705"
+  publisher: "Trading Economics"
+  title: "Gold - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/gold"
+  canonical_url: "https://tradingeconomics.com/commodity/gold"
+  accessed_at: "2026-06-25T22:56:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Gold page (updated June 25, 2026): gold rose to 4,035.40 USD/t oz, up 0.90 percent from the previous day (CFD basis); over the past month gold is down 10.53 percent and it is 21.24 percent higher than a year ago. The modest June 25 rebound is consistent with the softer dollar and the renewed Strait of Hormuz safe-haven bid, after a steep monthly decline. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-706"
+  publisher: "Al Jazeera (AFP and Reuters)"
+  title: "Oil prices back to pre-war levels on rising Middle East supply"
+  url: "https://www.aljazeera.com/news/2026/6/25/oil-prices-back-to-pre-war-levels-on-rising-middle-east-supply"
+  canonical_url: "https://www.aljazeera.com/news/2026/6/25/oil-prices-back-to-pre-war-levels-on-rising-middle-east-supply"
+  accessed_at: "2026-06-25T22:57:00Z"
+  published_at: "2026-06-25T10:04:43Z"
+  source_type: "news_article_wire"
+  retrieval_method: "curl_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "wire_service"
+  archive:
+    stored: false
+    reason: "AFP/Reuters wire via Al Jazeera, published 2026-06-25T10:04:43Z. Brent crude reached its lowest since February 27, 2026 (before the war started); Brent August-delivery futures fell 1.06 dollars (1.44 percent) to 72.68 a barrel and US WTI lost 76 cents (1.08 percent) to 69.58 a barrel by 06:39 GMT, on rising regional supply: Oman opened temporary routes on Wednesday to ease tanker departures from the strait, and a second vessel arrived since the Strait of Hormuz closure of April 24, 2026. Establishes the morning post-war low against which a later cargo-ship strike off Oman reversed prices higher. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-707"
+  publisher: "Al Jazeera"
+  title: "IRGC warns against new Hormuz route for ships: What we know"
+  url: "https://www.aljazeera.com/news/2026/6/25/irgc-warns-against-new-hormuz-route-for-ships-what-we-know"
+  canonical_url: "https://www.aljazeera.com/news/2026/6/25/irgc-warns-against-new-hormuz-route-for-ships-what-we-know"
+  accessed_at: "2026-06-25T22:57:00Z"
+  published_at: "2026-06-25T14:33:54Z"
+  source_type: "news_article_explainer"
+  retrieval_method: "curl_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Al Jazeera explainer (Caolan Magee), published 2026-06-25T14:33:54Z. Oil prices fell to the lowest level since before the Iran war, with Brent crude hitting an intraday low of 72.24 a barrel on Thursday, still above the pre-war price of about 66 dollars. Iran's IRGC warned against a new Hormuz shipping route; parliament speaker Ghalibaf said Hormuz will never return to its pre-war status and floated charging transit fees, an idea US Secretary of State Marco Rubio dismissed. About 20 million barrels per day of oil and petroleum products transited the strait in 2025 (US EIA). Corroborates the Strait of Hormuz transit-risk driver behind the intraday oil reversal. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-708"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, May 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202605&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202605?type=daily_treasury_yield_curve&field_tdr_date_value_month=202605&page&_format=csv"
+  accessed_at: "2026-06-25T22:58:00Z"
+  published_at: "2026-05-29"
+  source_type: "government_data"
+  retrieval_method: "curl_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury par-yield CSV for May 2026, used to verify the historical low: the 10-year par yield stayed at or above 4.41 percent on every session from 05/11/2026 (4.42) through 06/24/2026 (4.41); the last session with the 10-year at or below 4.40 percent was 05/08/2026 (4.38). This confirms June 25's 4.40 percent 10-year as the lowest since May 8, 2026. No archive artifact committed for this segment cycle."
