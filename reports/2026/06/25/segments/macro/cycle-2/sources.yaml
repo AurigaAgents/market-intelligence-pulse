@@ -1,0 +1,90 @@
+- id: "S-2026-06-25-801"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-25T23:24:45Z"
+  published_at: "2026-06-25"
+  source_type: "government_data"
+  retrieval_method: "curl_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury June 2026 par-yield CSV fetched live. The 06/25/2026 row shows 2Y 4.09%, 5Y 4.15%, 10Y 4.40%, 20Y 4.87% and 30Y 4.86%; the 06/24/2026 row shows 2Y 4.11%, 5Y 4.17%, 10Y 4.41%, 20Y 4.87% and 30Y 4.86%. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-802"
+  publisher: "U.S. Bureau of Economic Analysis"
+  title: "Personal Income and Outlays, May 2026"
+  url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  canonical_url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  accessed_at: "2026-06-25T23:24:45Z"
+  published_at: "2026-06-25"
+  source_type: "government_release"
+  retrieval_method: "curl_live_public_html"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "BEA release fetched live. It reports May personal income +$181.6B / +0.7%, DPI +$164.9B / +0.7%, current-dollar PCE +$156.1B / +0.7%, personal outlays +$159.9B, personal saving $704.2B and saving rate 3.0%; real PCE +$43.8B / +0.3%; PCE price index +0.4% MoM and +4.1% YoY; core PCE price index +0.3% MoM and +3.4% YoY. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-803"
+  publisher: "Trading Economics"
+  title: "US 10 Year Treasury Note Yield - values, historical data, forecasts and news"
+  url: "https://tradingeconomics.com/united-states/government-bond-yield"
+  canonical_url: "https://tradingeconomics.com/united-states/government-bond-yield"
+  accessed_at: "2026-06-25T23:24:45Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_html"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics page fetched live at page update 202606252315. It says the US 10-year Treasury note yield held steady at 4.40% on June 25, 2026, was down 0.10 points over the past month, and carries commentary that the yield fell below 4.40% on Thursday to the lowest in seven weeks as lower inflation concerns reduced the likelihood of multiple Fed hikes. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-804"
+  publisher: "Trading Economics"
+  title: "United States Dollar - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/united-states/currency"
+  canonical_url: "https://tradingeconomics.com/united-states/currency"
+  accessed_at: "2026-06-25T23:24:45Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_html"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics DXY page fetched live at page update 202606252320. It reports DXY at 101.4879 on June 25, 2026, down 0.12% from the previous session, up 2.34% over the past month and up 4.47% over the last 12 months. It also says traders slightly scaled back Fed-tightening expectations while still pricing at least one hike this year. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-805"
+  publisher: "Trading Economics"
+  title: "Brent crude oil - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  canonical_url: "https://tradingeconomics.com/commodity/brent-crude-oil"
+  accessed_at: "2026-06-25T23:24:45Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_html"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Brent page fetched live at page update 202606252320. It reports Brent at $74.84/bbl on June 25, 2026, up 1.50% from the previous day, down 22.58% over the past month and up 12.22% over the last 12 months; the page notes CFD-based reference pricing and commentary about Strait of Hormuz shipment monitoring. No archive artifact committed for this segment cycle."
+- id: "S-2026-06-25-806"
+  publisher: "Trading Economics"
+  title: "Gold - Price - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/commodity/gold"
+  canonical_url: "https://tradingeconomics.com/commodity/gold"
+  accessed_at: "2026-06-25T23:24:45Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_html"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics gold page fetched live at page update 202606252320. It reports gold at $4,024.91 per troy ounce on June 25, 2026, up 0.63% from the previous day, down 10.76% over the past month and up 20.92% over the last 12 months; commentary attributes the rebound to a weaker dollar and lower Treasury yields after the PCE release. No archive artifact committed for this segment cycle."
