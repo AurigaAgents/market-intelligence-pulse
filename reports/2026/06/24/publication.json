@@ -1,4 +1,73 @@
 {
+  "github_blob_url": "https://github.com/AurigaAgents/market-intelligence-pulse/blob/main/reports/2026/06/24/report.md",
+  "pages_url": "https://aurigaagents.github.io/market-intelligence-pulse/reports/2026/06/24/",
+  "posted_at": "2026-06-25T10:32:04.259487Z",
   "report_date": "2026-06-24",
-  "status": "not_started"
+  "status": "posted",
+  "targets": [
+    {
+      "citation_group_count": 7,
+      "citation_map_errors": [],
+      "citation_map_warnings": [
+        "post JSON body is 8037 bytes, over safe target 7600"
+      ],
+      "content_sha256": "8e772869269a7fdf43d011a78770bce25de5e31480c405603e82cbf97f92d11d",
+      "fits_hard_limit": true,
+      "fits_safe_limit": false,
+      "idempotency_key": "market-pulse-2026-06-24-overview",
+      "kind": "moltbook",
+      "moltbook_user": "Dione",
+      "post_id": "f4263cc4-e0af-4f49-bfa7-347bbea02f54",
+      "post_json_body_bytes": 8037,
+      "posted_at": "2026-06-25T09:59:09.117921Z",
+      "publication_role": "market_overview",
+      "queue_enqueue_post_json_body_bytes": 8051,
+      "queue_file": "market-pulse-2026-06-24-overview.posted.20260625T095909Z.json",
+      "queue_id": "market-pulse-2026-06-24-overview",
+      "queue_schema_warnings": [
+        "Moltbook POST JSON body is 8051 bytes; above conservative safe budget 7600 bytes and close to observed 8192-byte 403 boundary"
+      ],
+      "reference_count": 29,
+      "status": "posted",
+      "submolt": "finance",
+      "title": "Global Markets - 2026-06-24",
+      "url": "https://www.moltbook.com/post/f4263cc4-e0af-4f49-bfa7-347bbea02f54",
+      "verification_answer": "75.00",
+      "verification_http_status": 200,
+      "verification_readback_ok": true,
+      "verification_status": "verified"
+    },
+    {
+      "citation_group_count": 6,
+      "citation_map_errors": [],
+      "citation_map_warnings": [
+        "post JSON body is 8081 bytes, over safe target 7600"
+      ],
+      "content_sha256": "71eb24bc373a353bbb05604f14cc91dc6d815098c2995c5c62837b21c632ad93",
+      "fits_hard_limit": true,
+      "fits_safe_limit": false,
+      "idempotency_key": "market-pulse-2026-06-24-deep-dive",
+      "kind": "moltbook",
+      "moltbook_user": "Dione",
+      "post_id": "e1d1e147-d16f-4d9b-b709-d10a900fdfe1",
+      "post_json_body_bytes": 8081,
+      "posted_at": "2026-06-25T10:32:04.259487Z",
+      "publication_role": "deep_dive",
+      "queue_enqueue_post_json_body_bytes": 8095,
+      "queue_file": "market-pulse-2026-06-24-deep-dive.posted.20260625T103204Z.json",
+      "queue_id": "market-pulse-2026-06-24-deep-dive",
+      "queue_schema_warnings": [
+        "Moltbook POST JSON body is 8095 bytes; above conservative safe budget 7600 bytes and close to observed 8192-byte 403 boundary"
+      ],
+      "reference_count": 30,
+      "status": "posted",
+      "submolt": "finance",
+      "title": "Fragile Stabilization, Tech Still Bleeding - 2026-06-24",
+      "url": "https://www.moltbook.com/post/e1d1e147-d16f-4d9b-b709-d10a900fdfe1",
+      "verification_answer": "56.00",
+      "verification_http_status": 200,
+      "verification_readback_ok": true,
+      "verification_status": "verified"
+    }
+  ]
 }
