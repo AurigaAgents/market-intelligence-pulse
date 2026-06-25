@@ -1,0 +1,90 @@
+- id: "S-2026-06-25-501"
+  publisher: "Reuters"
+  title: "European Shares Hit Record Close With Healthcare Stocks Leading Broader Rally"
+  url: "https://money.usnews.com/investing/news/articles/2026-06-25/european-shares-gain-as-upbeat-micron-forecast-revives-ai-rally"
+  canonical_url: "https://money.usnews.com/investing/news/articles/2026-06-25/european-shares-gain-as-upbeat-micron-forecast-revives-ai-rally"
+  accessed_at: "2026-06-25T22:29:00Z"
+  published_at: "2026-06-25"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters European market-close wrap for Thursday June 25, 2026 (headline 'European Shares Hit Record Close With Healthcare Stocks Leading Broader Rally'; by Utkarsh Hathi, Johann M Cherian and Purvi Agarwal; published 03:23 EDT and updated through the European close), accessed live via the U.S. News and World Report Reuters syndication. The pan-European STOXX 600 ended 0.8% higher at a record close of 640.21, after touching an intraday record of 642.09, its biggest one-day jump in nearly two weeks. Healthcare was among the biggest boosts, up 1.5%, with Bayer jumping 18.7% to top the STOXX 600 after the U.S. Supreme Court reined in thousands of Roundup cancer lawsuits. A tech rally on strong Micron and Qualcomm forecasts pushed the index to its intraday high but faded into the close, with the technology sector ending up 0.8% after gaining as much as 2.5%; at the close Infineon rose 3.1%, STMicroelectronics 5.1%, ASML 2.6% and Siemens Energy 2.3%. U.S. inflation broke above 4% in May for the first time in three years, keeping a Federal Reserve rate increase on the table, and traders priced Fed and ECB hikes by year-end per LSEG-compiled data. Oil reversed earlier declines to gain after a report that Tehran planned to charge billions in fees to reopen the Strait of Hormuz. Among single stocks, 3i Group jumped 11.4% on portfolio company Action's like-for-like sales growth, EasyJet rose 6.4% after rejecting a fourth Castlelake takeover offer, and Volkswagen added about 1.3% after agreeing to sell its Everllence diesel-engine unit to Bain Capital for about 7.4 billion euros (8.4 billion dollars). Intraday single-stock percentages carry a cash-close versus CFD basis. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-502"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DE40) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-25T22:29:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Germany page for June 25, 2026 (last updated June 25, 2026): the DE40 (DAX) rose to 24,944.30 on the dated daily table, up 203.94 / +0.82% from the previous close of 24,740.36 (stats box Actual 24,942.30; live CFD ticker about 24,949 / +0.84% after the US session). The dated News Stream item 'Tech Rally Lifts DAX' noted the index rose about 0.6% toward 24,900 intraday, led by tech after two downbeat sessions and helped by Micron's strong earnings and easing oil. The Jun/25 cross-index table on this page carried EU600 (STOXX Europe 600) 638.86 / +0.58%, EU50 (EURO STOXX 50) 6,273.00 / +0.86%, DE Mid 32,090.29 / +0.54%, EU100 1,911.22 / +0.64% and Euro Stoxx Banks 291.64 / +0.09%. Component table (Jun/25): Infineon 83.90 / +5.46%, Deutsche Post 52.04 / +1.68%, Siemens Energy 162.38 / +1.58%, Siemens 274.80 / +1.25%, Rheinmetall 928.80 / -1.78%, Deutsche Telekom 26.21 / -0.89%, SAP 133.46 / -1.04%. The page also flagged Fresenius Medical Care (-4.3%), Deutsche Boerse (-2.1%) and SAP (-2.1%) as the biggest laggards, and Volkswagen +1.5% on agreeing to sell engine maker Everllence to Bain Capital for 7.4 billion euros; RWE, Siemens Energy, E.ON and Adidas rose up to 1.9%. DAX all-time high 25,584.60 (January 2026). CFD-tracked levels; cash-close versus CFD basis disclosed. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-503"
+  publisher: "Trading Economics"
+  title: "France Stock Market Index (FR40) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/france/stock-market"
+  canonical_url: "https://tradingeconomics.com/france/stock-market"
+  accessed_at: "2026-06-25T22:29:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics France page for June 25, 2026 (last updated June 25, 2026): the FR40 (CAC 40) closed at 8,448.70 on the stats box Actual and dated summary (about 8,449, +0.75% from the previous 8,385.49), while the later index table and live CFD ticker showed 8,426.70 / +0.49% after-hours. The dated News Stream item 'French Stocks Extend Gains' put the CAC around 8,393 intraday, extending gains on AI optimism after Micron's results and easing oil, with France's consumer confidence indicator rising to 84 in June from a more than three-year low of 82 in May (above the 83 expected). Reported gainers were STMicroelectronics +4.3%, ENGIE +1.1%, Schneider Electric +0.9% and L'Oreal +1%, with LVMH -1%, Hermes -0.7%, Airbus -0.5% and Sanofi -1.1% on the downside; the opening snapshot had Thales -2.71%. Component table (Jun/25): Safran 342.85 / +1.32%, BNP Paribas 102.30 / +0.83%, L'Oreal 388.48 / +0.47%, Air Liquide 170.41 / +0.38%, Sanofi 73.61 / +0.08%, Airbus 195.06 / -0.02%, LVMH 492.30 / -0.14%, TotalEnergies 69.18 / -0.47%, Schneider Electric 279.00 / -0.53%, Hermes 1,611.50 / -1.07%. FR40 all-time high 8,642.23 (February 2026). CFD-tracked level; cash-close versus CFD basis disclosed. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-504"
+  publisher: "Investors Chronicle"
+  title: "FTSE 100 Index historical prices"
+  url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  canonical_url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  accessed_at: "2026-06-25T22:29:00Z"
+  published_at: "2026-06-25"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Public Investors Chronicle/LSEG FTSE 100 historical daily table accessed live (data delayed at least 15 minutes, as of Jun 25 2026 16:35 to 17:35 BST): Thursday, June 25, 2026 open 10,461.52, high 10,575.31, low 10,415.45, close 10,529.89, volume 970,238,545; Wednesday, June 24, 2026 close 10,461.63. The June 25 close of 10,529.89 is up 68.26 points (+0.65%) from the June 24 close, with the page header showing Price 10,529.89, Today's Change +68.26 / +0.65%, shares traded about 1.00 billion, a 1-year change of +20.77% and a 52-week range of 8,707.65 to 10,934.94. London was a relative outperformer and the FTSE 100 set the cycle's one precise official close. Data provided by LSEG, delayed at least 15 minutes. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-505"
+  publisher: "Il Sole 24 Ore"
+  title: "Stock market: tech stocks buoy Europe; Milan closes up 0.3 per cent, led by ST"
+  url: "https://en.ilsole24ore.com/art/tech-stocks-boost-europe-milan-closes-up-03-per-cent-leading-the-way-AIcD0CsD"
+  canonical_url: "https://en.ilsole24ore.com/art/tech-stocks-boost-europe-milan-closes-up-03-per-cent-leading-the-way-AIcD0CsD"
+  accessed_at: "2026-06-25T22:29:00Z"
+  published_at: "2026-06-25"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_daily"
+  archive:
+    stored: false
+    reason: "Il Sole 24 Ore (Radiocor) English-edition European-close report for June 25, 2026, 'Stock market: tech stocks buoy Europe; Milan closes up 0.3 per cent, led by ST': European markets closed higher driven by the technology sector (+0.9% for the STOXX 600 tech sector index) following Micron's exceptional earnings (Micron +14% on Wall Street during the session), with Italy's FTSE MIB closing +0.28% led by STMicroelectronics +2.75%. Other Milan gainers were Buzzi +2.17%, Ferrari +1.58%, Enel +2%, A2A +1.5% and Campari +0.73%, while defence shares were at the bottom of the table - Avio -6.62%, Leonardo -3.97% and Fincantieri -2.92% - and Stellantis fell 0.95% after weak European vehicle registrations. Oil reversed an intraday decline to rise, with Brent for August up 1.5% at 74.8 dollars and WTI up 1.7% at 71.5 dollars; spot gold recovered the 4,000 dollar mark (+0.9% to 4,028 dollars); the euro traded at 1.138 dollars (+0.2%); bitcoin was down about 3% near its 2026 lows below 60,000 dollars (59,048). US PCE inflation came in line with expectations. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-506"
+  publisher: "Reuters"
+  title: "Tech stocks surge as Micron earnings ease AI fears, oil falls further"
+  url: "https://theedgemalaysia.com/node/808196"
+  canonical_url: "https://theedgemalaysia.com/node/808196"
+  accessed_at: "2026-06-25T22:29:00Z"
+  published_at: "2026-06-25"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters global-markets wrap for June 25, 2026 by Alun John and Ankur Banerjee, 'Tech stocks surge as Micron earnings ease AI fears, oil falls further', accessed via The Edge Malaysia syndication (published 08:34, updated 17:30 Malaysia time): stocks surged on Thursday after strong earnings and forecasts from chip giants Micron and Qualcomm reignited the AI rally - Micron said customers had committed 22 billion dollars for its memory chips and Qualcomm anticipated 15 billion dollars in data-centre sales by 2029; Micron rose 18% and Qualcomm 12% in pre-market trading. Japan's Nikkei jumped over 4%, South Korea's Kospi gained 5.5%, and Nasdaq 100 futures rose 2.2%. Europe, with fewer tech names, saw the broad STOXX 600 up 0.44% intraday while its tech subindex gained 2%. Oil extended declines as stranded tankers exited the Strait of Hormuz, with Brent down 1.2% at 72.8 dollars and WTI down 1.1% at 69.36 dollars (Brent had fallen 10% on the week, erasing its war gain); the euro sat at 1.1367 dollars just above a 13-month low, the dollar near a one-year high, and spot gold slid below 4,000 dollars for the first time in 2026 to about 3,995 dollars. The 10-year Treasury yield was up about 1 bp after a 9 bp drop the prior day; Germany's 10-year yield was flat. This source captures the intraday global AI catalyst and the early-session oil decline before the later reversal. No archive artifact committed for this cycle."
