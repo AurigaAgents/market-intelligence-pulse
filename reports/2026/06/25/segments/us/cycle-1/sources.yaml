@@ -1,0 +1,75 @@
+- id: "S-2026-06-25-101"
+  publisher: "Associated Press via WDRB"
+  title: "How major US stock indexes fared Thursday 6/25/2026"
+  url: "https://www.wdrb.com/news/national/how-major-us-stock-indexes-fared-thursday-6-25-2026/article_4178819c-2146-5153-a43e-4a68d79bd702.html"
+  canonical_url: "https://www.wdrb.com/news/national/how-major-us-stock-indexes-fared-thursday-6-25-2026/article_4178819c-2146-5153-a43e-4a68d79bd702.html"
+  accessed_at: "2026-06-25T22:11:55Z"
+  published_at: "2026-06-25"
+  source_type: "newswire_index_close_summary"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP syndicated index-close summary for Thursday June 25, 2026, carrying the AP copyright line. Provides final regular-session closes for S&P 500 (7,357.49, -0.73, <0.1%), Dow (51,920.62, +71.72, +0.1%), Nasdaq Composite (25,358.60, -118.03, -0.5%), Russell 2000 (3,007.86, +21.23, +0.7%), plus week-to-date and year-to-date point and percent changes. AP close summaries are stable post-publication; no archive artifact committed for this cycle."
+- id: "S-2026-06-25-102"
+  publisher: "Investopedia"
+  title: "Markets News, June 25, 2026: Nasdaq Slides as Tech Giants' Retreat Outweighs Micron-Led Memory Rally; Oil Rises as Mideast Tensions Flare"
+  url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06252026-12006401"
+  canonical_url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06252026-12006401"
+  accessed_at: "2026-06-25T22:10:21Z"
+  published_at: "2026-06-25T15:38:00-04:00"
+  source_type: "financial_news_live_blog_close"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Investopedia markets live blog for June 25, 2026, accessed after the close; latest update stamp 3:38 PM EDT. Used for single-stock close/intraday moves (Apple -6%, Nvidia -2%, Broadcom -1%, Micron +15%, Sandisk +22%, Western Digital +5%, SpaceX -1%), the 10-year yield (4.40% from 4.42% pre-data), oil reversal (WTI >+2% to $72, Brent ~$75.50 on a Strait of Hormuz vessel strike), gold (+~1% to $4,045), Bitcoin (~$59,500), dollar index (-0.2% at 101.45), and PCE detail. Intraday-stamped values (oil, gold, BTC, dollar, Nvidia/Broadcom) are mutable and carried at medium confidence with explicit as_of; index closes are anchored to AP, not this snapshot. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-103"
+  publisher: "TheStreet"
+  title: "Stock Market Today (June 25, 2026): Mag7 falls after Apple, Microsoft announce price increases on iPhone, Xbox"
+  url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-25-2026"
+  canonical_url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-25-2026"
+  accessed_at: "2026-06-25T22:10:26Z"
+  published_at: "2026-06-25T16:01:00-04:00"
+  source_type: "financial_news_live_blog_close"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "TheStreet markets live blog for June 25, 2026; the 4:01 PM EDT 'Market Close Update' entry provides close-basis figures: S&P 500 -0.01% to 7,357.49, Nasdaq -0.46% to 25,358.60, Dow +0.14% to 51,920.62 (up 71 points), Russell 2000 +0.38%; Apple -6.13%, Microsoft -3.23%, Caterpillar +5.81%, UnitedHealth +2.65%; Cboe VIX above 19 (+3%); 10-year yield 4.394% at the close (lowest since mid-May); PCE 4.1% annual / +0.4% monthly (0.1pp below estimate), core 3.4% annual / +0.3% monthly (in line; highest since Oct 2023); Microsoft Xbox price increase; Chicago Fed's Goolsbee calling core inflation 'too high.' Live blog; the close-update entry is treated as close-basis. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-104"
+  publisher: "CNBC"
+  title: "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue"
+  url: "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
+  canonical_url: "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
+  accessed_at: "2026-06-25T22:10:25Z"
+  published_at: "2026-06-24"
+  source_type: "earnings_report_news"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC report on Micron's fiscal Q3 2026 results, released after the bell on Wednesday June 24, 2026 and reacted to during the June 25 session. Cited values are final reported quarterly figures from Micron's press release (revenue $41.46B vs $35.84B LSEG estimate; adjusted EPS $25.11 vs $20.78; gross margin 84.9%; Q4 revenue guide ~$50B vs $43.58B estimate; GAAP net income $28.24B / $24.46 per share; 15-cent July dividend), which are durable post-publication. The embedded live quote widget (+17.31%) is excluded from numeric claims; the +15% move is anchored to the close-section sources. No archive artifact committed for this cycle."
+- id: "S-2026-06-25-105"
+  publisher: "U.S. Bureau of Economic Analysis"
+  title: "Personal Income and Outlays, May 2026 (BEA 26-31)"
+  url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  canonical_url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  accessed_at: "2026-06-25T22:11:56Z"
+  published_at: "2026-06-25T08:30:00-04:00"
+  source_type: "government_statistical_release"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "government_primary"
+  archive:
+    stored: false
+    reason: "Official BEA news release (BEA 26-31), embargoed until 8:30 a.m. EDT Thursday June 25, 2026. Primary source for the May 2026 PCE price index: +0.4% month-over-month and +4.1% year-over-year headline; +0.3% month-over-month and +3.4% year-over-year core (excluding food and energy). Also: personal income +$181.6B (+0.7%), DPI +$164.9B (+0.7%), PCE +$156.1B (+0.7%), real PCE +0.3%, personal saving rate 3.0%. Government statistical releases are durable and immutable post-release. No archive artifact committed for this cycle."
