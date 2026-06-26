@@ -1,0 +1,120 @@
+- id: "S-2026-06-26-201"
+  publisher: "Associated Press via Spectrum News (Bay News 9)"
+  title: "Asian shares plunge as traders sell to lock in profits after recent rallies driven by AI"
+  url: "https://baynews9.com/fl/tampa/ap-top-news/2026/06/26/asian-shares-plunge-as-traders-sell-to-lock-in-profits-after-recent-rallies-driven-by-ai"
+  canonical_url: "https://baynews9.com/fl/tampa/ap-top-news/2026/06/26/asian-shares-plunge-as-traders-sell-to-lock-in-profits-after-recent-rallies-driven-by-ai"
+  accessed_at: "2026-06-26T22:39:00Z"
+  published_at: "2026-06-26"
+  source_type: "newswire_market_wrap"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP market wrap datelined BANGKOK, June 26, 2026, published 12:32 AM ET June 26. Provides the primary regional close narrative: 'Tokyo's Nikkei 225 index shed 4.4% and the Kospi in Seoul plunged 7.7%. Hong Kong's Hang Seng lost 1.9% and the Shanghai Composite index slipped 2.1%.' Context: 'Shares plunged Friday in Asia, led by heavy losses in Japan and South Korea as traders sold to lock in gains from recent rallies in stocks related to artificial intelligence.' Notes both the Nikkei and KOSPI hit record highs earlier in the week, and that Thursday's US session was mixed after Apple hiked prices. AP photo credit Ahn Young-joon from Hana Bank HQ Seoul. No archive artifact committed for this cycle."
+- id: "S-2026-06-26-202"
+  publisher: "Reuters"
+  title: "World stocks edge lower as tech selloff drags markets"
+  url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/"
+  canonical_url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/"
+  accessed_at: "2026-06-26T22:39:00Z"
+  published_at: "2026-06-26"
+  source_type: "newswire_global_markets_wrapup"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters global markets wrapup by Chibuike Oguh in New York, edited by Chizu Nomiyama, datelined NEW YORK, June 26. Key cross-asset and Asia references: MSCI's index of Asian stocks outside Japan fell nearly 3%; South Korea's KOSPI lost as much as 5.8%; Brent crude futures fell 4.24% to $72.07 per barrel as more tankers left the Strait of Hormuz and Saudi Aramco resumed loading at Ras Tanura after a nearly four-month halt; yen at 161.62 per dollar near 40-year lows beyond the 160 'line in the sand'; euro up 0.33% at $1.1407; dollar index fell 0.3% to 101.20; US 10-year Treasury yield fell 1.75 bp to 4.375%; spot gold rose 1.5% to $4,086.29; MSCI world gauge fell 0.34% set for 2% weekly loss; Apple price hikes fueled structural inflation worries. Provides the FX, commodity, and rates backdrop for the Asia session. No archive artifact committed for this cycle."
+- id: "S-2026-06-26-203"
+  publisher: "Trading Economics"
+  title: "Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/japan/stock-market"
+  canonical_url: "https://tradingeconomics.com/japan/stock-market"
+  accessed_at: "2026-06-26T22:39:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Japan page for June 26, 2026 (last updated June 26, 2026). The Nikkei 225 close headline from TE news stream: 'The Nikkei 225 Index dropped 3271 points or 4.52 percent on Friday to close at 69,095 points. Losses were led by Softbank (-12.19%), Taiyo Yuden (-11.48%) and Advantest (-10.67%).' TE stats table (CFD-tracked): Actual 69,175.00, Previous 72,366.34, giving -3,191.34 points / -4.41%. AP independently reported 'shed 4.4%.' Yahoo Finance showed 69,360.88 / -4.15% / day's range 68,639.84-71,786.28. The official close per TE news stream (69,095, -4.52%) is used as the primary anchor; CFD basis disclosed. Dated component table (Jun/26): Advantest 32,070 / -10.67%, Tokyo Electron 72,130 / -4.26%, Toyota Motor 2,740 / +1.46%, Fast Retailing 83,570 / -0.87%, Mitsubishi UFJ Financial 3,231 / -0.06%, Sony 3,173 / -0.75%, Hitachi 4,496 / -1.27%. News stream intraday also noted SoftBank Group -10.8%, Kioxia Holdings -4.1%, Taiyo Yuden -8.3% (intraday snapshot before close tightened to -11.48%). Related indicators: Japan inflation 1.50% (May), BoJ policy rate 1.00%, Tokyo core CPI 1.6% (June, first acceleration in 8 months), core-core CPI 1.9%. Nikkei all-time high 73,007 (June 2026). No archive artifact committed for this cycle."
+- id: "S-2026-06-26-204"
+  publisher: "Trading Economics"
+  title: "Hong Kong Stock Market Index (HK50) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/hong-kong/stock-market"
+  canonical_url: "https://tradingeconomics.com/hong-kong/stock-market"
+  accessed_at: "2026-06-26T22:39:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Hong Kong page for June 26, 2026 (last updated June 26, 2026). The Hang Seng Index fell 1.8%, or 405 points, to close at 22,672 on Friday (22,671.86 on the dated index table), from the June 25 close of 23,076.91. News stream: 'Hong Kong Stocks Drop on Tech Weakness' — broad AI and semiconductor selloff weighed on sentiment; investors cautious despite the Hong Kong debut of Apple supplier Lingyi iTech (HK$8.3 billion IPO). Technology stocks led the decline; notable laggards: Tencent -2.0% (-2.28% component table), AIA -1.8% (-1.94% component table), SMIC -6.8%, Meituan -3.0% (-2.80% component table), Kingboard Laminates -5.2%. Xiaomi -3.95% (component table Jun/26). Cross-index table (Jun/26): SHANGHAI 4,027.26 / -2.26%, CSI 300 4,868.22 / -3.03%, SHANGHAI 50 2,906.94 / -2.37%, CH50 15,331.45 / -3.50%. HK all-time high 33,484.08 (Jan 2018). CFD-tracked levels; cash-close versus CFD basis disclosed. No archive artifact committed for this cycle."
+- id: "S-2026-06-26-205"
+  publisher: "Trading Economics"
+  title: "South Korea Stock Market (KOSPI) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/south-korea/stock-market"
+  canonical_url: "https://tradingeconomics.com/south-korea/stock-market"
+  accessed_at: "2026-06-26T22:39:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics South Korea page for June 26, 2026 (last updated June 26, 2026). The KOSPI fell to 8,411.21 on June 26, losing 5.81% (-519.09 points) from the June 25 close of 8,930.30. News stream: 'South Korean Shares Fall on Tech Selloff, Profit-Taking' — investors locked in profits after the KOSPI's 5.4% surge in the previous session; technology heavyweights declined: Samsung Electronics -6.28%, SK Hynix -8.95%, SK Square -9.43%, Hyundai Motor -4.67%, LG Energy Solution -6.25%, Hanwha Aerospace -6.27%, Doosan Enerbility -8.20%, HD Hyundai Heavy Industries -3.09%. Sentiment weakened after Nasdaq extended its losing streak; US core inflation reached its highest level since October 2023. Dated table (Jun/26): KOSPI 8,411.21, day -5.81%, month +2.22%, year +175.24%. KOSPI all-time high 9,385.59 (June 2026). CFD-tracked levels; cash-close versus CFD basis disclosed. No archive artifact committed for this cycle."
+- id: "S-2026-06-26-206"
+  publisher: "Trading Economics"
+  title: "Australia Stock Market Index (ASX200) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/australia/stock-market"
+  canonical_url: "https://tradingeconomics.com/australia/stock-market"
+  accessed_at: "2026-06-26T22:39:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Live Trading Economics Australia page for June 26, 2026 (last updated June 26, 2026). The ASX 200 edged up 16 points, or 0.2%, to close at 8,764 on Friday (8,765.80 on the CFD stats table; Yahoo Finance 8,764.20 / +0.18%), up from the June 25 close of 8,749.90. News stream: 'ASX 200 Falls 0.7% This Week' — process industries, retail trade, and transport stocks lent support; rising copper and gold prices supported miners: BHP +0.8%, Rio Tinto +2.2%; gold producers Northern Star and Evolution Mining jumped about 3% each as easing fears of an imminent US rate hike lifted bullion. Three of the big four banks rose modestly. The local market fell 0.7% for the week, reversing strength in the prior two sessions. Dated component table (Jun/26): BHP 58.99 / +0.80%, CBA 162.02 / -0.42%, Westpac 35.14 / +0.23%, NAB 37.51 / +0.16%, ANZ 35.04 / +0.52%, Newmont 136.33 / +1.46%, Wesfarmers 90.74 / +1.42%, CSL 114.87 / -2.36%. Related: Australia CPI 4.00% (May), RBA rate 4.35%, unemployment 4.40%. ASX all-time high 9,202.90 (February 2026). CFD-tracked levels; cash-close versus CFD basis disclosed. No archive artifact committed for this cycle."
+- id: "S-2026-06-26-207"
+  publisher: "Xinhua"
+  title: "1st LD-Writethru: Chinese shares close lower Friday"
+  url: "https://english.news.cn/20260626/8ed03abfae0b4e9ab8db805cc4b40184/c.html"
+  canonical_url: "https://english.news.cn/20260626/8ed03abfae0b4e9ab8db805cc4b40184/c.html"
+  accessed_at: "2026-06-26T22:39:00Z"
+  published_at: "2026-06-26"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "national_newswire"
+  archive:
+    stored: false
+    reason: "Xinhua English 1st LD-Writethru headline 'Chinese shares close lower Friday' (BEIJING, June 26, Xinhua, published 17:40 Beijing time). The benchmark Shanghai Composite Index closed down 2.26 percent to 4,027.26 points. The Shenzhen Component Index closed 3.44 percent lower at 15,782.22 points. Combined turnover of stocks covered by these two indices reached 3.55 trillion yuan (about 521 billion U.S. dollars), down from 3.59 trillion yuan on the previous trading day. The ChiNext Index lost 4.07 percent to close at 4,194.21 points. The STAR Composite Index closed 2.02 percent lower at 2,343.66 points. Shares in the education and pork sectors led gains; cobalt metal and battery industry posted sharp declines. Authoritative official close for mainland A-shares. No archive artifact committed for this cycle."
+- id: "S-2026-06-26-208"
+  publisher: "XTB"
+  title: "Morning Wrap: Asia extends Wall Street selloff on expensive hardware (26.06.2026)"
+  url: "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-asia-extends-wall-street-selloff-on-expensive-hardware-26-06-2026"
+  canonical_url: "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-asia-extends-wall-street-selloff-on-expensive-hardware-26-06-2026"
+  accessed_at: "2026-06-26T22:39:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_analysis_wrap"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "secondary_analysis"
+  archive:
+    stored: false
+    reason: "XTB Morning Wrap published 6:52 AM June 26, 2026. Provides corroborating intraday context for the Asia open: 'Asian shares plunge from records on tech price hikes' — Apple tumbled 6.1% and Microsoft lifted global Xbox prices by $150 due to soaring memory chip and input storage costs. 'KOSPI dives 7.7% in violent tech unwinding' (intraday reading before close tightened to -5.81%); 'Nikkei slumps 4.4% in broad semiconductor retreat' with JP225 futures shedding 4%; Chinese benchmarks: Shanghai Composite slipped 2.1% (later closed at -2.26% per Xinhua), Hang Seng closed 1.9% lower (TE: -1.76%). Also reports Tokyo core CPI accelerated to 1.6% in June; IMO halted sailor evacuation in Hormuz after missile strike on Singapore-flagged container ship Ever Lovely 7.5 nautical miles off Oman. Used as corroborating context source, not a primary close anchor. No archive artifact committed for this cycle."
