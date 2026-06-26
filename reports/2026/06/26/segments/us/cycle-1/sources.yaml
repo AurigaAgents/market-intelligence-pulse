@@ -1,0 +1,75 @@
+- id: "S-2026-06-26-101"
+  publisher: "Associated Press via KVUE"
+  title: "How major US stock indexes fared Friday 6/26/2026"
+  url: "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a"
+  canonical_url: "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a"
+  accessed_at: "2026-06-26T22:10:19Z"
+  published_at: "2026-06-26"
+  source_type: "newswire_index_close_summary"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP syndicated index-close summary accessed after the 2026-06-26 US regular-session close. Provides final closes for S&P 500, Dow Jones Industrial Average, Nasdaq Composite, and Russell 2000, plus weekly and year-to-date changes."
+- id: "S-2026-06-26-102"
+  publisher: "Associated Press via FOX23"
+  title: "Most of Wall Street rises, but sinking AI stocks send it lower for the week"
+  url: "https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html"
+  canonical_url: "https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html"
+  accessed_at: "2026-06-26T22:10:05Z"
+  published_at: "2026-06-26"
+  source_type: "newswire_market_close_wrap"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP syndicated market-close wrap accessed after the 2026-06-26 US regular-session close. Provides close-level index moves, breadth, Brent crude, Treasury yield, AI-stock pressure, Micron, SpaceX, ON Semiconductor, Eli Lilly, American Airlines, and Asia market context."
+- id: "S-2026-06-26-103"
+  publisher: "CNBC"
+  title: "S&P 500 heads for losing week, chip stocks add to their losses on Friday: Live updates"
+  url: "https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html"
+  canonical_url: "https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html"
+  accessed_at: "2026-06-26T22:08:38Z"
+  published_at: "2026-06-26"
+  source_type: "financial_news_live_blog"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC live market page accessed late in the 2026-06-26 session. Used for corroborating chip-stock weakness, defensive-sector strength, oil pressure, SoftBank/Korea context, consumer sentiment, and Kashkari rate-hike framing; final close levels are anchored to AP sources."
+- id: "S-2026-06-26-104"
+  publisher: "Investopedia"
+  title: "Stock Market Today: Stocks Slip as Tech Sell-Off Continues; S&P 500, Nasdaq on Track For Weekly Losses"
+  url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
+  canonical_url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
+  accessed_at: "2026-06-26T22:08:40Z"
+  published_at: "2026-06-26"
+  source_type: "financial_news_live_coverage"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Investopedia live coverage accessed near the 2026-06-26 close. Used only for context on OpenAI IPO delay, memory-chip pressure, WTI/Brent/yields/gold/dollar indications, sector rotation, and weekly defensive-sector performance; AP sources anchor final close data."
+- id: "S-2026-06-26-105"
+  publisher: "CNBC"
+  title: "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year"
+  url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  canonical_url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  accessed_at: "2026-06-26T22:10:22Z"
+  published_at: "2026-06-26"
+  source_type: "central_bank_policy_news"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC policy story accessed 2026-06-26. Provides Kashkari's stated shift from one cut to one hike by year-end, May PCE headline inflation at 4.1%, core PCE at 3.4%, and Middle East supply-inflation framing."
