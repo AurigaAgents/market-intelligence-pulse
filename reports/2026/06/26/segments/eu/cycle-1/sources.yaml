@@ -1,0 +1,105 @@
+- id: "S-2026-06-26-501"
+  publisher: "The Irish Times"
+  title: "European shares retreat from record highs"
+  url: "https://www.irishtimes.com/business/2026/06/26/european-shares-retreat-from-record-highs/"
+  canonical_url: "https://www.irishtimes.com/business/2026/06/26/european-shares-retreat-from-record-highs/"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26T18:51:00+01:00"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_press_reuters_syndication"
+  archive:
+    stored: false
+    reason: "The Irish Times market wrap for Friday June 26, 2026, with additional Reuters reporting, said European shares pulled back from record highs, technology tracked global sector weakness, and the pan-European STOXX 600 closed 0.7% lower while narrowly marking gains for the week. The Europe section reported Zalando -6.3% after BaFin launched an investigation into the company's 2025 financial statements, retail -1.6%, Infineon and STMicroelectronics -4.5% each, BE Semiconductor -2.2%, ASML -1%, Schneider Electric -1.3%, and Volkswagen +3.9% on a report about possible job cuts. The London section reported FTSE 100 -0.2%, FTSE 250 -0.06%, Shell and BP down over 0.9% each as crude slid 2.3% while Strait of Hormuz shipping resumed, autos -3.9%, chemicals -3%, precious-metal miners +2.5%, and Wise +9.6% after customer-growth and share-purchase-programme news. Article timestamp: Fri Jun 26 2026 18:51."
+- id: "S-2026-06-26-502"
+  publisher: "CNBC"
+  title: "STOXX Europe 600 .STOXX quote"
+  url: "https://www.cnbc.com/quotes/.STOXX"
+  canonical_url: "https://www.cnbc.com/quotes/.STOXX"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "CNBC delayed exchange quote for STOXX Europe 600 (.STOXX), accessed after the June 26, 2026 close: last 635.88 at 4:00 PM GMT, down 4.33 / -0.68%, volume 162,519,495, previous close 640.21, open 639.03, day high 639.03, day low 631.18, 52-week high 642.09 dated 06/25/26, 52-week low 534.23 dated 08/01/25. This is used as the primary STOXX Europe 600 index-close source."
+- id: "S-2026-06-26-503"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU50) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/euro-area/stock-market"
+  canonical_url: "https://tradingeconomics.com/euro-area/stock-market"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Euro Area page, last updated 202606262145, described the EU50 as falling to 6226 points on June 26, 2026, losing 0.66% from the previous session. Structured page metadata showed TEChartsMeta value 6226.4502 and the table showed change -41.08 / -0.66%, with previous value 6267.53. The close narrative said European stocks closed firmly lower: Euro STOXX 50 -0.9% to 6,212, -1.2% for the week, and STOXX Europe 600 -0.7% to 635.5, unchanged since last Friday. It attributed the pressure to banks, auto producers, AI-infrastructure companies, and a reversal in North American chip producers after Micron guidance; named moves included Infineon -4.3%, ASML -1%, Siemens Energy -5.6%, Deutsche Bank -2.7%, BNP Paribas and BBVA nearly -2%, and Volkswagen -3.9% on reports of up to 100,000 job cuts and four factory closures."
+- id: "S-2026-06-26-504"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DE40) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Germany page, last updated 202606262145, described the DE40/DAX as falling to 24671 points on June 26, 2026, losing 1.29% from the previous session; structured page metadata showed value 24671.22 and the table showed change -323.61 / -1.29%, previous value 24994.83, all-time high 25584.60. The close narrative 'DAX Closes at 2-Week Low' said the DAX 40 closed about 1.3% down at 24,671, halting a two-day advance; chipmakers and AI-infrastructure concerns led the selloff, Infineon Technologies sank nearly 5%, Siemens Energy fell 5.6%, Hochtief fell 2.4%, Zalando plunged 6.3%, Volkswagen fell 3.7%, while SAP +2.2% and Beiersdorf +2.1% were the biggest gainers. A separate close note said the DAX decreased 324 points or 1.29% and listed Zalando -6.80%, Porsche Automobil -6.59% and Siemens Energy -5.84% as leading losses."
+- id: "S-2026-06-26-505"
+  publisher: "Trading Economics"
+  title: "France Stock Market Index (FR40) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/france/stock-market"
+  canonical_url: "https://tradingeconomics.com/france/stock-market"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics France page, last updated 202606262145, described the FR40/CAC as falling to 8385 points on June 26, 2026, losing 0.55% from the previous session; structured page metadata showed value 8384.87 and the table showed change -46.74 / -0.55%, with a prior value of 8431.61. The close narrative said the CAC 40 fell 0.5% to close at 8,385 as technology selling and AI-valuation concerns weighed, while reports that OpenAI may delay its IPO until 2027 and Apple/Microsoft may raise prices added uncertainty. It listed STMicroelectronics -3.8%, TotalEnergies -1.3% as oil declined with more tankers leaving the Strait of Hormuz, Airbus -1.6% and Safran -3.2%. A separate close note said the CAC 40 index fell 58 points or 0.69% to 8,373, led lower by ArcelorMittal -3.24%, STMicroelectronics -3.23% and Safran -2.85%, with Danone +3.06%, Edenred +1.99% and Dassault Systemes +1.93% as top gainers."
+- id: "S-2026-06-26-506"
+  publisher: "Investors Chronicle"
+  title: "FTSE 100 Index historical prices"
+  url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  canonical_url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Public Investors Chronicle/LSEG FTSE 100 historical daily table accessed after the Friday June 26, 2026 close. Overview quote showed price 10,508.02, today's change -21.87 / -0.21%, shares traded 763.64m, 1-year change +20.29%, 52-week range 8,707.65 to 10,934.94, data delayed at least 15 minutes as of Jun 26 2026 16:35 BST. Historical row for Friday June 26, 2026 showed open 10,530.18, high 10,530.18, low 10,404.73, close 10,508.02, volume 753,242,111; Thursday June 25 close was 10,529.89. Historical table disclaimer: data delayed at least 15 minutes, as of Jun 26 2026 17:35 BST."
+- id: "S-2026-06-26-507"
+  publisher: "Yahoo Finance"
+  title: "STXE 600 I (^STOXX) quote"
+  url: "https://finance.yahoo.com/quote/%5ESTOXX/"
+  canonical_url: "https://finance.yahoo.com/quote/%5ESTOXX/"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Yahoo Finance quote page for STXE 600 I (^STOXX), accessed after the June 26, 2026 close, showed previous close 640.21, open 639.03, day's range 631.18 to 639.03, 52-week range 534.23 to 642.09, and performance labels including 1M +1.25%, 6M +8.01%, YTD +7.27% and 1Y +18.31%. Related quote cards on the page showed ^N100 at 1,897.43 / -0.63%, ^AEX at 1,060.73 / -0.65%, and ^SSMI at 14,172.71 / -0.42%. Used as context/corroboration for the STOXX 600 quote basis rather than the primary close source."
