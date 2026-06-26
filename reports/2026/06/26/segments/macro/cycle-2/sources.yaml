@@ -1,0 +1,75 @@
+- id: "S-2026-06-26-401"
+  publisher: "U.S. Bureau of Economic Analysis"
+  title: "Personal Income and Outlays, May 2026"
+  url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  canonical_url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  accessed_at: "2026-06-26T23:43:43Z"
+  published_at: "2026-06-25T08:30:00-04:00"
+  source_type: "official_economic_release"
+  retrieval_method: "web_fetch_live_public_markdown"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_statistical_agency"
+  archive:
+    stored: false
+    reason: "Official BEA release fetched live. It reports May personal income +$181.6B / +0.7%, DPI +$164.9B / +0.7%, current-dollar PCE +$156.1B / +0.7%, real PCE +$43.8B / +0.3%, personal saving $704.2B, saving rate 3.0%, PCE prices +0.4% month over month and +4.1% year over year, and core prices +0.3% month over month and +3.4% year over year."
+- id: "S-2026-06-26-402"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-26T23:43:51Z"
+  published_at: "2026-06-26"
+  source_type: "government_data"
+  retrieval_method: "curl_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury June 2026 par-yield CSV fetched live. The 06/26/2026 row shows 2Y 4.07%, 5Y 4.12%, 10Y 4.38%, 20Y 4.87% and 30Y 4.87%; the 06/25/2026 row shows 2Y 4.09%, 5Y 4.15%, 10Y 4.40%, 20Y 4.87% and 30Y 4.86%."
+- id: "S-2026-06-26-403"
+  publisher: "CNBC"
+  title: "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year"
+  url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  canonical_url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  accessed_at: "2026-06-26T23:43:51Z"
+  published_at: "2026-06-26"
+  source_type: "central_bank_policy_news"
+  retrieval_method: "firecrawl_live_public_markdown"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC article fetched live. It reports Kashkari changed his outlook from one rate cut by year-end to one rate hike by year-end, and cites inflation pressure from Middle East supply risk, tariffs, fertilizer disruption, energy and oil prices, and data-center investment. It also frames headline PCE at 4.1% as the highest since April 2023 and core PCE at 3.4% as the highest since October 2023."
+- id: "S-2026-06-26-404"
+  publisher: "Reuters"
+  title: "World stocks edge lower as tech selloff drags markets"
+  url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/"
+  canonical_url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/"
+  accessed_at: "2026-06-26T23:43:51Z"
+  published_at: "2026-06-26"
+  source_type: "global_markets_wrap"
+  retrieval_method: "firecrawl_live_public_markdown"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters global-markets article fetched live. It reports Brent -4.34% to settle at $72/bbl, USD/JPY 161.76, DXY -0.16% to 101.35, the U.S. 10-year yield -1.16 bp to 4.38%, the 2-year yield -2.48 bp to 4.096%, spot gold +1.06% to $4,068.72/oz, MSCI world -0.53%, European shares nearly -0.7%, European technology -1.17%, MSCI Asia ex-Japan nearly -3%, and chip stocks -5.3% on the day / -7.7% for the week."
+- id: "S-2026-06-26-405"
+  publisher: "University of Michigan Surveys of Consumers"
+  title: "Final Results for June 2026"
+  url: "https://www.sca.isr.umich.edu/"
+  canonical_url: "https://www.sca.isr.umich.edu/"
+  accessed_at: "2026-06-26T23:43:59Z"
+  published_at: "2026-06-26"
+  source_type: "official_survey_release"
+  retrieval_method: "web_fetch_live_public_markdown"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_survey_release"
+  archive:
+    stored: false
+    reason: "University of Michigan survey page fetched live. It reports final June 2026 sentiment 49.5, May 44.8, June 2025 60.7, current conditions 47.7, expectations 50.7, year-ahead inflation expectations 4.6%, and long-run inflation expectations 3.3%."
