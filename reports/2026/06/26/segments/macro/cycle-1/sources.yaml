@@ -1,0 +1,90 @@
+- id: "S-2026-06-26-301"
+  publisher: "U.S. Bureau of Economic Analysis"
+  title: "Personal Income and Outlays, May 2026"
+  url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  canonical_url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  accessed_at: "2026-06-26T22:53:35Z"
+  published_at: "2026-06-25T08:30:00-04:00"
+  source_type: "official_economic_release"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_statistical_agency"
+  archive:
+    stored: false
+    reason: "Official BEA release accessed on 2026-06-26. Provides May 2026 personal income, PCE, real PCE, saving rate, monthly PCE price index, and year-over-year headline and core PCE inflation."
+- id: "S-2026-06-26-302"
+  publisher: "Reuters"
+  title: "May US PCE inflation tops 4%, leaves Fed hike on the table"
+  url: "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/"
+  canonical_url: "https://www.reuters.com/markets/us/us-pce-inflation-measure-tops-40-may-consumer-spending-strong-2026-06-25/"
+  accessed_at: "2026-06-26T22:53:22Z"
+  published_at: "2026-06-25"
+  source_type: "newswire_economic_data_analysis"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters economic-data story accessed on 2026-06-26. Corroborates May PCE inflation, consumer spending, Fed-rate expectations, and the energy/AI supply-pressure framing around the BEA release."
+- id: "S-2026-06-26-303"
+  publisher: "CNBC"
+  title: "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year"
+  url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  canonical_url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  accessed_at: "2026-06-26T22:53:37Z"
+  published_at: "2026-06-26"
+  source_type: "central_bank_policy_news"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC policy story accessed on 2026-06-26. Provides Kashkari's shift from one cut to one hike by year-end, his Middle East/tariff/fertilizer/data-center inflation framing, and PCE context."
+- id: "S-2026-06-26-304"
+  publisher: "CNBC"
+  title: "10-year Treasury yield dips as traders monitor inflation trajectory, Middle East latest"
+  url: "https://www.cnbc.com/2026/06/26/treasury-yields-edge-lower-as-energy-prices-slide.html"
+  canonical_url: "https://www.cnbc.com/2026/06/26/treasury-yields-edge-lower-as-energy-prices-slide.html"
+  accessed_at: "2026-06-26T22:53:13Z"
+  published_at: "2026-06-26"
+  source_type: "rates_market_update"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC rates story accessed on 2026-06-26. Provides 10-year, 2-year, and 30-year Treasury yield levels and links the move to inflation data, Middle East risk, and lower oil."
+- id: "S-2026-06-26-305"
+  publisher: "Reuters"
+  title: "World stocks edge lower as tech selloff drags markets"
+  url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/"
+  canonical_url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/"
+  accessed_at: "2026-06-26T22:53:16Z"
+  published_at: "2026-06-26"
+  source_type: "global_markets_wrap"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters global markets wrap accessed on 2026-06-26. Provides global equity, chip-stock, oil, yen, dollar, Treasury, Bund, and gold market readings for the report date."
+- id: "S-2026-06-26-306"
+  publisher: "University of Michigan Surveys of Consumers"
+  title: "Final Results for June 2026"
+  url: "https://www.sca.isr.umich.edu/"
+  canonical_url: "https://www.sca.isr.umich.edu/"
+  accessed_at: "2026-06-26T22:53:19Z"
+  published_at: "2026-06-26"
+  source_type: "official_survey_release"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_survey_release"
+  archive:
+    stored: false
+    reason: "University of Michigan survey page accessed on 2026-06-26. Provides final June 2026 consumer sentiment, current conditions, expectations, year-ahead inflation expectations, and long-run inflation expectations."
