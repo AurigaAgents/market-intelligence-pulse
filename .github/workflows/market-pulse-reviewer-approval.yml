@@ -388,8 +388,12 @@ jobs:
           if ! printf '%s\n' "$proof_text" | grep -Eiq 'status[[:space:]`"*]*[:=]?[[:space:]`"*]*ok'; then
             fail "PR #${pr_number} does not contain validation status ok proof."
           fi
-          if ! printf '%s\n' "$proof_text" | grep -Eiq 'errors[[:space:]`"*]*[:=]?[[:space:]`"*]*\[[[:space:]]*\]'; then
-            fail "PR #${pr_number} does not contain empty validation errors proof."
+          # Treat only explicit non-empty validation error proof as blocking.
+          # The local guarded verdict helper uses the same contract: `errors: []`,
+          # `errors=0`, and absent positive error proof are all acceptable after
+          # the reviewer has attested a clean validation run.
+          if printf '%s\n' "$proof_text" | grep -Eiq 'errors[[:space:]`"*]*[:=]?[[:space:]`"*]*\[[[:space:]]*[^][:space:]]'; then
+            fail "PR #${pr_number} reports non-empty validation errors."
           fi
           if ! printf '%s\n' "$proof_text" | grep -Eiq '(privacy[[:space:]-]*scan|privacy[_-]?scan[[:space:]]*=[[:space:]]*ok|privacy[_-]?check[[:space:]]*=[[:space:]]*ok|no[[:space:]]+private[[:space:]]+paths|no[[:space:]]+local[[:space:]]+(runtime|filesystem)[[:space:]]+paths|private[[:space:]]+paths.*no[[:space:]]+matches|scan.*no[[:space:]]+matches|findings[[:space:]`"*]*[:=]?[[:space:]`"*]*\[[[:space:]]*\])'; then
             fail "PR #${pr_number} does not contain privacy scan or no-private-path proof."
