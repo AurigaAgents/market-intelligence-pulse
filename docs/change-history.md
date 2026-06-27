@@ -18,6 +18,24 @@ Each docs-changing pull request must add or update an entry with:
 
 Entries may be amended within the same pull request after review completes.
 
+## 2026-06-27
+
+### Reviewer Verdict Error-Proof Gate
+
+- Implementation reference: reviewer verdict adapter hardening branch
+  `fix/reviewer-verdict-errors-proof`.
+- Documents changed: `docs/review-approval-adapter.md` and this file.
+- Adapter changed:
+  `.github/workflows/market-pulse-reviewer-approval.yml`.
+- Current-state reason: align the GitHub reviewer-verdict adapter with the
+  guarded local verdict helper. The adapter now treats validation error proof as
+  negative-only: explicit non-empty `errors: [...]` blocks approval, while
+  `errors: []`, `errors=0`, or absent positive error-list proof do not block a
+  reviewer-attested clean validation run.
+- Reviewers: pending.
+- Verdict: pending.
+- Follow-up: none.
+
 ## 2026-06-18
 
 ### Pipeline Hardening Documentation

@@ -83,7 +83,11 @@ The workflow refuses to mark `market-pulse/reviewer-verdict` successful unless a
 - PR author is not `market-pulse-reviewer[bot]`;
 - PR head SHA matches the verdict `head-sha`, or no commit is newer than the verdict;
 - status checks are empty or green, excluding the adapter's own `market-pulse/reviewer-verdict` context while it refreshes that status;
-- PR proof includes validation `status ok`, `errors []`, and privacy/no-private-path proof.
+- PR proof includes validation `status ok` and privacy/no-private-path proof.
+  Validation error proof is negative-only: an explicit non-empty `errors: [...]`
+  block fails the gate, while `errors: []`, `errors=0`, or absent positive
+  error-list proof are acceptable after the reviewer attests a clean validation
+  run.
 
 For documentation-only or documentation-governance PRs that have no managed
 ledger issue, the workflow may be run manually with `pr_number`. That path does
