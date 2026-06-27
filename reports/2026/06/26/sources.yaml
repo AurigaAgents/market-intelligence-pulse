@@ -1,0 +1,615 @@
+- id: "S-2026-06-26-001"
+  publisher: "Associated Press via KVUE"
+  title: "How major US stock indexes fared Friday 6/26/2026"
+  url: "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a"
+  canonical_url: "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a"
+  accessed_at: "2026-06-26T22:10:19Z"
+  published_at: "2026-06-26"
+  source_type: "newswire_index_close_summary"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP syndicated index-close summary accessed after the 2026-06-26 US regular-session close. Provides final closes for S&P 500, Dow Jones Industrial Average, Nasdaq Composite, and Russell 2000, plus weekly and year-to-date changes."
+- id: "S-2026-06-26-002"
+  publisher: "Associated Press via FOX23"
+  title: "Most of Wall Street rises, but sinking AI stocks send it lower for the week"
+  url: "https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html"
+  canonical_url: "https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html"
+  accessed_at: "2026-06-26T22:10:05Z"
+  published_at: "2026-06-26"
+  source_type: "newswire_market_close_wrap"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP syndicated market-close wrap accessed after the 2026-06-26 US regular-session close. Provides close-level index moves, breadth, Brent crude, Treasury yield, AI-stock pressure, Micron, SpaceX, ON Semiconductor, Eli Lilly, American Airlines, and Asia market context."
+- id: "S-2026-06-26-003"
+  publisher: "CNBC"
+  title: "S&P 500 heads for losing week, chip stocks add to their losses on Friday: Live updates"
+  url: "https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html"
+  canonical_url: "https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html"
+  accessed_at: "2026-06-26T22:08:38Z"
+  published_at: "2026-06-26"
+  source_type: "financial_news_live_blog"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC live market page accessed late in the 2026-06-26 session. Used for corroborating chip-stock weakness, defensive-sector strength, oil pressure, SoftBank/Korea context, consumer sentiment, and Kashkari rate-hike framing; final close levels are anchored to AP sources."
+- id: "S-2026-06-26-004"
+  publisher: "Investopedia"
+  title: "Stock Market Today: Stocks Slip as Tech Sell-Off Continues; S&P 500, Nasdaq on Track For Weekly Losses"
+  url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
+  canonical_url: "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282"
+  accessed_at: "2026-06-26T22:08:40Z"
+  published_at: "2026-06-26"
+  source_type: "financial_news_live_coverage"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_news"
+  archive:
+    stored: false
+    reason: "Investopedia live coverage accessed near the 2026-06-26 close. Used only for context on OpenAI IPO delay, memory-chip pressure, WTI/Brent/yields/gold/dollar indications, sector rotation, and weekly defensive-sector performance; AP sources anchor final close data."
+- id: "S-2026-06-26-005"
+  publisher: "CNBC"
+  title: "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year"
+  url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  canonical_url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  accessed_at: "2026-06-26T22:10:22Z"
+  published_at: "2026-06-26"
+  source_type: "central_bank_policy_news"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC policy story accessed 2026-06-26. Provides Kashkari's stated shift from one cut to one hike by year-end, May PCE headline inflation at 4.1%, core PCE at 3.4%, and Middle East supply-inflation framing."
+- id: "S-2026-06-26-401"
+  publisher: "The Irish Times"
+  title: "European shares retreat from record highs"
+  url: "https://www.irishtimes.com/business/2026/06/26/european-shares-retreat-from-record-highs/"
+  canonical_url: "https://www.irishtimes.com/business/2026/06/26/european-shares-retreat-from-record-highs/"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26T18:51:00+01:00"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "financial_press_reuters_syndication"
+  archive:
+    stored: false
+    reason: "The Irish Times market wrap for Friday June 26, 2026, with additional Reuters reporting, said European shares pulled back from record highs, technology tracked global sector weakness, and the pan-European STOXX 600 closed 0.7% lower while narrowly marking gains for the week. The Europe section reported Zalando -6.3% after BaFin launched an investigation into the company's 2025 financial statements, retail -1.6%, Infineon and STMicroelectronics -4.5% each, BE Semiconductor -2.2%, ASML -1%, Schneider Electric -1.3%, and Volkswagen +3.9% on a report about possible job cuts. The London section reported FTSE 100 -0.2%, FTSE 250 -0.06%, Shell and BP down over 0.9% each as crude slid 2.3% while Strait of Hormuz shipping resumed, autos -3.9%, chemicals -3%, precious-metal miners +2.5%, and Wise +9.6% after customer-growth and share-purchase-programme news. Article timestamp: Fri Jun 26 2026 18:51."
+- id: "S-2026-06-26-402"
+  publisher: "CNBC"
+  title: "STOXX Europe 600 .STOXX quote"
+  url: "https://www.cnbc.com/quotes/.STOXX"
+  canonical_url: "https://www.cnbc.com/quotes/.STOXX"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "CNBC delayed exchange quote for STOXX Europe 600 (.STOXX), accessed after the June 26, 2026 close: last 635.88 at 4:00 PM GMT, down 4.33 / -0.68%, volume 162,519,495, previous close 640.21, open 639.03, day high 639.03, day low 631.18, 52-week high 642.09 dated 06/25/26, 52-week low 534.23 dated 08/01/25. This is used as the primary STOXX Europe 600 index-close source."
+- id: "S-2026-06-26-403"
+  publisher: "Trading Economics"
+  title: "Euro Area Stock Market Index (EU50) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/euro-area/stock-market"
+  canonical_url: "https://tradingeconomics.com/euro-area/stock-market"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Euro Area page, last updated 202606262145, described the EU50 as falling to 6226 points on June 26, 2026, losing 0.66% from the previous session. Structured page metadata showed TEChartsMeta value 6226.4502 and the table showed change -41.08 / -0.66%, with previous value 6267.53. The close narrative said European stocks closed firmly lower: Euro STOXX 50 -0.9% to 6,212, -1.2% for the week, and STOXX Europe 600 -0.7% to 635.5, unchanged since last Friday. It attributed the pressure to banks, auto producers, AI-infrastructure companies, and a reversal in North American chip producers after Micron guidance; named moves included Infineon -4.3%, ASML -1%, Siemens Energy -5.6%, Deutsche Bank -2.7%, BNP Paribas and BBVA nearly -2%, and Volkswagen -3.9% on reports of up to 100,000 job cuts and four factory closures."
+- id: "S-2026-06-26-404"
+  publisher: "Trading Economics"
+  title: "Germany Stock Market Index (DE40) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/germany/stock-market"
+  canonical_url: "https://tradingeconomics.com/germany/stock-market"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics Germany page, last updated 202606262145, described the DE40/DAX as falling to 24671 points on June 26, 2026, losing 1.29% from the previous session; structured page metadata showed value 24671.22 and the table showed change -323.61 / -1.29%, previous value 24994.83, all-time high 25584.60. The close narrative 'DAX Closes at 2-Week Low' said the DAX 40 closed about 1.3% down at 24,671, halting a two-day advance; chipmakers and AI-infrastructure concerns led the selloff, Infineon Technologies sank nearly 5%, Siemens Energy fell 5.6%, Hochtief fell 2.4%, Zalando plunged 6.3%, Volkswagen fell 3.7%, while SAP +2.2% and Beiersdorf +2.1% were the biggest gainers. A separate close note said the DAX decreased 324 points or 1.29% and listed Zalando -6.80%, Porsche Automobil -6.59% and Siemens Energy -5.84% as leading losses."
+- id: "S-2026-06-26-405"
+  publisher: "Trading Economics"
+  title: "France Stock Market Index (FR40) - Quote - Chart - Historical Data - News"
+  url: "https://tradingeconomics.com/france/stock-market"
+  canonical_url: "https://tradingeconomics.com/france/stock-market"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Trading Economics France page, last updated 202606262145, described the FR40/CAC as falling to 8385 points on June 26, 2026, losing 0.55% from the previous session; structured page metadata showed value 8384.87 and the table showed change -46.74 / -0.55%, with a prior value of 8431.61. The close narrative said the CAC 40 fell 0.5% to close at 8,385 as technology selling and AI-valuation concerns weighed, while reports that OpenAI may delay its IPO until 2027 and Apple/Microsoft may raise prices added uncertainty. It listed STMicroelectronics -3.8%, TotalEnergies -1.3% as oil declined with more tankers leaving the Strait of Hormuz, Airbus -1.6% and Safran -3.2%. A separate close note said the CAC 40 index fell 58 points or 0.69% to 8,373, led lower by ArcelorMittal -3.24%, STMicroelectronics -3.23% and Safran -2.85%, with Danone +3.06%, Edenred +1.99% and Dassault Systemes +1.93% as top gainers."
+- id: "S-2026-06-26-406"
+  publisher: "Investors Chronicle"
+  title: "FTSE 100 Index historical prices"
+  url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  canonical_url: "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "curl_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Public Investors Chronicle/LSEG FTSE 100 historical daily table accessed after the Friday June 26, 2026 close. Overview quote showed price 10,508.02, today's change -21.87 / -0.21%, shares traded 763.64m, 1-year change +20.29%, 52-week range 8,707.65 to 10,934.94, data delayed at least 15 minutes as of Jun 26 2026 16:35 BST. Historical row for Friday June 26, 2026 showed open 10,530.18, high 10,530.18, low 10,404.73, close 10,508.02, volume 753,242,111; Thursday June 25 close was 10,529.89. Historical table disclaimer: data delayed at least 15 minutes, as of Jun 26 2026 17:35 BST."
+- id: "S-2026-06-26-407"
+  publisher: "Yahoo Finance"
+  title: "STXE 600 I (^STOXX) quote"
+  url: "https://finance.yahoo.com/quote/%5ESTOXX/"
+  canonical_url: "https://finance.yahoo.com/quote/%5ESTOXX/"
+  accessed_at: "2026-06-27T00:35:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "market_data_provider"
+  archive:
+    stored: false
+    reason: "Yahoo Finance quote page for STXE 600 I (^STOXX), accessed after the June 26, 2026 close, showed previous close 640.21, open 639.03, day's range 631.18 to 639.03, 52-week range 534.23 to 642.09, and performance labels including 1M +1.25%, 6M +8.01%, YTD +7.27% and 1Y +18.31%. Related quote cards on the page showed ^N100 at 1,897.43 / -0.63%, ^AEX at 1,060.73 / -0.65%, and ^SSMI at 14,172.71 / -0.42%. Used as context/corroboration for the STOXX 600 quote basis rather than the primary close source."
+- id: "S-2026-06-26-201"
+  publisher: "Associated Press via Spectrum News (Bay News 9)"
+  title: "Asian shares plunge as traders sell to lock in profits after recent rallies driven by AI"
+  url: "https://baynews9.com/fl/tampa/ap-top-news/2026/06/26/asian-shares-plunge-as-traders-sell-to-lock-in-profits-after-recent-rallies-driven-by-ai"
+  canonical_url: "https://baynews9.com/fl/tampa/ap-top-news/2026/06/26/asian-shares-plunge-as-traders-sell-to-lock-in-profits-after-recent-rallies-driven-by-ai"
+  accessed_at: "2026-06-27T00:10:00Z"
+  published_at: "2026-06-26T00:32:00-04:00"
+  source_type: "newswire_market_wrap"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Firecrawl scrape returned HTTP 200 on 2026-06-27. AP article datelined BANGKOK, published June 26, 2026 at 12:32 AM ET. Direct text: shares plunged Friday in Asia, led by heavy losses in Japan and South Korea as traders sold to lock in gains from recent rallies in stocks related to artificial intelligence. It reported Nikkei 225 shed 4.4%, KOSPI plunged 7.7% intraday, Hang Seng lost 1.9%, Shanghai Composite slipped 2.1%, and both the Nikkei and KOSPI hit record highs earlier in the week."
+- id: "S-2026-06-26-202"
+  publisher: "Reuters"
+  title: "World stocks edge lower as tech selloff drags markets"
+  url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/"
+  canonical_url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/"
+  accessed_at: "2026-06-27T00:12:00Z"
+  published_at: "2026-06-26"
+  source_type: "newswire_global_markets_wrapup"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Firecrawl scrape returned HTTP 200 on 2026-06-27. Reuters article by Chibuike Oguh, datelined NEW YORK, June 26. Direct anchors used: global equity markets edged lower as investors kept taking profits on technology and chip stocks; Apple's price hikes fueled worries about structural inflation from AI spending and limited tech components; MSCI Asia ex-Japan fell nearly 3%; South Korea's KOSPI lost as much as 5.8%; Brent crude futures fell 4.34% to settle at about $72 per barrel as more tankers left the Strait of Hormuz; yen at 161.76 per dollar near 40-year lows; euro at $1.1385; dollar index 101.35; US 10-year yield 4.38%; spot gold $4,068.72."
+- id: "S-2026-06-26-203"
+  publisher: "Trading Economics"
+  title: "Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/japan/stock-market"
+  canonical_url: "https://tradingeconomics.com/japan/stock-market"
+  accessed_at: "2026-06-27T00:13:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Firecrawl scrape returned HTTP 200 on 2026-06-27. Trading Economics Japan page last-updated June 26, 2026. News stream item: The Nikkei 225 Index dropped 3,271 points or 4.52% on Friday to close at 69,095 points; losses led by SoftBank -12.19%, Taiyo Yuden -11.48%, and Advantest -10.67%. Page CFD stats table separately showed Actual 69,175.00, Previous 72,366.34, -4.41%, and the page discloses CFD/OTC basis. Component table showed Tokyo Electron 72,130 / -4.26% and Advantest 32,070 / -10.67%. Related indicators showed Japan inflation 1.50%, Japan interest rate 1.00%, and Tokyo core inflation acceleration in the news stream."
+- id: "S-2026-06-26-204"
+  publisher: "Trading Economics"
+  title: "Hong Kong Stock Market Index (HK50) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/hong-kong/stock-market"
+  canonical_url: "https://tradingeconomics.com/hong-kong/stock-market"
+  accessed_at: "2026-06-27T00:16:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Firecrawl scrape returned HTTP 200 on 2026-06-27. Trading Economics Hong Kong page last-updated June 26, 2026. Direct table anchors: HK50 22,671.86, -405.05, -1.76%, date Jun/26; previous 23,076.91. News stream: Hang Seng fell 1.8%, or 405 points, to close at 22,672 as AI and semiconductor-related stocks weighed on sentiment. Component table: Tencent -2.28%, AIA -1.94%, Xiaomi -3.95%, Meituan -2.80%; news stream included SMIC -6.8% and Kingboard Laminates -5.2%. Cross-index table: Shanghai 4,027.26 / -2.26%, CSI 300 4,868.22 / -3.03%."
+- id: "S-2026-06-26-205"
+  publisher: "Trading Economics"
+  title: "South Korea Stock Market (KOSPI) - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/south-korea/stock-market"
+  canonical_url: "https://tradingeconomics.com/south-korea/stock-market"
+  accessed_at: "2026-06-27T00:16:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Firecrawl scrape returned HTTP 200 on 2026-06-27. Trading Economics South Korea page last-updated June 26, 2026. Direct table anchors: KOSPI 8,411.21, -519.09, -5.81%, date Jun/26; previous 8,930.30; all-time high 9,385.59 in June 2026. News stream: benchmark KOSPI slipped 5.81% to close at 8,411 after Wall Street losses and profit-taking; Nasdaq weakness renewed AI valuation concerns; US core inflation reached highest since October 2023; Samsung Electronics -6.28%, SK Hynix -8.95%, SK Square -9.43%, Hyundai Motor -4.67%, LG Energy Solution -6.25%, Hanwha Aerospace -6.27%, Doosan Enerbility -8.20%, HD Hyundai Heavy Industries -3.09%."
+- id: "S-2026-06-26-206"
+  publisher: "Trading Economics"
+  title: "Australia Stock Market Index - Quote, Chart, Historical Data, News"
+  url: "https://tradingeconomics.com/australia/stock-market"
+  canonical_url: "https://tradingeconomics.com/australia/stock-market"
+  accessed_at: "2026-06-27T00:13:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Firecrawl scrape returned HTTP 200 on 2026-06-27. Trading Economics Australia page last-updated June 26, 2026. News stream: ASX 200 edged up 16 points, or 0.2%, to close at 8,764; process industries, retail trade, and transport lent support; BHP +0.8%, Rio Tinto +2.2%, Northern Star and Evolution Mining about +3% each; three of the big four banks rose modestly; local market fell 0.7% for the week. CFD stats table separately showed Actual 8,765.80, Previous 8,748.65, and the page explicitly states displayed prices are OTC/CFD and may differ from official exchange values. This source is used for Australia sector context and separate CFD context, not for the ASX cash point-change calculation."
+- id: "S-2026-06-26-207"
+  publisher: "Xinhua"
+  title: "1st LD-Writethru: Chinese shares close lower Friday"
+  url: "https://english.news.cn/20260626/8ed03abfae0b4e9ab8db805cc4b40184/c.html"
+  canonical_url: "https://english.news.cn/20260626/8ed03abfae0b4e9ab8db805cc4b40184/c.html"
+  accessed_at: "2026-06-27T00:12:00Z"
+  published_at: "2026-06-26T17:40:31+08:00"
+  source_type: "news_article"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "national_newswire"
+  archive:
+    stored: false
+    reason: "Firecrawl scrape returned HTTP 200 on 2026-06-27. Xinhua English, source Xinhua, editor huaxia, published 2026-06-26 17:40:31. Direct official close anchors: Shanghai Composite down 2.26% to 4,027.26; Shenzhen Component down 3.44% to 15,782.22; combined turnover 3.55 trillion yuan, about $521 billion, down from 3.59 trillion yuan; ChiNext down 4.07% to 4,194.21; STAR Composite down 2.02% to 2,343.66; education and pork sectors led gains while cobalt metal and battery industry posted sharp declines."
+- id: "S-2026-06-26-208"
+  publisher: "XTB"
+  title: "Morning Wrap: Asia extends Wall Street selloff on expensive hardware (26.06.2026)"
+  url: "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-asia-extends-wall-street-selloff-on-expensive-hardware-26-06-2026"
+  canonical_url: "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-asia-extends-wall-street-selloff-on-expensive-hardware-26-06-2026"
+  accessed_at: "2026-06-27T00:16:00Z"
+  published_at: "2026-06-26T06:52:00Z"
+  source_type: "market_analysis_wrap"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "secondary_analysis"
+  archive:
+    stored: false
+    reason: "Firecrawl scrape returned HTTP 200 on 2026-06-27. XTB Morning Wrap published 6:52 AM on June 26, 2026. Used as context, not a primary close anchor. It reported Asian benchmarks suffered a broad selloff from records on tech price hikes; KOSPI intraday plunge 7.7%; Nikkei slump 4.4%; Shanghai Composite slipped 2.1%; Hang Seng closed 1.9% lower; Tokyo core CPI rose 1.6% y/y from 1.3% and core-core accelerated to 1.9%; IMO halted sailor evacuation in Hormuz after a projectile attack on the Singapore-flagged Ever Lovely near Oman."
+- id: "S-2026-06-26-209"
+  publisher: "Yahoo Finance"
+  title: "S&P/ASX 200 (^AXJO) Historical Data - Yahoo Finance"
+  url: "https://finance.yahoo.com/quote/%5EAXJO/history/?period1=1782432000&period2=1782604800"
+  canonical_url: "https://finance.yahoo.com/quote/%5EAXJO/history/"
+  accessed_at: "2026-06-27T00:14:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Firecrawl scrape returned HTTP 200 on 2026-06-27. Yahoo Finance historical page for ^AXJO, date window Jun 26, 2026 to Jun 28, 2026. Historical table row: Jun 26, 2026 open 8,748.70, high 8,774.50, low 8,708.10, close 8,764.20, adjusted close 8,764.20, volume unavailable. Same page related-market panel showed ^AXJO S&P/ASX 200 8,764.20 +0.18%."
+- id: "S-2026-06-26-210"
+  publisher: "Yahoo Finance"
+  title: "S&P/ASX 200 (^AXJO) Charts, Data & News - Yahoo Finance"
+  url: "https://finance.yahoo.com/quote/%5EAXJO/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EAXJO/"
+  accessed_at: "2026-06-27T00:15:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_data"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "data_aggregator"
+  archive:
+    stored: false
+    reason: "Firecrawl scrape returned HTTP 200 on 2026-06-27. Yahoo Finance ^AXJO quote page showed Previous Close 8,748.70, Open 8,748.70, Day's Range 8,708.10 - 8,774.50, 52 Week Range 8,262.40 - 9,202.90. Combined with the Yahoo historical close of 8,764.20, the ASX cash-market move is +15.50 points, or +0.18% when rounded to two decimal places. This is the cash-close basis used in cycle 2."
+- id: "S-2026-06-26-601"
+  publisher: "U.S. Bureau of Economic Analysis"
+  title: "Personal Income and Outlays, May 2026"
+  url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  canonical_url: "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  accessed_at: "2026-06-26T23:43:43Z"
+  published_at: "2026-06-25T08:30:00-04:00"
+  source_type: "official_economic_release"
+  retrieval_method: "web_fetch_live_public_markdown"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_statistical_agency"
+  archive:
+    stored: false
+    reason: "Official BEA release fetched live. It reports May personal income +$181.6B / +0.7%, DPI +$164.9B / +0.7%, current-dollar PCE +$156.1B / +0.7%, real PCE +$43.8B / +0.3%, personal saving $704.2B, saving rate 3.0%, PCE prices +0.4% month over month and +4.1% year over year, and core prices +0.3% month over month and +3.4% year over year."
+- id: "S-2026-06-26-602"
+  publisher: "U.S. Department of the Treasury"
+  title: "Daily Treasury Par Yield Curve Rates, June 2026 (CSV)"
+  url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202606&type=daily_treasury_yield_curve"
+  canonical_url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&field_tdr_date_value_month=202606&page&_format=csv"
+  accessed_at: "2026-06-26T23:43:51Z"
+  published_at: "2026-06-26"
+  source_type: "government_data"
+  retrieval_method: "curl_live_public_csv"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_primary_data"
+  archive:
+    stored: false
+    reason: "Official Treasury June 2026 par-yield CSV fetched live. The 06/26/2026 row shows 2Y 4.07%, 5Y 4.12%, 10Y 4.38%, 20Y 4.87% and 30Y 4.87%; the 06/25/2026 row shows 2Y 4.09%, 5Y 4.15%, 10Y 4.40%, 20Y 4.87% and 30Y 4.86%."
+- id: "S-2026-06-26-603"
+  publisher: "CNBC"
+  title: "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year"
+  url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  canonical_url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  accessed_at: "2026-06-26T23:43:51Z"
+  published_at: "2026-06-26"
+  source_type: "central_bank_policy_news"
+  retrieval_method: "firecrawl_live_public_markdown"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC article fetched live. It reports Kashkari changed his outlook from one rate cut by year-end to one rate hike by year-end, and cites inflation pressure from Middle East supply risk, tariffs, fertilizer disruption, energy and oil prices, and data-center investment. It also frames headline PCE at 4.1% as the highest since April 2023 and core PCE at 3.4% as the highest since October 2023."
+- id: "S-2026-06-26-604"
+  publisher: "Reuters"
+  title: "World stocks edge lower as tech selloff drags markets"
+  url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/"
+  canonical_url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/"
+  accessed_at: "2026-06-26T23:43:51Z"
+  published_at: "2026-06-26"
+  source_type: "global_markets_wrap"
+  retrieval_method: "firecrawl_live_public_markdown"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "Reuters global-markets article fetched live. It reports Brent -4.34% to settle at $72/bbl, USD/JPY 161.76, DXY -0.16% to 101.35, the U.S. 10-year yield -1.16 bp to 4.38%, the 2-year yield -2.48 bp to 4.096%, spot gold +1.06% to $4,068.72/oz, MSCI world -0.53%, European shares nearly -0.7%, European technology -1.17%, MSCI Asia ex-Japan nearly -3%, and chip stocks -5.3% on the day / -7.7% for the week."
+- id: "S-2026-06-26-605"
+  publisher: "University of Michigan Surveys of Consumers"
+  title: "Final Results for June 2026"
+  url: "https://www.sca.isr.umich.edu/"
+  canonical_url: "https://www.sca.isr.umich.edu/"
+  accessed_at: "2026-06-26T23:43:59Z"
+  published_at: "2026-06-26"
+  source_type: "official_survey_release"
+  retrieval_method: "web_fetch_live_public_markdown"
+  mutable: true
+  paywall: false
+  reliability_tier: "official_survey_release"
+  archive:
+    stored: false
+    reason: "University of Michigan survey page fetched live. It reports final June 2026 sentiment 49.5, May 44.8, June 2025 60.7, current conditions 47.7, expectations 50.7, year-ahead inflation expectations 4.6%, and long-run inflation expectations 3.3%."
+- id: "S-2026-06-26-701"
+  publisher: "Associated Press via KVUE"
+  title: "How major US stock indexes fared Friday 6/26/2026"
+  url: "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a"
+  canonical_url: "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-26"
+  source_type: "newswire_index_close_summary"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP syndicated index-close summary accessed after the 2026-06-26 US regular-session close. Provides final closes for S&P 500, Dow Jones Industrial Average, Nasdaq Composite, and Russell 2000, plus weekly and year-to-date changes. Used for the session-basis and equity-close context in this segment."
+- id: "S-2026-06-26-702"
+  publisher: "Associated Press via FOX23"
+  title: "Most of Wall Street rises, but sinking AI stocks send it lower for the week"
+  url: "https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html"
+  canonical_url: "https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-26"
+  source_type: "newswire_market_close_wrap"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "major_newswire"
+  archive:
+    stored: false
+    reason: "AP syndicated market-close wrap accessed after the 2026-06-26 US regular-session close. Provides close-level index moves, breadth (nearly two out of three S&P 500 stocks rose), Brent crude -3.8% to $72.60, 10-year Treasury yield 4.37% (down from 4.40%), Micron -6.7%, ON Semiconductor -23.7%, Eli Lilly +7.1%, American Airlines +1.7%, consumer inflation expectations 4.6% (down from 4.8%), and global AI-stock pressure including SoftBank -12.5% after NYT report on OpenAI IPO delay."
+- id: "S-2026-06-26-703"
+  publisher: "CNBC"
+  title: "Minneapolis Fed President Neel Kashkari says he expects a rate hike this year"
+  url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  canonical_url: "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-26"
+  source_type: "central_bank_policy_news"
+  retrieval_method: "web_fetch_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_news"
+  archive:
+    stored: false
+    reason: "CNBC policy story accessed 2026-06-26. Provides Kashkari's stated shift from one cut to one hike by year-end, May PCE headline inflation at 4.1%, core PCE at 3.4%, and Middle East supply-inflation framing. Used for the macro-backdrop sentiment context."
+- id: "S-2026-06-26-704"
+  publisher: "CNN Business"
+  title: "Fear and Greed Index - Investor Sentiment"
+  url: "https://www.cnn.com/markets/fear-and-greed"
+  canonical_url: "https://www.cnn.com/markets/fear-and-greed"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-26"
+  source_type: "market_sentiment_index"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "primary_composite_sentiment_index"
+  archive:
+    stored: false
+    reason: "CNN Fear & Greed Index page accessed live after the June 26 close. Current value displayed: 25, with 'Previous close 25', '1 week ago 37', '1 month ago 60', '1 year ago 63', 'Last updated Jun 26 at 5:23:14 PM ET'. Headline text reads 'extreme fear is driving the US market'. Five sub-indicators visible: market momentum=fear, stock price strength=fear (NYSE net new 52-wk H/L 1.47%), stock price breadth=extreme fear (McClellan Volume Summation Index 1,408.51), put/call options=extreme fear (5-day avg 0.69), market volatility=neutral. The page carries an 'Index Update' note about the McClellan Summation Index methodology change for Stock Price Breadth."
+- id: "S-2026-06-26-705"
+  publisher: "Finhacker.cz"
+  title: "Fear and Greed Index: Historical Data & Chart (2011-2026)"
+  url: "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  canonical_url: "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-24"
+  source_type: "market_sentiment_dataset"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "third_party_cnn_endpoint_tracker"
+  archive:
+    stored: false
+    reason: "Finhacker.cz public CNN Fear & Greed tracker accessed live after the June 26 close. Data updated timestamp read as 'Jun 24, 2026, 8:00 PM ET' and the current value printed as 26 (fear). The tracker had not published a verified June 25 or June 26 post-close update at the time of access; the 26 value reflects the June 24 post-close snapshot. CNN's June 26 post-close reading of 25 is the primary value for this report; Finhacker is corroborating context showing the 25-26 range."
+- id: "S-2026-06-26-706"
+  publisher: "Yahoo Finance"
+  title: "CBOE Volatility Index (^VIX) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX/history/"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-26"
+  source_type: "volatility_index_dataset"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_data_aggregator"
+  archive:
+    stored: false
+    reason: "Yahoo Finance historical data table for ^VIX, accessed after the June 26 close. June 26, 2026 row: Open 19.70, High 20.72, Low 18.20, Close 18.41. Prior session June 25, 2026 close 18.89. The one-day change is -0.48 points or -2.54%. Corroborated by Google Finance ('VIX 18.41 (-0.48) -2.54%'), MarketWatch ('VIX 18.41 -0.48 -2.54%'), and WSJ ('VIX 18.41') — all accessed or cached post-close June 26, 2026. Note: the CBOe VIX products page search snippet showed $18.80 (-0.48%, -0.09), which is a stale intraday cached value; the post-close settlement is 18.41 confirmed by four independent financial publishers."
+- id: "S-2026-06-26-707"
+  publisher: "Yahoo Finance"
+  title: "CBOE S&P 500 9-Day Volatility I (^VIX9D) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX9D/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX9D/history/"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-25"
+  source_type: "volatility_index_dataset"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_data_aggregator"
+  archive:
+    stored: false
+    reason: "Yahoo Finance historical data table for ^VIX9D, accessed after the June 26 close. The June 26 row had not been populated at access time; the latest available row is June 25, 2026 with Open 16.63, High 20.03, Low 16.63, Close 17.92. Yahoo's quote sidebar for ^VIX9D also showed '17.92 -0.15 (-0.83%) At close: June 25 at 4:15:01 PM' confirming no June 26 update. The June 25 close of 17.92 is used as the latest available VIX9D value, with a freshness note."
+- id: "S-2026-06-26-708"
+  publisher: "Yahoo Finance"
+  title: "CBOE S&P 500 3-Month Volatility (^VIX3M) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX3M/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX3M/history/"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-25"
+  source_type: "volatility_index_dataset"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_data_aggregator"
+  archive:
+    stored: false
+    reason: "Yahoo Finance historical data table for ^VIX3M, accessed after the June 26 close. The June 26 row had not been populated at access time; the latest available row is June 25, 2026 with Open 19.88, High 20.98, Low 19.88, Close 20.33. The June 25 close of 20.33 is used as the latest available VIX3M value, with a freshness note."
+- id: "S-2026-06-26-709"
+  publisher: "Yahoo Finance"
+  title: "CBOE S&P 500 6-Month Volatility (^VIX6M) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX6M/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX6M/history/"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-25"
+  source_type: "volatility_index_dataset"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_data_aggregator"
+  archive:
+    stored: false
+    reason: "Yahoo Finance historical data table for ^VIX6M, accessed after the June 26 close. The June 26 row had not been populated at access time; the latest available row is June 25, 2026 with Open 22.10, High 23.11, Low 22.10, Close 22.35. The June 25 close of 22.35 is used as the latest available VIX6M value, with a freshness note."
+- id: "S-2026-06-26-710"
+  publisher: "Yahoo Finance"
+  title: "Cboe S&P 500 One Year Volatility (^VIX1Y) Historical Data"
+  url: "https://finance.yahoo.com/quote/%5EVIX1Y/history/"
+  canonical_url: "https://finance.yahoo.com/quote/%5EVIX1Y/history/"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-25"
+  source_type: "volatility_index_dataset"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: true
+  paywall: false
+  reliability_tier: "major_financial_data_aggregator"
+  archive:
+    stored: false
+    reason: "Yahoo Finance historical data table for ^VIX1Y, accessed after the June 26 close. The June 26 row had not been populated at access time; the latest available row is June 25, 2026 with Open 23.38, High 23.89, Low 23.31, Close 23.50. The June 25 close of 23.50 is used as the latest available VIX1Y value, with a freshness note."
+- id: "S-2026-06-26-711"
+  publisher: "American Association of Individual Investors"
+  title: "AAII Investor Sentiment Survey (week ending 6/24/2026, published 2026-06-25)"
+  url: "https://www.aaii.com/sentimentsurvey"
+  canonical_url: "https://www.aaii.com/sentimentsurvey"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-25"
+  source_type: "investor_sentiment_survey"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "primary_survey_publisher"
+  archive:
+    stored: false
+    reason: "AAII Investor Sentiment Survey results page accessed live after the June 26 close. Week ending 6/24/2026 results: Bullish 44.9%, Neutral 18.9%, Bearish 36.1%. Compared to week ending 6/17/2026 (Bullish 36.6%, Neutral 24.1%, Bearish 39.4%), bullish sentiment increased 8.4 percentage points and is above its historical average of 37.5% for the first time in six weeks. Bull-bear spread +8.8 pp. Historical averages: 37.5% / 31.5% / 31.0%. This is the latest available AAII weekly survey for the June 26 report date; the next release (week ending 7/1) had not been published at collection time."
+- id: "S-2026-06-26-712"
+  publisher: "Cboe Global Markets"
+  title: "Cboe Daily Market Statistics (U.S. Options)"
+  url: "https://www.cboe.com/markets/us/options/market-statistics/daily"
+  canonical_url: "https://www.cboe.com/markets/us/options/market-statistics/daily"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-26"
+  source_type: "options_sentiment_dataset"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "exchange_primary_statistics"
+  archive:
+    stored: false
+    reason: "Cboe official daily market statistics page accessed after the June 26 close. Ratios displayed: TOTAL PUT/CALL RATIO 0.99, INDEX PUT/CALL RATIO 1.18, EXCHANGE TRADED PRODUCTS PUT/CALL RATIO 1.14, EQUITY PUT/CALL RATIO 0.67, CBOE VOLATILITY INDEX (VIX) PUT/CALL RATIO 0.57, SPX + SPXW PUT/CALL RATIO 1.23. Total volume: Call 6,968,999 / Put 6,884,231 / Total 13,853,230. These values differ from the June 25 close (Total 1.02, Index 1.16, ETP 1.38, Equity 0.61), confirming this is the June 26 end-of-day settle."
+- id: "S-2026-06-26-713"
+  publisher: "Investment Company Institute"
+  title: "Combined Estimated Long-Term Fund Flows and ETF Net Issuance (week ended 2026-06-17, published 2026-06-24)"
+  url: "https://www.ici.org/research/stats/combined_flows"
+  canonical_url: "https://www.ici.org/research/stats/combined_flows"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-24"
+  source_type: "fund_flow_statistical_release"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "industry_association_primary_release"
+  archive:
+    stored: false
+    reason: "ICI Combined Estimated Long-Term Flows and ETF Net Issuance release dated June 24, 2026. Total estimated inflows to long-term mutual funds and ETFs were $66.23 billion for the week ended June 17, 2026. Mutual fund outflows were $25.80 billion while ETF net issuance was $92.03 billion. Equity funds had inflows of $55.75 billion (domestic $49.60B, world $6.15B). Bond funds had inflows of $16.46 billion. This is the latest available ICI weekly release for the June 26 report date; the next release (week ended June 24) had not been published at collection time."
+- id: "S-2026-06-26-714"
+  publisher: "ETF.com"
+  title: "Post-SpaceX IPO, Investors Pour $83B Into U.S. Equities (weekly flows published 2026-06-22)"
+  url: "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+  canonical_url: "https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities"
+  accessed_at: "2026-06-26T23:10:00Z"
+  published_at: "2026-06-22"
+  source_type: "fund_flow_analysis"
+  retrieval_method: "firecrawl_scrape_live_public_page"
+  mutable: false
+  paywall: false
+  reliability_tier: "specialist_etf_flow_publisher"
+  archive:
+    stored: false
+    reason: "ETF.com weekly flows article published June 22, 2026. Total ETF inflows $119.83 billion led by $83.62 billion into U.S. equity ETFs and $21.66 billion into international equity ETFs. Top creations: IVV +$30.40B, SPYM +$12.87B, XLK +$8.33B, SMH +$7.44B, SCHD +$5.46B. Top redemptions: SPY -$29.62B, VOO -$14.42B. This was the latest available ETF.com weekly article for the June 26 report date; no new weekly article had been published since June 22."

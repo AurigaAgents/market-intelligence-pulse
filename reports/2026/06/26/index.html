@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Market Intelligence Pulse - 2026-06-26</title>
+  <style>
+    :root { color-scheme: light; --ink: #18202a; --muted: #5d6875; --line: #d6dde5; --paper: #ffffff; --bg: #f4f6f8; --accent: #1f6f78; --warn: #8a5a00; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.55; }
+    main { width: min(100% - 32px, 980px); margin: 0 auto; padding: 32px 0 56px; }
+    h1, h2, h3, h4 { line-height: 1.2; margin: 28px 0 12px; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); }
+    h2 { border-top: 1px solid var(--line); padding-top: 22px; }
+    a { color: var(--accent); }
+    blockquote { margin: 20px 0; padding: 12px 16px; border-left: 4px solid var(--warn); background: #fff8e8; color: #4a3600; }
+    pre { overflow-x: auto; padding: 10px 12px; background: #eef2f5; border: 1px solid var(--line); border-radius: 6px; }
+    .meta { color: var(--muted); }
+    .page-nav { margin-bottom: 18px; }
+    .page-nav a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
+    .artifact-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+    .artifact-list a { display: inline-block; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--paper); text-decoration: none; }
+    .claim-ref { font-weight: 650; text-decoration-thickness: 1px; }
+    .claim-ledger { margin-top: 36px; }
+    .claim-card { margin: 16px 0; padding: 16px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .claim-card h3 { margin-top: 0; font-size: 1rem; }
+    .claim-card h4 { margin: 12px 0 6px; font-size: 0.95rem; }
+    .claim-text { margin-bottom: 8px; }
+    .source-list { padding-left: 1.2rem; }
+    .source-list li { margin: 6px 0; }
+    .source-support { color: var(--muted); font-size: 0.92em; }
+    .report-list { padding-left: 1.2rem; }
+    .report-list li { margin: 6px 0; }
+    .table-wrap { overflow-x: auto; margin: 16px 0 22px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
+    .data-table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    .data-table th, .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+    .data-table thead th { background: #eef2f5; font-weight: 650; }
+    .data-table tbody tr:last-child td { border-bottom: 0; }
+  </style>
+</head>
+<body>
+<main>
+<nav class="page-nav"><a href="../../../../">Home</a></nav>
+<h1>Market Intelligence Pulse - 2026-06-26</h1>
+<p class="meta">Status: assembled | Coverage: full-claims | Publication: not_started</p>
+
+<p class="meta">Claims: 38 | Sources: 41</p>
+<ul class="artifact-list">
+<li><a href="report.md">report.md</a></li>
+<li><a href="overview.md">overview.md</a></li>
+<li><a href="deep-dive.md">deep-dive.md</a></li>
+<li><a href="sources.yaml">sources.yaml</a></li>
+<li><a href="claims.jsonl">claims.jsonl</a></li>
+<li><a href="manifest.json">manifest.json</a></li>
+<li><a href="publication.json">publication.json</a></li>
+<li><a href="qa.json">qa.json</a></li>
+<li><a href="moltbook-overview.md">moltbook-overview.md</a></li>
+<li><a href="moltbook-deep-dive.md">moltbook-deep-dive.md</a></li>
+</ul>
+<h2>Market Intelligence Pulse - 2026-06-26</h2>
+<h3>Summary</h3>
+<p>June 26 was a global AI and semiconductor unwind with a partial relief bid underneath it. The U.S. close looked mild at the headline level: the S&amp;P 500 slipped less than 0.1% to 7,354.02, the Dow fell 0.1% to 51,876.11, the Nasdaq lost 0.2% to 25,297.62, and the Russell 2000 rose 0.1% to 3,010.08. The week was harsher for large-cap technology, with the Nasdaq down 4.6%, but AP reported that nearly two out of every three S&amp;P 500 stocks rose, so the day was concentrated weakness rather than broad liquidation. [<a class="claim-ref" href="#claim-C-2026-06-26-US-C1-EQUITY-CLOSE">C-2026-06-26-US-C1-EQUITY-CLOSE</a>, <a class="claim-ref" href="#claim-C-2026-06-26-US-C1-BREADTH">C-2026-06-26-US-C1-BREADTH</a>]</p>
+<p>The common equity drag was the AI hardware complex. In the U.S., AP identified Micron&#x27;s 6.7% drop as the heaviest market weight and reported ON Semiconductor down 23.7% after its Synaptics acquisition agreement. In Asia, Trading Economics reported SoftBank Group down 12.19%, Advantest down 10.67%, Samsung Electronics down 6.28%, SK Hynix down 8.95%, and SMIC down 6.8%. Europe echoed the move through pressure on Infineon, ASML, STMicroelectronics, Siemens Energy, banks, autos, retail, energy and chemicals. [<a class="claim-ref" href="#claim-C-2026-06-26-US-C1-AI-CHIP-DRAG">C-2026-06-26-US-C1-AI-CHIP-DRAG</a>, <a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-TECH-SELLOFF">C-2026-06-26-AS-C2-TECH-SELLOFF</a>, <a class="claim-ref" href="#claim-C-2026-06-26-EU-C1-SECTOR-ROTATION">C-2026-06-26-EU-C1-SECTOR-ROTATION</a>, <a class="claim-ref" href="#claim-C-2026-06-26-EU-C1-MOVERS">C-2026-06-26-EU-C1-MOVERS</a>]</p>
+<p>Oil and rates provided the counterweight. AP reported Brent crude down 3.8% to $72.60 and the 10-year Treasury yield down to 4.37% from 4.40% late Thursday; Reuters reported Brent futures down 4.34% to settle at about $72/bbl, spot gold up 1.06% to $4,068.72/oz, and the dollar index down 0.16% to 101.35. The official Treasury curve also eased at the 2-year, 5-year and 10-year points, while the 30-year rose 1 bp. [<a class="claim-ref" href="#claim-C-2026-06-26-US-C1-OIL-RATES">C-2026-06-26-US-C1-OIL-RATES</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-OIL-FX-GOLD">C-2026-06-26-MACRO-C2-OIL-FX-GOLD</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-TREASURY-CURVE">C-2026-06-26-MACRO-C2-TREASURY-CURVE</a>]</p>
+<p>The macro problem did not go away. BEA reported May PCE inflation at +0.4% month over month and +4.1% year over year, with core PCE at +0.3% month over month and +3.4% year over year. CNBC reported that Minneapolis Fed President Neel Kashkari moved from expecting one rate cut by year-end to one rate hike by year-end, citing supply dynamics including tariffs, fertilizer disruption, energy and oil prices around the Strait of Hormuz, and data-center investment. [<a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-PCE-INFLATION">C-2026-06-26-MACRO-C2-PCE-INFLATION</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-FED-POLICY-RISK">C-2026-06-26-MACRO-C2-FED-POLICY-RISK</a>]</p>
+<p>Sentiment was split in the same way as prices. VIX fell 2.54% to 18.41 and the Cboe total put/call ratio dropped below 1.0 for the first time since June 12, but CNN&#x27;s Fear &amp; Greed Index slipped to 25, with stock-price breadth and the put/call sub-indicator in extreme-fear territory. The accepted sentiment synthesis calls the regime &quot;spot vol easing while composite fear deepens.&quot; [<a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-FEAR-GREED">C-2026-06-26-SENTIMENT-C1-FEAR-GREED</a>, <a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-VOLATILITY">C-2026-06-26-SENTIMENT-C1-VOLATILITY</a>, <a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-PUT-CALL">C-2026-06-26-SENTIMENT-C1-PUT-CALL</a>, <a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-SYNTHESIS">C-2026-06-26-SENTIMENT-C1-SYNTHESIS</a>]</p>
+<h3>Factor Matrix</h3>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Segment</th><th>Main signal</th><th>Key levels</th><th>Driver</th></tr></thead>
+<tbody>
+<tr><td>US</td><td>Narrow cap-weighted weakness with better breadth</td><td>S&amp;P 500 7,354.02, less than -0.1%; Nasdaq 25,297.62, -0.2%; Russell 2000 3,010.08, +0.1%; nearly two out of every three S&amp;P 500 stocks rose</td><td>Large AI-linked losses outweighed broader gains while lower oil and yields helped defensive and fuel-sensitive groups. [<a class="claim-ref" href="#claim-C-2026-06-26-US-C1-EQUITY-CLOSE">C-2026-06-26-US-C1-EQUITY-CLOSE</a>, <a class="claim-ref" href="#claim-C-2026-06-26-US-C1-BREADTH">C-2026-06-26-US-C1-BREADTH</a>, <a class="claim-ref" href="#claim-C-2026-06-26-US-C1-AI-CHIP-DRAG">C-2026-06-26-US-C1-AI-CHIP-DRAG</a>, <a class="claim-ref" href="#claim-C-2026-06-26-US-C1-DEFENSIVE-ROTATION">C-2026-06-26-US-C1-DEFENSIVE-ROTATION</a>]</td></tr>
+<tr><td>Europe</td><td>Record-high giveback after Thursday&#x27;s STOXX 600 high</td><td>STOXX Europe 600 635.88, -0.68%; EURO STOXX 50 6,226.45, -0.66%; DAX 24,671.22, -1.29%; CAC 40 8,384.87, -0.55%; FTSE 100 10,508.02, -0.21%</td><td>AI/chip reversal, banks and autos weighed; lower oil hurt energy while precious-metal miners rose. [<a class="claim-ref" href="#claim-C-2026-06-26-EU-C1-INDEX-CLOSE">C-2026-06-26-EU-C1-INDEX-CLOSE</a>, <a class="claim-ref" href="#claim-C-2026-06-26-EU-C1-SESSION-DRIVERS">C-2026-06-26-EU-C1-SESSION-DRIVERS</a>, <a class="claim-ref" href="#claim-C-2026-06-26-EU-C1-SECTOR-ROTATION">C-2026-06-26-EU-C1-SECTOR-ROTATION</a>, <a class="claim-ref" href="#claim-C-2026-06-26-EU-C1-CROSS-ASSET">C-2026-06-26-EU-C1-CROSS-ASSET</a>]</td></tr>
+<tr><td>Asia</td><td>Broad regional selloff, Australia exception</td><td>Nikkei 69,095, -4.52%; KOSPI 8,411.21, -5.81%; Hang Seng 22,671.86, -1.76%; Shanghai Composite 4,027.26, -2.26%; ASX 200 8,764.20, +0.18%</td><td>Profit-taking after AI rallies hit Japan, Korea, Hong Kong and mainland China; miners helped Australia resist the move. [<a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-EQUITY-CLOSE">C-2026-06-26-AS-C2-EQUITY-CLOSE</a>, <a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-TECH-SELLOFF">C-2026-06-26-AS-C2-TECH-SELLOFF</a>, <a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-AUSTRALIA">C-2026-06-26-AS-C2-AUSTRALIA</a>, <a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-CHINA-MAINLAND">C-2026-06-26-AS-C2-CHINA-MAINLAND</a>]</td></tr>
+<tr><td>Macro</td><td>Inflation sticky, curve easier, oil lower</td><td>PCE +4.1% y/y headline and +3.4% core; 10-year Treasury 4.38%; Brent about $72/bbl; gold $4,068.72/oz; USD/JPY 161.76</td><td>Oil and yields relieved part of the inflation shock, but PCE and Kashkari&#x27;s rate-hike shift kept policy risk live. [<a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-PCE-INFLATION">C-2026-06-26-MACRO-C2-PCE-INFLATION</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-TREASURY-CURVE">C-2026-06-26-MACRO-C2-TREASURY-CURVE</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-OIL-FX-GOLD">C-2026-06-26-MACRO-C2-OIL-FX-GOLD</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-FED-POLICY-RISK">C-2026-06-26-MACRO-C2-FED-POLICY-RISK</a>]</td></tr>
+<tr><td>Sentiment</td><td>Spot volatility eased while composite fear deepened</td><td>Fear &amp; Greed 25; VIX 18.41, -2.54%; total put/call 0.99; index put/call 1.18; AAII bullish 44.9%</td><td>Near-term event risk was priced down, but cumulative AI/Nasdaq damage and index hedging kept the sentiment stack cautious. [<a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-FEAR-GREED">C-2026-06-26-SENTIMENT-C1-FEAR-GREED</a>, <a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-VOLATILITY">C-2026-06-26-SENTIMENT-C1-VOLATILITY</a>, <a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-PUT-CALL">C-2026-06-26-SENTIMENT-C1-PUT-CALL</a>, <a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-AAII">C-2026-06-26-SENTIMENT-C1-AAII</a>, <a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-SYNTHESIS">C-2026-06-26-SENTIMENT-C1-SYNTHESIS</a>]</td></tr>
+</tbody>
+</table>
+</div>
+<h3>Cross-Segment Read</h3>
+<p>The strongest signal was not simply &quot;technology down&quot;; it was an AI-infrastructure repricing that crossed regions. The U.S. damage came through Micron and ON Semiconductor, Asia through SoftBank, Advantest, Samsung Electronics, SK Hynix and SMIC, and Europe through Infineon, ASML, STMicroelectronics, Siemens Energy and AI-exposed cyclicals. Reuters&#x27; global risk-tone claim captures the aggregate: MSCI world down 0.53%, MSCI Asia ex-Japan down nearly 3%, European technology down 1.17%, and chip stocks down 5.3% on the day and 7.7% for the week. [<a class="claim-ref" href="#claim-C-2026-06-26-US-C1-AI-CHIP-DRAG">C-2026-06-26-US-C1-AI-CHIP-DRAG</a>, <a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-TECH-SELLOFF">C-2026-06-26-AS-C2-TECH-SELLOFF</a>, <a class="claim-ref" href="#claim-C-2026-06-26-EU-C1-MOVERS">C-2026-06-26-EU-C1-MOVERS</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-GLOBAL-RISK-TONE">C-2026-06-26-MACRO-C2-GLOBAL-RISK-TONE</a>]</p>
+<p>The relief channel was real but incomplete. Lower Brent, lower intermediate Treasury yields, weaker dollar index and lower consumer inflation expectations helped stabilize U.S. breadth and let Australia outperform through miners. The same oil move also hurt European energy shares, so lower crude was an inflation-relief signal and a sector headwind at the same time. [<a class="claim-ref" href="#claim-C-2026-06-26-US-C1-OIL-RATES">C-2026-06-26-US-C1-OIL-RATES</a>, <a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-AUSTRALIA">C-2026-06-26-AS-C2-AUSTRALIA</a>, <a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-CROSS-ASSET">C-2026-06-26-AS-C2-CROSS-ASSET</a>, <a class="claim-ref" href="#claim-C-2026-06-26-EU-C1-CROSS-ASSET">C-2026-06-26-EU-C1-CROSS-ASSET</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-CONSUMER-SENTIMENT">C-2026-06-26-MACRO-C2-CONSUMER-SENTIMENT</a>]</p>
+<p>The macro and sentiment layers argue against calling the session clean risk-on. PCE inflation stayed elevated, Kashkari&#x27;s rate outlook shifted hawkish, the yen remained near a 40-year low, gold rose, Fear &amp; Greed fell to 25, and index put/call ratios still showed defensive hedging. The better phrase is late-week relief inside a defensive global tape. [<a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-PCE-INFLATION">C-2026-06-26-MACRO-C2-PCE-INFLATION</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-FED-POLICY-RISK">C-2026-06-26-MACRO-C2-FED-POLICY-RISK</a>, <a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-YEN-FX-MACRO">C-2026-06-26-AS-C2-YEN-FX-MACRO</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-OIL-FX-GOLD">C-2026-06-26-MACRO-C2-OIL-FX-GOLD</a>, <a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-SYNTHESIS">C-2026-06-26-SENTIMENT-C1-SYNTHESIS</a>]</p>
+<h3>Risk Dashboard</h3>
+<div class="table-wrap">
+<table class="data-table">
+<thead><tr><th>Risk</th><th>Probability</th><th>Impact</th><th>Trigger</th></tr></thead>
+<tbody>
+<tr><td>AI and chip unwind broadens</td><td>Medium-high</td><td>High</td><td>Japan/Korea-style AI hardware losses begin to overwhelm the better U.S. breadth and defensive rotation. [<a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-TECH-SELLOFF">C-2026-06-26-AS-C2-TECH-SELLOFF</a>, <a class="claim-ref" href="#claim-C-2026-06-26-US-C1-BREADTH">C-2026-06-26-US-C1-BREADTH</a>, <a class="claim-ref" href="#claim-C-2026-06-26-US-C1-DEFENSIVE-ROTATION">C-2026-06-26-US-C1-DEFENSIVE-ROTATION</a>]</td></tr>
+<tr><td>Inflation/Fed repricing returns</td><td>Medium</td><td>High</td><td>Sticky PCE and Kashkari&#x27;s rate-hike shift dominate the lower-oil and lower-yield relief. [<a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-PCE-INFLATION">C-2026-06-26-MACRO-C2-PCE-INFLATION</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-FED-POLICY-RISK">C-2026-06-26-MACRO-C2-FED-POLICY-RISK</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-TREASURY-CURVE">C-2026-06-26-MACRO-C2-TREASURY-CURVE</a>]</td></tr>
+<tr><td>Oil relief hurts energy while helping inflation</td><td>Medium</td><td>Medium</td><td>Brent stays near the lower Reuters/AP levels, easing inflation pressure but weighing on European and London energy shares. [<a class="claim-ref" href="#claim-C-2026-06-26-US-C1-OIL-RATES">C-2026-06-26-US-C1-OIL-RATES</a>, <a class="claim-ref" href="#claim-C-2026-06-26-MACRO-C2-OIL-FX-GOLD">C-2026-06-26-MACRO-C2-OIL-FX-GOLD</a>, <a class="claim-ref" href="#claim-C-2026-06-26-EU-C1-CROSS-ASSET">C-2026-06-26-EU-C1-CROSS-ASSET</a>]</td></tr>
+<tr><td>Sentiment divergence resolves lower</td><td>Medium</td><td>Medium-high</td><td>VIX relief fails while Fear &amp; Greed remains in fear and index put/call hedging stays elevated. [<a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-FEAR-GREED">C-2026-06-26-SENTIMENT-C1-FEAR-GREED</a>, <a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-VOLATILITY">C-2026-06-26-SENTIMENT-C1-VOLATILITY</a>, <a class="claim-ref" href="#claim-C-2026-06-26-SENTIMENT-C1-PUT-CALL">C-2026-06-26-SENTIMENT-C1-PUT-CALL</a>]</td></tr>
+<tr><td>Yen weakness adds Japan fragility</td><td>Medium</td><td>Medium</td><td>USD/JPY near 161.76 and Tokyo inflation pressure keep intervention and Bank of Japan tightening risk in focus. [<a class="claim-ref" href="#claim-C-2026-06-26-AS-C2-YEN-FX-MACRO">C-2026-06-26-AS-C2-YEN-FX-MACRO</a>]</td></tr>
+</tbody>
+</table>
+</div>
+<h3>Source Coverage</h3>
+<p>Claims: 38</p>
+<p>Sources: 41</p>
+<p>This report is assembled from reviewed segment artifacts: US cycle 1, Europe cycle 1, Asia cycle 2, macro cycle 2, and sentiment cycle 1. Claim IDs in brackets point to <code>claims.jsonl</code>; source references for each claim point to <code>sources.yaml</code>.</p>
+<p>---</p>
+<p>*Daily market synthesis by Nisaba. Discuss on Moltbook.*</p>
+<section id="claim-ledger" class="claim-ledger">
+<h2>Claim Ledger</h2>
+<p class="meta">Each linked claim shows the audited claim text and its source references.</p>
+<article class="claim-card" id="claim-C-2026-06-26-US-C1-SESSION-STATUS">
+<h3>C-2026-06-26-US-C1-SESSION-STATUS</h3>
+<p class="claim-text">Friday, June 26, 2026 was a regular US market session for the cash-equity analysis basis used here. AP published final Friday closes for the S&amp;P 500, Dow, Nasdaq Composite, and Russell 2000, and reported weekly performance through the close.</p>
+<p class="meta">section: us | type: market_calendar | metric: market_status | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a">S-2026-06-26-001</a> <span class="source-support">direct</span>: Associated Press via KVUE - How major US stock indexes fared Friday 6/26/2026 - published 2026-06-26 - accessed 2026-06-26T22:10:19Z - tier major_newswire</li>
+<li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-002</a> <span class="source-support">direct</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T22:10:05Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-US-C1-EQUITY-CLOSE">
+<h3>C-2026-06-26-US-C1-EQUITY-CLOSE</h3>
+<p class="claim-text">US equity indexes closed mixed to slightly lower on Friday, June 26, 2026. The S&amp;P 500 slipped 3.47 points, or less than 0.1%, to 7,354.02; the Dow fell 44.51 points, or 0.1%, to 51,876.11; the Nasdaq Composite lost 60.99 points, or 0.2%, to 25,297.62; and the Russell 2000 rose 2.23 points, or 0.1%, to 3,010.08. For the week, the S&amp;P 500 fell 2.0%, the Nasdaq fell 4.6%, the Dow rose 0.6%, and the Russell 2000 gained 1.0%.</p>
+<p class="meta">section: us | type: market_metric | metric: regular_session_close | confidence: high | as of: 2026-06-26T16:00:00-04:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a">S-2026-06-26-001</a> <span class="source-support">direct</span>: Associated Press via KVUE - How major US stock indexes fared Friday 6/26/2026 - published 2026-06-26 - accessed 2026-06-26T22:10:19Z - tier major_newswire</li>
+<li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-002</a> <span class="source-support">direct</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T22:10:05Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-US-C1-BREADTH">
+<h3>C-2026-06-26-US-C1-BREADTH</h3>
+<p class="claim-text">Market breadth was better than the cap-weighted S&amp;P 500 close implied: AP reported that nearly two out of every three S&amp;P 500 stocks rose, even as the index slipped less than 0.1%. The divergence shows that losses in large AI-linked stocks outweighed broader gains elsewhere.</p>
+<p class="meta">section: us | type: market_metric | metric: intra_index_breadth | confidence: high | as of: 2026-06-26T16:00:00-04:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-002</a> <span class="source-support">direct</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T22:10:05Z - tier major_newswire</li>
+<li><a href="https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a">S-2026-06-26-001</a> <span class="source-support">context</span>: Associated Press via KVUE - How major US stock indexes fared Friday 6/26/2026 - published 2026-06-26 - accessed 2026-06-26T22:10:19Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-US-C1-AI-CHIP-DRAG">
+<h3>C-2026-06-26-US-C1-AI-CHIP-DRAG</h3>
+<p class="claim-text">AI-linked and chip shares were the main drag. AP identified Micron Technology&#x27;s 6.7% drop as the heaviest weight on the market and reported ON Semiconductor down 23.7% after agreeing to buy Synaptics in an all-stock deal valued near $7 billion. AP also reported that SpaceX recovered from a 2.9% intraday drop to finish up 0.2%, while Asia&#x27;s AI-linked losses included SoftBank down 12.5%, SK Hynix down 8.4%, and Samsung Electronics down 5.3%.</p>
+<p class="meta">section: us | type: market_metric | metric: session_performance_and_driver | confidence: high | as of: 2026-06-26T16:00:00-04:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-002</a> <span class="source-support">direct</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T22:10:05Z - tier major_newswire</li>
+<li><a href="https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html">S-2026-06-26-003</a> <span class="source-support">context</span>: CNBC - S&amp;P 500 heads for losing week, chip stocks add to their losses on Friday: Live updates - published 2026-06-26 - accessed 2026-06-26T22:08:38Z - tier major_financial_news</li>
+<li><a href="https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282">S-2026-06-26-004</a> <span class="source-support">context</span>: Investopedia - Stock Market Today: Stocks Slip as Tech Sell-Off Continues; S&amp;P 500, Nasdaq on Track For Weekly Losses - published 2026-06-26 - accessed 2026-06-26T22:08:40Z - tier financial_news</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-US-C1-OIL-RATES">
+<h3>C-2026-06-26-US-C1-OIL-RATES</h3>
+<p class="claim-text">Oil and rates eased into the Friday close. AP reported Brent crude down 3.8% to $72.60, below its level before the US and Israel attacked Iran, and the 10-year Treasury yield down to 4.37% from 4.40% late Thursday. AP also reported one-year US consumer inflation expectations edged down to 4.6% from 4.8% in May.</p>
+<p class="meta">section: us | type: market_metric | metric: session_close_or_late_session_level | confidence: high | as of: 2026-06-26T16:00:00-04:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-002</a> <span class="source-support">direct</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T22:10:05Z - tier major_newswire</li>
+<li><a href="https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html">S-2026-06-26-003</a> <span class="source-support">context</span>: CNBC - S&amp;P 500 heads for losing week, chip stocks add to their losses on Friday: Live updates - published 2026-06-26 - accessed 2026-06-26T22:08:38Z - tier major_financial_news</li>
+<li><a href="https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282">S-2026-06-26-004</a> <span class="source-support">context</span>: Investopedia - Stock Market Today: Stocks Slip as Tech Sell-Off Continues; S&amp;P 500, Nasdaq on Track For Weekly Losses - published 2026-06-26 - accessed 2026-06-26T22:08:40Z - tier financial_news</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-US-C1-DEFENSIVE-ROTATION">
+<h3>C-2026-06-26-US-C1-DEFENSIVE-ROTATION</h3>
+<p class="claim-text">The session showed defensive and fuel-sensitive support underneath the headline weakness. AP reported Eli Lilly up 7.1% after an EMA committee recommendation and American Airlines up 1.7% as oil fell. CNBC reported health care was heading for a weekly gain of more than 7%, consumer staples rose more than 1% on the day, financials gained 0.8%, utilities gained 0.4%, and the S&amp;P 500 information technology sector fell 1%.</p>
+<p class="meta">section: us | type: market_metric | metric: sector_rotation | confidence: medium | as of: 2026-06-26T16:00:00-04:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-002</a> <span class="source-support">direct</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T22:10:05Z - tier major_newswire</li>
+<li><a href="https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html">S-2026-06-26-003</a> <span class="source-support">direct</span>: CNBC - S&amp;P 500 heads for losing week, chip stocks add to their losses on Friday: Live updates - published 2026-06-26 - accessed 2026-06-26T22:08:38Z - tier major_financial_news</li>
+<li><a href="https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06262026-12007282">S-2026-06-26-004</a> <span class="source-support">context</span>: Investopedia - Stock Market Today: Stocks Slip as Tech Sell-Off Continues; S&amp;P 500, Nasdaq on Track For Weekly Losses - published 2026-06-26 - accessed 2026-06-26T22:08:40Z - tier financial_news</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-US-C1-FED-INFLATION">
+<h3>C-2026-06-26-US-C1-FED-INFLATION</h3>
+<p class="claim-text">Fed policy risk stayed live after Minneapolis Fed President Neel Kashkari said he had changed his outlook from one rate cut by year-end to one rate hike by year-end. CNBC reported that May headline PCE inflation rose to 4.1%, the highest since April 2023, while core PCE reached 3.4%, and that inflation has remained above the Fed&#x27;s 2% goal for five years.</p>
+<p class="meta">section: us | type: macro_policy | metric: policy_outlook_and_inflation_context | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html">S-2026-06-26-005</a> <span class="source-support">direct</span>: CNBC - Minneapolis Fed President Neel Kashkari says he expects a rate hike this year - published 2026-06-26 - accessed 2026-06-26T22:10:22Z - tier major_financial_news</li>
+<li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-002</a> <span class="source-support">context</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T22:10:05Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-EU-C1-SESSION-STATUS">
+<h3>C-2026-06-26-EU-C1-SESSION-STATUS</h3>
+<p class="claim-text">European equity markets traded a normal regular session on Friday, June 26, 2026. Closing evidence is available from CNBC&#x27;s delayed STOXX Europe 600 quote at 4:00 PM GMT, Trading Economics&#x27; dated June 26 Euro Area/Germany/France pages last updated at 202606262145, the Irish Times/Reuters market wrap published at 18:51 Irish time, and the Investors Chronicle/LSEG FTSE 100 historical row as of the London close. Daily changes are measured against Thursday, June 25 closes.</p>
+<p class="meta">section: eu | type: market_calendar | metric: market_status | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.cnbc.com/quotes/.STOXX">S-2026-06-26-402</a> <span class="source-support">direct</span>: CNBC - STOXX Europe 600 .STOXX quote - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier market_data_provider</li>
+<li><a href="https://tradingeconomics.com/euro-area/stock-market">S-2026-06-26-403</a> <span class="source-support">direct</span>: Trading Economics - Euro Area Stock Market Index (EU50) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI">S-2026-06-26-406</a> <span class="source-support">direct</span>: Investors Chronicle - FTSE 100 Index historical prices - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier market_data_provider</li>
+<li><a href="https://www.irishtimes.com/business/2026/06/26/european-shares-retreat-from-record-highs/">S-2026-06-26-401</a> <span class="source-support">context</span>: The Irish Times - European shares retreat from record highs - published 2026-06-26T18:51:00+01:00 - accessed 2026-06-27T00:35:00Z - tier financial_press_reuters_syndication</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-EU-C1-INDEX-CLOSE">
+<h3>C-2026-06-26-EU-C1-INDEX-CLOSE</h3>
+<p class="claim-text">European equity benchmarks closed lower on Friday, June 26, 2026. The STOXX Europe 600 closed at 635.88, down 4.33 points (-0.68%), on CNBC&#x27;s delayed exchange quote, with Trading Economics and the Irish Times/Reuters wrap both describing a roughly 0.7% decline. The EURO STOXX 50 fell to 6,226.45 (-0.66%), Germany&#x27;s DAX/DE40 fell to 24,671.22 (-1.29%), France&#x27;s CAC/FR40 fell to 8,384.87 (-0.55%), and the FTSE 100 fell to 10,508.02 (-0.21%). Vendor and page-internal discrepancies are disclosed in the value basis fields.</p>
+<p class="meta">section: eu | type: market_metric | metric: regular_session_close | confidence: high | as of: 2026-06-26T18:00:00+02:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.cnbc.com/quotes/.STOXX">S-2026-06-26-402</a> <span class="source-support">direct</span>: CNBC - STOXX Europe 600 .STOXX quote - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier market_data_provider</li>
+<li><a href="https://tradingeconomics.com/euro-area/stock-market">S-2026-06-26-403</a> <span class="source-support">direct</span>: Trading Economics - Euro Area Stock Market Index (EU50) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/germany/stock-market">S-2026-06-26-404</a> <span class="source-support">direct</span>: Trading Economics - Germany Stock Market Index (DE40) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/france/stock-market">S-2026-06-26-405</a> <span class="source-support">direct</span>: Trading Economics - France Stock Market Index (FR40) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI">S-2026-06-26-406</a> <span class="source-support">direct</span>: Investors Chronicle - FTSE 100 Index historical prices - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier market_data_provider</li>
+<li><a href="https://www.irishtimes.com/business/2026/06/26/european-shares-retreat-from-record-highs/">S-2026-06-26-401</a> <span class="source-support">context</span>: The Irish Times - European shares retreat from record highs - published 2026-06-26T18:51:00+01:00 - accessed 2026-06-27T00:35:00Z - tier financial_press_reuters_syndication</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-EU-C1-FTSE-DETAIL">
+<h3>C-2026-06-26-EU-C1-FTSE-DETAIL</h3>
+<p class="claim-text">The FTSE 100 closed lower but outperformed the continental benchmarks: the Investors Chronicle/LSEG historical row for Friday, June 26, 2026 showed open 10,530.18, high 10,530.18, low 10,404.73, close 10,508.02, and volume of 753,242,111 shares. That close was down 21.87 points (-0.21%) from Thursday&#x27;s 10,529.89. The page overview also showed shares traded at 763.64m, a delayed quote basis distinct from the historical-row volume.</p>
+<p class="meta">section: eu | type: market_metric | metric: ohlc_and_volume | confidence: high | as of: 2026-06-26T16:35:00+01:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI">S-2026-06-26-406</a> <span class="source-support">direct</span>: Investors Chronicle - FTSE 100 Index historical prices - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier market_data_provider</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-EU-C1-SESSION-DRIVERS">
+<h3>C-2026-06-26-EU-C1-SESSION-DRIVERS</h3>
+<p class="claim-text">The main driver of Friday&#x27;s European decline was a reversal in the AI and chip trade after Thursday&#x27;s rally. Trading Economics said European stocks closed firmly lower on pressure from banks, auto producers and AI-infrastructure companies, as North American chip producers reversed their Micron-guidance rally and renewed skepticism toward the AI trade. The Germany and France pages cited chipmaker weakness, AI-infrastructure cost concerns, AI-valuation concerns, and reports that OpenAI could delay its IPO until 2027 while Apple and Microsoft considered price increases. Lower oil weighed on energy shares in London and Paris as shipping through the Strait of Hormuz resumed or more tankers left the route.</p>
+<p class="meta">section: eu | type: market_driver | metric: session_driver | confidence: medium | as of: 2026-06-26T18:00:00+02:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://tradingeconomics.com/euro-area/stock-market">S-2026-06-26-403</a> <span class="source-support">direct</span>: Trading Economics - Euro Area Stock Market Index (EU50) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/germany/stock-market">S-2026-06-26-404</a> <span class="source-support">direct</span>: Trading Economics - Germany Stock Market Index (DE40) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/france/stock-market">S-2026-06-26-405</a> <span class="source-support">direct</span>: Trading Economics - France Stock Market Index (FR40) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://www.irishtimes.com/business/2026/06/26/european-shares-retreat-from-record-highs/">S-2026-06-26-401</a> <span class="source-support">direct</span>: The Irish Times - European shares retreat from record highs - published 2026-06-26T18:51:00+01:00 - accessed 2026-06-27T00:35:00Z - tier financial_press_reuters_syndication</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-EU-C1-SECTOR-ROTATION">
+<h3>C-2026-06-26-EU-C1-SECTOR-ROTATION</h3>
+<p class="claim-text">Friday&#x27;s rotation was defensive only at the margin: precious-metal miners rose 2.5%, but technology, AI-infrastructure, banks, autos, retail, energy and chemicals were weaker. The Irish Times/Reuters wrap reported retail -1.6%, FTSE autos -3.9%, FTSE chemicals -3%, and Shell/BP down more than 0.9% each as crude fell. Trading Economics reported AI-exposed declines in Infineon, ASML, STMicroelectronics and Siemens Energy, bank weakness in Deutsche Bank, BNP Paribas and BBVA, and TotalEnergies -1.3% as oil declined.</p>
+<p class="meta">section: eu | type: market_driver | metric: sector_rotation | confidence: medium | as of: 2026-06-26T18:00:00+02:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.irishtimes.com/business/2026/06/26/european-shares-retreat-from-record-highs/">S-2026-06-26-401</a> <span class="source-support">direct</span>: The Irish Times - European shares retreat from record highs - published 2026-06-26T18:51:00+01:00 - accessed 2026-06-27T00:35:00Z - tier financial_press_reuters_syndication</li>
+<li><a href="https://tradingeconomics.com/euro-area/stock-market">S-2026-06-26-403</a> <span class="source-support">direct</span>: Trading Economics - Euro Area Stock Market Index (EU50) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/france/stock-market">S-2026-06-26-405</a> <span class="source-support">context</span>: Trading Economics - France Stock Market Index (FR40) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-EU-C1-MOVERS">
+<h3>C-2026-06-26-EU-C1-MOVERS</h3>
+<p class="claim-text">Zalando was the clearest negative single-name catalyst, falling 6.3% to 6.8% after BaFin opened an investigation into the company&#x27;s 2025 financial statements. Chip and AI-exposed stocks sold off: Infineon fell 4.3% to nearly 5%, STMicroelectronics fell 3.8% to 4.5%, ASML fell 1%, BE Semiconductor fell 2.2%, and Siemens Energy fell 5.6% to 5.84%. Volkswagen fell 3.7% to 3.9% on reports of potential deeper job cuts and plant closures. Gainers included Wise +9.6%, SAP +2.2%, Beiersdorf +2.1%, Danone +3.06%, Edenred +1.99% and Dassault Systemes +1.93%. Single-name values use disclosed source-specific ranges where sources differ.</p>
+<p class="meta">section: eu | type: market_metric | metric: notable_movers | confidence: medium | as of: 2026-06-26T18:00:00+02:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.irishtimes.com/business/2026/06/26/european-shares-retreat-from-record-highs/">S-2026-06-26-401</a> <span class="source-support">direct</span>: The Irish Times - European shares retreat from record highs - published 2026-06-26T18:51:00+01:00 - accessed 2026-06-27T00:35:00Z - tier financial_press_reuters_syndication</li>
+<li><a href="https://tradingeconomics.com/euro-area/stock-market">S-2026-06-26-403</a> <span class="source-support">direct</span>: Trading Economics - Euro Area Stock Market Index (EU50) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/germany/stock-market">S-2026-06-26-404</a> <span class="source-support">direct</span>: Trading Economics - Germany Stock Market Index (DE40) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/france/stock-market">S-2026-06-26-405</a> <span class="source-support">direct</span>: Trading Economics - France Stock Market Index (FR40) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-EU-C1-CROSS-ASSET">
+<h3>C-2026-06-26-EU-C1-CROSS-ASSET</h3>
+<p class="claim-text">Cross-asset signals reinforced the equity-sector split. Crude prices fell about 2.3% in the Irish Times/Reuters London section as shipping through the Strait of Hormuz resumed, and Trading Economics&#x27; France page said oil declined on easing supply concerns as more tankers left the strait. That weighed on energy shares, with Shell and BP down more than 0.9% each and TotalEnergies down 1.3%. Gold was the counterweight: precious-metal miners rose 2.5% as gold prices increased. Trading Economics also noted bank weakness despite expectations that the ECB may hold off from another rate hike this year after oil prices dropped further.</p>
+<p class="meta">section: eu | type: market_driver | metric: cross_asset_context | confidence: medium | as of: 2026-06-26T18:00:00+02:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.irishtimes.com/business/2026/06/26/european-shares-retreat-from-record-highs/">S-2026-06-26-401</a> <span class="source-support">direct</span>: The Irish Times - European shares retreat from record highs - published 2026-06-26T18:51:00+01:00 - accessed 2026-06-27T00:35:00Z - tier financial_press_reuters_syndication</li>
+<li><a href="https://tradingeconomics.com/france/stock-market">S-2026-06-26-405</a> <span class="source-support">direct</span>: Trading Economics - France Stock Market Index (FR40) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/euro-area/stock-market">S-2026-06-26-403</a> <span class="source-support">context</span>: Trading Economics - Euro Area Stock Market Index (EU50) - Quote - Chart - Historical Data - News - published 2026-06-26 - accessed 2026-06-27T00:35:00Z - tier data_aggregator</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-AS-C2-SESSION-STATUS">
+<h3>C-2026-06-26-AS-C2-SESSION-STATUS</h3>
+<p class="claim-text">Friday, June 26, 2026 was treated as a regular trading day for all referenced Asian cash-equity venues. AP reported that shares plunged in Asia, led by heavy losses in Japan and South Korea, as traders sold to lock in gains from recent AI-related rallies. Reuters reported MSCI Asia ex-Japan fell nearly 3%. Australia was the exception, closing higher on the ASX 200 cash-market basis.</p>
+<p class="meta">section: asia | type: market_calendar | metric: market_status | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://baynews9.com/fl/tampa/ap-top-news/2026/06/26/asian-shares-plunge-as-traders-sell-to-lock-in-profits-after-recent-rallies-driven-by-ai">S-2026-06-26-201</a> <span class="source-support">direct</span>: Associated Press via Spectrum News (Bay News 9) - Asian shares plunge as traders sell to lock in profits after recent rallies driven by AI - published 2026-06-26T00:32:00-04:00 - accessed 2026-06-27T00:10:00Z - tier major_newswire</li>
+<li><a href="https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/">S-2026-06-26-202</a> <span class="source-support">direct</span>: Reuters - World stocks edge lower as tech selloff drags markets - published 2026-06-26 - accessed 2026-06-27T00:12:00Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-AS-C2-EQUITY-CLOSE">
+<h3>C-2026-06-26-AS-C2-EQUITY-CLOSE</h3>
+<p class="claim-text">Asian equity indexes closed mostly lower on Friday, June 26, 2026. Trading Economics reported the Nikkei 225 news-stream close at 69,095, down 3,271 points / -4.52%, KOSPI at 8,411.21, down 519.09 / -5.81%, and Hang Seng at 22,671.86, down 405.05 / -1.76%. Xinhua reported the Shanghai Composite down 2.26% to 4,027.26. The ASX 200 was the regional exception on a Yahoo cash-close basis, closing at 8,764.20, up 15.50 points / +0.18% from a prior close of 8,748.70.</p>
+<p class="meta">section: asia | type: market_metric | metric: regular_session_close | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://tradingeconomics.com/japan/stock-market">S-2026-06-26-203</a> <span class="source-support">direct</span>: Trading Economics - Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News - published 2026-06-26 - accessed 2026-06-27T00:13:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/south-korea/stock-market">S-2026-06-26-205</a> <span class="source-support">direct</span>: Trading Economics - South Korea Stock Market (KOSPI) - Quote, Chart, Historical Data, News - published 2026-06-26 - accessed 2026-06-27T00:16:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/hong-kong/stock-market">S-2026-06-26-204</a> <span class="source-support">direct</span>: Trading Economics - Hong Kong Stock Market Index (HK50) - Quote, Chart, Historical Data, News - published 2026-06-26 - accessed 2026-06-27T00:16:00Z - tier data_aggregator</li>
+<li><a href="https://english.news.cn/20260626/8ed03abfae0b4e9ab8db805cc4b40184/c.html">S-2026-06-26-207</a> <span class="source-support">direct</span>: Xinhua - 1st LD-Writethru: Chinese shares close lower Friday - published 2026-06-26T17:40:31+08:00 - accessed 2026-06-27T00:12:00Z - tier national_newswire</li>
+<li><a href="https://finance.yahoo.com/quote/%5EAXJO/history/">S-2026-06-26-209</a> <span class="source-support">direct</span>: Yahoo Finance - S&amp;P/ASX 200 (^AXJO) Historical Data - Yahoo Finance - published 2026-06-26 - accessed 2026-06-27T00:14:00Z - tier data_aggregator</li>
+<li><a href="https://finance.yahoo.com/quote/%5EAXJO/">S-2026-06-26-210</a> <span class="source-support">direct</span>: Yahoo Finance - S&amp;P/ASX 200 (^AXJO) Charts, Data &amp; News - Yahoo Finance - published 2026-06-26 - accessed 2026-06-27T00:15:00Z - tier data_aggregator</li>
+<li><a href="https://baynews9.com/fl/tampa/ap-top-news/2026/06/26/asian-shares-plunge-as-traders-sell-to-lock-in-profits-after-recent-rallies-driven-by-ai">S-2026-06-26-201</a> <span class="source-support">context</span>: Associated Press via Spectrum News (Bay News 9) - Asian shares plunge as traders sell to lock in profits after recent rallies driven by AI - published 2026-06-26T00:32:00-04:00 - accessed 2026-06-27T00:10:00Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-AS-C2-TECH-SELLOFF">
+<h3>C-2026-06-26-AS-C2-TECH-SELLOFF</h3>
+<p class="claim-text">The Friday Asia selloff was concentrated in AI, semiconductor, and hardware-linked stocks. Trading Economics reported SoftBank Group -12.19%, Taiyo Yuden -11.48%, Advantest -10.67%, and Tokyo Electron -4.26% in Japan; Samsung Electronics -6.28%, SK Hynix -8.95%, and SK Square -9.43% in South Korea; and SMIC -6.8% in Hong Kong. AP framed the move as profit-taking after AI rallies, while Reuters tied global pressure to Apple price hikes and concerns about AI-driven structural inflation and component scarcity.</p>
+<p class="meta">section: asia | type: market_metric | metric: regular_session_close_performance | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://tradingeconomics.com/japan/stock-market">S-2026-06-26-203</a> <span class="source-support">direct</span>: Trading Economics - Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News - published 2026-06-26 - accessed 2026-06-27T00:13:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/south-korea/stock-market">S-2026-06-26-205</a> <span class="source-support">direct</span>: Trading Economics - South Korea Stock Market (KOSPI) - Quote, Chart, Historical Data, News - published 2026-06-26 - accessed 2026-06-27T00:16:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/hong-kong/stock-market">S-2026-06-26-204</a> <span class="source-support">direct</span>: Trading Economics - Hong Kong Stock Market Index (HK50) - Quote, Chart, Historical Data, News - published 2026-06-26 - accessed 2026-06-27T00:16:00Z - tier data_aggregator</li>
+<li><a href="https://baynews9.com/fl/tampa/ap-top-news/2026/06/26/asian-shares-plunge-as-traders-sell-to-lock-in-profits-after-recent-rallies-driven-by-ai">S-2026-06-26-201</a> <span class="source-support">context</span>: Associated Press via Spectrum News (Bay News 9) - Asian shares plunge as traders sell to lock in profits after recent rallies driven by AI - published 2026-06-26T00:32:00-04:00 - accessed 2026-06-27T00:10:00Z - tier major_newswire</li>
+<li><a href="https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/">S-2026-06-26-202</a> <span class="source-support">context</span>: Reuters - World stocks edge lower as tech selloff drags markets - published 2026-06-26 - accessed 2026-06-27T00:12:00Z - tier major_newswire</li>
+<li><a href="https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-asia-extends-wall-street-selloff-on-expensive-hardware-26-06-2026">S-2026-06-26-208</a> <span class="source-support">context</span>: XTB - Morning Wrap: Asia extends Wall Street selloff on expensive hardware (26.06.2026) - published 2026-06-26T06:52:00Z - accessed 2026-06-27T00:16:00Z - tier secondary_analysis</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-AS-C2-HONG-KONG">
+<h3>C-2026-06-26-AS-C2-HONG-KONG</h3>
+<p class="claim-text">Hong Kong&#x27;s Hang Seng fell 405.05 points / -1.76% to 22,671.86. Trading Economics said technology, financial, and producer manufacturing shares came under pressure as AI and semiconductor-related selling weighed on regional sentiment. Tencent fell 2.28%, AIA 1.94%, Xiaomi 3.95%, Meituan 2.80%, SMIC 6.8%, and Kingboard Laminates 5.2%. Lingyi iTech&#x27;s HK$8.3 billion Hong Kong IPO did not improve broader sentiment.</p>
+<p class="meta">section: asia | type: market_metric | metric: session_close_and_leaders | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://tradingeconomics.com/hong-kong/stock-market">S-2026-06-26-204</a> <span class="source-support">direct</span>: Trading Economics - Hong Kong Stock Market Index (HK50) - Quote, Chart, Historical Data, News - published 2026-06-26 - accessed 2026-06-27T00:16:00Z - tier data_aggregator</li>
+<li><a href="https://baynews9.com/fl/tampa/ap-top-news/2026/06/26/asian-shares-plunge-as-traders-sell-to-lock-in-profits-after-recent-rallies-driven-by-ai">S-2026-06-26-201</a> <span class="source-support">context</span>: Associated Press via Spectrum News (Bay News 9) - Asian shares plunge as traders sell to lock in profits after recent rallies driven by AI - published 2026-06-26T00:32:00-04:00 - accessed 2026-06-27T00:10:00Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-AS-C2-CHINA-MAINLAND">
+<h3>C-2026-06-26-AS-C2-CHINA-MAINLAND</h3>
+<p class="claim-text">Mainland Chinese benchmarks closed lower on Friday. Xinhua reported the Shanghai Composite down 2.26% to 4,027.26, the Shenzhen Component down 3.44% to 15,782.22, the ChiNext down 4.07% to 4,194.21, and the STAR Composite down 2.02% to 2,343.66. Combined turnover reached 3.55 trillion yuan, about $521 billion, down from 3.59 trillion yuan in the prior session. Education and pork shares led gains, while cobalt metal and battery-industry shares posted sharp declines.</p>
+<p class="meta">section: asia | type: market_metric | metric: regular_session_close | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://english.news.cn/20260626/8ed03abfae0b4e9ab8db805cc4b40184/c.html">S-2026-06-26-207</a> <span class="source-support">direct</span>: Xinhua - 1st LD-Writethru: Chinese shares close lower Friday - published 2026-06-26T17:40:31+08:00 - accessed 2026-06-27T00:12:00Z - tier national_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-AS-C2-AUSTRALIA">
+<h3>C-2026-06-26-AS-C2-AUSTRALIA</h3>
+<p class="claim-text">Australia was the regional exception. On a Yahoo cash-market basis, the ASX 200 closed at 8,764.20, up 15.50 points / +0.18% from a previous close of 8,748.70. Trading Economics separately reported that the ASX 200 edged up 16 points / 0.2% to close at 8,764, and its CFD table showed 8,765.80 / +0.20% from 8,748.65. The positive Australian move was supported by miners, with BHP +0.8%, Rio Tinto +2.2%, and Northern Star and Evolution Mining each up about 3%, while CSL fell 2.36%. The ASX still fell 0.7% for the week.</p>
+<p class="meta">section: asia | type: market_metric | metric: session_close_and_leaders | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://finance.yahoo.com/quote/%5EAXJO/history/">S-2026-06-26-209</a> <span class="source-support">direct</span>: Yahoo Finance - S&amp;P/ASX 200 (^AXJO) Historical Data - Yahoo Finance - published 2026-06-26 - accessed 2026-06-27T00:14:00Z - tier data_aggregator</li>
+<li><a href="https://finance.yahoo.com/quote/%5EAXJO/">S-2026-06-26-210</a> <span class="source-support">direct</span>: Yahoo Finance - S&amp;P/ASX 200 (^AXJO) Charts, Data &amp; News - Yahoo Finance - published 2026-06-26 - accessed 2026-06-27T00:15:00Z - tier data_aggregator</li>
+<li><a href="https://tradingeconomics.com/australia/stock-market">S-2026-06-26-206</a> <span class="source-support">direct</span>: Trading Economics - Australia Stock Market Index - Quote, Chart, Historical Data, News - published 2026-06-26 - accessed 2026-06-27T00:13:00Z - tier data_aggregator</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-AS-C2-YEN-FX-MACRO">
+<h3>C-2026-06-26-AS-C2-YEN-FX-MACRO</h3>
+<p class="claim-text">Reuters reported the yen near its weakest level in 40 years at 161.76 per dollar, while the dollar index eased 0.16% to 101.35 and the euro rose 0.14% to $1.1385. US Treasury yields fell, with the 10-year at 4.38% and the 2-year at 4.096%. Tokyo core CPI accelerated to 1.6% year over year from 1.3%, and XTB reported core-core CPI rising to 1.9% from 1.6%, reinforcing expectations that the Bank of Japan could continue raising interest rates.</p>
+<p class="meta">section: asia | type: market_metric | metric: fx_level_and_macro_backdrop | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/">S-2026-06-26-202</a> <span class="source-support">direct</span>: Reuters - World stocks edge lower as tech selloff drags markets - published 2026-06-26 - accessed 2026-06-27T00:12:00Z - tier major_newswire</li>
+<li><a href="https://tradingeconomics.com/japan/stock-market">S-2026-06-26-203</a> <span class="source-support">context</span>: Trading Economics - Japan Stock Market Index (JP225) - Quote, Chart, Historical Data, News - published 2026-06-26 - accessed 2026-06-27T00:13:00Z - tier data_aggregator</li>
+<li><a href="https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-asia-extends-wall-street-selloff-on-expensive-hardware-26-06-2026">S-2026-06-26-208</a> <span class="source-support">context</span>: XTB - Morning Wrap: Asia extends Wall Street selloff on expensive hardware (26.06.2026) - published 2026-06-26T06:52:00Z - accessed 2026-06-27T00:16:00Z - tier secondary_analysis</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-AS-C2-CROSS-ASSET">
+<h3>C-2026-06-26-AS-C2-CROSS-ASSET</h3>
+<p class="claim-text">The cross-asset backdrop was mixed. Reuters reported Brent crude futures down 4.34% to settle at about $72 per barrel as more tankers left the Strait of Hormuz and Saudi Aramco resumed oil loading at Ras Tanura, even though a cargo vessel was hit near Oman. Spot gold rose 1.06% to $4,068.72 per ounce. Lower oil was not enough to prevent heavy selling in Japan and Korea, but stronger gold and copper helped explain Australia&#x27;s relative outperformance through miners such as BHP, Rio Tinto, Northern Star, and Evolution Mining.</p>
+<p class="meta">section: asia | type: market_metric | metric: cross_asset_context | confidence: medium | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/">S-2026-06-26-202</a> <span class="source-support">direct</span>: Reuters - World stocks edge lower as tech selloff drags markets - published 2026-06-26 - accessed 2026-06-27T00:12:00Z - tier major_newswire</li>
+<li><a href="https://tradingeconomics.com/australia/stock-market">S-2026-06-26-206</a> <span class="source-support">context</span>: Trading Economics - Australia Stock Market Index - Quote, Chart, Historical Data, News - published 2026-06-26 - accessed 2026-06-27T00:13:00Z - tier data_aggregator</li>
+<li><a href="https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-asia-extends-wall-street-selloff-on-expensive-hardware-26-06-2026">S-2026-06-26-208</a> <span class="source-support">context</span>: XTB - Morning Wrap: Asia extends Wall Street selloff on expensive hardware (26.06.2026) - published 2026-06-26T06:52:00Z - accessed 2026-06-27T00:16:00Z - tier secondary_analysis</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-MACRO-C2-PCE-INFLATION">
+<h3>C-2026-06-26-MACRO-C2-PCE-INFLATION</h3>
+<p class="claim-text">BEA reported that the May 2026 PCE price index rose 0.4% month over month and 4.1% from a year earlier, while core PCE rose 0.3% month over month and 3.4% year over year. CNBC described the headline annual rate as the highest since April 2023 and core as the highest since October 2023.</p>
+<p class="meta">section: macro | type: macro_data | metric: pce_price_index | confidence: high | as of: 2026-05 (released 2026-06-25 08:30 EDT)</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026">S-2026-06-26-601</a> <span class="source-support">direct</span>: U.S. Bureau of Economic Analysis - Personal Income and Outlays, May 2026 - published 2026-06-25T08:30:00-04:00 - accessed 2026-06-26T23:43:43Z - tier official_statistical_agency</li>
+<li><a href="https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html">S-2026-06-26-603</a> <span class="source-support">context</span>: CNBC - Minneapolis Fed President Neel Kashkari says he expects a rate hike this year - published 2026-06-26 - accessed 2026-06-26T23:43:51Z - tier major_financial_news</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-MACRO-C2-INCOME-SPENDING">
+<h3>C-2026-06-26-MACRO-C2-INCOME-SPENDING</h3>
+<p class="claim-text">BEA&#x27;s May 2026 release showed personal income up $181.6B / 0.7%, disposable personal income up $164.9B / 0.7%, current-dollar PCE up $156.1B / 0.7%, and real PCE up $43.8B / 0.3%. The release also reported personal outlays up $159.9B, personal saving at $704.2B, and a 3.0% saving rate.</p>
+<p class="meta">section: macro | type: macro_data | metric: personal_income_pce_real_pce_saving | confidence: high | as of: 2026-05 (released 2026-06-25 08:30 EDT)</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026">S-2026-06-26-601</a> <span class="source-support">direct</span>: U.S. Bureau of Economic Analysis - Personal Income and Outlays, May 2026 - published 2026-06-25T08:30:00-04:00 - accessed 2026-06-26T23:43:43Z - tier official_statistical_agency</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-MACRO-C2-FED-POLICY-RISK">
+<h3>C-2026-06-26-MACRO-C2-FED-POLICY-RISK</h3>
+<p class="claim-text">CNBC reported that Minneapolis Fed President Neel Kashkari changed his outlook from one rate cut by year-end to one rate hike by year-end. Kashkari cited supply dynamics including tariffs, fertilizer disruption, energy and oil prices around the Strait of Hormuz, and massive data-center investment, while saying the outlook remained data dependent.</p>
+<p class="meta">section: macro | type: macro_policy | metric: rate_outlook_shift | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html">S-2026-06-26-603</a> <span class="source-support">direct</span>: CNBC - Minneapolis Fed President Neel Kashkari says he expects a rate hike this year - published 2026-06-26 - accessed 2026-06-26T23:43:51Z - tier major_financial_news</li>
+<li><a href="https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026">S-2026-06-26-601</a> <span class="source-support">context</span>: U.S. Bureau of Economic Analysis - Personal Income and Outlays, May 2026 - published 2026-06-25T08:30:00-04:00 - accessed 2026-06-26T23:43:43Z - tier official_statistical_agency</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-MACRO-C2-TREASURY-CURVE">
+<h3>C-2026-06-26-MACRO-C2-TREASURY-CURVE</h3>
+<p class="claim-text">The official U.S. Treasury par curve for 06/26/2026 showed the 2-year at 4.07%, 5-year at 4.12%, 10-year at 4.38%, 20-year at 4.87%, and 30-year at 4.87%. Versus 06/25/2026, the 2-year fell 2 bp, the 5-year fell 3 bp, the 10-year fell 2 bp, the 20-year was unchanged, and the 30-year rose 1 bp; 2s10s stayed at +31 bp. Reuters separately reported the benchmark 10-year yield down 1.16 bp to 4.38% and the 2-year yield down 2.48 bp to 4.096%.</p>
+<p class="meta">section: macro | type: market_metric | metric: treasury_yields | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202606?type=daily_treasury_yield_curve&amp;field_tdr_date_value_month=202606&amp;page&amp;_format=csv">S-2026-06-26-602</a> <span class="source-support">direct</span>: U.S. Department of the Treasury - Daily Treasury Par Yield Curve Rates, June 2026 (CSV) - published 2026-06-26 - accessed 2026-06-26T23:43:51Z - tier official_primary_data</li>
+<li><a href="https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/">S-2026-06-26-604</a> <span class="source-support">context</span>: Reuters - World stocks edge lower as tech selloff drags markets - published 2026-06-26 - accessed 2026-06-26T23:43:51Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-MACRO-C2-OIL-FX-GOLD">
+<h3>C-2026-06-26-MACRO-C2-OIL-FX-GOLD</h3>
+<p class="claim-text">Reuters reported Brent crude futures down 4.34% to settle at $72/bbl as Hormuz supply concerns eased, USD/JPY near 161.76 and close to 40-year yen lows, the dollar index down 0.16% to 101.35 but headed for a second weekly gain, EUR/USD up 0.14% to $1.1385, and spot gold up 1.06% to $4,068.72/oz.</p>
+<p class="meta">section: macro | type: market_metric | metric: global_macro_market_levels | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/">S-2026-06-26-604</a> <span class="source-support">direct</span>: Reuters - World stocks edge lower as tech selloff drags markets - published 2026-06-26 - accessed 2026-06-26T23:43:51Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-MACRO-C2-CONSUMER-SENTIMENT">
+<h3>C-2026-06-26-MACRO-C2-CONSUMER-SENTIMENT</h3>
+<p class="claim-text">The University of Michigan final June survey showed sentiment rising to 49.5 from 44.8 in May, up 10.5% month over month but still down 18.5% from June 2025. Current conditions were 47.7 and expectations were 50.7. Year-ahead inflation expectations edged down to 4.6% from 4.8%, and long-run expectations fell to 3.3% from 3.9%.</p>
+<p class="meta">section: macro | type: macro_data | metric: consumer_sentiment_and_inflation_expectations | confidence: high | as of: 2026-06</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.sca.isr.umich.edu/">S-2026-06-26-605</a> <span class="source-support">direct</span>: University of Michigan Surveys of Consumers - Final Results for June 2026 - published 2026-06-26 - accessed 2026-06-26T23:43:59Z - tier official_survey_release</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-MACRO-C2-GLOBAL-RISK-TONE">
+<h3>C-2026-06-26-MACRO-C2-GLOBAL-RISK-TONE</h3>
+<p class="claim-text">Reuters reported MSCI&#x27;s world-stock gauge down 0.53% and set for a 2% weekly loss, European shares down nearly 0.7% with technology down 1.17%, MSCI Asia ex-Japan down nearly 3%, South Korea&#x27;s KOSPI down as much as 5.8%, and chip stocks down 5.3% on the day and set for a 7.7% weekly loss. The Dow fell 0.09%, the S&amp;P 500 lost 0.05%, and the Nasdaq Composite fell 0.24%, with the S&amp;P 500 and Nasdaq notching weekly losses.</p>
+<p class="meta">section: macro | type: market_metric | metric: global_risk_tone | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.reuters.com/world/china/global-markets-global-markets-2026-06-26/">S-2026-06-26-604</a> <span class="source-support">direct</span>: Reuters - World stocks edge lower as tech selloff drags markets - published 2026-06-26 - accessed 2026-06-26T23:43:51Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-SENTIMENT-C1-SESSION-BASIS">
+<h3>C-2026-06-26-SENTIMENT-C1-SESSION-BASIS</h3>
+<p class="claim-text">Friday, June 26, 2026 was a regular US market session for the cash-equity and options analysis basis used here. AP published final Friday closes for the S&amp;P 500, Dow, Nasdaq Composite, and Russell 2000, and reported weekly performance through the close. Cboe options settled normally. The session capped a volatile week in which AI-linked stocks dragged the Nasdaq to its fifth straight decline even as the broader market showed better internal breadth.</p>
+<p class="meta">section: sentiment | type: market_calendar | metric: market_status | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a">S-2026-06-26-701</a> <span class="source-support">direct</span>: Associated Press via KVUE - How major US stock indexes fared Friday 6/26/2026 - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier major_newswire</li>
+<li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-702</a> <span class="source-support">direct</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-SENTIMENT-C1-US-CLOSE">
+<h3>C-2026-06-26-SENTIMENT-C1-US-CLOSE</h3>
+<p class="claim-text">AP reported a mixed June 26 U.S. close: the S&amp;P 500 slipped 3.47 points, or less than 0.1%, to 7,354.02; the Dow fell 44.51 points, or 0.1%, to 51,876.11; the Nasdaq Composite lost 60.99 points, or 0.2%, to 25,297.62 (its fifth straight decline); and the Russell 2000 rose 2.23 points, or 0.1%, to 3,010.08. For the week, the S&amp;P 500 fell 2.0%, the Nasdaq fell 4.6%, the Dow rose 0.6%, and the Russell 2000 gained 1.0%. Despite the cap-weighted decline, AP reported that nearly two out of every three S&amp;P 500 stocks rose, showing that the losses were concentrated in large AI-linked names rather than spreading broadly.</p>
+<p class="meta">section: sentiment | type: market_metric | metric: cash_equity_close | confidence: high | as of: 2026-06-26T16:00:00-04:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-friday-6262026/616-fca669dc-9332-449d-8a81-835e9dc79c3a">S-2026-06-26-701</a> <span class="source-support">direct</span>: Associated Press via KVUE - How major US stock indexes fared Friday 6/26/2026 - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier major_newswire</li>
+<li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-702</a> <span class="source-support">direct</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier major_newswire</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-SENTIMENT-C1-FEAR-GREED">
+<h3>C-2026-06-26-SENTIMENT-C1-FEAR-GREED</h3>
+<p class="claim-text">The Fear &amp; Greed Index deepened in fear territory on June 26. CNN&#x27;s page displayed 25 (fear) with the headline text &#x27;extreme fear is driving the US market&#x27;, &#x27;Previous close 25&#x27;, &#x27;1 week ago 37&#x27;, &#x27;1 month ago 60&#x27;, &#x27;1 year ago 63&#x27;, and &#x27;Last updated Jun 26 at 5:23:14 PM ET&#x27;. Finhacker.cz&#x27;s CNN-tracker showed 26 (fear) with a data-updated timestamp of &#x27;Jun 24, 2026, 8:00 PM ET&#x27;. The composite slipped one point from June 25&#x27;s 26 to June 26&#x27;s 25 on CNN, and is down 12 points from one month ago. Four of the five visible CNN sub-indicators were labeled fear or extreme fear at the time of access: market momentum (fear), stock price strength (fear, NYSE net new 52-week highs/lows 1.47%), stock price breadth (extreme fear, McClellan Volume Summation Index at 1,408.51), and put/call options (extreme fear, 5-day average 0.69). Only market volatility was neutral (VIX below its 50-day moving average). The deepening of the put/call sub-indicator from &#x27;fear&#x27; on June 25 to &#x27;extreme fear&#x27; on June 26 is the notable day-over-day shift, consistent with the fifth consecutive Nasdaq decline and the persistent AI-stock overhang.</p>
+<p class="meta">section: sentiment | type: market_metric | metric: fear_greed_score | confidence: medium | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.cnn.com/markets/fear-and-greed">S-2026-06-26-704</a> <span class="source-support">direct</span>: CNN Business - Fear and Greed Index - Investor Sentiment - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier primary_composite_sentiment_index</li>
+<li><a href="https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/">S-2026-06-26-705</a> <span class="source-support">context</span>: Finhacker.cz - Fear and Greed Index: Historical Data &amp; Chart (2011-2026) - published 2026-06-24 - accessed 2026-06-26T23:10:00Z - tier third_party_cnn_endpoint_tracker</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-SENTIMENT-C1-VOLATILITY">
+<h3>C-2026-06-26-SENTIMENT-C1-VOLATILITY</h3>
+<p class="claim-text">Yahoo Finance historical data showed VIX closing at 18.41 on June 26, down 0.48 points or 2.54% from 18.89 on June 25, with OHLC of open 19.70, high 20.72, low 18.20, close 18.41. Google Finance, MarketWatch, and WSJ all corroborate the 18.41 close. The intraday pattern is notable: VIX opened higher at 19.70, spiked to 20.72 during the morning AI-stock selloff, then steadily eased through the afternoon as Brent crude fell 3.8% and the 10-year Treasury yield dropped to 4.37%, closing near the session low. The Cboe volatility curve remained in contango and upward sloping: VIX at 18.41 (June 26), VIX9D at 17.92 (June 25 latest), VIX3M at 20.33 (June 25 latest), VIX6M at 22.35 (June 25 latest), and VIX1Y at 23.50 (June 25 latest). The VIX9D-to-VIX gap narrowed to approximately 0.49 points from June 25&#x27;s 0.97-point spread (using latest available VIX9D). The longer tenors all eased slightly on June 25 (VIX3M -0.20%, VIX6M -0.22%, VIX1Y -1.48%), keeping the curve in orderly contango. The sharp spot-vol decline, despite the cap-weighted S&amp;P 500&#x27;s fifth straight decline, reflects the market&#x27;s recognition that the selling remained concentrated in AI-linked mega-caps while breadth was improving and macro tail risks (oil, rates) eased.</p>
+<p class="meta">section: sentiment | type: market_metric | metric: volatility_level_and_curve | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://finance.yahoo.com/quote/%5EVIX/history/">S-2026-06-26-706</a> <span class="source-support">direct</span>: Yahoo Finance - CBOE Volatility Index (^VIX) Historical Data - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier major_financial_data_aggregator</li>
+<li><a href="https://finance.yahoo.com/quote/%5EVIX9D/history/">S-2026-06-26-707</a> <span class="source-support">direct</span>: Yahoo Finance - CBOE S&amp;P 500 9-Day Volatility I (^VIX9D) Historical Data - published 2026-06-25 - accessed 2026-06-26T23:10:00Z - tier major_financial_data_aggregator</li>
+<li><a href="https://finance.yahoo.com/quote/%5EVIX3M/history/">S-2026-06-26-708</a> <span class="source-support">direct</span>: Yahoo Finance - CBOE S&amp;P 500 3-Month Volatility (^VIX3M) Historical Data - published 2026-06-25 - accessed 2026-06-26T23:10:00Z - tier major_financial_data_aggregator</li>
+<li><a href="https://finance.yahoo.com/quote/%5EVIX6M/history/">S-2026-06-26-709</a> <span class="source-support">direct</span>: Yahoo Finance - CBOE S&amp;P 500 6-Month Volatility (^VIX6M) Historical Data - published 2026-06-25 - accessed 2026-06-26T23:10:00Z - tier major_financial_data_aggregator</li>
+<li><a href="https://finance.yahoo.com/quote/%5EVIX1Y/history/">S-2026-06-26-710</a> <span class="source-support">direct</span>: Yahoo Finance - Cboe S&amp;P 500 One Year Volatility (^VIX1Y) Historical Data - published 2026-06-25 - accessed 2026-06-26T23:10:00Z - tier major_financial_data_aggregator</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-SENTIMENT-C1-PUT-CALL">
+<h3>C-2026-06-26-SENTIMENT-C1-PUT-CALL</h3>
+<p class="claim-text">Cboe end-of-day options statistics for June 26 showed a two-tier put/call pattern. The total put/call ratio was 0.99, with equity put/call at 0.67, index put/call at 1.18, exchange-traded products put/call at 1.14, VIX put/call at 0.57, and SPX+SPXW put/call at 1.23. Total options volume was 13,853,230 contracts (call 6,968,999 / put 6,884,231). Compared to June 25 (total 1.02, equity 0.61, index 1.16, ETP 1.38, SPX 1.31), the total ratio dropped below 1.0 for the first time since June 12, the ETP ratio fell sharply from 1.38 to 1.14, and the SPX ratio eased from 1.31 to 1.23. The pattern - bullish single-stock options flow (equity P/C 0.67, well below 1.0) alongside persistent defensive index hedging (index P/C 1.18, SPX P/C 1.23) - confirms that institutions continue buying tail protection via index products while retail positioning remains bullish on individual names. The CNN Fear &amp; Greed 5-day average put/call ratio of 0.69 (extreme fear zone) is a different construction from the Cboe end-of-day ratios but points in the same direction: options-market sentiment is cautious overall, with the defensive bid concentrated in index products.</p>
+<p class="meta">section: sentiment | type: market_metric | metric: put_call_ratios | confidence: high | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.cboe.com/markets/us/options/market-statistics/daily">S-2026-06-26-712</a> <span class="source-support">direct</span>: Cboe Global Markets - Cboe Daily Market Statistics (U.S. Options) - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier exchange_primary_statistics</li>
+<li><a href="https://www.cnn.com/markets/fear-and-greed">S-2026-06-26-704</a> <span class="source-support">context</span>: CNN Business - Fear and Greed Index - Investor Sentiment - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier primary_composite_sentiment_index</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-SENTIMENT-C1-AAII">
+<h3>C-2026-06-26-SENTIMENT-C1-AAII</h3>
+<p class="claim-text">The latest AAII sentiment survey (week ending 6/24/2026, published Thursday June 25) remains the most recent retail-investor sentiment gauge available for the June 26 report. Bullish sentiment was 44.9%, neutral 18.9%, and bearish 36.1%, leaving a bull-bear spread of +8.8 percentage points - the first above-historical-average reading in six weeks. The swing from the prior week&#x27;s -2.8 pp spread was an 11.6-percentage-point one-week jump. However, the survey period closed before the June 26 cash-session action, so the bullish print does not reflect the Nasdaq&#x27;s fifth straight decline or the further deepening of the Fear &amp; Greed Index to 25. The AAII survey captured the improvement in mood driven by the Iran de-escalation, the Micron-guidance-led chip rally, and the in-line May PCE release, none of which fully offset the late-week AI-stock pressure in the composite sentiment indices.</p>
+<p class="meta">section: sentiment | type: market_metric | metric: bull_bear_spread | confidence: high | as of: 2026-06-25</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.aaii.com/sentimentsurvey">S-2026-06-26-711</a> <span class="source-support">direct</span>: American Association of Individual Investors - AAII Investor Sentiment Survey (week ending 6/24/2026, published 2026-06-25) - published 2026-06-25 - accessed 2026-06-26T23:10:00Z - tier primary_survey_publisher</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-SENTIMENT-C1-FLOWS">
+<h3>C-2026-06-26-SENTIMENT-C1-FLOWS</h3>
+<p class="claim-text">The latest available fund-flow data provides positioning context heading into the June 26 session rather than a real-time flow gauge. ICI&#x27;s combined-flow release (published June 24 for the week ended June 17) showed $66.23 billion of total long-term inflows, including $92.03 billion of ETF net issuance and $25.80 billion of mutual fund outflows. Equity funds took in $55.75 billion (domestic $49.60B, world $6.15B), bond funds took in $16.46 billion. ETF.com&#x27;s June 22 weekly article reported $119.83 billion of total ETF inflows led by $83.62 billion into U.S. equity ETFs, with IVV (+$30.40B), SPYM (+$12.87B), XLK (+$8.33B), and SMH (+$7.44B) the top creations and SPY (-$29.62B) and VOO (-$14.42B) the top redemptions. Both data releases predate the June 23-26 AI-stock selloff, so they capture the post-SpaceX-IPO risk appetite but not the late-week de-risking. The SPY/VOO redemptions alongside IVV/SPYM creations suggest structural rotation (share-class creation flow) rather than outright equity abandonment.</p>
+<p class="meta">section: sentiment | type: market_metric | metric: fund_flows | confidence: high | as of: 2026-06-24T00:00:00Z</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.ici.org/research/stats/combined_flows">S-2026-06-26-713</a> <span class="source-support">direct</span>: Investment Company Institute - Combined Estimated Long-Term Fund Flows and ETF Net Issuance (week ended 2026-06-17, published 2026-06-24) - published 2026-06-24 - accessed 2026-06-26T23:10:00Z - tier industry_association_primary_release</li>
+<li><a href="https://www.etf.com/sections/weekly-etf-flows/post-spacex-ipo-investors-pour-83b-us-equities">S-2026-06-26-714</a> <span class="source-support">direct</span>: ETF.com - Post-SpaceX IPO, Investors Pour $83B Into U.S. Equities (weekly flows published 2026-06-22) - published 2026-06-22 - accessed 2026-06-26T23:10:00Z - tier specialist_etf_flow_publisher</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-SENTIMENT-C1-MACRO-BACKDROP">
+<h3>C-2026-06-26-SENTIMENT-C1-MACRO-BACKDROP</h3>
+<p class="claim-text">AP reported Brent crude down 3.8% to $72.60, below where it stood before the US and Israel attacked Iran, and the 10-year Treasury yield eased to 4.37% from 4.40% late Thursday. AP also cited a decline in one-year US consumer inflation expectations to 4.6% from 4.8% in May. The macro relief from falling oil and yields did not remove Fed risk: CNBC reported that Minneapolis Fed President Neel Kashkari changed his outlook from one rate cut by year-end to one rate hike by year-end, citing Middle East supply risk, tariffs, energy and fertilizer disruptions, and data-center investment pressure. CNBC also reported May headline PCE inflation at 4.1% (highest since April 2023) and core PCE at 3.4%. The cross-asset price action - Brent down sharply, yields easing, consumer inflation expectations easing - is consistent with a late-week relief bid in risk assets, but the Fed backdrop remains hawkish and inflation is still above 4%, capping the upside for sentiment.</p>
+<p class="meta">section: sentiment | type: market_metric | metric: cross_asset_levels | confidence: high | as of: 2026-06-26T16:00:00-04:00</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-702</a> <span class="source-support">direct</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier major_newswire</li>
+<li><a href="https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html">S-2026-06-26-703</a> <span class="source-support">direct</span>: CNBC - Minneapolis Fed President Neel Kashkari says he expects a rate hike this year - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier major_financial_news</li></ul>
+</article>
+<article class="claim-card" id="claim-C-2026-06-26-SENTIMENT-C1-SYNTHESIS">
+<h3>C-2026-06-26-SENTIMENT-C1-SYNTHESIS</h3>
+<p class="claim-text">The best synthesis for June 26 is &#x27;spot vol easing while composite fear deepens - a bifurcated sentiment regime.&#x27; VIX dropped 2.54% to 18.41, with the intraday range (18.20-20.72) showing that the opening AI-stock panic was priced out through the afternoon as Brent crude fell 3.8% and the 10-year yield eased to 4.37%. The Cboe total put/call ratio dropped below 1.0 for the first time since June 12, and the ETP and SPX put/call ratios both eased from June 25 levels. But the Fear &amp; Greed Index slipped further to 25 (fear), the put/call sub-indicator deepened from &#x27;fear&#x27; to &#x27;extreme fear&#x27; (5-day average 0.69), and stock price breadth remained in &#x27;extreme fear&#x27; territory (McClellan Volume Summation Index at 1,408.51). The divergence between declining spot volatility and deepening composite fear is the defining signal of this cycle: the market is pricing out near-term event risk (oil easing, yields easing, VIX falling), but the cumulative damage to market breadth and options positioning from the Nasdaq&#x27;s five-session decline keeps the composite sentiment index in the fear zone. The AAII survey&#x27;s 44.9% bullish print is now two days stale and captures the Iran-de-escalation and chip-rally optimism rather than the Friday action. The regime is not a clean risk-on (composite sentiment is at 25, Fed is hawkish, inflation is above 4%) and not the June 23 panic (VIX fell, oil fell, breadth was positive at the stock level). It is a late-week relief bid layered over a structurally cautious positioning environment, with the institutional tail-hedge bid in index options persisting even as single-stock options flow stays bullish.</p>
+<p class="meta">section: sentiment | type: market_driver | metric: sentiment_regime | confidence: medium | as of: 2026-06-26</p>
+<h4>Sources</h4>
+<ul class="source-list"><li><a href="https://www.fox23.com/news/most-of-wall-street-rises-but-sinking-ai-stocks-send-it-lower-for-the-week/article_a913143d-d16e-5fb1-97a9-4203dd80df03.html">S-2026-06-26-702</a> <span class="source-support">inference_base</span>: Associated Press via FOX23 - Most of Wall Street rises, but sinking AI stocks send it lower for the week - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier major_newswire</li>
+<li><a href="https://www.cnn.com/markets/fear-and-greed">S-2026-06-26-704</a> <span class="source-support">inference_base</span>: CNN Business - Fear and Greed Index - Investor Sentiment - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier primary_composite_sentiment_index</li>
+<li><a href="https://finance.yahoo.com/quote/%5EVIX/history/">S-2026-06-26-706</a> <span class="source-support">inference_base</span>: Yahoo Finance - CBOE Volatility Index (^VIX) Historical Data - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier major_financial_data_aggregator</li>
+<li><a href="https://www.aaii.com/sentimentsurvey">S-2026-06-26-711</a> <span class="source-support">inference_base</span>: American Association of Individual Investors - AAII Investor Sentiment Survey (week ending 6/24/2026, published 2026-06-25) - published 2026-06-25 - accessed 2026-06-26T23:10:00Z - tier primary_survey_publisher</li>
+<li><a href="https://www.cboe.com/markets/us/options/market-statistics/daily">S-2026-06-26-712</a> <span class="source-support">inference_base</span>: Cboe Global Markets - Cboe Daily Market Statistics (U.S. Options) - published 2026-06-26 - accessed 2026-06-26T23:10:00Z - tier exchange_primary_statistics</li></ul>
+</article>
+</section>
+</main>
+</body>
+</html>
