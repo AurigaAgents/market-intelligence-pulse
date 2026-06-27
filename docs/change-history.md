@@ -22,8 +22,8 @@ Entries may be amended within the same pull request after review completes.
 
 ### Reviewer Verdict Error-Proof Gate
 
-- Implementation reference: reviewer verdict adapter hardening branch
-  `fix/reviewer-verdict-errors-proof`.
+- Implementation reference: PR #272 and reviewer verdict adapter hardening
+  branch `fix/reviewer-verdict-errors-proof`.
 - Documents changed: `docs/review-approval-adapter.md` and this file.
 - Adapter changed:
   `.github/workflows/market-pulse-reviewer-approval.yml`.
@@ -32,9 +32,12 @@ Entries may be amended within the same pull request after review completes.
   negative-only: explicit non-empty `errors: [...]` blocks approval, while
   `errors: []`, `errors=0`, or absent positive error-list proof do not block a
   reviewer-attested clean validation run.
-- Reviewers: pending.
-- Verdict: pending.
-- Follow-up: none.
+- Reviewers: Inanna via Trinity Bus review
+  `20260627-091917-dione-to-inanna-35036f6e`.
+- Verdict: approve.
+- Follow-up: align the workflow adapter with the local Python helper for
+  multi-line pretty-printed `errors:` lists. The current canonical validator
+  output is single-line, so this is not blocking for PR #272.
 
 ## 2026-06-18
 
